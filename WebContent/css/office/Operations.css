@@ -1,0 +1,330 @@
+@CHARSET "UTF-8";
+/* 第一部分 */
+.operOne{
+	width: 100%;
+	height: 478px;
+	background: url(../../images/Operations/operBg1.jpg) no-repeat;
+	background-position: center center; 
+	background-size:cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/Operations/operBg1.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/Operations/operBg1.jpg',
+    sizingMethod='scale');
+}
+/* 第二部分 导航条 */
+
+.operTwo{
+	width: 100%;
+	height: 80px;
+	background-color: #2888e2;
+}
+
+.operTwo .twoItem,.fixBar .twoItem {
+	width: 233px;
+	height: 78px;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.operTwo .container ul li a,.fixBar .container ul li a{
+	display: block;
+	color: #fff;
+}
+
+
+.fixBar{
+	position: fixed;
+	top: 77px;
+	left: 0px;
+	z-index: 848;
+	height:40px;
+	line-height:40px;
+	display:none;
+}
+
+.operTwo .twoItemCur,.fixBar .twoItemCur {
+	width: 233px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+}
+.current{
+	background-color: #6699ff;
+}
+
+/* 第三部分 */
+.operThr{
+	width:100%;
+	background-color: #ddf0f7;
+}
+.thrWarp{
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #c8e1e7;
+	padding-bottom: 20px
+}
+
+/* 解决方案 */
+.thrBoxOne
+{
+  	border-bottom: 3px solid #ddf0f7;
+}
+.thrBoxOne .boxOne{
+	color:#1e9765;
+	font-size:32px;
+	width: 544px;
+	margin: 0 auto;
+	/* background-size: contain; */
+	padding:50px 0px;
+	background:url(../../images/Operations/title.png) no-repeat right center; 
+}
+.boxTwo{
+	overflow: hidden;
+	width: 804px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.boxTwo .enterprise{
+	width: 300px; 
+	height:460px; 
+	float:left; 
+	border:4px solid #1e9765;
+	border-top:none;
+	border-radius:8px;
+}
+.boxTwo .boxTitle{
+	height: 40px
+}
+.boxTitle .df{
+	margin-left: 14px;
+}
+.boxTitle .border1{
+	width: 45px;
+	height: 4px;
+	background-color: #1e9765;
+	float: left;
+	border-radius:300px 0px 0px 20px; 
+}
+.boxTitle img{
+	margin-top: -30px;
+	padding: 10px;
+	float: left
+}
+.boxTitle p{
+	float: left;
+	background-color: #1e9765;
+	padding: 6px 10px;
+	color: #fff;
+	font-size: 18px;
+	margin-top: -10px
+}
+.boxTitle .border2{
+	width: 45px;
+	height: 4px;
+	background-color: #1e9765;
+	float: right;
+	border-radius:0px 300px 20px 0px; 
+}
+.enterprise .boxCon,.duofriend .boxCon{
+	width: 260px;
+	margin: 0 auto;
+	height: 100%;
+}
+.boxCon .itemTitle{
+	width:60px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	color: #fff;
+	font-size:18px;
+	background-color: #1e9765;
+	padding: 5px 10px;
+}
+.boxCon .itemText{
+	font-size: 14px;
+    line-height: 24px;
+    padding: 5px 0px
+}
+.boxTwo .duofriend{
+	width: 300px; 
+	height:460px; 
+	float:right; 
+	border:4px solid #1e9765;
+	border-top:none;
+	border-radius:8px;
+}
+
+.boxThr{
+	width:100%;
+	height:125px;
+	background:url(../../images/Operations/thrBg.png) no-repeat;
+	padding-bottom: 20px;
+
+}
+.warp{
+	width: 900px;
+	margin: 0 auto;
+	color: #fff;
+	
+}
+.warp h2{
+	font-size: 24px;
+	padding: 5px 10px;
+}
+.warp p{
+	font-size: 18px;
+	padding: 5px 10px;
+}
+/* 微信代运营 */
+.operHead {
+	height:422px;
+	background:url(../../images/Operations/gem.png) no-repeat center center;
+}
+.thrBoxTwo{
+	padding-top: 50px;
+	border-bottom: 3px solid #ddf0f7;
+	
+}
+.operHead img{
+	display: block;
+	margin: 0 auto;
+}
+.operHead .operTit{
+	padding-top: 150px;
+}
+.operHead .line{
+     padding: 15px 0px
+}
+.operHead h2{
+	text-align: center;
+	font-size: 32px;
+	color: #1e9764;
+	padding-top: 40px;
+}
+.operCon{
+	overflow: hidden;
+	width: 900px;
+	height:400px;
+	margin: 0 auto;
+	position: relative;
+}
+.operCon .listItem{
+	float: left;
+	width: 150px;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px
+}
+.listItem .headText{
+	line-height: 2;
+}
+.operCon .listItem .listText{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.listItem .listImg{
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.operCon .listItem1{
+	height: 300px;
+	background-color: #7dbc2a;
+}
+.listItem1 .listImg{
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.operCon .listItem2{
+	height: 350px;
+	background-color: #f4616c;
+	left: 150px
+}
+.listItem2 .listImg{
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.operCon .listItem3{
+	height: 300px;
+	background-color: #383433;
+	left: 300px
+}
+.operCon .listItem4{
+	height: 350px;
+	background-color: #959a92;
+	left: 450px
+}
+.operCon .listItem5{
+	height: 300px;
+	background-color: #34dded;
+	left: 600px;
+}
+.listItem5 .listImg{
+	width: 45px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.operCon .listItem6{
+	height: 350px;
+	background-color: #104e5d;
+	left: 750px;
+}
+
+/* 客户案例 */
+.caseHead{
+	width: 900px;
+	margin: 0 auto
+}
+.caseHead img{
+	display: block;
+}
+.caseHead .caseTit{
+	margin-top: 30px;
+}
+.caseHead  .caseEng{
+	padding-left: 45px;
+}
+.hotel,.wedding{
+	width: 900px;
+	margin: 0 auto;
+}
+.hotel .hotelTit,.wedding .wedTit{
+	color: #fff;
+	background-color: #1e9765;
+	font-size: 16px;
+	width: 50px;
+	text-align: center;
+	margin: 20px 0px 3px 0px;
+	padding: 2px 6px;
+}
+.hotelCon,.wedCon{
+	overflow: hidden;
+}
+.hotelCon .hotelImg,.wedCon .wedImg{
+	float: left;
+}
+.hotelCon .hotelText,.wedCon .wedText{
+	display: inline-block;
+	width: 568px;
+	text-indent: 2em;
+	line-height: 1.5;
+	padding: 108px 10px;
+	font-size: 14px;
+}

@@ -1,0 +1,249 @@
+/* 浏览器升级提示 */
+#upgrade{width:100%;height:38px;line-height:38px;border-bottom:1px solid #f9f2a7;border-top:1px solid #f9f2a7;position: absolute;top: 78px;z-index: 99999;background-color: #fefded;display:none}
+#upgrade a{color:#f48c12;text-decoration:none;margin-left: 10px;font-size: 14px;}
+#upgrade i{display:inline-block;width:16px;height:16px;background:url(../../../../images/closeUpgrade.jpg) no-repeat center center;float: right;margin: 10px;cursor: pointer;}
+/* 第一部分背景图 */
+.staffOne{
+	background-image: url(../../images/staff/staffBg.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   /* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/staff/staffBg.jpg',
+    sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/staff/staffBg.jpg',
+    sizingMethod='scale')";
+    }
+    
+ /* 内容部分开始 */
+ .staffTwo{
+    height: 385px;
+ }
+.staffTwo .warp{
+    width: 858px;
+    margin: 0 auto;
+    overflow: hidden;
+ }
+ .inquire{
+    width: 427px;
+    float: left
+ }
+.inquire .inqTit{
+    color: #3f82b0;
+    font-size: 20px;
+    line-height: 3;
+    padding-left:22px;
+    padding-top:25px;
+    border-bottom: 1px dashed #ccc;
+ }
+ .inquire .inqCon{
+    width: 100%;
+    height:288px;
+    background: url(../../images/staff/staff2.jpg) no-repeat ;
+    background-position: 0px 10px;
+ }
+ .inquire .inqCon .inqWarp{
+    width: 	280px;
+    margin-left: 130px;
+    padding-top: 25px;
+    color: #3791cf;
+    font-size: 15px;
+ }
+.inqWarp input[type="radio"]{
+	width: 20px;
+	height: 18px;
+	box-shadow:none;
+	vertical-align: middle;
+	border:none;
+}
+
+
+/* 左侧表单样式 */
+.numForm{
+	margin-top: 15px;
+}
+.numForm p{
+	height: 40px;
+}
+.numForm .selectl{
+	display: inline-block;
+	width: 64px;
+	text-align: right;
+}
+.numForm input[type="text"]{
+	height: 22px;
+	box-shadow:none;
+	border:1px solid #3f82b0;
+	padding: 0;
+	vertical-align: middle;
+}
+.numForm .numText{
+	width: 130px;
+}
+.numForm .codeText{
+	width: 60px;
+}
+
+.operate input[type="button"]{
+	width: 55px;
+	height: 23px;
+	color:#fff;
+	line-height:18px;
+	box-shadow:none;
+	font-size:15px;
+	margin-top:15px;
+	cursor:pointer;
+	background: url(../../images/staff/buttonBg.png) no-repeat center center;
+}
+.ok{
+   margin-left:75px;
+}
+/* 右侧显示数据样式 */
+.inquireShow{
+	width: 356px;
+	height: 366px;
+	background-color: #f5f5f5;
+	border:1px dashed #c6c6c6;
+	float: right;
+	border-radius:5px;
+	margin-top: 6px;
+	margin-right:5px;
+	position:relative;
+}
+.inquireShow .hide{
+	width: 13px;
+	height: 13px;
+	display:inline-block;
+	position:absolute;
+	right:-4px;
+	top:-4px;
+	cursor:pointer;
+	background: url(../../images/staff/hide.png) no-repeat center center;
+}
+.detail .detailMsg{
+	width: 245px;
+	height: 134px;
+	float: left;
+}
+.detailItem{
+	height: 26px;
+	line-height: 26px;
+}
+.msgItem{
+	display: inline-block;
+	width: 5em;
+	padding-left: 10px;
+	font-size: 14px
+}
+.result{
+	font-size: 13px;
+	color: #b3b3b3;
+}
+.msgItem4{
+	letter-spacing: 0.3em;
+	margin-right: -0.3em;
+}
+.msgItem1{
+	letter-spacing: 0.9em;
+	margin-right: -0.2em
+}
+.detailPic{
+	width: 96px;
+	height: 134px;
+	float: left;
+	border:1px dashed #c6c6c6;
+}
+.detailPic img{
+	width: 96px;
+	height: 134px;
+}
+.detail{
+	overflow: hidden;
+	margin-top: 6px;
+}
+
+.channel{
+	height: 20px;
+	line-height: 18px;
+	overflow: hidden;
+}
+.channel .chaMsg{
+	width: 185px;
+	float: left;
+}
+.channel .star{
+	float: left;
+}
+.channel .star .msgItem{
+	width: 3em;
+	margin-left: 0px
+}
+.starShow{
+	margin-left: 7px
+}
+.starShow img{
+	vertical-align: middle;
+	margin-top: -6px;
+}
+.inquireShow hr{
+	width: 340px;
+	margin: 4px auto;
+	height: 0;
+	border: 1px solid #c6c6c6;
+}
+.case,.assess{
+	overflow: hidden;
+	height: 84px
+}
+.case .msgItem,.assess .msgItem{
+	float: left;
+	height: 100%
+}
+.caseShow,.assShow{
+	float: left;
+	font-size: 13px;
+	color: #b3b3b3;
+	width: 266px;
+	    overflow-y: auto;
+    height: 100%;
+}
+.goAssess{
+	display: block;
+	text-align: right;
+	color:#3f82b0
+}
+
+ /* 第三部分开始 */
+ .staffThr{
+    height: 114px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-top:1px solid #bcbcbc;
+ }
+ .staffThr ul{
+    width: 800px;
+    margin: 0 auto;
+    height: 100%;
+ }
+ .staffThr .thrItem{
+    display: inline-block;
+    width: 260px;
+    height: 100%;
+ }
+ .staffThr .thrItem .pic{
+    display: block;
+    margin: 0 auto;
+    padding-top: 12px
+ }
+ .staffThr .thrItem .intro{
+    font-size: 18px;
+    color:#7e888c;
+    text-align: center;
+    line-height: 2.5;
+ }

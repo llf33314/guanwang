@@ -1,0 +1,58 @@
+body{
+	max-width:1920px;
+	margin: 0 auto;
+}
+.expOne{
+	width: 100%;
+	height: 430px;
+	position:relative;
+	background: url(../../images/example/expOneBg.jpg);
+	/*兼容ie8 background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/example/expOneBg.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/example/expOneBg.jpg',
+    sizingMethod='scale');
+}
+.expOne .oneWarp{
+	width:720px;
+	height: 168px;
+	position: absolute;
+	right:0;
+	top:50%;
+	background-color: #2974d4;
+	opacity:0.9;
+	-moz-opacity: 0.9;
+	filter: alpha(opacity = 90);
+	 
+}
+
+.expOne .oneWarp h2{
+	color:#fff;
+	font-size: 2.5em;
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 12px;	
+	
+}
+.expOne .oneWarp p{
+	color:#fff;
+	font-size: 1.4em;
+	padding-left: 30px;
+	line-height: 1.8;
+}
+.expTwo .twoCon{
+	width: 1170px;
+	margin:0 auto;
+	border:2px solid #ededed;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 36px;
+}
+.twoCon .expImg{
+	 display: inline-block;
+	 margin: 14px;
+	 
+}
