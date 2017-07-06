@@ -1,0 +1,138 @@
+.position{height: 77px;width: 100%;z-index: -4;}
+.boxOne{
+	width: 100%;
+	height: 320px;
+	background: url(../../images/aboutCompany/bannerb.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/aboutCompany/bannerb.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/aboutCompany/bannerb.jpg',
+    sizingMethod='scale');
+}
+.boxTwo{
+	width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px 0 150px;
+    font-size: 14px;
+}
+/* 公司简介 */
+.conText{
+	width: 800px;
+    overflow: hidden;
+    padding-left: 35px;
+    float: right;
+}
+
+.boxTitle{
+	padding-bottom: 5px
+}
+.boxTitle h1{
+	font-size: 24px;
+}
+.boxTitle hr{
+	width: 698px; 
+	margin-left: -46px; 
+	background-color: #535353; 
+	border: none;
+	height: 4px;
+	float: left;
+}
+.detTitle{
+	font-size: 20px;
+	padding: 20px 0px 10px;
+	
+}
+.boxDetails p,.detail label{
+	font-size: 14px;
+    line-height: 2;
+    display: block;
+}
+.detail{
+	text-indent: 2em;
+	font-size: 1.6em;
+    line-height: 2;
+}
+
+.comLogo{
+	display: block;
+	margin: 0 auto;
+	padding: 15px 0px
+}
+
+/* 团队成员 */
+.teamImg{
+	padding-top: 20px;
+}
+.teamImg .teamItem{
+	margin-bottom: 25px;
+}
+.teamImg .teamItem img{
+	width: 386px;
+	height: 250px;
+}
+.teamImg .teamItem .rigImg{
+	float: right;
+}
+.teamlastItem .lastImg{
+	width: 800px;
+}
+
+/* 联系我们 */
+.contact .conItem{
+	display: inline-table;
+	width: 395px;
+	margin-bottom: 30px;
+}
+
+/* 左侧导航条 */
+.listBar{
+	 width: 140px;
+	 float: left; 
+	 border: 1px solid #535353;
+	 margin-top: 70px
+} 
+
+.listBar .baritem{
+	height: 48px;
+	line-height:58px;
+	font-size:14px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	cursor: pointer;
+	
+}
+.listBar .baritem a{
+	color: #000
+}
+
+.listBar .baritem:hover{
+	background-color: #1aa1e7;
+	color: #fff;
+}
+
+.listBar .lastitem{
+	border-bottom: none;
+}
+
+.active{
+	background-color: #1aa1e7;
+	color: #fff;
+}
+
+.navtop {
+    position: fixed;
+    top: 50px; 
+    z-index: 10000;
+}
+
+/* 12.21  加公司地址 */
+.lastItem{
+	width: 700px;
+	
+}

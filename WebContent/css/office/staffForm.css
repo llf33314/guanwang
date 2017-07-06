@@ -1,0 +1,163 @@
+/* 浏览器升级提示 */
+#upgrade{width:100%;height:38px;line-height:38px;border-bottom:1px solid #f9f2a7;border-top:1px solid #f9f2a7;position: absolute;top: 78px;z-index: 99999;background-color: #fefded;display:none}
+#upgrade a{color:#f48c12;text-decoration:none;margin-left: 10px;font-size: 14px;}
+#upgrade i{display:inline-block;width:16px;height:16px;background:url(../../../../images/closeUpgrade.jpg) no-repeat center center;float: right;margin: 10px;cursor: pointer;}
+
+.formCon{
+	width: 896px;
+	padding:40px 25px; 
+	margin: 0 auto;
+	background-color: #eeeeee;
+	
+}
+.formCon .formTitle{
+	text-align: center;
+	font-size: 20px;
+	font-family: "黑体";
+}
+.formCon hr{
+	margin: 10px auto;
+	height: 0px;
+	border: 1px solid #0d3357; 
+}
+.abstract{
+	padding: 40px 0px;
+}
+.absTitle{
+	font-size: 14px;
+	line-height: 1.5
+}
+.absContent{
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 1.5
+}
+
+/* 被评价员工资料 */
+.data{
+	overflow: hidden;
+	font-size: 14px;
+	padding: 15px 0px
+}
+.dataTitle{
+	line-height: 2
+}
+.dataList{
+	overflow: hidden;
+	float: left;
+	width: 510px;
+	font-size: 14px;
+}
+.dataList .dataItem{
+	width: 250px;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+}
+.dataList .dataItem .items{
+	display: inline-block;
+	width: 5em
+}
+.dataList .dataItem input[type="text"]{
+	box-shadow: none;
+	width: 160px;
+	height: 22px;
+	border: none;
+	margin-left: -10px;
+	background-color: #eee
+}
+.dataName,.dataSex{
+	letter-spacing: .5em;
+}
+.dataNum{
+	letter-spacing: 0.91em
+}
+.staffImg{
+	width: 96px;
+	height: 134px;
+	float: right;
+	border:1px dashed #c6c6c6;
+	margin-right: 100px;
+	margin-top: -25px
+}
+.staffImg img{
+	width: 96px;
+	height: 134px;
+}
+/* 员工工作服务评定 */
+.evaluate{
+	font-size: 14px;
+	padding: 15px 0px
+}
+
+.evaluate h2{
+	line-height: 2;
+}
+
+.appeStar,.expStar,.servStar,.proStar{
+	display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.QuacorGrading input{
+	background:url(../../images/staff/grading.png) no-repeat  left center;
+	cursor:pointer;
+	height:24px;
+	width:20px;
+	padding:0;
+	border:0;
+	box-shadow:none;
+	margin: 0;
+	}
+/* .appeStar img,.expStar img,.servStar img,.proStar img{
+	cursor: pointer;
+} */
+.appeText,.expText,.servText,.proText{
+	height: 50px;
+	margin-top: 5px
+}
+.textItem{
+	display: inline-block;
+	vertical-align: top;
+}
+.evaluate textarea{
+	width: 820px;
+	border: none;
+	background-color: #eee;
+} 
+/* 需求建议 */
+.suggest h2{
+	line-height: 2;
+	font-size: 14px;
+	margin-bottom: 10px
+}
+.suggest .sugCon{
+	border: none;
+	width: 770px;
+	height: 110px;
+	margin: 0 auto;
+	display: block;
+}
+.evaBtn{
+	margin-top: 30px
+}
+.formSub{
+	width: 106px;
+	height: 32px;
+	box-shadow:none;
+	background-color: #fff;
+	border:none;
+	margin-left:250px;
+	margin-right:105px;
+	cursor:pointer;
+	background: url(../../images/staff/formOk.png) no-repeat center center; 
+}
+.formReturn{
+	width: 106px;
+	height: 32px;
+	box-shadow:none;
+	background-color: #fff;
+	cursor:pointer;
+	border:none;
+	background: url(../../images/staff/formReturn.png) no-repeat center center; 
+}

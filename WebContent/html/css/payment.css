@@ -1,0 +1,33 @@
+.payinfo{padding: 25px 0 110px 0;}
+.payinfo .pagetil{height: 25px;line-height: 24px;padding-left: 13px;border-left: solid 4px #365a6b;font-size: 22px;}
+.payinfo .item_part{padding-top: 50px;}
+.payinfo .item_part .ipttil{height: 36px;line-height: 36px;font-size: 21px;}
+.payinfo .item_part .ipttil img{margin-right: 10px;vertical-align: -12px;width: 44px;}
+.payinfo .item_part ul{margin-top: 30px;}
+.payinfo .item_part ul li{float: left;width: 330px;height: 300px;border: solid 1px #dedede;margin-right: 70px;}
+.payinfo .item_part ul li.last_li{margin-right: 0}
+.payinfo .item_part ul.bank .limain{padding: 53px 22px 0 22px}
+.payinfo .item_part ul.bank .limain img{width: 90%}
+.payinfo .item_part ul.bank .limain strong{display:block;font-size: 20px;padding: 14px 0 9px 0;font-weight: 400;}
+.payinfo .item_part ul.bank .limain p{font-size: 14px;line-height: 28px;}
+.payinfo .item_part ul.ewm .limain{text-align: center;padding-top: 28px;}
+
+.pcopyright{padding-top:0; }
+.pcopyright .pagetil{line-height: 24px;margin-top: 70px;font-size: 22px;}
+.pcopyright .pmain{width: 950px;margin:36px auto 0 auto; }
+.pcopyright .pmain.pm1 img{float: left;margin: 5px 60px 0 40px} 
+.pcopyright .pmain.pm1 li{font-size: 16px;line-height: 24px;color: #8c8c8c;margin-bottom: 10px;}
+.pcopyright .pmain.pm1 li span{color: #333;display: block;font-size: 18px;}
+
+.pcopyright .pmain.pm2{font-size: 18px;}
+.pcopyright .pmain.pm2 span{float: left;text-align: center;}
+.pcopyright .pmain.pm2 span.s1{width:470px}
+.pcopyright .pmain.pm2 span.s2{width:240px}
+.pcopyright .pmain.pm2 span.s3{width:240px}
+.pcopyright .pmain.pm2 dt{height: 38px;line-height: 38px;background-color: #365a6b;margin-bottom: 10px;}
+.pcopyright .pmain.pm2 dd{height: 40px;line-height: 40px;}
+.pcopyright .pmain.pm2 dt span{color: #fff}
+.pcopyright .pmain.pm2 dd span.s1{width:400px;padding-left: 70px;text-align:left;}
+
+.pcopyright .pmain.pm3{font-size: 18px;}
+.pcopyright .pmain.pm3 p{padding-left: 36px;margin-top: 10px;line-height: 40px;}
