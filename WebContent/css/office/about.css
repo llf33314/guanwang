@@ -1,0 +1,384 @@
+
+.position{height: 77px;width: 100%;z-index: -4;}
+.aboutOne{
+	width: 100%;
+	height: 375px;
+	background: url(../../images/about/aboutOneBg.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+		/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/about/aboutOneBg.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/about/aboutOneBg.jpg',
+    sizingMethod='scale');
+}
+
+.aboutBar{
+	width: 100%;
+	height: 7px;
+	background-color: #1aa1e7;
+}
+
+
+/*关于多粉*/
+.aboutTwo{
+	color: #fff;
+	width: 100%;
+	height: 420px;
+	background: url(../../images/about/aboutTwoBg.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/about/aboutTwoBg.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/about/aboutTwoBg.jpg',
+    sizingMethod='scale');
+    margin-left: 1px;
+}
+.aboutWarp{
+	width: 1170px;
+	margin: 0 auto;
+	}
+
+.aboutTwo .aboutText{
+	width: 454px;
+	padding-top: 32px;
+}
+.aboutTwo .aboutText h1,.aboutThr .aboutText h1{
+	font-size: 2em;
+	padding-bottom: 40px;
+}
+.aboutTwo .aboutText .aboutText1,.aboutThr .aboutText .aboutText1{
+	text-indent: 2em;
+	font-size: 1.3em;
+	line-height: 1.5;
+	padding-bottom: 32px;
+	
+}
+
+.aboutTwo .aboutText .aboutText2{
+	text-indent: 2em;
+	font-size: 1.3em;
+	line-height: 1.5;
+	
+}
+
+/*合伙人召集*/
+.aboutThr{
+	width: 100%;
+	color: #fff;
+	height: 395px;
+	background: url(../../images/about/aboutThrBg.jpg) no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/about/aboutThrBg.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/about/aboutThrBg.jpg',
+    sizingMethod='scale');
+}
+
+.aboutThr .aboutText{
+	width: 454px;
+	display: inline-block;
+	float: right;
+	padding-top: 32px;
+}
+
+.aboutThr .aboutText .aboutText2{
+	text-indent: 2em;
+	font-size: 1.3em;
+	line-height: 1.5;
+	padding-bottom: 32px;
+}
+
+#abContent{
+	background: url(../../images/about/aboutSixBg.jpg) bottom center;
+}
+/*授权查询*/
+
+.aboutFou{
+	width: 100%;
+	color: #fff;
+	height: 304px;
+	background: url(../../images/about/aboutFourBg.jpg) no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	/* 使ie8支持background-size: cover属性*/
+   /*  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/about/aboutFourBg.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/about/aboutFourBg.jpg',
+    sizingMethod='scale'); */
+}
+
+.aboutFou .aboutText{
+		width: 325px;
+		margin-left: 182px;
+		
+}
+.aboutFou .aboutText h1{
+	padding-top: 42px;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.aboutFou .aboutText .search{
+	width: 100%;
+	height: 42px;
+	text-indent: 2em;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 42px;
+}
+
+.aboutFou .aboutText .apply{
+   border: none;
+   text-align: center;
+   font-size: 16px;
+   color: #555;
+   width: 100%;
+   cursor: pointer;
+   margin-top:15px ;
+   background-color: #77adfa;
+   	
+}
+
+.aboutFou .aboutText a{
+	display:block;
+	margin: 0 auto;
+	width: 78px;
+	height: 81px;
+	line-height: 81px;
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+	cursor: pointer;
+	background: url(../../images/about/aboutSearch.png) no-repeat center center;
+}
+
+/*伙伴成长*/
+
+.aboutFive{
+	width: 100%;
+	height: 342px;
+	background: url(../../images/about/aboutFiveBg.jpg) no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	position: relative;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/about/aboutFiveBg.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/about/aboutFiveBg.jpg',
+    sizingMethod='scale');
+    background-color: #4294ea;
+}
+.aboutFive h2{
+	width:1170px;
+	margin:0 auto;
+	font-size: 24px;
+    color: #fff;
+    padding-top: 60px;
+    padding-left: 111px;
+}
+.aboutFive  input{
+	position: absolute;
+	left: 50%;
+	cursor: pointer;
+	bottom: 36px;
+	background-color: #4294ea;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	font-family: "微软雅黑";
+	width:100px;
+	margin-left:90px;
+}
+/*联系方式*/
+.aboutSix{
+	width: 100%;
+	height: 797px;
+	position: relative;
+}
+
+.aboutSix .container h1{
+	text-align: center;
+	font-size: 2.5em;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	
+}
+
+.aboutSix .aboutSixCon{
+	width: 100%;
+	background-color: #f9f9f9;
+}
+
+
+.aboutSix .container hr{
+	border: 0;
+	background-color: #e5e5e5;
+    height: 2px;
+	size: 5px;
+}
+.container .aboutContact{
+	width: 100%;
+	height: 950px;
+	margin-top: 20px;
+	background: url(../../images/about/aboutThrBg.png) no-repeat center 20px;
+	position: relative;
+
+}
+
+
+.mbox {
+    width: 312px;
+    /* padding: 0 10px 5px 10px; */
+    position: absolute;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.mbox ul li:nth-child(even){
+	background-color: #f4f4f4;
+}
+.mbox h2 {
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 18px;
+    color: #000;
+    padding:10px 0 5px 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.mbox li {
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 3px;
+    width: 295px;
+    margin: 0 auto;
+}
+.mbox span {
+    font-size: 14px;
+    color: #2888e2;
+    display: inline-block;
+    width: 45px;
+}
+
+.m1 {
+    top: 50px;
+    left: -20px;
+}
+.m2{
+    top: 50px;
+    left: 400px;
+}
+.m3 {
+    top: 50px;
+   right: 0px;
+}
+.m4 {
+    top: 340px;
+    left: 820px;
+}
+.m5 {
+    top: 370px;
+    left: -40px;
+}
+.m6 {
+    bottom: 120px;
+    left: -20px;
+}
+.m7 {
+    bottom: 85px;
+    left: 400px;
+}
+.m8 {
+    bottom: 150px;
+    left: 790px;
+}
+
+/*地图*/
+.apart {
+   /* width: 1100px;*/
+    top: 20px;
+}
+
+.apart, .apart img {
+    position: absolute;
+}
+
+.db {
+    top: 0px;
+    left: 820px;
+    display: none;
+}
+.hn {
+    top: 576px;
+    left: 591px;
+    display: none;
+}
+.xb {
+    top: 117px;
+    left: 98px;
+    display: none;
+}
+.xn {
+    top: 390px;
+    left: 175px;
+    display: none;
+}
+.hz {
+    top: 390px;
+    left: 652px;
+    display: none;
+}
+.gat {
+    top: 600px;
+    left: 842px;
+    display: none;
+}
+.hd {
+    top: 353px;
+    left: 735px;
+    display: none;
+}
+.hb {
+    top: 10px;
+    left: 478px;
+    display: none;
+}
+
+#hot {
+    display: block;
+    width: 1100px;
+    height: 840px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+
+.hot{
+	border: 1px solid #569ee1;	
+    color: #fff;
+}
+.hot h2{
+	color: #fff;
+	background-color: #569ee1;
+}

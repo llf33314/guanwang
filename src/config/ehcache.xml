@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">
+	 <diskStore path="java.io.tmpdir"/>
+	 <defaultCache
+	            maxElementsInMemory="10000"
+	            eternal="false"
+	            timeToIdleSeconds="6000"
+	            timeToLiveSeconds="6000"
+	            overflowToDisk="true"
+	            diskSpoolBufferSizeMB="30"
+	            maxElementsOnDisk="10000000"
+	            diskPersistent="false"
+	            diskExpiryThreadIntervalSeconds="120"
+	            memoryStoreEvictionPolicy="LRU"
+	            statistics="false"
+	            />
+    <cache name="objcache"
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="600"
+            timeToLiveSeconds="600"
+            overflowToDisk="true"
+            diskSpoolBufferSizeMB="30"
+            maxElementsOnDisk="10000000"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"
+            statistics="false"
+            />
+     <!-- 表示将永久缓存，除非手动进行删除。 -->
+     <cache name="permanent"
+            maxElementsInMemory="10000"
+            eternal="true"
+            overflowToDisk="true"
+            diskSpoolBufferSizeMB="30"
+            maxElementsOnDisk="10000000"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"
+            statistics="false"
+            />
+</ehcache>

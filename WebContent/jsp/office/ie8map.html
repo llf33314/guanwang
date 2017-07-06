@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link rel="stylesheet" href="../../css/map.css" />
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/raphael-min.js"></script>
+<script type="text/javascript" src="../../js/chinaMapConfig.js"></script>
+<script type="text/javascript" src="../../js/map-min.js"></script>
+<style type="text/css">
+bady,html,div{margin:0;padding:0}
+#map{position:absolute;font-size:12px;top:125px;z-index:0;}
+#map .mapText{position:absolute;top:0;left:0;}
+#map a{position:absolute;width:3em;}
+#map a:hover{cursor:pointer}
+.mapTipText{width: 280px;height: 110px;background-color: #ffffff;}
+.mapTipText .mapTipImg{height: 66px; width: 66px; float: left;border: 2px solid #ffffff; border-radius: 50%;overflow: hidden;margin: -12px 5px 0 -12px;}
+.mapTipText .mapTipImg img{width: 100%;height: 100%;}
+.mapTipText .mapTipList{float: left;margin-left: 4px;}
+.mapTipText .mapTipList h2{text-align: left;}
+.mapTipText .mapTipList h2 a{font-size: 24px; color: #262626;text-decoration:none;}
+.mapTipText .mapTipList h2 a:hover{ color: #0085d2;}
+.mapTipText .mapTipList h2 a span{font-size: 16px;margin-left: 3px;}
+.mapTipText .mapTipList ul{ width: 203px;padding-right: 10px;}
+.mapTipText .mapTipList ul li{list-style: none;float: left;padding: 7px 3px 0 3px;}
+.mapTipText .mapTipList ul li a{color: #262626;text-decoration:none;}
+.mapTipText .mapTipList ul li a:hover{background-color:#2ebcfe;color:#ffffff;}
+.placeholder{color:#aaa;}
+</style>
+<script type="text/javascript">
+    $(function(){
+        $('#ChinaMap').SVGMap({
+            mapWidth: 580,
+            mapHeight: 580,
+			strokeWidth: 1,
+			strokeHoverColor: 'fff',
+			stateInitColor: 'e0e0e0',
+			stateHoverColor: '89d5fc'
+        });
+    });
+</script>
+</head>
+
+<body>
+<div id="map">
+	<div class="mapBg">
+		<div class="wrap">
+		    <div class="itemCon" style="float: left">
+		        <div id="ChinaMap"></div>
+		        <div id="stateTip" style="position: absolute;left: 100%;text-align: left;display: inline;"></div>
+		    </div>
+		</div>
+	</div>
+    <div class="mapText">
+    	<a style="top: 400.09px; left: 327.34px;" data-name="guizhou">贵州</a>
+        <a style="top: 304.95px; left: 387.41px;" data-name="henan">河南</a>
+        <a style="top: 268.05px; left: 430.84px;" data-name="shandong">山东</a>
+        <a style="top: 356.58px; left: 275.3px;" data-name="sichuan">四川</a>
+        <a style="top: 455.03px; left: 416.98px;" data-name="xianggang">香港</a>
+        <a style="top: 305.35px; left: 450.61px;" data-name="jiangsu">江苏</a>
+        <a style="top: 285.14px; left: 210.1px;" data-name="qinghai">青海</a>
+        <a style="top: 210.55px; left: 105.29px;" data-name="xinjiang">新疆</a>
+        <a style="top: 396.52px; left: 449.22px;" data-name="fujian">福建</a>
+        <a style="top: 356.09px; left: 466.6px;" data-name="zhejiang">浙江</a>
+        <a style="top: 342.22px; left: 380.17px;" data-name="hubei">湖北</a>
+        <a style="top: 240.6px; left: 428.76px;" data-name="tianjin">天津</a>
+        <a style="top: 376.57px; left: 418.08px;" data-name="jiangxi">江西</a>
+        <a style="top: 494.56px; left: 360.42px;" data-name="hainan">海南</a>
+        <a style="top: 120.5px; left: 495.7px;" data-name="heilongjiang">黑龙江</a>
+        <a style="top: 436.92px; left: 400.51px;" data-name="guangdong">广东</a>
+        <a style="top: 430.75px; left: 264.45px;" data-name="yunnan">云南</a>
+        <a style="top: 215.09px; left: 405.85px;" data-name="beijing">北京</a>
+        <a style="top: 426.69px; left: 485.49px;" data-name="taiwan">台湾</a>
+        <a style="top: 470.02px; left: 391.36px;" data-name="aomeng">澳门</a>
+        <a style="top: 440.7px; left: 346.09px;" data-name="guangxi">广西</a>
+        <a style="top: 310px; left: 335.15px;" data-name="shaanxi">陕西</a>
+        <a style="top: 300px; left: 290.15px;" data-name="gansu">甘肃</a>
+        <a style="top: 245.95px; left: 400.57px;" data-name="hebei">河北</a>
+        <a style="top: 164.15px; left: 495.59px;" data-name="jilin">吉林</a>
+        <a style="top: 360.25px; left: 332.39px;" data-name="chongqing">重庆</a>
+        <a style="top: 266.24px; left: 307.37px;" data-name="ningxia">宁夏</a>
+        <a style="left:374.6964777350568px;top:376.6678253255278px;" data-name="hunan">湖南</a>
+        <a style="top: 335.74px; left: 433.78px;" data-name="anhui">安徽</a>
+        <a style="top: 172.6px; left: 398.51px;" data-name="neimongol">内蒙古</a>
+        <a style="top: 330.89px; left: 490.07px;" data-name="shanghai">上海</a>
+        <a style="top: 261.74px; left: 370.48px;" data-name="shanxi">山西</a>
+        <a style="top: 329.81px; left: 116.25px;" data-name="xizang">西藏</a>
+        <a style="top: 198.83px; left: 470.61px;" data-name="liaoning">辽宁</a>
+    </div>
+</div>
+
+<div ng-app ng-controller="ctl" class="seek">
+    <div class="seekBox">
+        <div style="height:14px;"></div>
+        <div class="seekInput">
+            <input type="text" ng-model="query" placeholder="区域/姓名/联系方式" />
+            <a><img src="../../images/mapIcon02.png" /></a>
+        </div>
+        <div style="height:24px;"></div>
+        <div class="title"><span class="province">全国</span>共有<span class="total">0</span>家分布联系人</div>
+        <div class="cityData">
+            <table ng-repeat="data in data | filter:query | filter:province">
+                <tr>
+                    <td width="55" class="color01">{{data.city}}</td>
+                    <td width="70">{{data.name}}</td>
+                    <td width="110">{{data.phone}}</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><img src="../../images/mapIcon03.png" /></td>
+                    <td class="color01">{{data.QQ}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button id="province" ng-click="provinceBtn()" style="display:none">111</button>
+</div>
+
+<script src="../../js/angular.js"></script>
+<script src="../../js/data.js"></script>
+<script type="text/javascript">
+var totalDom = $(".total");
+var province = $(".province");
+var name = "guangdong";
+//过滤
+function ctl($scope){
+	$scope.data  = wayData;
+	$scope.province = "";          //初始显示全国联系人,如需显示广东吧初始值改为"guangdong"
+	$scope.provinceBtn = function() {
+		$scope.province = name;
+	};
+}
+$(function(){
+	//改变数值
+	totalDom.text($(".cityData table").length);
+	//适配地图位置
+	Adaptive();
+	window.onresize=function(){
+		Adaptive();
+	}
+})
+
+$("#map").on("click","a",function(){
+	
+	$("body,html",parent.document).animate({scrollTop:$("#contact-map",parent.document).offset().top+"px"},300);//操作滚动轴
+	
+	name = $(this).attr("data-name");
+	for(var i=0;i<mapArray.length;i++){
+		mapArray[i].attr({
+        	fill:"#e0e0e0",
+            stroke:"#fff"
+        });
+		if(mapArray[i].id == name){
+			cao = mapArray[i];
+			mapArray[i].attr({
+            	fill:"#1AA1E7",
+                stroke:"#fff"
+            });
+		}
+	}
+	province.text($(this).text());
+	$("#province").click();
+	totalDom.text($(".cityData table").length);
+	return false;
+})
+
+/*$("#map").on("click",function(){
+	province.text("全国");
+	name = "";
+	$("#province").click();
+	totalDom.text($(".cityData table").length);
+})*/
+
+
+function Adaptive(){
+	$("#map").css("left",($(window).width()-1000)/2);
+}
+
+
+/* ie10以下不支持placeHolder  password属性不支持placeHolder */
+;(function(window, document, $) {
+
+		var isOperaMini = Object.prototype.toString.call(window.operamini) == '[object OperaMini]';
+		var isInputSupported = 'placeholder' in document.createElement('input') && !isOperaMini;
+		var isTextareaSupported = 'placeholder' in document.createElement('textarea') && !isOperaMini;
+		var prototype = $.fn;
+		var valHooks = $.valHooks;
+		var propHooks = $.propHooks;
+		var hooks;
+		var placeholder;
+
+		if (isInputSupported && isTextareaSupported) {
+
+			placeholder = prototype.placeholder = function() {
+				return this;
+			};
+
+			placeholder.input = placeholder.textarea = true;
+
+		} else {
+
+			placeholder = prototype.placeholder = function() {
+				var $this = this;
+				$this
+					.filter((isInputSupported ? 'textarea' : ':input') + '[placeholder]')
+					.not('.placeholder')
+					.bind({
+						'focus.placeholder': clearPlaceholder,
+						'blur.placeholder': setPlaceholder
+					})
+					.data('placeholder-enabled', true)
+					.trigger('blur.placeholder');
+				return $this;
+			};
+
+			placeholder.input = isInputSupported;
+			placeholder.textarea = isTextareaSupported;
+
+			hooks = {
+				'get': function(element) {
+					var $element = $(element);
+
+					var $passwordInput = $element.data('placeholder-password');
+					if ($passwordInput) {
+						return $passwordInput[0].value;
+					}
+
+					return $element.data('placeholder-enabled') && $element.hasClass('placeholder') ? '' : element.value;
+				},
+				'set': function(element, value) {
+					var $element = $(element);
+
+					var $passwordInput = $element.data('placeholder-password');
+					if ($passwordInput) {
+						return $passwordInput[0].value = value;
+					}
+
+					if (!$element.data('placeholder-enabled')) {
+						return element.value = value;
+					}
+					if (value == '') {
+						element.value = value;
+						// Issue #56: Setting the placeholder causes problems if the element continues to have focus.
+						if (element != safeActiveElement()) {
+							// We can't use `triggerHandler` here because of dummy text/password inputs :(
+							setPlaceholder.call(element);
+						}
+					} else if ($element.hasClass('placeholder')) {
+						clearPlaceholder.call(element, true, value) || (element.value = value);
+					} else {
+						element.value = value;
+					}
+					// `set` can not return `undefined`; see http://jsapi.info/jquery/1.7.1/val#L2363
+					return $element;
+				}
+			};
+
+			if (!isInputSupported) {
+				valHooks.input = hooks;
+				propHooks.value = hooks;
+			}
+			if (!isTextareaSupported) {
+				valHooks.textarea = hooks;
+				propHooks.value = hooks;
+			}
+
+			$(function() {
+				// Look for forms
+				$(document).delegate('form', 'submit.placeholder', function() {
+					// Clear the placeholder values so they don't get submitted
+					var $inputs = $('.placeholder', this).each(clearPlaceholder);
+					setTimeout(function() {
+						$inputs.each(setPlaceholder);
+					}, 10);
+				});
+			});
+
+			// Clear placeholder values upon page reload
+			$(window).bind('beforeunload.placeholder', function() {
+				$('.placeholder').each(function() {
+					this.value = '';
+				});
+			});
+
+		}
+
+		function args(elem) {
+			// Return an object of element attributes
+			var newAttrs = {};
+			var rinlinejQuery = /^jQuery\d+$/;
+			$.each(elem.attributes, function(i, attr) {
+				if (attr.specified && !rinlinejQuery.test(attr.name)) {
+					newAttrs[attr.name] = attr.value;
+				}
+			});
+			return newAttrs;
+		}
+
+		function clearPlaceholder(event, value) {
+			var input = this;
+			var $input = $(input);
+			if (input.value == $input.attr('placeholder') && $input.hasClass('placeholder')) {
+				if ($input.data('placeholder-password')) {
+					$input = $input.hide().next().show().attr('id', $input.removeAttr('id').data('placeholder-id'));
+					// If `clearPlaceholder` was called from `$.valHooks.input.set`
+					if (event === true) {
+						return $input[0].value = value;
+					}
+					$input.focus();
+				} else {
+					input.value = '';
+					$input.removeClass('placeholder');
+					input == safeActiveElement() && input.select();
+				}
+			}
+		}
+
+		function setPlaceholder() {
+			var $replacement;
+			var input = this;
+			var $input = $(input);
+			var id = this.id;
+			if (input.value == '') {
+				if (input.type == 'password') {
+					if (!$input.data('placeholder-textinput')) {
+						try {
+							$replacement = $input.clone().attr({ 'type': 'text' });
+						} catch(e) {
+							$replacement = $('<input>').attr($.extend(args(this), { 'type': 'text' }));
+						}
+						$replacement
+							.removeAttr('name')
+							.data({
+								'placeholder-password': $input,
+								'placeholder-id': id
+							})
+							.bind('focus.placeholder', clearPlaceholder);
+						$input
+							.data({
+								'placeholder-textinput': $replacement,
+								'placeholder-id': id
+							})
+							.before($replacement);
+					}
+					$input = $input.removeAttr('id').hide().prev().attr('id', id).show();
+					// Note: `$input[0] != input` now!
+				}
+				$input.addClass('placeholder');
+				$input[0].value = $input.attr('placeholder');
+			} else {
+				$input.removeClass('placeholder');
+			}
+		}
+
+		function safeActiveElement() {
+			// Avoid IE9 `document.activeElement` of death
+			// https://github.com/mathiasbynens/jquery-placeholder/pull/99
+			try {
+				return document.activeElement;
+			} catch (err) {}
+		}
+
+	}(this, document, jQuery));
+	$(function() {
+		$('input').placeholder();
+	});						
+
+</script>
+
+
+</body>
+</html>

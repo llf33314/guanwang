@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"
+	default-autowire="byName">
+
+	<bean id="materialChoiseFactory"
+		class="com.gt.service.material.MaterialChoiseFactory"
+		init-method="getInstance">
+		<property name="serviceMap">
+			<map>
+				<entry key="1">
+					<ref bean="materialImageService" />
+				</entry>
+				<entry key="2">
+					<ref bean="materialAudioService" />
+				</entry>
+				<entry key="3">
+					<ref bean="materialVideoService" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="materialImageService"
+		class="com.gt.service.material.impl.MaterialImageServiceImpl">
+	</bean>
+	
+	<bean id="materialAudioService"
+		class="com.gt.service.material.impl.MaterialAudioServiceImpl">
+	</bean>
+	
+	<bean id="materialVideoService"
+		class="com.gt.service.material.impl.MaterialVideoServiceImpl">
+	</bean>
+	
+</beans>

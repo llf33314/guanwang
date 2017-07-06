@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{width:100%;height:100%;overflow:hidden}
+body,html,svg{margin:0;padding:0;}
+img{border:0px;}
+.content{}
+ svg {
+    transform-origin: 50% 50% 0px;
+	position:absolute;
+}
+
+.svgbox{/*transition:all 0.7s;-webkit-transition:all 0.7s;-moz-transition:all 0.7s;*/stroke:#fff}
+.nameRect{
+	position: absolute;
+    display: block;
+    pointer-events: none;
+    text-decoration: none;
+}
+.nameRect .nameBg {
+    fill: none;
+    stroke: none;
+}
+.nameRect .name{
+    fill: #333;
+    stroke: none;
+    text-anchor: middle;
+    alignment-baseline: middle;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.on-off{width: 1170px;margin: 0 auto;position:relative}
+.back{
+	width:66px;
+	height: 66px;
+	display:none;
+	position:absolute;
+	background:url(../images/wholeMapBtn.png) no-repeat 0 0;
+	z-index: 999;
+    top: 115px;
+    left: 15px;
+}
+.back:hover{
+	background: url(../images/wholeMapBtn.png) no-repeat 0 -86px;
+}
+.svgboxMap .area{
+	fill:#e0e0e0;
+	/*
+	transition:fill .7s;
+	-webkit-transition:fill .7s;
+	-moz-transition:fill .7s;
+	-o-transition:fill .7s;
+	*/
+}
+.max .svgboxMap .area:hover{
+	fill: #1AA1E7;
+}
+
+.cityGroup .area{
+	fill: #1aa1e7;
+	/*
+	transition:fill .7s;
+	-webkit-transition:fill .7s;
+	-moz-transition:fill .7s;
+	-o-transition:fill .7s;
+	*/
+}
+.cityGroup .area:hover{
+	fill: #BBE5FB;
+}
+
+.cityGroup text.name{
+	fill: #000;
+	stroke: none;
+	text-anchor: middle;
+    alignment-baseline: top;
+    white-space: nowrap;
+	position: absolute;
+    display: block;
+    pointer-events: none;
+    text-decoration: none;
+	font-size: 0px;
+}
+
+/*.name{
+	transition:font-size 0.7s;
+	-webkit-transition:font-size 0.7s;
+	-moz-transition:font-size 0.7s;
+	-o-transition:font-size 0.7s;
+}*/
+
+.map-tip{
+	width:282px;
+	height:71px;
+	border:1px solid #1aa1e7;
+	position:absolute;
+	background-color:#fff;
+	display:none;
+}
+table{width:94%;margin:0 auto;margin-top: 10px;}
+.color01{color:#1aa1e7}
+
+.seek{
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+.seekBox{
+	width:250px;
+	height:390px;
+	box-shadow:2px 2px 2px #999;
+	background-color:#eee;
+	position:absolute;
+	right:0;
+	top:165px;
+}
+.seekInput{
+	width:215px;
+	height:34px;
+	border:1px solid #1aa1e7;
+	background-color:#fff;
+	position:relative;
+	margin: 0 auto;
+	box-shadow:2px 2px 5px #9ad6f4 inset;
+	overflow: hidden;
+}
+.seekInput input{width:220px;height:26px;line-height:26px;box-sizing:border-box;border:0px;outline: 0;margin-top:4px;margin-left:4px;}
+.seekInput a{position:absolute;right:0;top:0;cursor:pointer}
+.seek .title{font-size:19px;text-align:center;font-weight: 600;}
+.province{margin-right:3px;}
+.seek .total{color:red}
+.seek table{width:200px;margin-top:25px;border-bottom:1px solid #fff;margin-left: 23px;}
+.cityData{height:288px;overflow-y:scroll;font-size: 12px;}

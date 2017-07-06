@@ -1,0 +1,39 @@
+.combo-title {
+    background: #cce1d5;
+    height: 50px;
+    width: 1200px;
+    position: absolute;
+    top: -8px;
+    /* z-index: 900; */
+}
+.combo-container{
+	width:1200px;
+}
+
+.combo-title th {
+  text-align: center;
+    width: 133.33px;
+    height: 70px;
+    background: #31a890;
+    color: white;
+    font-weight: inherit;
+}
+.combo-item td {
+    text-align: center;
+    width: 133.33px;
+    height: 62px;
+}
+
+.main-table tr:first-child{
+	color:#ff440e;
+}
+.main-table tr:nth-of-type(odd){
+	
+}
+.main-table tr:nth-of-type(even){
+	background: #f0fffc;
+}
+
+.combo-item-bg {
+    background: white;
+}

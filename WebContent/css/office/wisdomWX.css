@@ -1,0 +1,341 @@
+@CHARSET "UTF-8";
+/* 2016.2.27 智慧微信*/
+/* 头部 */
+.wxCon{
+	margin-top: 77px
+}
+.wxOne{
+	width: 100%;
+	height: 289px;
+	background: url(../../images/wisdomWX/wxhead.jpg) no-repeat;
+	background-position: center center; 
+	background-size:cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/wisdomWX/wxhead.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/wisdomWX/wxhead.jpg',
+    sizingMethod='scale');
+    position: relative;
+}
+.headText{
+	position: absolute;
+	width: 460px;
+	height: 124px;
+	left: 50%;
+	top: 50%;
+	margin-top: -62px;
+	margin-left: -230px
+}
+/* 中间导航条 */
+.wxBar{
+	width: 100%;
+	height: 80px;
+	background-color: #2888e2;
+}
+
+.wxBar .twoItem,.fixBar .twoItem {
+	width: 194px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.wxBar .container ul li a,.fixBar .container ul li a{
+	display: block;
+	color: #fff;
+}
+
+
+.fixBar{
+	position: fixed;
+	top: 77px;
+	left: 0px;
+	z-index: 848;
+	height:40px;
+	line-height:40px;
+	display:none;
+}
+
+.wxBar .twoItemCur,.fixBar .twoItemCur {
+	width: 194px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+}
+.current{
+	background-color: #6699ff;
+}
+
+
+/* 中间内容部分 */
+/* 智慧酒店 */
+.wxTwo{
+	width: 100%;
+	height: 630px;
+	background: url(../../images/wisdomWX/wx1.jpg) no-repeat;
+	background-position: center center; 
+	background-size:cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/wisdomWX/wx1.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/wisdomWX/wx1.jpg',
+    sizingMethod='scale');
+    position: relative;
+}
+.wxTwo .TwoWarp{
+	position: absolute;
+	width: 396px;
+	top:105px;
+	left: 50%;
+	text-align: center;
+	margin-left: 130px;
+}
+/* 智慧餐饮 */
+.wxThr{
+	width: 100%;
+	height: 630px;
+	background: url(../../images/wisdomWX/wx2.jpg) no-repeat;
+	background-position: center center; 
+	background-size:cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/wisdomWX/wx2.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/wisdomWX/wx2.jpg',
+    sizingMethod='scale');
+    position: relative;
+}
+.wxThr .ThrWarp{
+	position: absolute;
+	width: 390px;
+	top:215px;
+	left: 190px;
+	text-align: center;
+}
+/* 智慧生活 */
+.wxFour{
+	width: 100%;
+	height: 630px;
+	background: url(../../images/wisdomWX/wx3.jpg) no-repeat;
+	background-position: center center; 
+	background-size:cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/wisdomWX/wx3.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/wisdomWX/wx3.jpg',
+    sizingMethod='scale');
+    position: relative;
+}
+.wxFour .FourWarp{
+	position: absolute;
+	width: 390px;
+	top:65px;
+	left: 385px;
+	text-align: center;
+}
+
+/* 外勤办公 */
+.wxFive{
+	width: 100%;
+	height: 720px;
+	background: url(../../images/wisdomWX/wx4.jpg) no-repeat;
+	background-position: center center; 
+	background-size: cover;
+	/* 使ie8支持background-size: cover属性*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    enabled=Enabled,
+    src='../../images/wisdomWX/wx4.jpg',
+    sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../../images/wisdomWX/wx4.jpg',
+    sizingMethod='scale');
+    position: relative;
+}
+.wxFive .FiveWarp{
+	position: absolute;
+	width: 390px;
+	top:180px;
+	left: 180px;
+	text-align: center;
+}
+.wxFive .fiveImg{
+	display: block;
+	position: absolute;
+	width: 321px;
+	height: 573px;
+	top:80px;
+	background-color: rgba(255,255,255,.1);
+}
+.wxFive .fiveImg1{
+	right: 565px;
+}
+.wxFive .fiveImg2{
+	right: 210px
+}
+
+/*各模块通用文字显示*/
+
+.warp h1{
+	font-size: 2em;
+	color: #2888e2;
+	text-align: center;
+}
+.warp p{
+	font-size: 1.1em;
+	line-height: 1.5em;
+	padding-top: 15px;
+}
+.warp .showa{
+	
+	width: 127px;
+	margin: 0 auto;
+	
+}
+.warp .showa  a{
+	display: block;
+	height: 50px;
+	color: #fff;
+	line-height: 50px;
+	margin-top: 25px;
+	font-size: 1.1em;
+	text-align: center;
+	background: url(../../images/product/productBtn.png) no-repeat center center;
+}
+
+/* 外勤签到弹出层 */
+.signLayer{
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;	
+	display: none;
+	z-index: 1002;
+	background-color: #fff;
+}
+
+.signHeader ul {
+	background-color: #2d5b88;
+}
+.signHeader ul li{
+	display: inline-block;
+	width: 450px;
+	height: 90px;
+	line-height: 90px;
+	color: #fff;
+	font-size: 2em;
+	cursor: pointer;
+	text-align: center;
+	
+}
+.signHeaderCur{
+	background-color: #7ca0c3;
+}
+.signCon .signTitle{
+	font-size: 2.3em;
+	/*font-size: 30px;*/
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2d5b88;
+}
+.signCon .signTitle2{
+	border-bottom: 1px solid #eaeef3
+}
+.signMain{
+	width: 702px;
+	height: 509px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.signMain .signLeft{
+	width: 230px;
+	float: left
+}
+
+.signMain .signLeft img{
+	margin-top: 15px
+}
+.signMain .signRig{
+	width: 470px;
+	float: right;
+}
+.signMain .signRig .rigText{
+	font-size: 14px;
+    width: 448px;
+    margin: 0 auto;
+    text-indent: 2em;
+    line-height: 1.6;
+    padding-top: 50px
+}
+.signMain .signRig .rigText span{
+	color: #f39131
+}
+.signRig .rigBox{
+	background: url("../../images/wisdomWX/sign.jpg") no-repeat center center;
+	width: 100%;
+	height: 210px;
+	margin-top: 50px
+}
+.signMain .signList{
+	overflow: hidden;
+	margin-top: 30px;
+	height: 100%
+}
+.signList .signItem{
+	float: left;
+	width: 50%;
+	margin-bottom: 30px
+}
+.signList .signItem img{
+	display: block;
+	margin: 0 auto
+}
+.signList .signItem p{
+	text-align: center
+}
+.signList .signItem .title1{
+	color:#05aae6;
+}
+.signList .signItem .title2{
+	color:#9a89b9;
+}
+.signList .signItem .title3{
+	color:#95c33d;
+}
+.signList .signItem .title4{
+	color:#7793dd;
+}
+.signList .signItem .info{
+	font-size: 16px;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+/*关闭按钮*/
+.idyclose{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	z-index:9873 ;
+}
+.idyclose a{
+	width: 28px;
+	height: 28px;
+	display: block;
+	background: url(../../images/product/idyClose.png) no-repeat;
+}
