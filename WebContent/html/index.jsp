@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>多粉 · 连接粉丝，连接世界！提供微信营销应用，众多行业SaaS ERP解决方案！</title>
+<title>严惠婷</title>
 <meta name="keywords" content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店"/> 
 <meta name="description" content="多粉是国内专业领先的微信第三方开发平台，提供微信小程序、微信商城、微信分销系统、H5游戏等功能开发及代运营服务，全方位智慧行业SaaS ERP解决方案。"/>
 <%@include file="/html/common/cmm_css.jsp" %>
