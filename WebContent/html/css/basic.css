@@ -154,7 +154,7 @@ img.wp100{width: 100%;display: block;}
 .footer .rightIcon li.ri3 img{margin-top: 16px;}
 .footer .rightIcon li.ri4{background-position: 0 -180px;}
 .footer .rightIcon li.ri4 img{margin-top: 16px;}
-.footer .rightIcon li.ri4 .risub{position: absolute;text-align: center;width: 145px;height: 70px;top: 0;right: 70px;display: none;background-image: url(/images/index/as-rx.png);background-repeat: no-repeat;}
+.footer .rightIcon li.ri4 .risub{position: absolute;text-align: center;width: 145px;height: 73px;top: 0;right: 70px;display: none;background-image: url(/images/index/as-rx.png);background-repeat: no-repeat;}
 .footer .rightIcon li.ri4 .risub p{color: #2D8DFD;;font-size: 16px;line-height: 67px;text-align:center;}
 .footer .rightIcon li.ri4 .risub p em{font-style: normal;font-size: 14px;padding-top: 2px;display: block;padding-right: 12px;}
 .footer .rightIcon li.ri4:hover .risub{display: block;}
