@@ -83,9 +83,13 @@
                      </div>
                  </li>
                  <li class="ri2">
-                     <img src="/images/index/as-gz.png">
+                     <img src="/images/index/as-gz.png">                   
                       <span class="lb">微信公众号</span>
-                      <div class="a-ewm"><img src="${imageUrl}/ewm.jpg" style="width: 86px;height:84px;"></div>
+                      <div class="a-ewm">
+                          <p>扫一扫，全知道</p>
+                          <img src="${imageUrl}/ewm.jpg" style="width: 86px;height:84px;margin-top: -4px;margin-right: 10px;">
+                      </div>
+                      
                  </li>
                  <li class="ri1">
                       <img src="/images/index/as-top.png">
