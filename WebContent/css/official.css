@@ -225,8 +225,8 @@ a{text-decoration:none;color:#333;}
 #a-show2{display: none;}
 /*solve*/
 .a-top-solve{
-	height: 271px;
-    width: 412px;
+	height: 273px;
+    width: 422px;
     line-height: 1;
     position: absolute;
     z-index: 211;
@@ -243,7 +243,7 @@ a{text-decoration:none;color:#333;}
 	width: 179px;
     display: inline-block;
     margin-top: 12px;
-    margin-left: 27px;
+    margin-left: 32px;
     float: left;
 }
 .a-pro-a .a-pic-h{
