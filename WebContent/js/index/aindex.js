@@ -1,7 +1,7 @@
 var it;
 $(function(){
-    gtShow(7,$("#jinxiao"));
-    $("#jinxiao > a").attr("style","color:#2d8efe;");
+    gtShow(7,$("#a-swiper7"));
+    $("#a-swiper7 > a").attr("style","color:#2d8efe;");
 	$('.closeimg').on('click', function() {
 		$('.popup_dialog_confirm').hide();
 	});
@@ -483,7 +483,15 @@ $(document).ready(function(){
 	function gtShow(id, t) {
 		$('.a-swiper-box').find('#id' + id).show().siblings('div')
 				.hide();
-		//$(".a-swiper > a").;
-		//$(t).attr("style","color:#2d8efe;");
-		
+		$("#a-swiper1 > a").removeAttr("style");
+        $("#a-swiper2 > a").removeAttr("style");
+        $("#a-swiper3 > a").removeAttr("style");
+        $("#a-swiper4 > a").removeAttr("style");
+        $("#a-swiper5 > a").removeAttr("style");
+        $("#a-swiper6 > a").removeAttr("style");
+        $("#a-swiper7 > a").removeAttr("style");
+        $(t).find("a").attr("style","color:#2d8efe;");
+
+
+
 	}
