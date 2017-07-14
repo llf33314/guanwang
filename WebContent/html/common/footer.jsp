@@ -4,20 +4,7 @@
   display: none !important;
 }
 </style> 
-<div class="hy-solution-wrap">
-          <h2>行业解决方案</h2>
-          <ul class="clearfix wrap1200">
-              <li><a href="/html/LittleGreedyCat/html/index.jsp" >智慧餐饮ERP • 小馋猫</a></li>
-              <li><a href="/html/CarCount/html/index.jsp" >汽车美容快修ERP • 车小算</a></li>
-              <li><a href="/html/demo.jsp" >美容美发ERP • 样子</a></li>
-              <li><a href="/html/smarty_hotel.jsp" >智慧酒店ERP • 小驿</a></li>
-              <li><a href="/html/wuye.jsp" >物业管理ERP • 揽胜家园 </a></li>
-              <li><a href="/html/BigWhite/html/index.jsp" >智慧社区医疗ERP • 大白</a></li>
-              <li><a href="javascript:void(0);" >智慧商超ERP • 来店</a></li>
-              <li><a href="javascript:void(0);" >智慧进销存 • 存销宝</a></li>
-          </ul>
-     </div>
-</div>
+
 <div class="footer">
          <div class="fnav clearfix">
              <dl>
