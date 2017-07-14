@@ -42,7 +42,7 @@
                  <dt>帮助中心</dt>
                  <dd onclick="footerLock('');"><a href="/html/staff.jsp" >员工查询</a></dd>
                  <dd onclick="footerLock('');"><a href="/html/instructions.jsp" >使用手册</a></dd>
-                 <dd onclick="footerLock('');"><a href="/html/hardware.jsp" >多粉硬件</a></dd>
+                 <dd onclick="footerLock('');"><a href="/html/hardware.jsp" >硬件支持</a></dd>
                  <dd onclick="footerLock('解决方案');"><a href="/html/newCombo.jsp" >多粉套餐</a></dd>
                  <dd onclick="footerLock('客户案例');"><a href="/html/case_center.jsp" >案例中心</a></dd>
              </dl>
