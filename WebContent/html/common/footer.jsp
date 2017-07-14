@@ -65,27 +65,31 @@
 
          <div class="rightIcon">
               <ul>
-                 <li class="ri1"><span class="lb">返回顶部</span></li>
-                 <li class="ri2">
-                      <span class="lb">微信公众号</span>
-                      <img src="${imageUrl}/ewm.jpg" style="width: 120px;height: 120px;">
-                 </li>
-                 <li id="QQFrame" class="ri3" onclick="showClick(2);">
+                 <li id="QQFrame" class="ri3" onclick="showClick(2);">  
                  	<script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODE4ODE2M18zODIwOTFfNDAwODg5NDUyMl8" ></script>
+                 	<img src="/images/index/as-qq.png">
                  	<span class="lb">售前咨询</span>
                  </li>
                  <li id="QQFrame" class="ri3" onclick="showClick(3);">
                  	<script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODE4ODE2M18zODIwOTFfNDAwODg5NDUyMl8" ></script>
+                 	<img src="/images/index/as-qq.png">
                  	<span class="lb">售后咨询</span>
                  </li>
                  <li class="ri4">
-                     <span class="lb">服务热线</span>
+                     <img src="/images/index/as-zx.png">
+                     <span class="lb">服务热线</span>                     
                      <div class="risub">
-                         <p>
-                         服务热线
-                         <em>400-889-4522</em>
-                         </p>
+                         <p><em>400-889-4522</em></p>
                      </div>
+                 </li>
+                 <li class="ri2">
+                     <img src="/images/index/as-gz.png">
+                      <span class="lb">微信公众号</span>
+                      <div class="a-ewm"><img src="${imageUrl}/ewm.jpg" style="width: 86px;height:84px;"></div>
+                 </li>
+                 <li class="ri1">
+                      <img src="/images/index/as-top.png">
+                      <span class="lb">返回顶部</span>
                  </li>
               </ul>
          </div>
