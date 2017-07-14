@@ -8,6 +8,8 @@
     <meta name="description" content="多粉是国内专业领先的微信第三方开发平台，提供微信小程序、微信商城、微信分销系统、H5游戏等功能开发及代运营服务，全方位智慧行业SaaS ERP解决方案。11"/>
     <link rel="stylesheet" type="text/css" href="../css/official.css" />
     <link rel="stylesheet" type="text/css" href="../css/fans.css" />
+    <link rel="stylesheet" href="/html/css/basic.css"/>
+    
 </head>
 
 <body>
