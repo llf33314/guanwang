@@ -13,9 +13,9 @@
 <body>
 <div class="gt-a-top">
     <div class="gt-a-top-box">
-        <div class="gt-a-top-box-logo"><a href="javascript:;"><img src="../images/index/alogo.png"></a></div>
+        <div class="gt-a-top-box-logo"><a href="/html/index.jsp"><img src="../images/index/alogo.png"></a></div>
         <ul class="gt-a-top-box-sigle">
-            <li class="a-top-firstli"><a href="javascript:;">首页</a></li>
+            <li class="a-top-firstli"><a href="/html/index.jsp">首页</a></li>
             <li class="a-top-firstli" id="a-show"><a href="javascript:;">产品中心</a>
                 <ul class="a-top-product" id="a-show2">
                     <li class="a-pro-a">
@@ -196,13 +196,13 @@
 <div class="a-whole">
     <div class="a-swiper">
         <div class="a-swiper-txt">
-            <div onmouseover="gtShow(1,this)"><a href="javascript:;" class="a-swiper-title">微商城</a></div>
-            <div onmouseover="gtShow(2,this)"><a href="javascript:;" class="a-swiper-title" >收银台</a></div>
-            <div onmouseover="gtShow(3,this)"><a href="javascript:;" class="a-swiper-title" >分销系统</a></div>
-            <div onmouseover="gtShow(4,this)"><a href="javascript:;" class="a-swiper-title" >智慧餐饮</a></div>
-            <div onmouseover="gtShow(5,this)"><a href="javascript:;" class="a-swiper-title" >汽车美容快修</a></div>
-            <div onmouseover="gtShow(6,this)"><a href="javascript:;" class="a-swiper-title" >美容美发</a></div>
-            <div onmouseover="gtShow(7,this)" id="jinxiao"><a href="javascript:;" class="a-swiper-title" >智慧进销存 </a></div>
+            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="javascript:;" class="a-swiper-title">微商城</a></div>
+            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-swiper-title" >收银台</a></div>
+            <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="javascript:;" class="a-swiper-title" >分销系统</a></div>
+            <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="javascript:;" class="a-swiper-title" >智慧餐饮</a></div>
+            <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="javascript:;" class="a-swiper-title" >汽车美容快修</a></div>
+            <div onmouseover="gtShow(6,this)" id="a-swiper6"><a href="javascript:;" class="a-swiper-title" >美容美发</a></div>
+            <div onmouseover="gtShow(7,this)" id="a-swiper7"><a href="javascript:;" class="a-swiper-title" >智慧进销存 </a></div>
         </div>
     </div>
     <div class="a-swiper-box">
