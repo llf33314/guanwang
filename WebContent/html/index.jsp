@@ -559,6 +559,11 @@
 <script>
     //数字变化
     $('.counter').countUp();
+
+
+    $(".rightIcon").on("click",".ri1",function(){
+        $("html,body").animate({"scrollTop":0},500);
+    })
 </script>
 </body>
 </html>
