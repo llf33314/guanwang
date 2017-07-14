@@ -1,6 +1,7 @@
 var it;
 $(function(){
     gtShow(7,$("#jinxiao"));
+    $("#jinxiao > a").attr("style","color:#2d8efe;");
 	$('.closeimg').on('click', function() {
 		$('.popup_dialog_confirm').hide();
 	});
@@ -482,4 +483,7 @@ $(document).ready(function(){
 	function gtShow(id, t) {
 		$('.a-swiper-box').find('#id' + id).show().siblings('div')
 				.hide();
+		//$(".a-swiper > a").;
+		//$(t).attr("style","color:#2d8efe;");
+		
 	}
