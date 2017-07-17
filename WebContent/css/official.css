@@ -469,6 +469,26 @@ a{text-decoration:none;color:#333;}
     color: #fff;
     font-size:14px;
 }
+.a-ay-sw-show{
+	width: 1200px;
+    margin: 0 auto;
+    opacity:0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 0.2s;  
+    animation-duration: 0.2s;  
+    -webkit-animation-fill-mode: forwards ;  
+    animation-fill-mode: forwards ;
+     -webkit-animation-delay:0.2s;  /**延迟动画**/
+     animation-delay:0.2s; 
+}
+@-webkit-keyframes fadeIn {
+0% {opacity: 0}
+100% {opacity: 1}} 
+@keyframes fadeIn {
+0% { opacity: 0}
+100% {opacity: 1}}
+
 .a-swiper-h2{
 	font-size: 28px;
     font-weight: normal;
