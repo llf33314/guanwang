@@ -397,7 +397,7 @@ function initArt(){
 					case 0:
 						if(_a < 2){
 							a += "<li><span>"
-								+"【最新】</span><a href='/html/articlePage/article_"+v[i].id+".jsp'>"+v[i].title+"</a></li>";
+								+"【最新】</span><a href='/html/articlePage/article_"+v[i].id+".jsp' id='a-sy-news-a'>"+v[i].title+"</a></li>";
 							_a++;
 						}
 						break;
@@ -405,14 +405,14 @@ function initArt(){
                     case 1:
 						if(_b < 2){
 							b += "<li><span>"
-								+"【最新】</span><a href='/html/articlePage/article_"+v[i].id+".jsp'>"+v[i].title+"</a></li>";
+								+"【最新】</span><a href='/html/articlePage/article_"+v[i].id+".jsp' id='a-sy-news-a'>"+v[i].title+"</a></li>";
 							_b++;
 						}
 						break;
 					case 2:
 						if(_c <2){
 							c += "<li><span>"
-								+"【最新】</span><a href='/html/articlePage/article_"+v[i].id+".jsp'>"+v[i].title+"</a></li>";
+								+"【最新】</span><a href='/html/articlePage/article_"+v[i].id+".jsp' id='a-sy-news-a'>"+v[i].title+"</a></li>";
 							_c++;
 						}
 						break;
