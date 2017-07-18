@@ -210,7 +210,6 @@
     		<img id="gtXcmHy2" style="display:none;padding:0 20px;" alt="店内就餐" src="../img/xcm_hy2.png">
     	</div>
     </div>
-
     <div class="gt-width1200">
     	<h1 class="gt-xcm-yycenter-title">应用中心</h1>
     	<div class="gt-xcm-yycenter">
