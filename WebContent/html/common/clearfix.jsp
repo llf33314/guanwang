@@ -21,7 +21,7 @@
      <div class="clearfix header">
           <div class="bg"></div>
           <div class="wrap1200">
-              <h1 class="fl logo" onclick="goHome();" style="cursor: pointer;"><img src="/images/index/alogo.png"/></h1>
+              <h1 class="fl logo" onclick="goHome();" style="cursor: pointer;"><div class="gt-a-top-box-logo"><a href="/html/index.jsp"><img src="/images/index/alogo.png"></a></div></h1>
               <div class="fr usercenter">
                    <a href="/html/instructions.jsp" class="normal-abtn">使用手册</a>
                    <a href="http://duofriend.com/user/toregister.do" class="normal-abtn">免费试用</a>
