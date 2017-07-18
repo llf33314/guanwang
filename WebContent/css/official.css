@@ -6,7 +6,7 @@ a{text-decoration:none;color:#333;}
 /*gt-top*/
 .gt-a-top{
 	height: 80px;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     left: 0;
     top: 0;
@@ -749,7 +749,10 @@ a{text-decoration:none;color:#333;}
 /*官网-购买页面*/
 .package-wrap .title-wrap{position: relative; padding: 60px 0;text-align: center;color: #666;font-size: 14px;line-height: 1.8;}
 .package-wrap .title-wrap h2{font-size: 28px;text-align: center;color: #000;font-weight: normal;}
-.package-wrap .title-wrap a{position: absolute;top: 50%;left: 50%;margin: -8px 0 0 115px;font-size: 15px;color: #37a2f4;}
+.package-wrap .title-wrap a{/* position: absolute;top: 50%;left: 50%;margin: -8px 0 0 115px;font-size: 15px;color: #37a2f4; */
+    margin: 25px 0 0 2px;
+    font-size: 15px;
+    color: #2d8efe;}
 .package-wrap .content-wrap{width: 1201px;height:860px; margin:0 auto;text-align: center;}
 .package-wrap .item-wrap{position: relative;float: left;width: 281px;height: 607px;border:solid 1px #d2d0c6;border-right: 0;}
 .package-wrap .item-wrap:last-child{border-right: solid 1px #d2d0c6;}

@@ -21,7 +21,7 @@
      <div class="clearfix header">
           <div class="bg"></div>
           <div class="wrap1200">
-              <h1 class="fl logo" onclick="goHome();" style="cursor: pointer;"><img src="${imageUrl}/index2017/logo.png"/>多粉</h1>
+              <h1 class="fl logo" onclick="goHome();" style="cursor: pointer;"><img src="/images/index/alogo.png"/></h1>
               <div class="fr usercenter">
                    <a href="/html/instructions.jsp" class="normal-abtn">使用手册</a>
                    <a href="http://duofriend.com/user/toregister.do" class="normal-abtn">免费试用</a>
@@ -84,13 +84,13 @@
 		} */
 		/* console.log(clearfix_selected);
 		console.log(clearfix_selected_child); */
-		if(clearfix_selected == '' && clearfix_selected_child == ''){
+		/* if(clearfix_selected == '' && clearfix_selected_child == ''){
 			$("#clearfix_header .subbox a").css('color', '#fff');
 			$("#clearfix_header .fie6").css('color', '#fff');
 		}else{
 			$('a:contains('+clearfix_selected+')').css('color', '#37a2f5');
 			$('a:contains('+clearfix_selected_child+')').css('color', '#37a2f5');
-		}
+		} */
 	}
 
 	$(function(){
@@ -101,7 +101,7 @@
 			$.cookie("clearfix_selected", v, {path:'/'});
 		});
 
-		$("#clearfix_header a").click(function(){
+		/* /* $("#clearfix_header a").click(function(){
 			$("#clearfix_header .subbox a").css('color', '#fff');
 			$("#clearfix_header .fie6").css('color', '#fff');
 			if($('a:contains('+$(this).html()+')').attr('class') != 'fie6'){
@@ -115,9 +115,9 @@
 			}
 			$.cookie("clearfix_selected_child", vv, {path:'/'});
 			/* console.log($('a:contains('+$(this).html()+')')); */
-		});
+		/* }); 
 
-	});
+	}); */
 
 	var goHome = function(){
 		$.cookie("clearfix_selected", '', {path:'/'});
