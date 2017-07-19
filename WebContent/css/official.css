@@ -90,6 +90,8 @@ a{text-decoration:none;color:#333;}
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     float: left;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
 }
 .a-top-product li{
 	width: 240px;
