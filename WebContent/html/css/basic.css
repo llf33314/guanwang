@@ -1,6 +1,6 @@
 html{-webkit-text-size-adjust:100%;font-size:14px}
 *{margin:0;padding:0}
-body{color:#333}
+body{color:#333;font-family: "微软雅黑";}
 table{border-collapse:collapse;border:none;border-spacing:0}
 caption,th{text-align:left}
 ol,ul{list-style-type:none}
@@ -14,7 +14,7 @@ time{color:#777}
 .clearfix{display: block;zoom:1}
 .clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden}
 article,aside,dialog,figure,footer,header,menu,nav,section{display:block}
-input, textarea, keygen, select, button,body{font-family:'microsoft yahei'}
+input, textarea, keygen, select, button,body{font-family: "微软雅黑";}
 ul{list-style:none}
 a{text-decoration:none}
 img{border:0 none}
@@ -144,7 +144,7 @@ img.wp100{width: 100%;display: block;}
 .footer .copyright{color: #6E6F6F;line-height: 20px;font-size: 12px}
 .footer .rightIcon{    position: fixed;width: 70px;right: 10px;bottom: 290px;z-index: 100;top: 50%;margin-top: -120px;}
 .footer .rightIcon li {position: relative;text-align: center;width: 70px;height: 70px;margin-bottom: 2px;/* background-image: url(../images/rigIcon.jpg); */background-color: #2d8efe;cursor: pointer;}
-.footer .rightIcon li span.lb{display: block;/* padding-top: 47px; */text-align: center;font-family:arail;font-size: 12px;color: #D3F0FF;}
+.footer .rightIcon li span.lb{display: block;/* padding-top: 47px; */text-align: center;/* font-family:arail; */font-size: 12px;color: #D3F0FF;}
 .footer .rightIcon li.ri1{background-position: 0px 5px;}
 .footer .rightIcon li.ri1 img{margin-top: 16px;}
 .footer .rightIcon li.ri2{background-position: 0 -56px;}
