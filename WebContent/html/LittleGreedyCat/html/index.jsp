@@ -312,7 +312,24 @@
     </div>
 
     <%@include file="/html/LittleGreedyCat/html/common/footer.jsp" %>
+<script>
 
+   $(function(){
+
+     gtSwiper3d.event();
+     gtSwiper3d.interval();
+     $('.xc-function-box').on('mouseenter',function(){
+         $(this).find('.show1').hide();
+         $(this).find('.show2').show();
+     }).on('mouseleave',function(){
+         $(this).find('.show1').show();
+         $(this).find('.show2').hide();
+     })
+   })
+          function gtShow(id,t){
+            $('.xc-choice-hidden').find('#id'+id).show().siblings('div').hide();
+          }
+      </script>
 	<script type="text/javascript">
 		function gtXcmHy(id, t) {
 			$(t).addClass('clicked').siblings('li').removeClass('clicked');
