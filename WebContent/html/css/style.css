@@ -444,12 +444,13 @@
     margin-left: 22px;
     font-size: 10px;
     border: solid 1px #2D8EFE;}
+    .header .usercenter a:hover{color:#fff;}
 .header .usercenter a.normal-abtn{border: none;}
 .header .usercenter a.reg{margin-left: 19px;}
 .header .nav{height: 80px;margin-left: 30px;}
 .header .nav li{float: left;position: relative;z-index: 100;}
 .header .nav li a.fie6{_float: left;display: block;height: 80px;line-height: 80px;padding: 0 13px;color: #333;font-size: 14px;}
-.header .nav li ul{position: absolute;top: 82px;left: 0;width: 360px;padding: 5px 5px 10px 21px;background: #fff;z-index: 100;display: none;opacity:1}
+.header .nav li ul{position: absolute;top: 80px;left: 0;width: 360px;padding: 5px 5px 10px 21px;background: #fff;z-index: 100;display: none;opacity:1}
 .header .nav li ul li{float: left;width: 180px;line-height: 40px;}
 .header .nav li ul li a{height:30px;line-height: 30px;padding: 0;color: #333;}
 .header .nav li ul li a:hover{margin-left: 0; color: #37a2f5}
@@ -1022,7 +1023,7 @@
 .smartyCity .descript.Sdescript .item_main li .tgc_tit strong{font-size: 24px;color: #fff}
 .smartyCity .descript.Sdescript .item_main li .itgc_tit{width: 276px;height: 321px;top:0;left: 0;background-color: #60467d;display:none}
 .smartyCity .descript.Sdescript .item_main li a:hover .itgc_tit{display: block;}
-.smartyCity .descript.Sdescript .item_main li .itgc_tit em{width: 60px;height: 60px;background-size: 360px 60px;top: 82px;left: 32px;}
+.smartyCity .descript.Sdescript .item_main li .itgc_tit em{width: 60px;height: 60px;background-size: 360px 60px;top: 80px;left: 32px;}
 .smartyCity .descript.Sdescript .item_main li .itgc_tit.tt1 em{background-position: 0 0;}
 .smartyCity .descript.Sdescript .item_main li .itgc_tit.tt2 em{background-position: -60px 0;}
 .smartyCity .descript.Sdescript .item_main li .itgc_tit.tt3 em{background-position: -120px 0;}

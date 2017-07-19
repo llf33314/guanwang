@@ -34,7 +34,7 @@ a{text-decoration:none;color:#333;}
     text-align: center;
 }
 .a-top-firstli{
-    height: 80px;
+    height: 78px;
     position: relative;
 }
 .a-top-firstli:hover{
@@ -83,7 +83,7 @@ a{text-decoration:none;color:#333;}
     position: absolute;
     z-index: 211;
     left: -166px;
-    top: 82px;
+    top: 80px;
     background: #fff;
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
     text-align: left;
@@ -231,7 +231,7 @@ a{text-decoration:none;color:#333;}
     position: absolute;
     z-index: 211;
     left: -130px;
-    top: 82px;
+    top: 80px;
     background: #fff;
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
     text-align: left;
@@ -395,7 +395,7 @@ a{text-decoration:none;color:#333;}
     position: absolute;
     z-index: 211;
     left: -6px;
-    top: 82px;
+    top: 80px;
     background: #fff;
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
     text-align: left;
