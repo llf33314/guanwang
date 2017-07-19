@@ -780,7 +780,7 @@ a{text-decoration:none;color:#333;}
 
 .package-wrap .item-wrap.height-selected .item-wrap-main{height:807px;border:solid 1px #37a2f4; z-index: 9;transform:translateX(-1px) translateY(-35px);}
 .package-wrap .item-wrap.selected{width: 353px;}
-.package-wrap .item-wrap.selected .item-wrap-main{width: 353px;border-color: #37a2f4;    z-index: 0;}
+.package-wrap .item-wrap.selected .item-wrap-main{width: 353px;border-color: #37a2f4;    z-index: 1;}
 .package-wrap .item-wrap.selected .icon-wrap{display: none;}
 .package-wrap .item-wrap.selected .top-wrap{position: relative;padding: 0;margin:0;border-bottom:none;}
 .package-wrap .item-wrap.selected .top-wrap .price{height: 175px;line-height: 175px;margin-bottom: 20px; font-size: 40px; color: #fff; background-color: #2d8efe}
