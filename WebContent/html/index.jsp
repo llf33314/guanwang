@@ -331,7 +331,7 @@
             </li>
             <li class="a-sy-scrvice-box exhibition">
                 <img src="../images/index/as-ser4.png">
-                <span>微信营销</span>
+                <span>微信小程序</span>
                 <p>操作简单、功能实用、丰富有趣的小程序，有效提高商家访问量、回访率、转化率，为您的营销增添动力</p>
                 <a href="/html/weixinSell.jsp">更多</a>
             </li>
