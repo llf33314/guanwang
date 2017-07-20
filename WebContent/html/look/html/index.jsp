@@ -62,6 +62,15 @@
     </div>
 </div>
 <nav class="cd-vertical-nav">
+		<ul>
+			<li><a href="#section1" class="active"><span class="label">适用场景</span></a></li>
+			<li><a href="#section2"><span class="label">怎么来</span></a></li>
+			<li><a href="#section3"><span class="label">服务体验</span></a></li>
+			<li><a href="#section4"><span class="label">门店管理</span></a></li>
+			<li><a href="#section5"><span class="label">选择我们</span></a></li>
+		</ul>
+	</nav>
+<!-- <nav class="cd-vertical-nav">
     <ul>
         <li><a href="#s1" class="active smooth"><span class="label">适用场景</span></a></li>
         <li><a href="#s2" class="smooth"><span class="label">怎么来</span></a></li>
@@ -69,8 +78,8 @@
         <li><a href="#s4" class="smooth"><span class="label">门店管理</span></a></li>
         <li><a href="#s5" class="smooth"><span class="label">选择我们</span></a></li>
     </ul>
-</nav>
-<div class="man-cj">
+</nav> -->
+<div class="man-cj cd-section" id="section1">
     <a name="s1"></a>
     <a name="s2"></a>
     <h2 class="mated1 infinite fadeInUp">适用场景</h2>
@@ -114,7 +123,7 @@
         </div>
     </div>
 </div>
-<div class="man-customer ">
+<div class="man-customer cd-section" id="section2">
     <div class="man-customer-box animated">
         <div class="man-customer-l">
             <h4 class="man-c-l-h4 animated" style="opacity: 0;">顾客怎么来？</h4>
@@ -135,7 +144,7 @@
         </div>
     </div>
 </div>
-<div class="man-kuais animated">
+<div class="man-kuais animated cd-section" id="section3">
     <div class="man-kuais-l">
         <img src="../images/sy9.png" id="kua1" class="animated" style="opacity: 0;">
         <div class="man-kuais-zz animated" style="opacity: 0;">
@@ -160,7 +169,7 @@
         </ul>
     </div>
 </div>
-<div class="man-store animated">
+<div class="man-store animated cd-section" id="section4">
     <div class="man-store-box">
         <div class="man-s-l">
             <h4 class="man-c-l-h4 animated" style="opacity: 0;" id="sh8">门店该如何管理？</h4>
@@ -190,7 +199,7 @@
         </div>
     </div>
 </div>
-<div class="man-choice">
+<div class="man-choice cd-section" id="section5">
     <img src="../images/sy19.png">
     <div class="man-choice-box animated" style="opacity: 0;">
         <h4 class="man-choice-b-h4">选择我们的<span id="choice1" class="animated" style="opacity: 0;">3</span>大理由</h4>
@@ -263,13 +272,17 @@
         document.getElementById("wxImg").style.display='none';
     }
 </script>
+<script src="../js/modernizr.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-2.1.1.min.js"><\/script>')</script>
+<script src="../js/main.js"></script>
 <script src="../js/jquery-2.2.2.min.js"></script>
 <script src="../js/index.js"></script>
-<script src="../js/steam.js"></script>
+<!-- <script src="../js/steam.js"></script> -->
+<!-- <script src="../js/main.js"></script> -->
 <script src="../js/particles.js"></script>
 <script src="../js/app.js"></script>
-<script src="../js/modernizr.min.js"></script>
-<script src="../js/effects.js"></script>
+<!-- <script src="../js/modernizr.min.js"></script> -->
+ <script src="../js/effects.js"></script>
 <script src="../js/number/jquery.countup.min.js"></script>
 <script src="../js/number/jquery.countup.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
