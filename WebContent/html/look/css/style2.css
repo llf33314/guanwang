@@ -825,8 +825,8 @@ Vertical navigation
   .cd-vertical-nav a::before {
     /* filled circle */
     top: 0;
-    height: 32px;
-    width: 32px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background: #535353;
     -webkit-transform: translateX(-50%) scale(0.25);
@@ -859,7 +859,7 @@ Vertical navigation
     background: -webkit-gradient(linear, 0% 25%, 75% 100%, from(#cd5676), to(#938fcb));
   }
   .cd-vertical-nav li:first-of-type a::after {  
-    background: url(../images/dht1.png);
+    background: url(../images/dht1-1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 34px;
