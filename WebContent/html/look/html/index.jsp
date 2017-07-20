@@ -14,19 +14,27 @@
 
 <body onLoad="type()">
 <%@include file="/html/look/html/common/banner.jsp" %>
-
+<nav class="cd-vertical-nav">
+		<ul>
+			<li><a href="#section1 " class="active"><span class="label">适用场景</span></a></li>
+			<li><a href="#section2"><span class="label">怎么来</span></a></li>
+			<li><a href="#section3"><span class="label">服务体验</span></a></li>
+			<li><a href="#section4"><span class="label">门店管理</span></a></li>
+			<li><a href="#section5"><span class="label">选择我们</span></a></li>
+		</ul>
+	</nav>
 <div style="height: 600px;">
-    <div class="manner-banner">
+    <div class="manner-banner" >
         <div class="container " style="height: 420px;"><div id="particles-js" style="height:575px;"></div></div>
         <div class="home-show">
             <div class=" text-center typing-container">
                 <div class="typing-wrap" >
                     <div id="txt" class="typing">美容美发行业整体解决方案</div> <span class="typed-cursor">|</span>
                 </div>
-                <a class="btn btn-lg btn-default btn-view" href="http://duofriend.com/user/toregister.do">免费体验</a>
+                <a class="btn btn-lg btn-default btn-view " href="http://duofriend.com/user/toregister.do">免费体验</a>
             </div>
             <div class="container bro-container" id="j-show">
-                <div class="browsers">
+                <div class="browsers  cd-section" id="section1">
                     <div class="left browser j-browser on done"></div>
                     <div class="right browser j-browser on done"></div>
                     <div class="center browser j-browser on done">
@@ -61,27 +69,8 @@
         </div>
     </div>
 </div>
-<nav class="cd-vertical-nav">
-		<ul>
-			<li><a href="#section1" class="active"><span class="label">适用场景</span></a></li>
-			<li><a href="#section2"><span class="label">怎么来</span></a></li>
-			<li><a href="#section3"><span class="label">服务体验</span></a></li>
-			<li><a href="#section4"><span class="label">门店管理</span></a></li>
-			<li><a href="#section5"><span class="label">选择我们</span></a></li>
-		</ul>
-	</nav>
-<!-- <nav class="cd-vertical-nav">
-    <ul>
-        <li><a href="#s1" class="active smooth"><span class="label">适用场景</span></a></li>
-        <li><a href="#s2" class="smooth"><span class="label">怎么来</span></a></li>
-        <li><a href="#s3" class="smooth"><span class="label">服务体验</span></a></li>
-        <li><a href="#s4" class="smooth"><span class="label">门店管理</span></a></li>
-        <li><a href="#s5" class="smooth"><span class="label">选择我们</span></a></li>
-    </ul>
-</nav> -->
-<div class="man-cj cd-section" id="section1">
-    <a name="s1"></a>
-    <a name="s2"></a>
+
+<div class="man-cj">
     <h2 class="mated1 infinite fadeInUp">适用场景</h2>
     <p class="mated2 infinite fadeInUp">支持多业态多场景，全面解决美容美发行业经营需求</p>
     <div class="man-cj-box mated2 infinite fadeInUp" >
@@ -127,7 +116,6 @@
     <div class="man-customer-box animated">
         <div class="man-customer-l">
             <h4 class="man-c-l-h4 animated" style="opacity: 0;">顾客怎么来？</h4>
-            <a name="s3"></a>
             <ul class="man-c-l-ul animated" style="opacity: 0;">
                 <li class="animated" style="opacity: 0;" id="txt1">精美的线上商城帮助商家展示自己的服务优势</li>
                 <li class="animated" style="opacity: 0;" id="txt2">海量的移动互联网营销创意营销工具，让顾客随时分享和传播</li>
@@ -162,7 +150,6 @@
     </div>
     <div class="man-kuais-r">
         <h4 class="man-c-l-h4 animated" style="opacity: 0;" id="sh5">怎么为顾客提供快速、优质的服务体验？</h4>
-        <a name="s4"></a>
         <ul class="man-c-l-ul">
             <li id="sh6" class="animated" style="opacity: 0;">智能化服务开单系统，支持会员权益应用、开卡充值等，仅需一台收银一体机 就可以完成全流程的经营管理操作</li>
             <li id="sh7" class="animated" style="opacity: 0;">无缝结合收银机、扫码枪等各式硬件，支持微信、支付宝、银联等多种支付方式</li>
@@ -199,7 +186,7 @@
         </div>
     </div>
 </div>
-<div class="man-choice cd-section" id="section5">
+<div class="man-choice">
     <img src="../images/sy19.png">
     <div class="man-choice-box animated" style="opacity: 0;">
         <h4 class="man-choice-b-h4">选择我们的<span id="choice1" class="animated" style="opacity: 0;">3</span>大理由</h4>
@@ -229,13 +216,13 @@
     </div>
 </div>
 <div class="response_shows animated" id="choice4" style="opacity: 0;">
-    <div class="response_shows_box wow bounceIn">
+    <div class="response_shows_box wow bounceIn cd-section" id="section5">
         <div class="pc" onclick="goToSYRJ()" style="cursor:pointer">
             <img src="../images/sy23.png" alt="PC展示" />
             <div class="pic">
-                <a href="javascript:;"><div class="item"><img src="../images/sy24.png" /></div></a>
-                <a href="javascript:;"><div class="item"><img src="../images/sy25.png"/></div></a>
-                <a href="javascript:;"><div class="item"><img src="../images/sy26.png"/></div></a>
+                <a href="https://v.qq.com/x/page/b0507nf8yen.html"><div class="item"><img src="../images/sy24.png" /></div></a>
+                <a href="https://v.qq.com/x/page/b0507nf8yen.html"><div class="item"><img src="../images/sy25.png"/></div></a>
+                <a href="https://v.qq.com/x/page/b0507nf8yen.html"><div class="item"><img src="../images/sy26.png"/></div></a>
             </div>
         </div>
         <div class="thumb"></div>
@@ -277,11 +264,8 @@
 <script src="../js/main.js"></script>
 <script src="../js/jquery-2.2.2.min.js"></script>
 <script src="../js/index.js"></script>
-<!-- <script src="../js/steam.js"></script> -->
-<!-- <script src="../js/main.js"></script> -->
 <script src="../js/particles.js"></script>
 <script src="../js/app.js"></script>
-<!-- <script src="../js/modernizr.min.js"></script> -->
  <script src="../js/effects.js"></script>
 <script src="../js/number/jquery.countup.min.js"></script>
 <script src="../js/number/jquery.countup.js"></script>
