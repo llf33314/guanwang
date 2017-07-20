@@ -13,15 +13,14 @@
 </head>
 <body>
 <%@include file="/html/look/html/common/banner.jsp" %>
-
 <nav class="cd-vertical-nav">
-    <ul>
-        <li><a href="#p1" class="active smooth"><span class="label">爱尚</span></a></li>
-        <li><a href="#p2" class="smooth"><span class="label">魅饰</span></a></li>
-        <li><a href="#p3" class="smooth"><span class="label">唯美妍</span></a></li>
-        <li><a href="#p4" class="smooth"><span class="label">更多商家</span></a></li>
-    </ul>
-</nav>
+		<ul>
+			<li><a href="#section1 " class="active"><span class="label">爱尚</span></a></li>
+			<li><a href="#section2"><span class="label">魅饰</span></a></li>
+			<li><a href="#section3"><span class="label">唯美妍</span></a></li>
+			<li><a href="#section4"><span class="label">更多商家</span></a></li>
+		</ul>
+	</nav>
 <div class="manner-banner">
     <div class="container " style="height: 420px;"><div id="particles-js" style="height:420px;"></div></div>
     <div class="pp-title">
@@ -29,7 +28,7 @@
         <a class="btn btn-lg btn-default btn-view" href="http://duofriend.com/user/toregister.do">免费体验</a>
     </div>
 </div>
-<div class="m-brand">
+<div class="m-brand cd-section" id="section1">
     <a name="p1"></a>
     <div class="m-brand-cos">
         <div class="m-brand-cos-l">
@@ -58,7 +57,7 @@
         <img src="../images/app4.png" id="brand4">
     </div>
 </div>
-<div class="m-brand-mode">
+<div class="m-brand-mode cd-section" id="section2">
     <a name="p2"></a>
     <div class="m-brand-top">
         <h3 class="m-s-r-h3">魅饰时尚造型</h3>
@@ -90,7 +89,7 @@
         </div>
     </div>
 </div>
-<div class="m-brand-core">
+<div class="m-brand-core cd-section" id="section3">
     <div class="m-brand-core-box">
         <div class="m-brand-core-l animated" style="opacity: 0;">
             <h3 class="m-s-r-h3">唯美妍美容中心</h3>
@@ -128,7 +127,7 @@
         </div>
     </div>
 </div>
-<div class="m-brand-more">
+<div class="m-brand-more cd-section" id="section4">
     <div class="m-brand-more-box">
         <div class="m-brand-top">
             <h3 class="m-s-r-h3" style="width: 250px;">更多商家正在使用样子</h3>
@@ -175,8 +174,11 @@
         document.getElementById("wxImg").style.display='none';
     }
 </script>
+<script src="../js/modernizr.js"></script>
+<script>window.jQuery || document.write('<script src="../js/jquery-2.1.1.min.js"><\/script>')</script>
+<script src="../js/main.js"></script>
 <script src="../js/index.js"></script>
-<script src="../js/steam.js"></script>
+<!-- <script src="../js/steam.js"></script> -->
 <script src="../js/particles.js"></script>
 <script src="../js/app.js"></script>
 <script src="../js/modernizr.min.js"></script>

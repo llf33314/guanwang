@@ -31,21 +31,21 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g1.png" /></span>小馋猫ERP单店版 </li>
-                                   <li><span><img src="../images/g1.png" /></span>店员端小程序（APP）</li>
-                                   <li><span><img src="../images/g1.png" /></span>老板端小程序（APP） </li>
-                                   <li><span><img src="../images/g1.png" /></span>公众号管理 </li>
-                                   <li><span><img src="../images/g1.png" /></span>微官网 </li>
-                                   <li><span><img src="../images/g1.png" /></span>会员系统 </li>
-                                   <li><span><img src="../images/g1.png" /></span>H5互动游戏（10套）</li>
-                                   <li><span><img src="../images/g1.png" /></span>微场景</li>
+                                   <li><span><img src="../images/g1.png" /></span>大白ERP（2店版） </li>
+                                   <li><span><img src="../images/g1.png" /></span>店员端小程序</li>
+                                   <li><span><img src="../images/g1.png" /></span>老板端小程序</li>
+                                   <li><span><img src="../images/g1.png" /></span>免费派券渠道</li>
+                                   <li><span><img src="../images/g1.png" /></span>公众号管理</li>
+                                   <li><span><img src="../images/g1.png" /></span>行业版应用</li>
+                                   <li><span><img src="../images/g1.png" /></span>会员系统</li>
+                                   <li><span><img src="../images/g1.png" /></span>收银台</li>
                                    <li><span><img src="../images/g1.png" /></span>优惠券</li>
-                                   <li><span><img src="../images/g1.png" /></span>推广工具</li>
-                                   <li><span><img src="../images/g1.png" /></span>微商城 </li>
-                                   <li><span><img src="../images/g1.png" /></span>行业版应用 </li>
-                                   <li><span><img src="../images/g1.png" /></span>支付工具</li>
-                                   <li><span><img src="../images/g1.png" /></span>免费提供POS机</li>
+                                   <li><span><img src="../images/g1.png" /></span>微商城</li>
                                    <li><span><img src="../images/g1.png" /></span>分销系统</li>
+                                   <li><span><img src="../images/g1.png" /></span>推广工具</li>
+                                   <li><span><img src="../images/g1.png" /></span>存销宝（2店多账号）</li>
+                                   <li><span><img src="../images/g1.png" /></span>免费的收银硬件支持</li>
+                                   <li><span><img src="../images/g1.png" /></span>H5互动游戏（10套）</li>
                                    <li><span><img src="../images/g1.png" /></span>粉巢系统（1套模板）</li>
                                    
                                </ul>
@@ -61,21 +61,21 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g2.png" /></span>小馋猫ERP连锁版（3店）</li>
-                                   <li><span><img src="../images/g2.png" /></span>店员端小程序（APP）</li>
-                                   <li><span><img src="../images/g2.png" /></span>老板端小程序（APP） </li>
-                                   <li><span><img src="../images/g2.png" /></span>公众号管理 </li>
-                                   <li><span><img src="../images/g2.png" /></span>微官网 </li>
-                                   <li><span><img src="../images/g2.png" /></span>会员系统 </li>
-                                   <li><span><img src="../images/g2.png" /></span>H5互动游戏（15套）</li>
-                                   <li><span><img src="../images/g2.png" /></span>微场景</li>
+                                   <li><span><img src="../images/g2.png" /></span>大白ERP（5店版）</li>
+                                   <li><span><img src="../images/g2.png" /></span>店员端小程序</li>
+                                   <li><span><img src="../images/g2.png" /></span>老板端小程序</li>
+                                   <li><span><img src="../images/g2.png" /></span>免费派券渠道</li>
+                                   <li><span><img src="../images/g2.png" /></span>公众号管理</li>
+                                   <li><span><img src="../images/g2.png" /></span>行业版应用</li>
+                                   <li><span><img src="../images/g2.png" /></span>会员系统</li>
+                                   <li><span><img src="../images/g2.png" /></span>收银台</li>
                                    <li><span><img src="../images/g2.png" /></span>优惠券</li>
-                                   <li><span><img src="../images/g2.png" /></span>推广工具</li>
-                                   <li><span><img src="../images/g2.png" /></span>微商城 </li>
-                                   <li><span><img src="../images/g2.png" /></span>行业版应用 </li>
-                                   <li><span><img src="../images/g2.png" /></span>支付工具</li>
-                                   <li><span><img src="../images/g2.png" /></span>免费提供POS机</li>
+                                   <li><span><img src="../images/g2.png" /></span>微商城</li>
                                    <li><span><img src="../images/g2.png" /></span>分销系统</li>
+                                   <li><span><img src="../images/g2.png" /></span>推广工具</li>
+                                   <li><span><img src="../images/g2.png" /></span>存销宝（5店多账号）</li>
+                                   <li><span><img src="../images/g2.png" /></span>免费的收银硬件支持</li>
+                                   <li><span><img src="../images/g2.png" /></span>H5互动游戏（15套）</li>
                                    <li><span><img src="../images/g2.png" /></span>粉巢系统（3套模板）</li>
                                    
                                </ul>
@@ -91,22 +91,22 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g3.png" /></span>小馋猫ERP连锁版（5店） </li>
-                                   <li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
-                                   <li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
-                                   <li><span><img src="../images/g3.png" /></span>公众号管理 </li>
-                                   <li><span><img src="../images/g3.png" /></span>微官网 </li>
-                                   <li><span><img src="../images/g3.png" /></span>会员系统 </li>
-                                   <li><span><img src="../images/g3.png" /></span>H5互动游戏（20套）</li>
-                                   <li><span><img src="../images/g3.png" /></span>微场景</li>
-                                   <li><span><img src="../images/g3.png" /></span>优惠券</li>
-                                   <li><span><img src="../images/g3.png" /></span>推广工具</li>
-                                   <li><span><img src="../images/g3.png" /></span>微商城 </li>
-                                   <li><span><img src="../images/g3.png" /></span>行业版应用 </li>
-                                   <li><span><img src="../images/g3.png" /></span>支付工具</li>
-                                   <li><span><img src="../images/g3.png" /></span>免费提供POS机</li>
-                                   <li><span><img src="../images/g3.png" /></span>分销系统</li>
-                                   <li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
+                                    <li><span><img src="../images/g3.png" /></span>大白ERP（8店版）</li>
+                                    <li><span><img src="../images/g3.png" /></span>店员端小程序</li>
+			                        <li><span><img src="../images/g3.png" /></span>老板端小程序</li>
+			                        <li><span><img src="../images/g3.png" /></span>免费派券渠道</li>
+			                        <li><span><img src="../images/g3.png" /></span>公众号管理</li>
+			                        <li><span><img src="../images/g3.png" /></span>行业版应用</li>
+			                        <li><span><img src="../images/g3.png" /></span>会员系统</li>
+			                        <li><span><img src="../images/g3.png" /></span>收银台</li>
+			                        <li><span><img src="../images/g3.png" /></span>优惠券</li>
+			                        <li><span><img src="../images/g3.png" /></span>微商城</li>
+			                        <li><span><img src="../images/g3.png" /></span>分销系统</li>
+			                        <li><span><img src="../images/g3.png" /></span>推广工具 </li>
+			                        <li><span><img src="../images/g3.png" /></span>存销宝（8店多账号）</li>
+			                        <li><span><img src="../images/g3.png" /></span>免费的收银硬件支持</li>
+			                        <li><span><img src="../images/g3.png" /></span>H5互动游戏（20套）</li>
+			                        <li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
                                    
                                </ul>
                                <a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立刻购买</a>
@@ -121,22 +121,22 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g3.png" /></span>小馋猫ERP连锁版（5店） </li>
-                                   <li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
-                                   <li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
-                                   <li><span><img src="../images/g3.png" /></span>公众号管理 </li>
-                                   <li><span><img src="../images/g3.png" /></span>微官网 </li>
-                                   <li><span><img src="../images/g3.png" /></span>会员系统 </li>
-                                   <li><span><img src="../images/g3.png" /></span>H5互动游戏（20套）</li>
-                                   <li><span><img src="../images/g3.png" /></span>微场景</li>
-                                   <li><span><img src="../images/g3.png" /></span>优惠券</li>
-                                   <li><span><img src="../images/g3.png" /></span>推广工具</li>
-                                   <li><span><img src="../images/g3.png" /></span>微商城 </li>
-                                   <li><span><img src="../images/g3.png" /></span>行业版应用 </li>
-                                   <li><span><img src="../images/g3.png" /></span>支付工具</li>
-                                   <li><span><img src="../images/g3.png" /></span>免费提供POS机</li>
-                                   <li><span><img src="../images/g3.png" /></span>分销系统</li>
-                                   <li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
+                                   <li><span><img src="../images/g3.png" /></span>大白ERP（8店版）</li>
+                                    <li><span><img src="../images/g3.png" /></span>店员端小程序</li>
+			                        <li><span><img src="../images/g3.png" /></span>老板端小程序</li>
+			                        <li><span><img src="../images/g3.png" /></span>免费派券渠道</li>
+			                        <li><span><img src="../images/g3.png" /></span>公众号管理</li>
+			                        <li><span><img src="../images/g3.png" /></span>行业版应用</li>
+			                        <li><span><img src="../images/g3.png" /></span>会员系统</li>
+			                        <li><span><img src="../images/g3.png" /></span>收银台</li>
+			                        <li><span><img src="../images/g3.png" /></span>优惠券</li>
+			                        <li><span><img src="../images/g3.png" /></span>微商城</li>
+			                        <li><span><img src="../images/g3.png" /></span>分销系统</li>
+			                        <li><span><img src="../images/g3.png" /></span>推广工具 </li>
+			                        <li><span><img src="../images/g3.png" /></span>存销宝（8店多账号）</li>
+			                        <li><span><img src="../images/g3.png" /></span>免费的收银硬件支持</li>
+			                        <li><span><img src="../images/g3.png" /></span>H5互动游戏（20套）</li>
+			                        <li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
                                    
                                </ul>
                                <a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立刻购买</a>
@@ -151,23 +151,23 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g4.png" /></span>小馋猫ERP连锁版（8店） </li>
-                                   <li><span><img src="../images/g4.png" /></span>店员端小程序（APP）</li>
-                                   <li><span><img src="../images/g4.png" /></span>老板端小程序（APP） </li>
-                                   <li><span><img src="../images/g4.png" /></span>公众号管理 </li>
-                                   <li><span><img src="../images/g4.png" /></span>微官网 </li>
-                                   <li><span><img src="../images/g4.png" /></span>会员系统 </li>
-                                   <li><span><img src="../images/g4.png" /></span>H5互动游戏（20+套）</li>
-                                   <li><span><img src="../images/g4.png" /></span>微场景</li>
-                                   <li><span><img src="../images/g4.png" /></span>优惠券</li>
-                                   <li><span><img src="../images/g4.png" /></span>推广工具</li>
-                                   <li><span><img src="../images/g4.png" /></span>微商城 </li>
-                                   <li><span><img src="../images/g4.png" /></span>行业版应用 </li>
-                                   <li><span><img src="../images/g4.png" /></span>支付工具</li>
-                                   <li><span><img src="../images/g4.png" /></span>免费提供POS机</li>
-                                   <li><span><img src="../images/g4.png" /></span>分销系统</li>
-                                   <li><span><img src="../images/g4.png" /></span>粉巢系统（定制模板）</li>
-                                   
+                                    <li><span><img src="../images/g4.png" /></span>大白ERP（12店版）</li>
+                                    <li><span><img src="../images/g4.png" /></span>店员端小程序</li>
+			                        <li><span><img src="../images/g4.png" /></span>老板端小程序</li>
+			                        <li><span><img src="../images/g4.png" /></span>免费派券渠道</li>
+			                        <li><span><img src="../images/g4.png" /></span>公众号管理</li>
+			                        <li><span><img src="../images/g4.png" /></span>行业版应用</li>
+			                        <li><span><img src="../images/g4.png" /></span>会员系统</li>
+			                        <li><span><img src="../images/g4.png" /></span>收银台</li>
+			                        <li><span><img src="../images/g4.png" /></span>优惠券</li>
+			                        <li><span><img src="../images/g4.png" /></span>微商城</li>
+			                        <li><span><img src="../images/g4.png" /></span>分销系统</li>
+			                        <li><span><img src="../images/g4.png" /></span>推广工具</li>
+			                        <li><span><img src="../images/g4.png" /></span>存销宝（12店多账号）</li>
+			                        <li><span><img src="../images/g4.png" /></span>免费的收银硬件支持</li>
+			                        <li><span><img src="../images/g4.png" /></span>H5互动游戏（20套+）</li>
+			                        <li><span><img src="../images/g4.png" /></span>粉巢系统（定制模板）</li>
+			                                   
                                </ul>
                                <a href="javascript:;"  id="cont-d" class="base_abtn" onclick="pay(14)">立刻购买</a>
                            </div>
