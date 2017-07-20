@@ -180,7 +180,7 @@
                         <li><span><img src="../images/g4.png" /></span>推广工具</li>
                         <li><span><img src="../images/g4.png" /></span>存销宝（12店多账号）</li>
                         <li><span><img src="../images/g4.png" /></span>免费的收银硬件支持</li>
-                        <li><span><img src="../images/g4.png" /></span>H5互动游戏（20套）</li>
+                        <li><span><img src="../images/g4.png" /></span>H5互动游戏（20套+）</li>
                         <li><span><img src="../images/g4.png" /></span>粉巢系统（定制模板）</li>
 
                     </ul>
