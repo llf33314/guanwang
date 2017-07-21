@@ -63,14 +63,17 @@
 
             // Updates the number until we're done
             var f = function() {
-                $this.text($this.data('counterup-nums').shift());
-                if ($this.data('counterup-nums').length) {
-                    setTimeout($this.data('counterup-func'),delay);
-                } else {
-                    delete $this.data('counterup-nums');
-                    $this.data('counterup-nums', null);
-                    $this.data('counterup-func', null);
+                if($this.data('counterup-nums')){
+                    $this.text($this.data('counterup-nums').shift());
+                    if ($this.data('counterup-nums').length) {
+                        setTimeout($this.data('counterup-func'),delay);
+                    } else {
+                        delete $this.data('counterup-nums');
+                        $this.data('counterup-nums', null);
+                        $this.data('counterup-func', null);
+                    }
                 }
+
             };
             $this.data('counterup-func', f);
 
