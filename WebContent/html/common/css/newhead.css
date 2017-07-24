@@ -1,4 +1,4 @@
-body{color:#333;font-family: "微软雅黑";}
+body{color:#333;font-family: "微软雅黑";font: inherit;font-size: 100%;}
 *{padding:0;margin:0;}
 li{list-style: none;}
 a{text-decoration:none;color:#333;}
@@ -25,7 +25,17 @@ a{text-decoration:none;color:#333;}
     display: flex;
 }
 .gt-a-top-box-logo{
-	line-height: 8;
+	position: relative;
+    top: -6px;
+    left: 0;
+    width: 95px;
+}
+.gt-a-top-box-title{
+	position: absolute;
+    top: 22px;
+    font-size: xx-small;
+    letter-spacing: -1px;
+    left: 11px;
 }
 .gt-a-top-box-sigle{
 	display: flex;
@@ -47,15 +57,15 @@ a{text-decoration:none;color:#333;}
 .gt-a-top-box-use {
     width: 370px;
     font-size: 12px;
-    margin-left: 145px;
+    margin-left: 140px;
     display: inline-block;
 }
 .a-top-firstspan{
-	height: 80px;
+	height: 78px;
     display: inline-block;
 }
 .a-top-firstspan:hover{
-	border-bottom: 1px solid #2D8EFE;
+	border-bottom: 2px solid #2D8EFE;
     line-height: 80px;
 }
 .a-top-use-cen{
@@ -100,6 +110,10 @@ a{text-decoration:none;color:#333;}
     margin-left: 30px;
     float: left;
 }
+.in{
+	font-size: 45px;
+    color: #e72129;
+}
 .a-pro-a{
 	top: 6px;
     width: 238px;
@@ -107,103 +121,75 @@ a{text-decoration:none;color:#333;}
 .a-pro-a:hover{
 	color:#2d8efe;
 }
-.a-pro-a .a-pic-a{
-	float: left;
-    margin: 5px 8px 0 0;
-    background-image: url(/images/index/at1.png);
-    height: 17px;
-    width: 17px;
+.in1{
+	font-size:20px;
+	float:left;
+	margin: 5px 8px 0 0;
 }
-.a-pro-a:hover .a-pic-a{
+.a-pro-a:hover .in1{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at1-1.png);
-    height: 17px;
-    width: 17px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-b{
+.a-pro-a .in2{
 	float: left;
-    margin: 5px 8px 0 0;
-    background-image: url(/images/index/at2.png);
-    height: 13px;
-    width: 21px;
+    margin: 2px 7px 0px -11px;
+    font-size:25px;
 }
-.a-pro-a:hover .a-pic-b{
+.a-pro-a:hover .in2{
 	float: left;
-    margin: 5px 8px 0 0;
-    background-image: url(/images/index/at2-1.png);
-    height: 13px;
-    width: 21px;
+    margin: 2px 7px 0px -11px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-c{
+.a-pro-a .in3{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at3.png);
-    height: 14px;
-    width: 14px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-c{
+.a-pro-a:hover .in3{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at3-1.png);
-    height: 14px;
-    width: 14px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-d{
+.a-pro-a .in4{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at4.png);
-    height: 15px;
-    width: 17px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-d{
+.a-pro-a:hover .in4{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at4-1.png);
-    height: 15px;
-    width: 17px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-e{
+.a-pro-a .in5{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at5.png);
-    height: 17px;
-    width: 17px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-e{
+.a-pro-a:hover .in5{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at5-1.png);
-    height: 17px;
-    width: 17px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-f{
+.a-pro-a .in6{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at6.png);
-    height: 15px;
-    width: 17px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-f{
+.a-pro-a:hover .in6{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at6-1.png);
-    height: 15px;
-    width: 17px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-g{
+.a-pro-a .in7{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at7.png);
-    height: 13px;
-    width: 18px;
+    font-size:15px;
 }
-.a-pro-a:hover .a-pic-g{
+.a-pro-a:hover .in7{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at7-1.png);
-    height: 13px;
-    width: 18px;
+    color:#2d8efe;
 }
 .a-pro-a span{
 	float: left;
@@ -224,7 +210,7 @@ a{text-decoration:none;color:#333;}
 .a-pro-a:hover span p{
 	color:#2d8efe;
 }
-#a-show2{display: none;}
+ #a-show2{display: none;}
 /*solve*/
 .a-top-solve{
 	height: 273px;
@@ -248,145 +234,105 @@ a{text-decoration:none;color:#333;}
     margin-left: 32px;
     float: left;
 }
-.a-pro-a .a-pic-h{
+.a-pro-a .in8{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at8.png);
-    height: 17px;
-    width: 15px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-h{
+.a-pro-a:hover .in8{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at8-1.png);
-    height: 17px;
-    width: 15px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-i{
+.a-pro-a .in9{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at9.png);
-    height: 15px;
-    width: 21px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-i{
+.a-pro-a:hover .in9{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at9-1.png);
-    height: 15px;
-    width: 21px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-j{
+.a-pro-a .in10{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at10.png);
-    height: 16px;
-    width: 17px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-j{
+.a-pro-a:hover .in10{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at10-1.png);
-    height: 16px;
-    width: 17px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-k{
+.a-pro-a .in11{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at11.png);
-    height: 15px;
-    width: 15px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-k{
+.a-pro-a:hover .in11{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at11-1.png);
-    height: 15px;
-    width: 15px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-l{
+.a-pro-a .in12{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at12.png);
-    height: 14px;
-    width: 14px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-l{
+.a-pro-a:hover .in12{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at12-1.png);
-    height: 14px;
-    width: 14px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-m{
+.a-pro-a .in13{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at13.png);
-    height: 11px;
-    width: 21px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-m{
+.a-pro-a:hover .in13{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at13-1.png);
-    height: 11px;
-    width: 21px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-n{
+.a-pro-a .in14{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at14.png);
-    height: 12px;
-    width: 19px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-n{
+.a-pro-a:hover .in14{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at14-1.png);
-    height: 12px;
-    width: 19px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-o{
+.a-pro-a .in15{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at15.png);
-    height: 15px;
-    width: 17px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-o{
+.a-pro-a:hover .in15{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at15-1.png);
-    height: 15px;
-    width: 17px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-p{
+.a-pro-a .in16{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at16.png);
-    height: 15px;
-    width: 15px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-p{
+.a-pro-a:hover .in16{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at16-1.png);
-    height: 15px;
-    width: 15px;
+    color:#2d8efe;
 }
-.a-pro-a .a-pic-q{
+.a-pro-a .in17{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at17.png);
-    height: 14px;
-    width: 10px;
+    font-size:20px;
 }
-.a-pro-a:hover .a-pic-q{
+.a-pro-a:hover .in17{
 	float: left;
     margin: 5px 8px 0 0;
-    background-image: url(/images/index/at17-1.png);
-    height: 14px;
-    width: 10px;
+    color:#2d8efe;
 }
 #b-show2{display: none;}
 /*join*/

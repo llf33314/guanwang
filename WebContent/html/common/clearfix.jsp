@@ -1,14 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <link rel="stylesheet" href="/html/common/css/newhead.css"/>
+<link rel="stylesheet" href="/html/font-one/iconfont.css"/>
+<script src="/html/font-two/iconfont.js"></script>
 <div class="gt-a-top">
     <div class="gt-a-top-box">
-        <div class="gt-a-top-box-logo"><a href="/html/index.jsp"><img src="/images/index/alogo.png"></a></div>
+        <div class="gt-a-top-box-logo"><a href="/html/index.jsp">
+           <span><i class="iconfont in">&#xe616;</i></span>
+           <span class="gt-a-top-box-title"><p>用多粉，好生意</p></span>
+           </a></div>
         <ul class="gt-a-top-box-sigle">
             <li class="a-top-firstli"><a href="/html/index.jsp">首页</a></li>
             <li class="a-top-firstli" id="a-show"><a href="javascript:;">产品中心</a>
                 <ul class="a-top-product" id="a-show2">
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-a"></div>
+                        <div class="a-pro-a"><i class="iconfont in1">&#xe899;</i></div>
                         <a href="/html/fansNest.jsp">
 	                       <span>
 	                           <h3>粉巢系统</h3>
@@ -16,7 +21,7 @@
 	                       </span>
                         </a>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-b"></div>
+                        <div class="a-pro-a"><i class="iconfont in2">&#xe664;</i></div>
                         <a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp">
                          <span>
                             <h3>商家联盟</h3>
@@ -25,7 +30,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-c"></div>
+                        <div class="a-pro-a"><i class="iconfont in3">&#xe627;</i></div>
                         <a href="/html/weixinSell.jsp">
 	                     <span>
 	                         <h3>微信营销</h3>
@@ -34,7 +39,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-d"></div>
+                        <div class="a-pro-a"><i class="iconfont in4">&#xe602;</i></div>
                         <a href="/html/weixinapp.jsp">
 	                     <span>
 	                         <h3>微信小程序</h3>
@@ -43,7 +48,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-e"></div>
+                        <div class="a-pro-a"><i class="iconfont in5">&#xe669;</i></div>
                         <a href="/html/coupon.jsp">
 	                     <span>
 	                         <h3>优惠券发放平台</h3>
@@ -52,7 +57,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-f"></div>
+                        <div class="a-pro-a"><i class="iconfont in6">&#xe607;</i></div>
                         <a href="/html/generation_operation.jsp">
 	                     <span>
 	                         <h3>代运营</h3>
@@ -61,7 +66,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-g"></div>
+                        <div class="a-pro-a"><i class="iconfont in7">&#xe666;</i></div>
                         <a href="/html/wcy.jsp">
 	                     <span>
 	                         <h3>微信行业应用</h3>
@@ -74,7 +79,7 @@
             <li class="a-top-firstli" id="b-show"><a href="javascript:;">解决方案</a>
                 <ul class="a-top-solve" id="b-show2">
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-h"></div>
+                        <div class="a-pro-a"><i class="iconfont in8">&#xe62c;</i></div>
                         <a href="/html/look/html/index.jsp">
 		                     <span>
 		                         <h3>样子</h3>
@@ -83,7 +88,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-i"></div>
+                        <div class="a-pro-a"><i class="iconfont in9">&#xe64d;</i></div>
                         <a href="javascript:void(0);">
 		                     <span>
 		                         <h3>小盼</h3>
@@ -92,7 +97,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-j"></div>
+                        <div class="a-pro-a"><i class="iconfont in10">&#xe61e;</i></div>
                         <a href="javascript:void(0);">
 		                     <span>
 		                         <h3>来店</h3>
@@ -101,7 +106,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-k"></div>
+                        <div class="a-pro-a"><i class="iconfont in11">&#xe85f;</i></div>
                         <a href="/html/smarty_hotel.jsp">
 		                     <span>
 		                         <h3>小驿</h3>
@@ -110,7 +115,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-l"></div>
+                        <div class="a-pro-a"><i class="iconfont in12">&#xe618;</i></div>
                         <a href="/html/BigWhite/html/index.jsp">
 		                     <span>
 		                         <h3>大白</h3>
@@ -119,7 +124,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-m"></div>
+                        <div class="a-pro-a"><i class="iconfont in13">&#xe653;</i></div>
                         <a href="/html/LittleGreedyCat/html/index.jsp">
 		                     <span>
 		                         <h3>小馋猫</h3>
@@ -128,7 +133,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-n"></div>
+                        <div class="a-pro-a"><i class="iconfont in14">&#xe65e;</i></div>
                         <a href="/html/CarCount/html/index.jsp">
 		                     <span>
 		                         <h3>车小算</h3>
@@ -137,7 +142,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-o"></div>
+                        <div class="a-pro-a"><i class="iconfont in15">&#xe648;</i></div>
                         <a href="javascript:void(0);">
 		                     <span>
 		                         <h3>存销宝</h3>
@@ -146,7 +151,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-p"></div>
+                        <div class="a-pro-a"><i class="iconfont in16">&#xe64f;</i></div>
                         <a href="/html/wuye.jsp">
 		                     <span>
 		                         <h3>揽胜家园</h3>
@@ -155,7 +160,7 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a a-pic-q"></div>
+                        <div class="a-pro-a"><i class="iconfont in17">&#xe6f2;</i></div>
                         <a href="javascript:;">
 		                     <span>
 		                         <h3>员工食堂</h3>
@@ -183,7 +188,8 @@
     </div>
 </div>
 <div class="a-whole"></div>
-<script type="text/javascript">
+<script src="../js/index/jquery-2.2.2.min.js"></script>
+ <script type="text/javascript">
 $(document).ready(function(){
 	  $("#a-show").mouseenter(function(){
 	  $("#a-show2").show();
@@ -209,5 +215,5 @@ $(document).ready(function(){
 		  });
 		});
 	
-</script>
+</script> 
    
