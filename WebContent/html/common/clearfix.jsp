@@ -1,131 +1,213 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<style>
-	#home_login:HOVER{
-		background-color: #37a2f5;
-		border-color: #37a2f5;
-	}
-	#home_reg:HOVER{
-		background-color: #37a2f5;
-		border-color: #37a2f5;
-	}
-	.normal-abtn:HOVER{
-		color: #37a2f5 !important;
-	}
-	.fie6:HOVER{
-		color: #37a2f5 !important;
-	}
-	.subbox a:HOVER {
-		color: #37a2f5 !important;
-	}
-</style>
-     <div class="clearfix header">
-          <div class="bg"></div>
-          <div class="wrap1200">
-              <h1 class="fl logo" onclick="goHome();" style="cursor: pointer;"><div class="gt-a-top-box-logo"><a href="/html/index.jsp"><img src="/images/index/alogo.png"></a></div></h1>
-              <div class="fr usercenter">
-                   <a href="/html/instructions.jsp" class="normal-abtn">使用手册</a>
-                   <a href="http://duofriend.com/user/toregister.do" class="normal-abtn">免费试用</a>
-                   <a href="/html/product-trends/register-user.jsp" class="normal-abtn">代理登录</a>
-                   <a href="http://duofriend.com/user/tologin.do" style="margin-left: 30px;" id="home_login" class="abtn login">登录</a>
-                   <a href="http://duofriend.com/user/toregister.do" id="home_reg" class="abtn reg">注册</a>
-              </div>
-              <ul class="fl nav organbox" id="clearfix_header">
-                  <li><a href="/html/index.jsp" class="fie6">首页</a></li>
-                  <li class="firstli"><a href="javascript:void(0);" target="_blank" class="fie6">产品中心</a>
-                     <ul class="subbox">
-                         <li><a href="/html/fansNest.jsp" target="_blank">粉巢系统</a></li>
-                         <li><a href="/html/weixinSell.jsp" target="_blank">微信营销</a></li>
-                         <li><a href="/html/wcy.jsp" target="_blank">微信行业应用</a></li>
-                         <li><a href="/html/weixinapp.jsp" target="_blank">微信小程序</a></li>
-                         <li><a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp" target="_blank">商家联盟</a></li>
-                         <li><a href="/html/coupon.jsp" target="_blank">优惠券发放平台</a></li>
-                         <li><a href="/html/hardware.jsp" target="_blank">多粉硬件</a></li>
-                         <li><a href="/html/generation_operation.jsp" target="_blank">代运营</a></li>
-                         <li style="border-right: 1px #fff solid;width: 1px;height: 128px;position: absolute;left: 45%;top: 12%;"></li>
-                     </ul>
-                  </li>
-                  <li class="firstli"><a href="javascript:void(0);" target="_blank" class="fie6">解决方案</a>
-                     <ul class="subbox">
-                         <li><a href="/html/LittleGreedyCat/html/index.jsp" target="_blank">小馋猫（智慧餐饮）</a></li>
-                         <li><a href="/html/CarCount/html/index.jsp" target="_blank">车小算（汽车美容）</a></li>
-                         <li><a href="/html/look/html/index.jsp" target="_blank">样子（美容美发）</a></li>
-                         <li><a href="/html/smarty_hotel.jsp" target="_blank">小驿（智慧酒店）</a></li>
-                         <li><a href="/html/wuye.jsp" target="_blank">揽胜家园（物业管理） </a></li>
-                         <li><a href="javascript:void(0);" target="_blank">来店（智慧商超）</a></li>
-                         <li><a href="/html/BigWhite/html/index.jsp" target="_blank">大白（社区医疗）</a></li>
-                         <li style="border-right: 1px #fff solid;width: 1px;height: 128px;position: absolute;left: 45%;top: 12%;"></li>
-                     </ul>
-                  </li>
-                  <li><a href="/html/case_center.jsp" target="_blank" class="fie6">客户案例</a></li>
-                  <li class="sigle"><a href="javascript:void(0);"  class="fie6">合作与加盟</a>
-                     <ul class="subbox">
-                         <li><a href="/html/co_convened.jsp" >申请代理</a></li>
-                         <li><a href="/html/technology.jsp" >技术服务商</a></li>
-                     </ul>
-                  </li>
-              </ul>
-          </div>
-     </div>
-<script>
-	var clearfix_selected = $.cookie("clearfix_selected"),
-		clearfix_selected_child = $.cookie("clearfix_selected_child");
-	if(clearfix_selected == null || clearfix_selected == "undefined"){
-		/* $.cookie("clearfix_selected", '首页', {path:'/'});
-		$.cookie("clearfix_selected_child", '首页', {path:'/'}); */
-	}else{
-		/* var lis = $("#clearfix_header").children();
-		console.log($.cookie("clearfix_selected"));
-		for(var i=0;i<lis.length;i++){
-			var a = $(lis[i]).children().html();
-			if($.cookie("clearfix_selected") == a){
-				$(lis[i]).addClass("selected");
-				break;
-			}
-		} */
-		/* console.log(clearfix_selected);
-		console.log(clearfix_selected_child); */
-		/* if(clearfix_selected == '' && clearfix_selected_child == ''){
-			$("#clearfix_header .subbox a").css('color', '#fff');
-			$("#clearfix_header .fie6").css('color', '#fff');
-		}else{
-			$('a:contains('+clearfix_selected+')').css('color', '#37a2f5');
-			$('a:contains('+clearfix_selected_child+')').css('color', '#37a2f5');
-		} */
-	}
-
-	$(function() {
-
-        $("#clearfix_header").children().click(function () {
-            var v = $(this).children().html();
-            if (v == '首页') v = '';
-            $.cookie("clearfix_selected", v, {path: '/'});
-        });
-        /* /* $("#clearfix_header a").click(function(){
-			$("#clearfix_header .subbox a").css('color', '#fff');
-			$("#clearfix_header .fie6").css('color', '#fff');
-			if($('a:contains('+$(this).html()+')').attr('class') != 'fie6'){
-				$(this).parent().parent().parent().find('.fie6').css('color', '#37a2f5');
-			}
-			var vv = $(this).html();
-			if(vv == '首页') vv = '';
-			if(vv != ''){
-				$('.subbox a:contains('+vv+')').css('color', '#37a2f5');
-				$('.fie6:contains('+vv+')').css('color', '#37a2f5');
-			}
-			$.cookie("clearfix_selected_child", vv, {path:'/'});
-			/* console.log($('a:contains('+$(this).html()+')')); */
-        /* });
-
-	}); */
-
-        var goHome = function(){
-            $.cookie(
-                "clearfix_selected", '', {
-
-                    path:'/'});
-            $.cookie(
-                "clearfix_selected_child", '', {path:'/'});
-            location.href='/html/index.jsp';
-        }
-	})
+<link rel="stylesheet" href="/html/common/css/newhead.css"/>
+<div class="gt-a-top">
+    <div class="gt-a-top-box">
+        <div class="gt-a-top-box-logo"><a href="/html/index.jsp"><img src="/images/index/alogo.png"></a></div>
+        <ul class="gt-a-top-box-sigle">
+            <li class="a-top-firstli"><a href="/html/index.jsp">首页</a></li>
+            <li class="a-top-firstli" id="a-show"><a href="javascript:;">产品中心</a>
+                <ul class="a-top-product" id="a-show2">
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-a"></div>
+                        <a href="/html/fansNest.jsp">
+	                       <span>
+	                           <h3>粉巢系统</h3>
+	                           <p>六站合一的跨平台同步系统</p>
+	                       </span>
+                        </a>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-b"></div>
+                        <a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp">
+                         <span>
+                            <h3>商家联盟</h3>
+                            <p>异业商家联盟，资源共享平台</p>
+                         </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-c"></div>
+                        <a href="/html/weixinSell.jsp">
+	                     <span>
+	                         <h3>微信营销</h3>
+	                         <p>提供微信营销技术工具</p>
+	                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-d"></div>
+                        <a href="/html/weixinapp.jsp">
+	                     <span>
+	                         <h3>微信小程序</h3>
+	                         <p>粉丝端、店员端、BOSS端样样具备</p>
+	                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-e"></div>
+                        <a href="/html/coupon.jsp">
+	                     <span>
+	                         <h3>优惠券发放平台</h3>
+	                         <p>免费的优惠券派发渠道，轻松送达</p>
+	                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-f"></div>
+                        <a href="/html/generation_operation.jsp">
+	                     <span>
+	                         <h3>代运营</h3>
+	                         <p>专业团队负责就是不一样</p>
+	                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-g"></div>
+                        <a href="/html/wcy.jsp">
+	                     <span>
+	                         <h3>微信行业应用</h3>
+	                         <p>纯移动版应用，满足商家个性化需求</p>
+	                     </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="a-top-firstli" id="b-show"><a href="javascript:;">解决方案</a>
+                <ul class="a-top-solve" id="b-show2">
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-h"></div>
+                        <a href="/html/look/html/index.jsp">
+		                     <span>
+		                         <h3>样子</h3>
+		                         <p>美容美发解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-i"></div>
+                        <a href="javascript:void(0);">
+		                     <span>
+		                         <h3>小盼</h3>
+		                         <p>智慧教育解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-j"></div>
+                        <a href="javascript:void(0);">
+		                     <span>
+		                         <h3>来店</h3>
+		                         <p>智慧商超解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-k"></div>
+                        <a href="/html/smarty_hotel.jsp">
+		                     <span>
+		                         <h3>小驿</h3>
+		                         <p>酒店PMS解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-l"></div>
+                        <a href="/html/BigWhite/html/index.jsp">
+		                     <span>
+		                         <h3>大白</h3>
+		                         <p>社区门诊医疗解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-m"></div>
+                        <a href="/html/LittleGreedyCat/html/index.jsp">
+		                     <span>
+		                         <h3>小馋猫</h3>
+		                         <p>智慧餐饮解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-n"></div>
+                        <a href="/html/CarCount/html/index.jsp">
+		                     <span>
+		                         <h3>车小算</h3>
+		                         <p>汽车美容快修解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-o"></div>
+                        <a href="javascript:void(0);">
+		                     <span>
+		                         <h3>存销宝</h3>
+		                         <p>智慧进销存解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-p"></div>
+                        <a href="/html/wuye.jsp">
+		                     <span>
+		                         <h3>揽胜家园</h3>
+		                         <p>物业管理解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a a-pic-q"></div>
+                        <a href="javascript:;">
+		                     <span>
+		                         <h3>员工食堂</h3>
+		                         <p>单位/工厂食堂解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="a-top-firstli"><a href="/html/case_center.jsp">客户案例</a></li>
+            <li class="a-top-firstli" id="c-show"><a href="javascript:void(0);">合作与加盟</a>
+                <ul class="a-top-join" id="c-show2">
+                    <li id="a-pro-r"><a href="/html/co_convened.jsp" id="a-chan-sq">申请代理</a></li>
+                    <li id="a-pro-s"><a href="/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="gt-a-top-box-use">
+            <span class="a-top-firstspan"><a href="/html/instructions.jsp" class="a-top-use-cen">使用手册</a></span>
+            <span class="a-top-firstspan"><a href="/html/hardware.jsp" class="a-top-use-cen">硬件支持</a></span>
+            <a href="/html/product-trends/register-user.jsp" class="a-top-use-cen">代理登录</a>
+            <a href="http://duofriend.com/user/tologin.do" class="a-top-use-cen top-sign">登录</a>
+            <a href="http://duofriend.com/user/toregister.do" class="a-top-use-cen top-sign" style="margin-left: 8px">注册</a>
+        </div>
+    </div>
+</div>
+<div class="a-whole"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	  $("#a-show").mouseenter(function(){
+	  $("#a-show2").show();
+	  });
+	  $("#a-show").mouseleave(function(){
+	  $("#a-show2").hide();
+	  });
+	});
+	$(document).ready(function(){
+		  $("#b-show").mouseenter(function(){
+		  $("#b-show2").show();
+		  });
+		  $("#b-show").mouseleave(function(){
+		  $("#b-show2").hide();
+		  });
+		});
+	$(document).ready(function(){
+		  $("#c-show").mouseenter(function(){
+		  $("#c-show2").show();
+		  });
+		  $("#c-show").mouseleave(function(){
+		  $("#c-show2").hide();
+		  });
+		});
+	
 </script>
+   

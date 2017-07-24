@@ -157,7 +157,7 @@ function mealSet(){
 			+'</div>'
 			+'<div class="show">'
 			+'<div class="show1"><span>公众号管理</span></div>'
-			+'<div class="show2" style="display: none;"><p>提供微官网、微官网、微场景、微客服、微名片、留言板、语音消息回复等产品，为企业打造精美又容易管理的线上交流推广平台</p></div>'
+			+'<div class="show2" style="display: none;"><p>提供微官网、微场景、微客服、微名片、留言板、语音消息回复等产品，为企业打造精美又容易管理的线上交流推广平台</p></div>'
 			+'</div>'
 			+'<div class="show">'
 			+'<div class="show1"><span>H5 互动游戏 3 套</span></div>'
@@ -206,7 +206,7 @@ function mealSet(){
 			+'</div>'
 			+'<div class="show">'
 			+'<div class="show1"><span>公众号管理</span></div>'
-			+'<div class="show2" style="display: none;"><p>提供微官网、微官网、微场景、微客服、微名片、留言板、语音消息回复等产品，为企业打造精美又容易管理的线上交流推广平台</p></div>'
+			+'<div class="show2" style="display: none;"><p>提供微官网、微场景、微客服、微名片、留言板、语音消息回复等产品，为企业打造精美又容易管理的线上交流推广平台</p></div>'
 			+'</div>'
 			+'<div class="show">'
 			+'<div class="show1"><span>存销宝（单店单账号）</span></div>'
@@ -455,7 +455,7 @@ function clearIt(){
 	window.clearInterval(it);
 }
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 	  $("#a-show").mouseenter(function(){
 	  $("#a-show2").show();
 	  });
@@ -478,7 +478,7 @@ $(document).ready(function(){
 		  $("#c-show").mouseleave(function(){
 		  $("#c-show2").hide();
 		  });
-		});
+		});*/
 	
 	function gtShow(id, t) {
 		$('.a-swiper-box').find('#id' + id).show().siblings('div')

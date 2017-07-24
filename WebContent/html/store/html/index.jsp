@@ -13,7 +13,6 @@
 </head>
 <body>
 <%@include file="/html/common/clearfix.jsp" %>
-<div class="a-whole"></div>
 <div class="a-micro-top">
     <h1 class="a-micro-title">既能零售批发，又能分销的移动商城</h1>
     <p>基于强大的微商城配置，全方位打造零售、分销、批发商三大特色功能</p>

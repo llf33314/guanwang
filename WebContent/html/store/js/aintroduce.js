@@ -45,7 +45,7 @@ $(document).ready(function(){
 	    var flag = [0,0,0,0,0];
 	    $(window).scroll(function(){
 	         var scrollTop = $(window).scrollTop();
-	              console.log($(window).scrollTop())
+	             /* console.log($(window).scrollTop())*/
 	             if(scrollTop >300 && scrollTop < 500){ 
 	            	/* $(".a-micro-data").find(".a-micro-xa-b").addClass("show");	
 	            	 $(".a-micro-data").find(".a-micro-sa-b").addClass("show");*/
