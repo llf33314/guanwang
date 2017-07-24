@@ -93,15 +93,14 @@
 		} */
 	}
 
-	$(function(){
+	$(function() {
 
-		$("#clearfix_header").children().click(function(){
-			var v = $(this).children().html();
-			if(v == '首页') v = '';
-			$.cookie("clearfix_selected", v, {path:'/'});
-		});
-
-		/* /* $("#clearfix_header a").click(function(){
+        $("#clearfix_header").children().click(function () {
+            var v = $(this).children().html();
+            if (v == '首页') v = '';
+            $.cookie("clearfix_selected", v, {path: '/'});
+        });
+        /* /* $("#clearfix_header a").click(function(){
 			$("#clearfix_header .subbox a").css('color', '#fff');
 			$("#clearfix_header .fie6").css('color', '#fff');
 			if($('a:contains('+$(this).html()+')').attr('class') != 'fie6'){
@@ -115,13 +114,18 @@
 			}
 			$.cookie("clearfix_selected_child", vv, {path:'/'});
 			/* console.log($('a:contains('+$(this).html()+')')); */
-		/* }); 
+        /* });
 
 	}); */
 
-	var goHome = function(){
-		$.cookie("clearfix_selected", '', {path:'/'});
-		$.cookie("clearfix_selected_child", '', {path:'/'});
-		location.href='/html/index.jsp';
-	}
+        var goHome = function(){
+            $.cookie(
+                "clearfix_selected", '', {
+
+                    path:'/'});
+            $.cookie(
+                "clearfix_selected_child", '', {path:'/'});
+            location.href='/html/index.jsp';
+        }
+	})
 </script>

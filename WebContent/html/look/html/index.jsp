@@ -220,9 +220,9 @@
         <div class="pc" onclick="goToSYRJ()" style="cursor:pointer">
             <img src="../images/sy23.png" alt="PC展示" />
             <div class="pic">
-                <a href="https://v.qq.com/x/page/b0507nf8yen.html"><div class="item"><img src="../images/sy24.png" /></div></a>
-                <a href="https://v.qq.com/x/page/b0507nf8yen.html"><div class="item"><img src="../images/sy25.png"/></div></a>
-                <a href="https://v.qq.com/x/page/b0507nf8yen.html"><div class="item"><img src="../images/sy26.png"/></div></a>
+                <a href="javascript:;" onclick='WSFUNCTION.videoFrame("http://v.qq.com/iframe/player.html?vid=b0507nf8yen&auto=0&tiny=0&auto=0");'><div class="item"><img src="../images/sy24.png" /></div></a>
+                <a href="javascript:;" onclick='WSFUNCTION.videoFrame("http://v.qq.com/iframe/player.html?vid=b0507nf8yen&auto=0&tiny=0&auto=0");'><div class="item"><img src="../images/sy25.png"/></div></a>
+                <a href="javascript:;" onclick='WSFUNCTION.videoFrame("http://v.qq.com/iframe/player.html?vid=b0507nf8yen&auto=0&tiny=0&auto=0");'><div class="item"><img src="../images/sy26.png"/></div></a>
             </div>
         </div>
         <div class="thumb"></div>
@@ -270,6 +270,8 @@
 <script src="../js/number/jquery.countup.min.js"></script>
 <script src="../js/number/jquery.countup.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<link rel="stylesheet" href="/css/webSite.css"/>
+<script src="/js/webSite.js"></script>
 <script>
     //数字变化
     $('.counter').countUp();
