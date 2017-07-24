@@ -3,7 +3,8 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>多粉 · 连接粉丝，连接世界！提供微信营销应用，众多行业SaaS ERP解决方案！</title>
+    <title>多粉•用多粉，好生意！提供微信营销应用以及全行业SaaS ERP解决方案！</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <meta name="keywords" content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店"/>
     <meta name="description" content="多粉是国内专业领先的微信第三方开发平台，提供微信小程序、微信商城、微信分销系统、H5游戏等功能开发及代运营服务，全方位智慧行业SaaS ERP解决方案。11"/>
     <link rel="stylesheet" type="text/css" href="../css/official.css" />
@@ -17,12 +18,12 @@
 <div class="a-whole">
     <div class="a-swiper">
         <div class="a-swiper-txt">
-            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="javascript:;" class="a-swiper-title">微商城</a></div>
+            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
             <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-swiper-title" >收银台</a></div>
             <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="javascript:;" class="a-swiper-title" >分销系统</a></div>
-            <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="javascript:;" class="a-swiper-title" >智慧餐饮</a></div>
-            <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="javascript:;" class="a-swiper-title" >汽车美容快修</a></div>
-            <div onmouseover="gtShow(6,this)" id="a-swiper6"><a href="javascript:;" class="a-swiper-title" >美容美发</a></div>
+            <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-title" >智慧餐饮</a></div>
+            <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="/html/CarCount/html/index.jsp" class="a-swiper-title" >汽车美容快修</a></div>
+            <div onmouseover="gtShow(6,this)" id="a-swiper6"><a href="/html/look/html/index.jsp" class="a-swiper-title" >美容美发</a></div>
             <div onmouseover="gtShow(7,this)" id="a-swiper7"><a href="javascript:;" class="a-swiper-title" >智慧进销存 </a></div>
         </div>
     </div>
@@ -34,7 +35,7 @@
 	            <p style="padding-top: 5px;">提供全方位的线上开店支持</p>
 	            <ul class="a-swiper-choice">
 	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-wsc-click">免费试用</a></li>
-	                <li><a href="javascript:void(0);" class="a-swiper-wsc-click">了解更多</a></li>
+	                <li><a href="/html/store/html/index.jsp" class="a-swiper-wsc-click">了解更多</a></li>
 	            </ul>
 	            <div>
 	                <img src="../images/index/wsc-pic.png">
@@ -152,7 +153,7 @@
                 <img src="../images/index/as-ser4.png">
                 <span>微信小程序</span>
                 <p>操作简单、功能实用、丰富有趣的小程序，有效提高商家访问量、回访率、转化率，为您的营销增添动力</p>
-                <a href="/html/weixinSell.jsp">更多</a>
+                <a href="/html/weixinapp.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition" style="vertical-align: bottom;">
                 <img src="../images/index/as-ser5.png">
