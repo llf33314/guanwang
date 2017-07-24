@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>微信营销第三方平台_微信代运营_公众号吸粉_申请注册_搭建_策划服务_多粉</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <meta name="keywords" content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店"/>
     <meta name="description"
           content="多粉微信第三方开发平台，提供微信营销、小程序、微商城、H5游戏等功能开发及公众号代运营服务。"/>

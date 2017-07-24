@@ -4,6 +4,7 @@
 <head> 
 <meta charset="utf-8"> 
 <title>微信营销第三方平台加盟代理_小程序开发_云ERP系统加盟代理_多粉</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
 <meta name="description"
           content="多粉致力于帮助传统行业通过微信智能连接，实现向移动互联网转型和升级。为了能使更多的用户享受多粉提供的高品质的微信营销产品和服务，我们决定，在全国各大地区寻找发展合作伙伴，建立营销战略合作伙伴体系，共同发展微信营销事业。"/>
 <%@include file="/html/common/cmm_css.jsp" %>

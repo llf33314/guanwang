@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="疯狂数钱，具有流畅的游戏操作体验，丰富的道具系统，不停变动的数字效果，精心而巧妙的设计，一旦上手根本停不下来！"/>
     <title>多粉疯狂数钱_微信公众号游戏功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

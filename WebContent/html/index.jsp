@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>多粉•用多粉，好生意！提供微信营销应用以及全行业SaaS ERP解决方案！</title>
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <meta name="keywords" content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店"/>
     <meta name="description" content="多粉是国内专业领先的微信第三方开发平台，提供微信小程序、微信商城、微信分销系统、H5游戏等功能开发及代运营服务，全方位智慧行业SaaS ERP解决方案。11"/>
     <link rel="stylesheet" type="text/css" href="../css/official.css" />
     <link rel="stylesheet" type="text/css" href="../css/fans.css" />
     <link rel="stylesheet" href="/html/css/basic.css"/>
-    
+    <script src="../js/index/jquery-2.2.2.min.js"></script>
 </head>
 
 <body>
@@ -383,7 +383,6 @@
 
 <!-- 底部区域 -->
 
-<script src="../js/index/jquery-2.2.2.min.js"></script>
 <script src="../js/index/aindex.js"></script>
 <script src="../js/index/webSite.js"></script>
 <script src="../js/index/iconfont.js"></script>

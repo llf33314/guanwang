@@ -6,6 +6,7 @@
     <meta name="description" content="适合所有微信公众号,配置简单,界面优雅,可以快速引爆粉丝互动，商家通过设置活动内容、奖项及中奖比例，让粉丝通过幸运大转盘获得相应的礼品。
 "/>
     <title>多粉大转盘_微信公众号大转盘功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

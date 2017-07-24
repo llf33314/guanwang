@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="鹊桥相会活动以简单粗暴的特质激起众多粉丝的恋爱情结，以按顺序踩块块作为游戏基础，谁的时间最短，就会在排行榜上站住第一名，企业可以设置概率幸运奖。"/>
     <title>多粉鹊桥相会_微信公众号游戏功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

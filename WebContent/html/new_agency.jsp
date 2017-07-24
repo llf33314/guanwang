@@ -14,6 +14,7 @@
         })
     </script>
     <title>代理查询</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
 <div class="wrap index">

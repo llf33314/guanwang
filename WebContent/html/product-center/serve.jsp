@@ -6,6 +6,7 @@
     <meta name="description" content="
 多粉微服务相当于一个微信生活管家，为用户提供全方位生活服务的应用，通过微服务，可帮助企业实现与微信用户进行沟通，微服务具备负载分配、知识库管理与关键词自动匹配等常用辅助功能，满足不同客户的需求，提供客户个性化服务。"/>
     <title>多粉微服务_微信公众号微服务功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -3,7 +3,8 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>特色</title>
+    <title>功能展示</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="../css/carStyle.css" />
     <link rel="stylesheet" type="text/css" href="../css/jquery.fullPage.css" />

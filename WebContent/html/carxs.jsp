@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>车小算汽车美容管理系统_电子洗车卡_汽车快修与美容管理软件_多粉</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
 <meta name="description"
           content="多粉车小算汽车美容管理系统，提供汽车美容快修智慧解决方案。电子洗车卡、智能化开单、线上预约、微信支付等功能，让企业提高效率，微信线上营销能力，增加用户的粘性，增加企业持续盈利能力。"/>
 <%@include file="/html/common/css.jsp" %>

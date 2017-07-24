@@ -6,6 +6,7 @@
     <meta name="description"
           content="用户在扫码连WiFi的同时，即可自动关注商家微信公众号，快速连接商家WiFi，查看活动和服务。打通线上和线下的闭环，通过商户数据的沉淀，为商户的经营决策提供更多依据。"/>
     <title>多粉WiFi加粉_微信公众号WiFi加粉功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

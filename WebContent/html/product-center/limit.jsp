@@ -6,6 +6,7 @@
     <meta name="description"
           content="多粉权限查看功能应客户需求而生，企业可根据自身需求，将特定的文字、图片、音频和视频等内容设置密码访问。"/>
     <title>多粉权限查看_微信公众号权限查看功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

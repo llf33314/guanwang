@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="/html/css/logreg.css"/>
 <%@include file="/html/common/js.jsp" %>
 <title>员工查询</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
 <style type="text/css">
 	.inquireShow{
 		position:absolute;

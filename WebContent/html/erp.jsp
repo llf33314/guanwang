@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>云ERP管理系统_提供行业云ERP智能化解决方案_多粉</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <meta name="description"
           content="多粉云ERP管理系统，基于多粉强大的云计算平台，为智慧餐饮、汽车美容快修、美容美发、酒店、物业、社区医疗、商超等众多行业提供云ERP智能化解决方案。"/>
     <link rel="stylesheet" href="/html/css/basic.css">

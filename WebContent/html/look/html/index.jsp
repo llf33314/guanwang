@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/manner.css" />
     <link rel="stylesheet" type="text/css" href="../css/animate.css" />
     <link rel="stylesheet" type="text/css" href="../css/style2.css" />

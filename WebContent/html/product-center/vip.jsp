@@ -6,6 +6,7 @@
     <meta name="description" content="
 会员系统可让更多线下与线上用户享受移动互联网的便捷，获得生活实惠和特权，同时帮助商家与企业建立会员微信营销泛用户体系，让粉丝成为商家的会员，享受会员折扣待遇，促进粉丝的活跃度与消费。"/>
     <title>多粉微会员_微信公众号会员功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

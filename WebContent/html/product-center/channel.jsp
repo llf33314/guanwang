@@ -6,6 +6,7 @@
     <meta name="description" content="
 微渠道可以让商家微信公众号生成无限个专属ID的推广二维码，每一个推广二维码，都代表不同的推广渠道，可以通过在线下进行二维码海报宣传、或是线上二维码宣传等渠道进行推广。"/>
     <title>多粉微渠道_微信公众号渠道功能</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

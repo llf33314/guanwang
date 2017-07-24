@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>大白</title>
+    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/bigStyle.css" />
     <link rel="stylesheet" type="text/css" href="../css/animate.css" />
     <link rel="stylesheet" type="text/css" href="../css/animate.min.css" />
