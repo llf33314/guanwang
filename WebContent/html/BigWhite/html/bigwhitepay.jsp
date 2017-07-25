@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>购买</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/big.css" />
     <script src="../js/jquery-2.2.2.min.js"></script>
     <script src="../js/iconfont.js"></script>

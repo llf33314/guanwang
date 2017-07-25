@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>微信营销案例_公众号_企业微信案例_多粉</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
 <meta name="description"
           content="多粉微信第三方开发平台，提供微信营销、小程序、微商城、H5游戏等功能开发及公众号代运营服务。"/>
 <%@include file="/html/common/cmm_css.jsp" %>

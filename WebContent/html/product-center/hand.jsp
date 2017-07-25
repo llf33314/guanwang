@@ -6,7 +6,7 @@
     <meta name="description" content="摇手气游戏，通过快速摇晃手机即有机率获取奖品。粉丝参与规则简单，有利于吸引粉丝关注，有助于提高商家与粉丝的互动。
 "/>
     <title>多粉摇手气_微信公众号游戏功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

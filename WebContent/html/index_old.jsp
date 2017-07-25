@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>多粉--连接粉丝、连接世界，提供微信营销的第三方开发平台！</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
 <meta name="keywords" content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店"/> 
 <meta name="description" content="多粉，国内最专业的微信第三方服务平台，专注于：微场景、微官网、微投票、微餐饮、微会员、微商城、微活动、微预约、微分销、微信开锁等微信功能开发及微信代运营服务，助力企业全面开启微营销！"/>
 <%@include file="/html/common/cmm_css.jsp" %>

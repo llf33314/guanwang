@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉平台开发刮刮乐功能是吸引粉丝关注商家微信成为其会员最为直接有效的方法之一。通过刮刮乐送好礼的方式吸引粉丝，使粉丝持续关注商家的官方微信，保持互动。"/>
     <title>多粉刮刮乐_微信公众号刮刮乐功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

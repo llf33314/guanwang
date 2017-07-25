@@ -6,7 +6,7 @@
     <meta name="description"
           content="优惠买单采用消费后实时支付的方式，有效减少了消费者提前买券、抄券、验券、付款等一系列环节，消费者结账时在公众号上的优惠买单页面输入消费金额，使用微信支付即可完成消费。"/>
     <title>多粉优惠买单_微信公众号优惠买单功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

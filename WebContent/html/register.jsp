@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="/html/css/logreg.css"/>
 <%@include file="/html/common/js.jsp" %>
 <title>注册</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
 </head>
 <body>
 <div class="wrap index">

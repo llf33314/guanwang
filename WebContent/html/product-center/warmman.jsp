@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="暖男躲避战顾名思义就是一种躲避球游戏，游戏规则简单明了，粉丝在游戏中躲避的障碍物越多，成绩越好，活动结束后，根据排名派发奖品。"/>
     <title>多粉暖男躲避战_微信公众号游戏功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

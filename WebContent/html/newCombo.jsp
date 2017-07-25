@@ -8,7 +8,7 @@
  
     <script src="/html/js/iconfont.js"></script>
     <title>套餐</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <link rel="stylesheet" href="/html/css/basic.css">
     <link rel="stylesheet" href="/html/css/fans.css">

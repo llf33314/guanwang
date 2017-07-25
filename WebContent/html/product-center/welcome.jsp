@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>多粉欢迎页_微信公众号欢迎页功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

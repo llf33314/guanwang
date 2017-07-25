@@ -5,7 +5,7 @@
             <meta charset="utf-8">
                 <meta name="description" content="圣诞活动，粉丝参与规则简单，商家在后台填写奖品中奖概率、提示文案、分享加机会等设置，粉丝在活动界面直接点击抽奖即有几率获得奖品。"/>
                 <title>多粉圣诞活动_微信公众号游戏功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
             <%@include file="/html/common/css.jsp" %>
             <%@include file="/html/common/js.jsp" %>
             <script type="text/javascript">

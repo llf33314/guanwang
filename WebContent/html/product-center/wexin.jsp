@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="企业举办微信墙活动，用户通过二维码扫描进入活动投影，将自己的观点与建议发表上墙，参与讨论，分享观点，大幅度提升会场互动效果与亮点呈现。"/>
     <title>多粉微信墙_微信公众号微信墙功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

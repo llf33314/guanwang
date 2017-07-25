@@ -6,7 +6,7 @@
 
     <meta name="description" content="微信支付不只是支付，已逐渐成为人们生活消费的新方式，线上线下引导消费者使用微信支付，这些消费者都有可能成为商家的粉丝。"/>
     <title>多粉支付自动关注_微信公众号支付自动关注功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

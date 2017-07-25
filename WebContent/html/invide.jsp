@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>招贤纳士</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="3D全景是建立在现实场景的基础上，通过模拟实景的方式，构建一个虚拟的展示环境，让用户如身临其境般地浏览场景。"/>
     <title>多粉3D全景_微信公众号3D全景应用</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -6,7 +6,7 @@
     <meta name="description" content="不仅可以制作正式商务名片，还可以自由DIY属于自己的个性名片。支持即时更改名片内容，操作简单、功能实用、展示方便。
 "/>
     <title>多粉个人名片_微信公众号名片功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>小馋猫餐饮管理系统_外卖点餐无线点菜_收银支付软件_多粉</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <meta name="description"
           content="多粉小馋猫智慧餐饮，提供包含订餐、订房、点菜、支付、收银、预约排号等功能服务，整合互联网餐饮营销方式，帮助餐厅快速提升订单，提高用户体验。"/>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />

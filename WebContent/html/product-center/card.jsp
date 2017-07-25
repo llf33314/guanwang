@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="微名片资料除了包括传统的名片资料外，还包商家介绍等更多、更丰富的资料。将名片资料上传到系统，系统自动生成独立的微名片二维码。将二维码印在纸质名片、或者直接发给客户，客户扫一扫既可轻松查看商家微名片的全部资料。"/>
     <title>多粉微名片_微信公众号微名片功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

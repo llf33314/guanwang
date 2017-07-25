@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="企业可将优惠券内容设置为现金券、体验券、礼品券等多种形式，多粉内置多种优惠券模板，供企业选择，还可自定义风格，配合会员体系，快速帮助商家进行促销活动。"/>
     <title>多粉优惠券_微信公众号优惠券功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
 
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>

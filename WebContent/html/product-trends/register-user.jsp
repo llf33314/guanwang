@@ -4,7 +4,7 @@
         <head>
         <meta charset="utf-8">
         <title>代理商登录</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
            <style>
         .mt {
     margin-top: 35px !important;

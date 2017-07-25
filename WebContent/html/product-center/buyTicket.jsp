@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉微购票为景区、剧场、场馆、乐园等提供微信购票行业解决方案，在微购票后台商家可以快速查询售票统计或其他实时数据。"/>
     <title>多粉微购票_微信公众号微购票功能</title>
-    <link rel="Shortcut Icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">
