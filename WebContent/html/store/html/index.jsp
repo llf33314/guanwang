@@ -115,6 +115,7 @@
             <p>专业团队全程人工协助搭建商城</p>
         </li>
     </ul>
+    <a href="http://duofriend.com/user/toregister.do" id="a-micro-a">免费使用</a>
 </div>
 <div class="a-micro-market">
     <h1 class="a-micro-title">一对一的活动设置，赋予商家百变的营销方式</h1>
