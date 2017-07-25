@@ -33,7 +33,7 @@ a{text-decoration:none;color:#333;}
 .gt-a-top-box-title{
 	position: absolute;
     top: 22px;
-    font-size: xx-small;
+    font-size: 0.11rem;
     letter-spacing: -1px;
     left: 11px;
 }
@@ -163,12 +163,12 @@ a{text-decoration:none;color:#333;}
 }
 .a-pro-a .in5{
 	float: left;
-    margin: 5px 8px 0 0;
+    margin: 9px 8px 0 0;
     font-size:20px;
 }
 .a-pro-a:hover .in5{
 	float: left;
-    margin: 5px 8px 0 0;
+    margin: 9px 8px 0 0;
     color:#2d8efe;
 }
 .a-pro-a .in6{
@@ -183,12 +183,12 @@ a{text-decoration:none;color:#333;}
 }
 .a-pro-a .in7{
 	float: left;
-    margin: 5px 8px 0 0;
+    margin: 9px 8px 0 0;
     font-size:15px;
 }
 .a-pro-a:hover .in7{
 	float: left;
-    margin: 5px 8px 0 0;
+    margin: 9px 8px 0 0;
     color:#2d8efe;
 }
 .a-pro-a span{
