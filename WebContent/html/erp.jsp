@@ -156,7 +156,7 @@
             </div>
 
         </li>
-        <li onclick="window.open('/html/demo.jsp');">
+        <li onclick="window.open('/html/look/html/index.jsp');">
             <div>
                 <h1>样 子</h1>
                 <p>
@@ -192,7 +192,7 @@
             </div>
 
         </li>
-        <li>
+        <li onclick="window.open('/html/BigWhite/html/index.jsp');">
             <div>
                 <h1>大 白</h1>
                 <p>

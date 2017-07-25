@@ -11,6 +11,11 @@
     <link rel="stylesheet" type="text/css" href="../css/fans.css" />
     <link rel="stylesheet" href="/html/css/basic.css"/>
     <script src="../js/index/jquery-2.2.2.min.js"></script>
+    <script>
+        var busCount = eval('('+'${busCount}'+')');
+        var daysCount = busCount.daysCount;
+        var total = busCount.total;
+    </script>
 </head>
 
 <body>
@@ -324,12 +329,12 @@
 </div>
 <div class="a-sy-data">
     <div class="a-sy-data-box">
-        <span class="a-sy-data-box-num counter">10</span><p id="a-sy-data-sp">万+</p>
-        <p>服务案例</p>
+        <span class="a-sy-data-box-num counter" id="a-sy-data-sp1"></span>
+        <p>今日入驻商家</p>
     </div>
     <div class="a-sy-data-box">
-        <span class="a-sy-data-box-num counter">150</span><p id="a-sy-data-sp">%</p>
-        <p>客户逐年增长率</p>
+        <span class="a-sy-data-box-num counter" id="a-sy-data-sp2"></span>
+        <p>已有入驻商家</p>
     </div>
     <div class="a-sy-data-box">
         <span class="a-sy-data-box-num counter">7</span><p id="a-sy-data-sp">*</p><span class="a-sy-data-box-num counter">24</span>
@@ -392,7 +397,10 @@
 <script>
     //数字变化
     $('.counter').countUp();
-
+    $(function(){
+        $("#a-sy-data-sp1").html(daysCount);
+        $("#a-sy-data-sp2").html(total);
+    })
 
     $(".rightIcon").on("click",".ri1",function(){
         $("html,body").animate({"scrollTop":0},500);

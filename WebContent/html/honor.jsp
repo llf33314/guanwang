@@ -120,7 +120,7 @@
 
             <div class="honor-title-list clear" id="tg_content" >
 
-               <span class="triangle-left" style="z-index: 99"></span>
+               <span class="triangle-left" style="z-index: 1"></span>
                 <div class="reycle-container" >
                     <ul class="clear honor-ul">
                         <li class="fl"><img src="${imageUrl}/aboutus/honor-prove.png" alt=""></li>
