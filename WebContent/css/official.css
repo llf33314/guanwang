@@ -26,6 +26,7 @@ a{text-decoration:none;color:#333;}
 	width: 100%;
     height: 616px;
     position: relative;
+    overflow: hidden;
 }
 .a-swiper-wsc{
 	background-image: url(../images/index/wsc.png);
@@ -70,7 +71,7 @@ a{text-decoration:none;color:#333;}
 .a-swiper-choice{
 	display: inline-block;
     width: 204px;
-    margin: 17px auto 31px;
+    margin: 17px auto 32px;
     padding-left: 22px;
     font-size: 12px;
 }
