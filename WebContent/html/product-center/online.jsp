@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="在线报名功能适用于培训会，学习班，讲座，夏令营，商业会议等进行报名预约，为活动参与人员提供快捷的报名方式。"/>
     <title>多粉在线报名功能_微信公众号在线报名功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

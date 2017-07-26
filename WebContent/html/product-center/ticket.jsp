@@ -6,7 +6,7 @@
     <meta name="description" content="帮助用户管理微信卡券，将原来存在于各服务商公众号或服务号里面的优惠券、打折券等信息集中在卡券菜单里显示，还可实现微信好友间的转赠。
 "/>
     <title>多粉卡券_微信公众号卡券功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -6,7 +6,7 @@
             <meta name="description" content="多粉微官网易用性好，层次结构清晰，图片、文字内容更加简洁、只做客户最需要的信息。支持多款模板选择，整体色调自由调配选择，
 支持多种功能展现。"/>
             <title>多粉微官网_微信公众号微官网功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
         <%@include file="/html/common/css.jsp" %>
         <%@include file="/html/common/js.jsp" %>
         <script type="text/javascript">

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="微社区是一种社交属性的功能，让庞大的粉丝依据兴趣的不同分散至各个话题中，形成另外一种互动的模式，在微社区中，粉丝可以按天签到、发表、评论和分享话题。"/>
     <title>多粉微社区_微信公众号微社区功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

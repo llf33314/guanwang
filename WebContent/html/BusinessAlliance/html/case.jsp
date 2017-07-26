@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>客户案例</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />

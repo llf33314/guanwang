@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="description" content="@@meta@@"/>
 <title>@@page_title@@</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
 <%@include file="/html/common/css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
 <script type="text/javascript">

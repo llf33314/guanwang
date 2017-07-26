@@ -9,8 +9,6 @@
     <%@include file="/html/common/js.jsp" %>
     <link rel="stylesheet" type="text/css" href="/html/store/css/micro.css" />
     <link rel="stylesheet" type="text/css" href="/html/store/font/iconfont.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="../css/fans.css" />
-    <link rel="stylesheet" type="text/css" href="../css/basic.css" /> -->
 </head>
 <body>
 <%@include file="/html/common/clearfix.jsp" %>

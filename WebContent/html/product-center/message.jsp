@@ -7,7 +7,7 @@
 留言板是一种能为商家带来巨大的社会化流量的功能，用户对商家进行实时且客观的评价，真实的社交环境保证了留言的客观性和有效性。“留言板”的使用商家只需做好产品和用户服务即可，随着口碑的传播，消费者将源源不断。
 "/>
     <title>多粉留言板_微信公众号留言板功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

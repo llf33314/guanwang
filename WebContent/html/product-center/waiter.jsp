@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="在线客服是展示企业形象，加强企业与房客互动的必备工具。微客服系统，是一款专门为微信商家打造的实时沟通软件，可以让商家方便快捷的接收用户发来的消息并及时的进行回答。"/>
     <title>多粉微客服_微信公众号客服功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

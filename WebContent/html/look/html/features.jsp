@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>功能展示</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/manner.css" />
     <link rel="stylesheet" type="text/css" href="../css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="../css/normalize.css" />

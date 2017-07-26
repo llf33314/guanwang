@@ -6,7 +6,7 @@
     <meta name="description" content="粉丝管理包括粉丝性别分析，地域统计，粉丝的行为分析，粉丝行为等详细列表，企业可以在后台对粉丝进行标签备注，同时可以根据粉丝的活跃度和关注时间进行分组管理。
 "/>
     <title>多粉粉丝管理_微信公众号粉丝管理功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

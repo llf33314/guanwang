@@ -6,7 +6,7 @@
 <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
 <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
 <title>多粉·中国运营团队</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
 <!--引用百度地图API-->
 <style type="text/css">
     html,body{margin:0;padding:0;}

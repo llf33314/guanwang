@@ -7,7 +7,7 @@
           content="摇一摇周边为线下商户提供近距离连接用户的能力，并支持线下商户向周边用户提供个性化营销、互动及信息推荐等服务。
 "/>
     <title>多粉摇一摇周边_微信公众号摇一摇功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

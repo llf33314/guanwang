@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="微团购和传统团购模式有很大区别，微信用户直接通过微信公众号确认团购资格，同时依托于微信公众平台，为那些热爱团购，乐享优惠的微信用户主动推送应季的热门商品。"/>
     <title>多粉微团购_微信公众号团购功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

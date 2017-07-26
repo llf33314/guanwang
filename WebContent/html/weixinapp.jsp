@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>微信小程序定制开发_小程序第三方开发商_多粉平台</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
 <%@include file="/html/common/cmm_css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
 <script type="text/javascript">

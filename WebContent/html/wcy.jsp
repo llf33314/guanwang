@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>餐饮微信营销系统_微信在线订餐、排队、点餐、外卖系统_多粉</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
 <meta name="description"
           content="多粉为餐饮行业提供全套微信公众号营销服务。微餐饮可实现微信在线点餐、订座，预约排队，外卖订餐等功能。为餐饮商户提供更加全面的微信解决方案。"/>
 <%@include file="/html/common/cmm_css.jsp" %>

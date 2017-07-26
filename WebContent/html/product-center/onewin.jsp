@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉360全景支持高清观看，粉丝可任意放大缩小，在不同的景区、房间或项目中自由切换，真实感强，无视角死区。360全景运用专业的拍摄器材和专业的摄影技术，可以把现场给人的整体印象和每个环境的细节全面的记录下来。"/>
     <title>多粉一站到底_微信公众号一站到底功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

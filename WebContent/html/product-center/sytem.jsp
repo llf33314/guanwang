@@ -6,7 +6,7 @@
     <meta name="description" content="实现门店和供应链管理无缝结合，同样适合餐饮外卖的菜品和订单，管理酒店的订单和房间等，营运状况可以一眼查询，实时同步营运数据，提升市场反应能力。
 "/>
     <title>多粉门店系统_微信公众号门店系统功能</title>
-    <link rel="Shortcut Icon" href="/images/alogo.png" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">
