@@ -187,7 +187,7 @@
     </div>
 </div>
 <div class="a-whole"></div>
-<script src="../js/index/jquery-2.2.2.min.js"></script>
+<%--<script src="../js/index/jquery-2.2.2.min.js"></script>--%>
  <script type="text/javascript">
 $(document).ready(function(){
 	  $("#a-show").mouseenter(function(){

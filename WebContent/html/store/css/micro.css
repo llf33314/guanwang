@@ -232,19 +232,27 @@ a{text-decoration:none;color:#333;}
 }
 #a-micro-a {
     padding: 10px 50px;
-    border: 1px solid;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 16px;
-}
-#a-micro-a:hover {
-    padding: 10px 50px;
     border: 1px solid #fff;
     background: #fff;
     color: #FF7F07;
     border-radius: 8px;
     /* margin-top: 10px; */
     font-size: 16px;
+    line-height: 45px;
+
+}
+#a-micro-a:hover {
+    line-height: 35px;
+    animation: exma 0.2s linear;
+    -webkit-box-shadow: 3px 3px 15px #FFA451;
+    -moz-box-shadow: 3px 3px 15px #FFA451;
+    box-shadow: 3px 3px 15px #FFA451;
+
+}
+
+@keyframes exma{
+    0%{line-height: 45px;}
+    100%{ line-height: 35px;}
 }
 .a-micro-none-ul li{
 	width: 135px;

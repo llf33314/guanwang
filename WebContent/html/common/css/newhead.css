@@ -33,7 +33,7 @@ a{text-decoration:none;color:#333;}
 .gt-a-top-box-title{
 	position: absolute;
     top: 22px;
-    font-size: 0.11rem;
+    font-size: 87%;
     letter-spacing: -1px;
     left: 11px;
 }
@@ -57,7 +57,7 @@ a{text-decoration:none;color:#333;}
 .gt-a-top-box-use {
     width: 370px;
     font-size: 12px;
-    margin-left: 140px;
+    margin-left: 145px;
     display: inline-block;
 }
 .a-top-firstspan{
@@ -164,7 +164,7 @@ a{text-decoration:none;color:#333;}
 .a-pro-a .in5{
 	float: left;
     margin: 9px 8px 0 0;
-    font-size:20px;
+    font-size:19px;
 }
 .a-pro-a:hover .in5{
 	float: left;
@@ -184,7 +184,7 @@ a{text-decoration:none;color:#333;}
 .a-pro-a .in7{
 	float: left;
     margin: 9px 8px 0 0;
-    font-size:15px;
+    font-size:14px;
 }
 .a-pro-a:hover .in7{
 	float: left;
