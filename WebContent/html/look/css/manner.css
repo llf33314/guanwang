@@ -2018,7 +2018,7 @@ canvas{
     margin-top: -222px;
 }
 .m-brand-more-pic{
-	width: 1000px;
+	width: 990px;
     display: inline-block;
     line-height: 7.5;
     position: absolute;
@@ -2027,12 +2027,12 @@ canvas{
 }
 .more-span{
 	display: inline-flex;
-    width: 330px;
+    width: 326px;
     height: 126px;
 }
 .more-span:hover{
 	background:#fff;
-	width:330px;
+	width:326px;
     height:126px;
     -moz-box-shadow:2px 2px 5px #999;
     -webkit-box-shadow:2px 2px 5px #999;
