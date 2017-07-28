@@ -152,7 +152,7 @@
                <p>佣金报表</p>
                <p>商品销售</p>
             </li>
-            <a href="http://duofriend.com/user/toregister.do" id="a-distribution-a">免费使用</a>
+            <a href="http://duofriend.com/user/toregister.do" id="a-distribution-a">免费体验</a>
        </ul>
     </div>
     <div class="a-distribution-market">
