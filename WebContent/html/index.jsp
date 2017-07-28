@@ -25,7 +25,7 @@
         <div class="a-swiper-txt">
               <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
             <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-swiper-title" >收银台</a></div>
-            <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="javascript:;" class="a-swiper-title" >分销系统</a></div>
+            <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="/html/distribution/html/index.jsp" class="a-swiper-title" >分销系统</a></div>
             <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-title" >智慧餐饮</a></div>
             <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="/html/CarCount/html/index.jsp" class="a-swiper-title" >汽车美容快修</a></div>
             <div onmouseover="gtShow(6,this)" id="a-swiper6"><a href="/html/look/html/index.jsp" class="a-swiper-title" >美容美发</a></div>
@@ -68,7 +68,7 @@
 	            <p style="padding-top: 5px;">让消费者在购买的同时，参与商品分销、推广和分润，实现全民营销</p>
 	            <ul class="a-swiper-choice">
 	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-fx-click">免费试用</a></li>
-	                <li><a href="javascript:void(0);" class="a-swiper-fx-click">了解更多</a></li>
+	                <li><a href="/html/distribution/html/index.jsp" class="a-swiper-fx-click">了解更多</a></li>
 	            </ul>
 	            <div>
 	                <img src="../images/index/fx-pic.png">
