@@ -3,12 +3,12 @@
 <link rel="stylesheet" href="/html/font-one/iconfont.css"/>
 <div class="gt-a-top">
     <div class="gt-a-top-box">
-        <div class="gt-a-top-box-logo"><a href="/html/index.jsp">
+        <div class="gt-a-top-box-logo"><a href="/">
            <span><i class="iconfont in">&#xe616;</i></span>
            <span class="gt-a-top-box-title"><p>用多粉，好生意</p></span>
            </a></div>
         <ul class="gt-a-top-box-sigle">
-            <li class="a-top-firstli"><a href="/html/index.jsp">首页</a></li>
+            <li class="a-top-firstli"><a href="/">首页</a></li>
             <li class="a-top-firstli" id="a-show"><a href="javascript:;">产品中心</a>
                 <ul class="a-top-product" id="a-show2">
                     <li class="a-pro-a">

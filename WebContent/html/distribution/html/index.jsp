@@ -188,6 +188,10 @@
             $('.ri1').hide();
         }
     });
+
+    $(".rightIcon").on("click",".ri1",function(){
+        $("html,body").animate({"scrollTop":0},500);
+    })
 </script>
 </body>
 </html>
