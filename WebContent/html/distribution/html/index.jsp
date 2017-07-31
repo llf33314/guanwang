@@ -15,8 +15,7 @@
 <%@include file="/html/common/clearfix.jsp" %>
     <div class="a-distribution-top">
         <h1 class="a-distribution-title">二级分销+全员开店，分销系统也有新玩法</h1>
-        <p>以微商城为基础，利用全员开店、以客推客模式迅速推动销量增长，帮助企业抢占移动用户</p>
-        <p style="padding-top: 5px;">市场</p>
+        <p>以微商城为基础，利用全员开店、以客推客模式推动销量增长，帮助企业抢占移动用户市场</p>
         <ul class="a-distribution-top-ul">
           <li>
              <span class="a-d-y sa1"><i class="iconfont di">&#xe6a7;</i></span>
