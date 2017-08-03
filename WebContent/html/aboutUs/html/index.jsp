@@ -427,15 +427,14 @@
 			               <p>１、善于人际沟通，有挑战高薪欲望；</p>
 			               <p>２、能给客户解决方案的制定、商务洽谈；</p>
 			               <p>３、有较强的语言表达能力，良好的逻辑思维能力和行动力；</p>
-			               <p>４、负责为开发工程师、交互设计师实现产品的最终界面；</p>
 		             </div>
 		           </li>
 		           <li>
 		              <div class="a-in-swiper-join-box">
 		               <span class="a-in-swiper-join-box-title"><h2>java开发工程师</h2></span>
-		               <h3>任职要求：</h3>
+		               <h3>岗位职责：</h3>
 			               <p>1、大专以上学历、平面设计、视觉设计、广告学等相关专业；</p>
-			               <p>2、热爱设计这个行业，对平面设计、城市户外广告设计、艺术视觉设计充满激情，能创新通过视觉效果赖解决实际问题；</p>
+			               <p>2、热爱设计这个行业，对平面设计、城市户外广告设计、艺术视觉设计充满激情，能创新通过视觉效果来解决实际问题；</p>
 			               <p>3、能承受较强的工作压力、工作踏实、细致、有责任心。</p>
 			               <p>4、思维活跃、有上进心、具有团队合作精神；</p>
 			               <p>5、能熟练使用Photoshop、CorelDRAW、Illustrator等软件；</p>		              
@@ -513,7 +512,7 @@
 		          <span class="a-in-swiper-branch-pix"><img src="../images/ain51.png"></span>
 		          <span class="a-in-swiper-branch-txt">
 		               <h5>广州</h5>
-		               <p>联系人：汤小姐      QQ：2853771217</p>
+		               <p>联系人：汤小姐 &nbsp    &nbsp QQ：2853771217</p>
 		               <p>电话：020-82615460 / 18022361422</p>
 		               <p>地址：广州市增城市荔城街岗前西路21号三楼</p>
 		          </span>
@@ -522,7 +521,7 @@
 		          <span class="a-in-swiper-branch-pix"><img src="../images/ain52.png"></span>
 		          <span class="a-in-swiper-branch-txt">
 		               <h5>广州</h5>
-		               <p>联系人：商小姐      QQ：2853771225</p>
+		               <p>联系人：商小姐    &nbsp&nbsp  QQ：2853771225</p>
 		               <p>电话：020-86823861 / 18022361410</p>
 		               <p>地址：广州市花都区新华镇建设北路170号利君商务中心506室</p>
 		          </span>
@@ -531,7 +530,7 @@
 		          <span class="a-in-swiper-branch-pix"><img src="../images/ain53.png"></span>
 		          <span class="a-in-swiper-branch-txt">
 		               <h5>深圳</h5>
-		               <p>联系人：龚小姐      QQ：2853771275</p>
+		               <p>联系人：龚小姐    &nbsp&nbsp  QQ：2853771275</p>
 		               <p>电话：0755-84552690 / 18923898812</p>
 		               <p>地址：深圳市龙岗区诚信华庭花园3栋15C</p>
 		          </span>
@@ -540,16 +539,16 @@
 		          <span class="a-in-swiper-branch-pix"><img src="../images/ain54.png"></span>
 		          <span class="a-in-swiper-branch-txt">
 		               <h5>广西</h5>
-		               <p>联系人：温小姐      QQ：2853612232</p>
+		               <p>联系人：温小姐    &nbsp&nbsp  QQ：2853612232</p>
 		               <p>电话：0771-5652766 / 18978150236</p>
-		               <p>地址：广西南宁青秀区东葛路118号南宁青秀万达广场西1栋1721号</p>
+		               <p>地址：广西南宁青秀区东葛路118号南宁青秀万达广场西1栋</p>
 		          </span>
 		       </li>
 		       <li>
 		          <span class="a-in-swiper-branch-pix"><img src="../images/ain55.png"></span>
 		          <span class="a-in-swiper-branch-txt">
 		               <h5>四川</h5>
-		               <p>联系人：饶先生      QQ：2853771138</p>
+		               <p>联系人：饶先生     &nbsp&nbsp QQ：2853771138</p>
 		               <p>电话：028-84472021 / 18933112700</p>
 		               <p>地址：成都市锦江区东大街紫东楼段11号东方广场 b座501</p>
 		          </span>
@@ -558,7 +557,7 @@
 		          <span class="a-in-swiper-branch-pix"><img src="../images/ain56.png"></span>
 		          <span class="a-in-swiper-branch-txt">
 		               <h5>重庆</h5>
-		               <p>联系人：胡小姐      QQ：2853612233</p>
+		               <p>联系人：胡小姐    &nbsp &nbsp  QQ：2853612233</p>
 		               <p>电话：023-67841828 / 17384732127</p>
 		               <p>地址：重庆市渝北区龙山街道余松一支路7号龙湖紫都城3-2栋1808室</p>
 		          </span>
