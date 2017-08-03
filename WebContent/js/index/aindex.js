@@ -421,8 +421,8 @@ function initArt(){
 					break;
 				}
 			}
-			$(".article_dynamic1").html(a);
-			$(".article_dynamic2").html(b);
+			$(".article_dynamic1").html(b);
+			$(".article_dynamic2").html(a);
 			$(".article_dynamic3").html(c);
 		}
 	});
