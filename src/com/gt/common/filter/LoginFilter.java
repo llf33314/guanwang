@@ -63,6 +63,7 @@ public class LoginFilter implements Filter {
 		suffixs.add("ico");
 		suffixs.add("html");
 		suffixs.add("dwr");
+		suffixs.add("txt");
 	}
 	
 	@SuppressWarnings("unchecked")
