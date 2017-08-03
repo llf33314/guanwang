@@ -29,7 +29,6 @@ a{text-decoration:none;color:#333;}
 }
 .a-in-swiper-box{
 	width: 100%;
-    height: 442px;
     position: relative;
 }
 .a-in-swiper-introduce{
@@ -278,7 +277,7 @@ a{text-decoration:none;color:#333;}
 	width: 100%;
     height: 158px;
     position: relative;
-    z-index: 88;
+    z-index:2;
     top: 50%;
     margin-top: -155px;
 }
@@ -830,7 +829,7 @@ a{text-decoration:none;color:#333;}
 	width: 500px;
     height: 500px;
     background: #fff;
-    display: inline-block;
+    display: inline-flex;
     margin: 33px 38px;
     cursor: pointer;
 	-webkit-box-shadow: 3px 5px 20px #F3F3F3;
@@ -938,7 +937,7 @@ a{text-decoration:none;color:#333;}
 }
 /**/
 .a-in-swiper-branch{
-	height:663px;
+	height:700px;
 	width:100%;
 	text-align: center;
 	background:#f8f8f8;

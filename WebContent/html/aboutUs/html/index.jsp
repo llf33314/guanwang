@@ -564,16 +564,11 @@
 		          </span>
 		       </li>
 		    </ul>
-		
-		
-		
 		</div>
 	 </div>
-		
+
 	</div>
-
 <%@include file="/html/common/footer.jsp" %>
-
 <!-- 底部区域 -->	
 <script src="../js/aintroduce.js"></script>
 <script src="../js/main.js"></script>

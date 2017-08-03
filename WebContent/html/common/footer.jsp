@@ -3,8 +3,9 @@
 .passiveQQ {
   display: none !important;
 }
-</style> 
-
+</style>
+<link rel="stylesheet" href="/html/css/basic.css"/>
+<link rel="stylesheet" type="text/css" href="/css/fans.css" />
 <div class="footer">
          <div class="fnav clearfix">
              <dl>
