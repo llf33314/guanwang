@@ -595,6 +595,7 @@
             $('.ri1').hide();
         }
     });
+    $("#a-swiper1").find("a").attr("style","color:#2d8efe;");
 </script>
 
 </body>
