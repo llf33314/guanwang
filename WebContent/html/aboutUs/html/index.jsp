@@ -7,7 +7,7 @@
 	<link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="../css/introduce.css" />
     <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/html/aboutUs/css/style.css"/>
 	<script src="/js/index/jquery-2.2.2.min.js"></script>
 </head>
 
