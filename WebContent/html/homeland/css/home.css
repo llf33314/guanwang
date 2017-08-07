@@ -75,7 +75,7 @@ a {
     text-decoration: none;
 }
 .car-top-menu a:hover {
-    color: #FCFB8E  !important;
+    color:    !important;
 }
 .car-top-menu a.sp {
     color: #FCFB8E  !important;
@@ -773,7 +773,7 @@ div.canvas-content{
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
 }
 .popup_dialog_confirm .popup_dialog_ft a {
     position: relative;

@@ -216,7 +216,7 @@
 	<div class="popup_mask"></div>
 	<div class="popup_dialog">
         <span class="icon fr iconRight closeimg" aria-hidden="true" style="margin: 10px;float: right;">
-            <use xlink:href="#icon-close" onclick="showOrCloseLayer('close')"><img src="../images/xx.png"></use>
+            <use xlink:href="#icon-close"><img src="../images/xx.png"></use>
         </span>
 		<div class="popup_dialog_hd">
 			<div class="popup_dialog_title">
@@ -269,7 +269,7 @@
 	<div class="popup_mask"></div>
 	<div class="popup_dialog">
         <span class="icon fr iconRight closeimg" aria-hidden="true" style="margin: 10px;float: right;">
-            <use xlink:href="#icon-close" onclick="showOrCloseLayertwo('close')"><img src="../images/xx.png"></use>
+            <use xlink:href="#icon-close"><img src="../images/xx.png"></use>
         </span>
 		<div class="popup_dialog_hd">
 			<div class="popup_dialog_title">扫码支付</div>
@@ -281,7 +281,7 @@
          <label>实付金额：<span style='color: #F85555;' id="shipay">510</span></label>
                    元</span>
 			</p>
-			<img alt="" src="../images/sm.png" style="" class='imgcode'>
+			<img alt="" src="../images/sm.png" style="" class='imgcode' id="adss">
 			<p class='p-detial'>扫一扫支付</p>
 		</div>
 	</div>

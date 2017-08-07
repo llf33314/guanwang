@@ -43,7 +43,7 @@ $(function(){
 		var v = WSFUNCTION.doPostReturnFull("/webOrder/html/add", a);
 		if(v != null && v.status == 1){
 			/*if(v.type == 0){*/
-				$("#qrcodeview").find("img").attr("src", "/webOrder/html/getUrltoQRcode/"+v.data+"/"+v.time+".do");
+				$("#adss").attr("src", "/webOrder/html/getUrltoQRcode/"+v.data+"/"+v.time+".do");
 				$("#paybox").hide();
 				$("#shipay").html($("#pay_box_price").html());
 				$("#qrcodeview").show();
