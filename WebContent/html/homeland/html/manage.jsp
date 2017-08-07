@@ -43,11 +43,11 @@
 				<h2>让物业服务更加高效</h2>
 				<div class="two-column">
 					<div>
-						<div class="wow fadeInLeft" data-wow-offset="205">
+						<div class="wow fadeInLeft" data-wow-offset="0">
 							<h3>费用账单系统</h3>
 							<p>全新费用账单体系，自动计算、送达，物业收费更轻松</p>
 						</div>
-						<div class="marginLeft wow fadeInRight">
+						<div class="marginLeft wow fadeInRight"  data-wow-offset="0">
 							<img src="../images/manage-3.png" alt="">
 						</div>
 					</div>
@@ -98,14 +98,14 @@
 				</div>
 			</div>
 			<div class="region">
-				<h2>小区信息公告，通知更及时</h2>
+				<h2> 让社区生活没有距离</h2>
 				<div class="two-column">
 					<div>
-						<div class="wow fadeInLeft" data-wow-offset="205">
-							<h3>费用账单系统</h3>
+						<div class="wow fadeInLeft" data-wow-offset="0">
+							<h3>小区信息公告，通知更及时</h3>
 							<p>物业通知、社区消息、丰富活动第一时间获取，邻里活动发布，社区生活更丰富</p>
 						</div>
-						<div class="marginLeft wow fadeInRight">
+						<div class="marginLeft wow fadeInRight"  data-wow-offset="0">
 							<img src="../images/manage-8.png" alt="">
 						</div>
 					</div>

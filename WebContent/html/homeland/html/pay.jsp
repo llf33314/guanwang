@@ -3,35 +3,33 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
-	<title>购买</title>
-	<link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="../css/property.css" />
-	<link rel="stylesheet" type="text/css" href="../css/animate.css" />
-	<link rel="stylesheet" href="../css/man.css" />
-	<script src="../js/jquery-2.2.2.min.js"></script>
-	<script src="/html/look/js/iconfont.js"></script>
-	<script src="/js/webSite.js"></script>
-	<script src="/html/look/js/_index.js"></script>
+	<title>Hello World!</title>
+	<link rel="stylesheet" href="../css/home.css" />
+	<link rel="stylesheet" href="../css/property.css" />
 </head>
 <body>
-<header>
-	<div class="car-top-box">
-		<div class="car-top-title"><img src="../images/logo.png"><span class="car-top-txt">· 物业管理</span></div>
-		<a href="/" class="car-top-station">返回主站</a>
-		<div class="car-top-menu">
-			<a href="/html/homeland/html/index.jsp">首页</a>
-			<a href="/html/homeland/html/manage.jsp">物业管理</a>
-			<a href="/html/homeland/html/case.jsp">客户案例</a>
-			<a href="/html/co_convened.jsp">申请代理</a>
+<div class="pu-head">
+	<div id="canvas" class="gradient"></div>
+	<header>
+		<div class="car-top-box">
+			<div class="car-top-title"><img src="../images/logo1.png"><span class="car-top-txt">· 物业管理</span></div>
+			<a href="/" class="car-top-station">返回主站</a>
+			<div class="car-top-menu">
+				<a href="/html/homeland/html/index.jsp" >首页</a>
+				<a href="/html/homeland/html/manage.jsp">物业管理</a>
+				<a href="/html/homeland/html/case.jsp">客户案例</a>
+				<a href="/html/co_convened.jsp">申请代理</a>
+			</div>
+			<div class="car-top-service">
+				<a href="http://duofriend.com/user/toregister.do">免费体验</a>
+				<a href="http://duofriend.com/login/login.do" class="car-top-service-login">登录</a>
+				<a href="/html/homeland/html/pay.jsp" class="sp">购买</a>
+			</div>
 		</div>
-		<div class="car-top-service">
-			<a href="http://duofriend.com/user/toregister.do">免费体验</a>
-			<a href="http://duofriend.com/login/login.do" class="car-top-service-login">登录</a>
-			<a href="/html/homeland/html/pay.jsp" style="color: #0CC191;">购买</a>
-		</div>
-	</div>
-</header>
+	</header>
+	<h1 class="pu-top-h1" ><img src="../images/paytitle.png" /></h1>
+	<p class="pu-top-p">聚焦行业解决方案 助力企业创新发展</p>
+</div>
 <div class="package-wrap">
 	<div class="content-wrap clearfix" id="meal_set">
 		<div class="item-wrap" id="item1" style=" border-right: 0;">
@@ -42,25 +40,25 @@
 				</div>
 				<div class="cont-wrap">
 					<ul class="clearfix">
-						<li><span><img src="../images/g1.png" /></span>样子ERP（2店版） </li>
-						<li><span><img src="../images/g1.png" /></span>店员端小程序</li>
-						<li><span><img src="../images/g1.png" /></span>老板端小程序</li>
-						<li><span><img src="../images/g1.png" /></span>免费派券渠道</li>
-						<li><span><img src="../images/g1.png" /></span>公众号管理</li>
-						<li><span><img src="../images/g1.png" /></span>行业版应用</li>
-						<li><span><img src="../images/g1.png" /></span>会员系统</li>
-						<li><span><img src="../images/g1.png" /></span>收银台</li>
-						<li><span><img src="../images/g1.png" /></span>优惠券</li>
-						<li><span><img src="../images/g1.png" /></span>微商城</li>
-						<li><span><img src="../images/g1.png" /></span>分销系统</li>
-						<li><span><img src="../images/g1.png" /></span>推广工具</li>
-						<li><span><img src="../images/g1.png" /></span>存销宝（2店多账号）</li>
-						<li><span><img src="../images/g1.png" /></span>免费的收银硬件支持</li>
+						<li><span><img src="../images/g1.png" /></span>揽胜家园ERP单店版 </li>
+						<li><span><img src="../images/g1.png" /></span>店员端小程序（APP）</li>
+						<li><span><img src="../images/g1.png" /></span>老板端小程序（APP） </li>
+						<li><span><img src="../images/g1.png" /></span>公众号管理 </li>
+						<li><span><img src="../images/g1.png" /></span>微官网 </li>
+						<li><span><img src="../images/g1.png" /></span>会员系统 </li>
 						<li><span><img src="../images/g1.png" /></span>H5互动游戏（10套）</li>
+						<li><span><img src="../images/g1.png" /></span>微场景</li>
+						<li><span><img src="../images/g1.png" /></span>优惠券</li>
+						<li><span><img src="../images/g1.png" /></span>推广工具</li>
+						<li><span><img src="../images/g1.png" /></span>微商城 </li>
+						<li><span><img src="../images/g1.png" /></span>行业版应用 </li>
+						<li><span><img src="../images/g1.png" /></span>支付工具</li>
+						<li><span><img src="../images/g1.png" /></span>免费提供POS机</li>
+						<li><span><img src="../images/g1.png" /></span>分销系统</li>
 						<li><span><img src="../images/g1.png" /></span>粉巢系统（1套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-a" onclick="pay(3)">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-a" onclick="showOrCloseLayer('open')">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -72,25 +70,25 @@
 				</div>
 				<div class="cont-wrap">
 					<ul class="clearfix">
-						<li><span><img src="../images/g2.png" /></span>样子ERP（5店版）</li>
-						<li><span><img src="../images/g2.png" /></span>店员端小程序</li>
-						<li><span><img src="../images/g2.png" /></span>老板端小程序</li>
-						<li><span><img src="../images/g2.png" /></span>免费派券渠道</li>
-						<li><span><img src="../images/g2.png" /></span>公众号管理</li>
-						<li><span><img src="../images/g2.png" /></span>行业版应用</li>
-						<li><span><img src="../images/g2.png" /></span>会员系统</li>
-						<li><span><img src="../images/g2.png" /></span>收银台</li>
-						<li><span><img src="../images/g2.png" /></span>优惠券</li>
-						<li><span><img src="../images/g2.png" /></span>微商城</li>
-						<li><span><img src="../images/g2.png" /></span>分销系统</li>
-						<li><span><img src="../images/g2.png" /></span>推广工具</li>
-						<li><span><img src="../images/g2.png" /></span>存销宝（5店多账号）</li>
-						<li><span><img src="../images/g2.png" /></span>免费的收银硬件支持</li>
+						<li><span><img src="../images/g2.png" /></span>揽胜家园ERP连锁版（3店）</li>
+						<li><span><img src="../images/g2.png" /></span>店员端小程序（APP）</li>
+						<li><span><img src="../images/g2.png" /></span>老板端小程序（APP） </li>
+						<li><span><img src="../images/g2.png" /></span>公众号管理 </li>
+						<li><span><img src="../images/g2.png" /></span>微官网 </li>
+						<li><span><img src="../images/g2.png" /></span>会员系统 </li>
 						<li><span><img src="../images/g2.png" /></span>H5互动游戏（15套）</li>
+						<li><span><img src="../images/g2.png" /></span>微场景</li>
+						<li><span><img src="../images/g2.png" /></span>优惠券</li>
+						<li><span><img src="../images/g2.png" /></span>推广工具</li>
+						<li><span><img src="../images/g2.png" /></span>微商城 </li>
+						<li><span><img src="../images/g2.png" /></span>行业版应用 </li>
+						<li><span><img src="../images/g2.png" /></span>支付工具</li>
+						<li><span><img src="../images/g2.png" /></span>免费提供POS机</li>
+						<li><span><img src="../images/g2.png" /></span>分销系统</li>
 						<li><span><img src="../images/g2.png" /></span>粉巢系统（3套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-b" onclick="pay(4)">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-b" onclick="showOrCloseLayer('open')">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -102,25 +100,25 @@
 				</div>
 				<div class="cont-wrap">
 					<ul class="clearfix">
-						<li><span><img src="../images/g3.png" /></span>样子ERP（8店版）</li>
-						<li><span><img src="../images/g3.png" /></span>店员端小程序</li>
-						<li><span><img src="../images/g3.png" /></span>老板端小程序</li>
-						<li><span><img src="../images/g3.png" /></span>免费派券渠道</li>
-						<li><span><img src="../images/g3.png" /></span>公众号管理</li>
-						<li><span><img src="../images/g3.png" /></span>行业版应用</li>
-						<li><span><img src="../images/g3.png" /></span>会员系统</li>
-						<li><span><img src="../images/g3.png" /></span>收银台</li>
-						<li><span><img src="../images/g3.png" /></span>优惠券</li>
-						<li><span><img src="../images/g3.png" /></span>微商城</li>
-						<li><span><img src="../images/g3.png" /></span>分销系统</li>
-						<li><span><img src="../images/g3.png" /></span>推广工具 </li>
-						<li><span><img src="../images/g3.png" /></span>存销宝（8店多账号）</li>
-						<li><span><img src="../images/g3.png" /></span>免费的收银硬件支持</li>
+						<li><span><img src="../images/g3.png" /></span>揽胜家园ERP连锁版（5店） </li>
+						<li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
+						<li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
+						<li><span><img src="../images/g3.png" /></span>公众号管理 </li>
+						<li><span><img src="../images/g3.png" /></span>微官网 </li>
+						<li><span><img src="../images/g3.png" /></span>会员系统 </li>
 						<li><span><img src="../images/g3.png" /></span>H5互动游戏（20套）</li>
+						<li><span><img src="../images/g3.png" /></span>微场景</li>
+						<li><span><img src="../images/g3.png" /></span>优惠券</li>
+						<li><span><img src="../images/g3.png" /></span>推广工具</li>
+						<li><span><img src="../images/g3.png" /></span>微商城 </li>
+						<li><span><img src="../images/g3.png" /></span>行业版应用 </li>
+						<li><span><img src="../images/g3.png" /></span>支付工具</li>
+						<li><span><img src="../images/g3.png" /></span>免费提供POS机</li>
+						<li><span><img src="../images/g3.png" /></span>分销系统</li>
 						<li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="showOrCloseLayer('open')">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -132,25 +130,25 @@
 				</div>
 				<div class="cont-wrap">
 					<ul class="clearfix">
-						<li><span><img src="../images/g3.png" /></span>样子ERP（8店版）</li>
-						<li><span><img src="../images/g3.png" /></span>店员端小程序</li>
-						<li><span><img src="../images/g3.png" /></span>老板端小程序</li>
-						<li><span><img src="../images/g3.png" /></span>免费派券渠道</li>
-						<li><span><img src="../images/g3.png" /></span>公众号管理</li>
-						<li><span><img src="../images/g3.png" /></span>行业版应用</li>
-						<li><span><img src="../images/g3.png" /></span>会员系统</li>
-						<li><span><img src="../images/g3.png" /></span>收银台</li>
-						<li><span><img src="../images/g3.png" /></span>优惠券</li>
-						<li><span><img src="../images/g3.png" /></span>微商城</li>
-						<li><span><img src="../images/g3.png" /></span>分销系统</li>
-						<li><span><img src="../images/g3.png" /></span>推广工具 </li>
-						<li><span><img src="../images/g3.png" /></span>存销宝（8店多账号）</li>
-						<li><span><img src="../images/g3.png" /></span>免费的收银硬件支持</li>
+						<li><span><img src="../images/g3.png" /></span>揽胜家园ERP连锁版（5店） </li>
+						<li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
+						<li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
+						<li><span><img src="../images/g3.png" /></span>公众号管理 </li>
+						<li><span><img src="../images/g3.png" /></span>微官网 </li>
+						<li><span><img src="../images/g3.png" /></span>会员系统 </li>
 						<li><span><img src="../images/g3.png" /></span>H5互动游戏（20套）</li>
+						<li><span><img src="../images/g3.png" /></span>微场景</li>
+						<li><span><img src="../images/g3.png" /></span>优惠券</li>
+						<li><span><img src="../images/g3.png" /></span>推广工具</li>
+						<li><span><img src="../images/g3.png" /></span>微商城 </li>
+						<li><span><img src="../images/g3.png" /></span>行业版应用 </li>
+						<li><span><img src="../images/g3.png" /></span>支付工具</li>
+						<li><span><img src="../images/g3.png" /></span>免费提供POS机</li>
+						<li><span><img src="../images/g3.png" /></span>分销系统</li>
 						<li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="showOrCloseLayer('open')">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -162,37 +160,36 @@
 				</div>
 				<div class="cont-wrap">
 					<ul class="clearfix">
-						<li><span><img src="../images/g4.png" /></span>样子ERP（12店版）</li>
-						<li><span><img src="../images/g4.png" /></span>店员端小程序</li>
-						<li><span><img src="../images/g4.png" /></span>老板端小程序</li>
-						<li><span><img src="../images/g4.png" /></span>免费派券渠道</li>
-						<li><span><img src="../images/g4.png" /></span>公众号管理</li>
-						<li><span><img src="../images/g4.png" /></span>行业版应用</li>
-						<li><span><img src="../images/g4.png" /></span>会员系统</li>
-						<li><span><img src="../images/g4.png" /></span>收银台</li>
+						<li><span><img src="../images/g4.png" /></span>揽胜家园ERP连锁版（8店） </li>
+						<li><span><img src="../images/g4.png" /></span>店员端小程序（APP）</li>
+						<li><span><img src="../images/g4.png" /></span>老板端小程序（APP） </li>
+						<li><span><img src="../images/g4.png" /></span>公众号管理 </li>
+						<li><span><img src="../images/g4.png" /></span>微官网 </li>
+						<li><span><img src="../images/g4.png" /></span>会员系统 </li>
+						<li><span><img src="../images/g4.png" /></span>H5互动游戏（20+套）</li>
+						<li><span><img src="../images/g4.png" /></span>微场景</li>
 						<li><span><img src="../images/g4.png" /></span>优惠券</li>
-						<li><span><img src="../images/g4.png" /></span>微商城</li>
-						<li><span><img src="../images/g4.png" /></span>分销系统</li>
 						<li><span><img src="../images/g4.png" /></span>推广工具</li>
-						<li><span><img src="../images/g4.png" /></span>存销宝（12店多账号）</li>
-						<li><span><img src="../images/g4.png" /></span>免费的收银硬件支持</li>
-						<li><span><img src="../images/g4.png" /></span>H5互动游戏（20套+）</li>
+						<li><span><img src="../images/g4.png" /></span>微商城 </li>
+						<li><span><img src="../images/g4.png" /></span>行业版应用 </li>
+						<li><span><img src="../images/g4.png" /></span>支付工具</li>
+						<li><span><img src="../images/g4.png" /></span>免费提供POS机</li>
+						<li><span><img src="../images/g4.png" /></span>分销系统</li>
 						<li><span><img src="../images/g4.png" /></span>粉巢系统（定制模板）</li>
 
 					</ul>
-					<a href="javascript:;"  id="cont-d" class="base_abtn" onclick="pay(14)">立刻购买</a>
+					<a href="javascript:;"  id="cont-d" class="base_abtn" onclick="showOrCloseLayer('open')">立刻购买</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
 <div class="gt-foot">
 	<div class="gt-foot-box">
 		<ul>
-			<li><a href="/html/aboutUs.jsp">关于我们</a></li>
-			<li><a href="/html/co_convened.jsp">申请代理</a></li>
-			<li><a href="/html/instructions.jsp">使用指南</a></li>
+			<li><a href="javascript:void(0)">关于我们</a></li>
+			<li><a href="javascript:void(0)">申请代理</a></li>
+			<li><a href="javascript:void(0)">使用指南</a></li>
 			<li style="border:none;">
 				<div id="wxImg" style="display:none;bottom:65px; left:100px;height:50px;back-ground:#f00;position:absolute;">
 					<img src="../images/code.png" width="118px" height="118px" alt="" />
@@ -209,26 +206,17 @@
 		   </span>
 </div>
 
-<script type="text/javascript">
-    function  showImg(){
-        document.getElementById("wxImg").style.display='block';
-    }
-    function hideImg(){
-        document.getElementById("wxImg").style.display='none';
-    }
-</script>
 
 
-<div style="display: none" class="popup_dialog_confirm" id="paybox">
+<div style="display: none;" class="popup_dialog_confirm cont1" id="paybox">
 	<div class="popup_mask"></div>
 	<div class="popup_dialog">
-		<svg class="icon fr iconRight closeimg" aria-hidden="true" style='margin: 10px;float:right;'>
-			<use xlink:href="#icon-close"></use>
-		</svg>
+        <span class="icon fr iconRight closeimg" aria-hidden="true" style="margin: 10px;float: right;">
+            <use xlink:href="#icon-close" onclick="showOrCloseLayer('close')"><img src="../images/xx.png"></use>
+        </span>
 		<div class="popup_dialog_hd">
 			<div class="popup_dialog_title">
 				<span>购买套餐</span>
-
 			</div>
 		</div>
 		<div class="popup_dialog_bd">
@@ -246,18 +234,17 @@
 				<h4>提交个人信息  （专属客服为您开通账号）</h4>
 				<li>
 					<span class='label'>个人姓名:</span>
-					<input type="text"  placeholder="请输入个人姓名" id="payname" maxlength="12">
+					<input type="text"  placeholder="请输入个人姓名" id="name" maxlength="12">
 				</li>
 				<li>
 					<span class='label'>手机号码:</span>
-					<input type="text" placeholder="请输入手机号码" id="payphone" maxlength="12">
-
+					<input type="text" placeholder="请输入手机号码" id="phone" maxlength="12">
 				</li>
 				<li>
 					<span class='label borernone' style='border:none'>支付方式: </span>
 					<div class="payWay">
-						<img class="wx checkedPay" data-value="wx" src="/html/images/fans/weixin.png" alt="" pay-data="0">
-						<img class="pay" data-value="pay" src="/html/images/fans/pay.png" alt="" pay-data="1">
+						<img class="wx checkedPay" data-value="wx" src="../images/weixin.png" alt="" pay-data="0">
+						<img class="pay" data-value="pay" src="../images/pay.png" alt="" pay-data="1">
 					</div>
 				</li>
 				<div class="showpay clear">
@@ -268,18 +255,18 @@
 				</div>
 			</ul>
 		</div>
-		<div class="popup_dialog_ft">
+		<div class="popup_dialog_ft" onclick="showOrCloseLayer('close')">
 			<p class='remindbox' id="paytip"></p>
-			<div class="sumlitBtn">提交订单</div>
+			<div class="sumlitBtn" onclick="showOrCloseLayertwo('open')"  id="submit">提交订单</div>
 		</div>
 	</div>
 </div>
-<div style="display: none;" class="popup_dialog_confirm " id="qrcodeview">
+<div style="display: none;" class="popup_dialog_confirm cont2" id="qrcodeview">
 	<div class="popup_mask"></div>
 	<div class="popup_dialog">
-		<svg class="icon fr iconRight closeimg" aria-hidden="true" style='margin: 10px;float:right;' onclick="clearIt();">
-			<use xlink:href="#icon-close"></use>
-		</svg>
+        <span class="icon fr iconRight closeimg" aria-hidden="true" style="margin: 10px;float: right;">
+            <use xlink:href="#icon-close" onclick="showOrCloseLayertwo('close')"><img src="../images/xx.png"></use>
+        </span>
 		<div class="popup_dialog_hd">
 			<div class="popup_dialog_title">扫码支付</div>
 		</div>
@@ -290,32 +277,34 @@
          <label>实付金额：<span style='color: #F85555;' id="shipay">510</span></label>
                    元</span>
 			</p>
-			<img alt="" src="" style="" class='imgcode'>
+			<img alt="" src="../images/sm.png" style="" class='imgcode'>
 			<p class='p-detial'>扫一扫支付</p>
 		</div>
 	</div>
 </div>
 
-
-	<script type="text/javascript">
-		function  showImg(){
-			document.getElementById("wxImg").style.display='block';
-		}
-		function hideImg(){
-			document.getElementById("wxImg").style.display='none';
-		}
-	</script>
-	<script>
-		$('.package-wrap').on('mouseenter', function() {
-			$(this).find('.item3-1').hide();
-			$(this).find('#item3').show();
-		}).on('mouseleave', function() {
-			$(this).find('.item3-1').show();
-			$(this).find('#item3').hide();
-		})
-	</script>
-	<script src="/html/look/js/gm/min.js"></script>
-	<script src="/html/look/js/gm/three.min.js"></script>
-	<script src="/html/look/js/gm/projector.js"></script>
-	<script src="/html/look/js/gm/canvas-renderer.js"></script>
+<script type="text/javascript">
+    function  showImg(){
+        document.getElementById("wxImg").style.display='block';
+    }
+    function hideImg(){
+        document.getElementById("wxImg").style.display='none';
+    }
+</script>
+<script src="../js/jquery-2.2.2.min.js"></script>
+<script>
+    $('.package-wrap').on('mouseenter', function() {
+        $(this).find('.item3-1').hide();
+        $(this).find('#item3').show();
+    }).on('mouseleave', function() {
+        $(this).find('.item3-1').show();
+        $(this).find('#item3').hide();
+    })
+</script>
+<script src="../js/gm/min.js"></script>
+<script src="../js/gm/three.min.js"></script>
+<script src="../js/gm/projector.js"></script>
+<script src="../js/gm/canvas-renderer.js"></script>
+<script src="../js/gm/3d-lines-animation.js"></script>
+</body>
 </html>
