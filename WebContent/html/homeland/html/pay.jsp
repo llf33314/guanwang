@@ -3,9 +3,13 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
-	<title>Hello World!</title>
+	<title>购买</title>
+	<link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
 	<link rel="stylesheet" href="../css/home.css" />
 	<link rel="stylesheet" href="../css/property.css" />
+	<script src="../js/jquery-2.2.2.min.js"></script>
+	<script src="/js/webSite.js"></script>
+	<script src="../js/_index.js"></script>
 </head>
 <body>
 <div class="pu-head">
@@ -58,7 +62,7 @@
 						<li><span><img src="../images/g1.png" /></span>粉巢系统（1套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-a" onclick="showOrCloseLayer('open')">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-a" onclick="pay(3)">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -88,7 +92,7 @@
 						<li><span><img src="../images/g2.png" /></span>粉巢系统（3套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-b" onclick="showOrCloseLayer('open')">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-b" onclick="pay(4)">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -118,7 +122,7 @@
 						<li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="showOrCloseLayer('open')">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -148,7 +152,7 @@
 						<li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
 
 					</ul>
-					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="showOrCloseLayer('open')">立刻购买</a>
+					<a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -178,7 +182,7 @@
 						<li><span><img src="../images/g4.png" /></span>粉巢系统（定制模板）</li>
 
 					</ul>
-					<a href="javascript:;"  id="cont-d" class="base_abtn" onclick="showOrCloseLayer('open')">立刻购买</a>
+					<a href="javascript:;"  id="cont-d" class="base_abtn" onclick="pay(14)">立刻购买</a>
 				</div>
 			</div>
 		</div>
@@ -234,11 +238,11 @@
 				<h4>提交个人信息  （专属客服为您开通账号）</h4>
 				<li>
 					<span class='label'>个人姓名:</span>
-					<input type="text"  placeholder="请输入个人姓名" id="name" maxlength="12">
+					<input type="text"  placeholder="请输入个人姓名" id="payname" maxlength="12">
 				</li>
 				<li>
 					<span class='label'>手机号码:</span>
-					<input type="text" placeholder="请输入手机号码" id="phone" maxlength="12">
+					<input type="text" placeholder="请输入手机号码" id="payphone" maxlength="12">
 				</li>
 				<li>
 					<span class='label borernone' style='border:none'>支付方式: </span>
@@ -255,9 +259,9 @@
 				</div>
 			</ul>
 		</div>
-		<div class="popup_dialog_ft" onclick="showOrCloseLayer('close')">
+		<div class="popup_dialog_ft">
 			<p class='remindbox' id="paytip"></p>
-			<div class="sumlitBtn" onclick="showOrCloseLayertwo('open')"  id="submit">提交订单</div>
+			<div class="sumlitBtn" id="submit">提交订单</div>
 		</div>
 	</div>
 </div>
@@ -291,7 +295,6 @@
         document.getElementById("wxImg").style.display='none';
     }
 </script>
-<script src="../js/jquery-2.2.2.min.js"></script>
 <script>
     $('.package-wrap').on('mouseenter', function() {
         $(this).find('.item3-1').hide();
@@ -301,7 +304,6 @@
         $(this).find('#item3').hide();
     })
 </script>
-<script src="../js/gm/min.js"></script>
 <script src="../js/gm/three.min.js"></script>
 <script src="../js/gm/projector.js"></script>
 <script src="../js/gm/canvas-renderer.js"></script>

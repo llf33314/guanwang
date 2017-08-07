@@ -59,7 +59,7 @@
 						</div>
 						<div class="wow fadeInRight" data-wow-offset="205">
 							<h3>抄表手机上报</h3>
-							<p>物业人员抄表只需一部手机，抄表上报一次性录入，减少手工重复录入过程</p>
+							<p>物业人员抄表只需一部手机，抄表上报一次性录入，减少手工重复录入</p>
 						</div>
 					</div>
 				</div>
@@ -89,7 +89,7 @@
 					<div>
 						<div class="wow fadeInLeft" data-wow-offset="205">
 							<h3>移动验房</h3>
-							<p>业主自助验房，拍照上传反馈问题，业主电子签章，线上统 一处理，仅需少量人手即可完成</p>
+							<p>业主自助验房，拍照上传反馈问题，业主电子签章，线上统一处理，仅需少量人手即可完成</p>
 						</div>
 						<div class="marginLeft wow fadeInRight">
 							<img src="../images/manage-7.png" alt="">
@@ -117,7 +117,7 @@
 						</div>
 						<div class="wow fadeInRight" data-wow-offset="205">
 							<h3>多方式智能缴费，无需排队</h3>
-							<p>业主可使用手机进行物业费查询并直接缴费，支持微信、银 联、预存款扣除等多种线上支付方式，并自动生成缴费记录</p>
+							<p>业主可使用手机进行物业费查询并直接缴费，支持微信、银联、预存款扣除等多种线上支付方式，并自动生成缴费记录</p>
 						</div>
 					</div>
 				</div>
@@ -125,7 +125,7 @@
 					<div>
 						<div class="wow fadeInLeft" data-wow-offset="205">
 							<h3>投诉建议，随时跟踪</h3>
-							<p>投诉可查，对投诉结果、及时性、有效性等影响满意度的随时进行处理</p>
+							<p>业主可以线上实时查看投诉的处理结果，并对处理结果进行评价</p>
 						</div>
 						<div class="marginLeft wow fadeInRight">
 							<img src="../images/manage-10.png" alt="">
@@ -139,7 +139,7 @@
 						</div>
 						<div class="wow fadeInRight" data-wow-offset="205">
 							<h3>物业上门维修，专业更放心</h3>
-							<p>公共设施故障、房屋维护，打开揽胜家园业主端拍照提交，随时掌握服务状态</p>
+							<p>公共设施故障、房屋维修等问题，业主打开小程序拍照上传即可快速完成申请，省心更省事</p>
 						</div>
 					</div>
 				</div>
@@ -161,7 +161,7 @@
 						</div>
 						<div class="wow fadeInRight" data-wow-offset="205">
 							<h3>房屋出租委托</h3>
-							<p>业主可通过揽胜家园ERP进行房屋的出租委托，让物业公司 提供租客跟进及租金计算、收取租金等各类服务</p>
+							<p>业主可通过揽胜家园ERP进行房屋的出租委托，让物业公司帮你解决租客招揽、租金收取、房屋管理等问题</p>
 						</div>
 					</div>
 				</div>
