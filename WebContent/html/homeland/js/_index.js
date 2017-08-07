@@ -39,7 +39,7 @@ $(function(){
 		}else{
 			$('#paytip').hide();
 		}
-		a.source = "电脑-样子";
+		a.source = "电脑-物业";
 		var v = WSFUNCTION.doPostReturnFull("/webOrder/html/add", a);
 		if(v != null && v.status == 1){
 			/*if(v.type == 0){*/
