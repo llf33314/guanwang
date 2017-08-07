@@ -292,7 +292,7 @@
             <img src="../images/index/as-pro5.png">
             <span>揽胜家园</span>
             <p>物业管理解决方案</p>
-            <a href="/html/wuye.jsp">更多</a>
+            <a href="/html/homeland/html/index.jsp">更多</a>
         </li>
         <li class="a-sy-programme-box pro-box">
             <img src="../images/index/as-pro6.png">

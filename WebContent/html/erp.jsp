@@ -180,7 +180,7 @@
             </div>
 
         </li>
-        <li onclick="window.open('/html/wuye.jsp');">
+        <li onclick="window.open('/html/homeland/html/index.jsp');">
             <div>
                 <h1>揽胜家园</h1>
                 <p>
