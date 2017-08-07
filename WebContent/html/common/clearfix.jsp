@@ -151,7 +151,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in16">&#xe64f;</i></div>
-                        <a href="/html/wuye.jsp">
+                        <a href="/html/homeland/html/index.jsp">
 		                     <span>
 		                         <h3>揽胜家园</h3>
 		                         <p>物业管理解决方案</p>
