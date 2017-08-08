@@ -89,7 +89,7 @@
 					<div>
 						<div class="wow fadeInLeft" data-wow-offset="205">
 							<h3>移动验房</h3>
-							<p>业主自助验房，拍照上传反馈问题，业主电子签章，线上统一处理，仅需少量人手即可完成</p>
+							<p>业主自助验房，拍照上传反馈问题，业主电子签章，线上统一处理</p>
 						</div>
 						<div class="marginLeft wow fadeInRight">
 							<img src="../images/manage-7.png" alt="">
