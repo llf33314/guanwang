@@ -191,9 +191,9 @@
 <div class="gt-foot">
 	<div class="gt-foot-box">
 		<ul>
-			<li><a href="javascript:void(0)">关于我们</a></li>
-			<li><a href="javascript:void(0)">申请代理</a></li>
-			<li><a href="javascript:void(0)">使用指南</a></li>
+			<li><a href="/html/aboutUs.jsp">关于我们</a></li>
+			<li><a href="/html/co_convened.jsp">申请代理</a></li>
+			<li><a href="/html/instructions.jsp">使用指南</a></li>
 			<li style="border:none;">
 				<div id="wxImg" style="display:none;bottom:65px; left:100px;height:50px;back-ground:#f00;position:absolute;">
 					<img src="../images/code.png" width="118px" height="118px" alt="" />
