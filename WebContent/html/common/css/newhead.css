@@ -88,7 +88,7 @@ a{text-decoration:none;color:#333;}
 }
 .a-top-product{
     height: 273px;
-    width: 321px;
+    width: 280px;
     line-height: 1;
     position: absolute;
     z-index: 175;
@@ -106,9 +106,9 @@ a{text-decoration:none;color:#333;}
 .a-top-product li{
     width: 240px;
     display: inline-block;
-    margin-top: 11px;
-    margin-left: 50px;
-    loat: left;
+    margin-top: 12px;
+    margin-left: 32px;
+    float: left;
 }
 .in{
 	font-size: 45px;
