@@ -125,7 +125,7 @@
 					<div>
 						<div class="wow fadeInLeft" data-wow-offset="205">
 							<h3>投诉建议，随时跟踪</h3>
-							<p>业主可以线上实时查看投诉的处理结果，并对处理结果进行评价</p>
+							<p>业主可以线上实时查看投诉的处理结果，并对处理结果进行评分</p>
 						</div>
 						<div class="marginLeft wow fadeInRight">
 							<img src="../images/manage-10.png" alt="">
