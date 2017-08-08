@@ -32,7 +32,7 @@
 		          </div>
 		          <div class="a-in-txt">
 		               <h3><i class="iconfont swlogo">&#xe646;</i></h3>
-		               <p class="a-in-txt-link">duofriend introduce</p>
+		               <p class="a-in-txt-link">Duofriend technology </p>
 		               <p class="a-in-txt-detail">国内领先的移动互联网技术平台</p>
 		          </div>   
 		     </div>
@@ -113,7 +113,7 @@
 						</div>
 			
 						<div class="cd-timeline-content">
-							<p>6月 国内首家移动互联网saas全行业解决方案线下实体体验店对外开放</p>
+							<p>6月 国内首家移动互联网SaaS全行业解决方案线下实体体验店对外开放</p>
 							<p>9月 建立300多平米的多粉指挥中心</p>
 							<span class="cd-date">2017-06-2017-09</span>
 						</div>
