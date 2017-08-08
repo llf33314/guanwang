@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <div class="xc-head">
 	<div class="xc-top">
 		<div class="xc-top-title">
@@ -46,7 +47,7 @@
 		</div>
 	</div>
 </div>
-
+</div>
 <script>
 	$(function() {
 		if (access_num != 1){
@@ -62,7 +63,7 @@
 				+'<a href="/html/LittleGreedyCat/html/car1.jsp" data-num-hard="1" >e-200系列</a>'
 				+'<a href="/html/LittleGreedyCat/html/car2.jsp" data-num-hard="2" >e-180系列</a>'
 				+'<a href="http://www.duofriend.com/html/hardware.jsp">更多硬件</a>'
-				+'</div><div class="wrap-1200 ad001 ">';
+				+'</div><div style="width:100%;overflow: hidden;"><div class="wrap-1200 ad001 ">';
 			if(access_num_hard == 0){
 				xc_html += '<img src="../img/hardware/pic1.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';
 			}else if(access_num_hard == 1){
@@ -112,7 +113,7 @@
 				+'<li class="animated" style="opacity: 0;" id="cat6">外卖接入</li>'
 				+'<li class="animated" style="opacity: 0;" id="cat7">简单易用</li>'
 				+'<li class="animated" style="opacity: 0;" id="cat8">安卓系统</li>'
-				+'</u></div></div>';
+				+'</u></div></div></div>';
 			$('.xc-head').append(xc_html);
 			$('.xc-img-nav a[data-num-hard="' + access_num_hard + '"]').addClass('selected');
 		}else{

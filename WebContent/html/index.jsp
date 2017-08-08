@@ -391,7 +391,7 @@
 <script src="../js/index/aindex.js"></script>
 <script src="../js/index/webSite.js"></script>
 <script src="../js/index/iconfont.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="/html/js/jquery.waypoints.min.js"></script>
 <script src="../js/index/jquery.countup.min.js"></script>
 <script src="../js/index/jquery.countup.js"></script>
 <script>

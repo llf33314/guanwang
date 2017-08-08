@@ -185,7 +185,7 @@
 <script src="../js/modernizr.min.js"></script>
 <script src="../js/number/jquery.countup.min.js"></script>
 <script src="../js/number/jquery.countup.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="/html/js/jquery.waypoints.min.js"></script>
 <script>
     //数字变化
     $('.counter').countUp();

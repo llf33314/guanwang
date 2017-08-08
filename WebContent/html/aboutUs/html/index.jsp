@@ -579,7 +579,7 @@
 <script src="../js/thead.js"></script>
 <script src="../js/jquery.countup.min.js"></script>
 <script src="../js/jquery.countup.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="../js/jquery.waypoints.min.js"></script>
 
 <script>
     //数字变化

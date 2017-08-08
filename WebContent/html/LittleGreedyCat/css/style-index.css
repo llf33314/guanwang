@@ -190,7 +190,7 @@ textarea {
     background-repeat: no-repeat;
     background-position: 50%;
     width: 100%;
-    height: 691px
+    height: 691px;
 }
 
 .xc-top {
@@ -1541,6 +1541,7 @@ ul{
     height: 110px;
     text-align: center;
     background-color: rgba(255,255,255,0.5);
+
 }
 
 
@@ -1588,7 +1589,7 @@ ul{
 
 .xc-head .ad001{
     padding-top: 70px;
-    font-size: 0
+    font-size: 0;
 }
 
 .xc-head .ad-txt{

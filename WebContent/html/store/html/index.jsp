@@ -134,7 +134,7 @@
 
 <script src="/html/store/js/jquery-2.2.2.min.js"></script>
 <script src="/html/store/js/aintroduce.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="/html/js/jquery.waypoints.min.js"></script>
 <script src="/html/store/js/jquery.countup.min.js"></script>
 <script src="/html/store/js/jquery.countup.js"></script>
 <script>

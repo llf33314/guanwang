@@ -151,9 +151,15 @@
 
 /*erp*/
 .car-ban {
-   width: 100%;
+   /*width: 100%;
     position: relative;
-    top: 10%;
+    top: 10%;*/
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -280px;
+    left: 50%;
+    margin-left: -675px;
 }
 .car-ban-title {
   text-align: center;
@@ -184,7 +190,18 @@
 
 /*行业痛点*/
 #section22{height: 714px;line-height: 714px;font-size: 0;text-align: center;background-color: #1a82f1;}
-#section22 .main-wrap{display: inline-block;width: 1200px;min-height: 600px;line-height: 1;vertical-align: middle;margin-top: -50px;}
+#section22 .main-wrap{/*display: inline-block;width: 1200px;min-height: 600px;line-height: 1;vertical-align: middle;margin-top: -50px;*/
+    display: inline-block;
+    width: 1200px;
+    /* min-height: 600px; */
+    line-height: 1;
+    /* vertical-align: middle; */
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -329px;
+    left: 50%;
+    margin-left: -535px;}
 #section22 .main-wrap h2{font-size: 24px;margin-bottom: 30px; color: #fff; text-align: center;font-weight: 400}
 #section22 .main-wrap nav{display: block; text-align:center; font-size: 0}
 #section22 .main-wrap nav a{display: inline-block;height: 30px;line-height: 30px;padding: 0 33px;border:solid 1px #fff;opacity: 0.9;color: #fff;margin: 0 5px;font-size: 14px;}
@@ -242,10 +259,15 @@
 }
 /*车小算汽车美容*/
 .car-home-small{
-  width: 100%;
-  /* height: 700px; */
+  /*width: 100%;
+  !* height: 700px; *!
   position: relative;
-  top: 25%;
+  top: 25%;*/
+    width: 100%;
+    /* height: 700px; */
+    position: absolute;
+    top: 50%;
+    margin-top: -194px;
 }
 .car-home-small-box{
 /*     width: 80%; */
@@ -395,9 +417,13 @@
 
 /*平台需求erp*/
 .car-home-choice{
-  width: 100%;
+  /*width: 100%;
   position: relative;
-  top: 6%;
+  top: 6%;*/
+    width: 100%;
+    position: relative;
+    top: 50%;
+    margin-top: -341px;
 }
 .car-home-choice-box{
 /*   width: 80%; */
@@ -455,9 +481,13 @@
 }
 /*需求erp*/
 .car-home-demand{
-    width: 100%;
+    /*width: 100%;
     position: relative;
-    top: 10%;
+    top: 10%;*/
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -310px;
   
 }
 .car-home-demand-box{
@@ -609,8 +639,15 @@
     top: 5%;
 }
 .car-home-scanning-box{
+    /*width: 1200px;
+    margin: 0 auto;*/
     width: 1200px;
     margin: 0 auto;
+    position: relative;
+    left: 50%;
+    margin-left: -566px;
+    top: 50%;
+    margin-top: 78px;
 }
 .car-home-scanning span{
   text-align: center;
@@ -699,8 +736,13 @@
 .car-home-animation-box{
 /*     width: 80%; */
 /*     margin: 0 10%; */
+    /*width: 1200px;
+    margin: 0 auto;*/
     width: 1200px;
     margin: 0 auto;
+    position: relative;
+    top: 50%;
+    margin-top: 55px;
 }
 .car-home-animation-span{
    text-align: center;
@@ -1005,10 +1047,15 @@
 .car-auto{
 /* 	width:80%; */
 /* 	margin:0 10%; */
-    width: 1200px;
+    /*width: 1200px;
     margin: 0 auto;
 	position: relative;
-    top:12%;
+    top:12%;*/
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    margin-top: -250px;
 }
 .car-auto-left{
 	    width: 530px;
@@ -1047,10 +1094,15 @@
 }
 /*客户-轮播*/
 .car-carousel{
-	width: 1200px;
+	/*width: 1200px;
     margin: 0 auto;
 	position: relative;
-    top:12%;
+    top:12%;*/
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    margin-top: -290px;
 }
 .car-carousel-left{
 	width: 530px;
@@ -1104,10 +1156,15 @@
 }  
 /*客户-美容连锁*/
 .car-chain{
-	width: 1200px;
+	/*width: 1200px;
     margin: 0 auto;
 	position: relative;
-    top: 12%;
+    top: 12%;*/
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    margin-top: -275px;
 }
 .car-chain-left{
    width: 570px;
@@ -1157,10 +1214,15 @@
 }
 /*更多商家*/
 .car-more{
-	width:80%;
+	/*width:80%;
 	margin:0 10%;
 	position: relative;
-    top: 6%;
+    top: 6%;*/
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+    top: 50%;
+    margin-top: -349px;
 }
 .car-more h1{
     color: #1981F1;
