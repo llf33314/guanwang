@@ -127,7 +127,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in15">&#xe648;</i></div>
-                        <a href="javascript:void(0);">
+                        <a href="/html/jxc/html/index.jsp">
 		                     <span>
 		                         <h3>存销宝</h3>
 		                         <p>智慧进销存解决方案</p>

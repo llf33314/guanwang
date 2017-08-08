@@ -23,113 +23,113 @@
 <div class="a-whole">
     <div class="a-swiper">
         <div class="a-swiper-txt">
-              <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
+            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
             <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-swiper-title" >收银台</a></div>
             <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="/html/distribution/html/index.jsp" class="a-swiper-title" >分销系统</a></div>
             <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-title" >智慧餐饮</a></div>
             <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="/html/CarCount/html/index.jsp" class="a-swiper-title" >汽车美容快修</a></div>
             <div onmouseover="gtShow(6,this)" id="a-swiper6"><a href="/html/look/html/index.jsp" class="a-swiper-title" >美容美发</a></div>
-            <div onmouseover="gtShow(7,this)" id="a-swiper7"><a href="javascript:;" class="a-swiper-title" >智慧进销存 </a></div>
+            <div onmouseover="gtShow(7,this)" id="a-swiper7"><a href="/html/jxc/html/index.jsp" class="a-swiper-title" >智慧进销存 </a></div>
         </div>
     </div>
     <div class="a-swiper-box">
         <div class="a-swiper-wsc" style="display:none;" id="id1">
-           <div class="a-ay-sw-show">
-	            <h2 class="a-swiper-h2">微商城</h2>
-	            <p>新零售时代下的移动电商解决方案</p>
-	            <p style="padding-top: 5px;">提供全方位的线上开店支持</p>
-	            <ul class="a-swiper-choice">
-	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-wsc-click">免费试用</a></li>
-	                <li><a href="/html/store/html/index.jsp" class="a-swiper-wsc-click">了解更多</a></li>
-	            </ul>
-	            <div>
-	                <img src="../images/index/wsc-pic.png">
-	            </div>
+            <div class="a-ay-sw-show">
+                <h2 class="a-swiper-h2">微商城</h2>
+                <p>新零售时代下的移动电商解决方案</p>
+                <p style="padding-top: 5px;">提供全方位的线上开店支持</p>
+                <ul class="a-swiper-choice">
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-wsc-click">免费试用</a></li>
+                    <li><a href="/html/store/html/index.jsp" class="a-swiper-wsc-click">了解更多</a></li>
+                </ul>
+                <div>
+                    <img src="../images/index/wsc-pic.png">
+                </div>
             </div>
-        </div>       
+        </div>
         <div class="a-swiper-syt" style="display:none;" id="id2">
-           <div class="a-ay-sw-show">
-	            <h2 class="a-swiper-h2">收银台</h2>
-	            <p>智慧线下收银解决方案，支持个体实体商家接入</p>
-	            <p style="padding-top: 5px;">无需公众号一样玩转</p>
-	            <ul class="a-swiper-choice">
-	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-syt-click">免费试用</a></li>
-	                <li><a href="javascript:void(0);" class="a-swiper-syt-click">了解更多</a></li>
-	            </ul>
-	            <div style="margin-top: -3px;">
-	                <img src="../images/index/syt-pic.png">
-	            </div>
-	         </div>
+            <div class="a-ay-sw-show">
+                <h2 class="a-swiper-h2">收银台</h2>
+                <p>智慧线下收银解决方案，支持个体实体商家接入</p>
+                <p style="padding-top: 5px;">无需公众号一样玩转</p>
+                <ul class="a-swiper-choice">
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-syt-click">免费试用</a></li>
+                    <li><a href="javascript:void(0);" class="a-swiper-syt-click">了解更多</a></li>
+                </ul>
+                <div style="margin-top: -3px;">
+                    <img src="../images/index/syt-pic.png">
+                </div>
+            </div>
         </div>
         <div class="a-swiper-fx" style="display:none;" id="id3">
-           <div class="a-ay-sw-show">
-	            <h2 class="a-swiper-h2">分销系统</h2>
-	            <p>买家即是卖家，人人都是你的分销商</p>
-	            <p style="padding-top: 5px;">让消费者在购买的同时，参与商品分销、推广和分润，实现全民营销</p>
-	            <ul class="a-swiper-choice">
-	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-fx-click">免费试用</a></li>
-	                <li><a href="/html/distribution/html/index.jsp" class="a-swiper-fx-click">了解更多</a></li>
-	            </ul>
-	            <div>
-	                <img src="../images/index/fx-pic.png">
-	            </div>
-	        </div>
+            <div class="a-ay-sw-show">
+                <h2 class="a-swiper-h2">分销系统</h2>
+                <p>买家即是卖家，人人都是你的分销商</p>
+                <p style="padding-top: 5px;">让消费者在购买的同时，参与商品分销、推广和分润，实现全民营销</p>
+                <ul class="a-swiper-choice">
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-fx-click">免费试用</a></li>
+                    <li><a href="/html/distribution/html/index.jsp" class="a-swiper-fx-click">了解更多</a></li>
+                </ul>
+                <div>
+                    <img src="../images/index/fx-pic.png">
+                </div>
+            </div>
         </div>
         <div class="a-swiper-xcm" style="display:none;" id="id4">
-           <div class="a-ay-sw-show">
-	            <h2 class="a-swiper-h2">智慧餐饮</h2>
-	            <p>互联网+餐饮全流程解决方案</p>
-	            <p style="padding-top: 5px;">一站式提供自助点餐、远程排队、外卖系统、收银、会员营销、报表统计</p>
-	            <ul class="a-swiper-choice">
-	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-xcm-click">免费试用</a></li>
-	                <li><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-xcm-click">了解更多</a></li>
-	            </ul>
-	            <div>
-	                <img src="../images/index/xcm-pic.png">
-	            </div>
-	        </div>
+            <div class="a-ay-sw-show">
+                <h2 class="a-swiper-h2">智慧餐饮</h2>
+                <p>互联网+餐饮全流程解决方案</p>
+                <p style="padding-top: 5px;">一站式提供自助点餐、远程排队、外卖系统、收银、会员营销、报表统计</p>
+                <ul class="a-swiper-choice">
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-xcm-click">免费试用</a></li>
+                    <li><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-xcm-click">了解更多</a></li>
+                </ul>
+                <div>
+                    <img src="../images/index/xcm-pic.png">
+                </div>
+            </div>
         </div>
         <div class="a-swiper-cxs" style="display:none;" id="id5">
-           <div class="a-ay-sw-show">
-	            <h2 class="a-swiper-h2">汽车美容快修</h2>
-	            <p>SaaS模式管理系统+零配件进销存+线上商城</p>
-	            <p style="padding-top: 5px;">帮你拉生意、提效率、促业绩，让你在同质化的竞争中脱颖而出</p>
-	            <ul class="a-swiper-choice">
-	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-cxs-click">免费试用</a></li>
-	                <li><a href="/html/CarCount/html/index.jsp" class="a-swiper-cxs-click">了解更多</a></li>
-	            </ul>
-	            <div>
-	                <img src="../images/index/cxs-pic.png">
-	            </div>
-	        </div>
+            <div class="a-ay-sw-show">
+                <h2 class="a-swiper-h2">汽车美容快修</h2>
+                <p>SaaS模式管理系统+零配件进销存+线上商城</p>
+                <p style="padding-top: 5px;">帮你拉生意、提效率、促业绩，让你在同质化的竞争中脱颖而出</p>
+                <ul class="a-swiper-choice">
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-cxs-click">免费试用</a></li>
+                    <li><a href="/html/CarCount/html/index.jsp" class="a-swiper-cxs-click">了解更多</a></li>
+                </ul>
+                <div>
+                    <img src="../images/index/cxs-pic.png">
+                </div>
+            </div>
         </div>
         <div class="a-swiper-yz" style="display:none;" id="id6">
-          <div class="a-ay-sw-show">
-	            <h2 class="a-swiper-h2">美容美发</h2>
-	            <p>美容美发行业互联网解决方案</p>
-	            <p style="padding-top: 5px;">赋予传统美业全新的预约、会员CRM及运营管理模式</p>
-	            <ul class="a-swiper-choice">
-	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-yz-click">免费试用</a></li>
-	                <li><a href="/html/look/html/index.jsp" class="a-swiper-yz-click">了解更多</a></li>
-	            </ul>
-	            <div>
-	                <img src="../images/index/yz-pic.png">
-	            </div>
-	        </div>
+            <div class="a-ay-sw-show">
+                <h2 class="a-swiper-h2">美容美发</h2>
+                <p>美容美发行业互联网解决方案</p>
+                <p style="padding-top: 5px;">赋予传统美业全新的预约、会员CRM及运营管理模式</p>
+                <ul class="a-swiper-choice">
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-yz-click">免费试用</a></li>
+                    <li><a href="/html/look/html/index.jsp" class="a-swiper-yz-click">了解更多</a></li>
+                </ul>
+                <div>
+                    <img src="../images/index/yz-pic.png">
+                </div>
+            </div>
         </div>
         <div class="a-swiper-cxb" style="display:block" id="id7">
             <div class="a-ay-sw-show">
-	            <h2 class="a-swiper-h2">智慧进销存 </h2>
-	            <p>解决库存之忧，帮你慧管生意</p>
-	            <p style="padding-top: 5px;">全程扫码作业，门店网店库存同步，最优化配置商品库存</p>
-	            <ul class="a-swiper-choice">
-	                <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-cxb-click">免费试用</a></li>
-	                <li><a href="javascript:void(0);" class="a-swiper-cxb-click">了解更多</a></li>
-	            </ul>
-	            <div style="margin-top: -5px;">
-	                <img src="../images/index/cxb-pic.png">
-	            </div>
-	        </div>
+                <h2 class="a-swiper-h2">智慧进销存 </h2>
+                <p>解决库存之忧，帮你慧管生意</p>
+                <p style="padding-top: 5px;">全程扫码作业，门店网店库存同步，最优化配置商品库存</p>
+                <ul class="a-swiper-choice">
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-cxb-click">免费试用</a></li>
+                    <li><a href="/html/jxc/html/index.jsp" class="a-swiper-cxb-click">了解更多</a></li>
+                </ul>
+                <div style="margin-top: -5px;">
+                    <img src="../images/index/cxb-pic.png">
+                </div>
+            </div>
         </div>
     </div>
     <div class="a-sy-service">
@@ -286,7 +286,7 @@
             <img src="../images/index/as-pro4.png">
             <span>存销宝</span>
             <p>智慧进销存解决方案</p>
-            <a href="javascript:;">更多</a>
+            <a href="/html/jxc/html/index.jsp">更多</a>
         </li>
         <li class="a-sy-programme-box pro-box">
             <img src="../images/index/as-pro5.png">
@@ -351,10 +351,10 @@
                 <img src="../images/index/as-new1.png" id="a-new-pic">
             </div>
             <ul class="a-sy-news-ul article_dynamic1">
-             <%--
-             <li><span>【最新】</span><a href="javascript:;" id="a-sy-news-a">微报价|微信报价单，让商家没有难做没有难做</a></li>
-              <li><span>【最新】</span><a href="javascript:;" id="a-sy-news-a">微信小程序与微信公众号从性质上讲从性质上讲</a></li>
-                --%>
+                <%--
+                <li><span>【最新】</span><a href="javascript:;" id="a-sy-news-a">微报价|微信报价单，让商家没有难做没有难做</a></li>
+                 <li><span>【最新】</span><a href="javascript:;" id="a-sy-news-a">微信小程序与微信公众号从性质上讲从性质上讲</a></li>
+                   --%>
             </ul>
         </div>
         <div class="a-sy-news-box-region">
