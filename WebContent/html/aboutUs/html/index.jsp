@@ -9,10 +9,12 @@
     <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/aboutUs/css/style.css"/>
 	<script src="/js/index/jquery-2.2.2.min.js"></script>
+
 </head>
 
 <body>
-<%@include file="/html/common/clearfix.jsp" %>
+<%@include file="/html/common/clearfix1.jsp" %>
+<div style="width: 100%;z-index: 4;" class="second-js-top">
 	<div class="a-in-swiper">
 	   <div class="a-in-swiper-txt">
 	      <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="javascript:;" class="a-in-swiper-title">多粉介绍</a></div>
@@ -21,6 +23,7 @@
 	      <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="javascript:;" class="a-in-swiper-title" >联系我们</a></div> 
 	   </div>
 	</div>
+</div>
 	<div class="a-in-swiper-box">
 	   <div class="a-in-swiper-big-box" style="display:block" id="id1">
 	     <div style="height: 441px;">
@@ -572,6 +575,7 @@
 <script src="../js/aintroduce.js"></script>
 <script src="../js/main.js"></script>
 <script src="../js/modernizr.js"></script>
+<script src="../js/thead.js"></script>
 <script src="../js/jquery.countup.min.js"></script>
 <script src="../js/jquery.countup.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -596,6 +600,25 @@
     });
     $("#a-swiper1").find("a").attr("style","color:#2d8efe;");
 </script>
-
+<script type="text/javascript">
+    function getParams(key) {
+        var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    };
+    var type =''+getParams("type");
+    if(type == 2 || type == '2'){
+        gtShow(2,$("#a-swiper2"));
+    }
+    if(type == 3 || type == '3'){
+        gtShow(3,$("#a-swiper3"));
+    }
+    if(type == 4 || type == '4'){
+        gtShow(4,$("#a-swiper4"));
+    }
+</script>
 </body>
 </html>

@@ -10,13 +10,13 @@
          <div class="fnav clearfix">
              <dl>
                  <dt>关于我们</dt>
-                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp" >多粉介绍</a></dd>
+                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=1" >多粉介绍</a></dd>
+                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=2" >所获荣誉</a></dd>
+                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=3" >加入我们</a></dd>
+                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=4" >联系我们</a></dd>
                  <dd onclick="footerLock('');"><a href="/html/product-trends/product-news.jsp" >多粉动态</a></dd>
-                 <dd onclick="footerLock('');"><a href="/html/honor.jsp" >荣誉奖项</a></dd>
-                 <dd onclick="footerLock('');"><a href="/html/invide.jsp" >招贤纳士</a></dd>
-                 <dd onclick="footerLock('');"><a href="/html/copyright.jsp" >知识产权</a></dd>
-                 <dd onclick="footerLock('');"><a href="/html/contract.jsp" >联系我们</a></dd>
                  <dd onclick="footerLock('');"><a href="/html/paymethod.jsp" >付款方式</a></dd>
+                 <dd onclick="footerLock('');"><a href="/html/copyright.jsp" >知识产权</a></dd>
              </dl>
              <dl>
                  <dt>产品服务</dt>

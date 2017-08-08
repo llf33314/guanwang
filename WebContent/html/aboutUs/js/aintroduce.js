@@ -36,8 +36,5 @@ $(document).ready(function(){
         $("#a-swiper3 > a").removeAttr("style");
         $("#a-swiper4 > a").removeAttr("style");
         $(t).find("a").attr("style","color:#2d8efe;");
-
-
-
 	}
 
