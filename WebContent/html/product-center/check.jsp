@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="行业最专业的外勤签到系统拥有移动定位轨迹、移动考勤、移动签到等多项功能，为企业提供外勤人员实时动态管理，解决企业外勤人员“人在哪”和“做什么”管理难题。"/>
     <title>多粉外勤管理_微信公众号外勤管理功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

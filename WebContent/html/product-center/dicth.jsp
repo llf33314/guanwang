@@ -7,7 +7,7 @@
           content="商家在进行推广时可生成无限个专属ID的推广二维码，即表示不同的推广渠道。商家可以区分粉丝是通过哪一个二维码关注了公众号。
 "/>
     <title>多粉微渠道_微信公众号推广功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>分销系统</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/distribution.css" />
     <link rel="stylesheet" type="text/css" href="../font-one/iconfont.css" />
     <link rel="stylesheet" href="/html/css/basic.css"/>

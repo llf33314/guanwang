@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="手机流量作为接入移动互联网的重要途径，免费流量有着天然的吸引力。商家赠送手机流量不仅能吸引粉丝关注，还能收集到目标粉丝的相关信息，以便后续做推广营销。"/>
     <title>多粉关注送流量_微信公众号关注送流量功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

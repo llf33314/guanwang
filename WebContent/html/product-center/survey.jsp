@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉微调研是一种问卷调查的方式，基于微信企业通平台而展现出的一种新的在线调研应用方式，微调研已经完成调研项目数十个，涉及游戏、快速消费品、汽车、房产、美食、数码产品、家用电器等多个行业。"/>
     <title>多粉微调研_微信公众号调研功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

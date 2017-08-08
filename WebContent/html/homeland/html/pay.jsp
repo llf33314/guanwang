@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>购买</title>
-	<link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+	<link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
 	<link rel="stylesheet" href="../css/home.css" />
 	<link rel="stylesheet" href="../css/property.css" />
 	<script src="../js/jquery-2.2.2.min.js"></script>

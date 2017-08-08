@@ -7,7 +7,7 @@
     <script src="/html/js/jquery-2.2.2.js"></script>
     <script src="/html/js/fans.js"></script>
     <title>粉巢</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <link rel="stylesheet" href="/html/css/basic.css">
     <link rel="stylesheet" href="/html/css/fans.css">
     <link rel="stylesheet" href="/html/css/ani.css">

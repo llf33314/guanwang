@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>产品核心</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/LittleGreedyCat/html/common/resource.jsp" %>
     
     <script type="text/javascript">

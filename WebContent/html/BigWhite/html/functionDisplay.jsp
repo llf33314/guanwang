@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>大白</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
 		<link rel="stylesheet" href="../css/dabai.css" />
 		<link rel="stylesheet" href="../css/animation.css" />
 		<link rel="stylesheet" type="text/css" href="../css/bigStyle.css" />

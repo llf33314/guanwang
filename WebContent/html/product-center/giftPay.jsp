@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="支付有礼是一款帮助商家提升粉丝粘性的新型营销应用，当粉丝付款完成后，可引导粉丝参与丰富多样的营销活动，如玩游戏、领优惠券、领赠品、刮刮卡、幸运大抽奖、参加投票调查等等。"/>
     <title>多粉支付有礼_微信公众号商城支付有礼功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -6,7 +6,7 @@
     <meta name="description"
           content="评价系统是企业商家用于对员工进行星级评价和评论的互动功能，评价系统可广泛应用于酒店、餐饮、美容等服务性行业。"/>
     <title>多粉评价系统_微信公众号员工评价功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

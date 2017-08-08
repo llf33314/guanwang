@@ -5,7 +5,7 @@
         <meta charset="utf-8">
                 <meta name="description" content="多粉微分销是行业最专业的微信分销系统，领先的全渠道分销解决方案，全渠道管理和裂变式发展分销商，三级佣金分成模式，让企业迅速发展分销商，实现一站式微商城分销模式。"/>
                 <title>多粉微分销_微信公众号分销功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
         <%@include file="/html/common/css.jsp" %>
         <%@include file="/html/common/js.jsp" %>
         <script type="text/javascript">

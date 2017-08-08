@@ -5,7 +5,7 @@
         <meta charset="utf-8">
                 <meta name="description" content="快速创建手机商城，依托手机购物的便捷性，实现线上线下同步、多场景的销售。利用微商城可以为商家提供更有效的宣传方式，更有利于商品的推广。"/>
                 <title>多粉微快店_微信公众号商场功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
         <%@include file="/html/common/css.jsp" %>
         <%@include file="/html/common/js.jsp" %>
         <script type="text/javascript">

@@ -13,7 +13,7 @@
     
 </script>
 <title>代理查询</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
 </head>
 <body>
 <div class="wrap index">

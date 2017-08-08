@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>客户案例</title>
-	<link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+	<link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/carStyle.css" />
     <link rel="stylesheet" type="text/css" href="../css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="../css/normalize.css" />

@@ -6,7 +6,7 @@
     <meta name="description"
           content="微助力用于在微信公众号中通过一定的物质激励，动员粉丝去分享自己的活动页面，从而使自己的宣传促销得到爆炸式传播的效果。通过礼品刺激粉丝不停的邀请好友参加。"/>
     <title>多粉微助力_微信公众号营销新模式</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

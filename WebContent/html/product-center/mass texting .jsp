@@ -7,7 +7,7 @@
 多粉高级群发让粉丝第一时间了解到企业的动态，以增加粉丝的好感度以及粘性。通过消息群发，既能宣传企业形象，又能让客户主动来转发消息，增加微信粉丝从而制造销售机会。
 "/>
     <title>多粉高级群发_微信公众号高级群发功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

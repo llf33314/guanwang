@@ -6,7 +6,7 @@
     <meta name="description"
           content="抢元宝以财神为背景，在规定的时间内，通过抓取移动的元宝来累计分数，最后对所有参与游戏的粉丝进行排名，分数高者排名靠前，越有机会获得奖励。"/>
     <title>多粉欢乐抢元宝_微信公众号游戏功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

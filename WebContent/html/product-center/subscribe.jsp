@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉微预约是商家利用多粉平台实现在线预约的一种服务，给粉丝的出行办事、购物、消费带来极大地便利，在餐饮、广告设计、建材装修、医疗、物业、汽修等一系列行业中广泛应用。"/>
     <title>多粉微预约_微信公众号预约功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

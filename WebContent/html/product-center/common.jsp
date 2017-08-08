@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="文章评论，顾名思义就是对文章进行评论的功能。商家开启文章评论功能，可以直接知道文章浏览数、点赞数，有助于了解粉丝对文章的看法与见解。"/>
     <title>多粉文章评论_微信公众号互动功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

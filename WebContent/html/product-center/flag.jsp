@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="升国旗游戏，让粉丝过把升旗手的瘾，商家通过简单设置就能让粉丝开始进行游戏。游戏玩法简单有趣，粉丝需要在规定的时间内，通过手指快速滑动屏幕，将国旗升到旗杆最高处。"/>
     <title>多粉升国旗游戏_微信公众号游戏功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

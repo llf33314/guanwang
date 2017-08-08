@@ -6,7 +6,7 @@
  <meta name="description" content="多粉是国内专业的微信第三方开发平台，您可以通过本页展示的公司新闻、产品更新、行业动态和沙龙学堂了解我们。"/>
 
     <title>多粉（duofriend）-多粉动态</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
 <%@include file="/html/common/css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
 <script type="text/javascript">

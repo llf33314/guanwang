@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/aboutUs/css/style.css"/>
 	<script src="/js/index/jquery-2.2.2.min.js"></script>
-
+	<link rel="stylesheet" href="/css/webSite.css"/>
+	<script src="/js/webSite.js"></script>
 </head>
 
 <body>
@@ -85,7 +86,7 @@
 			          <h2 class="a-in-swiper-h2-two">国内领先的移动互联网技术服务公司</h2>
 			          <p>多粉是一家移动互联网创意营销技术平台，为企业提供基于互联网和移动互联网技术的互动</p>
 			          <p>营销产品及SaaS模式全行业解决方案，帮助企业实现自建生态链应用系统</p>
-			          <a href="javascript:;" style="margin-top:80px;display: inline-block;"><img src="../images/ain23.png"></a>
+			          <a href="javascript:;" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=y05339exfyy&tiny=0&auto=0");' style="margin-top:80px;display: inline-block;"><img src="../images/ain23.png"></a>
 		          </div>
 		     </div>
 		     <div class="a-in-swiper-js-culture">

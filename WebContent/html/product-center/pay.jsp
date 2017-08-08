@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="以“信任”作为核心服务，多粉支付致力于提供“简单、安全、快速”的支付解决方案。商户委托多粉代为收取消费者支付的相应服务款，经结算系统结算并查验后转付给商户的代收代付产品，为商户和消费者搭建便利、安全的交易平台。"/>
     <title>多粉支付_微信公众号支付功能</title>
-    <link rel="Shortcut Icon" href="/images/bitbug.ico" type="image/x-icon">
+    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">
