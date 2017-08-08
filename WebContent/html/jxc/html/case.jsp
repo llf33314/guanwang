@@ -97,7 +97,7 @@
         <div class="left">
             <ul>
                 <li class="text-content">
-                    <h1 style="padding-top: 47px">Only 精品女装</h1>
+                    <h1 style="padding-top: 35px">Only 精品女装</h1>
                     <p>Only 精品女装是个体女装门店，虽然有着较为的丰富的行业经验，但是最让店主担忧的问题依然是门店是否“偏离轨道”的问题。许多的同行由于一次或者多次的款式选购失策，常常引起一系列的库存问题。库存积压形成恶性循环让商家不敢去尝试新的款式或新的货源</p>
                 </li>
                 <li class="text-content">

@@ -4594,15 +4594,6 @@ body {
   animation-timing-function: linear;
 }
 
-.cxb-fn-rightz-box .fn-rigth1 .show-box-child.show-right0 .rungreen {
-  animation: showRight0RunOrange 0.7s;
-  animation-fill-mode: both;
-  -webkit-animation-delay: 1.1s;
-  animation-delay: 1.1s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
 
 .cxb-fn-rightz-box .fn-rigth1 .show-box-child.show-right1 {
   display: block;
@@ -5561,3 +5552,28 @@ body {
   color: #b5b5b5;
 }
 a{text-decoration: none}
+
+.text-same .dps {
+  line-height:1.8;
+}
+.text-same .title {
+  padding: 51px 0 20px 0;
+}
+.cxb-case-floor2 .text-content h1 {
+  padding: 35px 0 25px 0;
+}
+.cxb-case-floor2 .text-content p {
+  line-height: 1.8;
+}
+.cxb-case-floor4 .text-content h1 {
+  padding: 35px 0 25px 0;
+}
+.cxb-case-floor4 .text-content p {
+  line-height: 1.8;
+}
+.a-in-middle-container-wrap .a-in-middle-container .a-in-swiper-solution-container .a-in-swiper-wrapper .a-in-swiper-slide h3 {
+  font-weight: normal;
+}
+.cxb-fn-menus {
+  background-color: rgba(0, 0, 0, 0.5);
+}

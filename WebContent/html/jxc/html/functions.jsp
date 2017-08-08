@@ -14,18 +14,19 @@
 <body>
 <div class="cxb-fn-show1" id="cxbFnFirstAnimate">
     <div class="left cxb-fn-show1-text1">
-       <div class="text-box">
-           <div class="text11 counter" id="firstCounter">10,000</div>
-           <div class="text12">的用户共同见证</div>
-       </div>
+        <div class="text-box">
+            <div class="text11"><span class="counter">10,000</span>+的用</div>
+            <div class="text12">存销宝SaaS平台强</div>
+        </div>
     </div>
     <div class="right  cxb-fn-show1-text2">
         <div class="text-box">
-            <div class="text21">+存销宝SaaS平台</div>
-            <div class="text22">强大的库存管理能力</div>
+            <div class="text21">户共同见证</div>
+            <div class="text22">大的库存管理能力</div>
         </div>
     </div>
 </div>
+
 <!--首屏 end-->
 <div class="cxb-fn-menus-icon" onclick="CxbFnAnimate.showCxbFnMenu()"></div>
 <div class="cxb-fn-menus" id="cxbFnMenus" onclick="CxbFnAnimate.showCxbFnMenu()">
