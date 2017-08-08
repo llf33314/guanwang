@@ -87,7 +87,7 @@ a{text-decoration:none;color:#333;}
     border-radius: 6px;
 }
 .a-top-product{
-    height: 293px;
+    height: 273px;
     width: 321px;
     line-height: 1;
     position: absolute;
@@ -106,7 +106,7 @@ a{text-decoration:none;color:#333;}
 .a-top-product li{
     width: 240px;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 11px;
     margin-left: 50px;
     loat: left;
 }
