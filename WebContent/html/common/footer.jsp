@@ -20,14 +20,17 @@
              </dl>
              <dl>
                  <dt>产品服务</dt>
-                 <dd onclick="footerLock('产品中心');"><a href="/html/product.jsp" >产品中心</a></dd>
+                 <%--<dd onclick="footerLock('产品中心');"><a href="/html/product.jsp" >产品中心</a></dd>--%>
                  <!-- <dd onclick="footerLock('运营推广');"><a href="/html/promotion.jsp" >运营推广</a></dd> -->
-                 <dd onclick="footerLock('定制开发');"><a href="/html/customdevelopment.jsp" >定制开发</a></dd>
-                 <!-- <dd onclick="footerLock('解决方案');"><a href="/html/smarty_hotel.jsp" >智慧酒店</a></dd>
-                 <dd onclick="footerLock('解决方案');"><a href="/html/LittleGreedyCat/html/index.jsp" >智慧餐饮</a></dd> -->
-                 <dd onclick="footerLock('解决方案');"><a href="/html/smarty_city.jsp" >智慧城市</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/generation_operation.jsp" >代运营</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/setMeal.jsp" >代运营套餐</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="javascript:;" >微预约</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="javascript:;" >培训预约</a></dd>
+             <%--<dd onclick="footerLock('定制开发');"><a href="/html/customdevelopment.jsp" >定制开发</a></dd>--%>
+                 <%--<!-- <dd onclick="footerLock('解决方案');"><a href="/html/smarty_hotel.jsp" >智慧酒店</a></dd>--%>
+                 <%--<dd onclick="footerLock('解决方案');"><a href="/html/LittleGreedyCat/html/index.jsp" >智慧餐饮</a></dd> -->--%>
+                 <%--<dd onclick="footerLock('解决方案');"><a href="/html/smarty_city.jsp" >智慧城市</a></dd>--%>
+
              </dl>
              <dl>
                  <dt>合作召集</dt>
@@ -45,7 +48,6 @@
                  <dd onclick="footerLock('');"><a href="/html/instructions.jsp" >使用手册</a></dd>
                  <dd onclick="footerLock('');"><a href="/html/hardware.jsp" >硬件支持</a></dd>
                  <dd onclick="footerLock('解决方案');"><a href="/html/newCombo.jsp" >多粉套餐</a></dd>
-                 <dd onclick="footerLock('客户案例');"><a href="/html/case_center.jsp" >案例中心</a></dd>
              </dl>
              <dl class="ewm1">
                  <dt>关注多粉</dt>

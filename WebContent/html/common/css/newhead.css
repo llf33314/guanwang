@@ -87,12 +87,12 @@ a{text-decoration:none;color:#333;}
     border-radius: 6px;
 }
 .a-top-product{
-	height: 235px;
-    width: 540px;
+    height: 293px;
+    width: 321px;
     line-height: 1;
     position: absolute;
-    z-index: 211;
-    left: -166px;
+    z-index: 175;
+    left: -107px;
     top: 80px;
     background: #fff;
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
@@ -104,11 +104,11 @@ a{text-decoration:none;color:#333;}
     box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
 }
 .a-top-product li{
-	width: 240px;
+    width: 240px;
     display: inline-block;
     margin-top: 15px;
-    margin-left: 30px;
-    float: left;
+    margin-left: 50px;
+    loat: left;
 }
 .in{
 	font-size: 45px;

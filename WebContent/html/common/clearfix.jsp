@@ -12,20 +12,12 @@
             <li class="a-top-firstli" id="a-show"><a href="javascript:;">产品中心</a>
                 <ul class="a-top-product" id="a-show2">
                     <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in1">&#xe899;</i></div>
-                        <a href="/html/fansNest.jsp">
-	                       <span>
-	                           <h3>粉巢系统</h3>
-	                           <p>六站合一的跨平台同步系统</p>
-	                       </span>
-                        </a>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in2">&#xe664;</i></div>
-                        <a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp">
-                         <span>
-                            <h3>商家联盟</h3>
-                            <p>异业商家联盟，资源共享平台</p>
-                         </span>
+                        <div class="a-pro-a"><i class="iconfont in4">&#xe602;</i></div>
+                        <a href="/html/weixinapp.jsp">
+	                     <span>
+	                         <h3>微信小程序</h3>
+	                         <p>粉丝端、店员端、BOSS端样样具备</p>
+	                     </span>
                         </a>
                     </li>
                     <li class="a-pro-a">
@@ -38,14 +30,16 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in4">&#xe602;</i></div>
-                        <a href="/html/weixinapp.jsp">
-	                     <span>
-	                         <h3>微信小程序</h3>
-	                         <p>粉丝端、店员端、BOSS端样样具备</p>
-	                     </span>
+                        <div class="a-pro-a"><i class="iconfont in2">&#xe664;</i></div>
+                        <a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp">
+                         <span>
+                            <h3>商家联盟</h3>
+                            <p>异业商家联盟，资源共享平台</p>
+                         </span>
                         </a>
                     </li>
+
+
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in5">&#xe669;</i></div>
                         <a href="/html/coupon.jsp">
@@ -61,15 +55,6 @@
 	                     <span>
 	                         <h3>代运营</h3>
 	                         <p>专业团队负责就是不一样</p>
-	                     </span>
-                        </a>
-                    </li>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in7">&#xe666;</i></div>
-                        <a href="/html/wcy.jsp">
-	                     <span>
-	                         <h3>微信行业应用</h3>
-	                         <p>纯移动版应用，满足商家个性化需求</p>
 	                     </span>
                         </a>
                     </li>
