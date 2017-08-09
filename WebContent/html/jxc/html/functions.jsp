@@ -53,17 +53,29 @@
     <div class="cxb-fn-leftz-box">
         <div class="cxb-fn-left-box show-left-img" id="cxbFnLeftBox" style="display: block">
             <!-- 商品更快速 -->
-            <div class="cxb-fn-left cxb-fn-left0" style="background-image: url(../img/cxb/functions/fn-left-0/fn-left-0.jpg")></div>
+            <div class="cxb-fn-left cxb-fn-left0" style="overflow: hidden;">
+                <img style="min-height: 100%;min-width: 100%" src="../img/cxb/functions/fn-left-0/fn-left-0.jpg" />
+            </div>
             <!-- 销售更灵活 -->
-            <div class="cxb-fn-left cxb-fn-left1" style="background-image: url(../img/cxb/functions/fn-left-1/fn-left-10.jpg")></div>
+            <div class="cxb-fn-left cxb-fn-left1" style="overflow: hidden;">
+                <img style="min-height: 100%;min-width: 100%" src="../img/cxb/functions/fn-left-1/fn-left-10.jpg" />
+            </div>
             <!-- 急速补货 -->
-            <div class="cxb-fn-left cxb-fn-left2" style="background-image: url(../img/cxb/functions/fn-left-2/fn-left-20.jpg")></div>
+            <div class="cxb-fn-left cxb-fn-left2" style="overflow: hidden;">
+                <img style="min-height: 100%;min-width: 100%" src="../img/cxb/functions/fn-left-2/fn-left-20.jpg" />
+            </div>
             <!-- 核对更清晰 -->
-            <div class="cxb-fn-left cxb-fn-left3" style="background-image: url(../img/cxb/functions/fn-left-3/fn-left-30.jpg")></div>
+            <div class="cxb-fn-left cxb-fn-left3" style="overflow: hidden;">
+                <img style="min-height: 100%;min-width: 100%" src="../img/cxb/functions/fn-left-3/fn-left-30.jpg" />
+            </div>
             <!-- 信息自动集成 -->
-            <div class="cxb-fn-left cxb-fn-left1-4" style="background-image: url(../img/cxb/functions/fn-left-4/fn-left-40.jpg")></div>
+            <div class="cxb-fn-left cxb-fn-left1-4" style="overflow: hidden;">
+                <img style="min-height: 100%;min-width: 100%" src="../img/cxb/functions/fn-left-4/fn-left-40.jpg" />
+            </div>
             <!-- 双调拨模式 -->
-            <div class="cxb-fn-left cxb-fn-left5" style="background-image: url(../img/cxb/functions/fn-left-5/fn-left-50.jpg")></div>
+            <div class="cxb-fn-left cxb-fn-left5" style="overflow: hidden;">
+                <img style="min-height: 100%;min-width: 100%" src="../img/cxb/functions/fn-left-5/fn-left-50.jpg" />
+            </div>
         </div>
         <div class="cxb-fn-leftz fn-set-height" id="cxbFnLeftContent">
             <!-- 商品更快速 -->
