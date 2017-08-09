@@ -271,7 +271,6 @@
 		       <p>第三届广东省互联网+移动营销奖...</p>
 		  </div>
 		  <div class="a-in-swiper-picshow">
-			  <img src="../images/ain57.jpg" style="width:100%; height:410px;">
 		  </div>
 		  <div class="a-in-certificate-wrap">
 		       <div class="a-in-certificate a-in-cloud-container">
