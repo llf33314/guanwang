@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>技术服务商</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="/html/css/style.css"/>
     <link rel="stylesheet" href="/html/css/basic.css"/>
     <link rel="stylesheet" href="/html/css/technology.css"/>

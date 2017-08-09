@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>多粉样子美容美发管理系统_美容美发收银软件_多粉</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
 <meta name="description"
           content="多粉样子美容美发管理系统，集合了智能开单、在线预约、会员管理、员工管理、便捷支付等多种功能，是一款专门为美容美发行业设计的智能化管理系统，让企业的服务和管理更加快捷高效。"/>
 <%@include file="/html/common/css.jsp" %>

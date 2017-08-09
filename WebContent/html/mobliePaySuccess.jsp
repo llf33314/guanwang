@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>支付成功</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
 <script type="text/javascript">
 </script>
 </head>

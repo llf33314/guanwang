@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="apple-mobile-web-app-capable" content="no" />

@@ -13,7 +13,7 @@
                 <ul class="a-top-product" id="a-show2">
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in4">&#xe602;</i></div>
-                        <a href="http://www.duofriend.com/html/weixinapp.jsp">
+                        <a href="/html/weixinapp.jsp">
 	                     <span>
 	                         <h3>微信小程序</h3>
 	                         <p>粉丝端、店员端、BOSS端样样具备</p>
@@ -22,7 +22,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in3">&#xe627;</i></div>
-                        <a href="http://www.duofriend.com/html/weixinSell.jsp">
+                        <a href="/html/weixinSell.jsp">
 	                     <span>
 	                         <h3>微信营销</h3>
 	                         <p>提供微信营销技术工具</p>
@@ -31,7 +31,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in2">&#xe664;</i></div>
-                        <a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp">
+                        <a href="/html/BusinessAlliance/html/index.jsp">
                          <span>
                             <h3>商家联盟</h3>
                             <p>异业商家联盟，资源共享平台</p>
@@ -42,7 +42,7 @@
 
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in5">&#xe669;</i></div>
-                        <a href="http://www.duofriend.com/html/coupon.jsp">
+                        <a href="/html/coupon.jsp">
 	                     <span>
 	                         <h3>优惠券发放平台</h3>
 	                         <p>免费的优惠券派发渠道，轻松送达</p>
@@ -64,7 +64,7 @@
                 <ul class="a-top-solve" id="b-show2">
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in8">&#xe62c;</i></div>
-                        <a href="http://www.duofriend.com/html/look/html/index.jsp">
+                        <a href="/html/look/html/index.jsp">
 		                     <span>
 		                         <h3>样子</h3>
 		                         <p>美容美发解决方案</p>
@@ -91,7 +91,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in11">&#xe85f;</i></div>
-                        <a href="http://www.duofriend.com/html/smarty_hotel.jsp">
+                        <a href="/html/smarty_hotel.jsp">
 		                     <span>
 		                         <h3>小驿</h3>
 		                         <p>酒店PMS解决方案</p>
@@ -100,7 +100,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in12">&#xe618;</i></div>
-                        <a href="http://www.duofriend.com/html/BigWhite/html/index.jsp">
+                        <a href="/html/BigWhite/html/index.jsp">
 		                     <span>
 		                         <h3>大白</h3>
 		                         <p>社区门诊医疗解决方案</p>
@@ -109,7 +109,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in13">&#xe653;</i></div>
-                        <a href="http://www.duofriend.com/html/LittleGreedyCat/html/index.jsp">
+                        <a href="/html/LittleGreedyCat/html/index.jsp">
 		                     <span>
 		                         <h3>小馋猫</h3>
 		                         <p>智慧餐饮解决方案</p>
@@ -118,7 +118,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in14">&#xe65e;</i></div>
-                        <a href="http://www.duofriend.com/html/CarCount/html/index.jsp">
+                        <a href="/html/CarCount/html/index.jsp">
 		                     <span>
 		                         <h3>车小算</h3>
 		                         <p>汽车美容快修解决方案</p>
@@ -127,7 +127,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in15">&#xe648;</i></div>
-                        <a href="http://www.duofriend.com/html/jxc/html/index.jsp">
+                        <a href="/html/jxc/html/index.jsp">
 		                     <span>
 		                         <h3>存销宝</h3>
 		                         <p>智慧进销存解决方案</p>
@@ -136,7 +136,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in16">&#xe64f;</i></div>
-                        <a href="http://www.duofriend.com/html/homeland/html/index.jsp">
+                        <a href="/html/homeland/html/index.jsp">
 		                     <span>
 		                         <h3>揽胜家园</h3>
 		                         <p>物业管理解决方案</p>
@@ -154,18 +154,18 @@
                     </li>
                 </ul>
             </li>
-            <li class="a-top-firstli"><a href="http://www.duofriend.com/html/case_center.jsp">客户案例</a></li>
+            <li class="a-top-firstli"><a href="/html/case_center.jsp">客户案例</a></li>
             <li class="a-top-firstli" id="c-show"><a href="javascript:void(0);">合作与加盟</a>
                 <ul class="a-top-join" id="c-show2">
-                    <li id="a-pro-r"><a href="http://www.duofriend.com/html/co_convened.jsp" id="a-chan-sq">申请代理</a></li>
-                    <li id="a-pro-s"><a href="http://www.duofriend.com/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
+                    <li id="a-pro-r"><a href="/html/co_convened.jsp" id="a-chan-sq">申请代理</a></li>
+                    <li id="a-pro-s"><a href="/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
                 </ul>
             </li>
         </ul>
         <div class="gt-a-top-box-use">
-            <span class="a-top-firstspan"><a href="http://www.duofriend.com/html/instructions.jsp" class="a-top-use-cen">使用手册</a></span>
-            <span class="a-top-firstspan"><a href="http://www.duofriend.com/html/hardware.jsp" class="a-top-use-cen">硬件支持</a></span>
-            <a href="http://www.duofriend.com/html/product-trends/register-user.jsp" class="a-top-use-cen">代理登录</a>
+            <span class="a-top-firstspan"><a href="/html/instructions.jsp" class="a-top-use-cen">使用手册</a></span>
+            <span class="a-top-firstspan"><a href="/html/hardware.jsp" class="a-top-use-cen">硬件支持</a></span>
+            <a href="/html/product-trends/register-user.jsp" class="a-top-use-cen">代理登录</a>
             <a href="http://duofriend.com/user/tologin.do" class="a-top-use-cen top-sign">登录</a>
             <a href="http://duofriend.com/user/toregister.do" class="a-top-use-cen top-sign" style="margin-left: 8px">注册</a>
         </div>

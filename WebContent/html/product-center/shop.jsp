@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉微商城布局想换就换，风格说变立刻变。自由拖拽、个性布局、多样的主题风格、配色、海量商城模板、商品管理功能、更个性化的商品分类、商品规格、商品品牌。"/>
     <title>多粉微商城_微信公众号商城功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

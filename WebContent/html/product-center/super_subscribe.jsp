@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="高级预约是多粉为企业商家开发的一款微信预约应用。操作简单，性能稳定、响应速度快。可以广泛运用于房产、酒店、美容、医疗、餐饮、维修等一系列服务行业。"/>
     <title>多粉高级预约_微信公众号预约功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

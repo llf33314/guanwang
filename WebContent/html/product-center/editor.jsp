@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉高级编辑器是一款专业强大的微信公众平台在线编辑美化微信文章排版工具，通过微信编辑器让您的内容显示更美观,更易阅读。"/>
     <title>多粉高级编辑器_微信公众号高级编辑器功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

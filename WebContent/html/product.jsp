@@ -9,7 +9,7 @@
     <meta name="description"
           content="多粉是国内专业的微信第三方开发商和服务商，产品功能丰富，拥有加粉、推广、互动、转化、游戏、管理六大模块，多达上百种微信公众号功能，在这里，你可以了解到产品的全新内容。"/>
     <title>多粉产品中心_微信公众号第三方功能开发</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
 
     <script type="text/javascript">
         $(function () {

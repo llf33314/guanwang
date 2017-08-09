@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉微签到，能够增加粉丝粘性，使粉丝长期关注该公众号，第一时间获取商家最新的信息，快速实现商业信息传播。"/>
     <title>多粉微签到_微信公众号签到功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>多粉微商城</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <link rel="stylesheet" type="text/css" href="/html/store/css/micro.css" />

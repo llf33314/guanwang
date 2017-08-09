@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>多粉硬件_微信公众号智能硬件设备</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
 <meta name="keywords" content="多粉硬件,微信公众号智能硬件设备">
 <meta name="description" content="多粉与众多优秀的硬件公司建立合作，将优质的硬件产品与多粉平台精心打造的产品功能相结合，提供一系列完善的行业解决方案。">
 <%@include file="/html/common/cmm_css.jsp" %>

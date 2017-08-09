@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>多粉产品使用手册</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/cmm_css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>

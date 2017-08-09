@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 <title>多粉--连接粉丝、连接世界，提供微信营销的第三方开发平台！</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
 <meta name="keywords"
 	content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店" />
 <meta name="description"

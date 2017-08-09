@@ -6,7 +6,7 @@
     <meta name="description" content="以圣诞节为背景所推出的一款摇圣诞树拿礼物游戏。在规定的时间里摇动手机，圣诞树会掉下3份礼物，从中进行选择，选中者即可获得奖励。
 "/>
     <title>多粉圣诞大礼包_微信公众号游戏功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

@@ -6,7 +6,7 @@
     <meta name="description"
           content="多粉高级邀请的出现是传统请帖的一次大变革，高级邀请面向所有行业。直接通过微信送达，免去纸质请帖找人传递的烦恼，展现内容更多，受邀者发送回函回复，互动形式更新颖。"/>
     <title>多粉高级邀请_微信公众号高级邀请功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

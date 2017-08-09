@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="多粉数据统计包括用户分析、图文内容分析、渠道分析、关键词分析等功能，为商家提供最精准的营销数据和决策信息，商家可以根据粉丝的行为喜好制定有针对性的营销策略。"/>
     <title>多粉数据统计_微信公众号数据统计功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

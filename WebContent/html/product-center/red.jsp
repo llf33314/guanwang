@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="微信裂变红包是指微信用户在收到企业发送的组合红包之后，可以再次将红包中的剩余金额分享给好友领取的一种现金红包形式，通过指定发送对象以及发送金额的方式发放红包。"/>
     <title>多粉让红包飞_微信公众号让红包飞功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

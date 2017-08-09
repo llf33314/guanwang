@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>微酒店</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
 <%@include file="/html/common/cmm_css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
 <script type="text/javascript">

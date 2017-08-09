@@ -5,7 +5,7 @@
         <meta charset="utf-8">
                 <meta name="description" content="以世界杯为游戏原型，通过点球和分享好友增加得分分数，参与活动的粉丝可以通过积分来兑换奖品或者抽奖机会，即使得分不够也可以用分数兑换抽奖机会。"/>
                 <title>多粉点球大战_微信公众号游戏功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
         <%@include file="/html/common/css.jsp" %>
         <%@include file="/html/common/js.jsp" %>
         <script type="text/javascript">

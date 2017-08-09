@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="商家可以利用多粉的微场景，以精美的动态图片向消费者展示商家的产品、活动信息等商业目的，动静结合，打造出不一样的宣传体验。"/>
     <title>多粉微场景_微信公众号微场景功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

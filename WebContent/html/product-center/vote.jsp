@@ -6,7 +6,7 @@
     <meta name="description" content="在多粉微投票，商家可以自主设定投票时间，视频、音频、文字、图片同时发布。灵活的广告投放，自有品牌，赞助商，均可在活动规则中呈现。商家可以利用多粉微投票的活动来吸引粉丝，与粉丝之间产生互动。
 "/>
     <title>多粉微投票_微信公众号微投票功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
 	<%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">

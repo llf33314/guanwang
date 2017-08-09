@@ -6,7 +6,7 @@
     <meta name="description"
           content="微公告，传播分享行业动态资讯，帮助商家发布最新品牌信息动态，增加透明度，树立品牌形象。"/>
     <title>多粉微公告_微信公众号微公告功能</title>
-    <link rel="Shortcut Icon" href="/images/toplogo.ico" type="image/x-icon">
+
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
     <script type="text/javascript">
