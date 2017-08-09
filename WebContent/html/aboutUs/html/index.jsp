@@ -101,11 +101,11 @@
 		             </li>
 		             <li>
 		                <img src="../images/ain25.png">
-		                <p>酒店推介会</p>
+		                <p>多粉培训会</p>
 		             </li>
 		             <li>
 		                <img src="../images/ain26.png">
-		                <p>红花湖徒步</p>
+		                <p>多粉代理商签约仪式</p>
 		             </li>
 		          </ul>		     
 		     </div>
@@ -271,7 +271,7 @@
 		       <p>第三届广东省互联网+移动营销奖...</p>
 		  </div>
 		  <div class="a-in-swiper-picshow">
-			  <img src="../images/ain57.jpg" style="width:100%;">
+			  <img src="../images/ain57.jpg" style="width:100%; height:410px;">
 		  </div>
 		  <div class="a-in-certificate-wrap">
 		       <div class="a-in-certificate a-in-cloud-container">
