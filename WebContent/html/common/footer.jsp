@@ -22,10 +22,13 @@
                  <dt>产品服务</dt>
                  <%--<dd onclick="footerLock('产品中心');"><a href="/html/product.jsp" >产品中心</a></dd>--%>
                  <!-- <dd onclick="footerLock('运营推广');"><a href="/html/promotion.jsp" >运营推广</a></dd> -->
+                 <dd onclick="footerLock('产品中心');"><a href="/html/weixinapp.jsp" >微信小程序</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="/html/weixinSell.jsp" >微信营销</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp" >商家联盟</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="/html/coupon.jsp" >优惠券发放平台</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="/html/fansNest.jsp" >粉巢系统</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/generation_operation.jsp" >代运营</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/setMeal.jsp" >代运营套餐</a></dd>
-                 <dd onclick="footerLock('产品中心');"><a href="javascript:;" >微预约</a></dd>
-                 <dd onclick="footerLock('产品中心');"><a href="javascript:;" >培训预约</a></dd>
              <%--<dd onclick="footerLock('定制开发');"><a href="/html/customdevelopment.jsp" >定制开发</a></dd>--%>
                  <%--<!-- <dd onclick="footerLock('解决方案');"><a href="/html/smarty_hotel.jsp" >智慧酒店</a></dd>--%>
                  <%--<dd onclick="footerLock('解决方案');"><a href="/html/LittleGreedyCat/html/index.jsp" >智慧餐饮</a></dd> -->--%>

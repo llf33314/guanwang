@@ -50,11 +50,11 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in6">&#xe607;</i></div>
-                        <a href="http://www.duofriend.com/html/generation_operation.jsp">
+                        <div class="a-pro-a"><i class="iconfont in6">&#xe899;</i></div>
+                        <a href="/html/fansNest.jsp">
 	                     <span>
-	                         <h3>代运营</h3>
-	                         <p>专业团队负责就是不一样</p>
+	                         <h3>粉巢系统</h3>
+	                         <p>六站合一的跨平台同步系统</p>
 	                     </span>
                         </a>
                     </li>
