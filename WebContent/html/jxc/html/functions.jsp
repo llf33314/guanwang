@@ -90,7 +90,7 @@
                     </ul>
                 </div>
                 <div class="know-more-box">
-                    <a class="know-more know-more-show">了解更多</a>
+                    <a class="know-more know-more-show" href="http://duofriend.com/user/toregister.do">了解更多</a>
                 </div>
             </div>
             <!-- 销售更灵活 -->
