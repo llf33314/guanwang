@@ -36,8 +36,8 @@
         <div class="a-swiper-wsc" style="display:none;" id="id1">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">微商城</h2>
-                <p>新零售时代下的移动电商解决方案</p>
-                <p style="padding-top: 5px;">提供全方位的线上开店支持</p>
+                <div>新零售时代下的移动电商解决方案</div>
+                <div style="padding-top: 5px;">提供全方位的线上开店支持</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-wsc-click">免费试用</a></li>
                     <li><a href="/html/store/html/index.jsp" class="a-swiper-wsc-click">了解更多</a></li>
@@ -50,8 +50,8 @@
         <div class="a-swiper-syt" style="display:none;" id="id2">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">收银台</h2>
-                <p>智慧线下收银解决方案，支持个体实体商家接入</p>
-                <p style="padding-top: 5px;">无需公众号一样玩转</p>
+                <div>智慧线下收银解决方案，支持个体实体商家接入</div>
+                <div style="padding-top: 5px;">无需公众号一样玩转</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-syt-click">免费试用</a></li>
                     <li><a href="javascript:void(0);" class="a-swiper-syt-click">了解更多</a></li>
@@ -64,8 +64,8 @@
         <div class="a-swiper-fx" style="display:none;" id="id3">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">分销系统</h2>
-                <p>买家即是卖家，人人都是你的分销商</p>
-                <p style="padding-top: 5px;">让消费者在购买的同时，参与商品分销、推广和分润，实现全民营销</p>
+                <div>买家即是卖家，人人都是你的分销商</div>
+                <div style="padding-top: 5px;">让消费者在购买的同时，参与商品分销、推广和分润，实现全民营销</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-fx-click">免费试用</a></li>
                     <li><a href="/html/distribution/html/index.jsp" class="a-swiper-fx-click">了解更多</a></li>
@@ -78,8 +78,8 @@
         <div class="a-swiper-xcm" style="display:none;" id="id4">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">智慧餐饮</h2>
-                <p>互联网+餐饮全流程解决方案</p>
-                <p style="padding-top: 5px;">一站式提供自助点餐、远程排队、外卖系统、收银、会员营销、报表统计</p>
+                <div>互联网+餐饮全流程解决方案</div>
+                <div style="padding-top: 5px;">一站式提供自助点餐、远程排队、外卖系统、收银、会员营销、报表统计</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-xcm-click">免费试用</a></li>
                     <li><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-xcm-click">了解更多</a></li>
@@ -92,8 +92,8 @@
         <div class="a-swiper-cxs" style="display:none;" id="id5">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">汽车美容快修</h2>
-                <p>SaaS模式管理系统+零配件进销存+线上商城</p>
-                <p style="padding-top: 5px;">帮你拉生意、提效率、促业绩，让你在同质化的竞争中脱颖而出</p>
+                <div>SaaS模式管理系统+零配件进销存+线上商城</div>
+                <div style="padding-top: 5px;">帮你拉生意、提效率、促业绩，让你在同质化的竞争中脱颖而出</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-cxs-click">免费试用</a></li>
                     <li><a href="/html/CarCount/html/index.jsp" class="a-swiper-cxs-click">了解更多</a></li>
@@ -106,8 +106,8 @@
         <div class="a-swiper-yz" style="display:none;" id="id6">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">美容美发</h2>
-                <p>美容美发行业互联网解决方案</p>
-                <p style="padding-top: 5px;">赋予传统美业全新的预约、会员CRM及运营管理模式</p>
+                <div>美容美发行业互联网解决方案</div>
+                <div style="padding-top: 5px;">赋予传统美业全新的预约、会员CRM及运营管理模式</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-yz-click">免费试用</a></li>
                     <li><a href="/html/look/html/index.jsp" class="a-swiper-yz-click">了解更多</a></li>
@@ -120,8 +120,8 @@
         <div class="a-swiper-cxb" style="display:block" id="id7">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">智慧进销存 </h2>
-                <p>解决库存之忧，帮你慧管生意</p>
-                <p style="padding-top: 5px;">全程扫码作业，门店网店库存同步，最优化配置商品库存</p>
+                <div>解决库存之忧，帮你慧管生意</div>
+                <div style="padding-top: 5px;">全程扫码作业，门店网店库存同步，最优化配置商品库存</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-cxb-click">免费试用</a></li>
                     <li><a href="/html/jxc/html/index.jsp" class="a-swiper-cxb-click">了解更多</a></li>
