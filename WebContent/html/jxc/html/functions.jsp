@@ -14,13 +14,13 @@
 <body>
 <div class="cxb-fn-show1" id="cxbFnFirstAnimate">
     <div class="left cxb-fn-show1-text1">
-        <div class="text-box">
+        <div class="text-box" style="font-family: Microsoft YaHei">
             <div class="text11"><span class="counter">10,000</span>+的用</div>
             <div class="text12">存销宝SaaS平台强</div>
         </div>
     </div>
     <div class="right  cxb-fn-show1-text2">
-        <div class="text-box">
+        <div class="text-box" style="font-family: Microsoft YaHei">
             <div class="text21">户共同见证</div>
             <div class="text22">大的库存管理能力</div>
         </div>
@@ -53,17 +53,17 @@
     <div class="cxb-fn-leftz-box">
         <div class="cxb-fn-left-box show-left-img" id="cxbFnLeftBox" style="display: block">
             <!-- 商品更快速 -->
-            <div class="cxb-fn-left cxb-fn-left0" style="background-image: url(../img/cxb/functions/fn-left-0/fn-left-0.png")></div>
+            <div class="cxb-fn-left cxb-fn-left0" style="background-image: url(../img/cxb/functions/fn-left-0/fn-left-0.jpg")></div>
             <!-- 销售更灵活 -->
-            <div class="cxb-fn-left cxb-fn-left1" style="background-image: url(../img/cxb/functions/fn-left-1/fn-left-10.png")></div>
+            <div class="cxb-fn-left cxb-fn-left1" style="background-image: url(../img/cxb/functions/fn-left-1/fn-left-10.jpg")></div>
             <!-- 急速补货 -->
-            <div class="cxb-fn-left cxb-fn-left2" style="background-image: url(../img/cxb/functions/fn-left-2/fn-left-20.png")></div>
+            <div class="cxb-fn-left cxb-fn-left2" style="background-image: url(../img/cxb/functions/fn-left-2/fn-left-20.jpg")></div>
             <!-- 核对更清晰 -->
-            <div class="cxb-fn-left cxb-fn-left3" style="background-image: url(../img/cxb/functions/fn-left-3/fn-left-30.png")></div>
+            <div class="cxb-fn-left cxb-fn-left3" style="background-image: url(../img/cxb/functions/fn-left-3/fn-left-30.jpg")></div>
             <!-- 信息自动集成 -->
-            <div class="cxb-fn-left cxb-fn-left1-4" style="background-image: url(../img/cxb/functions/fn-left-4/fn-left-40.png")></div>
+            <div class="cxb-fn-left cxb-fn-left1-4" style="background-image: url(../img/cxb/functions/fn-left-4/fn-left-40.jpg")></div>
             <!-- 双调拨模式 -->
-            <div class="cxb-fn-left cxb-fn-left5" style="background-image: url(../img/cxb/functions/fn-left-5/fn-left-50.png")></div>
+            <div class="cxb-fn-left cxb-fn-left5" style="background-image: url(../img/cxb/functions/fn-left-5/fn-left-50.jpg")></div>
         </div>
         <div class="cxb-fn-leftz fn-set-height" id="cxbFnLeftContent">
             <!-- 商品更快速 -->
