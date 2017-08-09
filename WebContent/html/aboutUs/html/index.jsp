@@ -189,7 +189,7 @@
 			                <p>总人数</p>
 			             </li>
 			             <li>
-			                <span class="counter">150</span>
+			                <span class="counter" id="agentCount">150</span>
 			                <p>代理商</p>
 			             </li>
 			             <li style="border:none;">
@@ -218,10 +218,10 @@
 			                       <h3>多粉体验厅</h3>
 			                   </div>
 			                   <div class="a-in-swiper-slide a-in-solution-image5">
-			                       <h3>新品发布会</h3>
+								   <h3>新品发布会</h3>
 			                   </div>
 			                   <div class="a-in-swiper-slide a-in-solution-image6">
-			                       <h3>电视电话会议室</h3>
+								   <h3>电视电话会议室</h3>
 			                   </div>
 			                    <div class="a-in-swiper-slide a-in-solution-image7">
 			                       <h3>前台</h3>
@@ -242,7 +242,7 @@
 			                       <h3>沙龙室</h3>
 			                   </div>
 			              </div>
-			          </div>		         
+			          </div>
 		         </div>
 		     </div>
 	  </div>
@@ -253,13 +253,13 @@
 		               <div class="animation2-block-left animation-all"></div>
 		               <div class="animation2-block-right animation-all"></div>
 		               <div class="animation2-block-top animation-all"></div>
-		               <div class="animation2-block-bottom animation-all"></div>          
+		               <div class="animation2-block-bottom animation-all"></div>
 		          </div>
 		          <div class="a-in-txt">
 		               <h3>所获荣誉</h3>
 		               <p class="a-in-txt-link">Honour received</p>
 		               <p class="a-in-txt-detail">追求卓越品质   缔造世界品牌</p>
-		          </div>   
+		          </div>
 		     </div>
 		  </div>
 		  <div class="a-in-swiper-honor">
@@ -268,7 +268,7 @@
 		       <p>2015年年度广东互联网优秀企业；2015年年度优秀微信开发服务商；</p>
 		       <p>2015年年度杰出移动电商服务商；第六届金网奖社会化营销奖；</p>
 		       <p>第四届互联网+创新项目金奖；2015年年度投资者信赖微信开发服务商</p>
-		       <p>第三届广东省互联网+移动营销奖...</p>	  
+		       <p>第三届广东省互联网+移动营销奖...</p>
 		  </div>
 		  <div class="a-in-swiper-picshow">
 			  <img src="../images/ain57.jpg" style="width:100%;">
@@ -296,9 +296,9 @@
 			                   <div class="a-in-swiper-slide2 a-in-certificate-image17"></div>
 			                   <div class="a-in-swiper-slide2 a-in-certificate-image18"></div>
 			              </div>
-			          </div>		         
-		         </div>	  
-		  </div>	  
+			          </div>
+		         </div>
+		  </div>
 	   </div>
 	   <div class="a-in-swiper-big-box" style="display:none" id="id3">
 	       <div style="height: 441px;">
@@ -306,13 +306,13 @@
 		          <div class="a-in-animation">
 		               <div class="animation3-block-left animation-all"></div>
 		               <div class="animation3-block-right animation-all"></div>
-		               <div class="animation3-block-bottom animation-all"></div>          
+		               <div class="animation3-block-bottom animation-all"></div>
 		          </div>
 		          <div class="a-in-txt">
 		               <h3>加入我们</h3>
 		               <p class="a-in-txt-link">To join duofriend</p>
 		               <p class="a-in-txt-detail">在这里，展示自己的创意和天赋</p>
-		          </div>     
+		          </div>
 		     </div>
 		   </div>
 		   <div class="a-in-swiper-join">
@@ -427,7 +427,7 @@
 			               <p>2、热爱设计这个行业，对平面设计、城市户外广告设计、艺术视觉设计充满激情，能创新通过视觉效果来解决实际问题；</p>
 			               <p>3、能承受较强的工作压力、工作踏实、细致、有责任心。</p>
 			               <p>4、思维活跃、有上进心、具有团队合作精神；</p>
-			               <p>5、能熟练使用Photoshop、CorelDRAW、Illustrator等软件；</p>		              
+			               <p>5、能熟练使用Photoshop、CorelDRAW、Illustrator等软件；</p>
 		             </div>
 		           </li>
 		           <span class="a-in-swiper-join-more">如果你有热情与兴趣加入多粉，请将简历发送到 hr@goodtom.net 或者致电咨询：0752-2329043/18026538466  刘经理</span>
@@ -443,11 +443,11 @@
 		               <div class="animation4-block-min1 animation-all"></div>
 		               <div class="animation4-block-min2 animation-all"></div>
 		               <div class="animation4-block-min3 animation-all"></div>
-		               <div class="animation4-block-min4 animation-all"></div>          
+		               <div class="animation4-block-min4 animation-all"></div>
 		          </div>
 		          <div class="a-in-txt">
 		               <h3>合作伙伴</h3>
-		               <p class="a-in-txt-link">Cooperative partner</p>	               
+		               <p class="a-in-txt-link">Cooperative partner</p>
 		               <p class="a-in-txt-detail">携手多粉 预见未来</p>
 		          </div>
 		     </div>
@@ -491,7 +491,7 @@
 		               <h5 style="font-size:18px;">广东省惠州市惠城区东平惠州大道赛格假日广场大厦1003-1008</h5>
 		          </span>
 		       </li>
-		    
+
 		    </ul>
 		</div>
 		<div class="a-in-swiper-branch">
@@ -558,6 +558,17 @@
 
 	</div>
 <%@include file="/html/common/footer.jsp" %>
+<script>
+    //获取入住代理数量
+    $.ajax({
+        url:"${pageContext.request.contextPath}/agent/html/getAgentCount.do",
+        success:function(data){
+            if(data != "" && data != null){
+                $("#agentCount").html(data.agentCount);
+            }
+        }
+    });
+</script>
 <!-- 底部区域 -->	
 <script src="../js/aintroduce.js"></script>
 <script src="../js/main.js"></script>
