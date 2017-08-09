@@ -94,7 +94,7 @@
                     </ul>
                 </div>
                 <div class="know-more-box">
-                    <a class="know-more know-more-show">了解更多</a>
+                    <a class="know-more know-more-show" href="http://duofriend.com/user/toregister.do">了解更多</a>
                 </div>
             </div>
             <!-- 急速补货 -->
@@ -110,7 +110,7 @@
                     </ul>
                 </div>
                 <div class="know-more-box">
-                    <a class="know-more know-more-show">了解更多</a>
+                    <a class="know-more know-more-show" href="http://duofriend.com/user/toregister.do">了解更多</a>
                 </div>
             </div>
             <!-- 核对更清晰 -->
@@ -129,7 +129,7 @@
                     </ul>
                 </div>
                 <div class="know-more-box">
-                    <a class="know-more know-more-show">了解更多</a>
+                    <a class="know-more know-more-show" href="http://duofriend.com/user/toregister.do">了解更多</a>
                 </div>
             </div>
             <!-- 信息自动集成 -->
@@ -145,7 +145,7 @@
                     </ul>
                 </div>
                 <div class="know-more-box">
-                    <a class="know-more know-more-show">了解更多</a>
+                    <a class="know-more know-more-show" href="http://duofriend.com/user/toregister.do">了解更多</a>
                 </div>
             </div>
             <!-- 双调拨模式 -->
@@ -161,7 +161,7 @@
                     </ul>
                 </div>
                 <div class="know-more-box">
-                    <a class="know-more know-more-show">了解更多</a>
+                    <a class="know-more know-more-show" href="http://duofriend.com/user/toregister.do">了解更多</a>
                 </div>
             </div>
             <div class="cxb-fn-control hide" id="cxbFnControl">
