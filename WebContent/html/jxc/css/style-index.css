@@ -3460,7 +3460,7 @@ body {
   background-size: cover;
   position: absolute;
   top: 25px;
-  right: 19.44734098%;
+  right: 3%;
   cursor: pointer;
   z-index: 1;
 }
@@ -3472,7 +3472,7 @@ body {
   width: 100%;
   height: 100%;
   min-height: 768px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.75);
   display: none;
   z-index: 999;
 }
@@ -5573,7 +5573,4 @@ a{text-decoration: none}
 }
 .a-in-middle-container-wrap .a-in-middle-container .a-in-swiper-solution-container .a-in-swiper-wrapper .a-in-swiper-slide h3 {
   font-weight: normal;
-}
-.cxb-fn-menus {
-  background-color: rgba(0, 0, 0, 0.5);
 }
