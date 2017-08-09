@@ -236,10 +236,10 @@
 			                       <h3>多粉体验厅</h3>
 			                   </div>
 			                   <div class="a-in-swiper-slide a-in-solution-image11">
-			                       <h3>会议室</h3>
+			                       <h3>新品发布会</h3>
 			                   </div>
 			                   <div class="a-in-swiper-slide a-in-solution-image12">
-			                       <h3>沙龙室</h3>
+			                       <h3>电视电话会议室</h3>
 			                   </div>
 			              </div>
 			          </div>
