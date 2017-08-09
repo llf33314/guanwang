@@ -86,7 +86,7 @@
 					<div class="wow fadeInLeft">
 						<img src="../images/home-8.png" alt="">
 					</div>
-					<div class="marginLeft wow fadeInRight" data-wow-offset="360">
+					<div class="marginLeft wow fadeInRight">
 						<h3>让业主智享生活</h3>
 						<ul>
 							<li>账单通知每月准时送达，告别缴费烦恼，这费那费不用跑腿</li>
@@ -101,7 +101,7 @@
 		<section class="section5">
 			<div class="two-column container">
 				<div>
-					<div class="marginRight wow fadeInLeft" data-wow-offset="360">
+					<div class="marginRight wow fadeInLeft">
 						<h3>万能内管，让数据管理更高效</h3>
 						<ul>
 							<li>物业管理企业全方位基础信息管理，原始数据一次批量导入</li>
@@ -178,7 +178,6 @@
 		function bannerResize() {
 			$(window).resize(function () {
 				var h = $(window).height() >= 766 ? $(window).height() : 766;
-				console.log(h)
 				if (h == 766) {
 					$(".home-banner>div").css({ 'top': "0px" });
 					$(".home-banner .banner-title").css({ 'margin-top': "40px" });
@@ -194,7 +193,7 @@
 		$(function () {
 			bannerResize();
 			var wow = new WOW({
-				offset: 425,
+				offset: 10,
 			});
 			wow.init();
 		})
