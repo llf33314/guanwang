@@ -9,7 +9,7 @@
 	<script src="/html/js/jquery-2.2.2.min.js"></script>
 </head>
 <body>
-<%@include file="/html/common/clearfix.jsp" %>
+<%@include file="/html/common/clearfix1.jsp" %>
 <div class="a-hw-nextbox">
 	  <div class="a-hw-nextbox-box" style="border-bottom: 2px solid #EEEEEE;">
 		  <div class="a-hw-nextbox-box-l  mated1 infinite fadeInLeft" >

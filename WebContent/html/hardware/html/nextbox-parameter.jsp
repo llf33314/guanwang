@@ -9,7 +9,7 @@
 	<script src="/html/js/jquery-2.2.2.min.js"></script>
 </head>
 <body>
-<%@include file="/html/common/clearfix.jsp" %>
+<%@include file="/html/common/clearfix1.jsp" %>
 <!-- top -->
 <div style="width: 100%;z-index: 4;" class="second-js-top">
 	<div class="a-hw-hardware">
