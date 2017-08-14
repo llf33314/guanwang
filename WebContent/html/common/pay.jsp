@@ -1,6 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <link rel="stylesheet" href="/html/common/css/st.css" />
-<script src="/html/js/jquery-2.2.2.min.js"></script>
 <div class="package-wrap">
     <div class="content-wrap clearfix" id="meal_set">
         <div class="item-wrap" id="item1" style=" border-right: 0;">

@@ -8,7 +8,7 @@
            <span class="gt-a-top-box-title"><p>用多粉，好生意</p></span>
            </a></div>
         <ul class="gt-a-top-box-sigle">
-            <li class="a-top-firstli"><a href="http://www.duofriend.com">首页</a></li>
+            <li class="a-top-firstli"><a href="/">首页</a></li>
             <li class="a-top-firstli" id="a-show"><a href="javascript:;">产品中心</a>
                 <ul class="a-top-product" id="a-show2">
                     <li class="a-pro-a">
