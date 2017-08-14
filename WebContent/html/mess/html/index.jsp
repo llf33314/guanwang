@@ -18,7 +18,7 @@
     <div class="wxst-floor01">
         <div class="left">
             <a href="">
-                <h1>微信食堂</h1>
+                <h1>员工食堂</h1>
                 <h2><span>.</span>单位/工厂食堂</h2>
             </a>
             <a href="/"><h3 class="return">返回主站</h3></a>
