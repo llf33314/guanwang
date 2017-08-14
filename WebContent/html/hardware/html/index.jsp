@@ -3,11 +3,13 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>多粉硬件</title>
     <link rel="stylesheet" type="text/css" href="../css/hardware.css" />
 	<link rel="stylesheet" type="text/css" href="../css/animate.css" />
+	<script src="/html/js/jquery-2.2.2.min.js"></script>
 </head>
 <body>
+<%@include file="/html/common/clearfix.jsp" %>
 <div class="a-hw-nextbox">
 	  <div class="a-hw-nextbox-box" style="border-bottom: 2px solid #EEEEEE;">
 		  <div class="a-hw-nextbox-box-l  mated1 infinite fadeInLeft" >
@@ -192,9 +194,8 @@
 		</li>
 	</ul>
 </div>
-	
+<%@include file="/html/common/footer.jsp" %>
 <!-- 底部区域 -->
-<script src="../js/jquery-2.2.2.min.js"></script>
 <script src="../js/index.js"></script>
 <script>
     $('.a-hw-printer-ul-li').on('mouseenter',function(){

@@ -1,7 +1,7 @@
 var it;
 $(function(){
     gtShow(1,$("#a-swiper1"));
-    $("#a-swiper7 > a").attr("style","color:#2d8efe;");
+   // $("#a-swiper7 > a").attr("style","color:#2d8efe;");
 	$('.closeimg').on('click', function() {
 		$('.popup_dialog_confirm').hide();
 	});
