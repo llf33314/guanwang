@@ -28,7 +28,7 @@
             </ul>
         </div>
     </div>
-		<h1 class="pu-top-h1" ><img src="../images/paytitle.png" /></h1>
+		<h1 class="pu-top-h1" ><img src="/html/mess/img/paytitle.png" /></h1>
 		<p class="pu-top-p">聚焦行业解决方案 助力企业创新发展</p>
 	</div>
     <div class="package-wrap">
