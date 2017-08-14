@@ -127,9 +127,9 @@
             </div>
             <!-- 核对更清晰 -->
             <div class="cxb-fn-left-content">
-                <h1 class="title show">线上报损报益 账目核对更清晰</h1>
+                <h1 class="title show">线上报损报溢 账目核对更清晰</h1>
                 <div class="line short0"></div>
-                <div class="dps" style="height: 70px;"><p class="toup">门店可以直接线上报损报益，总店审核。自动关联库存，每条记录清晰可追溯，财务对账更方便快捷</p></div>
+                <div class="dps" style="height: 70px;"><p class="toup">门店可以直接线上报损报溢，总店审核。自动关联库存，每条记录清晰可追溯，财务对账更方便快捷</p></div>
                 <div class="icons-box" style="height: 136px;width: 280px;top: 140px;">
                     <ul class="icons icon-show" style="height: 136px;width: 280px;top: 140px;">
                         <li style="background-image: url(../img/cxb/functions/fn-left-3/fn-left-31.png);height: 66px;"></li>
@@ -164,7 +164,7 @@
             <div class="cxb-fn-left-content hide">
                 <h1 class="title show">双调拨模式 让门店库存动起来</h1>
                 <div class="line short0"></div>
-                <div class="dps" style="height: 70px;"><p class="toup">多门店之间库存即可直接通过总部统筹调拨，也可门店自己自行调拨以应对突发情形，双调拨模式，让门店库存动起来</p></div>
+                <div class="dps" style="height: 70px;"><p class="toup">多门店之间库存既可直接通过总部统筹调拨，也可门店自己自行调拨以应对突发情形，双调拨模式，让门店库存动起来</p></div>
                 <div class="icons-box">
                     <ul class="icons icon-show">
                         <li style="background-image: url(../img/cxb/functions/fn-left-5/fn-left-51.png);height: 46px;"></li>
