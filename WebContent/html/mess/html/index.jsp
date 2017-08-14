@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>微信食堂</title>
+    <title>员工食堂</title>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
@@ -18,7 +18,7 @@
     <div class="wxst-floor01">
         <div class="left">
             <a href="">
-                <h1>微信食堂</h1>
+                <h1>员工食堂</h1>
                 <h2><span>.</span>单位/工厂食堂</h2>
             </a>
             <a href="/"><h3 class="return">返回主站</h3></a>
