@@ -29,7 +29,7 @@
 			<p>也有人称作“加粉盒子”，没有公众号、没有</p>
 			<p>电脑同样可以使用的多功能收银盒子</p>
 			<p style="margin: 5px 0;">零售价：<span style="font-size: 24px;font-weight: bold;">￥799</span></p>
-			<a href="">立即购买</a>
+			<a href="javascript:void(0)" onclick="showClick(2);">立即购买</a>
 		</div>
 	</div>
 </div>

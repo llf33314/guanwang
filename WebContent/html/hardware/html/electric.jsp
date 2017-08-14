@@ -29,7 +29,7 @@
 			<p>散客还是会员来电，系统一眼便知，</p>
 			<p>做即懂营销又能识别身份的店铺</p>
 			<p style="margin: 5px 0;">零售价：<span style="font-size: 24px;font-weight: bold;">￥399</span></p>
-			<a href="">立即购买</a>
+			<a href="javascript:void(0)" onclick="showClick(2);">立即购买</a>
 		</div>
 	</div>
 </div>
