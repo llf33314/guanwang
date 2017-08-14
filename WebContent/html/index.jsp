@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>多粉 · 用多粉，好生意！提供微信营销应用以及全行业SaaS ERP解决方案！</title>
-
     <meta name="keywords" content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店"/>
     <meta name="description" content="多粉是国内专业领先的微信第三方开发平台，提供微信小程序、微信商城、微信分销系统、H5游戏等功能开发及代运营服务，全方位智慧行业SaaS ERP解决方案。11"/>
     <link rel="stylesheet" type="text/css" href="../css/official.css" />
@@ -322,7 +321,7 @@
             <img src="../images/index/as-pro10.png">
             <span>员工食堂</span>
             <p>单位/工厂食堂解决方案</p>
-            <a href="javascript:void(0);">更多</a>
+            <a href="/html/mess/html/index.jsp">更多</a>
         </li>
     </ul>
     <span class="a-pro-box"><a href="javascript:;" id="a-pro-button">更多行业解决方案敬请期待</a></span>
