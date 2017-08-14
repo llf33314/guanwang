@@ -3,17 +3,19 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title来电眼</title>
     <link rel="stylesheet" type="text/css" href="../css/hardware.css" />
 	<link rel="stylesheet" type="text/css" href="../css/animate.css" />
+	<script src="/html/js/jquery-2.2.2.min.js"></script>
 </head>
 <body>
+<%@include file="/html/common/clearfix.jsp" %>
 <!-- top -->
 <div style="width: 100%;z-index: 4;" class="second-js-top">
 	<div class="a-hw-hardware">
 	   <ul class="a-hw-hardware-txt">
-	      <li><a href="javascript:;" class="a-hw-txt-a ">概览</a></li>
-	      <li><a href="javascript:;" class="a-hw-txt-a a-hw-sp">产品参数</a></li>
+	      <li><a href="/html/hardware/html/electric.jsp" class="a-hw-txt-a ">概览</a></li>
+	      <li><a href="" class="a-hw-txt-a a-hw-sp">产品参数</a></li>
 	   </ul>
 	</div>
   </div>
@@ -74,8 +76,8 @@
 
 
 </div>
+<%@include file="/html/common/footer.jsp" %>
 <!-- 底部区域 -->
-<script src="../js/jquery-2.2.2.min.js"></script>
 <script src="../js/thead.js"></script>
 </body>
 </html>

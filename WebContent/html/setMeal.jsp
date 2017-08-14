@@ -50,7 +50,7 @@
 				<table class="combo-title">
 
 					<th>代运营套餐</th>
-					<th>简易版</th>
+					<%--<th>简易版</th>--%>
 					<th>基础版</th>
 					<th>商务版</th>
 					<th>旗舰版</th>
@@ -66,7 +66,7 @@
 				<tboby>
 				<tr class="combo-item">
 					<td style='color: #333'>版本价格</td>
-					<td class="right-cancel">600元/年</td>
+					<%--<td class="right-cancel">600元/年</td>--%>
 					<td class="right-cancel">3000元/年</td>
 					<td class="right-cancel">6000元/年</td>
 					<td class="right-cancel">1万元/年</td>
@@ -77,8 +77,8 @@
 				</tr>
 				<tr class="combo-item">
 					<td>帐号认证加V</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -96,8 +96,8 @@
 				</tr>
 				<tr class="combo-item">
 					<td>多地图标识</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -115,7 +115,7 @@
 				</tr>
 				<tr class="combo-item">
 					<td>运营反馈活动</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">4次</td>
 					<td class="right-cancel">4次</td>
 					<td class="right-cancel">6次</td>
@@ -126,7 +126,7 @@
 				</tr>
 				<tr class="combo-item">
 					<td>图文推送</td>
-					<td class="right-cancel">24次</td>
+					<%--<td class="right-cancel">24次</td>--%>
 					<td class="right-cancel">48次</td>
 					<td class="right-cancel">48次</td>
 					<td class="right-cancel">48次</td>
@@ -137,8 +137,8 @@
 				</tr>
 				<tr class="combo-item">
 					<td>粉丝分类管理</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealright.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealright.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -156,7 +156,7 @@
 				</tr>
 				<tr class="combo-item">
 					<td>线上活动策划</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">2次</td>
 					<td class="right-cancel">3次</td>
@@ -167,7 +167,7 @@
 				</tr>
 				<tr class="combo-item">
 					<td>图片优化处理</td>
-					<td class="right-cancel">2次</td>
+					<%--<td class="right-cancel">2次</td>--%>
 					<td class="right-cancel">6次</td>
 					<td class="right-cancel">8次</td>
 					<td class="right-cancel">10次</td>
@@ -178,7 +178,7 @@
 				</tr>
 				<tr class="combo-item">
 					<td>线上活动执行</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">2次</td>
@@ -189,8 +189,8 @@
 				</tr>
 				<tr class="combo-item">
 					<td>推送风格更新</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealright.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealright.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -208,8 +208,8 @@
 				</tr>
 				<tr class="combo-item">
 					<td>舆情分析</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealright.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealright.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -228,7 +228,7 @@
 
 				<tr class="combo-item">
 					<td>专业培训课程</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">2次</td>
@@ -239,7 +239,7 @@
 				</tr>
 				<tr class="combo-item">
 					<td>现场活动策划</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">2次</td>
@@ -253,7 +253,7 @@
 						<p>优惠券商城</p>
 						<p>（免费发布）</p>
 					</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">2次</td>
@@ -269,8 +269,8 @@
 						<p>商家联盟</p>
 						<p>（推荐加入）</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -292,8 +292,8 @@
 						<p>行业ERP系统应用</p>
 						<p>（培训）</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -315,8 +315,8 @@
 						<p>粉巢系统应用</p>
 						<p>（专项培训）</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealright.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -338,8 +338,8 @@
 						<p>行业模块</p>
 						<p>微信小程序（APP）</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -361,8 +361,8 @@
 						<p>官方（微博，</p>
 						<p>自媒体推广同步）</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -380,8 +380,8 @@
 				</tr>
 				<tr class="combo-item">
 					<td>功能优化</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -399,8 +399,8 @@
 				</tr>
 				<tr class="combo-item"> 
 					<td>原创图文推送</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealright.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealright.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -421,7 +421,7 @@
 						<p>新品发布（广告标</p>
 						<p>语专项策划）</p>
 					</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">一</td>
 					<td class="right-cancel">1次</td>
 					<td class="right-cancel">1次</td>
@@ -435,8 +435,8 @@
 					<p>品牌活动场地提供</p>
 					<p>（80人、惠州）</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -456,8 +456,8 @@
 					<td>
 					广告位曝光
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -477,8 +477,8 @@
 					<td>
 				留言回复
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -498,8 +498,8 @@
 					<td>
 					原创功能开通
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -519,7 +519,7 @@
 					<td>
 				       现场活动执行
 					</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">一</td>
 					<td class="right-cancel">一</td>
 					<td class="right-cancel">一</td>
@@ -532,7 +532,7 @@
 					<td>
 				       上门授课
 					</td>
-					<td class="right-cancel">一</td>
+					<%--<td class="right-cancel">一</td>--%>
 					<td class="right-cancel">一</td>
 					<td class="right-cancel">一</td>
 					<td class="right-cancel">一</td>
@@ -546,8 +546,8 @@
 					<p>总经理（GM）</p>
 					<p>接见</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -568,8 +568,8 @@
 					<p>微视频营销</p>
 					<p>策划推广</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -589,8 +589,8 @@
 					<td>
 					合作分成
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -610,8 +610,8 @@
 					<td>
 					驻点调研
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -632,8 +632,8 @@
 					<p>总裁（CEO）</p>
 					<p>接见</p>
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -653,8 +653,8 @@
 					<td>
 				互联网营销协助
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -674,8 +674,8 @@
 					<td>
 					需求定制开发
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
@@ -695,8 +695,8 @@
 					<td>
 					团队承包
 					</td>
-					<td class="right-cancel"><img
-						src="/html/images/fans/setMealclose.png" alt=""></td>
+					<%--<td class="right-cancel"><img
+						src="/html/images/fans/setMealclose.png" alt=""></td>--%>
 					<td class="right-cancel"><img
 						src="/html/images/fans/setMealclose.png" alt=""></td>
 					<td class="right-cancel"><img
