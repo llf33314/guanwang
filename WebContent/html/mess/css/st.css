@@ -777,7 +777,7 @@ div.canvas-content{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+    display: block;
 }
 .popup_dialog_confirm .popup_dialog_ft a {
   position: relative;
