@@ -282,18 +282,6 @@
 			                   <div class="a-in-swiper-slide2 a-in-certificate-image4"></div>
 			                   <div class="a-in-swiper-slide2 a-in-certificate-image5"></div>
 			                   <div class="a-in-swiper-slide2 a-in-certificate-image6"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image7"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image8"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image9"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image10"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image11"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image12"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image13"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image14"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image15"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image16"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image17"></div>
-			                   <div class="a-in-swiper-slide2 a-in-certificate-image18"></div>
 			              </div>
 			          </div>
 		         </div>
