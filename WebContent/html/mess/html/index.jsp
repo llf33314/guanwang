@@ -10,23 +10,25 @@
     <meta name="apple-mobile-web-app-capable" content="no"/>
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="../css/style-index.css"/>
+    <link rel="stylesheet" href="/css/webSite.css"/>
+    <script src="/js/webSite.js"></script>
 </head>
 <body>
 <div class="wxst-floor0">
     <div class="wxst-floor01">
         <div class="left">
-            <a href="#">
+            <a href="">
                 <h1>微信食堂</h1>
                 <h2><span>.</span>单位/工厂食堂</h2>
             </a>
-            <a href="#"><h3 class="return">返回主站</h3></a>
+            <a href="/"><h3 class="return">返回主站</h3></a>
         </div>
         <ul class="right">
-            <li><a href="#" class="link">首页</a></li>
-            <li><a href="#">申请代理</a></li>
-            <li><a href="#">免费体验</a></li>
+            <li><a href="" class="link">首页</a></li>
+            <li><a href="/html/co_convened.jsp">申请代理</a></li>
+            <li><a href="http://duofriend.com/user/toregister.do">免费体验</a></li>
             <li><a href="#">购买</a></li>
-            <li><a href="#">登录</a></li>
+            <li><a href="http://duofriend.com/user/tologin.do">登录</a></li>
         </ul>
     </div>
 </div>
@@ -153,8 +155,10 @@
 <div class="wxst-floor6 w1200">
     <h2 class="h2">适用行业</h2>
     <p class="dps">学校、企业、工厂、医院、政府单位及其他存在内部饭堂的行业</p>
-    <a href="#" class="link">了解更多，点击查看视频</a>
+    <a href="javascript:void(0)"  onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=c03666zb0ob&tiny=0&auto=0");' class="link">了解更多，点击查看视频</a>
 </div>
+<%@include file="/html/common/footer-son.jsp" %>
+
 <script src="../js/jquery-2.2.2.min.js"></script>
 <script>
   var _wxstFloor = function () {
