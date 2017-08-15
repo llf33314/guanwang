@@ -142,7 +142,7 @@
 				<div class="a-hw-scan-li-r">
 					<h3>霍尼韦尔1450g二维码扫描枪器</h3>
 					<p>高速扫描，识别稳定</p>
-					<span>￥900.00</span>
+					<span>￥749.90</span>
 				</div>
 			</div>
 			<div class="a-hw-show4">
