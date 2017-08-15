@@ -13,7 +13,7 @@
                 <ul class="a-top-product" id="a-show2">
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in4">&#xe602;</i></div>
-                        <a href="/html/weixinapp.jsp">
+                        <a href="/html/applet/html/index.jsp">
 	                     <span>
 	                         <h3>微信小程序</h3>
 	                         <p>粉丝端、店员端、BOSS端样样具备</p>
