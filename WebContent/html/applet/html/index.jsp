@@ -25,15 +25,16 @@
 	   </ul>
 	</div>
   </div>
-<div class="xcx-floor1">
-    <div class="box">
-        <h1>一场小程序颠覆APP的革命</h1>
-        <a class="cxb-gobtn" href="http://duofriend.com/user/toregister.do">
-            <span class="btnmask"></span>
-            <i class="clearmid"></i>
-            <div>更多</div>
-            <img class="rower" src="../img/rower.png" />
-        </a>
+<div class="xcx-big">
+    <div class="xcx-floor1"></div>
+        <div class="box">
+            <h1>一场小程序颠覆APP的革命</h1>
+            <a class="cxb-gobtn" href="http://duofriend.com/user/toregister.do">
+                <span class="btnmask"></span>
+                <i class="clearmid"></i>
+                <div>更多</div>
+                <img class="rower" src="../img/rower.png" />
+            </a>
     </div>
 </div>
 <div class="xcx-floor2">

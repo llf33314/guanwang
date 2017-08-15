@@ -21,7 +21,7 @@ var delayID=0;
     $(window).scroll(function(){
          var scrollTop = $(window).scrollTop();
              ///
-             console.log($(window).scrollTop())
+             /*console.log($(window).scrollTop())*/
 
              if(scrollTop >2800 && scrollTop < 3100){
             	 $(".xcx-floor7").find(".imgs").addClass("fadeInUp");

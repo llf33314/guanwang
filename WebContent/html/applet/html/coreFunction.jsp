@@ -22,7 +22,8 @@
      </ul>
   </div>
   </div>
-  <div class="xcx-floor1" style="background-image: url(../imgs/main-img.jpg);">
+<div class="xcx-big">
+  <div class="xcx-floor1" style="background-image: url(../imgs/main-img.jpg);"></div>
       <div class="box">
           <h1>让小程序的能力更加强大</h1>
           <h3 style="font-size: 24px;margin-top: 20px;font-weight: 500;color:#fff">通过多粉的开发能力赋予小程序更加强大的功能</h3>
@@ -34,6 +35,7 @@
           </a>
       </div>
   </div>
+</div>
   <!--主体大图-->
   <!--图标导航-->
   <div class="iconNav">

@@ -706,30 +706,71 @@ a {
 
 .xcx-floor1 {
   height: 442px;
-  border-bottom: 1px solid;
   background-image: url("../img/xcx-floor1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  -webkit-animation: bounce-bb 2.2s linear infinite;
+  animation: bounce-bb 2.2s linear infinite;
+  animation-iteration-count:1;
 }
 
-.xcx-floor1 .box {
-  width: 605px;
+@-webkit-keyframes bounce-bb {
+  0% {
+    transform: scale(1.00);
+  }
+  50%{
+    transform: scale(1.02);
+  }
+ 100% {
+   transform: scale(1.00);
+  }
+}
+@keyframes bounce-bb {
+  0% {
+    transform: scale(1.00);
+  }
+  50%{
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1.00);
+  }
+}
+
+.xcx-big{
+  height: 442px;
+  position: relative;
+  width: 100%;
+}
+.xcx-big .box {
+  /*width: 605px;
   height: 200px;
   margin: 167px auto 0;
   text-align: center;
+  color: #fff;*/
+  width: 605px;
+  height: 200px;
+  margin: 0 auto 0;
+  text-align: center;
   color: #fff;
+  /* position: relative; */
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  left: 50%;
+  margin-left: -302px;
 }
 
-.xcx-floor1 .box h1 {
+.xcx-big .box h1 {
   font-size: 50px;
   padding: 0;
   margin: 0;
   font-weight: normal;
 }
 
-.xcx-floor1 .cxb-gobtn {
+.xcx-big .cxb-gobtn {
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -746,18 +787,18 @@ a {
   margin-top: 49px;
 }
 
-.xcx-floor1 .rower {
+.xcx-big .rower {
   position: absolute;
   right: -20px;
   top: 5px;
 }
 
-.xcx-floor1 .cxb-gobtn > *:not(.clearmid) {
+.xcx-big .cxb-gobtn > *:not(.clearmid) {
   position: relative;
   z-index: 2;
 }
 
-.xcx-floor1 .cxb-gobtn .btnmask {
+.xcx-big .cxb-gobtn .btnmask {
   width: 0;
   height: 100%;
   position: absolute;
@@ -779,23 +820,23 @@ a {
   border-radius: 20px;
 }
 
-.xcx-floor1 .cxb-gobtn .btnmask :root .gradient {
+.xcx-big .cxb-gobtn .btnmask :root .gradient {
   -webkit-filter: none;
   filter: none;
 }
 
-.xcx-floor1 .cxb-gobtn:hover .btnmask {
+.xcx-big .cxb-gobtn:hover .btnmask {
   width: 100%;
 }
 
-.xcx-floor1 .cxb-gobtn > div {
+.xcx-big .cxb-gobtn > div {
   display: inline-block;
   /*vertical-align: middle;*/
   color: #fff;
   font-size: 20px;
 }
 
-.xcx-floor1 .cxb-gobtn span {
+.xcx-big .cxb-gobtn span {
   background-position: -62px -441px;
   background-repeat: no-repeat;
   overflow: hidden;
