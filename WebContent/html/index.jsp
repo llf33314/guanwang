@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="a-swiper-box">
-        <div class="a-swiper-wsc" style="display:none;" id="id1">
+        <div class="a-swiper-wsc"  id="id1">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">微商城</h2>
                 <div>新零售时代下的移动电商解决方案</div>
@@ -116,7 +116,7 @@
                 </div>
             </div>
         </div>
-        <div class="a-swiper-cxb" style="display:block" id="id7">
+        <div class="a-swiper-cxb" style="display:none;" id="id7">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">智慧进销存 </h2>
                 <div>解决库存之忧，帮你慧管生意</div>
