@@ -22,7 +22,7 @@
                  <dt>产品服务</dt>
                  <%--<dd onclick="footerLock('产品中心');"><a href="/html/product.jsp" >产品中心</a></dd>--%>
                  <!-- <dd onclick="footerLock('运营推广');"><a href="/html/promotion.jsp" >运营推广</a></dd> -->
-                 <dd onclick="footerLock('产品中心');"><a href="/html/weixinapp.jsp" >微信小程序</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="/html/applet/html/index.jsp" >微信小程序</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/weixinSell.jsp" >微信营销</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp" >商家联盟</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/coupon.jsp" >优惠券发放平台</a></dd>

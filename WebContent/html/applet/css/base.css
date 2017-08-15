@@ -1,0 +1,102 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    /*去除移动端特有的点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    /*设置盒模型*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+p,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+    -webkit-appearance: none;
+}
+
+input {
+    border: 0 none;
+    outline: none; 
+    -webkit-appearance: none;
+}
+
+select {
+    /*很关键：将默认的select选择框样式清除*/
+    appearance: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    outline-style: none;
+    background: none;
+    border: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0 none;
+}
+
+em,
+i,
+s {
+    font-style: normal;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after{
+    content: '';
+    display:block;
+    visibility: hidden;
+    clear: both;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
