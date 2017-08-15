@@ -502,18 +502,18 @@ a {
 }
 
 #wpox1 {
-  -webkit-animation: bounce-down 1.2s linear infinite;
-  animation: bounce-down 1.2s linear infinite;
+  -webkit-animation: bounce-down 5.2s linear infinite;
+  animation: bounce-down 5.2s linear infinite;
 }
 
 #wpox2 {
-  -webkit-animation: bounce-down1 1.2s linear infinite;
-  animation: bounce-down1 1.2s linear infinite;
+  -webkit-animation: bounce-down1 5.2s linear infinite;
+  animation: bounce-down1 5.2s linear infinite;
 }
 
 @-webkit-keyframes bounce-down {
   25% {
-    -webkit-transform: translateY(-10px);
+    -webkit-transform: translateY(-15px);
   }
 
   50%, 100% {
@@ -521,13 +521,13 @@ a {
   }
 
   75% {
-    -webkit-transform: translateY(10px);
+    -webkit-transform: translateY(15px);
   }
 }
 
 @keyframes bounce-down {
   25% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
 
   50%, 100% {
@@ -535,13 +535,13 @@ a {
   }
 
   75% {
-    transform: translateY(10px);
+    transform: translateY(15px);
   }
 }
 
 @-webkit-keyframes bounce-down1 {
   25% {
-    -webkit-transform: translateY(10px);
+    -webkit-transform: translateY(15px);
   }
 
   50%, 100% {
@@ -549,13 +549,13 @@ a {
   }
 
   75% {
-    -webkit-transform: translateY(-10px);
+    -webkit-transform: translateY(-15px);
   }
 }
 
 @keyframes bounce-down1 {
   25% {
-    transform: translateY(10px);
+    transform: translateY(15px);
   }
 
   50%, 100% {
@@ -563,7 +563,7 @@ a {
   }
 
   75% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
 }
 
@@ -749,7 +749,7 @@ a {
 .xcx-floor1 .rower {
   position: absolute;
   right: -20px;
-  top: 10px;
+  top: 5px;
 }
 
 .xcx-floor1 .cxb-gobtn > *:not(.clearmid) {
@@ -776,6 +776,7 @@ a {
   -o-transition: width 1s;
   -moz-transition: width 1s;
   transition: width 1s;
+  border-radius: 20px;
 }
 
 .xcx-floor1 .cxb-gobtn .btnmask :root .gradient {
@@ -789,7 +790,7 @@ a {
 
 .xcx-floor1 .cxb-gobtn > div {
   display: inline-block;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   color: #fff;
   font-size: 20px;
 }

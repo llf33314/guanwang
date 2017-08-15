@@ -60,7 +60,7 @@
                           <img src="../images/fun10.png">
                       </span>
                     <span>
-                          <div class="m-s2" id="td2" style="display:none ;"></div>
+                          <div class="m-s2" id="td2" style="display:none z;"></div>
                           <img src="../images/fun11.png">
                       </span>
                     <span>

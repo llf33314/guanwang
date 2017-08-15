@@ -1,4 +1,4 @@
-@import url(base.css);
+/*@import url(base.css);*/
 .banxin {
   width: 1200px;
   margin: 0 auto;
@@ -255,7 +255,7 @@ span {
   height: 510px;
   background-image: url("../imgs/boss-2.jpg");
   position: absolute;
-  z-index: 5;
+  z-index: 1;
   top: 0;
   right: 90px;
 }

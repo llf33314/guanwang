@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>微信小程序</title>
-    <link rel="stylesheet" type="text/css" href="../css/style-index.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style-index.css" />
   <link rel = "stylesheet" type="text/css" href = "../css/index.css"/>
-  <script src="../js/jquery-2.2.2.min.js"></script>
+  <script src="/js/index/jquery-2.2.2.min.js"></script>
 
 </head>
 <body>
@@ -30,7 +30,7 @@
               <span class="btnmask"></span>
               <i class="clearmid"></i>
               <div>更多</div>
-              <img class="rower" style="top: 0px;" src="../img/rower.png" />
+              <img class="rower"  src="../img/rower.png" />
           </a>
       </div>
   </div>

@@ -10,23 +10,7 @@
     <meta name="apple-mobile-web-app-capable" content="no" />
     <meta name="format-detection" content="telephone=no">
     <script src="../js/jquery-2.2.2.min.js"></script>
-    <style>
-        @font-face {
-            font-family: 'iconfont';  /* project id 361172 */
-            src: url('//at.alicdn.com/t/font_361172_d40k106rhvxcg14i.eot');
-            src: url('//at.alicdn.com/t/font_361172_d40k106rhvxcg14i.eot?#iefix') format('embedded-opentype'),
-            url('//at.alicdn.com/t/font_361172_d40k106rhvxcg14i.woff') format('woff'),
-            url('//at.alicdn.com/t/font_361172_d40k106rhvxcg14i.ttf') format('truetype'),
-            url('//at.alicdn.com/t/font_361172_d40k106rhvxcg14i.svg#iconfont') format('svg');
-        }
-        .iconfont{
-            font-family:"iconfont" !important;
-            font-size:16px;font-style:normal;
-            -webkit-font-smoothing: antialiased;
-            -webkit-text-stroke-width: 0.2px;
-            -moz-osx-font-smoothing: grayscale;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="../css/style-index.css" />
     <link rel="stylesheet" type="text/css" href="../css/animate.css" />
 </head>
