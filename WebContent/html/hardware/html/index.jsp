@@ -46,7 +46,7 @@
 				<span>￥1049.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/aps1.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -59,7 +59,7 @@
 				<span>￥749.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/ymfp.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -72,7 +72,7 @@
 				<span>￥546.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/lly.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -85,7 +85,7 @@
 				<span>￥500.000</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/jp1.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -98,7 +98,7 @@
 				<span>￥138.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/jp3.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -111,7 +111,7 @@
 				<span>￥1980.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/wxpix.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -130,7 +130,7 @@
 				</div>
 			</div>
 			<div class="a-hw-show4">
-				<img src="../images/hew1.png">
+				<img src="../images/abpt.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -146,7 +146,7 @@
 				</div>
 			</div>
 			<div class="a-hw-show4">
-				<img src="../images/hew1.png">
+				<img src="../images/hnwe.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -162,7 +162,7 @@
 				<span>￥2199.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/xdl.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -175,7 +175,7 @@
 				<span>￥75.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/yyy.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
@@ -188,7 +188,7 @@
 				<span>￥650.00</span>
 			</div>
 			<div class="a-hw-show2">
-				<img src="../images/hew1.png">
+				<img src="../images/wxzh.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
