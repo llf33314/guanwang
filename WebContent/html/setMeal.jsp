@@ -18,12 +18,12 @@
 
 				$('.combo-title').css('position', 'fixed');
 				$('.combo-title').css('top', '500');
-				$('.combo-title').css('z-index', '888');
+				$('.combo-title').css('z-index', '2');
 				// 
 			} else {
 				$('.combo-title').css('position', 'absolute');
 				$('.combo-title').css('top', '0px');
-				$('.combo-title').css('z-index', '12')
+				$('.combo-title').css('z-index', '2')
 			}
 
 		});
