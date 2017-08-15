@@ -26,7 +26,7 @@
 		<div class="a-hw-nextbox-box-r eye mated3 infinite fadeInLeft">
 			<h1>来电眼</h1>
 			<p>散客还是会员来电，系统一眼便知，</p>
-			<p>做即懂营销又能识别身份的店铺</p>
+			<p>做既懂营销又能识别身份的店铺</p>
 			<a href="/html/hardware/html/electric.jsp">了解详情</a>
 		</div>
 		<div class="a-hw-nextbox-box-l mated3 infinite fadeInRight">
