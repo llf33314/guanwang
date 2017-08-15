@@ -164,6 +164,7 @@ span {
 }
 .saoma .saomaContent {
   padding: 50px 125px;
+  box-sizing: border-box;
 }
 .saoma .saomaContent article {
   display: inline-block;
@@ -200,6 +201,7 @@ span {
 }
 .tuiguang .tuiguangContent {
   padding: 65px 95px 90px 125px;
+  box-sizing: border-box;
 }
 .tuiguang .tuiguangContent div span {
   font-size: 14px;
@@ -233,6 +235,7 @@ span {
 .boss .bossContent {
   padding-left: 125px;
   padding-top: 50px;
+  box-sizing: border-box;
 }
 .boss .bossContent article {
   margin-top: 220px;
@@ -268,6 +271,7 @@ span {
 .sale .saleContent {
   padding: 70px 220px 0 70px;
   height: 566px;
+  box-sizing: border-box;
 }
 .sale .saleContent div {
   width: 333px;
@@ -291,6 +295,7 @@ span {
 }
 .fans .fansContent {
   padding: 65px 135px 70px 0;
+  box-sizing: border-box;
 }
 .fans .fansContent article {
   margin-top: 205px;
