@@ -239,7 +239,8 @@
     content: "\f11e"; }
 
 .video-js {
-  display: block;
+  margin: -8px;
+  display: table-caption;
   vertical-align: top;
   box-sizing: border-box;
   color: #fff;
@@ -1149,6 +1150,7 @@ video::-webkit-media-text-track-display {
   transform: translateY(-1.5em); }
 
 .video-js .vjs-fullscreen-control {
+  display: none;
   cursor: pointer;
   -webkit-box-flex: none;
   -moz-box-flex: none;

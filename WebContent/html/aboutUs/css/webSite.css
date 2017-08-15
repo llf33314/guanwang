@@ -1,0 +1,42 @@
+.bghj img{
+ 	width: 477px;
+ 	height: 254px;
+}
+.tgc_list img{
+	height: 168px;
+}
+#inlineBox{
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+}
+.inlineBox{
+	width: 80%;
+	margin: 100px auto;
+}
+.inlineBox-til{
+	height: 30px;
+	width: 1200px;
+	background-color: #2e2e2e;
+}
+.inlineBox-til div{
+	color: white;
+	float: right;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.inlineBox-til div:HOVER{
+	background-color: #4D6477;
+}
+.inlineBox-ifr{
+	background-color: white;
+	height: 747px;
+	width: 1200px;
+}
+.inlineBox-ifr iframe{border: none;  width: 1209px;
+	height: 827px;}

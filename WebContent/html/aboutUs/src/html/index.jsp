@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<div style="display: none;">
 <link href="../js/video/video-js.css" rel="stylesheet">
 <!-- If you'd like to support IE8 -->
 <script src="../js/video/videojs-ie8.min.js"></script>
@@ -18,7 +17,7 @@
     // This is functionally the same as the previous example.
     console.log(this)
   });
+    parent.$(".vjs-fullscreen-control").hide()
    // 设置flash路径，Video.js会在不支持html5的浏览中使用flash播放视频文件
   //videojs.options.flash.swf = "video-js.swf";
 </script>
-</div>

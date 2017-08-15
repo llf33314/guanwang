@@ -9,10 +9,10 @@
     <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/aboutUs/css/style.css"/>
 	<script src="/js/index/jquery-2.2.2.min.js"></script>
-	<link rel="stylesheet" href="/css/webSite.css"/>
+	<link rel="stylesheet" href="/html/aboutUs/css/webSite.css"/>
 	<script src="/js/webSite.js"></script>
-	<link href="../js/video/video-js.css" rel="stylesheet">
-	<script src="../js/video/video.js"></script>
+	<%--<link href="../js/video/video-js.css" rel="stylesheet">--%>
+	<%--<script src="../js/video/video.js"></script>--%>
 </head>
 
 <body>
@@ -88,7 +88,7 @@
 			          <h2 class="a-in-swiper-h2-two">国内领先的移动互联网技术服务公司</h2>
 			          <p>多粉是一家移动互联网创意营销技术平台，为企业提供基于互联网和移动互联网技术的互动</p>
 			          <p>营销产品及SaaS模式全行业解决方案，帮助企业实现自建生态链应用系统</p>
-			          <a href="javascript:;" onclick='WSFUNCTION.videoFrame($("#my-video"));' style="margin-top:65px;display: inline-block;">
+			          <a href="javascript:;" onclick='WSFUNCTION.videoFrame("/html/aboutUs/src/html/index.jsp");' style="margin-top:65px;display: inline-block;">
 						  <img src="../images/ain23.png">
 
 						  <%--<video id="my-video" class="video-js vjs-big-play-centered" controls autoplay="autoplay" preload="auto" width="1200" height="764"--%>
@@ -96,7 +96,9 @@
 							  <%--<source src="../images/officialFilm720P.mp4" type='video/mp4'>--%>
 						  <%--</video>--%>
 					  </a>
+<%--
 					  <%@include file="/html/aboutUs/src/html/index.jsp"%>
+--%>
 					  <p style="font-size:12px;">查看官方宣传视频</p>
 		          </div>
 		     </div>
