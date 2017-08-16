@@ -4,6 +4,15 @@
   display: none !important;
 }
 </style>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?14a62041b4de52f2586d283b14d1175c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 <link rel="stylesheet" href="/html/css/basic.css"/>
 <link rel="stylesheet" type="text/css" href="/css/fans.css" />
 <div class="footer">

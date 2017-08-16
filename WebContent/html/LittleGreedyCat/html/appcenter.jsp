@@ -94,7 +94,7 @@
 		</ul>
 	</div>
 
-	<%@include file="/html/LittleGreedyCat/html/common/footer.jsp" %>
+	<%@include file="/html/common/footer-son.jsp" %>
 
 </body>
 </html>

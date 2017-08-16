@@ -112,7 +112,7 @@
 		          <li class="animated" id="more-pic10" style="opacity: 0;"><img src="../images/ss10.png" style="width:100%"></li>		     
 		     </ul>
 		</div>
-      <%@include file="/html/BigWhite/html/common/footer.jsp" %>
+		<%@include file="/html/common/footer-son.jsp" %>
 
 <script src="../js/index.js"></script>
 <script src="../js/one/jquery.js"></script>
