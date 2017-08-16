@@ -11,7 +11,7 @@ var delayID=0;
 	  }
 	  document.getElementById('td'+Num).style.display="";
 	  Num++;
-	  delayID=setTimeout("change()", 3000);
+	  delayID=setTimeout("change()", 6000);
 	}
 	change();
 

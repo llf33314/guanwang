@@ -5,17 +5,18 @@
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 500;
   color: #333333;
 }
 
 span {
-  font-size: 12px;
-  color: #666666;
-  font-weight: 100;
-}
 
+}
+.iconNav span{
+  font-size: 16px;
+  color: #666;
+}
 .topImg {
   width: 100%;
   height: 442px;
@@ -108,24 +109,37 @@ span {
 }
 .iconNav .iconNavContent ul li span {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
+  color: #666;
 }
-.iconNav .iconNavContent ul li:nth-child(1) a img {
+.tuiguang span{
+  font-size: 14px;
+  color: #666;
+}
+.boss span{
+  font-size: 14px;
+  color: #666;
+}
+.saoma span{
+  font-size: 14px;
+  color: #666;
+}
+.iconNav .iconNavContent ul li:nth-child(1)  img {
   background: url("../imgs/iconNav-1.jpg");
 }
-.iconNav .iconNavContent ul li:nth-child(2) a img {
+.iconNav .iconNavContent ul li:nth-child(2)  img {
   background: url("../imgs/iconNav-2.jpg");
 }
-.iconNav .iconNavContent ul li:nth-child(3) a img {
+.iconNav .iconNavContent ul li:nth-child(3)  img {
   background: url("../imgs/iconNav-3.jpg");
 }
-.iconNav .iconNavContent ul li:nth-child(4) a img {
+.iconNav .iconNavContent ul li:nth-child(4)  img {
   background: url("../imgs/iconNav-4.jpg");
 }
-.iconNav .iconNavContent ul li:nth-child(5) a img {
+.iconNav .iconNavContent ul li:nth-child(5)  img {
   background: url("../imgs/iconNav-5.jpg");
 }
-.iconNav .iconNavContent ul li:nth-child(6) a .iconMore {
+.iconNav .iconNavContent ul li:nth-child(6)  .iconMore {
   width: 77px;
   height: 77px;
   margin-bottom: 25px;
@@ -133,22 +147,22 @@ span {
   border-radius: 50%;
   line-height: 77px;
 }
-.iconNav .iconNavContent ul li:nth-child(6) a .iconMore i {
+.iconNav .iconNavContent ul li:nth-child(6)  .iconMore i {
   display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background: #ffffff;
 }
-.iconNav .iconNavContent ul li:nth-child(6) a .iconMore i:nth-child(1) {
+.iconNav .iconNavContent ul li:nth-child(6)  .iconMore i:nth-child(1) {
   -webkit-animation: jump 0.5s linear;
           animation: jump 0.5s linear;
 }
-.iconNav .iconNavContent ul li:nth-child(6) a .iconMore i:nth-child(2) {
+.iconNav .iconNavContent ul li:nth-child(6)  .iconMore i:nth-child(2) {
   -webkit-animation: jump 0.5s 0.25s linear;
           animation: jump 0.5s 0.25s linear;
 }
-.iconNav .iconNavContent ul li:nth-child(6) a .iconMore i:nth-child(3) {
+.iconNav .iconNavContent ul li:nth-child(6)  .iconMore i:nth-child(3) {
   -webkit-animation: jump 0.5s 0.5s linear;
           animation: jump 0.5s 0.5s linear;
 }
@@ -239,7 +253,7 @@ span {
 }
 .boss .bossContent article {
   margin-top: 220px;
-  width: 260px;
+  width: 298px;
 }
 .boss .bossContent article h3 {
   margin-bottom: 18px;
@@ -285,9 +299,11 @@ span {
 .sale .saleContent article h3 {
   color: #ffffff;
   margin-bottom: 18px;
+  font-size: 28px;
 }
 .sale .saleContent article span {
   color: #ffffff;
+  font-size: 14px;
 }
 
 .fans {
