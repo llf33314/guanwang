@@ -157,7 +157,7 @@
                 <img src="../images/index/as-ser4.png">
                 <span>微信小程序</span>
                 <p>操作简单、功能实用、丰富有趣的小程序，有效提高商家访问量、回访率、转化率，为您的营销增添动力</p>
-                <a href="/html/applet/html/index.jsp">更多</a>
+                <a href="/html/weixinapp.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition" style="vertical-align: bottom;">
                 <img src="../images/index/as-ser5.png">

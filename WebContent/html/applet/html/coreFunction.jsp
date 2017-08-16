@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>微信小程序</title>
+  <title>微信小程序定制开发_小程序第三方开发商_多粉平台</title>
   <link rel="stylesheet" type="text/css" href="../css/style-index.css" />
   <link rel = "stylesheet" type="text/css" href = "../css/index.css"/>
   <script src="/js/index/jquery-2.2.2.min.js"></script>
@@ -16,7 +16,7 @@
   <div style="width: 100%;z-index: 4;" class="second-js-top">
   <div class="a-hw-hardware">
      <ul class="a-hw-hardware-txt">
-        <li><a href="/html/applet/html/index.jsp" class="a-hw-txt-a">首页</a></li>
+        <li><a href="/html/weixinapp.jsp" class="a-hw-txt-a">首页</a></li>
         <li><a href="/html/applet/html/coreFunction.jsp" class="a-hw-txt-a  a-hw-sp">核心功能</a></li>
         <li><a href="/html/applet/html/taste.jsp" class="a-hw-txt-a">体验中心</a></li>
      </ul>
