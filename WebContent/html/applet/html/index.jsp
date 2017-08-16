@@ -16,25 +16,25 @@
 </head>
 <body>
 <%@include file="/html/common/clearfix1.jsp" %>
-  <div style="width: 100%;z-index: 4;" class="second-js-top">
-	<div class="a-hw-hardware">
-	   <ul class="a-hw-hardware-txt">
-       <li><a href="/html/weixinapp.jsp" class="a-hw-txt-a  a-hw-sp">首页</a></li>
-       <li><a href="/html/applet/html/coreFunction.jsp" class="a-hw-txt-a ">核心功能</a></li>
-       <li><a href="/html/applet/html/taste.jsp" class="a-hw-txt-a">体验中心</a></li>
-	   </ul>
-	</div>
-  </div>
+<div style="width: 100%;z-index: 4;" class="second-js-top">
+    <div class="a-hw-hardware">
+        <ul class="a-hw-hardware-txt">
+            <li><a href="/html/weixinapp.jsp" class="a-hw-txt-a  a-hw-sp">首页</a></li>
+            <li><a href="/html/applet/html/coreFunction.jsp" class="a-hw-txt-a ">核心功能</a></li>
+            <li><a href="/html/applet/html/taste.jsp" class="a-hw-txt-a">体验中心</a></li>
+        </ul>
+    </div>
+</div>
 <div class="xcx-big">
     <div class="xcx-floor1"></div>
-        <div class="box">
-            <h1>一场小程序颠覆APP的革命</h1>
-            <a class="cxb-gobtn" href="http://duofriend.com/user/toregister.do">
-                <span class="btnmask"></span>
-                <i class="clearmid"></i>
-                <div>更多</div>
-                <img class="rower" src="../img/rower.png" />
-            </a>
+    <div class="box">
+        <h1>一场小程序颠覆APP的革命</h1>
+        <a class="cxb-gobtn" href="http://duofriend.com/user/toregister.do">
+            <span class="btnmask"></span>
+            <i class="clearmid"></i>
+            <div>更多</div>
+            <img class="rower" src="../img/rower.png" />
+        </a>
     </div>
 </div>
 <div class="xcx-floor2">
@@ -68,17 +68,17 @@
         <p class="dps" style="width: 609px;">微信OS化，小程序让无数商家与初创企业轻易APP化，小程序正在爆发</p>
         <div class="imgs">
             <img class="img" src="../img/xcx-floor51.png" />
-          <span>
+            <span>
              <div class="wx-s1" id="td1"></div>
-            <img class="wx-img1" src="../img/xcx-floor53.png" />
+            <%--<img class="wx-img1" src="../img/xcx-floor53.png" />--%>
           </span>
-          <span>
+            <span>
              <div class="wx-s2" id="td2" style="display:none ;"></div>
-            <img class="wx-img2"  src="../img/xcx-floor52.png" />
+            <%--<img class="wx-img2"  src="../img/xcx-floor52.png" />--%>
           </span>
-          <span>
+            <span>
              <div class="wx-s3" id="td3" style="display:none ;"></div>
-            <img class="wx-img3" src="../img/xcx-floor53.png" />
+            <%--<img class="wx-img3" src="../img/xcx-floor53.png" />--%>
           </span>
         </div>
     </div>
