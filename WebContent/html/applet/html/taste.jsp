@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>微信小程序定制开发_小程序第三方开发商_多粉平台/title>
+    <title>微信小程序定制开发_小程序第三方开发商_多粉平台</title>
         <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>

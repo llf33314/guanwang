@@ -70,7 +70,7 @@
 <div class="gt-foot">
 	<div class="gt-foot-box">
 		<ul>
-			<li><a href="/html/aboutUs.jsp">关于我们</a></li>
+			<li><a href="/html/aboutUs/html/index.jsp?type=1">关于我们</a></li>
 			<li><a href="/html/co_convened.jsp">申请代理</a></li>
 			<li><a href="/html/instructions.jsp">使用指南</a></li>
 			<li style="border: none;">
