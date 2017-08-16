@@ -24,7 +24,7 @@
             <a href="/"><h3 class="return">返回主站</h3></a>
         </div>
         <ul class="right">
-            <li><a href="" class="link">首页</a></li>
+            <li></li>
             <li><a href="/html/co_convened.jsp">申请代理</a></li>
             <li><a href="http://duofriend.com/user/toregister.do">免费体验</a></li>
             <li><a href="/html/mess/html/pay.jsp">购买</a></li>
