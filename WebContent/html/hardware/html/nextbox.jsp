@@ -11,25 +11,20 @@
 <body>
 <%@include file="/html/common/clearfix1.jsp" %>
 <!-- top -->
-<div style="width: 100%;z-index: 4;" class="second-js-top">
-	<div class="a-hw-hardware">
-	   <ul class="a-hw-hardware-txt">
-	      <li><a href="" class="a-hw-txt-a a-hw-sp">概览</a></li>
-	      <li><a href="/html/hardware/html/nextbox-parameter.jsp" class="a-hw-txt-a">产品参数</a></li>
-	   </ul>
-	</div>
-  </div>
 <div class="a-hw-nb-box">
 	<div class="a-hw-nextbox-box" >
 		<div class="a-hw-nextbox-box-l mated1 infinite fadeInLeft">
-			<img src="../images/hw15.jpg">
+			<img src="../images/hw30.png">
 		</div>
 		<div class="a-hw-nextbox-box-r mated1 infinite fadeInRight">
 			<h1>多粉魔盒</h1>
 			<p>也有人称作“加粉盒子”，没有公众号、没有</p>
 			<p>电脑同样可以使用的多功能收银盒子</p>
-			<p style="margin: 5px 0;">零售价：<span style="font-size: 24px;font-weight: bold;">￥799</span></p>
-			<a href="javascript:void(0)" onclick="showClick(2);">立即购买</a>
+			<p style="margin: 10px 0;">零售价：<span style="font-size: 24px;font-weight: bold; color: #2d8efe">￥799</span></p>
+			<div class="a-hw-sm-box">
+				<img src="../images/hw27.png">
+				<p>扫码购买</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -104,6 +99,5 @@
 <%@include file="/html/common/footer.jsp" %>
 <!-- 底部区域 -->
 <script src="../js/index.js"></script>
-<script src="../js/thead.js"></script>
 </body>
 </html>
