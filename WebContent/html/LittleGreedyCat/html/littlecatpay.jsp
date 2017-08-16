@@ -193,7 +193,7 @@
                    </div> 
                </div>
           </div>
-<%@include file="/html/LittleGreedyCat/html/common/footer.jsp" %>		
+<%@include file="/html/common/footer-son.jsp" %>
 		
 		
  <div style="display: none" class="popup_dialog_confirm" id="paybox">

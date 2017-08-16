@@ -4,6 +4,15 @@
   display: none !important;
 }
 </style>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?14a62041b4de52f2586d283b14d1175c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 <link rel="stylesheet" href="/html/css/basic.css"/>
 <link rel="stylesheet" type="text/css" href="/css/fans.css" />
 <div class="footer">
@@ -22,7 +31,7 @@
                  <dt>产品服务</dt>
                  <%--<dd onclick="footerLock('产品中心');"><a href="/html/product.jsp" >产品中心</a></dd>--%>
                  <!-- <dd onclick="footerLock('运营推广');"><a href="/html/promotion.jsp" >运营推广</a></dd> -->
-                 <dd onclick="footerLock('产品中心');"><a href="/html/applet/html/index.jsp" >微信小程序</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="/html/weixinapp.jsp" >微信小程序</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/weixinSell.jsp" >微信营销</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp" >商家联盟</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/coupon.jsp" >优惠券发放平台</a></dd>

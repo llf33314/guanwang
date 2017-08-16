@@ -181,7 +181,7 @@
         </div>
 	</div>
 </div>
-<%@include file="/html/CarCount/html/common/footer.jsp" %>
+<%@include file="/html/common/footer-son.jsp" %>
 
 <script type="text/javascript" src="../js/main.js"></script>
 </body>

@@ -138,7 +138,7 @@
         <div class="img"></div>
     </div>
 </div>
-<%@include file="/html/LittleGreedyCat/html/common/footer.jsp" %>
+<%@include file="/html/common/footer-son.jsp" %>
 <script src="../js/lib/jquery-2.2.2.min.js"></script>
 <script src="../js/lib/swiper-3.4.2.jquery.min.js"></script>
 <script>

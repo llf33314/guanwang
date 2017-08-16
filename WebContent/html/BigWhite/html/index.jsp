@@ -108,7 +108,7 @@
 	           </div>
           </div>
       </div>
-      <%@include file="/html/BigWhite/html/common/footer.jsp" %>
+	<%@include file="/html/common/footer-son.jsp" %>
 
 <!-- <script src="../js/index.js"></script> -->
 <script>

@@ -1,23 +1,41 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<link href="../js/video/video-js.css" rel="stylesheet">
-<!-- If you'd like to support IE8 -->
-<script src="../js/video/videojs-ie8.min.js"></script>
 
-<video id="my-video" class="video-js vjs-big-play-centered" controls autoplay="autoplay" preload="auto" width="1200" height="764"
-       poster="../img/officialFilm.png">
-    <source src="../img/officialFilm720P.mp4" type='video/mp4'>
-</video>
-<script src="../js/video/video.js"></script>
-<!---->
+<style>
+    .video-box{
+        position: fixed;
+        top:50%;
+        left: 50%;
+        width:100%;
+        height: 100%;
+        z-index: 90;
+        margin-left: -400px;
+        margin-top: -250px;
+        display: none;
+    }
+    .video-close{
+        position: absolute;
+        left: 740px;
+        color: #fff;
+        top: 40px;
+        z-index: 99;
+        cursor: pointer;
+    }
+</style>
+<div class="video-box" id="video-box">
+    <span class="video-close" onclick="closeVideo()">关闭</span>
+    <video preload="none" controls width="800" height="500" id="videoMedia" style="background-color: #000">
+        <source src="http://maint.duofriend.com/upload/video/websiteUpload/website/officialFilm720P.mp4" type="video/mp4">
+    </video>
+</div>
 <script>
-//    var myPlayer =  videojs(document.getElementById('my-video'))
-//    var whatHasBeenBuffered = myPlayer.buffered();
-//    console.log(whatHasBeenBuffered)
-    videojs(document.getElementById('my-video'), {}, function() {
-    // This is functionally the same as the previous example.
-    console.log(this)
-  });
-    parent.$(".vjs-fullscreen-control").hide()
-   // 设置flash路径，Video.js会在不支持html5的浏览中使用flash播放视频文件
-  //videojs.options.flash.swf = "video-js.swf";
+    var closeVideo =function(){
+        var media = document.getElementById("videoMedia");
+        media.pause()
+        $('#video-box').hide()
+    }
+    var openVideo = function(){
+        var media = document.getElementById("videoMedia");
+        media.play()
+        $('#video-box').show()
+    }
 </script>

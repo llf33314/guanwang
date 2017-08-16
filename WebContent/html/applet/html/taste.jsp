@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>微信小程序</title>
+    <title>微信小程序定制开发_小程序第三方开发商_多粉平台/title>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
@@ -18,7 +18,7 @@
   <div style="width: 100%;z-index: 4;" class="second-js-top">
   <div class="a-hw-hardware">
      <ul class="a-hw-hardware-txt">
-       <li><a href="/html/applet/html/index.jsp" class="a-hw-txt-a ">首页</a></li>
+       <li><a href="/html/weixinapp.jsp" class="a-hw-txt-a ">首页</a></li>
        <li><a href="/html/applet/html/coreFunction.jsp" class="a-hw-txt-a ">核心功能</a></li>
        <li><a href="/html/applet/html/taste.jsp" class="a-hw-txt-a  a-hw-sp">体验中心</a></li>
      </ul>
