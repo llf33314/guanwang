@@ -71,7 +71,7 @@
 			 <h4>超大二维码扫描窗</h4>
 			 <p>快速扫描，精准识别</p>
 		 </span>
-		<img src="../images/hw19.png" id="hfour1" class="animated" style="opacity: 0;">
+		<img src="../images/hw19-1.png" id="hfour1" class="animated" style="opacity: 0;">
 	</div>
 </div>
 <div class="a-hw-five animated ">

@@ -13,7 +13,7 @@
 <div class="a-hw-nextbox">
 	  <div class="a-hw-nextbox-box" style="border-bottom: 2px solid #EEEEEE;">
 		  <div class="a-hw-nextbox-box-l  mated1 infinite fadeInLeft" >
-			   <img src="../images/hw1.jpg" >
+			   <img src="../images/hw31.png" >
 		  </div>
 		  <div class="a-hw-nextbox-box-r hw-txt1 mated1 infinite fadeInRight">
 			   <h1>多粉魔盒</h1>
