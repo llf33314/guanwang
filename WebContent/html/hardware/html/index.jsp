@@ -9,7 +9,7 @@
 	<script src="/html/js/jquery-2.2.2.min.js"></script>
 </head>
 <body>
-<%@include file="/html/common/clearfix1.jsp" %>
+<%@include file="/html/common/clearfix.jsp" %>
 <div class="a-hw-nextbox">
 	  <div class="a-hw-nextbox-box" style="border-bottom: 2px solid #EEEEEE;">
 		  <div class="a-hw-nextbox-box-l  mated1 infinite fadeInLeft" >
@@ -30,7 +30,7 @@
 			<a href="/html/hardware/html/electric.jsp">了解详情</a>
 		</div>
 		<div class="a-hw-nextbox-box-l mated3 infinite fadeInRight" style="width: 50%;">
-			<img src="../images/hw2.jpg">
+			<img src="../images/hw29.png">
 		</div>
 	</div>
 </div>

@@ -9,7 +9,7 @@
 	<script src="/html/js/jquery-2.2.2.min.js"></script>
 </head>
 <body>
-<%@include file="/html/common/clearfix1.jsp" %>
+<%@include file="/html/common/clearfix.jsp" %>
 <!-- top -->
 <div class="a-hw-nb-box">
 	<div class="a-hw-nextbox-box" >
