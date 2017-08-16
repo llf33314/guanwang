@@ -1,0 +1,368 @@
+Index: WebContent/html/aboutUs/html/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/html/aboutUs/html/index.jsp	(revision 9a98bbc77b0acab442ca5c7e07e5a8f2c1c720ac)
++++ WebContent/html/aboutUs/html/index.jsp	(revision )
+@@ -9,10 +9,12 @@
+     <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
+     <link rel="stylesheet" type="text/css" href="/html/aboutUs/css/style.css"/>
+ 	<script src="/js/index/jquery-2.2.2.min.js"></script>
++
+ </head>
+ 
+ <body>
+-<%@include file="/html/common/clearfix.jsp" %>
++<%@include file="/html/common/clearfix1.jsp" %>
++<div style="width: 100%;z-index: 4;" class="second-js-top">
+ 	<div class="a-in-swiper">
+ 	   <div class="a-in-swiper-txt">
+ 	      <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="javascript:;" class="a-in-swiper-title">多粉介绍</a></div>
+@@ -21,6 +23,7 @@
+ 	      <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="javascript:;" class="a-in-swiper-title" >联系我们</a></div> 
+ 	   </div>
+ 	</div>
++</div>
+ 	<div class="a-in-swiper-box">
+ 	   <div class="a-in-swiper-big-box" style="display:block" id="id1">
+ 	     <div style="height: 441px;">
+@@ -572,6 +575,7 @@
+ <script src="../js/aintroduce.js"></script>
+ <script src="../js/main.js"></script>
+ <script src="../js/modernizr.js"></script>
++<script src="../js/thead.js"></script>
+ <script src="../js/jquery.countup.min.js"></script>
+ <script src="../js/jquery.countup.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+@@ -596,6 +600,25 @@
+     });
+     $("#a-swiper1").find("a").attr("style","color:#2d8efe;");
+ </script>
+-
++<script type="text/javascript">
++    function getParams(key) {
++        var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
++        var r = window.location.search.substr(1).match(reg);
++        if (r != null) {
++            return unescape(r[2]);
++        }
++        return null;
++    };
++    var type =''+getParams("type");
++    if(type == 2 || type == '2'){
++        gtShow(2,$("#a-swiper2"));
++    }
++    if(type == 3 || type == '3'){
++        gtShow(3,$("#a-swiper3"));
++    }
++    if(type == 4 || type == '4'){
++        gtShow(4,$("#a-swiper4"));
++    }
++</script>
+ </body>
+ </html>
+\ No newline at end of file
+Index: WebContent/html/aboutUs/js/aintroduce.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/html/aboutUs/js/aintroduce.js	(revision 9a98bbc77b0acab442ca5c7e07e5a8f2c1c720ac)
++++ WebContent/html/aboutUs/js/aintroduce.js	(revision )
+@@ -36,8 +36,5 @@
+         $("#a-swiper3 > a").removeAttr("style");
+         $("#a-swiper4 > a").removeAttr("style");
+         $(t).find("a").attr("style","color:#2d8efe;");
+-
+-
+-
+ 	}
+ 
+Index: WebContent/html/aboutUs/js/thead.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/html/aboutUs/js/thead.js	(revision )
++++ WebContent/html/aboutUs/js/thead.js	(revision )
+@@ -0,0 +1,3 @@
++
++!function(e){function t(i){if(o[i])return o[i].exports;var s=o[i]={exports:{},id:i,loaded:!1};return e[i].call(s.exports,s,s.exports,t),s.loaded=!0,s.exports}var o={};t.m=e,t.c=o,t.p="http://localhost:3456/static/",t(0)}
++({0:function(e,t,o){e.exports=o(938)},129:function(e,t){"use strict";function o(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var i=function(){function e(e,t){for(var o=0;o<t.length;o++){var i=t[o];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(t,o,i){return o&&e(t.prototype,o),i&&e(t,i),t}}(),s=function(){},n=function(){function e(t){o(this,e),this.fixedElem=t.fixedElem,this.offsetToTop=t.offsetToTop||0,this.changeClass=t.changeClass,this.beforeFix=t.beforeFix||s,this.afterFix=t.afterFix||s;var i=this;i.originTop=this.fixedElem.offset().top,$(document).on("touchmove scroll",function(){i.scrollOnFix(i.originTop)})}return i(e,[{key:"scrollOnFix",value:function(e){var t=$("body").scrollTop(),o=e,i=t-o,s={position:"fixed",top:this.offsetToTop};i>=0?(this.fixedElem.css(s),this.changeClass&&this.fixedElem.addClass(this.changeClass),this.afterFix()):(this.fixedElem.css({position:"static"}),this.changeClass&&this.fixedElem.removeClass(this.changeClass),this.beforeFix())}}]),e}();e.exports=n},938:function(e,t,o){"use strict";var i=o(129);new(function(e){return e&&e.__esModule?e:{default:e}}(i).default)({fixedElem:$(".second-js-top"),changeClass:"top-fix",beforeFix:function(){$("#chapter-nav-logo_id").removeClass("chapter-nav-logo")},afterFix:function(){$("#chapter-nav-logo_id").addClass("chapter-nav-logo")}})}});
+\ No newline at end of file
+Index: WebContent/html/common/footer.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/html/common/footer.jsp	(revision 9a98bbc77b0acab442ca5c7e07e5a8f2c1c720ac)
++++ WebContent/html/common/footer.jsp	(revision )
+@@ -10,13 +10,13 @@
+          <div class="fnav clearfix">
+              <dl>
+                  <dt>关于我们</dt>
+-                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp" >多粉介绍</a></dd>
++                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=1" >多粉介绍</a></dd>
++                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=2" >所获荣誉</a></dd>
++                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=3" >加入我们</a></dd>
++                 <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=4" >联系我们</a></dd>
+                  <dd onclick="footerLock('');"><a href="/html/product-trends/product-news.jsp" >多粉动态</a></dd>
+-                 <dd onclick="footerLock('');"><a href="/html/honor.jsp" >荣誉奖项</a></dd>
+-                 <dd onclick="footerLock('');"><a href="/html/invide.jsp" >招贤纳士</a></dd>
+-                 <dd onclick="footerLock('');"><a href="/html/copyright.jsp" >知识产权</a></dd>
+-                 <dd onclick="footerLock('');"><a href="/html/contract.jsp" >联系我们</a></dd>
+                  <dd onclick="footerLock('');"><a href="/html/paymethod.jsp" >付款方式</a></dd>
++                 <dd onclick="footerLock('');"><a href="/html/copyright.jsp" >知识产权</a></dd>
+              </dl>
+              <dl>
+                  <dt>产品服务</dt>
+Index: WebContent/html/aboutUs/css/introduce.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/html/aboutUs/css/introduce.css	(revision 9a98bbc77b0acab442ca5c7e07e5a8f2c1c720ac)
++++ WebContent/html/aboutUs/css/introduce.css	(revision )
+@@ -3,7 +3,13 @@
+ li{list-style: none;}
+ a{text-decoration:none;color:#333;}
+ 
+-
++.top-fix {
++    z-index: 100;
++    width: 100%;
++}
++.second-js-top {
++    min-width: 1100px;
++}
+ /*gw-banner*/
+ .a-in-swiper{
+ 	height: 70px;
+Index: WebContent/html/common/clearfix1.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- WebContent/html/common/clearfix1.jsp	(revision )
++++ WebContent/html/common/clearfix1.jsp	(revision )
+@@ -0,0 +1,218 @@
++<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
++<link rel="stylesheet" href="/html/common/css/newhead.css"/>
++<link rel="stylesheet" href="/html/font-one/iconfont.css"/>
++<div class="gt-a-top" style="position: relative;">
++    <div class="gt-a-top-box">
++        <div class="gt-a-top-box-logo"><a href="/">
++           <span><i class="iconfont in">&#xe616;</i></span>
++           <span class="gt-a-top-box-title"><p>用多粉，好生意</p></span>
++           </a></div>
++        <ul class="gt-a-top-box-sigle">
++            <li class="a-top-firstli"><a href="/">首页</a></li>
++            <li class="a-top-firstli" id="a-show"><a href="javascript:;">产品中心</a>
++                <ul class="a-top-product" id="a-show2">
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in1">&#xe899;</i></div>
++                        <a href="/html/fansNest.jsp">
++	                       <span>
++	                           <h3>粉巢系统</h3>
++	                           <p>六站合一的跨平台同步系统</p>
++	                       </span>
++                        </a>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in2">&#xe664;</i></div>
++                        <a href="http://www.duofriend.com/html/BusinessAlliance/html/index.jsp">
++                         <span>
++                            <h3>商家联盟</h3>
++                            <p>异业商家联盟，资源共享平台</p>
++                         </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in3">&#xe627;</i></div>
++                        <a href="/html/weixinSell.jsp">
++	                     <span>
++	                         <h3>微信营销</h3>
++	                         <p>提供微信营销技术工具</p>
++	                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in4">&#xe602;</i></div>
++                        <a href="/html/weixinapp.jsp">
++	                     <span>
++	                         <h3>微信小程序</h3>
++	                         <p>粉丝端、店员端、BOSS端样样具备</p>
++	                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in5">&#xe669;</i></div>
++                        <a href="/html/coupon.jsp">
++	                     <span>
++	                         <h3>优惠券发放平台</h3>
++	                         <p>免费的优惠券派发渠道，轻松送达</p>
++	                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in6">&#xe607;</i></div>
++                        <a href="/html/generation_operation.jsp">
++	                     <span>
++	                         <h3>代运营</h3>
++	                         <p>专业团队负责就是不一样</p>
++	                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in7">&#xe666;</i></div>
++                        <a href="/html/wcy.jsp">
++	                     <span>
++	                         <h3>微信行业应用</h3>
++	                         <p>纯移动版应用，满足商家个性化需求</p>
++	                     </span>
++                        </a>
++                    </li>
++                </ul>
++            </li>
++            <li class="a-top-firstli" id="b-show"><a href="javascript:;">解决方案</a>
++                <ul class="a-top-solve" id="b-show2">
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in8">&#xe62c;</i></div>
++                        <a href="/html/look/html/index.jsp">
++		                     <span>
++		                         <h3>样子</h3>
++		                         <p>美容美发解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in9">&#xe64d;</i></div>
++                        <a href="javascript:void(0);">
++		                     <span>
++		                         <h3>小盼</h3>
++		                         <p>智慧教育解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in10">&#xe61e;</i></div>
++                        <a href="javascript:void(0);">
++		                     <span>
++		                         <h3>来店</h3>
++		                         <p>智慧商超解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in11">&#xe85f;</i></div>
++                        <a href="/html/smarty_hotel.jsp">
++		                     <span>
++		                         <h3>小驿</h3>
++		                         <p>酒店PMS解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in12">&#xe618;</i></div>
++                        <a href="/html/BigWhite/html/index.jsp">
++		                     <span>
++		                         <h3>大白</h3>
++		                         <p>社区门诊医疗解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in13">&#xe653;</i></div>
++                        <a href="/html/LittleGreedyCat/html/index.jsp">
++		                     <span>
++		                         <h3>小馋猫</h3>
++		                         <p>智慧餐饮解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in14">&#xe65e;</i></div>
++                        <a href="/html/CarCount/html/index.jsp">
++		                     <span>
++		                         <h3>车小算</h3>
++		                         <p>汽车美容快修解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in15">&#xe648;</i></div>
++                        <a href="javascript:void(0);">
++		                     <span>
++		                         <h3>存销宝</h3>
++		                         <p>智慧进销存解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in16">&#xe64f;</i></div>
++                        <a href="/html/homeland/html/index.jsp">
++		                     <span>
++		                         <h3>揽胜家园</h3>
++		                         <p>物业管理解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                    <li class="a-pro-a">
++                        <div class="a-pro-a"><i class="iconfont in17">&#xe6f2;</i></div>
++                        <a href="javascript:;">
++		                     <span>
++		                         <h3>员工食堂</h3>
++		                         <p>单位/工厂食堂解决方案</p>
++		                     </span>
++                        </a>
++                    </li>
++                </ul>
++            </li>
++            <li class="a-top-firstli"><a href="/html/case_center.jsp">客户案例</a></li>
++            <li class="a-top-firstli" id="c-show"><a href="javascript:void(0);">合作与加盟</a>
++                <ul class="a-top-join" id="c-show2">
++                    <li id="a-pro-r"><a href="/html/co_convened.jsp" id="a-chan-sq">申请代理</a></li>
++                    <li id="a-pro-s"><a href="/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
++                </ul>
++            </li>
++        </ul>
++        <div class="gt-a-top-box-use">
++            <span class="a-top-firstspan"><a href="/html/instructions.jsp" class="a-top-use-cen">使用手册</a></span>
++            <span class="a-top-firstspan"><a href="/html/hardware.jsp" class="a-top-use-cen">硬件支持</a></span>
++            <a href="/html/product-trends/register-user.jsp" class="a-top-use-cen">代理登录</a>
++            <a href="http://duofriend.com/user/tologin.do" class="a-top-use-cen top-sign">登录</a>
++            <a href="http://duofriend.com/user/toregister.do" class="a-top-use-cen top-sign" style="margin-left: 8px">注册</a>
++        </div>
++    </div>
++</div>
++<%--<div class="a-whole"></div>--%>
++<%--<script src="../js/index/jquery-2.2.2.min.js"></script>--%>
++ <script type="text/javascript">
++$(document).ready(function(){
++	  $("#a-show").mouseenter(function(){
++	  $("#a-show2").show();
++	  });
++	  $("#a-show").mouseleave(function(){
++	  $("#a-show2").hide();
++	  });
++	});
++	$(document).ready(function(){
++		  $("#b-show").mouseenter(function(){
++		  $("#b-show2").show();
++		  });
++		  $("#b-show").mouseleave(function(){
++		  $("#b-show2").hide();
++		  });
++		});
++	$(document).ready(function(){
++		  $("#c-show").mouseenter(function(){
++		  $("#c-show2").show();
++		  });
++		  $("#c-show").mouseleave(function(){
++		  $("#c-show2").hide();
++		  });
++		});
++	
++</script> 
++   
+\ No newline at end of file
