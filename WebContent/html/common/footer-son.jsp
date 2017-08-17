@@ -74,11 +74,10 @@
 			<li><a href="/html/co_convened.jsp">申请代理</a></li>
 			<li><a href="/html/instructions.jsp">使用指南</a></li>
 			<li style="border: none;">
-				<div id="wxImg"
-					style="display: none; bottom: 65px; left: 100px; height: 50px; back-ground: #f00; position: absolute;">
+				<div id="wxImg" style="display: none; bottom: 65px; left: 100px; height: 50px; back-ground: #f00; position: absolute;">
 					<img src="/html/images/common/code.png" width="118px" height="118px" alt="" />
-				</div> <a href="javascript:void(0)" onMouseOut="hideImg()"
-				onmouseover="showImg()">关注多粉</a>
+				</div>
+				<a href="javascript:void(0)" onMouseOut="hideImg()" onmouseover="showImg()">关注多粉</a>
 			</li>
 		</ul>
 	</div>
