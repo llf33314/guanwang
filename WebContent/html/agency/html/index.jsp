@@ -38,7 +38,7 @@
           <p>祝愿：各位伙伴生意兴隆，身体健康！</p>
           <ul>
               <li><a href="javascript:void(0);" onclick="openVideo();">点击查看招商视频</a> </li>
-              <li><a href="/html/agency/images/招商PPT.ppt">点击查看“招商PPT”</a> </li>
+              <li><a href="/html/agency/images/PartnerPPT.ppt">点击查看“招商PPT”</a> </li>
           </ul>
     </div>
 </div>
