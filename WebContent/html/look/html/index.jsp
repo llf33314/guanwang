@@ -16,14 +16,14 @@
 <body onLoad="type()">
 <%@include file="/html/look/html/common/banner.jsp" %>
 <nav class="cd-vertical-nav">
-		<ul>
-			<li><a href="#section1 " class="active"><span class="label">适用场景</span></a></li>
-			<li><a href="#section2"><span class="label">怎么来</span></a></li>
-			<li><a href="#section3"><span class="label">服务体验</span></a></li>
-			<li><a href="#section4"><span class="label">门店管理</span></a></li>
-			<li><a href="#section5"><span class="label">选择我们</span></a></li>
-		</ul>
-	</nav>
+    <ul>
+        <li><a href="#section1 " class="active"><span class="label">适用场景</span></a></li>
+        <li><a href="#section2"><span class="label">怎么来</span></a></li>
+        <li><a href="#section3"><span class="label">服务体验</span></a></li>
+        <li><a href="#section4"><span class="label">门店管理</span></a></li>
+        <li><a href="#section5"><span class="label">选择我们</span></a></li>
+    </ul>
+</nav>
 <div style="height: 600px;">
     <div class="manner-banner" >
         <div class="container " style="height: 420px;"><div id="particles-js" style="height:575px;"></div></div>
@@ -229,7 +229,52 @@
         <div class="thumb"></div>
     </div>
 </div>
+<%--
 <%@include file="/html/common/footer-son.jsp" %>
+--%>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?14a62041b4de52f2586d283b14d1175c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<div class="gt-foot">
+    <div class="gt-foot-box">
+        <ul>
+            <li><a href="/html/aboutUs/html/index.jsp?type=1">关于我们</a></li>
+            <li><a href="/html/co_convened.jsp">申请代理</a></li>
+            <li><a href="/html/instructions.jsp">使用指南</a></li>
+            <li style="border: none;">
+                <div id="wxImg"
+                     style="display: none; bottom: 65px; left: 100px; height: 50px; back-ground: #f00; position: absolute;">
+                    <img src="/html/images/common/code.png" width="118px" height="118px" alt="" />
+                </div> <a href="javascript:void(0)" onMouseOut="hideImg()"
+                          onmouseover="showImg()">关注多粉</a>
+            </li>
+        </ul>
+    </div>
+    <span class="gt-foot-body">
+		<h4>服务热线:400 889 4522</h4>
+		<p>Copyright © 2013-2016 duofriend. All Rights Reserved.
+			粤ICP备15016183号-3 经营许可证编号：全国B2-20160778 粤B2-20150533</p>
+		<p>广东谷通科技有限公司</p>
+	</span>
+</div>
+
+<script type="text/javascript">
+    function showImg() {
+        document.getElementById("wxImg").style.display = 'block';
+    }
+    function hideImg() {
+        document.getElementById("wxImg").style.display = 'none';
+    }
+</script>
+
+
 <script src="../js/modernizr.js"></script>
 <script>window.jQuery || document.write('<script src="../js/jquery-2.1.1.min.js"><\/script>')</script>
 <script src="../js/main.js"></script>
@@ -237,7 +282,7 @@
 <script src="../js/index.js"></script>
 <script src="../js/particles.js"></script>
 <script src="../js/app.js"></script>
- <script src="../js/effects.js"></script>
+<script src="../js/effects.js"></script>
 <script src="../js/number/jquery.countup.min.js"></script>
 <script src="../js/number/jquery.countup.js"></script>
 <script src="/html/js/jquery.waypoints.min.js"></script>

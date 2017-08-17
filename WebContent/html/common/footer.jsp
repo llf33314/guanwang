@@ -46,12 +46,12 @@
              </dl>
              <dl>
                  <dt>合作召集</dt>
-                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened.jsp" >招商加盟</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/index.jsp" >招商加盟</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency.jsp" >代理查询</a></dd>
-                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened.jsp?v=2108" >城市代理商</a></dd>
-                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened.jsp?v=3105" >县区级代理商</a></dd>
-                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened.jsp?v=3450" >城市合伙人</a></dd>
-                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened.jsp?v=4380" >城市服务商</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened_reg.jsp?v=1" >城市代理商</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened_reg.jsp?v=2" >县区级代理商</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened_reg.jsp?v=3" >城市合伙人</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/co_convened_reg.jsp?v=4" >城市服务商</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/technology.jsp">技术服务商</a></dd>
              </dl>
              <dl>
