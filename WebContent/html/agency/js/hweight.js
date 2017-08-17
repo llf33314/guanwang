@@ -10,40 +10,40 @@
                  $(".a-ag-development").find(".a-ag-development-box").addClass("fadeInUp");
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".a-ag-d-pix-img1").addClass("fadeInUp");
-                 }, 500);
+                 }, 300);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".a-ag-d-pix-img2").addClass("fadeInUp");
-                 }, 1000);
+                 }, 600);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".a-ag-d-pix-img3").addClass("fadeInUp");
-                 }, 1500);
+                 }, 900);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the1").addClass("fadeIn");
-                 }, 2000);
+                 }, 1100);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the2").addClass("fadeIn");
-                 }, 2500);
+                 }, 1400);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the3").addClass("fadeIn");
-                 }, 3000);
+                 }, 1700);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the4").addClass("fadeIn");
-                 }, 3500);
+                 }, 2000);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the5").addClass("fadeIn");
-                 }, 4000);
+                 }, 2300);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the6").addClass("fadeIn");
-                 }, 4500);
+                 }, 2600);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the7").addClass("fadeIn");
-                 }, 5000);
+                 }, 2900);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the8").addClass("fadeIn");
-                 }, 5500);
+                 }, 3100);
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".the9").addClass("fadeIn");
-                 }, 6000);
+                 }, 3400);
 
              }
     });
