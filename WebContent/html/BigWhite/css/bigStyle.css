@@ -66,6 +66,7 @@ body{font-family: 'microsoft yahei';}
   background: url(../images/big1.png) ;
   background-repeat: repeat-x;
   z-index: 0;
+    overflow: hidden;
 }
 .car-top-box {
   height: 66px;
@@ -154,7 +155,8 @@ body{font-family: 'microsoft yahei';}
     height: 162px;
     overflow: hidden;
     position: absolute;
-    top: 86px;  
+    top: 86px;
+    overflow: hidden;
 }
 .banner > ul {
     display: none;
@@ -200,6 +202,7 @@ body{font-family: 'microsoft yahei';}
 	background: url(../images/big2.png) ;
 	background-repeat: repeat-x;
 	height: 420px;
+    overflow: hidden;
 }
 .banner-box{
 	position: relative;
@@ -232,6 +235,7 @@ body{font-family: 'microsoft yahei';}
 .big-introduce{
 	width:100%;
 /* 	height:565px; */
+    overflow: hidden;
 }
 .big-introduce-box{
     width: 70%;
