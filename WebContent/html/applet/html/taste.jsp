@@ -65,7 +65,7 @@
                                             <div class="msg">
                                                 <p style="text-align: center;text-indent: 0">扫码即体验</p>
                                             </div>
-                                            <h2>粉丝端</h2>
+                                            <h2>小馋猫粉丝端</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@
                                                 <p> 账号：tyxcm</p>
                                                 <p>密码：123456</p>
                                             </div>
-                                            <h2>部长端</h2>
+                                            <h2>小馋猫部长端</h2>
                                         </div>
                                     </div>
                                 </div>

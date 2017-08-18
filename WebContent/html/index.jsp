@@ -23,7 +23,7 @@
     <div class="a-swiper">
         <div class="a-swiper-txt">
             <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
-            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-swiper-title" >收银台</a></div>
+            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-swiper-title" >智慧店铺</a></div>
             <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="/html/distribution/html/index.jsp" class="a-swiper-title" >分销系统</a></div>
             <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-title" >智慧餐饮</a></div>
             <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="/html/CarCount/html/index.jsp" class="a-swiper-title" >汽车美容快修</a></div>
@@ -48,7 +48,7 @@
         </div>
         <div class="a-swiper-syt" style="display:none;" id="id2">
             <div class="a-ay-sw-show">
-                <h2 class="a-swiper-h2">收银台</h2>
+                <h2 class="a-swiper-h2">智慧店铺</h2>
                 <div>智慧线下收银解决方案，支持个体实体商家接入</div>
                 <div style="padding-top: 5px;">无需公众号一样玩转</div>
                 <ul class="a-swiper-choice">

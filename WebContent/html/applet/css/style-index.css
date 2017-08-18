@@ -715,6 +715,14 @@ a {
   -webkit-animation: bounce-bb 2.2s linear infinite;
   animation: bounce-bb 2.2s linear infinite;
   animation-iteration-count:1;
+  font-size: 0;
+  white-space: nowrap;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+
 }
 
 @-webkit-keyframes bounce-bb {
@@ -742,27 +750,22 @@ a {
 
 .xcx-big{
   height: 442px;
-  position: relative;
+  /*position: relative;*/
   width: 100%;
   overflow: hidden;
 }
 .xcx-big .box {
-  /*width: 605px;
-  height: 200px;
-  margin: 167px auto 0;
-  text-align: center;
-  color: #fff;*/
+ z-index: 2;
   width: 605px;
   height: 200px;
-  margin: 0 auto 0;
   text-align: center;
   color: #fff;
   /* position: relative; */
   position: absolute;
   top: 50%;
-  margin-top: -100px;
+  margin-top: -190px;
   left: 50%;
-  margin-left: -302px;
+  margin-left: -370px;
 }
 
 .xcx-big .box h1 {
@@ -797,7 +800,7 @@ a {
 
 .xcx-big .cxb-gobtn > *:not(.clearmid) {
   position: relative;
-  z-index: 2;
+
 }
 
 .xcx-big .cxb-gobtn .btnmask {

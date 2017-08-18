@@ -82,7 +82,7 @@
 				<h3>佳博GP-L80250I</h3>
 				<p>80mm厨房打印机</p>
 				<p>USB+网口+串口</p>
-				<span>￥500.000</span>
+				<span>￥500.00</span>
 			</div>
 			<div class="a-hw-show2">
 				<img src="../images/jp1.png">
