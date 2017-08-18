@@ -90,7 +90,7 @@ $(function(){
 
 function homeRotation(){
 	WSFUNCTION.doPostCallback({
-		url: "/homeRotation/html/list", 
+		url: "/homeRotation/html/findShowImage",
 		param: {}, 
 		func: function(v){
 			var html = '';

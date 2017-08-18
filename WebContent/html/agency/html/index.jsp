@@ -189,13 +189,13 @@
                 </div>
                 <div class="a-ag-type-ul-bottom">
                     <p>城市代理商具有全国性质，可分为省级代理商和市级代理商，并且省级代理商还可发展自身的市级代理商和县区级代理商，市区级代理商也可发展自身的县区级代理商！同时，所有城市代理商均纳入多粉总公司的股票期权计划！</p>
-                    <a href="/html/co_convened_reg.jsp?v=1">申请成为城市代理商</a>
+                    <a href="/html/agency/html/sign.jsp">申请成为城市代理商</a>
                 </div>
             </div>
             <div class="a-ag-type-two">
                 <span></span>
                 <p class="agp">城市代理商具有全国性质，可分为省级代理商和市级代理商，并且省级代理商还可发展自身的市级代理商和县区级代理商，市区级代理商也可发展自身的县区级代理商！同时，所有城市代理商均纳入多粉总公司的股票期权计划！</p>
-                <a href="/html/co_convened_reg.jsp?v=1">申请成为城市代理商</a>
+                <a href="/html/agency/html/sign.jsp">申请成为城市代理商</a>
             </div>
         </li>
         <li class="a-ag-type-ul-li">

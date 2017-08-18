@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>首页轮播图</title>
+<title>首页广告图</title>
 <style type="text/css">
 
 </style>
@@ -20,7 +20,7 @@
 	                <!-- block -->
 	                <div class="block">
 	                    <div class="navbar navbar-inner block-header">
-	                        <div class="muted pull-left">首页轮播图</div>
+	                        <div class="muted pull-left">首页广告图</div>
 	                    </div>
 	                    <div class="block-content collapse in">
 	                        <div class="span12">
@@ -54,15 +54,26 @@
 			columns: [
 			         {
 			        	 name: "图片",
-			        	 col: "imgurl",
+			        	 col: "img_url",
 			        	 render: function(value){
-			        		 return "<img src='"+value.imgurl+"' style='height: 50px;'/>";
+			        		 return "<img src='"+value.img_url+"' style='height: 50px;'/>";
 			        	 }
 			         }, 
 			         {
 			        	 name: "创建时间",
 			        	 col: "createtime"
-			         }, 
+			         },
+					{
+						name: "状态",
+						col: "",
+						render: function(value){
+						    if(value.isshow < 1){
+                                return "<a class='btn btn-success' onclick='saveShow("+value.id+",1)'>显示</a>";
+							}else{
+                                return "<a class='btn btn-success' onclick='saveShow("+value.id+",0)'>取消显示</a>";
+                            }
+						}
+					},
 			         {
 			        	 name: "操作",
 			        	 col: "",
@@ -77,6 +88,27 @@
 		});
 		
 	});
+    function saveShow(id,isshow){
+        $.ajax({
+            url: "/homeRotation/saveShow",
+            type: "POST",
+            async: false,
+            data: {id:id,isshow:isshow},
+            success: function(data){
+                var d = eval("("+data+")");
+                if(d.status == 1){
+                    WSFUNCTION.msgBox("信息", d.msg);
+                    gtView('/jsp/manage/homeRotation/index.jsp');
+                }else{
+                    WSFUNCTION.msgBox("信息", d.msg);
+                }
+            },
+            error: function(){
+                WSFUNCTION.msgBox("信息", "网络繁忙!");
+            }
+        });
+	}
+
 	</script>
 	<script src="templatelibs/vendors/jquery-1.9.1.js"></script>
 	<!-- <script src="templatelibs/bootstrap/js/bootstrap.min.js"></script> -->
