@@ -26,7 +26,7 @@ public class IHomeRotationImpl implements IHomeRotation{
 	public List selectList(Map param) {
 		StringBuilder sql = new StringBuilder();
 		List params = new ArrayList();
-		sql.append("select * from t_ws_home_rotation where 1=1 ");
+		sql.append("select * from t_ws_index_advertising where 1=1 ");
 		if(param.get("id") != null){
 			sql.append("and id = ? ");
 			params.add(param.get("id"));
@@ -45,7 +45,7 @@ public class IHomeRotationImpl implements IHomeRotation{
 	public Integer selectListCount(Map param) {
 		StringBuilder sql = new StringBuilder();
 		List params = new ArrayList();
-		sql.append("select count(id) from t_ws_home_rotation where 1=1 ");
+		sql.append("select count(id) from t_ws_index_advertising where 1=1 ");
 		if(param.get("id") != null){
 			sql.append("and id = ? ");
 			params.add(param.get("id"));
@@ -65,7 +65,7 @@ public class IHomeRotationImpl implements IHomeRotation{
 	@Override
 	@Transactional
 	public Integer delete(Integer id) throws Exception {
-		String sql = "delete from t_ws_home_rotation where id = ?";
+		String sql = "delete from t_ws_index_advertising where id = ?";
 		int i = iBaseDAO.update(sql, id);
 		return i;
 	}
@@ -76,7 +76,25 @@ public class IHomeRotationImpl implements IHomeRotation{
 		iBaseDAO.update(HomeRotation);
 		return 1;
 	}
-	
-	
+
+	@Override
+	public void saveShow(int id, int isshow) {
+		String sql = "update t_ws_index_advertising set isshow = ? where id = ?";
+		iBaseDAO.update(sql, isshow,id);
+	}
+
+	@Override
+	@Transactional
+	public List findIsshow() {
+		List params = new ArrayList();
+		return iBaseDAO.queryForList("select * from t_ws_index_advertising where isshow = 1", params.toArray());
+	}
+
+	@Override
+	public List findShowImage() {
+		List params = new ArrayList();
+		return iBaseDAO.queryForList("select * from t_ws_index_advertising where isshow = 1", params.toArray());
+	}
+
 
 }

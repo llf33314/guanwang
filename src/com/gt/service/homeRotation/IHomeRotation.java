@@ -19,4 +19,10 @@ public interface IHomeRotation {
 
 	Integer update(HomeRotation HomeRotation) throws Exception;
 
+    void saveShow(int id, int isshow);
+
+	List findIsshow();
+
+	List findShowImage();
+
 }

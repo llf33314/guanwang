@@ -1,4 +1,5 @@
 var it;
+var index_url = "";
 $(function(){
     gtShow(1,$("#a-swiper1"));
    // $("#a-swiper7 > a").attr("style","color:#2d8efe;");
@@ -80,32 +81,75 @@ $(function(){
 	});
 	
 	initArt();
-//	homeRotation();
+	homeRotation();
 	mealSet();
 //	webjs.index();
 //	initCheckIn();
 	
 	$('body').show();
 });
-
-function homeRotation(){
-	WSFUNCTION.doPostCallback({
-		url: "/homeRotation/html/findShowImage",
-		param: {}, 
-		func: function(v){
-			var html = '';
-			for(var i=0;i<v.length;i++){
-				var aurl = 'javascript:void(0);';
-				if(v[i].url != '' && v[i].url != null) aurl = v[i].url;
-				if(i == 0) html += '<li style="height: 470px; background-image: url('+v[i].imgurl
-						+');"><a href="'+aurl+'"><img src="'+v[i].imgurl+'" style="display:none"></a></li>';
-				else html += '<li><a href="'+aurl+'"><img lazy_src="'+v[i].imgurl+'"></a></li>';
-			}
-			$('#banner ul').html(html);
-		}
-	});
+var  closeTime = 0 ;
+//写cookies
+function setCookie(objName, objValue, objHours){
+    var str = objName + "=" + escape(objValue);
+    if (objHours > 0) {//为0时不设定过期时间，浏览器关闭时cookie自动消失
+        var date = new Date();
+        var ms = objHours * 3600 * 1000;
+        date.setTime(date.getTime() + ms);
+        str += "; expires=" + date.toGMTString();
+    }
+    document.cookie = str;
 }
 
+//读取cookies
+function getCookie(name)
+{
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+
+    if(arr=document.cookie.match(reg))
+
+        return (arr[2]);
+    else
+        return null;
+}
+
+//删除cookies
+function delCookie(name)
+{
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    var cval=getCookie(name);
+    if(cval!=null)
+        document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+}
+function homeRotation(){
+	if (!getCookie("website_cookies")){
+		WSFUNCTION.doPostCallback({
+			url: "/homeRotation/html/findShowImage",
+			param: {},
+			func: function(v){
+				for(var i=0;i<v.length;i++){
+					// if(v[i].url != '' && v[i].url != null) aurl = v[i].url;
+					// if(i == 0) html += '<li style="height: 470px; background-image: url('+v[i].imgurl
+					// 		+');"><a href="'+aurl+'"><img src="'+v[i].imgurl+'" style="display:none"></a></li>';
+					// else html += '<li><a href="'+aurl+'"><img lazy_src="'+v[i].imgurl+'"></a></li>';
+					$("#addImages").attr("src",v[i].img_url);
+					index_url = v[i].url;
+					closeTime = v[i].showtime;
+				}
+			}
+		});
+		$("#closeAdBarner").show();
+		setCookie('website_cookies','quangege',0)
+		window.setTimeout(closeAdBarner,closeTime*1000);
+	}
+}
+var closeAdBarner = function(){
+    document.querySelectorAll('#closeAdBarner')[0].style.display = 'none'
+}
+function guangGao() {
+    window.open(index_url);
+}
 function mealSet(){
     var v = WSFUNCTION.doPostReturnFull("/mealSet/html/list", {});
     var data = v.data, dataType = v.dataType, h = '', s = '', count = 0;

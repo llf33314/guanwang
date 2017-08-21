@@ -89,6 +89,9 @@
 <script src="../js/provinceCityArea.js"></script>
 <script>
     var v = <%=request.getParameter("v") %>;
+    if(!v){
+        v = 1;
+    }
     switch(v){
         case 1:
             $('#boy_title').prepend("城市代理商");
@@ -106,66 +109,6 @@
     var flag = true;
     var open_tipsbox = function(){$(".tipsbox").show();}
     var close_tipsbox = function(){$(".tipsbox").hide();document.location.reload();}
-    //表单校验
-    //姓名验证
- $(function () {
-    $("#name > div > div.el-input > input").blur(function(){
-        console.log(1)
-         $("#name").siblings().remove();
-        if ( $("#name").val().search(/^[\u0391-\uFFE5\w]+$/) !=-1){
-            //对的
-            //服务器校验
-            $.ajax({
-                url:"/agent/html/checkName.do",
-                type:'post',
-                data:{name: $("#name").val()},
-                success:function(data){
-                    if(data.success){
-                        flag = true;
-                    }else{
-                         $("#name").after("<font color='red'>"+data.msg+"</font>");
-                        flag = false;
-                    }
-                }
-            });
-        }else{
-            //不对
-             $("#name").after("<font color='red'>格式错误</font>");
-            flag = false;
-        }
-    });
-
- })
-
-
-    //验证电话号码
-    $("input[prop='phone']").blur(function(){
-        $("input[prop='phone']").siblings().remove();
-        var p = $("input[prop='phone']").val();
-        if(p && /^1[3|4|5|8]\d{9}$/.test(p)){
-            //对的
-            //服务器校验
-            $.ajax({
-                url:"/agent/html/checkPhone.do",
-                type:'post',
-                data:{phone:$("input[prop='phone']").val()},
-                success:function(data){
-                    if(data.success){
-                        flag = true;
-                    }else{
-                        $("input[prop='phone']").after("<font color='red'>"+data.msg+"</font>");
-                        flag = false;
-                    }
-                }
-            });
-        } else{
-            //不对
-            $("input[prop='phone']").after("<font color='red'>格式错误</font>");
-            flag = false;
-        }
-    });
-
-
     new Vue({
     el: '#bRegister',
     data:function() {
@@ -303,7 +246,7 @@
 //              qq:slef.ruleForm.qq,
 //              company:slef.ruleForm.company,
 //            }
-              var data = {
+              var data1 = {
                   name:slef.ruleForm.name,
                   phone:slef.ruleForm.phone,
                   qq:slef.ruleForm.qq,
@@ -320,7 +263,7 @@
               if(flag){
                   $.ajax({
                       url:"${pageContext.request.contextPath}/agent/html/edit.do",
-                      data:data,
+                      data:data1,
                       type:"post",
                       success:function(data){
                           if(data.success){
@@ -336,7 +279,6 @@
               }else{
                   layer.alert("请填写正确信息");
               }
-            console.log(data)
           } else {
             console.log('error submit!!')
             return false

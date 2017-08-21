@@ -189,13 +189,13 @@
                 </div>
                 <div class="a-ag-type-ul-bottom">
                     <p>城市代理商具有全国性质，可分为省级代理商和市级代理商，并且省级代理商还可发展自身的市级代理商和县区级代理商，市区级代理商也可发展自身的县区级代理商！同时，所有城市代理商均纳入多粉总公司的股票期权计划！</p>
-                    <a href="/html/agency/html/sign.jsp">申请成为城市代理商</a>
+                    <a href="/html/agency/html/sign.jsp?v=1">申请成为城市代理商</a>
                 </div>
             </div>
             <div class="a-ag-type-two">
                 <span></span>
                 <p class="agp">城市代理商具有全国性质，可分为省级代理商和市级代理商，并且省级代理商还可发展自身的市级代理商和县区级代理商，市区级代理商也可发展自身的县区级代理商！同时，所有城市代理商均纳入多粉总公司的股票期权计划！</p>
-                <a href="/html/agency/html/sign.jsp">申请成为城市代理商</a>
+                <a href="/html/agency/html/sign.jsp?v=1">申请成为城市代理商</a>
             </div>
         </li>
         <li class="a-ag-type-ul-li">
@@ -206,13 +206,13 @@
             </div>
                 <div class="a-ag-type-ul-bottom">
                     <p>县区级代理商是为了满足部分个人创业者设立的，不需要您拥有硬性的办公场所和公司资质，如果您有良好的销售渠道或丰富的人脉资源，我们同样希望您能够参与到我们多粉的事业中来，同时县区级代理商也同样纳入到多粉总公司的股票期权计划！</p>
-                    <a href="/html/co_convened_reg.jsp?v=2">申请成为县区级代理商</a>
+                    <a href="/html/agency/html/sign.jsp?v=2">申请成为县区级代理商</a>
                 </div>
             </div>
             <div class="a-ag-type-two">
                 <span></span>
                 <p class="agp">县区级代理商是为了满足部分个人创业者设立的，不需要您拥有硬性的办公场所和公司资质，如果您有良好的销售渠道或丰富的人脉资源，我们同样希望您能够参与到我们多粉的事业中来，同时县区级代理商也同样纳入到多粉总公司的股票期权计划！</p>
-                <a href="/html/co_convened_reg.jsp?v=2">申请成为县区级代理商</a>
+                <a href="/html/agency/html/sign.jsp?v=2">申请成为县区级代理商</a>
             </div>
         </li>
         <li class="a-ag-type-ul-li">
@@ -224,14 +224,14 @@
                 <div class="a-ag-type-ul-bottom">
                     <p>申请流程：申请咨询 面试审核——正式签约 培训一周——双方出资 成立分公司——培训管理 统一执行——利润分红 携手共赢</p>
                     <p style="margin-top: 25px;">成立分公司:您需要创业资金、本地资源、优秀团队</p>
-                    <a href="/html/co_convened_reg.jsp?v=3">申请成为城市合伙人</a>
+                    <a href="/html/agency/html/sign.jsp?v=3">申请成为城市合伙人</a>
                 </div>
             </div>
             <div class="a-ag-type-two">
                 <span></span>
                 <p class="agp">我们有：完善的技术平台、行业前景、强大的品牌优势</p>
                 <p class="agp2">双方共同出资，成立联合分公司计划，培训与管理统一按总部执行！双方享利润分红，城市合伙人需通过面试，面试通过后要到总部进行为期一周的培训！从签定合同的那一刻起，我们将开始并肩前行！</p>
-                <a href="/html/co_convened_reg.jsp?v=3">申请成为城市合伙人</a>
+                <a href="/html/agency/html/sign.jsp?v=3">申请成为城市合伙人</a>
             </div>
         </li>
         <li class="a-ag-type-ul-li">
@@ -243,14 +243,14 @@
                 <div class="a-ag-type-ul-bottom">
                     <p>申请流程：确定意向—申请加入—资格审核—通过评估—签署协议—授予权限—提供培训—开始服务</p>
                     <p style="margin-top: 25px;">多粉面向全国开展城市服务商计划，为全国各地客户提供多粉的售前和售后服务工作，满足当地的市场需求！</p>
-                    <a href="/html/co_convened_reg.jsp?v=4">申请成为城市服务商</a>
+                    <a href="/html/agency/html/sign.jsp?v=4">申请成为城市服务商</a>
                 </div>
             </div>
             <div class="a-ag-type-two">
                 <span></span>
                 <p class="agp">同时多粉将通过多样化的培训，给予服务商销售、服务和技术上的支持，帮助服务商快速成长，与服务商共享市场资源，共同为客户精心打造一整套专业的微信营销解决方案，实现三方共赢！</p>
                 <p class="agp2">我们非常欢迎个人创业者加入到城市服务商计划中，我们需要您熟悉互联网，了解微信公众号行业，同时你将负责帮助商家申请与认证微信服务号、负责售后操作培训支持、协助签约与面谈、城市服务商按销售地区的总额点数分成收入！</p>
-                <a href="/html/co_convened_reg.jsp?v=4">申请成为城市服务商</a>
+                <a href="/html/agency/html/sign.jsp?v=4">申请成为城市服务商</a>
             </div>
         </li>
     </ul>

@@ -387,6 +387,13 @@
 
 <!-- 底部区域 -->
 
+<div id="closeAdBarner" style="display:none;position: fixed;top:0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.4);z-index: 9999">
+    <div style="position: absolute;top:50%;left: 50%;margin-top: -275px;margin-left: -465px;">
+        <img id="addImages"  style="width: 930px;height: 550px;"  onclick="guangGao();"/>
+        <div onclick="closeAdBarner()" style="position: absolute;top:-25px;right: -25px;width: 62px;height: 62px;cursor: pointer"><img src="/images/index/bdelete.png" /></div>
+    </div>
+</div>
+
 <script src="../js/index/aindex.js"></script>
 <script src="../js/index/webSite.js"></script>
 <script src="../js/index/iconfont.js"></script>

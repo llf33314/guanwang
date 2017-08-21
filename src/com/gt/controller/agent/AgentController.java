@@ -135,7 +135,7 @@ public class AgentController {
 				resultId = agentService.create(agent);
 			}
 		}
-		modelMap.put("success", true);
+		modelMap.put("success", "true");
 		modelMap.put("id", resultId);
 		return modelMap;
 	}
