@@ -23,7 +23,7 @@
     <div class="a-swiper">
         <div class="a-swiper-txt">
             <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
-            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-swiper-title" >智慧店铺</a></div>
+            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="/html/wisdomShop/html/index.jsp" class="a-swiper-title" >智慧店铺</a></div>
             <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="/html/distribution/html/index.jsp" class="a-swiper-title" >分销系统</a></div>
             <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-title" >智慧餐饮</a></div>
             <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="/html/CarCount/html/index.jsp" class="a-swiper-title" >汽车美容快修</a></div>
