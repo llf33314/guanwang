@@ -9,6 +9,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -355,24 +356,32 @@ public class AgentController {
 		return modelMap;
 	}
 
-	@SuppressWarnings("rawtypes")
-	@RequestMapping("/html/checkAgentLogin")
-	public String checkAgentLogin(@RequestParam(required = true) String name, 
-			@RequestParam(required = true) String pwd, @RequestParam(required = true) String val,
-			@RequestParam(required = true) String sms ,
-			RedirectAttributes ra, Model model, HttpServletRequest request) {
+	@RequestMapping(value = "/html/checkAgentLogin",method = RequestMethod.POST)
+	@ResponseBody
+	public  Map<String, Object> checkAgentLogin(
+			@RequestParam Map<String,Object> params,
+			 HttpServletRequest request) {
+		Map<String,Object> map = new HashMap<>();
 		try {
+			String name=params.get("name").toString();
+			String pwd=params.get("pwd").toString();
+			String val=params.get("val").toString();
+			String sms=params.get("sms").toString();
 			HttpSession session = request.getSession();
 			String valcode = session.getAttribute("valCode").toString();
 			Map m = agentService.checkAgentLogin(name, pwd);
 			if(!val.equals(valcode)){
-				model.addAttribute("msg", "验证码错误");
+//				map.put("msg", "验证码错误");
+				map.put("type",1);
 			}else if(m == null){
-				model.addAttribute("msg", "账户名或密码错误");
+//				map.put("msg", "账户名或密码错误");
+				map.put("type",2);
 			}else if(sms == null){
-				model.addAttribute("msg", "短信验证码不能为空");
+//				map.put("msg", "短信验证码不能为空");
+				map.put("type",3);
 			}else if(!sms.equals(JedisUtil.get("webSite:"+name))){
-				model.addAttribute("msg", "短信验证码错误");
+//				map.put("msg", "短信验证码错误");
+				map.put("type",4);
 			}else{
 				int ud = Integer.valueOf(m.get("user_delect").toString());
 				int us = Integer.valueOf(m.get("user_start").toString());
@@ -380,19 +389,21 @@ public class AgentController {
 				int pu = Integer.valueOf(m.get("pigagent_userid").toString());
 				if(ud == 1 && us == 1 && (ia == 1 || pu != 0)){
 					String sendName = new KeysUtil().getEncString(name);
-					return "redirect:"+agentLogin_url+"/agentLogin?user_name="+sendName+"&passWord="+MD5Util.getMD5(pwd);
+					map.put("agentLogin_url",agentLogin_url);
 				}else{
 					if(ia != 1){
-						model.addAttribute("msg", "不是代理商账号");
+//						map.put("msg", "不是代理商账号");
+						map.put("type",5);
 					}
 				}
 			}
-			model.addAttribute("name", name);
-			model.addAttribute("pwd", pwd);
+			map.put("name", name);
+			map.put("pwd", pwd);
 		} catch (Exception e) {
-			ra.addAttribute("msg", "系统错误");
+//			map.put("msg", "系统错误");
+			map.put("type",6);
 		}
-		return "/html/product-trends/register-user.jsp";
+		return map;
 	}
 	
 	public static void main(String[] args) throws Exception {

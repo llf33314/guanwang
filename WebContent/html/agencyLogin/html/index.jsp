@@ -15,7 +15,7 @@
 
         <h1 class="title">代理登录</h1>
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="0" class="demo-ruleForm">
-            <el-form-item label="" prop="name" style="width: 400px;">
+            <el-form-item label="" prop="name" style="width: 400px;" :error="errors.name">
                 <el-input placeholder="帐号" v-model="ruleForm.name"></el-input>
             </el-form-item>
             <el-form-item label="" prop="password" style="width: 400px;" class="b-password">
@@ -23,14 +23,14 @@
                 <img class="b-password-icon" src="../images/password.png">
             </el-form-item>
             <div style="position: relative">
-                <el-form-item label="" prop="imgNumber" style="width: 280px;">
+                <el-form-item label="" prop="imgNumber" style="width: 280px;" :error="errors.imgNumber">
                     <el-input placeholder="请输入图形验证码" v-model="ruleForm.imgNumber"></el-input>
                 </el-form-item>
                 <img class="b-yzm-img" :src="yzmSrc">
                 <div class="b-change-yzm" @click="getYzmImg">换一张</div>
             </div>
             <div style="position: relative">
-                <el-form-item label="" prop="inputNumber" style="width: 280px;">
+                <el-form-item label="" prop="inputNumber" style="width: 280px;" :error="errors.inputNumber">
                     <el-input placeholder="请输入验证码" v-model="ruleForm.inputNumber"></el-input>
                 </el-form-item>
                 <div class="b-get-yzm" @click="getInputYzm('ruleForm')" id="getInputYzm">获取验证码</div>
@@ -43,14 +43,15 @@
 <script src="/html/common/publicResource/js/vue.min.js"></script>
 <script src="/html/common/publicResource/js/elementui/elementui.js"></script>
 <script>
-  new Vue({
+    var flag = true;
+    new Vue({
     el: '#bRegister',
     data: function () {
       return {
         yzmSrc: '/login/html/buildCode?d' + Math.random(),
         submitFlag: false,
         timeFlag:null,
-        time:10,
+        time:60,
         cleanInterval:null,
         ruleForm: {
           name: '',
@@ -71,7 +72,12 @@
           inputNumber: [
             {required: true, message: '请输入正确的验证码', trigger: 'blur'}
           ],
-        }
+        },
+      errors:{
+          name:'',
+          imgNumber:'',
+          inputNumber:''
+      }
       }
     },
     mounted: function () {
@@ -84,7 +90,7 @@
       },
       // 获取数字验证码
       getInputYzm: function (formName) {
-        var self = this
+        var self = this;
         this.$refs[formName].validateField('name', function (valid) {
           var bean = {
             'name': self.ruleForm.name,//账号
@@ -99,8 +105,7 @@
               if (data.status == 'success') {
                 self.getInput60s();
               } else {
-                console.log(55)
-
+                  self.errors = {name: '该账号还未开通代理商，请查正'}
               }
             }
           })
@@ -118,7 +123,7 @@
             document.querySelectorAll('#getInputYzm')[0].style.backgroundColor = '#999'
             document.querySelectorAll('#getInputYzm')[0].innerHTML = self.time+'s后重新获取'
           }else{
-            self.time = 10
+            self.time = 60
             self.timeFlag = false
             clearInterval(self.cleanInterval)
             document.querySelectorAll('#getInputYzm')[0].style.backgroundColor = '#2d8dfd'
@@ -127,18 +132,48 @@
         },1000)
       },
       // 登录
+
       submitForm: function (formName) {
-        var slef = this
+        var slef = this;
         console.log(this.$refs[formName])
         this.$refs[formName].validate(function (valid) {
           if (valid) {
-            var data = {
-              name: slef.ruleForm.name,
-                pwd: slef.ruleForm.password,
-                val: slef.ruleForm.yzmimg,
-                sms: slef.ruleForm.yzmnumber,
-            }
-
+                var data1 = {
+                    name: slef.ruleForm.name,
+                    pwd: slef.ruleForm.password,
+                    val: slef.ruleForm.imgNumber,
+                    sms: slef.ruleForm.inputNumber,
+                };
+              if(flag){
+                    flag = false;
+                  $.ajax({
+                      url:"/agent/html/checkAgentLogin.do",
+                      data:data1,
+                      type:"post",
+                      success:function(data){
+                          if(data.agentLogin_url){
+//                              return "redirect:"+agentLogin_url+"/agentLogin?user_name="+sendName+"&passWord="+MD5Util.getMD5(pwd);
+                              window.location.href=data.agentLogin_url+"/agentLogin?user_name="+data1.name+"&passWord="+data1.pwd;
+                          }else{
+                              //layer.alert(data.msg);
+                              if(data.type == 1){
+                                  self.errors = {imgNumber: '验证码错误'};
+                              }else if(data.type == 2){
+                                  self.errors = {name: '账户名或密码错误'};
+                              }else if(data.type == 3){
+                                  self.errors = {inputNumber: '短信验证码不能为空'};
+                              }else if(data.type == 4){
+                                  self.errors = {inputNumber: '短信验证码错误'};
+                              }else if(data.type == 5){
+                                  self.errors = {name: '不是代理商账号'};
+                              }else if(data.type == 6){
+                                 alert("系统错误！");
+                              }
+                          }
+                          flag = true;
+                      }
+                  });
+              }
           } else {
             return false
           }
