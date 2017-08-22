@@ -62,7 +62,7 @@
 				+'<a href="/html/LittleGreedyCat/html/car.jsp" data-num-hard="0" >e-300系列</a>'
 				+'<a href="/html/LittleGreedyCat/html/car1.jsp" data-num-hard="1" >e-200系列</a>'
 				+'<a href="/html/LittleGreedyCat/html/car2.jsp" data-num-hard="2" >e-180系列</a>'
-				+'<a href="http://www.duofriend.com/html/hardware.jsp">更多硬件</a>'
+				+'<a href="/html/hardware/html/index.jsp">更多硬件</a>'
 				+'</div><div style="width:100%;overflow: hidden;"><div class="wrap-1200 ad001 ">';
 			if(access_num_hard == 0){
 				xc_html += '<img src="../img/hardware/pic1.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';

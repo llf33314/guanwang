@@ -1,4 +1,6 @@
 package com.gt.utils;
+import com.alibaba.fastjson.JSONObject;
+
 import java.io.*;
 import java.net.*;//++
 import java.security.*;//++
@@ -10,9 +12,12 @@ public class SMSManages {
         this._uc = uc;
         this._pwd = pwd;
     }
-    
+    public static void main(String[] args) {
+        Map<String, String> result=sendSMS("13414621797","测试的，收到吗","多粉平台");
+        System.out.println(JSONObject.toJSONString(result));
+    }
     private String _uc,_pwd; //帐号，密码
-    private static String _host="http://c.kf10000.com/sdk/SMS?";
+    private static String _host="http://api.91jianmi.com/sdk/SMS?";
     
     public static String get_pwd(String pwd) {
     	return MD5Encode(pwd);
@@ -107,7 +112,9 @@ public class SMSManages {
             re = new String(bytearrayoutputstream.toByteArray());
             re.trim();
         } catch (MalformedURLException ex) {
+            ex.printStackTrace();
         } catch (IOException ex) {
+            ex.printStackTrace();
             /** @todo Handle this exception */
         }
 

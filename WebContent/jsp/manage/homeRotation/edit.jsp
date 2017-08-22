@@ -28,24 +28,28 @@
 								<label class="control-label" for="selectError"
 									style="width: auto;">轮播图</label>
 								<span class="help-inline"></span>
-								<img id="imgurl" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: 50px;border: 1px solid #ccc;"/>
+								<img id="img_url" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: 50px;border: 1px solid #ccc;"/>
 							</div>
-							<div class="control-group">
-								<label class="control-label" for="selectError" style="width: auto;">跳转URL</label>
-								<div class="controls" style="margin-left: 40px;">
-									<span class="help-inline"></span> 
-									<input class="input-xlarge span10" id="url" type="text"
-										style="height: 30px;" placeholder="链接地址" maxlength="250">
-								</div>
-							</div>
+                            <div style="margin-top: -14px; margin-bottom: 22px;">
+                                <span style="    margin: 125px;
+                                 color: red;">建议图片尺寸1000*600</span>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label" for="selectError" style="width: auto;">跳转URL</label>
+                                <div class="controls" style="margin-left: 40px;">
+                                    <span class="help-inline"></span>
+                                    <input class="input-xlarge span10" id="url" type="text"
+                                           style="height: 30px;" placeholder="链接地址" maxlength="250">
+                                </div>
+                            </div>
 							<div class="form-actions" style="width: 76%;">
 								<button type="button" id="submit" class="btn btn-primary" onclick="qa_edit('/homeRotation/add');">提交</button>
 								<button type="button" class="btn" onclick="gtView('jsp/manage/homeRotation/index.jsp');">取消</button>
 							</div>
 						</fieldset>
 					</form>
-
-				</div>
+                    <input type="hidden" id="isshow" value="0">
+                </div>
 			</div>
 		</div>
 		<!-- /block -->
@@ -57,19 +61,20 @@
 				$("legend").html("修改");
 				$("#submit").attr("onclick", "qa_edit('/homeRotation/upd');");
 				var one = WSFUNCTION.doPost("homeRotation/html/list", {id:id})[0];
-				 $("#imgurl").attr("src", one.imgurl);
+				 $("#img_url").attr("src", one.img_url);
 				 $("#url").val(one.url);
-			}
-			$("#imgurl").on("click", selectModel);
+                $("#isshow").val(one.isshow);
+            }
+			$("#img_url").on("click", selectModel);
 			$("#selectMaterial").bind("click", function(){
 				var array = getMaterialArray();
-				$("#imgurl").attr("src", array[0]);
+				$("#img_url").attr("src", array[0]);
 			});
 		});
 		function qa_edit(url){
-			var _imgurl = $("#imgurl").attr("src");
+			var _imgurl = $("#img_url").attr("src");
 			var _url = $("#url").val();
-			var p = "{id:"+id+", imgurl:'"+_imgurl+"', url:'"+_url+"'}";
+			var p = "{id:"+id+", img_url:'"+_imgurl+"', url:'"+_url+"',isshow:"+$("#isshow").val()+"}";
 			$.ajax({
 				url: url, 
 				type: "POST",

@@ -9,6 +9,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.gt.utils.CommonUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -72,6 +73,8 @@ public class HomeRotationController {
 			p = response.getWriter();
 			HomeRotation a = (HomeRotation) JSONObject.toBean(
 					JSONObject.fromObject(request.getParameter("homeRotation")), HomeRotation.class);
+			a.setIsshow(0);
+			a.setShowtime("20");
 			status = iHomeRotation.insert(a);
 			msg = "提交成功";
 		} catch (Exception e) {
@@ -109,6 +112,7 @@ public class HomeRotationController {
 			p = response.getWriter();
 			HomeRotation a = (HomeRotation) JSONObject.toBean(
 					JSONObject.fromObject(request.getParameter("homeRotation")), HomeRotation.class);
+			a.setShowtime("20");
 			status = iHomeRotation.update(a);
 			msg = "提交成功";
 		} catch (Exception e) {
@@ -116,5 +120,53 @@ public class HomeRotationController {
 		}
 		p.write("{\"status\":"+status+", \"msg\":\""+msg+"\", \"data\":"+null+"}");
 	}
-	
+	@RequestMapping("/saveShow")
+	public void saveShow(HttpServletResponse response, HttpServletRequest request){
+		response.setContentType("text/html;charset=UTF-8");
+		int status = 0;
+		String msg = "操作失败";
+		PrintWriter p = null;
+		try {
+			p = response.getWriter();
+			int id = CommonUtil.toInteger(request.getParameter("id"));
+			int isshow = CommonUtil.toInteger(request.getParameter("isshow"));
+			if(isshow < 1){
+				iHomeRotation.saveShow(id,isshow);
+				msg = "操作成功";
+				status = 1;
+			}else{
+				List list = iHomeRotation.findIsshow();
+				if(list.size() > 0){
+					msg = "已存在显示广告！";
+					status = 0;
+				}else{
+					iHomeRotation.saveShow(id,isshow);
+					msg = "操作成功";
+					status = 1;
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		p.write("{\"status\":"+status+", \"msg\":\""+msg+"\", \"data\":"+null+"}");
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@RequestMapping("/html/findShowImage")
+	public void findShowImage(HttpServletResponse response, HttpServletRequest request){
+		response.setContentType("text/html;charset=UTF-8");
+		int status = 0;
+		PrintWriter p = null;
+		List list = new ArrayList();
+		int totalPage = 0;
+		try {
+			p = response.getWriter();
+			list = iHomeRotation.findShowImage();
+			status = 1;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		p.write("{\"status\":"+status+", \"msg\":\"\", \"data\":"+JSONArray.fromObject(list).toString()+", "
+				+"\"totalPage\":"+totalPage+"}");
+	}
 }

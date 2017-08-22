@@ -24,7 +24,7 @@
 <div class="video-box" id="video-box">
     <span class="video-close" onclick="closeVideo()">关闭</span>
     <video preload="none" controls width="800" height="500" id="videoMedia" style="background-color: #000">
-        <source src="http://maint.deeptel.com.cn/upload/dls.mp4" type="video/mp4">
+        <source src="http://maint.duofriend.com/upload/video/websiteUpload/website/dls.mp4" type="video/mp4">
     </video>
 </div>
 <script>

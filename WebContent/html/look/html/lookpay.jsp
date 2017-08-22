@@ -25,7 +25,7 @@
                 <a href="/html/look/html/index.jsp" data-num="0">首页</a>
                 <a href="/html/look/html/features.jsp" data-num="1">功能展示</a>
                 <a href="/html/look/html/case.jsp" data-num="2">品牌案例</a>
-                <a href="/html/co_convened.jsp" data-num="3">申请代理</a>
+                <a href="/html/agency/html/index.jsp" data-num="3">申请代理</a>
             </div>
             <div class="car-top-service">
                 <a href="http://duofriend.com/user/toregister.do">免费体验</a>
