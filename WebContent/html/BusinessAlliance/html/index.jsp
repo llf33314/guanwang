@@ -162,7 +162,6 @@
 	<script>
 		$(function() {
 			$('.sj-union-role').on('mouseenter', function() {
-				console.log(1111)
 				$(this).find('.box-pic-leader').css({
 					"background" : "url(../img/leader2.png)"
 				})
@@ -179,7 +178,6 @@
 			})
 
 			$('.sj-union-role').on('mouseenter', function() {
-				console.log(2222)
 				$(this).find('.box-pic-ness').css({
 					"background" : "url(../img/ness2.png)"
 				})
@@ -196,7 +194,6 @@
 			})
 
 			$('.sj-union-role').on('mouseenter', function() {
-				console.log(3333)
 				$(this).find('.box-pic-member').css({
 					"background" : "url(../img/member2.png)"
 				})

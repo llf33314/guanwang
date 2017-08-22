@@ -8,6 +8,7 @@ a{text-decoration:none;color:#333;}
 .a-hw-nextbox{
     height: auto;
     width:100%;
+    overflow: hidden;
 }
 .a-hw-nextbox-box{
     width: 1200px;
@@ -223,6 +224,7 @@ a{text-decoration:none;color:#333;}
     height: 400px;
     width: 100%;
     background: #f8f8f8;
+    overflow: hidden;
 }
 .a-hw-second{
     height: 400px;

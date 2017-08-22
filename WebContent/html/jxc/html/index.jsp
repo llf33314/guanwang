@@ -149,7 +149,7 @@
     autoplay: 3000
   });
   var __onLoadCXBAddClass__ = function(){
-    console.log(999)
+    /*console.log(999)*/
     if(window.innerHeight > 650){
       if(!$('#yuanjuxingline').hasClass('yuanjuxingline')) $('#yuanjuxingline').addClass('yuanjuxingline');
       setTimeout(function () {
@@ -160,7 +160,7 @@
   window.onscroll = function(e){
     var scrollTop = document.documentElement.scrollTop ||  document.body.scrollTop;
     var innerHeight = window.innerHeight;
-    console.log(scrollTop)
+    /*console.log(scrollTop)*/
     if(scrollTop > 180 && innerHeight <= 650){
       if(!$('#yuanjuxingline').hasClass('yuanjuxingline')) $('#yuanjuxingline').addClass('yuanjuxingline');
       setTimeout(function () {

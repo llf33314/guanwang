@@ -122,7 +122,6 @@ $(function(){
                 $(".big-pain-box").find("#tet1").addClass("rotateIn");
              },500);
          }
-
              if(scrollTop >660 && scrollTop < 1200){
             	 
             	 $(".xc-container-01").find(".big-white-box").addClass("fadeInUp");
@@ -147,7 +146,7 @@ $(function(){
                  setTimeout(function(){
                      $(".big-white-box").find("#w3").addClass("fadeIn");
                   },1500);
-              
+
              }             
              if(scrollTop >1350 && scrollTop < 1600){
             	 inte(70);
@@ -155,13 +154,9 @@ $(function(){
             	 setTimeout(function(){
                      $(".big-more-box").find("#tet5").addClass("bounceIn");
                   },300);
-                 
              }
-             
     });
 });
-           
-
 </script>
 <script src="../js/one/bigmin.js"></script>
 
