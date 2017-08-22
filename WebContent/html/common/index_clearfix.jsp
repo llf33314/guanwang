@@ -51,9 +51,9 @@
                      </ul>
                   </li>
                   <li><a href="/html/case_center.jsp"  class="fie6">客户案例</a></li>
-                  <li class="zxli sigle"><a href="/html/co_convened.jsp"  class="fie6">合作与加盟</a>
+                  <li class="zxli sigle"><a href="/html/agency/html/index.jsp"  class="fie6">合作与加盟</a>
                      <ul class="subbox">
-                         <!-- <li><a href="/html/co_convened.jsp" >合作加盟</a></li> -->
+                         <!-- <li><a href="/html/agency/html/index.jsp" >合作加盟</a></li> -->
                          <li><a href="/html/technology.jsp" >技术服务商</a></li>
                      </ul>
                   </li>

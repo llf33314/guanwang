@@ -286,7 +286,8 @@
         })
       },
       resetForm: function (formName) {
-        this.$refs[formName].resetFields()
+        this.$refs[formName].resetFields();
+        window.location.href="/html/agency/html/index.jsp";
       }
     }
   })

@@ -136,12 +136,12 @@ function homeRotation(){
 					$("#addImages").attr("src",v[i].img_url);
 					index_url = v[i].url;
 					closeTime = v[i].showtime;
+                    $("#closeAdBarner").show();
+                    setCookie('website_cookies','quangege',0)
+                    window.setTimeout(closeAdBarner,closeTime*1000);
 				}
 			}
 		});
-		$("#closeAdBarner").show();
-		setCookie('website_cookies','quangege',0)
-		window.setTimeout(closeAdBarner,closeTime*1000);
 	}
 }
 var closeAdBarner = function(){

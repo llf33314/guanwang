@@ -21,7 +21,7 @@
 				<a href="/html/homeland/html/index.jsp">首页</a>
 				<a href="/html/homeland/html/manage.jsp">物业管理</a>
 				<a href="/html/homeland/html/case.jsp" class="sp">客户案例</a>
-				<a href="/html/co_convened.jsp">申请代理</a>
+				<a href="/html/agency/html/index.jsp">申请代理</a>
 			</div>
 			<div class="car-top-service">
 				<a href="http://duofriend.com/user/toregister.do">免费体验</a>

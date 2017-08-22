@@ -26,7 +26,7 @@
 			          <a href="/html/CarCount/html/features.jsp" data-num="1">功能展示</a>
 			          <a href="/html/CarCount/html/mobileApplications.jsp" data-num="2">移动化应用</a>
 			          <a href="/html/CarCount/html/customerCase.jsp" data-num="3">客户案例</a>
-			          <a href="/html/co_convened.jsp">申请代理</a>
+			          <a href="/html/agency/html/index.jsp">申请代理</a>
 			        </div>
 			        <div class="car-top-service">
 			          <a href="http://duofriend.com/user/toregister.do">免费体验</a>

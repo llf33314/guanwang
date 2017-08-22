@@ -7,7 +7,7 @@
 			<div class="sj-top-menu">
 				<a href="index.jsp" data-num="1">首页</a> <a
 					href="function.jsp" data-num="3">特色功能</a> <a href="case.jsp" data-num="2">客户案例</a> <a
-					href="/html/co_convened.jsp">申请代理</a>
+					href="/html/agency/html/index.jsp">申请代理</a>
 			</div>
 			<div class="sj-top-service">
 				<a href="http://duofriend.com/user/toregister.do">免费体验</a> <a href="javascript:void(0);"

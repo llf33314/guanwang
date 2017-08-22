@@ -7,7 +7,7 @@
           <a href="/html/BigWhite/html/index.jsp" data-num="0">首页</a>
           <a href="/html/BigWhite/html/functionDisplay.jsp" data-num="1">功能展示</a>
           <a href="/html/BigWhite/html/successCase.jsp" data-num="2">成功案例</a>
-          <a href="/html/co_convened.jsp">申请代理</a>
+          <a href="/html/agency/html/index.jsp">申请代理</a>
         </div>
         <div class="car-top-service">
           <a href="http://duofriend.com/user/toregister.do">免费体验</a>

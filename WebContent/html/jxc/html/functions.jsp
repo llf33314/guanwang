@@ -40,7 +40,7 @@
             <li class="last"><a href="/html/jxc/html/pay.jsp">购买</a></li>
             <li class="last"><a href="http://jxc.duofriend.com/sys/login">登录</a></li>
             <li class="last"><a href="http://duofriend.com/user/toregister.do">免费体验</a></li>
-            <li><a href="/html/co_convened.jsp">申请代理</a></li>
+            <li><a href="/html/agency/html/index.jsp">申请代理</a></li>
             <li><a href="/html/jxc/html/case.jsp">成功案例</a></li>
             <li><a href="/html/jxc/html/functions.jsp" class="linked">功能展示</a></li>
             <li><a href="/html/jxc/html/index.jsp">首页</a></li>
