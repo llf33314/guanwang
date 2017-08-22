@@ -16,7 +16,7 @@
         <h1 class="title">代理登录</h1>
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="0" class="demo-ruleForm">
             <el-form-item label="" prop="name" style="width: 400px;" :error="errors.name">
-                <el-input placeholder="帐号" v-model="ruleForm.name"></el-input>
+                <el-input placeholder="账号" v-model="ruleForm.name"></el-input>
             </el-form-item>
             <el-form-item label="" prop="password" style="width: 400px;" class="b-password">
                 <el-input placeholder="密码" type="password" v-model="ruleForm.password"></el-input>
