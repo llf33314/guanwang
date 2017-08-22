@@ -19,7 +19,7 @@
                 <el-input placeholder="帐号" v-model="ruleForm.name"></el-input>
             </el-form-item>
             <el-form-item label="" prop="password" style="width: 400px;" class="b-password">
-                <el-input placeholder="密码" v-model="ruleForm.password"></el-input>
+                <el-input placeholder="密码" type="password" v-model="ruleForm.password"></el-input>
                 <img class="b-password-icon" src="../images/password.png">
             </el-form-item>
             <div style="position: relative">

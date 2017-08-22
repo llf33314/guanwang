@@ -16,7 +16,7 @@
     <div class="a-ag-banner"></div>
     <div class="a-ag-banner-txt">
         <h1 id="boy_title"></h1>
-        <a class="cxb-gobtn" href="#">
+        <a class="cxb-gobtn" href="http://duofriend.com/user/toregister.do">
             <span class="btnmask"></span>
             <i class="clearmid"></i>
             <div>更多</div>
@@ -78,7 +78,6 @@
 <div class="tipsbox" style="display:none;">
     <div class="tb_bg"></div>
     <div class="tb_main">
-        <a href="javascript:;" class="close"><img src="${imageUrl}/hzzj/close.png" onclick="close_tipsbox()"></a>
         <strong><img src="${imageUrl}/hzzj/success.jpg"/><span>提交成功!</span></strong>
         <p>系统将对您的资料进行审核，将在一个工作日内给您电话答复，请您耐心的等待，谢谢合作！</p>
         <a href="javascript:;" class="base_abtn" onclick="close_tipsbox()">确 定</a>
