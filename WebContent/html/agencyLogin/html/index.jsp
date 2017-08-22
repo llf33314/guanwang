@@ -96,6 +96,7 @@
             'name': self.ruleForm.name,//账号
           }
           if (bean.name == '') return
+
           $.ajax({
             url: '/login/html/getTextCode.do',
             type: 'post',
@@ -106,7 +107,12 @@
                 self.getInput60s();
               } else {
                   self.errors = {name: '该账号还未开通代理商，请查正'}
+                  setTimeout(function(){
+                      self.errors.name = ''
+                  },4000)
+
               }
+                self.timeFlag = false
             }
           })
         })
@@ -134,15 +140,15 @@
       // 登录
 
       submitForm: function (formName) {
-        var slef = this;
+        var self = this;
         console.log(this.$refs[formName])
         this.$refs[formName].validate(function (valid) {
           if (valid) {
                 var data1 = {
-                    name: slef.ruleForm.name,
-                    pwd: slef.ruleForm.password,
-                    val: slef.ruleForm.imgNumber,
-                    sms: slef.ruleForm.inputNumber,
+                    name: self.ruleForm.name,
+                    pwd: self.ruleForm.password,
+                    val: self.ruleForm.imgNumber,
+                    sms: self.ruleForm.inputNumber,
                 };
               if(flag){
                     flag = false;
@@ -153,9 +159,8 @@
                       success:function(data){
                           if(data.agentLogin_url){
 //                              return "redirect:"+agentLogin_url+"/agentLogin?user_name="+sendName+"&passWord="+MD5Util.getMD5(pwd);
-                              window.location.href=data.agentLogin_url+"/agentLogin?user_name="+data1.name+"&passWord="+data1.pwd;
+                              window.location.href=data.agentLogin_url+"/agentLogin?user_name="+data.sendName+"&passWord="+data1.pwd;
                           }else{
-                              //layer.alert(data.msg);
                               if(data.type == 1){
                                   self.errors = {imgNumber: '验证码错误'};
                               }else if(data.type == 2){
@@ -169,6 +174,11 @@
                               }else if(data.type == 6){
                                  alert("系统错误！");
                               }
+                              setTimeout(function(){
+                                  self.errors.name = ''
+                                  self.errors.inputNumber = ''
+                                  self.errors.imgNumber = ''
+                              },4000)
                           }
                           flag = true;
                       }

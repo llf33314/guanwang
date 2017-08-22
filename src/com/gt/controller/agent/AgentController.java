@@ -9,6 +9,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import com.gt.utils.CommonUtil;
 import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -368,7 +369,7 @@ public class AgentController {
 			String val=params.get("val").toString();
 			String sms=params.get("sms").toString();
 			HttpSession session = request.getSession();
-			String valcode = session.getAttribute("valCode").toString();
+			String valcode = CommonUtil.isNotEmpty(session.getAttribute("valCode"))?session.getAttribute("valCode").toString():"";
 			Map m = agentService.checkAgentLogin(name, pwd);
 			if(!val.equals(valcode)){
 //				map.put("msg", "验证码错误");
@@ -390,6 +391,7 @@ public class AgentController {
 				if(ud == 1 && us == 1 && (ia == 1 || pu != 0)){
 					String sendName = new KeysUtil().getEncString(name);
 					map.put("agentLogin_url",agentLogin_url);
+					map.put("sendName",sendName);
 				}else{
 					if(ia != 1){
 //						map.put("msg", "不是代理商账号");
