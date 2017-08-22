@@ -477,7 +477,7 @@
 		          <span class="a-in-swiper-partner-pix"><i class="iconfont swi1">&#xe65b;</i></span>
 		          <span class="a-in-swiper-partner-txt">
 		               <p>投诉反馈邮箱</p>
-		               <h5>hzgt@goodtom.com</h5>
+		               <h5>hzgt@goodtom.net</h5>
 		          </span>
 		       </li>
 		       <li>
