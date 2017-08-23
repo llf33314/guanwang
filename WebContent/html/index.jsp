@@ -67,7 +67,7 @@
                 <div style="padding-top: 5px;">无需公众号一样玩转</div>
                 <ul class="a-swiper-choice">
                     <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-syt-click">免费试用</a></li>
-                    <li><a href="javascript:void(0);" class="a-swiper-syt-click">了解更多</a></li>
+                    <li><a href="/html/wisdomShop/html/index.jsp" class="a-swiper-syt-click">了解更多</a></li>
                 </ul>
                 <div style="margin-top: -3px;">
                     <img src="../images/index/syt-pic.png">
@@ -388,13 +388,14 @@
 
 <!-- 底部区域 -->
 
-<div id="closeAdBarner" style="display:none;position: fixed;top:0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.4);z-index: 9999">
+<div id="closeAdBarner" style="display: none; position: fixed;top:0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.4);z-index: 9999">
     <div style="position: absolute;top:50%;left: 50%;margin-top: -275px;margin-left: -465px;">
-        <img id="addImages"  style="width: 930px;height: 550px;"  onclick="guangGao();"/>
-        <div onclick="closeAdBarner()" style="position: absolute;top:-25px;right: -25px;width: 62px;height: 62px;cursor: pointer"><img src="/images/index/bdelete.png" /></div>
+        <img id="addImages" style="width: 930px;height: 550px;" onclick="guangGao();"/>
+        <div onclick="closeAdBarner()" style="position: absolute;top:0;right:0;padding: 10px;cursor: pointer">
+            <img src="/images/index/bdelete2.png" style="width: 25px;" />
+        </div>
     </div>
 </div>
-
 <script src="../js/index/aindex.js"></script>
 <script src="../js/index/webSite.js"></script>
 <script src="../js/index/iconfont.js"></script>
