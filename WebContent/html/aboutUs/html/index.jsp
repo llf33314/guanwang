@@ -456,14 +456,14 @@
 		          <span class="a-in-swiper-partner-pix"><i class="iconfont swi1">&#xe685;</i></span>
 		          <span class="a-in-swiper-partner-txt">
 		               <p>产品咨询</p>
-		               <h5>400-899-4522</h5>
+		               <h5>400-889-4522</h5>
 		          </span>
 		       </li>
 		       <li>
 		          <span class="a-in-swiper-partner-pix"><i class="iconfont swi1">&#xe6a1;</i></span>
 		          <span class="a-in-swiper-partner-txt">
 		               <p>联系热线</p>
-		               <h5>18026538466</h5>
+		               <h5>18026496156</h5>
 		          </span>
 		       </li>
 		       <li>
@@ -477,7 +477,7 @@
 		          <span class="a-in-swiper-partner-pix"><i class="iconfont swi1">&#xe65b;</i></span>
 		          <span class="a-in-swiper-partner-txt">
 		               <p>投诉反馈邮箱</p>
-		               <h5>hzgt@goodtom.net</h5>
+		               <h5>kfshzx@duofriend.com</h5>
 		          </span>
 		       </li>
 		       <li>
