@@ -242,7 +242,7 @@
     				<div class="cont">
     					<span class="img img4"></span>
     					<h2 class="title">快速买单</h2>
-    					<p class="ps">操作员可在智能前台系统选择空白台位一键开台</p>
+    					<p class="ps">店员可用手机操作买单<br/>顾客扫描二维码即时付款</p>
     				</div>
     			</li>
     		</ul>

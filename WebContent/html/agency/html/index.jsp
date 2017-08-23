@@ -17,7 +17,7 @@
 <div class="a-ag-banner-box">
      <div class="a-ag-banner"></div>
      <div class="a-ag-banner-txt">
-          <h1 style="padding-top: 150px;">你如同繁星，但只要是繁星点点的一片天空一样能绚丽多彩！</h1>
+          <h1 style="padding-top: 150px;">你如同星辰，但只要点点繁星缀满天空，一样能绚丽多彩</h1>
           <h1>觅那颗闪亮的你</h1>
      </div>
 </div>

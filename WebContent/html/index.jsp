@@ -22,17 +22,31 @@
 <div class="a-whole">
     <div class="a-swiper">
         <div class="a-swiper-txt">
-            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
-            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="/html/wisdomShop/html/index.jsp" class="a-swiper-title" >智慧店铺</a></div>
-            <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="/html/distribution/html/index.jsp" class="a-swiper-title" >分销系统</a></div>
-            <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-title" >智慧餐饮</a></div>
-            <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="/html/CarCount/html/index.jsp" class="a-swiper-title" >汽车美容快修</a></div>
-            <div onmouseover="gtShow(6,this)" id="a-swiper6"><a href="/html/look/html/index.jsp" class="a-swiper-title" >美容美发</a></div>
+            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="" class="a-swiper-title" >小程序</a></div>
+            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
+            <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="/html/wisdomShop/html/index.jsp" class="a-swiper-title" >智慧店铺</a></div>
+            <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/distribution/html/index.jsp" class="a-swiper-title" >分销系统</a></div>
+            <div onmouseover="gtShow(5,this)" id="a-swiper5"><a href="/html/LittleGreedyCat/html/index.jsp" class="a-swiper-title" >智慧餐饮</a></div>
+            <div onmouseover="gtShow(6,this)" id="a-swiper6"><a href="/html/CarCount/html/index.jsp" class="a-swiper-title" >汽车美容快修</a></div>
             <div onmouseover="gtShow(7,this)" id="a-swiper7"><a href="/html/jxc/html/index.jsp" class="a-swiper-title" >智慧进销存 </a></div>
         </div>
     </div>
     <div class="a-swiper-box">
-        <div class="a-swiper-wsc"  id="id1">
+        <div class="a-swiper-yz" id="id1">
+            <div class="a-ay-sw-show">
+                <h2 class="a-swiper-h2">多粉小程序</h2>
+                <div>触手可及、功能强大、用完即走</div>
+                <div style="padding-top: 5px;">轻量型智能小程序，让你告别传统APP时代</div>
+                <ul class="a-swiper-choice">
+                    <li><a href="" class="a-swiper-yz-click">免费试用</a></li>
+                    <li><a href="" class="a-swiper-yz-click">了解更多</a></li>
+                </ul>
+                <div>
+                    <img src="../images/index/xcx-pic.png">
+                </div>
+            </div>
+        </div>
+        <div class="a-swiper-wsc"   style="display:none;" id="id2">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">微商城</h2>
                 <div>新零售时代下的移动电商解决方案</div>
@@ -46,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="a-swiper-syt" style="display:none;" id="id2">
+        <div class="a-swiper-syt" style="display:none;" id="id3">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">智慧店铺</h2>
                 <div>智慧线下收银解决方案，支持个体实体商家接入</div>
@@ -60,7 +74,7 @@
                 </div>
             </div>
         </div>
-        <div class="a-swiper-fx" style="display:none;" id="id3">
+        <div class="a-swiper-fx" style="display:none;" id="id4">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">分销系统</h2>
                 <div>买家即是卖家，人人都是你的分销商</div>
@@ -74,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="a-swiper-xcm" style="display:none;" id="id4">
+        <div class="a-swiper-xcm" style="display:none;" id="id5">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">智慧餐饮</h2>
                 <div>互联网+餐饮全流程解决方案</div>
@@ -88,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <div class="a-swiper-cxs" style="display:none;" id="id5">
+        <div class="a-swiper-cxs" style="display:none;" id="id6">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">汽车美容快修</h2>
                 <div>SaaS模式管理系统+零配件进销存+线上商城</div>
@@ -102,20 +116,7 @@
                 </div>
             </div>
         </div>
-        <div class="a-swiper-yz" style="display:none;" id="id6">
-            <div class="a-ay-sw-show">
-                <h2 class="a-swiper-h2">美容美发</h2>
-                <div>美容美发行业互联网解决方案</div>
-                <div style="padding-top: 5px;">赋予传统美业全新的预约、会员CRM及运营管理模式</div>
-                <ul class="a-swiper-choice">
-                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-yz-click">免费试用</a></li>
-                    <li><a href="/html/look/html/index.jsp" class="a-swiper-yz-click">了解更多</a></li>
-                </ul>
-                <div>
-                    <img src="../images/index/yz-pic.png">
-                </div>
-            </div>
-        </div>
+
         <div class="a-swiper-cxb" style="display:none;" id="id7">
             <div class="a-ay-sw-show">
                 <h2 class="a-swiper-h2">智慧进销存 </h2>
@@ -136,10 +137,10 @@
         <p>一站式搭建企业自有商业生态体系，让“生态”不再是独角兽企业的专利</p>
         <ul class="a-sy-scrvice-box">
             <li class="a-sy-scrvice-box exhibition">
-                <img src="../images/index/as-ser1.png">
-                <span>微信营销</span>
-                <p>包含订阅号、服务号，提供公众号功能和小程序的定制开发，基础搭建、运营、推广等全系列微信营销方案</p>
-                <a href="/html/weixinSell.jsp">更多</a>
+                <img src="../images/index/as-ser4.png">
+                <span>微信小程序</span>
+                <p>操作简单、功能实用、丰富有趣的小程序，有效提高商家访问量、回访率、转化率，为您的营销增添动力</p>
+                <a href="/html/weixinapp.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition">
                 <img src="../images/index/as-ser2.png">
@@ -154,10 +155,10 @@
                 <a href="/html/wcy.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition">
-                <img src="../images/index/as-ser4.png">
-                <span>微信小程序</span>
-                <p>操作简单、功能实用、丰富有趣的小程序，有效提高商家访问量、回访率、转化率，为您的营销增添动力</p>
-                <a href="/html/weixinapp.jsp">更多</a>
+                <img src="../images/index/as-ser1.png">
+                <span>微信营销</span>
+                <p>包含订阅号、服务号，提供公众号功能和小程序的定制开发，基础搭建、运营、推广等全系列微信营销方案</p>
+                <a href="/html/weixinSell.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition" style="vertical-align: bottom;">
                 <img src="../images/index/as-ser5.png">

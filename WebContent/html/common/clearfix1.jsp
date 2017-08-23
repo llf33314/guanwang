@@ -38,8 +38,6 @@
                          </span>
                         </a>
                     </li>
-
-
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in5">&#xe669;</i></div>
                         <a href="/html/coupon.jsp">
@@ -72,6 +70,60 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
+                        <div class="a-pro-a"><i class="iconfont in13">&#xe653;</i></div>
+                        <a href="/html/LittleGreedyCat/html/index.jsp">
+		                     <span>
+		                         <h3>小馋猫</h3>
+		                         <p>智慧餐饮解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a"><i class="iconfont in12">&#xe618;</i></div>
+                        <a href="/html/BigWhite/html/index.jsp">
+		                     <span>
+		                         <h3>大白</h3>
+		                         <p>社区门诊医疗解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a"><i class="iconfont in15">&#xe648;</i></div>
+                        <a href="/html/jxc/html/index.jsp">
+		                     <span>
+		                         <h3>存销宝</h3>
+		                         <p>智慧进销存解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a"><i class="iconfont in14">&#xe65e;</i></div>
+                        <a href="/html/CarCount/html/index.jsp">
+		                     <span>
+		                         <h3>车小算</h3>
+		                         <p>汽车美容快修解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a"><i class="iconfont in17">&#xe6f2;</i></div>
+                        <a href="/html/mess/html/index.jsp">
+		                     <span>
+		                         <h3>员工食堂</h3>
+		                         <p>单位/工厂食堂解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
+                        <div class="a-pro-a"><i class="iconfont in16">&#xe64f;</i></div>
+                        <a href="/html/homeland/html/index.jsp">
+		                     <span>
+		                         <h3>揽胜家园</h3>
+		                         <p>物业管理解决方案</p>
+		                     </span>
+                        </a>
+                    </li>
+                    <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in9">&#xe64d;</i></div>
                         <a href="javascript:void(0);">
 		                     <span>
@@ -95,60 +147,6 @@
 		                     <span>
 		                         <h3>小驿</h3>
 		                         <p>酒店PMS解决方案</p>
-		                     </span>
-                        </a>
-                    </li>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in12">&#xe618;</i></div>
-                        <a href="/html/BigWhite/html/index.jsp">
-		                     <span>
-		                         <h3>大白</h3>
-		                         <p>社区门诊医疗解决方案</p>
-		                     </span>
-                        </a>
-                    </li>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in13">&#xe653;</i></div>
-                        <a href="/html/LittleGreedyCat/html/index.jsp">
-		                     <span>
-		                         <h3>小馋猫</h3>
-		                         <p>智慧餐饮解决方案</p>
-		                     </span>
-                        </a>
-                    </li>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in14">&#xe65e;</i></div>
-                        <a href="/html/CarCount/html/index.jsp">
-		                     <span>
-		                         <h3>车小算</h3>
-		                         <p>汽车美容快修解决方案</p>
-		                     </span>
-                        </a>
-                    </li>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in15">&#xe648;</i></div>
-                        <a href="/html/jxc/html/index.jsp">
-		                     <span>
-		                         <h3>存销宝</h3>
-		                         <p>智慧进销存解决方案</p>
-		                     </span>
-                        </a>
-                    </li>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in16">&#xe64f;</i></div>
-                        <a href="/html/homeland/html/index.jsp">
-		                     <span>
-		                         <h3>揽胜家园</h3>
-		                         <p>物业管理解决方案</p>
-		                     </span>
-                        </a>
-                    </li>
-                    <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in17">&#xe6f2;</i></div>
-                        <a href="/html/mess/html/index.jsp">
-		                     <span>
-		                         <h3>员工食堂</h3>
-		                         <p>单位/工厂食堂解决方案</p>
 		                     </span>
                         </a>
                     </li>
