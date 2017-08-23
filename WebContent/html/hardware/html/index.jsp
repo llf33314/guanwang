@@ -36,6 +36,48 @@
 </div>
 <div class="a-hw-printer">
 	<ul class="a-hw-printer-ul">
+		<h2>一体收银机</h2>
+		<li class="a-hw-printer-ul-li">
+			<div class="a-hw-show1">
+				<img src="../images/pf1.png">
+				<h3>E-300系列至尊版</h3>
+				<p>超高清双屏异显、军工级材料、炫酷</p>
+				<p>蓝色呼吸灯、自带打印机</p>
+				<span>￥2860.00</span>
+			</div>
+			<div class="a-hw-show2">
+				<img src="../images/e-300.png">
+				<p>扫码购买</p>
+			</div>
+		</li>
+		<li class="a-hw-printer-ul-li">
+			<div class="a-hw-show1">
+				<img src="../images/pf2.png">
+				<h3>C-200系列标准版</h3>
+				<p>操作屏与客显双屏高清显示</p>
+				<p>&nbsp;&nbsp;</p>
+				<span>￥1850.00</span>
+			</div>
+			<div class="a-hw-show2">
+				<img src="../images/c-200.png">
+				<p>扫码购买</p>
+			</div>
+		</li>
+		<li class="a-hw-printer-ul-li">
+			<div class="a-hw-show1">
+				<img src="../images/pf3.png">
+				<h3>C-180系列简约版</h3>
+				<p>高清显示屏</p>
+				<p>绿色8位LED段码显示</p>
+				<span>￥1280.00</span>
+			</div>
+			<div class="a-hw-show2">
+				<img src="../images/c-180.png">
+				<p>扫码购买</p>
+			</div>
+		</li>
+	</ul>
+	<ul class="a-hw-printer-ul">
 		<h2>打印机系列</h2>
 		<li class="a-hw-printer-ul-li">
 			<div class="a-hw-show1">
@@ -116,6 +158,40 @@
 			</div>
 		</li>
 	</ul>
+    <ul class="a-hw-printer-ul" style="margin-top: 6px;">
+        <li class="a-hw-scan-li">
+            <div class="a-hw-show3">
+                <div class="a-hw-scan-li-l">
+                    <img src="../images/pf4.png">
+                </div>
+                <div class="a-hw-scan-li-r">
+                    <h3>佳博GP-2120TU（USB+蓝牙）</h3>
+                    <p>不干胶专用打印机</p>
+                    <span>￥298.00</span>
+                </div>
+            </div>
+            <div class="a-hw-show4">
+                <img src="../images/GP-2120TU.png">
+                <p>扫码购买</p>
+            </div>
+        </li>
+        <li class="a-hw-scan-li" style="">
+            <div class="a-hw-show3">
+                <div class="a-hw-scan-li-l">
+                    <img src="../images/pf5.png">
+                </div>
+                <div class="a-hw-scan-li-r">
+                    <h3>佳博GP-2120TF（USB+蓝牙） </h3>
+                    <p>不干胶专用二合一打印机</p>
+                    <span>￥338.00</span>
+                </div>
+            </div>
+            <div class="a-hw-show4">
+                <img src="../images/GP-2120TF.png">
+                <p>扫码购买</p>
+            </div>
+        </li>
+    </ul>
 	<ul class="a-hw-printer-ul">
 		<h2>扫码器系列</h2>
 		<li class="a-hw-scan-li">
