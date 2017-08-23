@@ -22,7 +22,7 @@
 <div class="a-whole">
     <div class="a-swiper">
         <div class="a-swiper-txt">
-            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="" class="a-swiper-title" >小程序</a></div>
+            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="/html/weixinapp.jsp" class="a-swiper-title" >小程序</a></div>
             <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="/html/store/html/index.jsp" class="a-swiper-title">微商城</a></div>
             <div onmouseover="gtShow(3,this)" id="a-swiper3"><a href="/html/wisdomShop/html/index.jsp" class="a-swiper-title" >智慧店铺</a></div>
             <div onmouseover="gtShow(4,this)" id="a-swiper4"><a href="/html/distribution/html/index.jsp" class="a-swiper-title" >分销系统</a></div>
@@ -38,8 +38,8 @@
                 <div>触手可及、功能强大、用完即走</div>
                 <div style="padding-top: 5px;">轻量型智能小程序，让你告别传统APP时代</div>
                 <ul class="a-swiper-choice">
-                    <li><a href="" class="a-swiper-yz-click">免费试用</a></li>
-                    <li><a href="" class="a-swiper-yz-click">了解更多</a></li>
+                    <li><a href="http://duofriend.com/user/toregister.do" class="a-swiper-yz-click">免费试用</a></li>
+                    <li><a href="/html/weixinapp.jsp" class="a-swiper-yz-click">了解更多</a></li>
                 </ul>
                 <div>
                     <img src="../images/index/xcx-pic.png">

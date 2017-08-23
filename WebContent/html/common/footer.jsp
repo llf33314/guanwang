@@ -24,7 +24,7 @@
                  <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=3" >加入我们</a></dd>
                  <dd onclick="footerLock('');"><a href="/html/aboutUs/html/index.jsp?type=4" >联系我们</a></dd>
                  <dd onclick="footerLock('');"><a href="/html/product-trends/product-news.jsp" >多粉动态</a></dd>
-                 <dd onclick="footerLock('');"><a href="/html/paymethod.jsp" >付款方式</a></dd>
+                 <dd onclick="footerLock('');"><a href="/html/paymethod/html/index.jsp" >付款方式</a></dd>
                  <dd onclick="footerLock('');"><a href="/html/copyright.jsp" >知识产权</a></dd>
              </dl>
              <dl>
