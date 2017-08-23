@@ -426,7 +426,7 @@
 			               <p>5、能熟练使用Photoshop、CorelDRAW、Illustrator等软件；</p>
 		             </div>
 		           </li>
-		           <span class="a-in-swiper-join-more">如果你有热情与兴趣加入多粉，请将简历发送到 hr@goodtom.net 或者致电咨询：0752-2329043/18026538466  刘经理</span>
+		           <span class="a-in-swiper-join-more">如果你有热情与兴趣加入多粉，请将简历发送到 sdzp@deeptel.cn 或者致电咨询：0752-2329001/18002294393  邝小姐</span>
 		        </ul>
 		   </div>
 		</div>
