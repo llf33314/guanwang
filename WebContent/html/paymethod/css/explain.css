@@ -5,9 +5,10 @@ a{text-decoration:none;color:#333;}
 
 .a-explain{
     width: 1200px;
-    margin: 0 auto;
+    margin:55px auto;
     text-align: center;
     color: #333;
+    padding-top: 1px;
 }
 .a-explain h1{
     margin: 55px 0;
