@@ -49,6 +49,7 @@
                                                 <p style="text-align: center;text-indent: 0">扫码即体验</p>
                                             </div>
                                             <h2>多粉官方商城</h2>
+                                            <span>功能详情</span>
                                         </div>
                                     </div>
                                 </div>
@@ -69,6 +70,7 @@
                                                 <p style="text-align: center;text-indent: 0">扫码即体验</p>
                                             </div>
                                             <h2>小馋猫粉丝端</h2>
+                                            <span>功能详情</span>
                                         </div>
                                     </div>
                                 </div>
@@ -90,6 +92,7 @@
                                                 <p>密码：123456</p>
                                             </div>
                                             <h2>小馋猫部长端</h2>
+                                            <span>功能详情</span>
                                         </div>
                                     </div>
                                 </div>
@@ -108,6 +111,7 @@
                                             <img src="../img/taste-floor1-42.png">
                                             <p> 体验饭卡号：8888</p>
                                             <h2>多粉微食堂</h2>
+                                            <span>功能详情</span>
                                         </div>
                                     </div>
                                 </div>
@@ -129,6 +133,7 @@
                                                 <p>密码：123456</p>
                                             </div>
                                             <h2>车小算BOSS端</h2>
+                                            <span>功能详情</span>
                                         </div>
                                     </div>
                                 </div>
