@@ -23,7 +23,9 @@
             <li><a href="/html/weixinapp.jsp" class="a-hw-txt-a ">首页</a></li>
             <li><a href="/html/applet/html/coreFunction.jsp" class="a-hw-txt-a ">核心功能</a></li>
             <li><a href="/html/applet/html/taste.jsp" class="a-hw-txt-a  a-hw-sp">体验中心</a></li>
-            <img src="/html/applet/img/xclo.png" class="a-hw-har-img">
+            <div class="a-hw-green">
+                <i class="iconfont a-hw-har-img">&#xe73f;</i><p>NEW</p>
+            </div>
         </ul>
     </div>
 </div>

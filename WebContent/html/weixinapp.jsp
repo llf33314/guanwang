@@ -11,8 +11,10 @@
     <meta name="format-detection" content="telephone=no">
     <script src="/html/applet/js/jquery-2.2.2.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/html/common/font-second/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/applet/css/style-index.css" />
     <link rel="stylesheet" type="text/css" href="/html/applet/css/animate.css" />
+
 </head>
 <body>
 <%@include file="/html/common/clearfix1.jsp" %>
@@ -22,7 +24,9 @@
             <li><a href="/html/weixinapp.jsp" class="a-hw-txt-a  a-hw-sp">首页</a></li>
             <li><a href="/html/applet/html/coreFunction.jsp" class="a-hw-txt-a ">核心功能</a></li>
             <li><a href="/html/applet/html/taste.jsp" class="a-hw-txt-a">体验中心</a></li>
-            <img src="/html/applet/img/xclo.png" class="a-hw-har-img">
+            <div class="a-hw-green">
+                <i class="iconfont a-hw-har-img">&#xe73f;</i><p>NEW</p>
+            </div>
         </ul>
     </div>
 </div>

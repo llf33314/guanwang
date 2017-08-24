@@ -218,7 +218,7 @@
 				<div class="a-hw-scan-li-r">
 					<h3>霍尼韦尔1450g二维码扫描枪器</h3>
 					<p>高速扫描，识别稳定</p>
-					<span>￥749.90</span>
+					<span>￥749.00</span>
 				</div>
 			</div>
 			<div class="a-hw-show4">
@@ -248,7 +248,7 @@
 				<h3>摇一摇蓝牙设备</h3>
 				<p>让你跟客户更亲近</p>
 				<p>&nbsp;&nbsp;</p>
-				<span>￥75.00</span>
+				<span>￥60.00</span>
 			</div>
 			<div class="a-hw-show2">
 				<img src="../images/yyy.png">
