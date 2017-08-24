@@ -1406,13 +1406,13 @@ a {
   z-index: 5;
 }
 .app-content{
-  height: 590px;
+  height: 550px;
   width: 700px;
   background: #F8FCFF;
   text-align: center;
   position: absolute;
   top: 50%;
-  margin-top: -295px;
+  margin-top: -275px;
   left: 50%;
   margin-left: -335px;
   border-radius: 5px;
@@ -1421,7 +1421,7 @@ a {
   font-size: 28px;
   color: #333;
   font-weight: normal;
-  margin: 20px 0;
+  margin: 16px 0;
   width: 80%;
   padding-left: 9%;
   display: inline-block;
@@ -1441,8 +1441,8 @@ a {
   color: #999;
 }
 .app-content-ul li{
-  width: 167px;
-  height: 155px;
+  width: 157px;
+  height: 145px;
   background: #fff;
   display: inline-block;
   margin: 4px 7px;
@@ -1462,17 +1462,17 @@ a {
   font-weight: normal;
   padding-bottom: 5px;
 }
-.app-px1{color: #FFCC00;font-size: 36px;line-height: 65px;}
-.app-px2{color: #EC4619;font-size: 36px;line-height: 65px;}
-.app-px3{color: #6131FF;font-size: 36px;line-height: 65px;}
-.app-px4{color: #FA622A;font-size: 36px;line-height: 65px;}
-.app-px5{color: #31B535;font-size: 36px;line-height: 65px;}
-.app-px6{color: #256DFF;font-size: 36px;line-height: 65px;}
-.app-px7{color: #EC4619;font-size: 36px;line-height: 65px;}
-.app-px8{color: #FA622A;font-size: 36px;line-height: 65px;}
-.app-px9{color: #FFBD24;font-size: 36px;line-height: 65px;}
-.app-px10{color: #1995EC;font-size: 36px;line-height: 65px;}
-.app-px11{color: #FA6E3B;font-size: 36px;line-height: 65px;}
+.app-px1{color: #FFCC00;font-size: 36px;line-height: 55px;}
+.app-px2{color: #EC4619;font-size: 36px;line-height: 55px;}
+.app-px3{color: #6131FF;font-size: 36px;line-height: 55px;}
+.app-px4{color: #FA622A;font-size: 36px;line-height: 55px;}
+.app-px5{color: #31B535;font-size: 36px;line-height: 55px;}
+.app-px6{color: #256DFF;font-size: 36px;line-height: 55px;}
+.app-px7{color: #EC4619;font-size: 36px;line-height: 55px;}
+.app-px8{color: #FA622A;font-size: 36px;line-height: 55px;}
+.app-px9{color: #FFBD24;font-size: 36px;line-height: 55px;}
+.app-px10{color: #1995EC;font-size: 36px;line-height: 55px;}
+.app-px11{color: #FA6E3B;font-size: 36px;line-height: 55px;}
 .bpp{
   position: fixed;
   top: 0;
@@ -1485,13 +1485,13 @@ a {
   z-index: 5;
 }
 .bpp-content{
-  height: 440px;
-  width: 492px;
+  height: 400px;
+  width: 500px;
   background: #F8FCFF;
   text-align: center;
   position: absolute;
   top: 50%;
-  margin-top: -220px;
+  margin-top: -200px;
   left: 50%;
   margin-left: -246px;
   border-radius: 5px;
@@ -1509,13 +1509,13 @@ a {
   z-index: 5;
 }
 .cpp-content{
-  height: 440px;
-  width: 492px;
+  height: 400px;
+  width: 500px;
   background: #F8FCFF;
   text-align: center;
   position: absolute;
   top: 50%;
-  margin-top: -220px;
+  margin-top: -200px;
   left: 50%;
   margin-left: -246px;
   border-radius: 5px;
@@ -1532,15 +1532,15 @@ a {
   z-index: 5;
 }
 .dpp-content{
-  height: 440px;
-  width: 900px;
+  height: 400px;
+  width: 890px;
   background: #F8FCFF;
   text-align: center;
   position: absolute;
   top: 50%;
-  margin-top: -220px;
+  margin-top: -200px;
   left: 50%;
-  margin-left: -450px;
+  margin-left: -455px;
   border-radius: 5px;
 }
 .epp{
@@ -1555,13 +1555,13 @@ a {
   z-index: 5;
 }
 .epp-content{
-  height: 440px;
-  width: 492px;
+  height: 400px;
+  width: 500px;
   background: #F8FCFF;
   text-align: center;
   position: absolute;
   top: 50%;
-  margin-top: -220px;
+  margin-top: -200px;
   left: 50%;
   margin-left: -246px;
   border-radius: 5px;
