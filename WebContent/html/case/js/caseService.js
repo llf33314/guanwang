@@ -17,6 +17,8 @@ goodtomApp.service("case1Service",function($http){
                         $scope.caseList = data.data;
                         $scope.ss = $scope.caseList[0].cases;
                         $scope.case3 = $scope.ss[0];
+                        $scope.case4 = $scope.ss[0];
+                        $scope.case5 = $scope.ss[1];
                         $scope.busproList = $scope.ss[0].buspro;
                         console.log($scope.busproList);
                         // console.log( $scope.caseList[0].cases);

@@ -114,8 +114,9 @@
          </div>
      </div>
 
-     <script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/10040401/10072010.js"></script>
-     <!-- <script type="text/javascript" charset="utf-8" src="/html/js/talk99.js"></script> -->
+     <%--<script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/10040401/10072010.js"></script>--%>
+    <script type="text/javascript" charset="utf-8" src="https://gate.soperson.com/10040401/10072010.js"></script>
+    <!-- <script type="text/javascript" charset="utf-8" src="/html/js/talk99.js"></script> -->
      <script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODE4ODE2M18zODIyODFfNDAwODg5NDUyMl8"></script>
      <script>
 		var qqtype = -1;

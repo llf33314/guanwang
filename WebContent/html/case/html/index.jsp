@@ -21,7 +21,7 @@
   <div style="width: 100%;" class="second-js-top">
 	<div class="a-case-customer">
 	   <ul class="a-case-customer-txt">
-	      <li  ng-repeat="buspro1 in busproList"><a href="javascript:;">{{buspro1.proname}}</a></li>
+	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:;" ng-click="locationCase(index1)">{{buspro1.proname}}</a></li>
 	   </ul>
 	</div>
   </div>
@@ -35,40 +35,40 @@
 				  <li ng-repeat="case in caseList">
 					  <div class="link">{{case.classname}}<i class="iconfont fa-chevron-down">&#xe733;</i></div>
 					  <ul class="submenu">
-						  <li ng-repeat="case1 in case.cases"><a href="#">{{case1.casedesc}}</a></li>
+						  <li ng-repeat="case1 in case.cases" ng-click="updateCase(case1);"><a href="#">{{case1.casedesc}}</a></li>
 					  </ul>
 				  </li>
 			  </ul>
 		  </div>
 		  <div class="a-case-exhibition-box">
 				  <div class="a-case-exhibition">
-					  <div class="a-case-ex-first" >
-						  <div >
-							   <h2 class="a-case-ex-h2">客户案例介绍</h2>
-							   <p class="a-case-ex-p">酸奶小栈是台湾智然堂特色食品有限公司的合作商，主要现制现售：休闲手工酸奶、炒酸奶、炒酸奶冰淇淋、酸奶冰淇淋、刨酸奶、冻酸奶、巴士鲜奶、姜撞奶、春夏冬季热奶饮、现榨酸奶饮料、烘焙类糕点及其他甜品等系列产品</p>
-							   <img src="../images/ca-se2.png">
+					  <div class="a-case-ex-first" ng-repeat="buspro2 in busproList">
+						  <div ng-if="buspro2.pics.length < 150" class="a-case-ex-first">
+							   <h2 class="a-case-ex-h2">{{buspro2.proname}}</h2>
+							   <p class="a-case-ex-p">{{buspro2.description}}</p>
+							   <img src="{{buspro2.pics}}" class="a-case-ex-first-img1">
 						  </div>
-						  <div>
-							  <h2 class="a-case-ex-h2">微信营销</h2>
-							  <p class="a-case-ex-p">酸奶小栈是台湾智然堂特色食品有限公司的合作商，主要现制现售：休闲手工酸奶、炒酸奶、炒酸奶冰淇淋、酸奶冰淇淋、刨酸奶、冻酸奶、巴士鲜奶、姜撞奶、春夏冬季热奶饮、现榨酸奶饮料、烘焙类糕点及其他甜品等系列产品</p>
+						  <div ng-if="buspro2.pics.length > 150" class="a-case-ex-first" >
+							  <h2 class="a-case-ex-h2">{{buspro2.proname}}</h2>
+							  <p class="a-case-ex-p">{{buspro2.description}}</p>
 							  <ul class="a-case-ex-first-ul">
-								  <li>
-									  <img src="../images/ca-se4.png">
+								  <li ng-repeat="buspro3 in chuliImg(buspro2.pics)" class="a-case-ex-first-ul-smallbox">
+									  <img src="{{buspro3}}" class="a-case-ex-first-img2">
 								  </li>
-								  <li>
-									  <img src="../images/ca-se5.png">
-								  </li>
-								  <li>
-									  <img src="../images/ca-se6.png">
-								  </li>
+								  <%--<li>--%>
+									  <%--<img src="../images/ca-se5.png">--%>
+								  <%--</li>--%>
+								  <%--<li>--%>
+									  <%--<img src="../images/ca-se6.png">--%>
+								  <%--</li>--%>
 							  </ul>
 						  </div>
 					  </div>
 
 					  <ul class="a-case-ex-ewm">
 						  <li>
-							  <img src="../images/ca-ewm.png">
-							  <p>酸奶小栈</p>
+							  <img src="{{case3.qrcode}}">
+							  <p>{{case3.casedesc}}</p>
 						  </li>
 						  <li style="vertical-align: 50px;">
 							  <p class="a-case-ex-ewm-p">扫一扫，关注！</p>
@@ -76,13 +76,13 @@
 					  </ul>
 			  </div>
 			  <div class="a-case-page a-case-f-cb">
-				  <a href="" class="a-case-fl">
+				  <a href="" class="a-case-fl" ng-click="lastPage();">
 					  <span class="a-case-fl a-case-t-bg"></span>
-					  <em class="a-case-t-c">九九前</em>
+					  <em class="a-case-t-c">{{case4.casedesc}}</em>
 				  </a>
 				  <a href="" class="a-case-fr">
 					  <span class="a-case-fr a-case-t-bg"></span>
-					  <em class="a-case-t-c">羽礼后花园</em>
+					  <em class="a-case-t-c">{{case5.casedesc}}</em>
 				  </a>
 			  </div>
 		  </div>
@@ -90,7 +90,23 @@
 </div>
 <%@include file="/html/common/footer.jsp" %>
 <input  type="hidden" id="aaa" value="0">
+<script>
+    $(".rightIcon").on("click",".ri1",function(){
+        $("html,body").animate({"scrollTop":0},500);
+    })
 
+	/*页面右侧信息*/
+    //超过一定高度时， 显示返回顶部按钮
+    $(window).scroll(function() {
+        var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+        if (scrollTop > 200) {
+            $('.ri1').show();
+        }
+        else {
+            $('.ri1').hide();
+        }
+    });
+</script>
 <!-- 底部区域 -->
 <script src="../js/case.js"></script>
 <script src="../js/thead.js"></script>
