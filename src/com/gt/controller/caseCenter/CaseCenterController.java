@@ -243,6 +243,7 @@ public class CaseCenterController {
 		List caseClass = new ArrayList();
 		List cases = new ArrayList();
 		List caseBus = new ArrayList();
+		List caseslist = new ArrayList();
 		int totalPage = 0;
 		try {
 			p = response.getWriter();
@@ -264,6 +265,7 @@ public class CaseCenterController {
 						}
 						cls2.put("buspro", _cases2);
 						_cases.add(cls2);
+						caseslist.add(cls2);
 					}
 				}
 				cls.put("cases", _cases);
@@ -272,26 +274,7 @@ public class CaseCenterController {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		p.write("{\"status\":"+status+", \"msg\":\"\", \"data\":"+JSONArray.fromObject(caseClass).toString()+", "
-				+"\"totalPage\":"+totalPage+"}");
-	}
-	@SuppressWarnings({ "rawtypes", "unchecked" })
-	@RequestMapping("/html/casesList")
-	public void htmlLists(HttpServletResponse response, HttpServletRequest request){
-		response.setContentType("text/html;charset=UTF-8");
-		int status = 0;
-		PrintWriter p = null;
-		List cases = new ArrayList();
-		int totalPage = 0;
-		try {
-			p = response.getWriter();
-			Map param = new HashMap();
-			cases = iCaseCenter.selectList(param);
-			status = 1;
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		p.write("{\"status\":"+status+", \"msg\":\"\", \"data\":"+JSONArray.fromObject(cases).toString()+", "
+		p.write("{\"status\":"+status+", \"msg\":\"\", \"data\":"+JSONArray.fromObject(caseClass).toString()+",\"list\":"+JSONArray.fromObject(caseslist).toString()+","
 				+"\"totalPage\":"+totalPage+"}");
 	}
 	public static void main(String[] args) {

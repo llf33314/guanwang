@@ -30,7 +30,7 @@
 		  <div class="a-case-navigation">
 			  <ul id="accordion" class="accordion">
 				  <li>
-					  <div class="a-link">所有类型</div>
+					  <div class="a-link"  ng-click="onAAA();">所有类型</div>
 				  </li>
 				  <li ng-repeat="case in caseList">
 						  <div class="link">{{case.classname}}<i class="iconfont fa-chevron-down">&#xe733;</i></div>
@@ -76,11 +76,11 @@
 					  </ul>
 			  </div>
 			  <div class="a-case-page a-case-f-cb">
-				  <a href="" class="a-case-fl" ng-click="lastPage(case4.casedesc);">
+				  <a href="" class="a-case-fl" ng-click="lastPage(index-1);">
 					  <span class="a-case-fl a-case-t-bg"></span>
 					  <em class="a-case-t-c">{{case4.casedesc}}</em>
 				  </a>
-				  <a href="" class="a-case-fr" ng-click="nextPage(case5.casedesc);">
+				  <a href="" class="a-case-fr" ng-click="nextPage(index+1);">
 					  <span class="a-case-fr a-case-t-bg"></span>
 					  <em class="a-case-t-c">{{case5.casedesc}}</em>
 				  </a>

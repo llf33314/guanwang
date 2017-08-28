@@ -2,6 +2,7 @@ goodtomApp.controller('case1Controller', ['$scope', '$http', 'case1Service', cas
 
 function case1Controller($scope, $http, case1Service) {
     var type = 0;
+    $scope.index = 0 ;
     $scope.caseList = [ ];
     $scope.case2=[];
     $scope.case3 =null;
@@ -19,6 +20,12 @@ function case1Controller($scope, $http, case1Service) {
     $scope.updateCase =function (case6) {
         $scope.case3 =case6;
         $scope.busproList = $scope.case3.buspro;
+        for(var i=0 ; i < $scope.case1List.length ; i++){
+            if($scope.case1List[i].casedesc == case6.casedesc){
+                $scope.case4 =$scope.case1List[i-1];
+                $scope.case5 =$scope.case1List[i+1];
+            }
+        }
         type = 0;
     }
     $scope.locationCase= function(name){
@@ -33,30 +40,31 @@ function case1Controller($scope, $http, case1Service) {
                 }
            }
         }
-    }
+    };
     $scope.lastPage = function (i){
-        if($scope.case1List.length > 1){
-            $scope.case3 = $scope.case1List[i-1];
-            $scope.case4 = $scope.case1List[i-2];
-            $scope.case5 = $scope.case1List[i];
+        if($scope.case1List.length > 1 && i > -1){
+            $scope.case3 = $scope.case1List[i];
+            $scope.case4 = $scope.case1List[i-1];
+            $scope.case5 = $scope.case1List[i+1];
             $scope.busproList =  $scope.case3.buspro;
             console.log($scope.case3);
             console.log($scope.case4);
             console.log($scope.case5);
+            $scope.index =  $scope.index-1;
         }
-    }
+    };
     $scope.nextPage = function (i){
-        if($scope.case1List.length < 1){
-            case1Service.getcasesListByTerm( $scope.params, $scope);
-        }else{
-            $scope.case3 = $scope.case1List[i+1];
-            $scope.case4 = $scope.case1List[i];
-            $scope.case5 = $scope.case1List[i+2];
+        $scope.index =  $scope.index+1;
+            $scope.case3 = $scope.case1List[i];
+            $scope.case4 = $scope.case1List[i-1];
+            $scope.case5 = $scope.case1List[i+1];
             $scope.busproList =  $scope.case3.buspro;
             console.log($scope.case3);
             console.log($scope.case4);
             console.log($scope.case5);
-        }
+    };
+    $scope.onAAA = function () {
+        $("body").show();
     }
 }
 

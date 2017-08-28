@@ -380,10 +380,12 @@ public class AgentController {
 			}else if(sms == null){
 //				map.put("msg", "短信验证码不能为空");
 				map.put("type",3);
-			}else if(!sms.equals(JedisUtil.get("webSite:"+name))){
+			}
+			else if(!sms.equals(JedisUtil.get("webSite:"+name))){
 //				map.put("msg", "短信验证码错误");
 				map.put("type",4);
-			}else{
+			}
+			else{
 				int ud = Integer.valueOf(m.get("user_delect").toString());
 				int us = Integer.valueOf(m.get("user_start").toString());
 				int ia = Integer.valueOf(m.get("isagent").toString());
@@ -399,8 +401,9 @@ public class AgentController {
 					}
 				}
 			}
-			map.put("name", name);
-			map.put("pwd", pwd);
+//			map.put("name", name);
+			String pp = MD5Util.getMD5(pwd);
+			map.put("pwd", pp);
 		} catch (Exception e) {
 //			map.put("msg", "系统错误");
 			map.put("type",6);

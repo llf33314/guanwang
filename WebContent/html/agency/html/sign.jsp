@@ -24,7 +24,7 @@
         </a>
     </div>
 </div>
-<div class="b-register-box" id="bRegister">
+<div class="b-register-box" id="bRegister" style="display: none">
     <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
         <el-form-item label="姓名：" id="name" prop="name"  style="width: 502px;">
             <el-input v-model="ruleForm.name"></el-input>
@@ -56,16 +56,12 @@
             <el-input v-model="ruleForm.address"></el-input>
         </el-form-item>
         <el-form-item label="合作区域：" prop="region">
-            <el-select v-model="ruleForm.provincesName2" placeholder="请选择省份" style="width: 125px;">
+            <el-select v-model="ruleForm.provincesName2" placeholder="请选择省份" style="width: 194px;">
                 <el-option v-for="item in provinces" :label="item.name" :value="item.name"></el-option>
             </el-select>
-            <el-select v-model="ruleForm.cityName2" placeholder="请选择城市" style="width: 125px;margin: 0 10px;">
+            <el-select v-model="ruleForm.cityName2" placeholder="请选择城市" style="width: 194px;margin: 0 10px;">
                 <el-option v-if="ruleForm.cityName2 == '请选择城市'" label="请选择城市" value="请选择城市"></el-option>
                 <el-option v-for="item in ruleForm.citys2" :label="item.name" :value="item.name"></el-option>
-            </el-select>
-            <el-select v-model="ruleForm.areaName2" placeholder="请选择区域" style="width: 125px;">
-                <el-option v-if="ruleForm.areaName2 == '请选择区域'" label="请选择区域" value="请选择区域"></el-option>
-                <el-option v-for="item in ruleForm.areas2" :label="item.name" :value="item.name"></el-option>
             </el-select>
         </el-form-item>
         <el-form-item>
@@ -164,6 +160,7 @@
       })
       console.log(provinces)
       this.provinces = provinces
+        document.querySelectorAll('#bRegister')[0].style.display='block'
     },
     watch:{
       'ruleForm.provincesName1':function(){

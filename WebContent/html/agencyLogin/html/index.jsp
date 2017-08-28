@@ -15,7 +15,7 @@
 
         <h1 class="title">代理登录</h1>
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="0" class="demo-ruleForm">
-            <el-form-item label="" prop="name" style="width: 400px;" :error="errors.name" :class="!error1Flag ? 'demo-ruleForm1':''">
+            <el-form-item label="" prop="name" style="width: 400px;" :error="errors.name" class="demo-ruleForm1">
                 <el-input placeholder="账号" v-model="ruleForm.name"></el-input>
             </el-form-item>
             <el-form-item label="" prop="password" style="width: 400px;" class="b-password">
@@ -79,7 +79,8 @@
                     inputNumber:''
                 },
                 error1Flag:true,
-                error4Flag:true
+                error4Flag:true,
+                clearTime2:null,
             }
         },
         mounted: function () {
@@ -99,35 +100,38 @@
             // 获取数字验证码
             getInputYzm: function (formName) {
                 var self = this;
+                self.errors.name = ''
+                clearTimeout(self.clearTime2);
                 this.$refs[formName].validateField('name', function (valid) {
                     var bean = {
                         'name': self.ruleForm.name,//账号
                     }
                     if (bean.name == '') return
+                    if(flag){
+                        flag=false;
+                        $.ajax({
+                            url: '/login/html/getTextCode.do',
+                            type: 'post',
+                            dataType: 'json',
+                            data: $.param(bean),
+                            success: function (data) {
 
-                    $.ajax({
-                        url: '/login/html/getTextCode.do',
-                        type: 'post',
-                        dataType: 'json',
-                        data: $.param(bean),
-                        success: function (data) {
-                            if (data.status == 'success') {
-                                self.getInput60s();
-                                self.error1Flag = true
-                            } else {
-                                self.error1Flag = false
-                                self.errors = {name: '该账号还未开通代理商，请查正'}
-                                setTimeout(function(){
-                                    self.errors.name = ''
-
-                                },4000)
-                                setTimeout(function(){
+                                if (data.status == 'success') {
+                                    self.getInput60s();
                                     self.error1Flag = true
-                                },5000)
+                                } else {
+                                    flag = true;
+                                    self.errors = {name: '该账号还未开通代理商，请查正'}
+
+                                    self.clearTime2 = setTimeout(function(){
+                                        self.errors.name = ''
+                                        clearTimeout(self.clearTime2);
+                                    },4000)
+                                }
+                                self.timeFlag = false
                             }
-                            self.timeFlag = false
-                        }
-                    })
+                        })
+                    }
                 })
             },
             // 60秒倒计时
@@ -141,6 +145,7 @@
                         document.querySelectorAll('#getInputYzm')[0].style.backgroundColor = '#999'
                         document.querySelectorAll('#getInputYzm')[0].innerHTML = self.time+'s后重新获取'
                     }else{
+                        flag = true;
                         self.time = 60
                         self.timeFlag = false
                         clearInterval(self.cleanInterval)
@@ -153,6 +158,11 @@
 
             submitForm: function (formName) {
                 var self = this;
+                self.errors.name = ''
+                self.errors.inputNumber = ''
+                self.errors.imgNumber = ''
+                self.error4Flag = true
+                clearTimeout(self.clearTime2);
                 this.$refs[formName].validate(function (valid) {
                     if (valid) {
                         var data1 = {
@@ -161,8 +171,9 @@
                             val: self.ruleForm.imgNumber,
                             sms: self.ruleForm.inputNumber,
                         };
-                        if(flag){
-                            flag = false;
+                        var flags = true;
+                        if(flags){
+                            flags = false;
                             $.ajax({
                                 url:"/agent/html/checkAgentLogin.do",
                                 data:data1,
@@ -170,7 +181,7 @@
                                 success:function(data){
                                     if(data.agentLogin_url){
 //                              return "redirect:"+agentLogin_url+"/agentLogin?user_name="+sendName+"&passWord="+MD5Util.getMD5(pwd);
-                                        window.location.href=data.agentLogin_url+"/agentLogin?user_name="+data.sendName+"&passWord="+data1.pwd;
+                                        window.location.href=data.agentLogin_url+"/agentLogin?user_name="+data.sendName+"&passWord="+data.pwd;
                                     }else{
                                         if(data.type == 1){
                                             self.error1Flag = true
@@ -188,14 +199,16 @@
                                         }else if(data.type == 6){
                                             alert("系统错误！");
                                         }
-                                        setTimeout(function(){
+
+                                        self.clearTime2 = setTimeout(function(){
                                             self.errors.name = ''
                                             self.errors.inputNumber = ''
                                             self.errors.imgNumber = ''
                                             self.error4Flag = true
+                                            clearTimeout(self.clearTime2);
                                         },4000)
                                     }
-                                    flag = true;
+                                    flags = true;
                                 }
                             });
                         }

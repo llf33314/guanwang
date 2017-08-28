@@ -112,8 +112,11 @@ a{text-decoration:none;color:#333;}
     background-size: cover;
 }
 .demo-ruleForm1 .el-form-item__error{
-    min-width: 162px;
-    background-image: url(../images/berror1-tips.png);
+    min-width: 198px;
+    height: 37px;
+    background-image: url(../images/berror-tips3.png);
+    font-size: 13px;
+    line-height: 32px;
 }
  .demo-ruleForm4 .el-form-item__error{
      min-width: 147px;
