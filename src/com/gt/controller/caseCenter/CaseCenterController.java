@@ -275,7 +275,25 @@ public class CaseCenterController {
 		p.write("{\"status\":"+status+", \"msg\":\"\", \"data\":"+JSONArray.fromObject(caseClass).toString()+", "
 				+"\"totalPage\":"+totalPage+"}");
 	}
-	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@RequestMapping("/html/casesList")
+	public void htmlLists(HttpServletResponse response, HttpServletRequest request){
+		response.setContentType("text/html;charset=UTF-8");
+		int status = 0;
+		PrintWriter p = null;
+		List cases = new ArrayList();
+		int totalPage = 0;
+		try {
+			p = response.getWriter();
+			Map param = new HashMap();
+			cases = iCaseCenter.selectList(param);
+			status = 1;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		p.write("{\"status\":"+status+", \"msg\":\"\", \"data\":"+JSONArray.fromObject(cases).toString()+", "
+				+"\"totalPage\":"+totalPage+"}");
+	}
 	public static void main(String[] args) {
 		System.out.println("http://maint.duofriend.com/upload/image/websiteUpload/website/975AA6488E46F771E5DE314EC5937513.png".length());
 	}

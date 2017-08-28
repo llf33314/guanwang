@@ -21,7 +21,7 @@
   <div style="width: 100%;" class="second-js-top">
 	<div class="a-case-customer">
 	   <ul class="a-case-customer-txt">
-	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:;" ng-click="locationCase(index1)">{{buspro1.proname}}</a></li>
+	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:void(0);" ng-click="locationCase(index1)">{{buspro1.proname}}</a></li>
 	   </ul>
 	</div>
   </div>
@@ -33,9 +33,9 @@
 					  <div class="a-link">所有类型</div>
 				  </li>
 				  <li ng-repeat="case in caseList">
-					  <div class="link">{{case.classname}}<i class="iconfont fa-chevron-down">&#xe733;</i></div>
+						  <div class="link">{{case.classname}}<i class="iconfont fa-chevron-down">&#xe733;</i></div>
 					  <ul class="submenu">
-						  <li ng-repeat="case1 in case.cases" ng-click="updateCase(case1);"><a href="#">{{case1.casedesc}}</a></li>
+						  <li ng-repeat="case1 in case.cases" ng-click="updateCase(case1);"><a href="javascript:void(0);">{{case1.casedesc}}</a></li>
 					  </ul>
 				  </li>
 			  </ul>
@@ -76,11 +76,11 @@
 					  </ul>
 			  </div>
 			  <div class="a-case-page a-case-f-cb">
-				  <a href="" class="a-case-fl" ng-click="lastPage();">
+				  <a href="" class="a-case-fl" ng-click="lastPage(case4.casedesc);">
 					  <span class="a-case-fl a-case-t-bg"></span>
 					  <em class="a-case-t-c">{{case4.casedesc}}</em>
 				  </a>
-				  <a href="" class="a-case-fr">
+				  <a href="" class="a-case-fr" ng-click="nextPage(case5.casedesc);">
 					  <span class="a-case-fr a-case-t-bg"></span>
 					  <em class="a-case-t-c">{{case5.casedesc}}</em>
 				  </a>

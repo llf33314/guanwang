@@ -2,13 +2,14 @@ goodtomApp.controller('case1Controller', ['$scope', '$http', 'case1Service', cas
 
 function case1Controller($scope, $http, case1Service) {
     var type = 0;
-    $scope.caseList = [];
+    $scope.caseList = [ ];
     $scope.case2=[];
     $scope.case3 =null;
     $scope.case4 =null;
     $scope.case5 =null;
     $scope.params = {};
-    $scope.busproList = []
+    $scope.busproList = [];
+    $scope.case1List = [];
     case1Service.getcaseListByTerm( $scope.params, $scope);
     $scope.imgList = [];
     $scope.chuliImg = function (showpix) {
@@ -27,10 +28,34 @@ function case1Controller($scope, $http, case1Service) {
                 if(type > 0){
                     scrollTo(0,$($scope.findHs[i]).position().top-40);
                 }else {
-                    scrollTo(0,$($scope.findHs[i]).position().top-125);
+                    scrollTo(0,$($scope.findHs[i]).position().top-90);
                     type = 1;
                 }
            }
+        }
+    }
+    $scope.lastPage = function (i){
+        if($scope.case1List.length > 1){
+            $scope.case3 = $scope.case1List[i-1];
+            $scope.case4 = $scope.case1List[i-2];
+            $scope.case5 = $scope.case1List[i];
+            $scope.busproList =  $scope.case3.buspro;
+            console.log($scope.case3);
+            console.log($scope.case4);
+            console.log($scope.case5);
+        }
+    }
+    $scope.nextPage = function (i){
+        if($scope.case1List.length < 1){
+            case1Service.getcasesListByTerm( $scope.params, $scope);
+        }else{
+            $scope.case3 = $scope.case1List[i+1];
+            $scope.case4 = $scope.case1List[i];
+            $scope.case5 = $scope.case1List[i+2];
+            $scope.busproList =  $scope.case3.buspro;
+            console.log($scope.case3);
+            console.log($scope.case4);
+            console.log($scope.case5);
         }
     }
 }
