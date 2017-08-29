@@ -117,6 +117,7 @@
       mounted:function(){
         document.querySelectorAll('#staffInquiriesAnEvaluation')[0].style.display = 'block'
         document.addEventListener('keyup',this.keyUpSubmit)
+          updateImage()
       },
       methods:{
         /*

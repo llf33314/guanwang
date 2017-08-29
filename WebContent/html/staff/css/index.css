@@ -151,6 +151,7 @@ input.el-input__inner:-ms-input-placeholder{
 .a-at-evaluation{
     width: 589px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 .a-at-row{
     height: 247px;

@@ -78,14 +78,14 @@
     if(map.length < 1){
         window.location.href='/html/staff/html/index.jsp'
     }
+    console.log(map)
     var serviceList = <%=session.getAttribute("serviceList") %>;
     new Vue({
     el:'#checkMsg',
     data:function(){
       return {
           staffMsg1:map,
-          staffMsg2:serviceList,
-          starNumber:staffMsg1.score
+          starNumber:map.score
       }
     },
     mounted:function(){
