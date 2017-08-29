@@ -25,6 +25,7 @@
     </style>
 </head>
 <body>
+<%@include file="/html/common/clearfix.jsp" %>
 <div class="a-evaluation-box" id="aEValuationContent" style="display: none">
     <h1 class="title">客户评价表</h1>
     <div class="a-evaluation-content">
@@ -275,5 +276,23 @@
             }
         })
     }
+</script>
+<%@include file="/html/common/footer.jsp" %>
+<script>
+    $(".rightIcon").on("click",".ri1",function(){
+        $("html,body").animate({"scrollTop":0},500);
+    })
+
+    /*页面右侧信息*/
+    //超过一定高度时， 显示返回顶部按钮
+    $(window).scroll(function() {
+        var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+        if (scrollTop > 200) {
+            $('.ri1').show();
+        }
+        else {
+            $('.ri1').hide();
+        }
+    });
 </script>
 </html>
