@@ -189,10 +189,12 @@ a{text-decoration:none;color:#333;}
     overflow: hidden;
 }
 .a-case-ex-first-img1{
-    width: 800px;
+    width: 758px;
+    height: 434px;
 }
 .a-case-ex-first-img2{
     width: 100%;
+    height: 434px;
 }
 .a-case-ex-h2{
     font-size: 28px;
@@ -231,7 +233,8 @@ a{text-decoration:none;color:#333;}
     overflow: hidden;
 }
 .a-case-ex-ewm li img{
-    width: 100%;
+    width: 124px;
+    height: 124px;
 }
 .a-case-ex-ewm-p{
     font-size: 28px;
@@ -266,7 +269,7 @@ a{text-decoration:none;color:#333;}
     transition: background 0.5s;
 }
 .a-case-page{
-    width: 880px;
+    width: 936px;
     margin: 10px auto;
 }
 .a-case-page a{
