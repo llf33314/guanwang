@@ -11,6 +11,7 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -185,11 +186,17 @@ public class EmployeeController {
 					Map map1 = (Map) list.get(0);
 					int id = Integer.valueOf(map1.get("id").toString());
 					List serviceList = employeeService.emploservice(id);
-					map.put("map", JSONObject.fromObject(map1).toString());
-					map.put("http", getImagesUrl+"/");
-					map.put("serviceList", JSONArray.fromObject(serviceList));
-					request.getSession().setAttribute("map",JSONObject.fromObject(map1).toString());
-					request.getSession().setAttribute("serviceList",JSONArray.fromObject(serviceList));
+//					map.put("map", JSONObject.fromObject(map1).toString());
+//					map.put("http", getImagesUrl+"/");
+//					map.put("serviceList", JSONArray.fromObject(serviceList));
+                    String idNumber = CommonUtil.isNotEmpty(map1.get("idcard"))?map1.get("idcard").toString():"";
+                    String idcard = idNumber.substring(0,6)+"********"+idNumber.substring(idNumber.length()-4);
+                    map1.put("idcard",idcard);
+                    map1.put("url",getImagesUrl+"/"+map1.get("url"));
+                    HttpSession session = request.getSession(true);
+                    session.setMaxInactiveInterval(3600);
+                    session.setAttribute("webSite_map",JSONObject.fromObject(map1).toString());
+                    session.setAttribute("webSite_serviceList",JSONArray.fromObject(serviceList));
 				}else if(list.size()>1){
 					message = "该姓名有多名员工，请按工号查询！";
 				}else{
