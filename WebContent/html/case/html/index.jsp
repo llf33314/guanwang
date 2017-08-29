@@ -21,7 +21,7 @@
   <div style="width: 100%;" class="second-js-top">
 	<div class="a-case-customer">
 	   <ul class="a-case-customer-txt">
-	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:void(0);" ng-click="locationCase(index1)">{{buspro1.proname}}</a></li>
+	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:void(0);" ng-click="locationCase(index1,this)">{{buspro1.proname}}</a></li>
 	   </ul>
 	</div>
   </div>

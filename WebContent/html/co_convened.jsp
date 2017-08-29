@@ -442,7 +442,7 @@ right: 0
         var videoSrc='<iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=m0335769n3q&tiny=0&auto=0" allowfullscreen></iframe>'
 
         $('.videoWrap').html(videoSrc) */
-		$('.inlineBox-ifr iframe').attr('src', 'http://v.qq.com/iframe/player.html?vid=g03599iovap&tiny=0&auto=0');$('#inlineBox').show();
+		$('.inlineBox-ifr iframe').attr('src', 'https://v.qq.com/iframe/player.html?vid=g03599iovap&tiny=0&auto=0');$('#inlineBox').show();
 	    		});
 
       $('.closeimg').on('click',function(){

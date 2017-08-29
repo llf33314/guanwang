@@ -28,7 +28,8 @@ function case1Controller($scope, $http, case1Service) {
         }
         type = 0;
     }
-    $scope.locationCase= function(name){
+    $scope.locationCase= function(name,add){
+        $(add).attr("class","a-case-customer-txt");
         $scope.findHs = $(".a-case-ex-h2");
         for(var i=0 ; i < $scope.findHs.length ; i++){
             if(i==name){

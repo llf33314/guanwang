@@ -48,7 +48,7 @@
               <h2>企业介绍</h2>
               <div class="au0 clearfix">
                    <div class="video">
-                       <a href="javascript:WSFUNCTION.videoFrame('http://v.qq.com/iframe/player.html?vid=s03562s6cry&tiny=0&auto=0');"  target="_blank" class="vimg" id="vimg"></a>
+                       <a href="javascript:WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=s03562s6cry&tiny=0&auto=0');"  target="_blank" class="vimg" id="vimg"></a>
                        <!-- <div class="videobox">
                            <iframe id="videoframe" frameborder="0" width="640" height="498" src="http://v.qq.com/iframe/player.html?vid=s03562s6cry&tiny=0&auto=0" allowfullscreen></iframe>
                            <a href="javascript:;" class="gt_close"><img src="/html/images/common/close.png"></a>
@@ -169,7 +169,7 @@
 	    
 	    $("#vimg").click(function(){
             $(this).next(".videobox").show();
-            $('#videoframe').attr('src', 'http://v.qq.com/iframe/player.html?vid=s03562s6cry&tiny=0&auto=0');
+            $('#videoframe').attr('src', 'https://v.qq.com/iframe/player.html?vid=s03562s6cry&tiny=0&auto=0');
             
 	    });
 

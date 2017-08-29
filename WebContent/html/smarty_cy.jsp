@@ -21,7 +21,7 @@ $(function(){
 
      <div id="banner" class="focusad">
          <ul>
-             <li><a href="javascript:WSFUNCTION.videoFrame('http://v.qq.com/iframe/player.html?vid=d0186ne71y1&tiny=0&auto=0');">
+             <li><a href="javascript:WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=d0186ne71y1&tiny=0&auto=0');">
              	<img src="${imageUrl}/smartycy/smartycy_03.jpg"></a></li>
          </ul>
      </div>
