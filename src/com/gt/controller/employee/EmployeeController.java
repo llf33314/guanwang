@@ -188,6 +188,8 @@ public class EmployeeController {
 					map.put("map", JSONObject.fromObject(map1).toString());
 					map.put("http", getImagesUrl+"/");
 					map.put("serviceList", JSONArray.fromObject(serviceList));
+					request.getSession().setAttribute("map",JSONObject.fromObject(map1).toString());
+					request.getSession().setAttribute("serviceList",JSONArray.fromObject(serviceList));
 				}else if(list.size()>1){
 					message = "该姓名有多名员工，请按工号查询！";
 				}else{
