@@ -152,7 +152,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="a-top-firstli" style="height: 80px;"><a href="/html/case_center.jsp">客户案例</a></li>
+            <li class="a-top-firstli" style="height: 80px;"><a href="/html/case/html/index.jsp">客户案例</a></li>
             <li class="a-top-firstli" id="c-show"><a href="javascript:void(0);">合作与加盟</a>
                 <ul class="a-top-join" id="c-show2">
                     <li id="a-pro-r"><a href="/html/agency/html/index.jsp" id="a-chan-sq">申请代理</a></li>
