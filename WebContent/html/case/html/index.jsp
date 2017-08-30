@@ -21,7 +21,7 @@
   <div style="width: 100%;" class="second-js-top">
 	<div class="a-case-customer">
 	   <ul class="a-case-customer-txt">
-	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:void(0);" ng-click="locationCase(index1)">{{buspro1.proname}}</a></li>
+	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:void(0);" ng-click="locationCase(index1)" class="caseId">{{buspro1.proname}}</a></li>
 	   </ul>
 	</div>
   </div>
@@ -104,6 +104,31 @@
         }
         else {
             $('.ri1').hide();
+        }
+        var findHs = $(".a-case-ex-h2");
+        var findHa = $(".caseId");
+
+        for(var i=1 ; i < findHs.length-1 ; i++){
+            if (scrollTop > ($(findHs[i]).position().top-80) && scrollTop < ($(findHs[i+1]).position().top-80)) {
+               		 for(var j=0 ; j < findHa.length ; j++){
+                         $(findHa[j]).removeAttr("style");
+                     }
+                    $(findHa[i]).attr("style","padding: 5px 15px; border-radius: 18px;color: #fff;background: #11CF7B;");
+					break;
+             }
+             if ( scrollTop >($(findHs[findHs.length-1]).position().top-80)){
+                 for(var j=0 ; j < findHa.length ; j++){
+                     $(findHa[j]).removeAttr("style");
+                 }
+                 $(findHa[findHs.length-1]).attr("style","padding: 5px 15px; border-radius: 18px;color: #fff;background: #11CF7B;");
+                 break;
+			 }
+        }
+        if (scrollTop < ($(findHs[1]).position().top-120)){
+            for(var h=0 ; h < findHa.length ; h++){
+                $(findHa[h]).removeAttr("style");
+            }
+            $(findHa[0]).attr("style","padding: 5px 15px; border-radius: 18px;color: #fff;background: #11CF7B;");
         }
     });
 </script>
