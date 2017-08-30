@@ -35,10 +35,11 @@
 <body>
 <%@include file="/html/common/clearfix.jsp" %>
 
-<div style="position: relative;">
+<div style="position: relative;overflow: hidden;">
     <div class="a-top-banner"></div>
     <h2 class="a-top-banner-h2">诚信、专业、极致、服务至上</h2>
 </div>
+<div style="min-height: 520px;">
 <div class="a-content"  id="staffInquiriesAnEvaluation">
     <div class="a-box">
         <!-- 员工查询 -->
@@ -71,7 +72,7 @@
             </el-form>
         </section>
     </div>
-
+</div>
 </div>
 <%@include file="/html/common/footer.jsp" %>
 

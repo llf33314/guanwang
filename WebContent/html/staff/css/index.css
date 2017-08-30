@@ -26,6 +26,7 @@ a {
     -webkit-animation: bounce-bb 2.2s linear infinite;
     animation: bounce-bb 2.2s linear infinite;
     animation-iteration-count: 1;
+
 }
 @-webkit-keyframes bounce-bb {
     0% {

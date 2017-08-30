@@ -33,7 +33,7 @@
 </head>
 <body>
 <%@include file="/html/common/clearfix.jsp" %>
-<div style="position: relative;">
+<div style="position: relative;overflow: hidden;">
     <div class="a-top-banner"></div>
     <h2 class="a-top-banner-h2">诚信、专业、极致、服务至上</h2>
 </div>
