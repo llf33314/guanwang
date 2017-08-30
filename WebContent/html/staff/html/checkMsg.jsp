@@ -38,6 +38,7 @@
     <h2 class="a-top-banner-h2">诚信、专业、极致、服务至上</h2>
 </div>
 <!-- 立即评价 -->
+<div style="min-height: 435px;">
 <div class="a-at-evaluation" id="checkMsg111" style="display: none">
     <div class="a-at-row">
         <div class="a-at-left">
@@ -79,6 +80,7 @@
         <button type="button" class="a-submit" @click="linkEvaluation">立即评价</button>
         <span class="a-return-check" @click="returnCheck">返回查询</span>
     </div>
+</div>
 </div>
 <%@include file="/html/common/footer.jsp" %>
 
