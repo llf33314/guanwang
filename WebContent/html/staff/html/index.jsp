@@ -30,6 +30,12 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        .el-select-dropdown__item.selected.hover {
+            background-color: #2d8efe;
+        }
+        .el-select-dropdown__item.selected {
+            background-color: #2d8efe;
+        }
     </style>
 </head>
 <body>
