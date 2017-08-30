@@ -91,6 +91,7 @@
 <%@include file="/html/common/footer.jsp" %>
 <input  type="hidden" id="aaa" value="0">
 <script>
+
     $(".rightIcon").on("click",".ri1",function(){
         $("html,body").animate({"scrollTop":0},500);
     })
@@ -105,6 +106,9 @@
         else {
             $('.ri1').hide();
         }
+//        var findUr = $("#accordion > li");
+//		var liTop = findUr[findUr.length-1];
+//		console.log($(liTop).position().top);
         var findHs = $(".a-case-ex-h2");
         var findHa = $(".caseId");
 
@@ -124,11 +128,25 @@
                  break;
 			 }
         }
+        if ($(".second-js-top").position().top == 0){
+            $("#accordion").attr("style","max-height: 788px;margin-top: -23px;");
+        }
+
+        if ( scrollTop >($(findHs[findHs.length-1]).position().top+80)){
+            $("#accordion").attr("style","max-height: 320px;margin-top: -23px;");
+        }
+        if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
+            $("#accordion").attr("style","max-height: 788px; margin-top: -23px;");
+        }
         if (scrollTop < ($(findHs[1]).position().top-120)){
             for(var h=0 ; h < findHa.length ; h++){
                 $(findHa[h]).removeAttr("style");
             }
             $(findHa[0]).attr("style","padding: 5px 15px; border-radius: 18px;color: #fff;background: #11CF7B;");
+        }
+
+        if ($(".second-js-top").position().top != 0) {
+            $("#accordion").attr("style","max-height: 788px;margin-top: 30px auto 20px;");
         }
     });
 </script>

@@ -67,11 +67,16 @@ a{text-decoration:none;color:#333;}
 .accordion {
     width: 241px;
     max-width: 360px;
-    margin: 30px auto 20px;
+    margin: 25px auto 20px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-
+    position: fixed;
+    max-height: 788px;
+    overflow: auto;
+}
+.accordion::-webkit-scrollbar {
+    display: none;
 }
 .accordion .link {
     cursor: pointer;
@@ -180,7 +185,6 @@ a{text-decoration:none;color:#333;}
 }
 .a-case-exhibition{
     background: #fff;
-
 }
 .a-case-ex-first{
     width: 100%;
