@@ -1186,7 +1186,7 @@ $(function(){
                }else{
             	   $('div.code_img > img').attr('src', _obj.qrcode);
                }
-//               $('div.botton_img').attr('onclick', WSFUNCTION.videoFrame('http://v.qq.com/iframe/player.html?vid=k05033p8y20&auto=0&tiny=0&auto=0'));
+//               $('div.botton_img').attr('onclick', WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=k05033p8y20&auto=0&tiny=0&auto=0'));
                if(_obj.videourl == ''){
             	   $('div.botton_img').hide();
                }else{

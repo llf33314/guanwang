@@ -108,7 +108,7 @@ $(function(){
                       <div class="pc_item"> 
                          <h2>产品详情</h2>
                          <div style="text-align: center;padding: 50px 0 80px 0;">
-                              <a href="javascript:WSFUNCTION.videoFrame('http://v.qq.com/iframe/player.html?vid=c03666zb0ob&tiny=0&auto=0');"><img src="${imageUrl}/wcontent/mrhy/wcy-vedio.jpg"></a>
+                              <a href="javascript:WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=c03666zb0ob&tiny=0&auto=0');"><img src="${imageUrl}/wcontent/mrhy/wcy-vedio.jpg"></a>
                          </div>
                          <div class="pr item_pk">
                               <img src="${imageUrl}/wcontent/mrhy/wcy_07.png" class="itembh">

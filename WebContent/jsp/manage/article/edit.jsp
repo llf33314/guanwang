@@ -147,7 +147,7 @@
 				}else{
 					art_vurl = art_vurl.substring(art_vurl.lastIndexOf("/")+1, art_vurl.lastIndexOf("."));
 				}
-				art_vurl = "http://v.qq.com/iframe/player.html?vid="+ art_vurl +"&tiny=0&auto=0";
+				art_vurl = "https://v.qq.com/iframe/player.html?vid="+ art_vurl +"&tiny=0&auto=0";
 			}
 			var art_page_title = $("#art_page_title").val();
 			var art_meta = $("#art_meta").val();

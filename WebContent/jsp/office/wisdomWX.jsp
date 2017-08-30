@@ -87,7 +87,7 @@
 				<h1>智慧酒店</h1>
 				<p>由微信公众号＋微信支付为基础构建，帮助酒店快速生成强大的酒店预定系统，实现全新的酒店微信公众号服务平台。从微信订酒店、到用微信开锁入住、微信退房、微信点评等，客人自己通过自己手机即可一键实现。</p>
 				<div class="showa">
-					<a href="http://v.qq.com/page/p/2/1/p01855uwl21.html" target="_blank">查看演示</a>
+					<a href="https://v.qq.com/page/p/2/1/p01855uwl21.html" target="_blank">查看演示</a>
 				</div>
 			</div>
 	    </div>
@@ -96,7 +96,7 @@
 				<h1>智慧餐饮</h1>
 				<p>通过客人自主点餐系统、服务呼叫系统、后厨互动系统、前台收银系统、预定排号系统以及信息管理系统!</p>
 				<div class="showa">
-					<a href="http://v.qq.com/page/d/y/1/d0186ne71y1.html" target="_blank">查看演示</a>
+					<a href="https://v.qq.com/page/d/y/1/d0186ne71y1.html" target="_blank">查看演示</a>
 				</div>
 			</div>
 	    </div>
@@ -105,7 +105,7 @@
 				<h1>智慧生活</h1>
 				<p>随着微信等新媒介的兴起，生活方式正在发生"微""妙"的变化，智慧生活是通过多粉平台打造的一款彻底专为用户提供全方位生活服务的移动网站，通过微生活服务，用户可以时时刻刻享受在线购物、点餐、定机票、预约酒店等多项服务的功能，彻底改变了用户传统的生活模式。</p>
 				<div class="showa">
-					<a href="http://v.qq.com/page/d/i/u/d01860f3fiu.html" target="_blank">查看演示</a>
+					<a href="https://v.qq.com/page/d/i/u/d01860f3fiu.html" target="_blank">查看演示</a>
 				</div>
 			</div>
 	    </div>

@@ -128,7 +128,7 @@ function manual_edit(url){
 		}else{
 			purl = purl.substring(purl.lastIndexOf("/")+1, purl.lastIndexOf("."));
 		}
-		purl = "http://v.qq.com/iframe/player.html?vid="+ purl +"&tiny=0&auto=0";
+		purl = "https://v.qq.com/iframe/player.html?vid="+ purl +"&tiny=0&auto=0";
 	}
 	if(vurl != null && vurl.length != 0){
 		if(vurl.indexOf("?vid=") < 0){
@@ -140,7 +140,7 @@ function manual_edit(url){
 		}else{
 			vurl = vurl.substring(vurl.lastIndexOf("/")+1, vurl.lastIndexOf("."));
 		}
-		vurl = "http://v.qq.com/iframe/player.html?vid="+ vurl +"&tiny=0&auto=0";
+		vurl = "https://v.qq.com/iframe/player.html?vid="+ vurl +"&tiny=0&auto=0";
 	}
 	var m_sort = $("#sort").val();
 	if(m_sort.length == "") m_sort = "00";

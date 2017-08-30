@@ -80,7 +80,7 @@
     	 			<div class="gt-swiper3d-popup addBg">
     	 				<h2>商家联盟-MG动画</h2>
     	 				<h3>Business Alliance MG animation</h3>
-    	 				<a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("http://v.qq.com/iframe/player.html?vid=q0377v1cagj&amp;tiny=0&amp;auto=0")'></a>
+    	 				<a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://v.qq.com/iframe/player.html?vid=q0377v1cagj&amp;tiny=0&amp;auto=0")'></a>
     	 			</div>
     	 		</div>
     	 		<div class="gt-swiper3d-radio-box"  style="transform: scale(1) translate(0,0);z-index: 2">
@@ -88,7 +88,7 @@
     	 			<div class="gt-swiper3d-popup">
     	 				<h2>商家联盟-场景再现</h2>
     	 				<h3>Business Alliance Scene Reproduction</h3>
-    	 				<a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("http://v.qq.com/iframe/player.html?vid=q0377v1cagj&amp;tiny=0&amp;auto=0")'></a>
+    	 				<a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://v.qq.com/iframe/player.html?vid=q0377v1cagj&amp;tiny=0&amp;auto=0")'></a>
     	 			</div>
     	 		</div>
     	 		<div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(435px, 44px);z-index: 1">
@@ -96,7 +96,7 @@
     	 			<div class="gt-swiper3d-popup addBg">
     	 				<h2>商家联盟</h2>
     	 				<h3>Business Alliance</h3>
-    	 				<a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("http://v.qq.com/iframe/player.html?vid=q0377v1cagj&amp;tiny=0&amp;auto=0")'></a>
+    	 				<a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://v.qq.com/iframe/player.html?vid=q0377v1cagj&amp;tiny=0&amp;auto=0")'></a>
     	 			</div>
     	 		</div>
     	 		<ul class="gt-swiper3d-page">

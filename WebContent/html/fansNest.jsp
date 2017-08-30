@@ -33,7 +33,7 @@
         <h1>粉巢系统是什么？</h1>
         <p>
             多粉结合时下最流行的会员服务与移动互联网营销新模式，推出粉巢系统。粉巢系统是一个能集合PC网站、手机网站、微信、APP、小程序、支付宝六站合一的跨平台同步系统，能全面实现订单与会员数据同步和多端流量汇总让您一个用户都不丢。</p>
-        <img src="/html/images/fans/videofans.png" alt="" onclick="WSFUNCTION.videoFrame('http://v.qq.com/iframe/player.html?vid=p0365f7im81&tiny=0&auto=0');">
+        <img src="/html/images/fans/videofans.png" alt="" onclick="WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=p0365f7im81&tiny=0&auto=0');">
     </div>
 
 

@@ -53,7 +53,7 @@
 
                     <%--<img src="${imageUrl}/aboutus/video.png" alt="">--%>
     <!--视频主题曲-->
-    <iframe frameborder="0" width="480" height="400" src="http://v.qq.com/iframe/player.html?vid=c0190z7krtb&tiny=0&auto=0" allowfullscreen></iframe>
+    <iframe frameborder="0" width="480" height="400" src="https://v.qq.com/iframe/player.html?vid=c0190z7krtb&tiny=0&auto=0" allowfullscreen></iframe>
     <!--视频主题曲-->
                     <div class="clear describe-deve">
                         <img src="${imageUrl}/aboutus/doulogo.png" alt="" class="fl describe-img">

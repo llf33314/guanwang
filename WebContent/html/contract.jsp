@@ -97,7 +97,7 @@
                         </a>
                     </li>
                     <li class="fl">
-                        <a href='http://v.qq.com/vplus/86836c11ab0f3babe29fcf7d2a3821cf'>
+                        <a href='https://v.qq.com/vplus/86836c11ab0f3babe29fcf7d2a3821cf'>
                             <img src="${imageUrl}/aboutus/video-contract.png" alt="" style="vertical-align: middle">
                             多粉视频
                         </a>

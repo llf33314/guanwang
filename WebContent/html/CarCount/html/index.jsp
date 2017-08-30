@@ -239,7 +239,7 @@
 	         <img src="../images/mg.png" style="width: 45%;"/>
 	         <p class="car-home-animation-title">点击播放键播放视频</p> 
 	         <div class="car-home-animation play">
-	            <a href="javascript:WSFUNCTION.videoFrame('http://v.qq.com/iframe/player.html?vid=y0503lythmm&auto=0&tiny=0&auto=0');"><img src="../images/mg1.png"/></a>
+	            <a href="javascript:WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=y0503lythmm&auto=0&tiny=0&auto=0');"><img src="../images/mg1.png"/></a>
 	           <div class="gt-halo-box">
 				 <div class="gt-halo"></div>
 				 <div class="gt-halo-big enlarge"></div>
