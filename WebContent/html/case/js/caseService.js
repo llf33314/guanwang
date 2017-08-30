@@ -26,6 +26,10 @@ goodtomApp.service("case1Service",function($http){
                            $("#aaa").val(1);
                             window.clearTimeout(id);
                         }
+                        $("#caseShow").removeAttr("style");
+                        if ($(".second-js-top").position().top == 0){
+                            $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
+                        }
                     }else {
                         alert("系统错误，请尝试刷新页面或重新登录，若还有问题，请联系我们！");
                     }

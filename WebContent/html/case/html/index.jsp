@@ -21,18 +21,18 @@
   <div style="width: 100%;" class="second-js-top">
 	<div class="a-case-customer">
 	   <ul class="a-case-customer-txt">
-	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:void(0);" ng-click="locationCase(index1)" class="caseId">{{buspro1.proname}}</a></li>
+	      <li  ng-repeat="(index1,buspro1) in busproList" ><a href="javascript:void(0);" ng-click="locationCase(index1)" ng-bind="buspro1.proname" class="caseId"></a></li>
 	   </ul>
 	</div>
   </div>
-<div class="a-case">
+<div class="a-case" style="margin-top: 1400px" id="caseShow">
 	  <div class="a-case-big">
 		  <div class="a-case-navigation">
 			  <ul id="accordion" class="accordion">
 				  <li>
 					  <div class="a-link"  ng-click="onAAA();">所有类型</div>
 				  </li>
-				  <li ng-repeat="case in caseList">
+				  <li ng-repeat="case in caseList" ng-if="caseList.length > 0">
 						  <div class="link">{{case.classname}}<i class="iconfont fa-chevron-down">&#xe733;</i></div>
 					  <ul class="submenu">
 						  <li ng-repeat="case1 in case.cases" ng-click="updateCase(case1);"><a href="javascript:void(0);">{{case1.casedesc}}</a></li>
@@ -129,14 +129,14 @@
 			 }
         }
         if ($(".second-js-top").position().top == 0){
-            $("#accordion").attr("style","max-height: 788px;margin-top: -23px;");
+            $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
         }
 
         if ( scrollTop >($(findHs[findHs.length-1]).position().top+80)){
             $("#accordion").attr("style","max-height: 320px;margin-top: -23px;");
         }
         if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
-            $("#accordion").attr("style","max-height: 788px; margin-top: -23px;");
+            $("#accordion").attr("style","max-height: 750px; margin-top: -23px;");
         }
         if (scrollTop < ($(findHs[1]).position().top-120)){
             for(var h=0 ; h < findHa.length ; h++){
@@ -146,7 +146,7 @@
         }
 
         if ($(".second-js-top").position().top != 0) {
-            $("#accordion").attr("style","max-height: 788px;margin-top: 30px auto 20px;");
+            $("#accordion").attr("style","max-height: 750px;margin-top: 30px auto 20px;");
         }
     });
 </script>
