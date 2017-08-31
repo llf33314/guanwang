@@ -131,11 +131,11 @@
 							
 							<div class="control-group" id="atarashi1">
 								<div class="plus-btn-div">
-									<input type="button" value="客户案例" class="btn-sel"/><!-- <span class="deruta"></span> -->
+									<input type="button" value="客户简介" class="btn-sel"/><!-- <span class="deruta"></span> -->
 									<input type="button" value="+ 添加项目" onclick="cbonclick()"/>
 								</div>
 								<span class="help-inline"></span>
-								<textarea typeset="客户案例" style="resize: none;width: 900px;height: 292px;"
+								<textarea typeset="客户简介" style="resize: none;width: 900px;height: 292px;"
 									placeholder="请输入文字描述" class="description-textarea" maxlength="250"></textarea>
 							</div>
 							<div class="control-group" id="atarashi2">
@@ -143,7 +143,7 @@
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								</label>
 								<span class="help-inline"></span>
-								<img id="imgurl2" src="/images/duofenIntroduction/plus.png" typeset="客户案例" onclick="a_imgClick(this)" 
+								<img id="imgurl2" src="/images/duofenIntroduction/plus.png" typeset="客户简介" onclick="a_imgClick(this)" 
 									style="height: 200px;margin-left: 50px;border: 1px solid #ccc;"/>
 							</div>
 							
@@ -207,7 +207,7 @@
 		
 		var hitotsufueer = function(){
 			var sel_btn = $('#atarashi1 > div > input.btn-sel').val();
-			var sel_boxs = $('#sel-box input[type="checkbox"]'), h = '<input type="button" value="客户案例" onclick="irohenka(this)"/>';
+			var sel_boxs = $('#sel-box input[type="checkbox"]'), h = '<input type="button" value="客户简介" onclick="irohenka(this)"/>';
 			for(var i=0;i<sel_boxs.length;i++)
 				if($(sel_boxs[i]).is(':checked'))
 					h += '<input type="button" value="'+$(sel_boxs[i]).val()+'" onclick="irohenka(this)"/>';
@@ -285,10 +285,10 @@
 				$("#imgurl4").attr("src", one.rotateimg3); */
 				$("#imgurl99").attr("src", one.qrcode);
 				
-				var a_h = '<input type="button" class="btn-sel" value="客户案例" onclick="irohenka(this)"/>';
+				var a_h = '<input type="button" class="btn-sel" value="客户简介" onclick="irohenka(this)"/>';
 				for(var i=0;i<two.length;i++){
 					var a_two = two[i];
-					if(a_two.proname != '客户案例'){
+					if(a_two.proname != '客户简介'){
 						a_h += '<input type="button" value="'+a_two.proname+'" onclick="irohenka(this)"/>';
 						$('#sel-box input[value="'+a_two.proname+'"]').attr("checked", "checked");
 					}
