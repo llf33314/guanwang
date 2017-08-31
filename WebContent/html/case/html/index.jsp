@@ -139,8 +139,10 @@
         }
 
         if ( scrollTop >($(".footer").position().top-845)){
-            scrollTo(0,$(".footer").position().top-845);
-        }
+            $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-845)+"px;position: relative;");
+        }else {
+            $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
+		}
 //        if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
 //            $("#accordion").attr("style","max-height: 750px; margin-top: -23px;");
 //        }

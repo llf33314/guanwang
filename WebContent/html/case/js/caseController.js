@@ -35,7 +35,11 @@ function case1Controller($scope, $http, case1Service) {
                 if(type > 0){
                     scrollTo(0,$($scope.findHs[i]).position().top-40);
                 }else {
-                    scrollTo(0,$($scope.findHs[i]).position().top-90);
+                    if ($(".second-js-top").position().top == 0){
+                        scrollTo(0,$($scope.findHs[i]).position().top-40);
+                    }else {
+                        scrollTo(0,$($scope.findHs[i]).position().top-90);
+                    }
                     type = 1;
                 }
            }
