@@ -72,7 +72,7 @@
          <div class="hotline tc">服务热线：400 889 4522</div>
          <div class="copyright tc">
 
-              <a href="http://www.miitbeian.gov.cn" target="_blank" style="color: #6E6F6F;">粤公网安备 44130202000473号</a>&nbsp;&nbsp;&nbsp;<img src="/images/pafoot.png" style="width: 18px;">&nbsp;&nbsp;
+              <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44130202000473" target="_blank" style="color: #6E6F6F;">粤公网安备 44130202000473号</a>&nbsp;&nbsp;&nbsp;<img src="/images/pafoot.png" style="width: 18px;">&nbsp;&nbsp;
              粤ICP备15016183号-3<span class="gt_tck" data-url="${imageUrl}/xkz1.jpg" data-zoom="400,568">经营许可证编号：全国B2-20160778</span>&nbsp;&nbsp;&nbsp;<span class="gt_tck" data-url="${imageUrl}/xkz2.jpg" data-zoom="400,577">粤B2-20150533</span><br/>
              Copyright © 2013-2017 duofriend. All Rights Reserved.  广东谷通科技有限公司<br/>
               <span class="gt_tck" data-url="${imageUrl}/xkz3.jpg" data-zoom="600,380">法律顾问</span>
