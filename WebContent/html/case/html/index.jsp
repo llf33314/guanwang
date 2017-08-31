@@ -90,7 +90,7 @@
     $(".rightIcon").on("click",".ri1",function(){
         $("html,body").animate({"scrollTop":0},500);
     })
-
+    var type1 = 1;
 	/*页面右侧信息*/
     //超过一定高度时， 显示返回顶部按钮
     $(window).scroll(function() {
@@ -124,7 +124,12 @@
 			 }
         }
         if ($(".second-js-top").position().top == 0){
-            $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
+            if(type1 > 0) {
+                $("#accordion").attr("style", "max-height: 750px;margin-top: -23px;");
+            }
+            if( scrollTop < $(".footer").position().top-845){
+                $("#accordion").attr("style", "max-height: 750px;margin-top: -23px;");
+            }
         }
 
 //        if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
@@ -137,13 +142,18 @@
             $(findHa[0]).attr("style","padding: 5px 15px; border-radius: 18px;color: #fff;background: #11CF7B;");
         }
 
-        if ($(".second-js-top").position().top != 0) {
-            $("#accordion").attr("style","max-height: 750px;margin-top: 30px auto 20px;");
-        }
         if ( scrollTop >($(".footer").position().top-845)){
-            $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-845)+"px;position: relative;");
+            if(type1 > 0){
+                $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-845)+"px;position: relative;");
+                type1 = 0;
+             }
         }else {
             $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
+            type1 = 1;
+        }
+
+        if ($(".second-js-top").position().top != 0) {
+            $("#accordion").attr("style", "max-height: 750px;margin-top: 30px auto 20px;");
         }
     });
 </script>
