@@ -119,7 +119,7 @@
             <h4 class="man-c-l-h4 animated" style="opacity: 0;">顾客怎么来？</h4>
             <ul class="man-c-l-ul animated" style="opacity: 0;">
                 <li class="animated" style="opacity: 0;" id="txt1">精美的线上商城帮助商家展示自己的服务优势</li>
-                <li class="animated" style="opacity: 0;" id="txt2">海量的移动互联网营销创意营销工具，让顾客随时分享和传播</li>
+                <li class="animated" style="opacity: 0;" id="txt2">海量的移动互联网创意营销工具，让顾客随时分享和传播</li>
                 <li class="animated" style="opacity: 0;" id="txt3">顾客在线预约服务和到店时间，通过预约中心，你可以管理和新增预约、合理排班</li>
             </ul>
             <div class="man-c-l-pic">
