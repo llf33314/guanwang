@@ -224,7 +224,7 @@
 			var data = [{id: '1', name: '粉巢系统'},
 				{id: '2', name: '微信营销'},
 				{id: '3', name: '商家联盟'},
-				{id: '4', name: '云ERP'},
+				{id: '4', name: 'SaaS ERP'},
 				{id: '5', name: '优惠券商城'},
 				{id: '6', name: '微信小程序'},
 				{id: '7', name: '多粉硬件'},

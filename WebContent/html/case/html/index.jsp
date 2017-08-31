@@ -38,6 +38,18 @@
 						  <li ng-repeat="case1 in case.cases" ng-click="updateCase(case1);"><a href="javascript:void(0);">{{case1.casedesc}}</a></li>
 					  </ul>
 				  </li>
+				  <li style="margin:-5px 0;">
+					  <div class="link"></div>
+				  </li>
+				  <li style="margin:0px 0;">
+					  <div class="link"></div>
+				  </li>
+				  <li style="margin:0px 0;">
+				  <div class="link"></div>
+				  </li>
+				  <li style="margin:0px 0;">
+					  <div class="link"></div>
+				  </li>
 			  </ul>
 		  </div>
 		  <div class="a-case-exhibition-box">
@@ -55,12 +67,6 @@
 								  <li ng-repeat="buspro3 in chuliImg(buspro2.pics)" class="a-case-ex-first-ul-smallbox">
 									  <img src="{{buspro3}}" class="a-case-ex-first-img2">
 								  </li>
-								  <%--<li>--%>
-									  <%--<img src="../images/ca-se5.png">--%>
-								  <%--</li>--%>
-								  <%--<li>--%>
-									  <%--<img src="../images/ca-se6.png">--%>
-								  <%--</li>--%>
 							  </ul>
 						  </div>
 					  </div>
@@ -132,12 +138,12 @@
             $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
         }
 
-        if ( scrollTop >($(findHs[findHs.length-1]).position().top+80)){
-            $("#accordion").attr("style","max-height: 320px;margin-top: -23px;");
+        if ( scrollTop >($(".footer").position().top-845)){
+            scrollTo(0,$(".footer").position().top-845);
         }
-        if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
-            $("#accordion").attr("style","max-height: 750px; margin-top: -23px;");
-        }
+//        if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
+//            $("#accordion").attr("style","max-height: 750px; margin-top: -23px;");
+//        }
         if (scrollTop < ($(findHs[1]).position().top-120)){
             for(var h=0 ; h < findHa.length ; h++){
                 $(findHa[h]).removeAttr("style");
