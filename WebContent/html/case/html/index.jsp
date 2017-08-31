@@ -35,21 +35,10 @@
 				  <li ng-repeat="case in caseList" ng-if="caseList.length > 0">
 						  <div class="link">{{case.classname}}<i class="iconfont fa-chevron-down">&#xe733;</i></div>
 					  <ul class="submenu">
-						  <li ng-repeat="case1 in case.cases" ng-click="updateCase(case1);"><a href="javascript:void(0);">{{case1.casedesc}}</a></li>
+						  <li ng-repeat="case1 in case.cases" ng-click="updateCase(case1);" class="liStyle" id="case1.casedesc"><a href="javascript:void(0);">{{case1.casedesc}}</a></li>
 					  </ul>
 				  </li>
-				  <li style="margin:-5px 0;">
-					  <div class="link"></div>
-				  </li>
-				  <li style="margin:0px 0;">
-					  <div class="link"></div>
-				  </li>
-				  <li style="margin:0px 0;">
-				  <div class="link"></div>
-				  </li>
-				  <li style="margin:0px 0;">
-					  <div class="link"></div>
-				  </li>
+
 			  </ul>
 		  </div>
 		  <div class="a-case-exhibition-box">
@@ -138,11 +127,6 @@
             $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
         }
 
-        if ( scrollTop >($(".footer").position().top-845)){
-            $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-845)+"px;position: relative;");
-        }else {
-            $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
-		}
 //        if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
 //            $("#accordion").attr("style","max-height: 750px; margin-top: -23px;");
 //        }
@@ -155,6 +139,11 @@
 
         if ($(".second-js-top").position().top != 0) {
             $("#accordion").attr("style","max-height: 750px;margin-top: 30px auto 20px;");
+        }
+        if ( scrollTop >($(".footer").position().top-845)){
+            $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-845)+"px;position: relative;");
+        }else {
+            $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
         }
     });
 </script>

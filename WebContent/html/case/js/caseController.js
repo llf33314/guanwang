@@ -18,6 +18,13 @@ function case1Controller($scope, $http, case1Service) {
         return $scope.imgList;
     }
     $scope.updateCase =function (case6) {
+        var liStyle = $(".liStyle");
+        for(var i=0 ; i < liStyle.length ; i++){
+            $(liStyle[i]).removeAttr("style");
+            if($(liStyle[i]).context.textContent == case6.casedesc){
+                $(liStyle[i]).attr("style","background: #f8f8f8;width: 92%;margin: 0 auto;");
+            }
+        }
         $scope.case3 =case6;
         $scope.busproList = $scope.case3.buspro;
         for(var i=0 ; i < $scope.case1List.length ; i++){
