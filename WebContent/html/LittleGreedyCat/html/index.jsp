@@ -113,8 +113,8 @@
         <div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(435px, 44px);z-index: 1">
           <div class="gt-swiper3d-radio-image"><img alt="" src="../img/gt-image1.png"></div>
           <div class="gt-swiper3d-popup addBg">
-          <h2 style="color:#fff;font-size:24px;">小馋猫现实场景视频</h2>
-            <a href="javascript:;" class="gt-swiper3d-play" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=d0186ne71y1&auto=0&tiny=0&auto=0");'></a>
+          <h2 style="color:#fff;font-size:24px;">小馋猫速食版视频</h2>
+            <a href="javascript:;" class="gt-swiper3d-play" onclick="openVideo()"></a>
           </div>
         </div>
         <ul class="gt-swiper3d-page">
@@ -313,7 +313,8 @@
     </div>
 
     <%@include file="/html/common/footer-son.jsp" %>
-<script>
+    <%@ include file="/html/LittleGreedyCat/html/video.jsp"%>
+    <script>
 
    $(function(){
 
