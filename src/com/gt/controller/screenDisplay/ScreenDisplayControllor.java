@@ -14,6 +14,7 @@ import java.util.Random;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.gt.service.screenDisplay.ScreenDisplayService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,7 +22,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.gt.model.agent.Agent;
 import com.gt.service.agent.IAgentService;
-import com.gt.service.screenDisplay.ScreenDisplayService;
 import com.gt.utils.JedisUtil;
 
 import net.sf.json.JSONArray;
@@ -173,36 +173,35 @@ public class ScreenDisplayControllor {
         return s;
 	}
 	
-	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@RequestMapping(value = "/html/addDisplayPolyline")
 	public void addDisplayPolyline() {
 		
-		List<Map> polys = new ArrayList<Map>();
-		for(int i=0;i<4;i++){
-			Map m = new HashMap();
-			m.put("peak", "2829994");
-			m.put("views", "19809958");
-			m.put("nowtime", "2017-05-07 00:00:00");
-			polys.add(m);
-		}
-		screenDisplayService.addDisplayPolyline(polys);
+//		List<Map> polys = new ArrayList<Map>();
+//		for(int i=0;i<4;i++){
+//			Map m = new HashMap();
+//			m.put("peak", "2829994");
+//			m.put("views", "19809958");
+//			m.put("nowtime", "2017-05-07 00:00:00");
+//			polys.add(m);
+//		}
+//		screenDisplayService.addDisplayPolyline(polys);
 	}
 
-	@RequestMapping("/html/aaaa")
-	public void aaaa(HttpServletResponse response, HttpServletRequest request){
-		response.setContentType("text/html;charset=UTF-8");
-		try {
-			DecimalFormat df = new DecimalFormat("#.00");
-			String par = request.getParameter("par");	//綦江 29.0044252742,106.8815074724
-			String[] pars = par.split(" ");
-			String[] parsII = pars[1].split(",");
-			String eins = pars[0];
-			String zwei = df.format(Double.valueOf(parsII[0]));
-			String drei = df.format(Double.valueOf(parsII[1]));
-			screenDisplayService.addMapData(eins, zwei, drei);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+//	@RequestMapping("/html/aaaa")
+//	public void aaaa(HttpServletResponse response, HttpServletRequest request){
+//		response.setContentType("text/html;charset=UTF-8");
+//		try {
+//			DecimalFormat df = new DecimalFormat("#.00");
+//			String par = request.getParameter("par");	//綦江 29.0044252742,106.8815074724
+//			String[] pars = par.split(" ");
+//			String[] parsII = pars[1].split(",");
+//			String eins = pars[0];
+//			String zwei = df.format(Double.valueOf(parsII[0]));
+//			String drei = df.format(Double.valueOf(parsII[1]));
+//			screenDisplayService.addMapData(eins, zwei, drei);
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
 	
 }

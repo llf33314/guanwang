@@ -57,7 +57,7 @@ public class ScreenDisplayQuartz {
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Scheduled(cron = "58 59 23 * * ?")  
-	public void dailySDUpdate(){
+	public synchronized void dailySDUpdate(){
 		log.info("每日数据更新");
 		
 		/* t_ws_screen_display_day */
@@ -133,17 +133,18 @@ public class ScreenDisplayQuartz {
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Scheduled(cron = "0 0 0 1 * ?")  
-	public void perMonthSDUpdate(){
+	public synchronized void perMonthSDUpdate(){
 		log.info("每月数据更新");
 		/* t_ws_screen_display_month */
 		int historyhighestonline = 60000000;
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
 		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy-MM-dd");
+//		SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy-MM-dd");
 		Date now = new Date();
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(now);
 		cal.add(Calendar.SECOND, -2);
+		String nowStr = sdf2.format(cal.getTime());
 		cal.add(Calendar.MONTH, -1);
 		String prevTimeStr = sdf.format(cal.getTime());
 		List prevMonth = screenDisplayService.getDisplayMonth(prevTimeStr);
@@ -151,8 +152,6 @@ public class ScreenDisplayQuartz {
 			Map pm = (Map) prevMonth.get(0);
 			historyhighestonline = Integer.valueOf(pm.get("historyhighestonline").toString());
 		}
-		cal.add(Calendar.MONTH, 1);
-		String nowStr = sdf2.format(cal.getTime());
 		historyhighestonline += ran(300000, 700000);
 		screenDisplayService.addDisplayMonth(historyhighestonline, nowStr);
 		/* t_ws_screen_display_month */
@@ -186,7 +185,6 @@ public class ScreenDisplayQuartz {
 		cal2.add(Calendar.DAY_OF_MONTH, -1);
 		int growth = screenDisplayService.getGrowth(sdf.format(cal2.getTime()));*/
 		int growth = ran(25000, 40000);
-		cal.add(Calendar.MONTH, -1);
 		int old_growth = screenDisplayService.getDisplayColumnarValByMonth(sdf.format(cal.getTime()));
 		/*Map gdd = (Map) screenDisplayService.getDisplayDay(sdf3.format(new Date())).get(0);
 		long currentfans = Long.valueOf(gdd.get("currentfans").toString());*/

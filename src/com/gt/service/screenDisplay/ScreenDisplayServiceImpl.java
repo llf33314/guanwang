@@ -81,11 +81,17 @@ public class ScreenDisplayServiceImpl implements ScreenDisplayService{
 		return iBaseDAO.queryForList(sql.toString(), params.toArray());
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public int addDisplayMonth(int historyhighestonline, String nowStr) {
-		String sql = "insert into t_ws_screen_display_month(historyhighestonline, nowtime) values(?, ?)";
-		iBaseDAO.update(sql, new Object[]{historyhighestonline, nowStr});
-		return 1;
+		List l = getDisplayMonth(nowStr.substring(0, 7));
+		if(l.isEmpty()){
+			String sql = "insert into t_ws_screen_display_month(historyhighestonline, nowtime) values(?, ?)";
+			iBaseDAO.update(sql, new Object[]{historyhighestonline, nowStr});
+			return 1;
+		}else{
+			return 0;
+		}
 	}
 	
 	@SuppressWarnings("rawtypes")
@@ -98,11 +104,17 @@ public class ScreenDisplayServiceImpl implements ScreenDisplayService{
 		}
 	}
 	
+	@SuppressWarnings("rawtypes")
 	@Override
 	public int addDisplayDay(double todayamount, int currentfans, int addfanstoday, String nowStr) {
-		String sql = "insert into t_ws_screen_display_day(todayamount, currentfans, addfanstoday, nowtime) values(?, ?, ?, ?)";
-		iBaseDAO.update(sql, new Object[]{todayamount, currentfans, addfanstoday, nowStr});
-		return 1;
+		List l = getDisplayDay(nowStr.substring(0, 10));
+		if(l.isEmpty()){
+			String sql = "insert into t_ws_screen_display_day(todayamount, currentfans, addfanstoday, nowtime) values(?, ?, ?, ?)";
+			iBaseDAO.update(sql, new Object[]{todayamount, currentfans, addfanstoday, nowStr});
+			return 1;
+		}else{
+			return 0;
+		}
 	}
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
@@ -131,26 +143,36 @@ public class ScreenDisplayServiceImpl implements ScreenDisplayService{
 	
 	@Override
 	public int addDisplayColumnar(int growth, String growthrate, String nowStr) {
-		String sql = "insert into t_ws_screen_display_columnar(growth, growthrate, monthtime) values(?, ?, ?)";
-		iBaseDAO.update(sql, new Object[]{growth, growthrate, nowStr});
-		return 1;
+		int l = getDisplayColumnarValByMonth(nowStr.substring(0, 7));
+		if(l == 0){
+			String sql = "insert into t_ws_screen_display_columnar(growth, growthrate, monthtime) values(?, ?, ?)";
+			iBaseDAO.update(sql, new Object[]{growth, growthrate, nowStr});
+			return 1;
+		}else{
+			return 0;
+		}
 	}
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
 	public void addDisplayPolyline(List<Map> polys) {
-		StringBuilder sql = new StringBuilder();
-		List params = new ArrayList();
-		sql.append("insert into t_ws_screen_display_polyline(peak, views, nowtime) values ");
-		for(Map p : polys){
-			sql.append("(?, ?, ?),");
-			params.add(p.get("peak"));
-			params.add(p.get("views"));
-			params.add(p.get("nowtime"));
+		if(!polys.isEmpty()){
+			List l = getDisplayPolyline(polys.get(0).get("nowtime").toString().substring(0, 10));
+			if(l.isEmpty()){
+				StringBuilder sql = new StringBuilder();
+				List params = new ArrayList();
+				sql.append("insert into t_ws_screen_display_polyline(peak, views, nowtime) values ");
+				for(Map p : polys){
+					sql.append("(?, ?, ?),");
+					params.add(p.get("peak"));
+					params.add(p.get("views"));
+					params.add(p.get("nowtime"));
+				}
+				String sqlStr = sql.toString();
+//				System.out.println(sqlStr.substring(0, sqlStr.length()-1));
+				iBaseDAO.update(sqlStr.substring(0, sqlStr.length()-1), params.toArray());
+			}
 		}
-		String sqlStr = sql.toString();
-		System.out.println(sqlStr.substring(0, sqlStr.length()-1));
-		iBaseDAO.update(sqlStr.substring(0, sqlStr.length()-1), params.toArray());
 	}
 	
 	@SuppressWarnings({ "unchecked", "rawtypes" })
@@ -164,4 +186,5 @@ public class ScreenDisplayServiceImpl implements ScreenDisplayService{
 		params.add(zwei);
 		return iBaseDAO.update(sql.toString(), params.toArray());
 	}
+
 }
