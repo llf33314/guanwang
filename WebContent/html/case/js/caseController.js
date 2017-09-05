@@ -62,9 +62,6 @@ function case1Controller($scope, $http, case1Service) {
             $scope.case4 = $scope.case1List[i-1];
             $scope.case5 = $scope.case1List[i+1];
             $scope.busproList =  $scope.case3.buspro;
-            console.log($scope.case3);
-            console.log($scope.case4);
-            console.log($scope.case5);
             $scope.index =  $scope.index-1;
         }
     };
@@ -74,9 +71,6 @@ function case1Controller($scope, $http, case1Service) {
             $scope.case4 = $scope.case1List[i-1];
             $scope.case5 = $scope.case1List[i+1];
             $scope.busproList =  $scope.case3.buspro;
-            console.log($scope.case3);
-            console.log($scope.case4);
-            console.log($scope.case5);
     };
     $scope.onAAA = function () {
         $("body").show();

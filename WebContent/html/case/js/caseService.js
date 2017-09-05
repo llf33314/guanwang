@@ -19,7 +19,6 @@ goodtomApp.service("case1Service",function($http){
                         $scope.case3 = $scope.ss[0];
                         $scope.case5 = $scope.ss[1];
                         $scope.case1List = data.list;
-                        console.log( $scope.case1List);
                         $scope.busproList = $scope.ss[0].buspro;
                         var id=window.setTimeout(hello,3000);
                         function hello(){

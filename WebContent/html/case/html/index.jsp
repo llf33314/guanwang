@@ -128,7 +128,6 @@
                 $("#accordion").attr("style", "max-height: 750px;margin-top: -23px;");
             }
             if( scrollTop < $(".footer").position().top-900){
-                console.log("==="+type1);
                 $("#accordion").attr("style", "max-height: 750px;margin-top: -23px;");
             }
         }
@@ -145,7 +144,7 @@
 
         if ( scrollTop >($(".footer").position().top-900)){
             if(type1 > 0){
-                $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-900)+"px;position: relative;");
+                $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-950)+"px;position: relative;");
                 type1 = 0;
              }
         }else {

@@ -134,7 +134,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in10">&#xe61e;</i></div>
-                        <a href="javascript:void(0);">
+                        <a href="/html/toShop/html/index.jsp">
 		                     <span>
 		                         <h3>来店</h3>
 		                         <p>智慧商超解决方案</p>
