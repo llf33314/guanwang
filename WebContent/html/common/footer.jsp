@@ -112,6 +112,7 @@
     <script type="text/javascript" charset="utf-8" src="https://gate.soperson.com/10040401/10072010.js"></script>
     <!-- <script type="text/javascript" charset="utf-8" src="/html/js/talk99.js"></script> -->
      <script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODE4ODE2M18zODIyODFfNDAwODg5NDUyMl8"></script>
+    <script src="/html/js/webJS.js"></script>
      <script>
 		var qqtype = -1;
 		var qqNum = "2853873362";
@@ -164,7 +165,9 @@
 			$.cookie('clearfix_selected', a, {path:'/'});
 			$.cookie("clearfix_selected_child", a, {path:'/'});
 		}
-	</script>
+
+
+     </script>
 
 
     

@@ -47,7 +47,7 @@
 						  <div ng-if="buspro2.pics.length < 150" class="a-case-ex-first">
 							   <h2 class="a-case-ex-h2">{{buspro2.proname}}</h2>
 							   <p class="a-case-ex-p">{{buspro2.description}}</p>
-							   <img src="{{buspro2.pics}}" class="a-case-ex-first-img1">
+							   <img src="{{ chuliImg1(buspro2.pics)}}" class="a-case-ex-first-img1">
 						  </div>
 						  <div ng-if="buspro2.pics.length > 150" class="a-case-ex-first" >
 							  <h2 class="a-case-ex-h2">{{buspro2.proname}}</h2>
@@ -127,7 +127,8 @@
             if(type1 > 0) {
                 $("#accordion").attr("style", "max-height: 750px;margin-top: -23px;");
             }
-            if( scrollTop < $(".footer").position().top-845){
+            if( scrollTop < $(".footer").position().top-900){
+                console.log("==="+type1);
                 $("#accordion").attr("style", "max-height: 750px;margin-top: -23px;");
             }
         }
@@ -142,9 +143,9 @@
             $(findHa[0]).attr("style","padding: 5px 15px; border-radius: 18px;color: #fff;background: #11CF7B;");
         }
 
-        if ( scrollTop >($(".footer").position().top-845)){
+        if ( scrollTop >($(".footer").position().top-900)){
             if(type1 > 0){
-                $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-845)+"px;position: relative;");
+                $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-900)+"px;position: relative;");
                 type1 = 0;
              }
         }else {
@@ -155,6 +156,7 @@
         if ($(".second-js-top").position().top != 0) {
             $("#accordion").attr("style", "max-height: 750px;margin-top: 30px auto 20px;");
         }
+
     });
 </script>
 <!-- 底部区域 -->

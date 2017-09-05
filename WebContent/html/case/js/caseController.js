@@ -16,7 +16,11 @@ function case1Controller($scope, $http, case1Service) {
     $scope.chuliImg = function (showpix) {
         $scope.imgList = showpix.split("(#)");
         return $scope.imgList;
-    }
+    };
+    $scope.chuliImg1 = function (showpix) {
+        $scope.imgList = showpix.split("(#)");
+        return $scope.imgList[0];
+    };
     $scope.updateCase =function (case6) {
         var liStyle = $(".liStyle");
         for(var i=0 ; i < liStyle.length ; i++){
