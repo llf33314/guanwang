@@ -63,14 +63,36 @@ function case1Controller($scope, $http, case1Service) {
             $scope.case5 = $scope.case1List[i+1];
             $scope.busproList =  $scope.case3.buspro;
             $scope.index =  $scope.index-1;
+            var ids=window.setTimeout(hello1,500);
+            $("#accordion").attr("style","max-height: 750px; margin-top: 950px;position: relative;");
+            function hello1(){
+                var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+                if ( scrollTop >($(".footer").position().top-900)){
+                        $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-950)+"px;position: relative;");
+                }else {
+                    $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
+                }
+                window.clearTimeout(ids);
+            }
         }
     };
     $scope.nextPage = function (i){
-        $scope.index =  $scope.index+1;
+            $scope.index =  $scope.index+1;
             $scope.case3 = $scope.case1List[i];
             $scope.case4 = $scope.case1List[i-1];
             $scope.case5 = $scope.case1List[i+1];
             $scope.busproList =  $scope.case3.buspro;
+            var ids=window.setTimeout(hello1,500);
+        $("#accordion").attr("style","max-height: 750px; margin-top: 950px;position: relative;");
+        function hello1(){
+            var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+            if ( scrollTop >($(".footer").position().top-900)){
+                $("#accordion").attr("style","max-height: 750px; margin-top: "+($(".footer").position().top-950)+"px;position: relative;");
+            }else {
+                $("#accordion").attr("style","max-height: 750px;margin-top: -23px;");
+            }
+                window.clearTimeout(ids);
+             }
     };
     $scope.onAAA = function () {
         $("body").show();
