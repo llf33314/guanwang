@@ -368,7 +368,7 @@ body{    font-family: '微软雅黑';}
 100% {opacity: 1;left: 0px;}
 }
 
-@-moz-keyframes zk /* Firefox */
+@-moz-keyframes zk {/* Firefox */
 0%   {opacity: 0; left: 180px;}
 40%   {opacity: 0; left: 180px;}
 100% {opacity: 1;left: 0px;}
@@ -413,7 +413,7 @@ body{    font-family: '微软雅黑';}
 100% {opacity: 1;right: 0px;}
 }
 
-@-moz-keyframes zl /* Firefox */
+@-moz-keyframes zl {/* Firefox */
 0%   {opacity: 0; right: 180px;}
 40%   {opacity: 0; right: 180px;}
 100% {opacity: 1;right: 0px;}
@@ -460,7 +460,7 @@ body{    font-family: '微软雅黑';}
 100% {width: 200px;}
 }
 
-@-moz-keyframes za /* Firefox */
+@-moz-keyframes za {/* Firefox */
 0%   {width: 0px;}
 100% {width: 200px;}
 }
@@ -496,7 +496,7 @@ body{    font-family: '微软雅黑';}
 100% {width: 350px;}
 }
 
-@-moz-keyframes zb /* Firefox */
+@-moz-keyframes zb {/* Firefox */
 0%   {width: 0px;}
 10%  {width: 0px;}
 100% {width: 350px;}
@@ -534,7 +534,7 @@ body{    font-family: '微软雅黑';}
 100% {width: 320px;}
 }
 
-@-moz-keyframes zc /* Firefox */
+@-moz-keyframes zc {/* Firefox */
 0%   {width: 0px;}
 20%  {width: 0px;}
 100% {width: 320px;}
@@ -572,7 +572,7 @@ body{    font-family: '微软雅黑';}
 100% {width: 360px;}
 }
 
-@-moz-keyframes zd /* Firefox */
+@-moz-keyframes zd {/* Firefox */
 0%   {width: 0px;}
 30%  {width: 0px;}
 100% {width: 360px;}
@@ -610,7 +610,7 @@ body{    font-family: '微软雅黑';}
 100% {width: 180px;}
 }
 
-@-moz-keyframes ze /* Firefox */
+@-moz-keyframes ze {/* Firefox */
 0%   {width: 0px;}
 30%  {width: 0px;}
 100% {width: 180px;}
@@ -680,7 +680,7 @@ body{    font-family: '微软雅黑';}
 100% {height: 120px;}
 }
 
-@-moz-keyframes zf /* Firefox */
+@-moz-keyframes zf{ /* Firefox */
 0%   {height: 0px;}
 10%   {height: 0px;}
 100% {height: 120px;}
@@ -717,7 +717,7 @@ body{    font-family: '微软雅黑';}
 100% {height: 120px;}
 }
 
-@-moz-keyframes zg /* Firefox */
+@-moz-keyframes zg {/* Firefox */
 0%   {height: 0px;}
 20%   {height: 0px;}
 100% {height: 120px;}
@@ -754,7 +754,7 @@ body{    font-family: '微软雅黑';}
 100% {height: 120px;}
 }
 
-@-moz-keyframes zh /* Firefox */
+@-moz-keyframes zh {/* Firefox */
 0%   {height: 0px;}
 30%   {height: 0px;}
 100% {height: 120px;}
@@ -799,7 +799,7 @@ body{    font-family: '微软雅黑';}
 100% {height: 20px;width: 20px;}
 }
 
-@-moz-keyframes zj /* Firefox */
+@-moz-keyframes zj {/* Firefox */
 0%   {height: 0;width: 0px;}
 30%   {height: 0;width: 0px;}
 100% {height: 20px;width: 20px;}
@@ -841,7 +841,7 @@ body{    font-family: '微软雅黑';}
 100% {width: 80px;}
 }
 
-@-moz-keyframes zi /* Firefox */
+@-moz-keyframes zi {/* Firefox */
 0%   {width: 0px;}
 30%   {width: 0px;}
 100% {width: 80px;}
@@ -1320,7 +1320,7 @@ canvas{
 100% {width: 1917px;}
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@-moz-keyframes myfirst {/* Firefox */
 0%   {width: 0px;}
 
 100% {width: 1917px;}
