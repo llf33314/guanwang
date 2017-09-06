@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>微信小程序定制开发_小程序第三方开发商_多粉平台</title>
-    <meta name="description" content="我们的团队可根据企业商家的实际需求和行业特点，量身定制出最佳的微信小程序解决方案，助力企业商家移动创意营销新体验。" />
+    <meta name="keywords" content="微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店"/>
+    <meta name="description" content="多粉是国内专业领先的微信第三方开发平台，提供微信小程序、微信商城、微信分销系统、H5游戏等功能开发及代运营服务，全方位智慧行业SaaS ERP解决方案。"/>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="keywords" content="" />
     <meta name="apple-mobile-web-app-capable" content="no" />
