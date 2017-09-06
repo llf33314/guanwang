@@ -114,7 +114,24 @@
     <h2>一键改价，就这么简单</h2>
     <p>遇到顾客砍价、熟客索要友情价怎么办？来店“改价处理”功能帮你解决！商家可自行开启</p>
     <p>改价处理，直接进行一次性改价，改价数据自动同步到系统</p>
-    <img src="../images/ball11.png" style="margin: 50px 0 68px;">
+    <div class="a-call-yi">
+        <div class="a-call-yi-top">
+            <p>改价处理</p>
+            <img src="../images/ball6.png">
+        </div>
+        <ul>
+            <li class="a-call-yi-left">原价格：</li>
+            <li style=" color: #FFB300;">233.10</li>
+        </ul>
+        <ul>
+            <li class="a-call-yi-left">改价金额：</li>
+            <li class="a-call-yi-input">请输入您改价后的金额</li>
+        </ul>
+        <ul>
+            <li class="a-call-yi-left">改价备注：</li>
+            <li class="a-call-yi-input">请输入发票备注</li>
+        </ul>
+    </div>
 </div>
 <div class="a-call-gray">
     <div class="a-call-gray-box">

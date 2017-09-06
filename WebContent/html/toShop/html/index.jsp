@@ -62,7 +62,7 @@
                 <p>小卖部</p>
             </li>
             <li>
-                <a href="/html/applet/html/coreFunction.jsp">
+                <a href="javascript:;">
                 <div class="iconMore">
                     <i></i>
                     <i></i>
@@ -78,7 +78,7 @@
     <h2 style="margin-top: 70px;">还有比这更赞的吗？</h2>
     <p>扫码枪对准条码、编码，“滴”一声，自动识别商品的类型、价格、会员折扣、优惠， 6种</p>
     <p>方式让顾客秒付款……这些场景，来店“前台收银”功能都可以实现，还能根据营销需要自</p>
-    <p>行设置商品优惠活动设置，随时引爆店铺人气！</p>
+    <p>行设置商品优惠活动，随时引爆店铺人气</p>
     <ul class="a-call-fabulous-ul animated">
         <li>
             <img src="../images/call3.png">
@@ -122,7 +122,7 @@
         </li>
         <li id="phone4" class="animated" style="opacity: 0;">
             <img src="../images/call14.png">
-            <p>BOSS端小程序   附近小程序 </p>
+            <p>BOSS端小程序、附近小程序 </p>
         </li>
         <li id="phone5" class="animated" style="opacity: 0;">
             <img src="../images/call15.png">
