@@ -135,7 +135,7 @@
 //        if ( scrollTop < ($(findHs[findHs.length-1]).position().top+80)){
 //            $("#accordion").attr("style","max-height: 750px; margin-top: -23px;");
 //        }
-        if (scrollTop < ($(findHs[1]).position().top-120)){
+        if (scrollTop < ($(findHs[1]).position().top-120 )){
             for(var h=0 ; h < findHa.length ; h++){
                 $(findHa[h]).removeAttr("style");
             }
@@ -152,7 +152,7 @@
             type1 = 1;
         }
 
-        if ($(".second-js-top").position().top != 0) {
+        if ($(".second-js-top").position().top != 0 && scrollTop < ($(".footer").position().top-900)) {
             $("#accordion").attr("style", "max-height: 750px;margin-top: 30px auto 20px;");
         }
 
