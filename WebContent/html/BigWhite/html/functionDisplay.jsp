@@ -90,7 +90,7 @@
 		          </div>
 		          <div class="s-b-right animated" style="opacity: 0;">
 		               <p class="text-center mb30 c_yellow">扫码入库、同步线上药店，轻松管理库存</p>
-		               <p class="text c_white">智慧社区门诊医疗云ERP系统，采用扫码的方式轻松完成药品入库；而且门诊可以选择是否将数据实时同步到线上药店，药品库存告急时系统将自动提示，帮助社区门诊实现药品库存的轻松管理</p>
+		               <p class="text c_white">智慧社区门诊医疗云ERP系统，采用扫码的方式轻松完成药品入库，而且门诊可以选择是否将数据实时同步到线上药店；药品库存告急时系统将自动提示，帮助社区门诊实现药品库存的轻松管理</p>
 		          </div>	     
 		     </div>		
 		</div>
