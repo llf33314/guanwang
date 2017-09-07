@@ -163,7 +163,7 @@
             <div class="a-call-hardware-show2" style="display: none;">
                 <img src="../images/call22.png">
             </div>
-            <p>摇一摇</p>
+            <p>来电眼</p>
         </li>
         <li class="a-call-hardware-li">
             <div class="a-call-hardware-show1">
