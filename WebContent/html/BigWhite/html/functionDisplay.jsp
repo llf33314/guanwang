@@ -23,7 +23,7 @@
 			<div class="c-left fl">
 				<div class="cl-text mated1 infinite fadeInUp">
 					<p class="c_blue text-center mb30">智能化前台 预约挂号一下子就搞定</p>
-				    <p class="text"> 智能化前台帮助工作人员快速完成挂号、预约等操作，大大缩短了就医者排队等待的时间。而且还支持现金、银联支付、扫码支付等多种支付方式，结算时自动核销优惠券、会员积分，提高社区医疗门诊的运营效率</p>
+				    <p class="text"> 智能化前台帮助工作人员快速完成挂号、预约等操作，大大缩短了就医者排队等待的时间，而且还支持现金、银联支付、扫码支付等多种支付方式，结算时自动核销优惠券、会员积分，提高社区医疗门诊的运营效率</p>
 				</div>
 				
 			</div>
@@ -58,7 +58,7 @@
 			<div class="l-left fl texts animated"  style="opacity: 0;" id="gn2">
 				<div class="sl-text" style="z-index: 20;">
 					<p class="c_blue text-center mb30">电子化检验报告线上实时查看、无需排队</p>
-				    <p class="text">大白云ERP系统直接连通硬件设备，结果出来后系统自动将各类的化验报告、检验单的相关数据同步到ERP系统。医生、患者可直接在PC端/手机端查看，无需排队，帮助患者节省大量的就医时间成本</p>
+				    <p class="text">大白云ERP系统直接连通硬件设备，结果出来后系统自动将各类的化验报告、检验单的相关数据同步到ERP系统，医生、患者可直接在PC端/手机端查看，无需排队，帮助患者节省大量的就医时间成本</p>
 				</div>
 			</div>
 			<div class="l-right fr">
@@ -90,7 +90,7 @@
 		          </div>
 		          <div class="s-b-right animated" style="opacity: 0;">
 		               <p class="text-center mb30 c_yellow">扫码入库、同步线上药店，轻松管理库存</p>
-		               <p class="text c_white">智慧社区门诊医疗云ERP系统，采用扫码的方式轻松完成药品入库，而且门诊可以选择是否将数据实时同步到线上药店。药品库存告急时系统将自动提示，帮助社区门诊实现药品库存的轻松管理</p>
+		               <p class="text c_white">智慧社区门诊医疗云ERP系统，采用扫码的方式轻松完成药品入库，而且门诊可以选择是否将数据实时同步到线上药店，药品库存告急时系统将自动提示，帮助社区门诊实现药品库存的轻松管理</p>
 		          </div>	     
 		     </div>		
 		</div>
@@ -109,8 +109,8 @@
 		    <div class="mobility-box animated" style="opacity: 0;">
 		         <div class="mobility-top">
 				     <p class="c_blue text-center mb30">移动化应用工具 </p>
-				     <p class="text">智慧医疗系统创新性地将现代移动终端作为切入点，将手机的移动便携特性充分应用到就医流程中。</p>
-				     <p class="text">减少了许多重复的流程，为患者节省就医时需要等待的时间，提高就医体验。同时还减轻医护人员的工作量，提升医院的运营效率。</p>
+				     <p class="text">智慧医疗系统创新性地将现代移动终端作为切入点，将手机的移动便携特性充分应用到就医流程中，</p>
+				     <p class="text">减少了许多重复的流程，为患者节省就医时需要等待的时间，提高就医体验，同时还减轻医护人员的工作量，提升医院的运营效率</p>
 			     </div>
 			     <div class="mobility-bottom">
 			          <img src="../images/02_14.png" id="mo1" class="animated" style="opacity: 0;"/>
@@ -130,7 +130,7 @@
 		                <div class="applet-box" >
 					         <div class="app-b-top animated" style="opacity: 0;">
 					               <p class="text c_white">院长 ：完善的数据统计、财务报表直观呈现，数据实时同步，</p>
-					               <p class="text c_white">让管理者随时查看运营情况。</p>
+					               <p class="text c_white">让管理者随时查看运营情况</p>
 					          </div>
 					          <div class="app-b-bottom">
 					              <img src="../images/02_19.png" id="app1" class="animated" style="opacity: 0;"/>
@@ -144,7 +144,7 @@
 		                <div class="applet-box" >
 					         <div class="app-b-top animated" style="opacity: 0;">
 					               <p class="text c_white">医生 ：实时查看预约列表，获取患者的诊后反馈情况，在线回答患者的问题，</p>
-					               <p class="text c_white">为患者提供专业的建议。</p>
+					               <p class="text c_white">为患者提供专业的建议</p>
 					          </div>
 					          <div class="app-b-bottom">
 					              <img src="../images/02_19_2.png" id="app1" class="animated" style="opacity: 0;"/>
@@ -159,7 +159,7 @@
 			            <div class="applet-box" >
 						         <div class="app-b-top animated" style="opacity: 0;">
 						               <p class="text c_white">粉丝 ：打开小程序即可办理就诊卡、预约挂号、缴费等业务，快速便捷、</p>
-						               <p class="text c_white">节省大量的时间。而且还可以线上直接查看个人就诊记录，线上咨询医生，清晰掌握自己的健康状态。</p>
+						               <p class="text c_white">节省大量的时间，而且还可以线上直接查看个人就诊记录，线上咨询医生，清晰掌握自己的健康状态</p>
 						          </div>
 						          <div class="app-b-bottom">
 						              <img src="../images/02_19_3.png" id="app1" class="animated" style="opacity: 0;"/>

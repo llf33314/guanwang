@@ -20,7 +20,7 @@
 			<h1>来电眼</h1>
 			<p>散客还是会员来电，系统一眼便知，</p>
 			<p>做既懂营销又能识别身份的店铺</p>
-			<p style="margin: 5px 0;">零售价：<span style="font-size: 24px;font-weight: bold;color: #2d8efe">￥399</span></p>
+			<p style="margin: 5px 0;">零售价：<span style="font-size: 24px;font-weight: bold;color: #2d8efe">￥260</span></p>
 			<div class="a-hw-gm-zz">
 				<div id="a-hw-sm-box" class="a-hw-sm-box">
 					<img src="../images/hw32.png">

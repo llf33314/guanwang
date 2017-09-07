@@ -35,7 +35,7 @@
 	  <div class="big-introduce animated">
 	       <div class="big-introduce-box">
 	            <div class="big-introduce-box-left">
-		            <p class="mated2 infinite fadeInLeft"><span id="lin">传统</span>的社区门诊医疗中，由于缺乏高效的运营管理系统，导致门诊服务效率无法提高、患者就医体验不佳。而且缺乏连接移动互联网的入口，无法进行线上营销推广，无法有效开展线上药品销售</p>
+		            <p class="mated2 infinite fadeInLeft"><span id="lin">传统</span>的社区门诊医疗中，由于缺乏高效的运营管理系统，导致门诊服务效率无法提高、患者就医体验不佳，而且缺乏连接移动互联网的入口，无法进行线上营销推广，无法有效开展线上药品销售</p>
 		            <img src="../images/big5.png" style="margin-top: 26%;" class="mated3 infinite bounceInDown"/>
 		            <img src="../images/big5-1.png" style="position: absolute;bottom: 78px;" class="mated3 infinite bounceInLeft"/>
 		            <img src="../images/big5-2.png" style="position: absolute;bottom: 78px;left: 251px;"class="mated3 infinite bounceInUp" />
