@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>来店</title>
+    <title>翼店</title>
     <link rel="stylesheet" type="text/css" href="../css/call.css" />
     <link rel="stylesheet" type="text/css" href="/html/common/publicResource/font-second/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/common/publicResource/css/animate.css" />
@@ -15,7 +15,7 @@
     <div class="wxst-floor01">
         <div class="left">
             <a href="/html/toShop/html/index.jsp">
-                <h1>来店</h1>
+                <h1>翼店</h1>
                 <h2 style="color: #FFB300;"><span>.</span>智慧商超</h2>
             </a>
             <a href="/"><h3 class="return">返回主站</h3></a>
@@ -31,8 +31,8 @@
     </div>
 </div>
 <div class="a-call-banner">
-    <h2>实体门店都选“来店”</h2>
-    <p>来店专门针对线下商家零售场景使用；操作简易能懂，兼容连锁扩张；</p>
+    <h2>实体门店都选“翼店”</h2>
+    <p>翼店专门针对线下商家零售场景使用；操作简易能懂，兼容连锁扩张；</p>
     <p>支持跨业扩张，会员、优惠券通存通兑</p>
     <img src="../images/call2.png">
 </div>
@@ -77,7 +77,7 @@
 <div class="a-call-fabulous">
     <h2 style="margin-top: 70px;">还有比这更赞的吗？</h2>
     <p>扫码枪对准条码、编码，“滴”一声，自动识别商品的类型、价格、会员折扣、优惠， 6种</p>
-    <p>方式让顾客秒付款……这些场景，来店“前台收银”功能都可以实现，还能根据营销需要自</p>
+    <p>方式让顾客秒付款……这些场景，翼店“前台收银”功能都可以实现，还能根据营销需要自</p>
     <p>行设置商品优惠活动，随时引爆店铺人气</p>
     <ul class="a-call-fabulous-ul animated">
         <li>
@@ -105,7 +105,7 @@
 </div>
 <div class="a-call-gray-box">
     <h2>我们有完整的解决方案，让店铺生意更火爆</h2>
-    <p>从线上商城到线下门店，从智能前台到会员系统，从库存管理到数据分析，来店，为商家打</p>
+    <p>从线上商城到线下门店，从智能前台到会员系统，从库存管理到数据分析，翼店，为商家打</p>
     <p>造一体化解决方案，让你的店火起来！</p>
     <ul class="a-call-phone animated" style="opacity: 0;">
         <li id="phone1" class="animated" style="opacity: 0;">
@@ -144,7 +144,7 @@
 </div>
 <div class="a-call-gray-box">
     <h2>软件+硬件的完美结合</h2>
-    <p>来店ERP还能搭配多粉硬件“来电眼”、“POS机”、“魔盒”使用，一眼识别散客/会员</p>
+    <p>翼店ERP还能搭配多粉硬件“来电眼”、“POS机”、“魔盒”使用，一眼识别散客/会员</p>
     <p>来电，订单自动推送到POS机、魔盒，实现门店快捷收银</p>
     <ul class="a-call-hardware">
         <li class="a-call-hardware-li">

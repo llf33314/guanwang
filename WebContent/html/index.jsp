@@ -302,7 +302,7 @@
         </li>
         <li class="a-sy-programme-box pro-box">
             <img src="../images/index/as-pro7.png">
-            <span>来店</span>
+            <span>翼店</span>
             <p>智慧商超解决方案</p>
             <a href="/html/toShop/html/index.jsp">更多</a>
         </li>

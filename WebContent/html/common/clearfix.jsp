@@ -136,7 +136,7 @@
                         <div class="a-pro-a"><i class="iconfont in10">&#xe61e;</i></div>
                         <a href="/html/toShop/html/index.jsp">
 		                     <span>
-		                         <h3>来店</h3>
+		                         <h3>翼店</h3>
 		                         <p>智慧商超解决方案</p>
 		                     </span>
                         </a>

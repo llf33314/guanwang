@@ -87,7 +87,7 @@
     <ul class="a-floor-5-box">
         <li>
             <i class="iconfont floor1">&#xe78b;</i>
-            <p>来店</p>
+            <p>翼店</p>
         </li>
         <li>
             <i class="iconfont floor1">&#xe72f;</i>

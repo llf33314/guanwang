@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>来店</title>
+    <title>翼店</title>
     <link rel="stylesheet" type="text/css" href="../css/call.css" />
 </head>
 <body>
@@ -12,7 +12,7 @@
     <div class="wxst-floor01">
         <div class="left">
             <a href="/html/toShop/html/index.jsp">
-                <h1>来店</h1>
+                <h1>翼店</h1>
                 <h2 style="color: #FFB300;"><span>.</span>智慧商超</h2>
             </a>
             <a href="/"><h3 class="return">返回主站</h3></a>
@@ -28,7 +28,7 @@
     </div>
 </div>
 <div class="a-call-banner2">
-    <h2>来店</h2>
+    <h2>翼店</h2>
     <p> 一次性满足你所有经营愿望</p>
     <img src="../images/ball2.png">
     <a href="javascript:;" class="a-call-play"><img src="../images/ball3.png"></a>
@@ -36,7 +36,7 @@
 <div class="a-call-gray">
     <div class="a-call-gray-box">
         <h2>智慧零售的超级神器</h2>
-        <p>面对那些没有条码的商品，“来店”还可以为你即时进行编码打印，精准无误一秒搞定</p>
+        <p>面对那些没有条码的商品，“翼店”还可以为你即时进行编码打印，精准无误一秒搞定</p>
         <ul class="a-call-artifact">
             <li>
                 <div class="a-call-at-top">
@@ -66,7 +66,7 @@
 </div>
 <div class="a-call-orange2">
     <h2>试想一下，你的收银可以有多快？</h2>
-    <p>商场如战场，争分夺秒才更有胜算！来店拥有几十个方便实用的快捷键，让你的收银比别人</p>
+    <p>商场如战场，争分夺秒才更有胜算！翼店拥有几十个方便实用的快捷键，让你的收银比别人</p>
     <p>更快，生意飞一般地好起来</p>
     <ul class="a-call-fast">
         <li>未付订单（H）</li>
@@ -112,7 +112,7 @@
 </div>
 <div class="a-call-gray-box">
     <h2>一键改价，就这么简单</h2>
-    <p>遇到顾客砍价、熟客索要友情价怎么办？来店“改价处理”功能帮你解决！商家可自行开启</p>
+    <p>遇到顾客砍价、熟客索要友情价怎么办？翼店“改价处理”功能帮你解决！商家可自行开启</p>
     <p>改价处理，直接进行一次性改价，改价数据自动同步到系统</p>
     <div class="a-call-yi">
         <div class="a-call-yi-top">
@@ -135,7 +135,7 @@
 </div>
 <div class="a-call-gray">
     <div class="a-call-gray-box">
-        <h2>他们都在用来店</h2>
+        <h2>他们都在用翼店</h2>
     </div>
     <ul class="a-ag-type-ul">
         <li class="a-ag-type-ul-li">
@@ -145,7 +145,7 @@
                 </div>
                 <div class="a-ag-type-two">
                     <h4>东方宝泰</h4>
-                    <p>东方宝泰购物广场使用“来店”后，前台收银比以前快多了！十几个快捷键，还有扫码枪、POS机、魔盒，还能为无码商品即时打印商品编码，工作效率大大提高</p>
+                    <p>东方宝泰购物广场使用“翼店”后，前台收银比以前快多了！十几个快捷键，还有扫码枪、POS机、魔盒，还能为无码商品即时打印商品编码，工作效率大大提高</p>
                 </div>
             </div>
         </li>
@@ -156,7 +156,7 @@
                 </div>
                 <div class="a-ag-type-two">
                     <h4>雅诗丽服装城</h4>
-                    <p>使用“来店”后，雅诗丽服装城能够实时掌握商品库存情况，在线调拨商品，运营效率不断得到提高，在短短半年内实现了扩大经营规模的目标</p>
+                    <p>使用“翼店”后，雅诗丽服装城能够实时掌握商品库存情况，在线调拨商品，运营效率不断得到提高，在短短半年内实现了扩大经营规模的目标</p>
                 </div>
             </div>
         </li>
@@ -167,7 +167,7 @@
                 </div>
                 <div class="a-ag-type-two">
                     <h4>韩国小铺</h4>
-                    <p>韩国小铺因其特有的韩国休闲零食而出名，通过“来店”轻松实现了前台和库存系统的实时连接，老板随时都可了解销售热度及商品库存，及时补货</p>
+                    <p>韩国小铺因其特有的韩国休闲零食而出名，通过“翼店”轻松实现了前台和库存系统的实时连接，老板随时都可了解销售热度及商品库存，及时补货</p>
                 </div>
             </div>
         </li>

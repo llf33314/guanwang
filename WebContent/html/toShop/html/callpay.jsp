@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>来店</title>
+    <title>翼店</title>
     <link rel="stylesheet" href="../css/cpay.css" />
     <script src="../js/gm/jquery-2.2.2.min.js"></script>
     <script src="/js/webSite.js"></script>
@@ -16,7 +16,7 @@
             <div class="wxst-floor01">
                 <div class="left">
                     <a href="/html/toShop/html/index.jsp">
-                        <h1>来店</h1>
+                        <h1>翼店</h1>
                         <h2><span>.</span>智慧商超</h2>
                     </a>
                     <a href="/"><h3 class="return">返回主站</h3></a>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g1.png" /></span>来店ERP单店版 </li>
+                            <li><span><img src="../images/g1.png" /></span>翼店ERP单店版 </li>
                             <li><span><img src="../images/g1.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g1.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g1.png" /></span>公众号管理 </li>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g2.png" /></span>来店ERP连锁版（3店）</li>
+                            <li><span><img src="../images/g2.png" /></span>翼店ERP连锁版（3店）</li>
                             <li><span><img src="../images/g2.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g2.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g2.png" /></span>公众号管理 </li>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g3.png" /></span>来店ERP连锁版（5店） </li>
+                            <li><span><img src="../images/g3.png" /></span>翼店ERP连锁版（5店） </li>
                             <li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g3.png" /></span>公众号管理 </li>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g3.png" /></span>来店ERP连锁版（5店） </li>
+                            <li><span><img src="../images/g3.png" /></span>翼店ERP连锁版（5店） </li>
                             <li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g3.png" /></span>公众号管理 </li>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g4.png" /></span>来店ERP连锁版（8店） </li>
+                            <li><span><img src="../images/g4.png" /></span>翼店ERP连锁版（8店） </li>
                             <li><span><img src="../images/g4.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g4.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g4.png" /></span>公众号管理 </li>
