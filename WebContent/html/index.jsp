@@ -425,6 +425,28 @@
             $('.ri1').hide();
         }
     });
+
+    var qqNum = "2853873362";
+    function showClick(mei){
+        $.ajax({
+            type: 'POST',
+            url: "/article/html/getExtendqq",
+            async : false,
+            data: {mei:mei},
+            success: function(data){
+                var d = eval('('+data+')');
+                /* console.log(d); */
+                if(d.status != 0){
+                    qqNum = d.qqNum;
+                }
+                window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");
+            },
+            error: function(){
+                window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");
+            }
+        });
+
+    };
 </script>
 </body>
 </html>

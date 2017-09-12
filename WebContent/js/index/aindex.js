@@ -292,7 +292,7 @@ function mealSet(){
         +'<div class="top-wrap"><div class="price"><span>5家门店</span></div>'
         /*+'<div class="xjb">性价比最高</div>'*/
         +'<div class="desc"><span>高级版<i>*</i></span>全程人工协助</div>'
-        +'<a href="" class="base_abtn">立即咨询</a>'
+        +'<a href="javascript:void(0);" onClick="showClick(2)" class="base_abtn">立即咨询</a>'
         +'</div><div class="cont-wrap"><ul class="clearfix">'
         +'<div class="show">'
         +'<div class="show1"><span>小程序（通用版）</span></div>'
@@ -341,7 +341,7 @@ function mealSet(){
         +'<div class="icon-wrap"><span>至尊版</span></div>'
         +'<div class="top-wrap"><div class="price"><span>8家门店</span></div>'
         +'<div class="desc"><span>至尊版<i>*</i></span>全程人工协助</div>'
-        +'<a href="" class="base_abtn">立即咨询</a>'
+        +'<a href="javascript:void(0);" onClick="showClick(2)" class="base_abtn">立即咨询</a>'
         +'</div><div class="cont-wrap"><ul class="clearfix">'
         +'<div class="show">'
         +'<div class="show1"><span>小程序（通用版）</span></div>'

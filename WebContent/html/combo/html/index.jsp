@@ -44,8 +44,8 @@
                     </div>
                 </div>
                 <div class="a-pack-edition-bottom">
-                    <a href=""  class="a-pack-experience">免费体验</a>
-                    <span><a href="">立即咨询</a> </span>
+                    <a href="http://duofriend.com/user/toregister.do"  class="a-pack-experience">免费体验</a>
+                    <span><a href="javascript:void(0);" onClick="showClick(2);">立即咨询</a> </span>
                 </div>
             </div>
         </li>
@@ -109,8 +109,8 @@
                     </div>
                 </div>
                 <div class="a-pack-edition-bottom">
-                    <a href=""  class="a-pack-experience">免费体验</a>
-                    <span><a href="">立即咨询</a> </span>
+                    <a href="http://duofriend.com/user/toregister.do"  class="a-pack-experience">免费体验</a>
+                    <span><a href="javascript:void(0);" onClick="showClick(2);">立即咨询</a> </span>
                 </div>
             </div>
         </li>
@@ -194,8 +194,8 @@
                     </div>
                 </div>
                 <div class="a-pack-edition-bottom">
-                    <a href=""  class="a-pack-experience">免费体验</a>
-                    <span><a href="">立即咨询</a> </span>
+                    <a href="http://duofriend.com/user/toregister.do"  class="a-pack-experience">免费体验</a>
+                    <span><a href="javascript:void(0);" onClick="showClick(2);">立即咨询</a> </span>
                 </div>
             </div>
         </li>
@@ -279,8 +279,8 @@
                     </div>
                 </div>
                 <div class="a-pack-edition-bottom">
-                    <a href=""  class="a-pack-experience">免费体验</a>
-                    <span><a href="">立即咨询</a> </span>
+                    <a href="http://duofriend.com/user/toregister.do"  class="a-pack-experience">免费体验</a>
+                    <span><a href="javascript:void(0);" onClick="showClick(2);">立即咨询</a> </span>
                 </div>
             </div>
         </li>
@@ -368,8 +368,8 @@
                     </div>
                 </div>
                 <div class="a-pack-edition-bottom">
-                    <a href=""  class="a-pack-experience">免费体验</a>
-                    <span><a href="">立即咨询</a> </span>
+                    <a href="http://duofriend.com/user/toregister.do"  class="a-pack-experience">免费体验</a>
+                    <span><a href="javascript:void(0);" onClick="showClick(2);">立即咨询</a> </span>
                 </div>
             </div>
         </li>
@@ -457,8 +457,8 @@
                     </div>
                 </div>
                 <div class="a-pack-edition-bottom">
-                    <a href=""  class="a-pack-experience">免费体验</a>
-                    <span><a href="">立即咨询</a> </span>
+                    <a href="http://duofriend.com/user/toregister.do"  class="a-pack-experience">免费体验</a>
+                    <span><a href="javascript:void(0);" onClick="showClick(2);">立即咨询</a> </span>
                 </div>
             </div>
         </li>
@@ -470,6 +470,27 @@
 <%@include file="/html/common/footer.jsp" %>
 
 <script>
+    var qqNum = "2853873362";
+    function showClick(mei){
+        $.ajax({
+            type: 'POST',
+            url: "/article/html/getExtendqq",
+            async : false,
+            data: {mei:mei},
+            success: function(data){
+                var d = eval('('+data+')');
+                /* console.log(d); */
+                if(d.status != 0){
+                    qqNum = d.qqNum;
+                }
+                window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");
+            },
+            error: function(){
+                window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");
+            }
+        });
+
+    };
     $('.show').on('mouseenter', function() {
     $(this).find('.show1').show();
     $(this).find('.show2').show();
