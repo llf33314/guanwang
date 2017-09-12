@@ -140,7 +140,7 @@ div.canvas-content{
 .package-wrap .title-wrap h2{font-size: 24px;text-align: center;color: #000}
 .package-wrap .title-wrap a{position: absolute;top: 50%;left: 50%;margin: -8px 0 0 115px;font-size: 15px;color: #37a2f4;}
 .package-wrap .content-wrap{width: 1135px;height: 880px;margin: 100px auto 80px;text-align: center;}
-.package-wrap .item-wrap{position: relative;float: left;width: 281px;height: 865px;border:solid 1px #d2d0c6;}
+.package-wrap .item-wrap{position: relative;float: left;width: 281px;height: 865px;border:solid 1px #d2d0c6;background: #fff;}
 .package-wrap .item-wrap:last-child{border-right: solid 1px #d2d0c6;}
 .package-wrap .item-wrap .item-wrap-main{position: absolute;width: 281px;height: 865px;transform: translateX(0px) translateY(0px);background-color: #fff;}
 .package-wrap .item-wrap .icon-wrap{position: absolute; top: 0;left: 0; width: 140px; height: 140px; overflow: hidden;}
@@ -153,7 +153,7 @@ div.canvas-content{
 .package-wrap .item-wrap .top-wrap .desc span i{font-style: normal;color: #666;font-size: 14px;margin: 0 5px;}
 .package-wrap .item-wrap .top-wrap a{display: inline-block;width: 120px;height: 36px;line-height: 36px;background-color: #37a2f4;border-radius: 6px;}
 .package-wrap .item-wrap .top-wrap .xjb{display: none}
-.package-wrap .item-wrap .cont-wrap{position: relative;height: 670px;width: 100%;background: #fff;}
+.package-wrap .item-wrap .cont-wrap{position: relative;height: 720px;width: 100%;background: #fff;}
 .package-wrap .item-wrap .cont-wrap ul{height: 600px;overflow: hidden;text-align: left;font-size: 14px;color: #000;line-height: 1.5;z-index: 1;padding: 20px 30px 0 30px;}
 .package-wrap .item-wrap .cont-wrap ul li{margin-bottom: 10px;/* white-space: nowrap; */ overflow: hidden;/* text-align: center */;}
 .package-wrap .item-wrap .cont-wrap ul li span{padding-right: 30px;}
