@@ -11,7 +11,7 @@
 			</div>
 			<div class="sj-top-service">
 				<a href="http://duofriend.com/user/toregister.do">免费体验</a> <a href="javascript:void(0);"
-					class="sj-top-service-login">登录</a> <a href="/html/newCombo.jsp">购买</a>
+					class="sj-top-service-login">登录</a> <a href="/html/combo/html/index.jsp">购买</a>
 			</div>
 		</div>
 	</div>
