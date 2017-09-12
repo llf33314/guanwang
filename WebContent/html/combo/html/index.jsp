@@ -311,7 +311,7 @@
                         <div class="show2" style="display: none;"><p>零成本创建自己的会员管理体系，会员卡、储值、积分、粉币等数据实时互通，门店网店全部通用</p></div>
                     </div>
                     <div class="show">
-                        <div class="show1"><p>微商城（营销版+商城小程序）</p></div>
+                        <div class="show1"><p>微商城（旗舰版+商城小程序）</p></div>
                         <div class="show2" style="display: none;"><p>包含基础商城、积分商城以及微商城小程序三大模块，提供团购、秒杀、分销、预售等7款拓展应用</p></div>
                     </div>
                     <div class="show">
@@ -400,7 +400,7 @@
                         <div class="show2" style="display: none;"><p>零成本创建自己的会员管理体系，会员卡、储值、积分、粉币等数据实时互通，门店网店全部通用</p></div>
                     </div>
                     <div class="show">
-                        <div class="show1"><p>微商城（营销版+商城小程序）</p></div>
+                        <div class="show1"><p>微商城（旗舰版+商城小程序）</p></div>
                         <div class="show2" style="display: none;"><p>包含基础商城、积分商城以及微商城小程序三大模块，提供团购、秒杀、分销、预售等8款拓展应用</p></div>
                     </div>
                     <div class="show">
