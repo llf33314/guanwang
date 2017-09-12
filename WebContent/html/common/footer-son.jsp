@@ -14,11 +14,14 @@
 		height: 212px;
 		width: 100%;
 		margin: 0 auto;
-		background: #f8f8f8;
+		background: #333;
 		bottom: 0;
 		display: block;
 		position: relative;
 		z-index: 1;
+	}
+	.gt-foot a{
+		text-decoration: none;
 	}
 	.gt-foot .gt-foot-box ul {
 		width: 700px;
@@ -37,20 +40,20 @@
 		text-align: left;
 		margin-bottom: 25px;
 		list-style-type: none;
-		border-right: 1px solid #393939;
+		border-right: 1px solid #fff;
 	}
 	.gt-foot .gt-foot-box ul li a {
-		color: #393939;
+		color: #fff;
 		font-size: 14px;
 		text-decoration: none;
 	}
 	.gt-foot .gt-foot-box ul li a:hover {
-		color: #000;
+		color: #fff;
 	}
 	.gt-foot h4 {
 		font-size: 14px;
 		line-height: 50px;
-		color: #393939;
+		color: #fff;
 		font-weight: normal;
 	}
 	.gt-foot .gt-foot-body {
@@ -82,10 +85,13 @@
 		</ul>
 	</div>
 	<span class="gt-foot-body">
-		<h4>服务热线:400 889 4522</h4>
-		<p>Copyright © 2013-2016 duofriend. All Rights Reserved.
-			粤ICP备15016183号-3 经营许可证编号：全国B2-20160778 粤B2-20150533</p>
-		<p>广东谷通科技有限公司</p>
+		<h4>服务热线:&nbsp;&nbsp;400&nbsp; 889 &nbsp;4522</h4>
+		<div class="copyright tc" style="font-size: 12px; color: #6E6F6F;">
+              <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44130202000473" target="_blank" style="color: #6E6F6F;">粤公网安备 44130202000473号</a>&nbsp;&nbsp;&nbsp;<img src="/images/pafoot.png" style="width: 18px;">&nbsp;&nbsp;
+             粤ICP备15016183号-3&nbsp;&nbsp;<span class="gt_tck" data-url="${imageUrl}/xkz1.jpg" data-zoom="400,568">经营许可证编号：全国B2-20160778</span>&nbsp;&nbsp;&nbsp;<span class="gt_tck" data-url="${imageUrl}/xkz2.jpg" data-zoom="400,577">粤B2-20150533</span><br/>
+             Copyright © 2013-2017 duofriend. All Rights Reserved.  广东谷通科技有限公司<br/>
+              <span class="gt_tck" data-url="${imageUrl}/xkz3.jpg" data-zoom="600,380">法律顾问</span>
+         </div>
 	</span>
 </div>
 
