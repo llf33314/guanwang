@@ -1,0 +1,77 @@
+body{color:#333;font-family: "微软雅黑";}
+*{padding:0;margin:0;}
+li{list-style: none;}
+a{text-decoration:none;color:#333;}
+
+.a-package{
+    background-image: url(../images/pick1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 246px;
+    text-align: center;
+    line-height: 246px;
+    color: #fff;
+}
+.a-package h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+.a-package-box{
+    width: 1112px;
+    margin: 50px auto 100px;
+}
+.a-package-box ul li{
+    width: 327px;
+    height: 900px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 20px;
+}
+.a-pack-edition{width: 327px;height: 824px;border-radius: 5px;position: relative; }
+.a-pack-edition:hover{width: 327px;height: 880px;border-radius: 5px; }
+.a-pack-edition-top{height:121px;line-height: 121px;font-size: 26px;color: #fff;text-align: center; width: 327px;/*border-top-left-radius: 5px;border-top-right-radius: 5px; */}
+.a-pack-edition .a-pack-edition-box{width: 90%;margin: 25px auto;font-size: 14px;color: #000;line-height: 2;height: 540px;  }
+.a-pack-edition-bottom{position: absolute;width: 100%;bottom: 17px;}
+.a-pack-experience{ position: absolute;bottom: 100px;right: 19px;}
+.a-pack-edition-bottom span{width: 289px;height: 40px;display: inline-block;border-radius: 5px;text-align: center;line-height: 40px;font-size: 16px;position: absolute;left: 50%;margin-left: -145px;bottom: 22px; }
+.a-pack-edition-bottom span a{color:#fff;}
+.show2{font-size: 12px;font-weight: 100;line-height: 1.6; }
+.show2 p{padding: 5px 0;}
+
+.a-package-box ul li:nth-child(1)  .a-pack-edition{box-shadow: rgb(199, 242, 210) 0px 0px 20px;border: 1px solid #37d25c;  }
+.a-package-box ul li:nth-child(1)  .a-pack-edition-top{ background: #37D25C;}
+.a-package-box ul li:nth-child(1)  .a-pack-experience{color: #37D15B; }
+.a-package-box ul li:nth-child(1)  .a-pack-edition-bottom span{background: #37D15B;}
+.a-package-box ul li:nth-child(1) .show2{color: #37D15B; }
+
+.a-package-box ul li:nth-child(2)  .a-pack-edition{box-shadow: rgb(255, 241, 184) 0px 0px 20px; border: 1px solid #ffb010; }
+.a-package-box ul li:nth-child(2)  .a-pack-edition-top{ background: #FFCB00;}
+.a-package-box ul li:nth-child(2)  .a-pack-experience{color: #FFCB00; }
+.a-package-box ul li:nth-child(2)  .a-pack-edition-bottom span{background: #FFCB00;}
+.a-package-box ul li:nth-child(2) .show2{color: #FFCB00; }
+
+.a-package-box ul li:nth-child(3)  .a-pack-edition{box-shadow: rgb(197, 223, 254) 0px 0px 20px; border: 1px solid #2d8dfd; }
+.a-package-box ul li:nth-child(3)  .a-pack-edition-top{ background: #2D8DFD;}
+.a-package-box ul li:nth-child(3)  .a-pack-experience{color: #2D8DFD; }
+.a-package-box ul li:nth-child(3)  .a-pack-edition-bottom span{background: #2D8DFD;}
+.a-package-box ul li:nth-child(3) .show2{color: #2D8DFD; }
+
+.a-package-box ul li:nth-child(4)  .a-pack-edition{box-shadow: rgb(255, 233, 188) 0px 0px 20px; border: 1px solid #ffb010; }
+.a-package-box ul li:nth-child(4)  .a-pack-edition-top{ background: #FFAF0F;}
+.a-package-box ul li:nth-child(4)  .a-pack-experience{color: #FFAF0F; }
+.a-package-box ul li:nth-child(4)  .a-pack-edition-bottom span{background: #FFAF0F;}
+.a-package-box ul li:nth-child(4) .show2{color: #FFAF0F; }
+
+.a-package-box ul li:nth-child(5)  .a-pack-edition{box-shadow: rgb(221, 209, 248) 0px 0px 20px; border: 1px solid #855ae7; }
+.a-package-box ul li:nth-child(5)  .a-pack-edition-top{ background: #8559E7;}
+.a-package-box ul li:nth-child(5)  .a-pack-experience{color: #8559E7; }
+.a-package-box ul li:nth-child(5)  .a-pack-edition-bottom span{background: #8559E7;}
+.a-package-box ul li:nth-child(5) .show2{color: #8559E7; }
+
+.a-package-box ul li:nth-child(6)  .a-pack-edition{box-shadow: rgb(194, 214, 255) 0px 0px 20px; border: 1px solid #256dff; }
+.a-package-box ul li:nth-child(6)  .a-pack-edition-top{ background: #256DFF;}
+.a-package-box ul li:nth-child(6)  .a-pack-experience{color: #256DFF; }
+.a-package-box ul li:nth-child(6)  .a-pack-edition-bottom span{background:#256DFF;}
+.a-package-box ul li:nth-child(6) .show2{color: #256DFF; }
+

@@ -178,7 +178,7 @@ function mealSet(){
 		 }
 		 h += '</ul>'
 		 +'</div>'
-		 +'<div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+		 +'<div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
 		 +'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div>'
 		 +'</div></div>';
 		 count++;
@@ -235,7 +235,7 @@ function mealSet(){
         +'<div class="show1"><span>来电眼（不含硬件）</span></div>'
         +'<div class="show2" style="display: none;"><p>系统自动识别来电者是散客还是会员，帮助商家抓住每一个客户</p></div>'
         +'</div>'
-        +'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+        +'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
         +'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>'
         +'<div class="item-wrap">'
         +'<div class="item-wrap-main">'
@@ -284,7 +284,7 @@ function mealSet(){
         +'<div class="show1"><span>来电眼（不含硬件）</span></div>'
         +'<div class="show2" style="display: none;"><p>系统自动识别来电者是散客还是会员，帮助商家抓住每一个客户</p></div>'
         +'</div>'
-        +'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+        +'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
         +'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>'
         +'<div class="item-wrap">'
         +'<div class="item-wrap-main">'
@@ -334,7 +334,7 @@ function mealSet(){
         +'<div class="show1"><span>大数据</span></div>'
         +'<div class="show2" style="display: none;"><p>营业数据实时统计，大数据自动分析顾客消费行为、习惯，帮助商家快速制定营销方案</p></div>'
         +'</div>'
-        +'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+        +'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
         +'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>'
         +'<div class="item-wrap">'
         +'<div class="item-wrap-main">'
@@ -383,7 +383,7 @@ function mealSet(){
         +'<div class="show1"><span>大数据</span></div>'
         +'<div class="show2" style="display: none;"><p>营业数据实时统计，大数据自动分析顾客消费行为、习惯，帮助商家快速制定营销方案</p></div>'
         +'</div>'
-        +'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+        +'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
         +'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>');
     $('#paybox').find('.popup_dialog_bd select').html(s);
 

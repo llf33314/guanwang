@@ -178,7 +178,7 @@
 <div class="package-wrap">
     <div class="title-wrap">
         <h2>选择中意的套餐</h2>
-        <p><a href="http://www.duofriend.com/html/newCombo.jsp">（更多套餐）</a></p>
+        <p><a href="/html/combo/html/index.jsp">（更多套餐）</a></p>
     </div>
     <div class="content-wrap clearfix" id="meal_set">
     </div>

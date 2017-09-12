@@ -132,7 +132,7 @@ function mealSet(){
 			}
 			h += '</ul>'
 				+'</div>'
-                +'<div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+                +'<div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
                 +'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div>'
 				+'</div></div>';
 			count++;
@@ -162,7 +162,7 @@ function mealSet(){
 			+'<div class="show2" style="display: none;"><p>会员 300 名</p></div>'
 			+'</div>'
 			+'<div class="show"><span>微官网</span></div>'
-			+'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+			+'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
 			+'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>'
 			+'<div class="item-wrap">'
 			+'<div class="item-wrap-main">'
@@ -195,7 +195,7 @@ function mealSet(){
 			+'<div class="show"><span>智慧进销存</span></div>'
 			+'<div class="show"><span>商家联盟（盟员版）</span></div>'
 			+'<div class="show"><span>免费提供 POS 机</span></div>'
-			+'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+			+'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
 			+'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>'
 			+'<div class="item-wrap">'
 			+'<div class="item-wrap-main">'
@@ -242,7 +242,7 @@ function mealSet(){
 			+'</div>'
 			+'<div class="show"><span>商家联盟（盟员版）</span></div>'
 			+'<div class="show"><span>免费提供 POS 机</span></div>'
-			+'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+			+'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
 			+'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>'
 			+'<div class="item-wrap">'
 			+'<div class="item-wrap-main">'
@@ -291,7 +291,7 @@ function mealSet(){
 			+'<div class="show2" style="display: none;"><p>小馋猫（智慧餐饮）、车小算（汽车美容与汽修）、大白（智慧社区医疗）</p></div>'
 			+'</div>'
 			+'<div class="show"><span>免费提供 POS 机</span></div>'
-			+'</ul></div><div class="amore"><a href="/html/newCombo.jsp" class="more">查看详情</a><div class="freeTry">'
+			+'</ul></div><div class="amore"><a href="/html/combo/html/index.jsp" class="more">查看详情</a><div class="freeTry">'
 			+'<a href="http://duofriend.com/user/toregister.do">免费体验</a></div></div></div></div>');
 	$('#paybox').find('.popup_dialog_bd select').html(s);
 
