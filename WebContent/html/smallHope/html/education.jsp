@@ -18,7 +18,7 @@
         <div class="car-top-menu">
             <a href="index.jsp" data-num="0"  >首页</a>
             <a href="education.jsp" data-num="1" class="on">核心功能</a>
-            <a href="updated.jsp" data-num="2">更新日记</a>
+            <a href="updated.jsp" data-num="2">更新日志</a>
         </div>
         <div class="car-top-right">
             <a href="/html/agency/html/index.jsp">申请代理</a>
