@@ -191,13 +191,14 @@ left: 0;
 }
 .a-ed-index-scope-list{
     width:50%; float:left; text-align: center;margin-top:48px;
+    height:90px; position: relative;
 }
 .a-ed-index-scope-list .iconfont{
 font-size: 40px;
     color: #195fff;
 }
 .a-ed-index-scope-name{
-    color: #666;margin-top:-20px;
+    color: #666; position: absolute;bottom:0px;width:100%;text-align: center;
 }
 /*方式*/
 .a-ed-ways {
@@ -261,6 +262,10 @@ font-size: 40px;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+.a-ed-rooms-bt{
+    position: absolute;bottom:50px;width:100%; text-align: center;
 }
 /*<双线沟通*/
 .a-ed-online{
@@ -270,7 +275,7 @@ font-size: 40px;
 }
 .a-ed-online-center{
     overflow: hidden;
-    width:680px;margin: 0 auto; height:450px;margin-top:80px;position: relative;
+    width:680px;margin: 0 auto; height:450px;margin-top:70px;position: relative;
 }
 .a-ed-online-img{
     float:left;bottom:0;position: absolute;z-index: 11;
@@ -293,14 +298,14 @@ font-size: 40px;
 color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: center;background: #195fff;height: 32px;z-index: 1; cursor: pointer;
 }
 .row1{
-    position: absolute;bottom:60px; left:45px;  width: 101px;
+    position: absolute;bottom:60px; right: 210px;  width: 101px;
 }
 
 .row2 {
     position: absolute;
     bottom:60px;
-    right: 152px;
-    width: 48px;
+    right: 147px;
+    width: 52px;
 }
 
 .row3{
@@ -308,7 +313,8 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
 }
 
 .row4{
-    position: absolute;bottom:20px; left:22px; width: 70px;
+    position: absolute;bottom:20px;
+    right: 265px; width: 70px;
 }
 
 .row5 {

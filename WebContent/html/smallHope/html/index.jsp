@@ -57,25 +57,25 @@
 <div class="a-ed-ways">
     <div class="a-ed-follow-title">这样一种方式拓生源</div>
     <div class="a-ed-follow-subtitle">学员购买课程后，自动生成推荐码，新学员可凭推荐码享受优惠，同时老学员也可获得奖励；</div>
-    <div class="a-ed-follow-subtitle">优惠营销、以客推客的方式，让你的学员数量成倍增长</div>
+    <div class="a-ed-follow-subtitle"   style="margin-top:10px;">优惠营销、以客推客的方式，让你的学员数量成倍增长</div>
 
     <div class="a-ed-ways-center">
-            <div class="a-ed-ways-blue">
-                <div class="blue1">我的推荐码</div>
-                <div class="blue2">132465</div>
-                <div class="blue3">新学员可凭此推荐码享受优惠</div>
-            </div>
-            <div class="a-ed-ways-white">
-                <div class="white1">获得的奖励</div>
-                <div class="white2">2017-8-19，推荐小多，获得现金奖励<span>100</span>元，粉币<span>10</span>，积分<span>20</span></div>
-            </div>
+        <div class="a-ed-ways-blue">
+            <div class="blue1">我的推荐码</div>
+            <div class="blue2">132465</div>
+            <div class="blue3">新学员可凭此推荐码享受优惠</div>
+        </div>
+        <div class="a-ed-ways-white">
+            <div class="white1">获得的奖励</div>
+            <div class="white2">2017-8-19，推荐小多，获得现金奖励<span>100</span>元，粉币<span>10</span>，积分<span>20</span></div>
+        </div>
     </div>
 </div>
 <!--分班-->
 <div class="a-ed-classes">
     <div class="a-ed-follow-title">分班不再是麻烦</div>
     <div class="a-ed-follow-subtitle">还有“自动分配学员”功能哦！它能自动匹配所有新增学员的信息，根据不同班级规则自动分</div>
-    <div class="a-ed-follow-subtitle">配学员，瞬间帮你搞定分班</div>
+    <div class="a-ed-follow-subtitle"  style="margin-top:10px;">配学员，瞬间帮你搞定分班</div>
 
     <div class="a-ed-classes-img">
         <img src="../images/ed_classes.png" width="160px" />
@@ -85,12 +85,15 @@
 <div class="a-ed-rooms">
     <div class="a-ed-follow-title" style="color:#fff">给你最优化的开课模式</div>
     <div class="a-ed-follow-subtitle" style="color:#fff">当你的英语课想开初级班、中级班、高级班，或15天初级集训班、30天高级提升班，这时候</div>
-    <div class="a-ed-follow-subtitle" style="color:#fff">怎么开课更便捷？</div>
-<a href="javascript:void(0);">
-    <div class="a-ed-follow-subtitle iconfont"  style="color:#fff; cursor:pointer;font-size:100px;margin:50px auto;">&#xe62c;</div>
-</a>
-    <div class="a-ed-follow-subtitle" style="color:#fff;margin-top:-100px;">小盼ERP“教务管理”系统能够完美解决这一切，你可以新增课程、新增报名活动，并通过在</div>
-    <div class="a-ed-follow-subtitle" style="color:#fff">线调整级别、价格、招生人数、时间，就能即时生成新的课程</div>
+    <div class="a-ed-follow-subtitle" style="color:#fff;margin-top:10px;">怎么开课更便捷？</div>
+    <a href="##">
+        <div class="a-ed-follow-subtitle iconfont"  style="color:#fff; cursor:pointer;font-size:100px;margin:50px auto;">&#xe62c;</div>
+    </a>
+    <div class="a-ed-rooms-bt">
+        <div class="a-ed-follow-subtitle" style="color:#fff;">小盼ERP“教务管理”系统能够完美解决这一切，你可以新增课程、新增报名活动，并通过在</div>
+        <div class="a-ed-follow-subtitle" style="color:#fff;margin-top:10px;">线调整级别、价格、招生人数、时间，就能即时生成新的课程</div>
+
+    </div>
 
 </div>
 
@@ -102,21 +105,21 @@
         <div class="a-ed-more-row" style="margin-left:10px;">
             <div class="a-ed-more-list" style="padding-top:48px; text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe622;</i>
-                <div class="a-ed-more-type">在线报名</div>
+                <div class="a-ed-more-type">公告通知</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe612;</i>
-                <div class="a-ed-more-type">成绩查询</div>
+                <div class="a-ed-more-type">短信通知</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe629;</i>
-                <div class="a-ed-more-type">查看课程</div>
+                <div class="a-ed-more-type">同步教师端</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="">
-                     <img src="../images/ed_a.png" width="40px" />
+                    <img src="../images/ed_a.png" width="40px" />
                 </i>
-                <div class="a-ed-more-type">查看作业</div>
+                <div class="a-ed-more-type">同步家长端</div>
             </div>
         </div>
 
@@ -126,7 +129,7 @@
 <div class="a-ed-online">
     <div class="a-ed-follow-title" >双线沟通，让家长更放心</div>
     <div class="a-ed-follow-subtitle" >教师根据学员情况在线写评语，家长可通过手机实时查看并予以回复，从而调整对孩子的家庭</div>
-    <div class="a-ed-follow-subtitle" >教育，实现线上、线下交流同步，强化对学员的监管力度</div>
+    <div class="a-ed-follow-subtitle" style=" margin-top:10px;">教育，实现线上、线下交流同步，强化对学员的监管力度</div>
 
     <div class="a-ed-online-center">
 
