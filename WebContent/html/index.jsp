@@ -316,7 +316,7 @@
             <img src="../images/index/as-pro9.png">
             <span>小盼</span>
             <p>智慧教育解决方案</p>
-            <a href="javascript:void(0);">更多</a>
+            <a href="/html/smallHope/html/index.jsp">更多</a>
         </li>
         <li class="a-sy-programme-box pro-box">
             <img src="../images/index/as-pro10.png">

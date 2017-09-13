@@ -125,7 +125,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in9">&#xe64d;</i></div>
-                        <a href="javascript:void(0);">
+                        <a href="/html/smallHope/html/index.jsp">
 		                     <span>
 		                         <h3>小盼</h3>
 		                         <p>智慧教育解决方案</p>
