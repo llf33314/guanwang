@@ -69,6 +69,11 @@
 	#ban:hover {
 		transform: scale(1.1);
 	}
+	.gt-foot .gt_tck{cursor: pointer;}
+
+	.gt_window .gt_bg{position: fixed; top: 0;left: 0;width: 100%;height: 100%;background-color: #000;opacity: 0.5;filter:alpha(opactiy=50);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50); z-index: 47483647}
+	.gt_window .gt_cont{position: fixed;z-index: 47483648; top:50%;left: 50%;}
+	.gt_window .gt_cont .gt_close{position: absolute; top: -30px;right: -30px}
 </style>
 <div class="gt-foot">
 	<div class="gt-foot-box">
@@ -103,3 +108,4 @@
 		document.getElementById("wxImg").style.display = 'none';
 	}
 </script>
+<script src="/html/js/webJS.js"></script>

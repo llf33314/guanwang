@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="/html/css/basic.css"/>
 <link rel="stylesheet" type="text/css" href="/css/fans.css" />
 <%@ include file="/html/common/video.jsp"%>
+<%@ include file="/html/common/video1.jsp"%>
 <div class="footer">
          <div class="fnav clearfix">
              <dl>
@@ -36,7 +37,8 @@
                  <dd onclick="footerLock('产品中心');"><a href="/html/coupon.jsp" >优惠券发放平台</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/fansNest.jsp" >粉巢系统</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/generation_operation.jsp" >代运营</a></dd>
-                 <dd onclick="openVideo1();"><a href="javascript:void(0);" >概念视频</a></dd>
+                 <dd onclick="openVideo1();"><a href="javascript:void(0);" >概念视频（个人版）</a></dd>
+                 <dd onclick="openVideo2();"><a href="javascript:void(0);" >概念视频（商铺版）</a></dd>
              </dl>
              <dl>
                  <dt>合作召集</dt>
@@ -47,6 +49,7 @@
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/sign.jsp?v=3" >城市合伙人</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/sign.jsp?v=4" >城市服务商</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/technology.jsp">技术服务商</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/business/html/index.jsp">创业计划</a></dd>
              </dl>
              <dl>
                  <dt>帮助中心</dt>

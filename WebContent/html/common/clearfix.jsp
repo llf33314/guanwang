@@ -157,6 +157,7 @@
                 <ul class="a-top-join" id="c-show2">
                     <li id="a-pro-r"><a href="/html/agency/html/index.jsp" id="a-chan-sq">申请代理</a></li>
                     <li id="a-pro-s"><a href="/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
+                    <li id="a-pro-s"><a href="/html/business/html/index.jsp" id="a-chan-js">技术服务商</a></li>
                 </ul>
             </li>
         </ul>
