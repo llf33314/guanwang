@@ -528,9 +528,14 @@ padding-top:95px; float: left; position: relative;
     width:100%;  margin-left:50px;
 
 }
+.a-ed-more-feature .a-ed-more-list{
+    width:165px; padding-top:62px; position: relative;
+    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;height:77px;
+}
+
 .a-ed-more-list{
     width:165px; padding-top:62px; position: relative;
-    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;
+    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;height:77px;
 }
 .a-ed-more-list .iconfont{
 font-size: 36px;

@@ -134,7 +134,7 @@
     </div>
 </div>
 <!--更多-->
-<div class="a-ed-more">
+<div class="a-ed-more a-ed-more-feature">
     <div class="a-ed-more-center">
         <div class="a-ed-more-title">
             更多功能，— —为你解忧
@@ -168,7 +168,7 @@
                 <div class="a-ed-more-type" style="text-align: left">新增考试</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe63d;</i>
+                <i class="iconfont">&#xe611;</i>
                 <div class="a-ed-more-type" style="text-align: left">库存管理</div>
             </div>
             <div class="a-ed-more-list">

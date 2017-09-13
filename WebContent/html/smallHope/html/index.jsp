@@ -105,21 +105,21 @@
         <div class="a-ed-more-row" style="margin-left:10px;">
             <div class="a-ed-more-list" style="padding-top:48px; text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe622;</i>
-                <div class="a-ed-more-type">在线报名</div>
+                <div class="a-ed-more-type">公告通知</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe612;</i>
-                <div class="a-ed-more-type">成绩查询</div>
+                <div class="a-ed-more-type">短信通知</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe629;</i>
-                <div class="a-ed-more-type">查看课程</div>
+                <div class="a-ed-more-type">同步教师端</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="">
                     <img src="../images/ed_a.png" width="40px" />
                 </i>
-                <div class="a-ed-more-type">查看作业</div>
+                <div class="a-ed-more-type">同步家长端</div>
             </div>
         </div>
 

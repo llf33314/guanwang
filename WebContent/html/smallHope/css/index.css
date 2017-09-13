@@ -298,14 +298,14 @@ font-size: 40px;
 color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: center;background: #195fff;height: 32px;z-index: 1; cursor: pointer;
 }
 .row1{
-    position: absolute;bottom:60px; left:45px;  width: 101px;
+    position: absolute;bottom:60px; right: 210px;  width: 101px;
 }
 
 .row2 {
     position: absolute;
     bottom:60px;
-    right: 152px;
-    width: 48px;
+    right: 147px;
+    width: 52px;
 }
 
 .row3{
@@ -313,7 +313,8 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
 }
 
 .row4{
-    position: absolute;bottom:20px; left:22px; width: 70px;
+    position: absolute;bottom:20px;
+    right: 265px; width: 70px;
 }
 
 .row5 {
