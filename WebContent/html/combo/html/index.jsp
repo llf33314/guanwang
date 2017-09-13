@@ -384,7 +384,7 @@
                         <div class="show2" style="display: none;"><p>提供各行业通用版小程序，让没有公众号的商家也能用，帮助商家抢占流量先机</p></div>
                     </div>
                     <div class="show">
-                        <div class="show1"><p>商家联盟（盟员版）</p></div>
+                        <div class="show1"><p>商家联盟（盟主版）</p></div>
                         <div class="show2" style="display: none;"><p>盟主版用户可创建自己的联盟，邀请优秀商家加入联盟，制定联盟规则，统筹管理全联盟</p></div>
                     </div>
                     <div class="show">
