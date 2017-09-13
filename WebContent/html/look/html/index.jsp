@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
@@ -196,21 +196,21 @@
                 <span class="choice-pic"><img src="../images/sy20.png"></span>
                 <span>
 		                       <p class="choice-p">专注于美容美发行业升级</p>
-		                       <p>多粉一直致力美容美发行业服务的升级，以尖端技术为店面提供快速、稳定、安全、易操作的极致体验，已被3万多家用户高度认可</p>	                    
+		                       <p>多粉一直致力美容美发行业服务的升级，以尖端技术为店面提供快速、稳定、安全、易操作的极致体验，已被3万多家用户高度认可</p>
 		                  </span>
             </div>
             <div class="man-choice-top-box animated" id="choice3" style="opacity: 0;">
                 <span class="choice-pic"><img src="../images/sy21.png"></span>
                 <span>
 		                       <p class="choice-p">结合移动互联网优势</p>
-		                       <p>SaaS ERP系统+微信+小程序（APP）实现美业店面互联网化、智能化，帮助店面进行会员营销、新客拓展等，真正实现利润倍增</p>	                    
+		                       <p>SaaS ERP系统+微信+小程序（APP）实现美业店面互联网化、智能化，帮助店面进行会员营销、新客拓展等，真正实现利润倍增</p>
 		                  </span>
             </div>
             <div class="man-choice-top-box animated" id="choice4" style="opacity: 0;">
                 <span class="choice-pic"><img src="../images/sy22.png"></span>
                 <span>
 		                       <p class="choice-p">服务加运营支持</p>
-		                       <p>全程指导使用，时时跟进维护，解决运营管理的问题；结合样子SaaS ERP专业培训课程，帮助商家快速发展</p>	                    
+		                       <p>全程指导使用，时时跟进维护，解决运营管理的问题；结合样子SaaS ERP专业培训课程，帮助商家快速发展</p>
 		                   </span>
             </div>
         </div>
@@ -229,9 +229,9 @@
         <div class="thumb"></div>
     </div>
 </div>
-<%--
+
 <%@include file="/html/common/footer-son.jsp" %>
---%>
+
 <script>
     var _hmt = _hmt || [];
     (function() {
@@ -242,37 +242,7 @@
     })();
 </script>
 
-<div class="gt-foot">
-    <div class="gt-foot-box">
-        <ul>
-            <li><a href="/html/aboutUs/html/index.jsp?type=1">关于我们</a></li>
-            <li><a href="/html/agency/html/index.jsp">申请代理</a></li>
-            <li><a href="/html/instructions.jsp">使用指南</a></li>
-            <li style="border: none;">
-                <div id="wxImg"
-                     style="display: none; bottom: 65px; left: 100px; height: 50px; back-ground: #f00; position: absolute;">
-                    <img src="/html/images/common/code.png" width="118px" height="118px" alt="" />
-                </div> <a href="javascript:void(0)" onMouseOut="hideImg()"
-                          onmouseover="showImg()">关注多粉</a>
-            </li>
-        </ul>
-    </div>
-    <span class="gt-foot-body">
-		<h4>服务热线:400 889 4522</h4>
-		<p>Copyright © 2013-2016 duofriend. All Rights Reserved.
-			粤ICP备15016183号-3 经营许可证编号：全国B2-20160778 粤B2-20150533</p>
-		<p>广东谷通科技有限公司</p>
-	</span>
-</div>
 
-<script type="text/javascript">
-    function showImg() {
-        document.getElementById("wxImg").style.display = 'block';
-    }
-    function hideImg() {
-        document.getElementById("wxImg").style.display = 'none';
-    }
-</script>
 
 
 <script src="../js/modernizr.js"></script>

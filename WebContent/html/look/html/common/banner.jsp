@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java"  pageEncoding="UTF-8"%>
 <script src="../js/jquery-2.2.2.min.js"></script>
 <div class="car-top">
     <div class="car-top-box">

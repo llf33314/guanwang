@@ -65,7 +65,7 @@
                         <li><span><img src="../images/g1.png" /></span>粉巢系统（1套模板）</li>
 
                     </ul>
-                    <a href="javascript:;" class="base_abtn" id="cont-a" onclick="pay(3)">立即咨询</a>
+                    <a href="javascript:;" class="base_abtn" id="cont-a" onclick="showClick(2)">立即咨询</a>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@
                         <li><span><img src="../images/g2.png" /></span>粉巢系统（3套模板）</li>
 
                     </ul>
-                    <a href="javascript:;" class="base_abtn" id="cont-b" onclick="pay(4)">立即咨询</a>
+                    <a href="javascript:;" class="base_abtn" id="cont-b" onclick="showClick(2)">立即咨询</a>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
                         <li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
 
                     </ul>
-                    <a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立即咨询</a>
+                    <a href="javascript:;" class="base_abtn" id="cont-c" onclick="showClick(2)">立即咨询</a>
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@
                         <li><span><img src="../images/g3.png" /></span>粉巢系统（5套模板）</li>
 
                     </ul>
-                    <a href="javascript:;" class="base_abtn" id="cont-c" onclick="pay(13)">立即咨询</a>
+                    <a href="javascript:;" class="base_abtn" id="cont-c" onclick="showClick(2)">立即咨询</a>
                 </div>
             </div>
         </div>
@@ -184,7 +184,7 @@
                         <li><span><img src="../images/g4.png" /></span>H5互动游戏（20套+）</li>
                         <li><span><img src="../images/g4.png" /></span>粉巢系统（定制模板）</li>
                     </ul>
-                    <a href="javascript:;"  id="cont-d" class="base_abtn" onclick="pay(14)">立即咨询</a>
+                    <a href="javascript:;"  id="cont-d" class="base_abtn" onclick="showClick(2)">立即咨询</a>
                 </div>
             </div>
         </div>
@@ -273,6 +273,27 @@
 
 <script src="../js/jquery-2.2.2.min.js"></script>
 <script>
+    var qqNum = "2853873362";
+    function showClick(mei){
+        $.ajax({
+            type: 'POST',
+            url: "/article/html/getExtendqq",
+            async : false,
+            data: {mei:mei},
+            success: function(data){
+                var d = eval('('+data+')');
+                /* console.log(d); */
+                if(d.status != 0){
+                    qqNum = d.qqNum;
+                }
+                window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");
+            },
+            error: function(){
+                window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");
+            }
+        });
+
+    };
     $('.package-wrap').on('mouseenter', function() {
         $(this).find('.item3-1').hide();
         $(this).find('#item3').show();
