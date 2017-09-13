@@ -337,7 +337,7 @@ a{text-decoration:none;color:#333;}
 #b-show2{display: none;}
 /*join*/
 .a-top-join{
-	height: 100px;
+	height: 122px;
     width:110px;
     line-height: 1;
     position: absolute;
@@ -365,6 +365,14 @@ a{text-decoration:none;color:#333;}
 #a-chan-sq{
 	color:#666;
 }
+#a-pro-b{
+    top: 95px;
+    left: 15px;
+}
+#a-chan-bs{
+    color:#666;
+}
+
 #a-chan-sq:hover{
 	color:#62AAFC;
 }
