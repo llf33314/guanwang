@@ -36,7 +36,7 @@ a{text-decoration:none;color:#333;}
 .a-pack-experience{ position: absolute;bottom: 100px;right: 19px;}
 .a-pack-edition-bottom span{width: 289px;height: 40px;display: inline-block;border-radius: 5px;text-align: center;line-height: 40px;font-size: 16px;position: absolute;left: 50%;margin-left: -145px;bottom: 22px; }
 .a-pack-edition-bottom span a{color:#fff;}
-.show2{font-size: 12px;font-weight: 100;line-height: 1.6; }
+.show2{font-size: 13px;font-weight: 100;line-height: 1.6; }
 .show2 p{padding: 5px 0;}
 
 .a-package-box ul li:nth-child(1)  .a-pack-edition{box-shadow: rgb(199, 242, 210) 0px 0px 10px;border: 1px solid #37d25c;  }
