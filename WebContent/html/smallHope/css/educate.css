@@ -211,12 +211,14 @@ left: 0;
     width:20%;
     float:left;
     text-align: center;
+    height:110px; position: relative;
+
 }
 .a-ed-follow-icon-list .iconfont{
     font-size:55px;color:#195fff;
 }
 .a-ed-follow-icon-name{
-    margin-top:-30px;
+ position: absolute; bottom:5px;text-align: center;width:100%;
 }
 .a-ed-naming{
     width:100%;
@@ -235,6 +237,7 @@ left: 0;
      height: 77px;
      background-color: #fff;
      float:left;margin-left:70px;
+     position: relative;
  }
 .a-ed-naming-list:hover{
     box-shadow: 2px 4px 4px 0px
@@ -250,6 +253,7 @@ left: 0;
 
 .a-ed-naming-list .a-ed-naming-list-icon{
     width:50px;height:51px; background: red;margin-top:13px;margin-left:43px;text-align: center;
+
 }
 .a-ed-naming-list .a-ed-naming-list-icon.blue{
     background:#195fff ;
@@ -261,8 +265,9 @@ left: 0;
     background:#ff2544 ;
 }
 .a-ed-naming-list .a-ed-naming-list-icon .iconfont{
-    font-size:36px; line-height:90px;
+    font-size:36px;
     color: #fff;
+    position: absolute; left:50px;top:20px;
 }
 .a-ed-naming-list-type{
     line-height:77px;padding-left:20px;
@@ -524,15 +529,15 @@ padding-top:95px; float: left; position: relative;
 
 }
 .a-ed-more-list{
-    width:165px; padding-top:65px;
-    float:left;font-size: 16px;text-align: left;
+    width:165px; padding-top:62px; position: relative;
+    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;
 }
 .a-ed-more-list .iconfont{
 font-size: 36px;
 
 }
 .a-ed-more-list .a-ed-more-type{
-    margin-top:-20px;
+     position: absolute; bottom:0px;width:100%; text-align: center;
 }
 .a-ed-praise{
 width:100%;height:490px;color:#000;

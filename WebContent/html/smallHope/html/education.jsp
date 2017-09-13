@@ -72,10 +72,10 @@
     <div class="a-ed-follow-subtitle">通过教师端小程序就能进行点名，未到、签到、请假三种状态轻点屏幕即可记录出勤情况</div>
     <div class="a-ed-naming-row">
         <div class="a-ed-naming-list">
-             <div class="a-ed-naming-list-icon blue">
-                 <i class="iconfont">&#xe72b;</i>
-             </div>
-             <div class="a-ed-naming-list-type">未到</div>
+            <div class="a-ed-naming-list-icon blue">
+                <i class="iconfont">&#xe72b;</i>
+            </div>
+            <div class="a-ed-naming-list-type">未到</div>
         </div>
         <div class="a-ed-naming-list">
             <div class="a-ed-naming-list-icon org">
@@ -142,38 +142,38 @@
         <div class="a-ed-more-row">
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe641;</i>
-                <div class="a-ed-more-type">在线报名</div>
+                <div class="a-ed-more-type" style="text-align: left">在线报名</div>
             </div>
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe64d;</i>
-                <div class="a-ed-more-type">成绩查询</div>
+                <div class="a-ed-more-type" style="text-align: left">成绩查询</div>
             </div>
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe60e;</i>
-                <div class="a-ed-more-type">查看课程</div>
+                <div class="a-ed-more-type" style="text-align: left">查看课程</div>
             </div>
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe61e;</i>
-                <div class="a-ed-more-type">查看作业</div>
+                <div class="a-ed-more-type" style="text-align: left">查看作业</div>
             </div>
         </div>
         <!--第二列-->
         <div class="a-ed-more-row">
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe63d;</i>
-                <div class="a-ed-more-type">学员信息</div>
+                <div class="a-ed-more-type" style="text-align: left">学员信息</div>
             </div>
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe63e;</i>
-                <div class="a-ed-more-type">新增考试</div>
+                <div class="a-ed-more-type" style="text-align: left">新增考试</div>
             </div>
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe63d;</i>
-                <div class="a-ed-more-type">库存管理</div>
+                <div class="a-ed-more-type" style="text-align: left">库存管理</div>
             </div>
             <div class="a-ed-more-list">
                 <i class="iconfont">&#xe8a6;</i>
-                <div class="a-ed-more-type">会员管理</div>
+                <div class="a-ed-more-type" style="text-align: left">会员管理</div>
             </div>
         </div>
     </div>
@@ -190,9 +190,9 @@
                     <img src="../images/photo1.png" />
                 </div>
                 <div class="a-ed-praise-introduct" >
-                     <div class="name">
-                         教育机构负责人 李先生
-                     </div>
+                    <div class="name">
+                        教育机构负责人 李先生
+                    </div>
                     <div class="introduct">
                         借助“小盼”，机构实现了高效的运营管理，我不仅能随时随地查看经营统计报表，而且所有教务管理信息一目了然
                     </div>
@@ -227,7 +227,6 @@
         </div>
     </div>
 </div>
-
 <!--通用底部-->
 <%@include file="/html/common/footer-son.jsp" %>
 </body>
