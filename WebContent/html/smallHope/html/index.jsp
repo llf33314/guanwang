@@ -237,27 +237,6 @@
             }
         });
 </script>
-<!--字体上浮-->
-<script type="text/javascript">
-    $(".a-ed-ways-blue").mouseover(function(){
-        $(this).find(".blue1").css({top:'23px'});
-        $(this).find(".blue2").css({top:'57px'});
-        $(this).find(".blue3").css({bottom:'33px'});
 
-    });
-    $(".a-ed-ways-blue").mouseout (function(){
-        $(this).find(".blue1").css({top:'28px'});
-        $(this).find(".blue2").css({top:'62px'});
-        $(this).find(".blue3").css({bottom:'28px'});
-    });
-    $(".a-ed-ways-white").mouseover(function(){
-        $(this).find(".white1").css({top:'23px'});
-        $(this).find(".white2").css({bottom:'33px'});
-    });
-    $(".a-ed-ways-white").mouseout (function(){
-        $(this).find(".white1").css({top:'28px'});
-        $(this).find(".white2").css({bottom:'28px'});
-    });
-</script>
 </body>
 </html>

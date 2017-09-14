@@ -222,6 +222,51 @@ font-size: 40px;
     border-radius: 5px 5px 5px 5px;float:left;
     position: relative;
 }
+.a-ed-ways-blue:hover .blue1{
+    top:23px;
+    animation: eximg1 0.2s linear;
+}
+.a-ed-ways-blue:hover .blue2{
+    top:57px;
+    animation: eximg2 0.2s linear;
+}
+.a-ed-ways-blue:hover .blue3{
+    top:110px;
+    animation: eximg3 0.2s linear;
+}
+@keyframes eximg1{
+
+    0%{top:28px;}
+    100%{top:23px;}
+}
+@keyframes eximg2{
+    0%{top:62px;}
+    100%{top:57px;}
+}
+@keyframes eximg3{
+    0%{top:115px;}
+    100%{top:110px;}
+}
+
+.a-ed-ways-white:hover .white1{
+    top:23px;
+    animation: exiwhite1 0.2s linear;
+}
+@keyframes exwhite1{
+
+    0%{top:28px;}
+    100%{top:23px;}
+}
+.a-ed-ways-white:hover .white2{
+    bottom:33px;
+    animation: exiwhite2 0.2s linear;
+}
+@keyframes exwhite2{
+
+    0%{bottom:28px;}
+    100%{bottom:33px;}
+}
+
 .a-ed-ways-on{
     margin-top: -10px;
 }
@@ -244,7 +289,7 @@ font-size: 40px;
     position: absolute;top:62px;left:93px;color:#ffe993;font-size: 33px;
 }
 .a-ed-ways-blue .blue3{
-    position: absolute;bottom:28px;left:64px;color:#fff;font-size: 13px;
+    position: absolute;top:115px;left:64px;color:#fff;font-size: 13px;
 }
 .a-ed-ways-white .white1{
     position: absolute;top:28px;left:97px;font-size: 22px;color:#195fff;
@@ -437,13 +482,11 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
 @keyframes mywave
 {
     0%   {width: 0px;}
-
     100% {width: 520px;}
 }
 
 @-moz-keyframes mywave
-{
-    0%   {width: 0px;}
+{    0%   {width: 0px;}
 
     100% {width: 520px;}
 }
