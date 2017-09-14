@@ -95,7 +95,7 @@
     <div class="a-ed-follow-title" style="color:#fff">给你最优化的开课模式</div>
     <div class="a-ed-follow-subtitle" style="color:#fff">当你的英语课想开初级班、中级班、高级班，或15天初级集训班、30天高级提升班，这时候</div>
     <div class="a-ed-follow-subtitle" style="color:#fff;margin-top:10px;">怎么开课更便捷？</div>
-    <a href="##">
+    <a href="javascript:void(0);">
         <div class="a-ed-follow-subtitle iconfont"  style="color:#fff; cursor:pointer;font-size:100px;margin:50px auto;">&#xe62c;</div>
     </a>
     <div class="a-ed-rooms-bt">
