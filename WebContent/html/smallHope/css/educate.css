@@ -496,7 +496,7 @@ padding-top:95px; float: left; position: relative;
     /*更多功能*/
 .a-ed-more {
     width: 100%;
-    height: 455px;
+    height: 494px;
     background-image: linear-gradient(90deg,
     rgba(4, 158, 255, 1) 1%,
     rgba(10, 109, 254, 1) 42%,
@@ -508,7 +508,7 @@ padding-top:95px; float: left; position: relative;
 }
 
 .a-ed-more-center{
-    width:660px;
+    width:930px;
     margin:0 auto;
 
 
@@ -519,17 +519,22 @@ padding-top:95px; float: left; position: relative;
     padding-top:70px;
 }
 .a-ed-more-row{
-    width:100%;  margin-left:50px;
+    width:720px;margin-left:100px;
 
 }
 .a-ed-more-feature .a-ed-more-list{
-    width:165px; padding-top:62px; position: relative;
-    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;height:77px;
+    width:90px; padding-top:50px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
 }
-
-.a-ed-more-list{
-    width:165px; padding-top:62px; position: relative;
-    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;height:77px;
+.a-ed-more-feature .a-ed-more-list:first-child{
+    margin-left:0px;
+}
+ .a-ed-more-rowSec .a-ed-more-list{
+    width:90px; padding-top:80px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
+}
+ .a-ed-more-list:first-child{
+    margin-left:0px;
 }
 .a-ed-more-list .iconfont{
 font-size: 36px;
