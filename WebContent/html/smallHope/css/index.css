@@ -250,18 +250,17 @@ font-size: 40px;
 
 .a-ed-ways-white:hover .white1{
     top:23px;
-    animation: exiwhite1 0.2s linear;
+    animation: exwhite1 0.2s linear;
 }
 @keyframes exwhite1{
-
     0%{top:28px;}
     100%{top:23px;}
 }
 .a-ed-ways-white:hover .white2{
     bottom:33px;
-    animation: exiwhite2 0.2s linear;
+    animation: exhite2 0.2s linear;
 }
-@keyframes exwhite2{
+@keyframes exhite2{
 
     0%{bottom:28px;}
     100%{bottom:33px;}
