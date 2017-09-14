@@ -104,7 +104,7 @@
     <div class="a-ed-leave-right">
         <div>
             <img src="../images/ed_leave.png" />
-            <i class="iconfont gou">&#xe6ac;</i>
+            <i class="iconfont gou" style="-webkit-text-stroke-width: 0 !important">&#xe6ac;</i>
                <div class="text1">如有特殊情况请及时电话联系老师...</div>
                 <div class="text2">少儿钢琴初级课程</div>
                 <div class="text3">少儿美术初级课程</div>
