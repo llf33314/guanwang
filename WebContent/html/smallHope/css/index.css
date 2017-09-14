@@ -572,22 +572,22 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
 }
 
 .reportPo .wanS .wan1{
-    top:155px;right:810px;   position: absolute;font-size:7px; color: #333;
+    top:155px;right:810px;   position: absolute;font-size:xx-small; color: #333;
 }
 .reportPo .wanS .wan2{
-    top:193px;right:810px;   position: absolute;font-size:7px; color: #333;
+    top:193px;right:810px;   position: absolute;font-size:xx-small; color: #333;
 }
 .reportPo .wanS .wan3{
-    top:228px;right:810px;   position: absolute;font-size:7px; color: #333;
+    top:228px;right:810px;   position: absolute;font-size:xx-small; color: #333;
 }
 .reportPo .wanS .wan4{
-    top:263px;right:810px;   position: absolute;font-size:7px; color: #333;
+    top:263px;right:810px;   position: absolute;font-size:xx-small; color: #333;
 }
 .reportPo .wanS .wan5{
-    top:300px;right:810px;   position: absolute;font-size:7px; color: #333;
+    top:300px;right:810px;   position: absolute;font-size:xx-small; color: #333;
 }
 .reportPo .wanS .wan6{
-    top:335px;right:810px;   position: absolute;font-size:7px; color: #333;
+    top:335px;right:810px;   position: absolute;font-size:xx-small; color: #333;
 }
 
 .reportPo .wanB {
@@ -616,19 +616,19 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
 }
 
 .reportPo .btm .wan1{
-    top:346px;right:778px;   position: absolute; color:#333;font-size:7px;
+    top:346px;right:778px;   position: absolute; font-size:xx-small; color: #333;
 }
 
 .reportPo .btm .wan2{
-    top:346px;right:740px;   position: absolute; color:#333;font-size:7px;
+    top:346px;right:740px;   position: absolute; font-size:xx-small; color: #333;
 }
 
 .reportPo .btm .wan3{
-    top:346px;right:90px;   position: absolute; color:#333;font-size:7px;
+    top:346px;right:90px;   position: absolute; font-size:xx-small; color: #333;
 }
 
 .reportPo .btm .wan4{
-    top:346px;right:30px;   position: absolute; color:#333;font-size:7px;
+    top:346px;right:30px;   position: absolute; font-size:xx-small; color: #333;
 }
 
 .reportPo .yue{
