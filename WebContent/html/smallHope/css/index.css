@@ -420,7 +420,7 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     z-index: 111;
 }
 .a-ed-online-list:hover{
-    box-shadow: 3px 4px 4px 0px
+    box-shadow: 2px 2px 2px 0px
     rgba(0, 0, 0, 0.2);
 }
 /*报表*/

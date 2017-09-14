@@ -145,39 +145,42 @@
         </div>
         <div class="a-ed-more-row">
             <div class="a-ed-more-list">
-                <i class="iconfont" style="font-size:42px;">&#xe641;</i>
+                <i class="iconfont" style="font-size:55px;">&#xe641;</i>
                 <div class="a-ed-more-type" style="text-align: left;color:#fff;">在线报名</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe64d;</i>
+                <i class="iconfont"  style="font-size:45px;line-height: 105px;">&#xe64d;</i>
                 <div class="a-ed-more-type" style="color:#fff;text-align: left">成绩查询</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont" style="font-size:43px;">&#xe60e;</i>
-                <div class="a-ed-more-type" style="color:#fff;text-align: left">查看课程</div>
-            </div>
-            <div class="a-ed-more-list">
-                <i class="iconfont"  style="font-size:43px;">&#xe61e;</i>
-                <div class="a-ed-more-type" style="color:#fff;text-align: left">查看作业</div>
-            </div>
-        </div>
-        <!--第二列-->
-        <div class="a-ed-more-row a-ed-more-rowSec">
-            <div class="a-ed-more-list">
-                <i class="iconfont"  style="font-size:44px;">&#xe63d;</i>
-                <div class="a-ed-more-type" style="color:#fff;text-align: left">学员信息</div>
-            </div>
-            <div class="a-ed-more-list">
-                <i class="iconfont"  style="font-size:34px;">&#xe63e;</i>
+                <i class="iconfont"  style="font-size:45px;line-height: 105px;">&#xe63e;</i>
                 <div class="a-ed-more-type" style="color:#fff;text-align: left">新增考试</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont"  style="font-size:43px;">&#xe611;</i>
+                <i class="iconfont"  style="font-size:66px;line-height: 130px;font-weight: 550">&#xe67d;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">学员信息</div>
+            </div>
+
+        </div>
+        <!--第二列-->
+        <div class="a-ed-more-row a-ed-more-rowSec">
+
+            <div class="a-ed-more-list">
+                <i class="iconfont"  style="font-size:55px;margin-top:5px;">&#xe611;</i>
                 <div class="a-ed-more-type" style="color:#fff;text-align: left">库存管理</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont" style="font-size:42px;">&#xe8a6;</i>
+                <i class="iconfont" style="font-size:55px;">&#xe8a6;</i>
                 <div class="a-ed-more-type" style="color:#fff;text-align: left">会员管理</div>
+            </div>
+
+            <div class="a-ed-more-list">
+                <i class="iconfont" style="font-size:57px;line-height:127px;">&#xe60e;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">查看课程</div>
+            </div>
+            <div class="a-ed-more-list">
+                <i class="iconfont"  style="font-size:60px;line-height:132px;">&#xe61e;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">查看作业</div>
             </div>
         </div>
     </div>

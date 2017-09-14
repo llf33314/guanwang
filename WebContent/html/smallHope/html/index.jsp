@@ -114,21 +114,21 @@
         <div class="a-ed-more-row  a-ed-index-row" >
             <div class="a-ed-more-list" style="padding-top:48px; text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe622;</i>
-                <div class="a-ed-more-type">公告通知</div>
+                <div class="a-ed-more-type1">公告通知</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe612;</i>
-                <div class="a-ed-more-type">短信通知</div>
+                <div class="a-ed-more-type1">短信通知</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe629;</i>
-                <div class="a-ed-more-type">同步教师端</div>
+                <div class="a-ed-more-type1">同步教师端</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
                 <i class="iconfont"  style="color:#195fff;font-size:66px;position: absolute;top:35px;left:10px">
                     &#xe61d;
                 </i>
-                <div class="a-ed-more-type">同步家长端</div>
+                <div class="a-ed-more-type1">同步家长端</div>
             </div>
         </div>
 

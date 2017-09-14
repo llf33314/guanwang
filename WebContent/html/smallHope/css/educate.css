@@ -548,19 +548,20 @@ padding-top:95px; float: left; position: relative;
 }
 .a-ed-more-feature .a-ed-more-list{
     width:90px; padding-top:50px; position: relative;
-    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
+    float:left;font-size: 16px; margin-bottom: 3px;height:100px;margin-left:120px;
 }
 .a-ed-more-feature .a-ed-more-list:first-child{
     margin-left:0px;
 }
  .a-ed-more-rowSec .a-ed-more-list{
-    width:90px; padding-top:80px; position: relative;
-    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
+    width:90px; padding-top:70px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:100px;margin-left:120px;
 }
 .a-ed-more-list{
     width:90px; padding-top:62px; position: relative;
     float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
 }
+
 .a-ed-index-row{
     margin-left:200px;
 }
@@ -576,7 +577,10 @@ font-size: 36px;
 
 }
 .a-ed-more-list .a-ed-more-type{
-     position: absolute; bottom:0px;width:100%; text-align: center;color:#333;
+     position: absolute; bottom:0px;width:100%; text-align: center;color:#333; font-size: 20px;
+}
+.a-ed-more-list .a-ed-more-type1{
+    position: absolute; bottom:0px;width:100%; text-align: center;color:#333; font-size: 16px;
 }
 .a-ed-praise{
 width:100%;height:490px;
