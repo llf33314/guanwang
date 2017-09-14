@@ -337,6 +337,29 @@ left: 0;
 
     100% {width: 60px;}
 }
+.a-ed-leave-right .text1{
+    position: absolute;
+    top:241px;left:48px;font-size: 10px;color:#fff;
+}
+
+.a-ed-leave-right .text2{
+    position: absolute;
+    top:280px;left:87px;font-size: 10px;color:#333;
+}
+
+.a-ed-leave-right .text3{
+    position: absolute;
+    top:333px;left:87px;font-size: 10px;color:#333;
+}
+.a-ed-leave-right .text4{
+    position: absolute;
+    top:384px;left:87px;font-size: 10px;color:#333;
+}
+.a-ed-leave-right .text5{
+    position: absolute;
+    bottom:65px;left:120px;font-size: 10px;color:#fff;
+}
+
 .act_tick{
     width:50px;height:50px; background: red; position: absolute;top:120px;right:140px;border-radius: 10px;
 }
@@ -382,11 +405,12 @@ padding-top:95px; float: left; position: relative;
     position: absolute;left:542px;top:305px;
 
 }
-.a-ed-work-act .iconfont{
+.a-ed-work-act  .gou{
     animation:mypoint 2s;
-    -moz-animation:mypoint 2s;/*Firefox */
+    -moz-animation:mypoint 2s;
     -webkit-animation:mypoint 2s;
-    -o-animation:mypoint 2s; display: none;
+    -o-animation:mypoint 2s;
+    display: none ;
 }
 
 .a-ed-work-act .icon1{
@@ -532,6 +556,17 @@ padding-top:95px; float: left; position: relative;
  .a-ed-more-rowSec .a-ed-more-list{
     width:90px; padding-top:80px; position: relative;
     float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
+}
+.a-ed-more-list{
+    width:90px; padding-top:62px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
+}
+.a-ed-index-row{
+    margin-left:200px;
+}
+.a-ed-index-row  .a-ed-more-list{
+    width:90px; padding-top:62px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:50px;
 }
  .a-ed-more-list:first-child{
     margin-left:0px;

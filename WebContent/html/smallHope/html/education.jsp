@@ -104,8 +104,12 @@
     <div class="a-ed-leave-right">
         <div>
             <img src="../images/ed_leave.png" />
-            <i class="iconfont">&#xe6ac;</i>
-
+            <i class="iconfont gou">&#xe6ac;</i>
+               <div class="text1">如有特殊情况请及时电话联系老师...</div>
+                <div class="text2">少儿钢琴初级课程</div>
+                <div class="text3">少儿美术初级课程</div>
+                <div class="text4">少儿武术初级课程</div>
+                <div class="text5">查看我的请假记录</div>
         </div>
     </div>
 </div>
@@ -184,7 +188,7 @@
         <div class="a-ed-praise-title">
             有口皆碑，他们都推荐“小盼”
         </div>
-        <div class="a-ed-praise-row">
+        <div class="a-ed-praise-row" style="margin-left:20px;">
             <div class="a-ed-praise-list">
                 <div class="a-ed-praise-photo">
                     <img src="../images/photo1.png" />
@@ -244,14 +248,13 @@
         var sHeight = $(document).scrollTop();
        // alert(sHeight);
         if(sHeight > 850 ) {
-            $(".a-ed-leave-right").find(".iconfont").show();
+            $(".a-ed-leave-right").find(".gou").show();
         }
         if(sHeight > 970 ) {
             $(".a-ed-work-act").find("img").show();
             setTimeout(function () {
                 $(".a-ed-work-act").find(".iconfont").show();
             }, 1500);
-
         }
     });
 </script>

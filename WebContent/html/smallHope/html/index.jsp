@@ -111,7 +111,7 @@
     <div class="a-ed-more-center">
         <div class="a-ed-follow-title" >消息通知更及时</div>
         <div class="a-ed-follow-subtitle" >在线新增公告通知、短信通知，一键发布即可实时同步到教师端、家长端小程序</div>
-        <div class="a-ed-more-row" style="margin-left:10px;">
+        <div class="a-ed-more-row  a-ed-index-row" >
             <div class="a-ed-more-list" style="padding-top:48px; text-align: center">
                 <i class="iconfont" style="color:#195fff">&#xe622;</i>
                 <div class="a-ed-more-type">公告通知</div>
@@ -125,8 +125,8 @@
                 <div class="a-ed-more-type">同步教师端</div>
             </div>
             <div class="a-ed-more-list" style="padding-top:48px;text-align: center">
-                <i class="iconfont" style="">
-                    <img src="../images/ed_a.png" width="40px" />
+                <i class="iconfont"  style="color:#195fff;font-size:66px;position: absolute;top:35px;left:10px">
+                    &#xe61d;
                 </i>
                 <div class="a-ed-more-type">同步家长端</div>
             </div>
