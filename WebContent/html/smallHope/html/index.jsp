@@ -184,10 +184,44 @@
     <div class="a-ed-follow-title" >智能报表，经营分析好帮手</div>
     <div class="a-ed-follow-subtitle" >招生数量、在校学员数量、热门班级、分校数据分析，随时同步手机查看</div>
     <div class="reportPo" >
-        <img src="../images/ed_report.jpg"   class="reportImg" />
+        <img src="../images/ed_report.png"   class="reportImg" />
         <div class="line_act" id="line_act"></div>
         <div class="line_act2"></div>
         <div class="wave_act"></div>
+        <%--手打文字--%>
+        <div class="line1">2016-2017年招生数量</div>
+        <div class="line2">热门班级</div>
+       <div class="wanS">
+           <div class="wan1">3万</div>
+           <div class="wan2">2.5万</div>
+           <div class="wan3">2万</div>
+           <div class="wan4">1.5万</div>
+           <div class="wan5">1万</div>
+           <div class="wan6">0</div>
+       </div>
+        <div class="wanB">
+            <div class="wan1">3.5万</div>
+            <div class="wan2">3万</div>
+            <div class="wan3">2.5万</div>
+            <div class="wan4">2万</div>
+            <div class="wan5">1.5万</div>
+            <div class="wan6">1万</div>
+            <div class="wan7">0</div>
+        </div>
+        <div class="yue">
+            <div class="wan1">1月</div>
+            <div class="wan2">2月</div>
+            <div class="wan3">3月</div>
+            <div class="wan4">4月</div>
+            <div class="wan5">5月</div>
+            <div class="wan6">6月</div>
+        </div>
+        <div class="btm">
+            <div class="wan1">2016</div>
+            <div class="wan2">2017</div>
+            <div class="wan3">英语1班</div>
+            <div class="wan4">数学1班</div>
+        </div>
     </div>
 </div>
 <!--通用底部-->

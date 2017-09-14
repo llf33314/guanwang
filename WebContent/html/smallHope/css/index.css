@@ -393,7 +393,7 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     position:absolute;
     width:38px;height:130px;
     background-image: url(../images/line1.png);
-    left:94px;bottom:95px;
+    left:100px;bottom:105px;
    animation:myfirst 3s;
     -moz-animation:myfirst 3s;/* !* Firefox *!*/
     -webkit-animation:myfirst 3s;/* !* Safari and Chrome *!*/
@@ -409,7 +409,7 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     position:absolute;
     width:80px;height:150px;
     background-image: url(../images/line2.png);
-    right:52px;bottom:95px;
+    right:45px;bottom:105px;
     animation:myfirst2 3s;
     -moz-animation:myfirst2 3s;/*Firefox */
     -webkit-animation:myfirst2 3s;
@@ -423,8 +423,8 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     position:absolute;
     width:520px;height:210px;
     background-image: url(../images/wave.png);
-    left:198px;
-    bottom: 69px;
+    left:210px;
+    bottom: 80px;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -516,4 +516,96 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     0%   {height: 0px;}
 
     100% {height: 150px;}
+}
+/*报表文字*/
+.reportPo{
+    position: relative;
+}
+.reportPo .line1{
+    position: absolute;top:120px;left:25px;font-size: 10px; color: #333;
+}
+.reportPo .line2{
+    position: absolute;top:120px;right:25px;font-size: 10px; color: #333;
+}
+
+.reportPo .wanS .wan1{
+    top:155px;right:810px;   position: absolute;font-size:7px; color: #333;
+}
+.reportPo .wanS .wan2{
+    top:193px;right:810px;   position: absolute;font-size:7px; color: #333;
+}
+.reportPo .wanS .wan3{
+    top:228px;right:810px;   position: absolute;font-size:7px; color: #333;
+}
+.reportPo .wanS .wan4{
+    top:263px;right:810px;   position: absolute;font-size:7px; color: #333;
+}
+.reportPo .wanS .wan5{
+    top:300px;right:810px;   position: absolute;font-size:7px; color: #333;
+}
+.reportPo .wanS .wan6{
+    top:335px;right:810px;   position: absolute;font-size:7px; color: #333;
+}
+
+.reportPo .wanB {
+   font-size:14px; color: #333;
+}
+.reportPo .wanB .wan1{
+    top:121px;right:690px;position: absolute;
+}
+.reportPo .wanB .wan2{
+    top:160px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan3{
+    top:200px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan4{
+    top:237px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan5{
+    top:275px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan6{
+    top:317px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan7{
+    top:355px;right:690px;   position: absolute;
+}
+
+.reportPo .btm .wan1{
+    top:346px;right:778px;   position: absolute; color:#333;font-size:7px;
+}
+
+.reportPo .btm .wan2{
+    top:346px;right:740px;   position: absolute; color:#333;font-size:7px;
+}
+
+.reportPo .btm .wan3{
+    top:346px;right:90px;   position: absolute; color:#333;font-size:7px;
+}
+
+.reportPo .btm .wan4{
+    top:346px;right:30px;   position: absolute; color:#333;font-size:7px;
+}
+
+.reportPo .yue{
+    color:#333;font-size:16px;
+}
+.reportPo .yue .wan1{
+    bottom:52px;left:235px;   position: absolute;
+}
+.reportPo .yue .wan2{
+    bottom:52px;left:330px;   position: absolute;
+}
+.reportPo .yue .wan3{
+    bottom:52px;left:420px;   position: absolute;
+}
+.reportPo .yue .wan4{
+    bottom:52px;left:525px;   position: absolute;
+}
+.reportPo .yue .wan5{
+    bottom:52px;left:612px;   position: absolute;
+}
+.reportPo .yue .wan6{
+    bottom:52px;left:700px;   position: absolute;
 }
