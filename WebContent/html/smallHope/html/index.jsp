@@ -53,7 +53,7 @@
         </div>
     </div>
 </div>
-<!--方式-->
+<!--方式 我的推荐码-->
 <div class="a-ed-ways">
     <div class="a-ed-follow-title">这样一种方式拓生源</div>
     <div class="a-ed-follow-subtitle">学员购买课程后，自动生成推荐码，新学员可凭推荐码享受优惠，同时老学员也可获得奖励；</div>
@@ -61,24 +61,33 @@
 
     <div class="a-ed-ways-center">
         <div class="a-ed-ways-blue">
-            <div class="blue1">我的推荐码</div>
-            <div class="blue2">132465</div>
-            <div class="blue3">新学员可凭此推荐码享受优惠</div>
+                <div class="blue1">我的推荐码</div>
+                <div class="blue2">132465</div>
+                <div class="blue3 ">新学员可凭此推荐码享受优惠</div>
         </div>
         <div class="a-ed-ways-white">
             <div class="white1">获得的奖励</div>
-            <div class="white2">2017-8-19，推荐小多，获得现金奖励<span>100</span>元，粉币<span>10</span>，积分<span>20</span></div>
+            <div class="white2">
+                 <div>2017-8-19，推荐小多，获</div>
+                 <div>得现金奖励<span>100</span>元，粉币<span>10</span>，</div>
+                 <div>积分<span>20</span></div>
+            </div>
         </div>
     </div>
 </div>
 <!--分班-->
-<div class="a-ed-classes">
+<div class="a-ed-classes" style="height:430px;width:100%; ">
     <div class="a-ed-follow-title">分班不再是麻烦</div>
     <div class="a-ed-follow-subtitle">还有“自动分配学员”功能哦！它能自动匹配所有新增学员的信息，根据不同班级规则自动分</div>
     <div class="a-ed-follow-subtitle"  style="margin-top:10px;">配学员，瞬间帮你搞定分班</div>
-
     <div class="a-ed-classes-img">
-        <img src="../images/ed_classes.png" width="160px" />
+        <div class="a-ed-classes-topBar">分班<span>+</span></div>
+        <div class="a-ed-classes-row">
+            <div class="a-ed-classes-triangle iconfont">&#xe6b0;</div>
+            <div class="a-ed-classes-list">选择班级</div>
+            <div class="a-ed-classes-listOn">自动分配</div>
+            <div class="a-ed-classes-list">默认教室</div>
+        </div>
     </div>
 </div>
 <!--最优课堂-->
@@ -193,6 +202,28 @@
                     $(".wave_act").show();
             }
         });
+</script>
+<!--字体上浮-->
+<script type="text/javascript">
+    $(".a-ed-ways-blue").mouseover(function(){
+        $(this).find(".blue1").css({top:'23px'});
+        $(this).find(".blue2").css({top:'57px'});
+        $(this).find(".blue3").css({bottom:'33px'});
+
+    });
+    $(".a-ed-ways-blue").mouseout (function(){
+        $(this).find(".blue1").css({top:'28px'});
+        $(this).find(".blue2").css({top:'62px'});
+        $(this).find(".blue3").css({bottom:'28px'});
+    });
+    $(".a-ed-ways-white").mouseover(function(){
+        $(this).find(".white1").css({top:'23px'});
+        $(this).find(".white2").css({bottom:'33px'});
+    });
+    $(".a-ed-ways-white").mouseout (function(){
+        $(this).find(".white1").css({top:'28px'});
+        $(this).find(".white2").css({bottom:'28px'});
+    });
 </script>
 </body>
 </html>

@@ -87,7 +87,7 @@
             <div class="a-ed-naming-list-icon red">
                 <i class="iconfont">&#xe684;</i>
             </div>
-            <div class="a-ed-naming-list-type">迟到</div>
+            <div class="a-ed-naming-list-type">请假</div>
         </div>
     </div>
 </div>
