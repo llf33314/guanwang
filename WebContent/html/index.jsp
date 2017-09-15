@@ -146,7 +146,7 @@
                 <img src="../images/index/as-ser2.png">
                 <span>SaaS ERP管理系统</span>
                 <p>基于多粉强大的云计算平台，提供十多个行业的SaaS ERP选择，支持数据导出本地保存，结合跨平台系统所有数据无缝对接</p>
-                <a href="/html/erp.jsp">更多</a>
+                <a href="/html/erp/html/index.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition">
                 <img src="../images/index/as-ser3.png">
