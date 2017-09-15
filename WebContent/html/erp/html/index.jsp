@@ -170,7 +170,7 @@
                 <a href="/html/mess/html/index.jsp">更多</a>
             </li>
         </ul>
-        <div class="a-pro-box"> 更多行业解决方案敬请期待</div>
+        <div class="a-pro-box"> 更多ERP敬请期待</div>
         <!--动画-->
         <div class="erp-wave">
             <img src="../images/wave1.png"  class="wave1"/>
