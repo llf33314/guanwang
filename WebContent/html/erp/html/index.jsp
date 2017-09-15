@@ -30,10 +30,10 @@
             SaaS
         </div>
         <div class="erp-soft-text2">
-            传统软件
+            SaaS ERP
         </div>
         <div class="erp-soft-text3">
-            SaaS ERP
+            传统软件
         </div>
     </div>
 </div>
