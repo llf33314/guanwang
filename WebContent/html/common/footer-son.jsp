@@ -101,11 +101,31 @@
 </div>
 
 <script type="text/javascript">
-	function showImg() {
-		document.getElementById("wxImg").style.display = 'block';
-	}
-	function hideImg() {
-		document.getElementById("wxImg").style.display = 'none';
-	}
+    function showImg() {
+        document.getElementById("wxImg").style.display = 'block';
+    }
+    function hideImg() {
+        document.getElementById("wxImg").style.display = 'none';
+    }
+    var webjs = null,
+        screenW = $(window).width(),
+        screenh = $(window).height(),
+        userAgent = window.navigator.userAgent.toLowerCase(),
+        footh = 373;
+    $(".copyright").find(".gt_tck").click(function(){
+        var _html = "",url = $(this).attr("data-url"),zoom = $(this).attr("data-zoom").split(",");
+        var _t = (screenh - zoom[1])/2;
+        var _l = (screenW - zoom[0])/2;
+        _html = _html + '<div class="gt_window">';
+        _html = _html + '<div class="gt_bg"></div>';
+        _html = _html + '<div class="gt_cont" style="top:'+_t+'px;left:'+_l+'px;">';
+        _html = _html + '<img src="'+url+'">';
+        _html = _html + '<a href="javascript:;" class="gt_close"><img src="http://maint.duofriend.com/upload/image/websiteUpload/close.png"/></a>';
+        _html = _html + '</div>';
+        _html = _html + '</div>';
+        $("body").append(_html);
+    });
+    $("body").on("click",".gt_close",function(){
+        $(".gt_window").remove();
+    })
 </script>
-<%--<script src="/html/js/webJS.js"></script>--%>
