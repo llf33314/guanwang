@@ -108,4 +108,4 @@
 		document.getElementById("wxImg").style.display = 'none';
 	}
 </script>
-<script src="/html/js/webJS.js"></script>
+<%--<script src="/html/js/webJS.js"></script>--%>
