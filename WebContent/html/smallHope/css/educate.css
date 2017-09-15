@@ -2,6 +2,9 @@ body{color:#333;font-family: "微软雅黑";}
 *{padding:0;margin:0;}
 li{list-style: none;}
 a{text-decoration:none;color:#333;}
+.iconfont{-webkit-text-stroke-width: 0.5px !important;}
+.iconfont{-webkit-font-smoothing: antialiased;}
+
 
 /* 顶部菜单*/
 .a-ed-menu{
@@ -13,9 +16,6 @@ a{text-decoration:none;color:#333;}
 .a-ed-menu{
     width:80%;
     margin: auto; background: red;
-}
-.a-ed-menu .a-ed-menu-left{
-
 }
 /* 头部*/
 .car-top {
@@ -154,7 +154,6 @@ left: 0;
 .a-ed-banner-box h1{
     text-align: center;
     color: #fff;
-    font-family: ﻿MicrosoftYaHei;
     font-size: 45px;
     font-weight: normal;
     line-height: 1.8;
@@ -194,12 +193,12 @@ left: 0;
     font-size: 28px;
     text-align: center;
     padding-top:50px;
-    margin-bottom:19px;
+    margin-bottom:19px;color:#333;
 
 }
  .a-ed-follow-subtitle {
     text-align: center;
-    font-size: 14px;
+    font-size: 14px;color:#666;
 }
 .a-ed-follow-icon-row{
     width:100%;
@@ -289,7 +288,6 @@ left: 0;
 .a-ed-leave-left-subtitle{
     width: 365px;
     height: 62px;
-    font-family: ﻿MicrosoftYaHei;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -342,6 +340,29 @@ left: 0;
 
     100% {width: 60px;}
 }
+.a-ed-leave-right .text1{
+    position: absolute;
+    top:241px;left:48px;font-size: 10px;color:#fff;
+}
+
+.a-ed-leave-right .text2{
+    position: absolute;
+    top:280px;left:87px;font-size: 10px;color:#333;
+}
+
+.a-ed-leave-right .text3{
+    position: absolute;
+    top:333px;left:87px;font-size: 10px;color:#333;
+}
+.a-ed-leave-right .text4{
+    position: absolute;
+    top:384px;left:87px;font-size: 10px;color:#333;
+}
+.a-ed-leave-right .text5{
+    position: absolute;
+    bottom:65px;left:120px;font-size: 10px;color:#fff;
+}
+
 .act_tick{
     width:50px;height:50px; background: red; position: absolute;top:120px;right:140px;border-radius: 10px;
 }
@@ -374,7 +395,6 @@ padding-top:95px; float: left; position: relative;
 .a-ed-work-right-subtitle{
     width: 365px;
     height: 62px;
-    font-family: ﻿MicrosoftYaHei;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -385,20 +405,21 @@ padding-top:95px; float: left; position: relative;
     margin-top:20px;  float: left;
 }
 .a-ed-work-act{
-    position: absolute;left:540px;top:305px;
+    position: absolute;left:542px;top:305px;
 
 }
-.a-ed-work-act .iconfont{
+.a-ed-work-act  .gou{
     animation:mypoint 2s;
-    -moz-animation:mypoint 2s;/*Firefox */
+    -moz-animation:mypoint 2s;
     -webkit-animation:mypoint 2s;
-    -o-animation:mypoint 2s; display: none;
+    -o-animation:mypoint 2s;
+    display: none ;
 }
 
 .a-ed-work-act .icon1{
-    position: absolute;left:0px;top:-5px;
+    position: absolute;left:-9px;top:-2px;
     border-radius: 50%;
-    width:15px;height:15px;background-color: rgba(255, 180, 0, 1);
+    width:10px;height:10px;background-color: rgba(255, 180, 0, 1);
     webkit-animation: breathe 1000ms  infinite;
     -moz-animation: breathe 1000ms  infinite;
     -o-animation: breathe 1000ms  infinite;
@@ -425,10 +446,10 @@ padding-top:95px; float: left; position: relative;
     50%{opacity:1;background-color: rgba(255, 180, 0,  0.6); box-shadow:  0px 0px 10px  rgba(255, 180, 0, 0.5)}
 }
 .a-ed-work-act .icon2{
-    position: absolute;left:100px;top:32px;
+    position: absolute;left:103px;top:34px;
 
     border-radius: 50%;
-    width:15px;height:15px;background-color: rgba(255, 180, 0, 1);
+    width:10px;height:10px;background-color: rgba(255, 180, 0, 1);
 
     webkit-animation: breathe 1500ms  infinite;
     -moz-animation: breathe 1500ms  infinite;
@@ -502,7 +523,7 @@ padding-top:95px; float: left; position: relative;
     /*更多功能*/
 .a-ed-more {
     width: 100%;
-    height: 455px;
+    height: 494px;
     background-image: linear-gradient(90deg,
     rgba(4, 158, 255, 1) 1%,
     rgba(10, 109, 254, 1) 42%,
@@ -514,7 +535,7 @@ padding-top:95px; float: left; position: relative;
 }
 
 .a-ed-more-center{
-    width:660px;
+    width:930px;
     margin:0 auto;
 
 
@@ -525,34 +546,63 @@ padding-top:95px; float: left; position: relative;
     padding-top:70px;
 }
 .a-ed-more-row{
-    width:100%;  margin-left:50px;
+    width:720px;margin-left:100px;
 
 }
 .a-ed-more-feature .a-ed-more-list{
-    width:165px; padding-top:62px; position: relative;
-    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;height:77px;
+    width:90px; padding-top:50px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:100px;margin-left:120px;
+}
+.a-ed-more-feature .a-ed-more-list:first-child{
+    margin-left:0px;
+}
+.a-ed-more-feature .a-ed-more-list{
+   position: relative;
 }
 
+ .a-ed-more-rowSec .a-ed-more-list{
+    width:90px; padding-top:70px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:100px;margin-left:120px;
+}
+
+
+
+
+
 .a-ed-more-list{
-    width:165px; padding-top:62px; position: relative;
-    float:left;font-size: 16px;text-align: left; margin-bottom: 3px;height:77px;
+    width:90px; padding-top:62px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:120px;
+}
+
+.a-ed-index-row{
+    margin-left:200px;
+}
+.a-ed-index-row  .a-ed-more-list{
+    width:90px; padding-top:62px; position: relative;
+    float:left;font-size: 16px; margin-bottom: 3px;height:77px;margin-left:50px;
+}
+ .a-ed-more-list:first-child{
+    margin-left:0px;
 }
 .a-ed-more-list .iconfont{
 font-size: 36px;
 
 }
 .a-ed-more-list .a-ed-more-type{
-     position: absolute; bottom:0px;width:100%; text-align: center;
+     position: absolute; bottom:0px;width:100%; text-align: center;color:#333; font-size: 20px;
+}
+.a-ed-more-list .a-ed-more-type1{
+    position: absolute; bottom:0px;width:100%; text-align: center;color:#333; font-size: 16px;
 }
 .a-ed-praise{
-width:100%;height:490px;color:#000;
+width:100%;height:490px;
 
 }
 .a-ed-praise-title{
     font-size: 28px;
     text-align: center;
     padding-top:70px;
-    color:#000;
+    color:#333;
 }
 
 .a-ed-center{
@@ -574,10 +624,10 @@ width:100%;height:490px;color:#000;
 }
 .a-ed-praise-photo img{width:65px;height:65px;border-radius: 50%;}
 .name{
-    margin-top:55px;position: absolute;left:15px;font-size: 16px;
+    margin-top:55px;position: absolute;left:15px;font-size: 16px;color:#333;
 }
 .introduct{
-    font-size: 14px;position: absolute;left:15px;top:90px;right:10px;line-height: 24px;
+    font-size: 14px;position: absolute;left:15px;top:90px;right:10px;line-height: 24px;color:#666;
 }
 .a-ed-praise-on{
     border:0 !important;box-shadow: 0px 11px 29px 0px rgba(53, 53, 53, 0.15);

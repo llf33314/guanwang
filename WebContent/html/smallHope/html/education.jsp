@@ -87,7 +87,7 @@
             <div class="a-ed-naming-list-icon red">
                 <i class="iconfont">&#xe684;</i>
             </div>
-            <div class="a-ed-naming-list-type">迟到</div>
+            <div class="a-ed-naming-list-type">请假</div>
         </div>
     </div>
 </div>
@@ -104,8 +104,12 @@
     <div class="a-ed-leave-right">
         <div>
             <img src="../images/ed_leave.png" />
-            <i class="iconfont">&#xe6ac;</i>
-
+            <i class="iconfont gou" style="-webkit-text-stroke-width: 0 !important">&#xe6ac;</i>
+               <div class="text1">如有特殊情况请及时电话联系老师...</div>
+                <div class="text2">少儿钢琴初级课程</div>
+                <div class="text3">少儿美术初级课程</div>
+                <div class="text4">少儿武术初级课程</div>
+                <div class="text5">查看我的请假记录</div>
         </div>
     </div>
 </div>
@@ -141,39 +145,40 @@
         </div>
         <div class="a-ed-more-row">
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe641;</i>
-                <div class="a-ed-more-type" style="text-align: left">在线报名</div>
+                <i class="iconfont" style="font-size:55px;">&#xe641;</i>
+                <div class="a-ed-more-type" style="text-align: left;color:#fff;">在线报名</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe64d;</i>
-                <div class="a-ed-more-type" style="text-align: left">成绩查询</div>
+                <i class="iconfont"  style="font-size:45px;position: absolute;left:0; top:56px;">&#xe64d;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">成绩查询</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe60e;</i>
-                <div class="a-ed-more-type" style="text-align: left">查看课程</div>
+                <i class="iconfont"  style="font-size:45px;position: absolute;left:0; top:56px;">&#xe63e;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">新增考试</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe61e;</i>
-                <div class="a-ed-more-type" style="text-align: left">查看作业</div>
+                <i class="iconfont"  style="font-size:64px;position: absolute;left:0; top:48px;">&#xe67d;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">学员信息</div>
             </div>
+
         </div>
         <!--第二列-->
-        <div class="a-ed-more-row">
+        <div class="a-ed-more-row a-ed-more-rowSec">
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe63d;</i>
-                <div class="a-ed-more-type" style="text-align: left">学员信息</div>
+                <i class="iconfont"  style="font-size:55px;margin-top:5px;">&#xe611;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">库存管理</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe63e;</i>
-                <div class="a-ed-more-type" style="text-align: left">新增考试</div>
+                <i class="iconfont" style="font-size:55px;position: absolute;left:0; top:68px">&#xe8a6;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">会员管理</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe611;</i>
-                <div class="a-ed-more-type" style="text-align: left">库存管理</div>
+                <i class="iconfont" style="font-size:57px;position: absolute;left:0; top:71px">&#xe60e;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">查看课程</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont">&#xe8a6;</i>
-                <div class="a-ed-more-type" style="text-align: left">会员管理</div>
+                <i class="iconfont"  style="font-size:57px;position: absolute;left:0; top:75px">&#xe61e;</i>
+                <div class="a-ed-more-type" style="color:#fff;text-align: left">查看作业</div>
             </div>
         </div>
     </div>
@@ -184,7 +189,7 @@
         <div class="a-ed-praise-title">
             有口皆碑，他们都推荐“小盼”
         </div>
-        <div class="a-ed-praise-row">
+        <div class="a-ed-praise-row" style="margin-left:20px;">
             <div class="a-ed-praise-list">
                 <div class="a-ed-praise-photo">
                     <img src="../images/photo1.png" />
@@ -244,14 +249,13 @@
         var sHeight = $(document).scrollTop();
        // alert(sHeight);
         if(sHeight > 850 ) {
-            $(".a-ed-leave-right").find(".iconfont").show();
+            $(".a-ed-leave-right").find(".gou").show();
         }
         if(sHeight > 970 ) {
             $(".a-ed-work-act").find("img").show();
             setTimeout(function () {
                 $(".a-ed-work-act").find(".iconfont").show();
             }, 1500);
-
         }
     });
 </script>

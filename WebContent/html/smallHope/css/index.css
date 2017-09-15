@@ -2,6 +2,8 @@ body{color:#333;font-family: "微软雅黑";}
 *{padding:0;margin:0;}
 li{list-style: none;}
 a{text-decoration:none;color:#333;}
+.iconfont{-webkit-text-stroke-width: 0.5px !important;}
+.iconfont{-webkit-font-smoothing: antialiased;}
 
 /* 顶部菜单*/
 .a-ed-menu{
@@ -153,7 +155,6 @@ left: 0;
 .a-ed-banner-box h1{
     text-align: center;
     color: #fff;
-    font-family: ﻿MicrosoftYaHei;
     font-size: 45px;
     font-weight: normal;
     line-height: 1.8;
@@ -223,7 +224,53 @@ font-size: 40px;
     border-radius: 5px 5px 5px 5px;float:left;
     position: relative;
 }
+.a-ed-ways-blue:hover .blue1{
+    top:23px;
+    animation: eximg1 0.2s linear;
+}
+.a-ed-ways-blue:hover .blue2{
+    top:57px;
+    animation: eximg2 0.2s linear;
+}
+.a-ed-ways-blue:hover .blue3{
+    top:110px;
+    animation: eximg3 0.2s linear;
+}
+@keyframes eximg1{
 
+    0%{top:28px;}
+    100%{top:23px;}
+}
+@keyframes eximg2{
+    0%{top:62px;}
+    100%{top:57px;}
+}
+@keyframes eximg3{
+    0%{top:115px;}
+    100%{top:110px;}
+}
+
+.a-ed-ways-white:hover .white1{
+    top:23px;
+    animation: exwhite1 0.2s linear;
+}
+@keyframes exwhite1{
+    0%{top:28px;}
+    100%{top:23px;}
+}
+.a-ed-ways-white:hover .white2{
+    bottom:33px;
+    animation: exhite2 0.2s linear;
+}
+@keyframes exhite2{
+
+    0%{bottom:28px;}
+    100%{bottom:33px;}
+}
+
+.a-ed-ways-on{
+    margin-top: -10px;
+}
 .a-ed-ways-blue:hover{
     box-shadow: 3px 4px 4px 0px  rgba(0, 0, 0, 0.2);
 }
@@ -243,19 +290,63 @@ font-size: 40px;
     position: absolute;top:62px;left:93px;color:#ffe993;font-size: 33px;
 }
 .a-ed-ways-blue .blue3{
-    position: absolute;bottom:28px;left:64px;color:#fff;font-size: 13px;
+    position: absolute;top:115px;left:64px;color:#fff;font-size: 13px;
 }
 .a-ed-ways-white .white1{
     position: absolute;top:28px;left:97px;font-size: 22px;color:#195fff;
 }
 .a-ed-ways-white .white2{
-    width:180px;height:63px;
-    position: absolute;bottom:28px;left:60px;font-size:14px;color:#000; text-align: center;line-height: 24px;
+    width:200px;height:63px;
+    position: absolute;bottom:28px;left:60px;font-size:14px;color:#666; text-align: center;line-height: 24px;
 }
 .a-ed-ways-white .white2 span{
     color:#195fff;padding:0 4px;
 }
-.a-ed-classes-img{margin: 50px auto; text-align: center}
+
+.a-ed-classes-img{margin:40px auto;height:170px;
+width:150px;}
+.a-ed-classes-img .a-ed-classes-topBar{
+    width: 111px; text-indent: 18px; float:right;margin-right:20px;
+    height: 37px;line-height:37px;color:#fff;font-size: 22px;
+    background-image: linear-gradient(-90deg,
+rgba(6, 178, 251, 1) 1%,
+rgba(25, 95, 255, 1) 100%),
+linear-gradient(
+        rgba(51, 51, 51, 1),
+        rgba(51, 51, 51, 1));
+
+}
+.a-ed-classes-img .a-ed-classes-topBar span{
+    float:right;margin-right: 12px;
+}
+.a-ed-classes-triangle{
+position: absolute;right:11px;top:-13px;color:#e5e5e5;font-size: 18px;
+
+}
+
+.a-ed-classes-row{
+    width: 146px;margin-right:20px;
+    height: 129px;margin-top:20px;
+   position: relative; background: #fff;
+    box-shadow: 0px 5px 10px 0px
+    rgba(25, 95, 255, 0.06);
+    border: solid 1px rgba(229, 229, 229, 1); float:right;
+
+}
+.a-ed-classes-list{
+    width:146px;height:50px;text-align: center;font-size:14px;color:#999999;line-height:50px;
+}
+.a-ed-classes-listOn{
+    width: 146px;
+    height: 29px;
+    background-color: rgba(25, 95, 255, 0.1);
+    color:#666; text-align: center;
+    line-height:29px;font-size:16px
+}
+.a-ed-classes-list:last-child{
+    font-size:16px; color:#666;
+}
+
 .a-ed-rooms{
     height: 442px;
     background-image: url(../images/ed_bgclass.jpg);
@@ -288,7 +379,7 @@ font-size: 40px;
     width: 360px;height:390px; background: #fff; float:right;margin-top:143px; z-index: 2;
 }
 .a-ed-online-row{
-    width:360px;height:392px;float:right;position: absolute;
+    width:360px;height:392px;float:right;position: absolute;padding-right:10px;
 }
 
 .a-ed-online-row{
@@ -298,7 +389,7 @@ font-size: 40px;
 color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: center;background: #195fff;height: 32px;z-index: 1; cursor: pointer;
 }
 .row1{
-    position: absolute;bottom:60px; right: 210px;  width: 101px;
+    position: absolute;bottom:60px; right: 210px;  width: 106px;
 }
 
 .row2 {
@@ -309,7 +400,7 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
 }
 
 .row3{
-    position: absolute;bottom:60px; right:10px;width: 126px;
+    position: absolute;bottom:60px; right:20px;width: 116px;
 }
 
 .row4{
@@ -324,14 +415,14 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
      width: 70px;
 }
 
-.row6{    position: absolute;bottom:20px; right:10px;width: 175px;}
+.row6{    position: absolute;bottom:20px; right:20px;width: 165px;}
 .a-ed-online-type .pen{
     position: absolute;width:30px;height:30px;border-radius:50%;right:20px;bottom:120px;color:#fff;font-size:25px;background: #ff2544;
     text-align: center;line-height:22px;
     z-index: 111;
 }
 .a-ed-online-list:hover{
-    box-shadow: 3px 4px 4px 0px
+    box-shadow: 2px 2px 2px 0px
     rgba(0, 0, 0, 0.2);
 }
 /*报表*/
@@ -348,7 +439,7 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     position:absolute;
     width:38px;height:130px;
     background-image: url(../images/line1.png);
-    left:94px;bottom:95px;
+    left:100px;bottom:105px;
    animation:myfirst 3s;
     -moz-animation:myfirst 3s;/* !* Firefox *!*/
     -webkit-animation:myfirst 3s;/* !* Safari and Chrome *!*/
@@ -364,7 +455,7 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     position:absolute;
     width:80px;height:150px;
     background-image: url(../images/line2.png);
-    right:52px;bottom:95px;
+    right:45px;bottom:105px;
     animation:myfirst2 3s;
     -moz-animation:myfirst2 3s;/*Firefox */
     -webkit-animation:myfirst2 3s;
@@ -378,8 +469,8 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     position:absolute;
     width:520px;height:210px;
     background-image: url(../images/wave.png);
-    left:198px;
-    bottom: 69px;
+    left:210px;
+    bottom: 80px;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -392,13 +483,11 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
 @keyframes mywave
 {
     0%   {width: 0px;}
-
     100% {width: 520px;}
 }
 
 @-moz-keyframes mywave
-{
-    0%   {width: 0px;}
+{    0%   {width: 0px;}
 
     100% {width: 520px;}
 }
@@ -471,4 +560,96 @@ color:#fff;border-radius: 2px;font-size:12px;line-height: 32px;text-align: cente
     0%   {height: 0px;}
 
     100% {height: 150px;}
+}
+/*报表文字*/
+.reportPo{
+    position: relative;
+}
+.reportPo .line1{
+    position: absolute;top:120px;left:25px;font-size: 10px; color: #333;
+}
+.reportPo .line2{
+    position: absolute;top:120px;right:25px;font-size: 10px; color: #333;
+}
+
+.reportPo .wanS .wan1{
+    top:155px;right:810px;   position: absolute;font-size:xx-small; color: #333;
+}
+.reportPo .wanS .wan2{
+    top:193px;right:810px;   position: absolute;font-size:xx-small; color: #333;
+}
+.reportPo .wanS .wan3{
+    top:228px;right:810px;   position: absolute;font-size:xx-small; color: #333;
+}
+.reportPo .wanS .wan4{
+    top:263px;right:810px;   position: absolute;font-size:xx-small; color: #333;
+}
+.reportPo .wanS .wan5{
+    top:300px;right:810px;   position: absolute;font-size:xx-small; color: #333;
+}
+.reportPo .wanS .wan6{
+    top:335px;right:810px;   position: absolute;font-size:xx-small; color: #333;
+}
+
+.reportPo .wanB {
+   font-size:14px; color: #333;
+}
+.reportPo .wanB .wan1{
+    top:121px;right:690px;position: absolute;
+}
+.reportPo .wanB .wan2{
+    top:160px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan3{
+    top:200px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan4{
+    top:237px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan5{
+    top:275px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan6{
+    top:317px;right:690px;   position: absolute;
+}
+.reportPo .wanB .wan7{
+    top:355px;right:690px;   position: absolute;
+}
+
+.reportPo .btm .wan1{
+    top:346px;right:778px;   position: absolute; font-size:xx-small; color: #333;
+}
+
+.reportPo .btm .wan2{
+    top:346px;right:740px;   position: absolute; font-size:xx-small; color: #333;
+}
+
+.reportPo .btm .wan3{
+    top:346px;right:90px;   position: absolute; font-size:xx-small; color: #333;
+}
+
+.reportPo .btm .wan4{
+    top:346px;right:30px;   position: absolute; font-size:xx-small; color: #333;
+}
+
+.reportPo .yue{
+    color:#333;font-size:16px;
+}
+.reportPo .yue .wan1{
+    bottom:52px;left:235px;   position: absolute;
+}
+.reportPo .yue .wan2{
+    bottom:52px;left:330px;   position: absolute;
+}
+.reportPo .yue .wan3{
+    bottom:52px;left:420px;   position: absolute;
+}
+.reportPo .yue .wan4{
+    bottom:52px;left:525px;   position: absolute;
+}
+.reportPo .yue .wan5{
+    bottom:52px;left:612px;   position: absolute;
+}
+.reportPo .yue .wan6{
+    bottom:52px;left:700px;   position: absolute;
 }
