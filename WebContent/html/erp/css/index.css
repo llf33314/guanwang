@@ -253,7 +253,7 @@ margin-top:90px;
 }
 .video1:hover .circle5{
     width:32px;height:39px; top:154px;left:255px;
-    background-image: url(../images/play.png);
+    background-image: url(../images/playon.png);
     animation: excircle5 0.1s linear;
 }
 @keyframes excircle5{
@@ -296,7 +296,7 @@ margin-top:90px;
 }
 .video2:hover .circle5{
     width:32px;height:39px; top:154px;left:255px;
-    background-image: url(../images/play.png);
+    background-image: url(../images/playon.png);
     animation: excircle5 0.1s linear;
 }
 @keyframes excircle5{
@@ -311,7 +311,7 @@ margin-top:90px;
 .a-sy-programme{
     height: 789px;
     width: 100%;overflow: hidden;
-    background: -webkit-gradient(linear, 0% 25%, 75% 100%, from(#0ec7fe), to(#4560fe));
+    background:#009bff;
     text-align: center;
     color: #fff;
     font-size: 14px; position: relative;
