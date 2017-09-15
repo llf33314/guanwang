@@ -48,7 +48,7 @@
 </div>
 <!--竞争-->
 <div class="erp-compete">
-    <div class="erp-title ">客户对软件应用的需求已经不再是单一的功能需求，而是功能——美观——体验——获客</div>
+    <div class="erp-title ">企业的大小竞争，关键在于云的争夺，因此，每个微小企业都要实现软件云化</div>
     <div class="erp-subtitle">
         <div class="erp-SubTitleText">传统PC软件只能等待人工回到公司才能登录，只有人工设定时间才能定时更新云端数据同步</div>
         <div class="erp-SubTitleText">抢占商机就是一场赛跑，只有云化才能快人一步，这时，云化的多端实时同步显得越发重要</div>
