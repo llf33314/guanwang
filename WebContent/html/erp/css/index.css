@@ -252,7 +252,7 @@ margin-top:90px;
     100%{width:84px;height:84px;top:131px;left:225px;}
 }
 .video1:hover .circle5{
-    width:32px;height:39px; top:154px;left:255px;
+    width:32px;height:42px; top:154px;left:255px;
     background-image: url(../images/playon.png);
     animation: excircle5 0.1s linear;
 }
@@ -295,7 +295,7 @@ margin-top:90px;
     100%{width:84px;height:84px;top:131px;left:225px;}
 }
 .video2:hover .circle5{
-    width:32px;height:39px; top:154px;left:255px;
+    width:32px;height:42px; top:154px;left:255px;
     background-image: url(../images/playon.png);
     animation: excircle5 0.1s linear;
 }
@@ -407,7 +407,7 @@ margin-top:90px;
     color: #ffffff;
 }
 .erp-wave{
-    width:100%; overflow: hidden;
+    width:100%; overflow-x: hidden;
 }
 .erp-wave img{
     width:100%;position: absolute;bottom: 0;left:0;
@@ -432,22 +432,34 @@ margin-top:90px;
     animation-timing-function: linear;
 }
 .erp-wave .wave4{
-    animation: d 3s;
+    width:100%; overflow: hidden;
+    animation: d 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.erp-wave .wave5{
+    animation: e 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
 }
 @keyframes a{
-    0%{margin-left:-330px;}to{margin-left:330px;}
+    0%{bottom:-20px }to{bottom:0x; }
 }
 @keyframes b{
-    0%{bottom:0px;margin-left:0px;}to{bottom:-20px;margin-left:5px;}
+    0%{bottom:0px;}to{bottom:-20px;}
 }
 @keyframes c{
     0%{bottom:-5px;}to{bottom:0px;}
 }
 @keyframes d{
-    0%{bottom:0px;margin-left:0px;}to{bottom:-15px;margin-left:2px;}
+    0%{margin-left:-50px;}to{margin-left:50px;}
+
+}
+
+@keyframes e{
+    0%{bottom:0px }to{bottom:-15px; }
 }
 
 

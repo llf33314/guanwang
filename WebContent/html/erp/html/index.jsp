@@ -177,6 +177,7 @@
             <img src="../images/wave2.png"  class="wave2"/>
             <img src="../images/wave3.png"  class="wave3"/>
             <img src="../images/wave4.png"  class="wave4"/>
+            <img src="../images/wave5.png"  class="wave5"/>
         </div>
     </div>
 <!--通用底部-->
