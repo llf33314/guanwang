@@ -308,6 +308,9 @@ margin-top:90px;
 
 
 /*列表*/
+
+
+
 .a-sy-programme{
     height: 789px;
     width: 100%;overflow: hidden;
@@ -328,7 +331,7 @@ margin-top:90px;
     margin: 30px auto 0;
 }
 .a-sy-programme-box .pro-box{
-    width: 180px;
+    width: 180px;vertical-align: top;
     height: 180px;
     background-image: url(../images/as-pro.png);
     margin: 14px 18px;
