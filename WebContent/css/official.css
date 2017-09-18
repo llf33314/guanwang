@@ -405,6 +405,7 @@ a{text-decoration:none;color:#333;}
     background-image: url(../images/index/as-pro.png);
     margin: 14px 18px;
     overflow: hidden;
+    vertical-align: top;
 }
 .a-sy-programme-box .pro-box img{
     margin-top:24px;
