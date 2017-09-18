@@ -157,7 +157,7 @@
                 <div class="a-ed-more-type" style="color:#fff;text-align: left">新增考试</div>
             </div>
             <div class="a-ed-more-list">
-                <i class="iconfont"  style="font-size:64px;position: absolute;left:0; top:48px;">&#xe67d;</i>
+                <i class="iconfont"  style="font-size:68px;position: absolute;left:0; top:46px;">&#xe67d;</i>
                 <div class="a-ed-more-type" style="color:#fff;text-align: left">学员信息</div>
             </div>
 
