@@ -174,11 +174,15 @@
         <div class="a-pro-box"> 更多ERP敬请期待</div>
         <!--动画-->
         <div class="erp-wave">
-            <img src="../images/wave1.png"  class="wave1"/>
-            <img src="../images/wave2.png"  class="wave2"/>
+            <div class="wave1"></div>
+            <div class="wave2"></div>
+            <div class="wave3"></div>
+            <div class="wave4"></div>
+            <div class="wave5"></div>
+          <%--  <img src="../images/wave2.png"  class="wave2"/>
             <img src="../images/wave3.png"  class="wave3"/>
             <img src="../images/wave4.png"  class="wave4"/>
-            <img src="../images/wave5.png"  class="wave5"/>
+            <img src="../images/wave5.png"  class="wave5"/>--%>
         </div>
     </div>
 <!--通用底部-->
