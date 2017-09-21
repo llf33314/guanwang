@@ -25,7 +25,7 @@
 			</div>
 			<div class="car-top-service">
 				<a href="http://duofriend.com/user/toregister.do">免费体验</a>
-				<a href="http://duofriend.com/login/tologin.do" class="car-top-service-login">登录</a>
+				<a href="http://duofriend.com/user/tologin.do" class="car-top-service-login">登录</a>
 				<a href="/html/homeland/html/pay.jsp">购买</a>
 			</div>
 		</div>
