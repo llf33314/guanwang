@@ -71,7 +71,7 @@
                                             <div class="msg">
                                                 <p style="text-align: center;text-indent: 0">扫码即体验</p>
                                             </div>
-                                            <h2>小馋猫粉丝端</h2>
+                                            <h2>康小厨粉丝端</h2>
                                             <span>功能详情</span>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@
                                                 <p> 账号：tyxcm</p>
                                                 <p>密码：123456</p>
                                             </div>
-                                            <h2>小馋猫部长端</h2>
+                                            <h2>康小厨部长端</h2>
                                             <span>功能详情</span>
                                         </div>
                                     </div>
@@ -165,9 +165,9 @@
             </li>
             <li>
                 <img src="../img/taste-floor23.png"/>
-                <h2>小馋猫</h2>
+                <h2>康小厨</h2>
                 <p>
-                    九九前连锁餐饮通过“小馋猫”小程序，实现顾客“粉丝端”一键开台的极速体验，通过“店员端”直接下单、划菜、结账，一键搞定，迅速提高顾客就餐效率，半年时间内客流量增加约40%，成功带动店铺业绩，突破营业瓶颈</p>
+                    九九前连锁餐饮通过“康小厨”小程序，实现顾客“粉丝端”一键开台的极速体验，通过“店员端”直接下单、划菜、结账，一键搞定，迅速提高顾客就餐效率，半年时间内客流量增加约40%，成功带动店铺业绩，突破营业瓶颈</p>
             </li>
         </ul>
     </div>
@@ -238,7 +238,7 @@
 </div>
 <div class="bpp" id="Bpp">
     <div class="bpp-content">
-        <h2 class="taste-content-h2">小馋猫粉丝端</h2>
+        <h2 class="taste-content-h2">康小厨粉丝端</h2>
         <i class="iconfont aclose" onclick="showOrCloseBpp('close')">&#xe651;</i>
         <ul class="app-content-ul">
             <li>
@@ -270,7 +270,7 @@
 </div>
 <div class="cpp" id="Cpp">
     <div class="cpp-content">
-        <h2 class="taste-content-h2">小馋猫部长端</h2>
+        <h2 class="taste-content-h2">康小厨部长端</h2>
         <i class="iconfont aclose" onclick="showOrCloseCpp('close')">&#xe651;</i>
         <ul class="app-content-ul">
             <li>

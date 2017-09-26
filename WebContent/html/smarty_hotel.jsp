@@ -21,7 +21,7 @@ $(function(){
     
      <div id="banner" class="focusad">
          <ul>
-             <li><a href="#"><img src="${imageUrl}/smartyHotel/banner.jpg"></a></li>
+             <li><a href="#"><img src="../images/index/xy-banner.png"></a></li>
          </ul>
      </div>
 

@@ -3,10 +3,10 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>小馋猫餐饮管理系统_外卖点餐无线点菜_收银支付软件_多粉</title>
+    <title>康小厨餐饮管理系统_外卖点餐无线点菜_收银支付软件_多粉</title>
 
     <meta name="description"
-          content="多粉小馋猫智慧餐饮，提供包含订餐、订房、点菜、支付、收银、预约排号等功能服务，整合互联网餐饮营销方式，帮助餐厅快速提升订单，提高用户体验。"/>
+          content="多粉康小厨智慧餐饮，提供包含订餐、订房、点菜、支付、收银、预约排号等功能服务，整合互联网餐饮营销方式，帮助餐厅快速提升订单，提高用户体验。"/>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -84,36 +84,36 @@
       <div class="gt-swiper3d-container">
         <div class="gt-swiper3d-top">
           <div class="gt-text" style="display: none">
-            <h1>小馋猫行业解决方案是什么？</h1>
-            <h6>小馋猫为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
+            <h1>康小厨行业解决方案是什么？</h1>
+            <h6>康小厨为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
           </div>
           <div class="gt-text">
-            <h1>小馋猫行业解决方案是什么？</h1>
-            <h6>小馋猫为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
+            <h1>康小厨行业解决方案是什么？</h1>
+            <h6>康小厨为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
           </div>
           <div class="gt-text" style="display: none">
-            <h1>小馋猫行业解决方案是什么？</h1>
-            <h6>小馋猫为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
+            <h1>康小厨行业解决方案是什么？</h1>
+            <h6>康小厨为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
           </div>
         </div>
         <div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(-435px, 44px);z-index: 1">
           <div class="gt-swiper3d-radio-image"><img alt="" src="../img/gt-image1.png"></div>
           <div class="gt-swiper3d-popup addBg">
-          <h2 style="color:#fff;font-size:24px;">小馋猫MG动画</h2>
+          <h2 style="color:#fff;font-size:24px;">康小厨MG动画</h2>
             <a href="javascript:;" class="gt-swiper3d-play" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=q03896qqitw&auto=0&tiny=0&auto=0");'></a>
           </div>
         </div>
         <div class="gt-swiper3d-radio-box"  style="transform: scale(1) translate(0,0);z-index: 2">
           <div class="gt-swiper3d-radio-image"><img alt="" src="../img/gt-image1.png"></div>
           <div class="gt-swiper3d-popup">
-          <h2 style="color:#fff;font-size:24px;">小馋猫现实场景视频</h2>
+          <h2 style="color:#fff;font-size:24px;">康小厨现实场景视频</h2>
             <a href="javascript:;" class="gt-swiper3d-play" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=b0388vsm3nr&auto=0&tiny=0&auto=0");'></a>
           </div>
         </div>
         <div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(435px, 44px);z-index: 1">
           <div class="gt-swiper3d-radio-image"><img alt="" src="../img/gt-image1.png"></div>
           <div class="gt-swiper3d-popup addBg">
-          <h2 style="color:#fff;font-size:24px;">小馋猫速食版视频</h2>
+          <h2 style="color:#fff;font-size:24px;">康小厨速食版视频</h2>
             <a href="javascript:;" class="gt-swiper3d-play" onclick="openVideo()"></a>
           </div>
         </div>

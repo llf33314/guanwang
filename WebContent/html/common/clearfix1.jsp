@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <link rel="stylesheet" href="/html/common/css/newhead.css"/>
 <link rel="stylesheet" href="/html/font-one/iconfont.css"/>
+<link rel="stylesheet" href="/html/common/font-logo/iconfont.css"/>
 <div class="gt-a-top" style="position: relative;">
     <div class="gt-a-top-box">
         <div class="gt-a-top-box-logo"><a href="/">
@@ -70,10 +71,10 @@
                         </a>
                     </li>
                     <li class="a-pro-a">
-                        <div class="a-pro-a"><i class="iconfont in13">&#xe653;</i></div>
+                        <div class="a-pro-a"><i class="iconfont in13">&#xe7a2;</i></div>
                         <a href="/html/LittleGreedyCat/html/index.jsp">
 		                     <span>
-		                         <h3>小馋猫</h3>
+		                         <h3>康小厨</h3>
 		                         <p>智慧餐饮解决方案</p>
 		                     </span>
                         </a>
@@ -82,7 +83,7 @@
                         <div class="a-pro-a"><i class="iconfont in12">&#xe618;</i></div>
                         <a href="/html/BigWhite/html/index.jsp">
 		                     <span>
-		                         <h3>大白</h3>
+		                         <h3>小红十</h3>
 		                         <p>社区门诊医疗解决方案</p>
 		                     </span>
                         </a>
@@ -91,7 +92,7 @@
                         <div class="a-pro-a"><i class="iconfont in15">&#xe648;</i></div>
                         <a href="/html/jxc/html/index.jsp">
 		                     <span>
-		                         <h3>存销宝</h3>
+		                         <h3>敏库</h3>
 		                         <p>智慧进销存解决方案</p>
 		                     </span>
                         </a>
@@ -153,11 +154,12 @@
                 </ul>
             </li>
             <li class="a-top-firstli" style="height: 80px;"><a href="/html/case/html/index.jsp">客户案例</a></li>
-            <li class="a-top-firstli" id="c-show"><a href="javascript:void(0);">合作与加盟</a>
+            <li class="a-top-firstli" id="c-show"><a href="javascript:void(0);">代理与加盟</a>
                 <ul class="a-top-join" id="c-show2">
                     <li id="a-pro-r"><a href="/html/agency/html/index.jsp" id="a-chan-sq">申请代理</a></li>
                     <li id="a-pro-s"><a href="/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
                     <li id="a-pro-b"><a href="/html/business/html/index.jsp" id="a-chan-bs">创业计划</a></li>
+                    <li id="a-pro-e"><a href="" id="a-chan-df">多粉介绍</a></li>
                 </ul>
             </li>
         </ul>

@@ -18,7 +18,7 @@
     <div class="cxb-top-menu">
         <div class="left">
             <a class="menu-img" href="/html/jxc/html/index.jsp" style="text-decoration: none;color: #fff;">
-                存销宝<span> . 智慧进销存</span>
+                敏库<span> . 智慧进销存</span>
             </a>
             <a href="/" class="return" style="text-decoration: none;color: #fff;">返回主站</a>
         </div>
@@ -52,7 +52,7 @@
 <div class="cxb-floor2">
     <div class="cxb-floor2-content text-same">
         <h1 class="title">线上线下库存不同步，超卖缺货等问题如何解决？</h1>
-        <p class="dps">存销宝进销存系统线上线下库存统一管理，库存预警，系统主动提醒。商品库存更合理，无需盲目补货，帮助企业实现“轻库存”，让企业经营更健康</p>
+        <p class="dps">敏库进销存系统线上线下库存统一管理，库存预警，系统主动提醒。商品库存更合理，无需盲目补货，帮助企业实现“轻库存”，让企业经营更健康</p>
         <div class="img-box">
             <div class="yuanjuxing">
                 <div class="" id="yuanjuxingline"></div>
@@ -77,7 +77,7 @@
 <div class="cxb-floor4">
     <div class="text-same">
         <h1 class="title">商品种类太多，不知道怎么管理库存？</h1>
-        <p class="dps">无线手持扫码设备条码作业，扫描商品条形码即可实现商品收货和出库。企业亦可设置好商品编码，输入商品名称或者商品编号进行快速入库、出货。打开存销宝即可查看所有商品的库存情况，掌控一切</p>
+        <p class="dps">无线手持扫码设备条码作业，扫描商品条形码即可实现商品收货和出库。企业亦可设置好商品编码，输入商品名称或者商品编号进行快速入库、出货。打开敏库即可查看所有商品的库存情况，掌控一切</p>
     </div>
     <div class="cxb-floor4-content">
         <div class="left"></div>
@@ -93,15 +93,15 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="#" class="link-img"></a>
-                        <h2 class="title">存销宝MG动画</h2>
+                        <h2 class="title">敏库MG动画</h2>
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="link-img"></a>
-                        <h2 class="title">存销宝现实场景</h2>
+                        <h2 class="title">敏库现实场景</h2>
                     </div>
                     <div class="swiper-slide">
                         <a href="#" class="link-img"></a>
-                        <h2 class="title">存销宝实操演练</h2>
+                        <h2 class="title">敏库实操演练</h2>
                     </div>
                 </div>
                 <div class="swiper-pagination" id="cxbFloor5SwiperPage"></div>
@@ -112,7 +112,7 @@
 <div class="cxb-floor6">
     <div class="text-same">
         <h1 class="title">完美嵌入SaaS ERP 灵动地组合</h1>
-        <p class="dps">存销宝除了能单独使用之外，企业还可以在多粉旗下的所有SaaS ERP系统中完美嵌入存销宝进销存系统，数据无缝对接，统一管理</p>
+        <p class="dps">敏库除了能单独使用之外，企业还可以在多粉旗下的所有SaaS ERP系统中完美嵌入敏库进销存系统，数据无缝对接，统一管理</p>
     </div>
     <div class="cxb-floor6-conent">
         <div class="top-box">

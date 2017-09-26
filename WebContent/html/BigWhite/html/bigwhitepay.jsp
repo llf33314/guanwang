@@ -33,7 +33,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g1.png" /></span>大白ERP（2店版） </li>
+                                   <li><span><img src="../images/g1.png" /></span>小红十ERP（2店版） </li>
                                    <li><span><img src="../images/g1.png" /></span>店员端小程序</li>
                                    <li><span><img src="../images/g1.png" /></span>老板端小程序</li>
                                    <li><span><img src="../images/g1.png" /></span>免费派券渠道</li>
@@ -63,7 +63,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g2.png" /></span>大白ERP（5店版）</li>
+                                   <li><span><img src="../images/g2.png" /></span>小红十ERP（5店版）</li>
                                    <li><span><img src="../images/g2.png" /></span>店员端小程序</li>
                                    <li><span><img src="../images/g2.png" /></span>老板端小程序</li>
                                    <li><span><img src="../images/g2.png" /></span>免费派券渠道</li>
@@ -93,7 +93,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                    <li><span><img src="../images/g3.png" /></span>大白ERP（8店版）</li>
+                                    <li><span><img src="../images/g3.png" /></span>小红十ERP（8店版）</li>
                                     <li><span><img src="../images/g3.png" /></span>店员端小程序</li>
 			                        <li><span><img src="../images/g3.png" /></span>老板端小程序</li>
 			                        <li><span><img src="../images/g3.png" /></span>免费派券渠道</li>
@@ -123,7 +123,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../images/g3.png" /></span>大白ERP（8店版）</li>
+                                   <li><span><img src="../images/g3.png" /></span>小红十ERP（8店版）</li>
                                     <li><span><img src="../images/g3.png" /></span>店员端小程序</li>
 			                        <li><span><img src="../images/g3.png" /></span>老板端小程序</li>
 			                        <li><span><img src="../images/g3.png" /></span>免费派券渠道</li>
@@ -153,7 +153,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                    <li><span><img src="../images/g4.png" /></span>大白ERP（12店版）</li>
+                                    <li><span><img src="../images/g4.png" /></span>小红十ERP（12店版）</li>
                                     <li><span><img src="../images/g4.png" /></span>店员端小程序</li>
 			                        <li><span><img src="../images/g4.png" /></span>老板端小程序</li>
 			                        <li><span><img src="../images/g4.png" /></span>免费派券渠道</li>

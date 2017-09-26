@@ -3,10 +3,10 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>小馋猫餐饮管理系统_外卖点餐无线点菜_收银支付软件_多粉</title>
+    <title>康小厨餐饮管理系统_外卖点餐无线点菜_收银支付软件_多粉</title>
 
     <meta name="description"
-          content="多粉小馋猫智慧餐饮，提供包含订餐、订房、点菜、支付、收银、预约排号等功能服务，整合互联网餐饮营销方式，帮助餐厅快速提升订单，提高用户体验。"/>
+          content="多粉康小厨智慧餐饮，提供包含订餐、订房、点菜、支付、收银、预约排号等功能服务，整合互联网餐饮营销方式，帮助餐厅快速提升订单，提高用户体验。"/>
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -95,7 +95,7 @@
 	</div>
 
 	<div class="xc-jztz-item" style="margin-bottom: 80px;" id="six">
-	    <h2  class="animated" style="opacity: 0;" id="cat24">完美兼容小馋猫ERP系统</h2>
+	    <h2  class="animated" style="opacity: 0;" id="cat24">完美兼容康小厨ERP系统</h2>
 	    <div class="xc-img-txt-item">
 			 <img src="../img/hardware/index1_59.jpg"  class="animated" style="opacity: 0;" id="cat25">
 			 <div class="xt-txt-cont">

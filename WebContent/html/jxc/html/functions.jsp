@@ -16,7 +16,7 @@
     <div class="left cxb-fn-show1-text1">
         <div class="text-box" style="font-family: Microsoft YaHei">
             <div class="text11"><span class="counter">10,000</span>+的用</div>
-            <div class="text12">存销宝SaaS平台强</div>
+            <div class="text12">敏库SaaS平台强</div>
         </div>
     </div>
     <div class="right  cxb-fn-show1-text2">
@@ -32,7 +32,7 @@
 <div class="cxb-fn-menus" id="cxbFnMenus" onclick="CxbFnAnimate.showCxbFnMenu()">
     <div class="top">
         <a class="menu-img">
-            存销宝<span><i> . </i>智慧进销存</span>
+            敏库<span><i> . </i>智慧进销存</span>
         </a>
     </div>
     <ul class="bottom">
@@ -148,7 +148,7 @@
             <div class="cxb-fn-left-content hide">
                 <h1 class="title show">信息自动集成 数据移动查看</h1>
                 <div class="line short0"></div>
-                <div class="dps" style="height: 70px;"><p class="toup">通过存销宝小程序，老板可直接打开手机进行库存调拨的审核，同步查看门店库存、销售盈利、财务统计报表等，信息自动集成、库存管控置于一体</p></div>
+                <div class="dps" style="height: 70px;"><p class="toup">通过敏库小程序，老板可直接打开手机进行库存调拨的审核，同步查看门店库存、销售盈利、财务统计报表等，信息自动集成、库存管控置于一体</p></div>
                 <div class="icons-box">
                     <ul class="icons icon-show">
                         <li></li>
@@ -284,7 +284,7 @@
             <div class="left-content">
                 <h1 class="title">信息自动集成 数据移动查看</h1>
                 <div class="line"></div>
-                <p class="dps">通过存销宝小程序，老板可直接打开手机进行库存调拨的审核，同步查看门店库存、销售盈利、财务统计报表等，信息自动集成、库存管控置于一体</p>
+                <p class="dps">通过敏库小程序，老板可直接打开手机进行库存调拨的审核，同步查看门店库存、销售盈利、财务统计报表等，信息自动集成、库存管控置于一体</p>
                 <ul class="icons">
                     <li></li>
                     <li></li>

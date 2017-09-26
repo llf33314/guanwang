@@ -48,7 +48,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../img/g1.png" /></span>小馋猫ERP（2店版）</li>
+                                   <li><span><img src="../img/g1.png" /></span>康小厨ERP（2店版）</li>
                                    <li><span><img src="../img/g1.png" /></span>店员端小程序</li>
                                    <li><span><img src="../img/g1.png" /></span>老板端小程序</li>
                                    <li><span><img src="../img/g1.png" /></span>免费派券渠道</li>
@@ -77,7 +77,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../img/g2.png" /></span>小馋猫ERP（5店版）</li>
+                                   <li><span><img src="../img/g2.png" /></span>康小厨ERP（5店版）</li>
                                    <li><span><img src="../img/g2.png" /></span>店员端小程序</li>
                                    <li><span><img src="../img/g2.png" /></span>老板端小程序</li>
                                    <li><span><img src="../img/g2.png" /></span>免费派券渠道</li>
@@ -106,7 +106,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                    <li><span><img src="../img/g3.png" /></span>小馋猫ERP（8店版）</li>
+                                    <li><span><img src="../img/g3.png" /></span>康小厨ERP（8店版）</li>
                                     <li><span><img src="../img/g3.png" /></span>店员端小程序</li>
 			                        <li><span><img src="../img/g3.png" /></span>老板端小程序</li>
 			                        <li><span><img src="../img/g3.png" /></span>免费派券渠道</li>
@@ -135,7 +135,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                   <li><span><img src="../img/g3.png" /></span>小馋猫ERP（8店版）</li>
+                                   <li><span><img src="../img/g3.png" /></span>康小厨ERP（8店版）</li>
                                     <li><span><img src="../img/g3.png" /></span>店员端小程序</li>
 			                        <li><span><img src="../img/g3.png" /></span>老板端小程序</li>
 			                        <li><span><img src="../img/g3.png" /></span>免费派券渠道</li>
@@ -164,7 +164,7 @@
                            </div>
                            <div class="cont-wrap">
                                <ul class="clearfix">
-                                    <li><span><img src="../img/g4.png" /></span>小馋猫ERP（12店版）</li>
+                                    <li><span><img src="../img/g4.png" /></span>康小厨ERP（12店版）</li>
                                     <li><span><img src="../img/g4.png" /></span>店员端小程序</li>
 			                        <li><span><img src="../img/g4.png" /></span>老板端小程序</li>
 			                        <li><span><img src="../img/g4.png" /></span>免费派券渠道</li>

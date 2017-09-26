@@ -21,7 +21,7 @@
 			<div class="gt-width1200">
 				<div class="gt-ps1-left">
 					<h1 class="title">无下载 无安装</h1>
-					<p class="ps">小馋猫智慧餐饮解决方案，采用的是最新的云ERP系统，
+					<p class="ps">康小厨智慧餐饮解决方案，采用的是最新的云ERP系统，
 打破传统ERP的种种限制，无需下载、无需安装、自动升
 级，商家只需硬件设备打开网页就可以轻松使用。</p>
 					<ul class="img-list">

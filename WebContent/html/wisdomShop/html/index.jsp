@@ -95,7 +95,7 @@
         </li>
         <li>
             <i class="iconfont floor1">&#xe712;</i>
-            <p>存销宝</p>
+            <p>敏库</p>
         </li>
         <li>
             <i class="iconfont floor1">&#xe711;</i>

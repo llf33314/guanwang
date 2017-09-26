@@ -78,7 +78,7 @@
 					+'<ul class="clearfix">'
 					+'<li><img src="../img/hardware/pic2.png">电容触摸屏 </li>'
 					+'<li><img src="../img/hardware/pic2.png">内置小票打印机 </li>'
-					+'<li><img src="../img/hardware/pic2.png">小馋猫ERP系统</li>'
+					+'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>'
 					+'<li><img src="../img/hardware/pic2.png">支持双屏显示</li>'
 					+'<li><img src="../img/hardware/pic2.png">内置扫码摄像头 </li>';
 			}else if(access_num_hard == 1){
@@ -88,7 +88,7 @@
 					+'<li><img src="../img/hardware/pic2.png">支持双屏显示</li>'
 					+'<li><img src="../img/hardware/pic2.png">Android5.1</li>'
 					+'<li><img src="../img/hardware/pic2.png">多接口拓展</li>'
-					+'<li><img src="../img/hardware/pic2.png">小馋猫ERP系统</li>';
+					+'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>';
 			}else{
 				xc_html += '<h1>小巧时尚，一身百为</h1>'
 					+'<ul class="clearfix">'
@@ -96,7 +96,7 @@
 					+'<li><img src="../img/hardware/pic2.png">LED显示器</li>'
 					+'<li><img src="../img/hardware/pic2.png">Android5.1</li>'
 					+'<li><img src="../img/hardware/pic2.png">多接口拓展</li>'
-					+'<li><img src="../img/hardware/pic2.png">小馋猫ERP系统</li>';
+					+'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>';
 			}
 			xc_html += '</ul></div><div class="ad-txt-part2 mated3 infinite fadeInUpBig" style="opacity: 0;" id="cat3">';
 			if(access_num_hard == 0){

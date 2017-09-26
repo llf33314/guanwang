@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>大白</title>
+		<title>小红十</title>
 
 		<link rel="stylesheet" href="../css/dabai.css" />
 		<link rel="stylesheet" href="../css/animation.css" />
@@ -58,7 +58,7 @@
 			<div class="l-left fl texts animated"  style="opacity: 0;" id="gn2">
 				<div class="sl-text" style="z-index: 20;">
 					<p class="c_blue text-center mb30">电子化检验报告线上实时查看、无需排队</p>
-				    <p class="text">大白云ERP系统直接连通硬件设备，结果出来后系统自动将各类的化验报告、检验单的相关数据同步到ERP系统；医生、患者可直接在PC端/手机端查看，无需排队，帮助患者节省大量的就医时间成本</p>
+				    <p class="text">小红十云ERP系统直接连通硬件设备，结果出来后系统自动将各类的化验报告、检验单的相关数据同步到ERP系统；医生、患者可直接在PC端/手机端查看，无需排队，帮助患者节省大量的就医时间成本</p>
 				</div>
 			</div>
 			<div class="l-right fr">

@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <div class="car-top">
   <div class="car-top-box">
-        <div class="car-top-title">大白<span class="car-top-txt">· 社区医疗</span></div>
+        <div class="car-top-title">小红十<span class="car-top-txt">· 社区医疗</span></div>
         <a href="/" class="car-top-station">返回主站</a>
         <div class="car-top-menu">
           <a href="/html/BigWhite/html/index.jsp" data-num="0">首页</a>

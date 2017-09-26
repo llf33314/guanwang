@@ -337,7 +337,7 @@ a{text-decoration:none;color:#333;}
 #b-show2{display: none;}
 /*join*/
 .a-top-join{
-	height: 122px;
+	height: 168px;
     width:110px;
     line-height: 1;
     position: absolute;
@@ -369,6 +369,10 @@ a{text-decoration:none;color:#333;}
     top: 95px;
     left: 15px;
 }
+#a-pro-e{
+    top: 130px;
+    left: 15px;
+}
 #a-chan-bs{
     color:#666;
 }
@@ -384,6 +388,13 @@ a{text-decoration:none;color:#333;}
 }
 #a-chan-js:hover{
 	color:#62AAFC;
+}
+#a-chan-df{
+    color:#666;
+}
+
+#a-chan-df:hover{
+    color:#62AAFC;
 }
 #c-show2{display: none;}
 

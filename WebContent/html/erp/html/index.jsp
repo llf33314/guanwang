@@ -117,7 +117,7 @@
             </li>
             <li class="a-sy-programme-box pro-box">
                 <img src="../images/as-pro2.png">
-                <span>小馋猫</span>
+                <span>康小厨</span>
                 <p>智慧餐饮解决方案</p>
                 <a href="/html/LittleGreedyCat/html/index.jsp">更多</a>
             </li>
@@ -129,7 +129,7 @@
             </li>
             <li class="a-sy-programme-box pro-box">
                 <img src="../images/as-pro4.png">
-                <span>存销宝</span>
+                <span>敏库</span>
                 <p>智慧进销存解决方案</p>
                 <a href="/html/jxc/html/index.jsp">更多</a>
             </li>
@@ -141,7 +141,7 @@
             </li>
             <li class="a-sy-programme-box pro-box">
                 <img src="../images/as-pro6.png">
-                <span>大白</span>
+                <span>小红十</span>
                 <p>社区门诊医疗解决方案</p>
                 <a href="/html/BigWhite/html/index.jsp">更多</a>
             </li>
@@ -153,7 +153,7 @@
             </li>
             <li class="a-sy-programme-box pro-box">
                 <img src="../images/as-pro8.png">
-                <span>小驿</span>
+                <span>客来驿</span>
                 <p>智慧酒店解决方案</p>
                 <a href="/html/smarty_hotel.jsp">更多</a>
             </li>
