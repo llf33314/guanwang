@@ -26,7 +26,7 @@
             <li><a href="/html/agency/html/index.jsp">申请代理</a></li>
             <li><a href="http://duofriend.com/user/toregister.do">免费体验</a></li>
             <li><a href="/html/toShop/html/callpay.jsp">购买</a></li>
-            <li><a href="http://duofriend.com/login/tologin.do">登录</a></li>
+            <li><a href="http://duofriend.com/user/tologin.do">登录</a></li>
         </ul>
     </div>
 </div>

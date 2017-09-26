@@ -23,7 +23,7 @@
                     <a href="/html/agency/html/index.jsp">申请代理</a>
                     <a href="http://duofriend.com/user/toregister.do">免费体验</a>
                     <a href="hopepay.jsp" style="color:#FCFB8E;">购买</a>
-                    <a href="http://duofriend.com/login/tologin.do" class="car-top-right-login">登录</a>
+                    <a href="http://duofriend.com/user/tologin.do" class="car-top-right-login">登录</a>
                 </div>
             </div>
         </div>
