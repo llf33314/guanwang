@@ -134,7 +134,7 @@
     <ul class="erp_bottom">
         <li onclick="window.open('/html/LittleGreedyCat/html/index.jsp');">
             <div>
-                <h1>小馋猫</h1>
+                <h1>康小厨</h1>
                 <p>
                     <span>
                          餐饮ERP

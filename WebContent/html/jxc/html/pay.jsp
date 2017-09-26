@@ -16,7 +16,7 @@
 		<div class="cxb-top-menu">
             <div class="left">
                 <a class="menu-img" href="/html/jxc/html/index.jsp" style="text-decoration: none;color: #fff;">
-                    存销宝<span> . 智慧进销存</span>
+                    敏库<span> . 智慧进销存</span>
                 </a>
                 <a href="/" class="return" style="text-decoration: none;color: #fff;">返回主站</a>
             </div>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g1.png" /></span>存销宝ERP单店版 </li>
+                            <li><span><img src="../images/g1.png" /></span>敏库ERP单店版 </li>
                             <li><span><img src="../images/g1.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g1.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g1.png" /></span>公众号管理 </li>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g2.png" /></span>存销宝ERP连锁版（3店）</li>
+                            <li><span><img src="../images/g2.png" /></span>敏库ERP连锁版（3店）</li>
                             <li><span><img src="../images/g2.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g2.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g2.png" /></span>公众号管理 </li>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g3.png" /></span>存销宝ERP连锁版（5店） </li>
+                            <li><span><img src="../images/g3.png" /></span>敏库ERP连锁版（5店） </li>
                             <li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g3.png" /></span>公众号管理 </li>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g3.png" /></span>存销宝ERP连锁版（5店） </li>
+                            <li><span><img src="../images/g3.png" /></span>敏库ERP连锁版（5店） </li>
                             <li><span><img src="../images/g3.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g3.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g3.png" /></span>公众号管理 </li>
@@ -158,7 +158,7 @@
                     </div>
                     <div class="cont-wrap">
                         <ul class="clearfix">
-                            <li><span><img src="../images/g4.png" /></span>存销宝ERP连锁版（8店） </li>
+                            <li><span><img src="../images/g4.png" /></span>敏库ERP连锁版（8店） </li>
                             <li><span><img src="../images/g4.png" /></span>店员端小程序（APP）</li>
                             <li><span><img src="../images/g4.png" /></span>老板端小程序（APP） </li>
                             <li><span><img src="../images/g4.png" /></span>公众号管理 </li>

@@ -41,10 +41,10 @@
                          <li><a href="/html/mobile_ad.jsp" target="_blank">移动广告解决方案</a></li>
                          <li><a href="/html/missions.jsp" target="_blank">移动办公解决方案</a></li>
                          <li><a href="/html/java.jsp" target="_blank">技术平台解决方案</a></li> -->
-                         <li><a href="/html/smarty_cy.jsp" target="_blank">小馋猫（智慧餐饮）</a></li>
+                         <li><a href="/html/smarty_cy.jsp" target="_blank">康小厨（智慧餐饮）</a></li>
                          <li><a href="/html/carxs.jsp" target="_blank">车小算（汽车美容）</a></li>
                          <li><a href="/html/demo.jsp" target="_blank">样子（美容美发）</a></li>
-                         <li><a href="/html/smarty_hotel.jsp" target="_blank">小驿（智慧酒店）</a></li>
+                         <li><a href="/html/smarty_hotel.jsp" target="_blank">客来驿（智慧酒店）</a></li>
                          <li><a href="/html/wuye.jsp" target="_blank">小狮（物业管理） </a></li>
                          <li><a href="javascript:void(0);" target="_blank">来店（智慧商超）</a></li>
                          <li><a href="javascript:void(0);" target="_blank">小务（社区医疗）</a></li>
