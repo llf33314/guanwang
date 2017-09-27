@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>智慧酒店</title>
+<title>客来驿.智慧酒店</title>
 
 <%@include file="/html/common/cmm_css.jsp" %>
 <%@include file="/html/common/js.jsp" %>

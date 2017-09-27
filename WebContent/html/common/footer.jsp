@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <style>
 .passiveQQ {
   display: none !important;
@@ -112,11 +113,14 @@
      </div>
 
      <%--<script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/10040401/10072010.js"></script>--%>
-    <script type="text/javascript" charset="utf-8" src="https://gate.soperson.com/10040401/10072010.js"></script>
+<c:if test='${!isFromMobile}'>
+    <script type="text/javascript" charset="utf-8" id="take98"  src="https://gate.soperson.com/10040401/10072010.js"></script>
+</c:if>
     <!-- <script type="text/javascript" charset="utf-8" src="/html/js/talk99.js"></script> -->
      <script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODE4ODE2M18zODIyODFfNDAwODg5NDUyMl8"></script>
     <script src="/html/js/webJS.js"></script>
      <script>
+
 		var qqtype = -1;
 		var qqNum = "2853873362";
        var QQFrameFlag = false;

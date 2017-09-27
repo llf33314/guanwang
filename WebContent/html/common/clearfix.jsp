@@ -159,7 +159,7 @@
                     <li id="a-pro-r"><a href="/html/agency/html/index.jsp" id="a-chan-sq">申请代理</a></li>
                     <li id="a-pro-s"><a href="/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
                     <li id="a-pro-b"><a href="/html/business/html/index.jsp" id="a-chan-bs">创业计划</a></li>
-                    <li id="a-pro-e"><a href="" id="a-chan-df">多粉介绍</a></li>
+                    <li id="a-pro-e"><a href="/html/aboutUs/html/index.jsp?type=1" id="a-chan-df">多粉介绍</a></li>
                 </ul>
             </li>
         </ul>

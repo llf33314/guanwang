@@ -146,7 +146,7 @@
                         <div class="a-pro-a"><i class="iconfont in11">&#xe85f;</i></div>
                         <a href="/html/smarty_hotel.jsp">
 		                     <span>
-		                         <h3>小驿</h3>
+		                         <h3>客来驿</h3>
 		                         <p>酒店PMS解决方案</p>
 		                     </span>
                         </a>
@@ -159,7 +159,7 @@
                     <li id="a-pro-r"><a href="/html/agency/html/index.jsp" id="a-chan-sq">申请代理</a></li>
                     <li id="a-pro-s"><a href="/html/technology.jsp" id="a-chan-js">技术服务商</a></li>
                     <li id="a-pro-b"><a href="/html/business/html/index.jsp" id="a-chan-bs">创业计划</a></li>
-                    <li id="a-pro-e"><a href="" id="a-chan-df">多粉介绍</a></li>
+                    <li id="a-pro-e"><a href="/html/aboutUs/html/index.jsp?type=1" id="a-chan-df">多粉介绍</a></li>
                 </ul>
             </li>
         </ul>

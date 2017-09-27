@@ -27,7 +27,7 @@
 				<a href="productcore.jsp" data-num="2">产品核心</a>
 				<a href="appcenter.jsp" data-num="3">应用中心</a> 
 				<a href="/html/LittleGreedyCat/html/car.jsp" data-num="4">硬件</a> 
-				<a href="http://www.duofriend.com/html/co_convened.jsp">申请代理</a>
+				<a href="/html/agency/html/index.jsp">申请代理</a>
 			</div>
 			<div class="pu-top-service">
 				<a href="http://www.duofriend.com/html/instructions.jsp">使用手册</a>
@@ -60,7 +60,7 @@
                                    <li><span><img src="../img/g1.png" /></span>微商城</li>
                                    <li><span><img src="../img/g1.png" /></span>分销系统</li>
                                    <li><span><img src="../img/g1.png" /></span>推广工具</li>
-                                   <li><span><img src="../img/g1.png" /></span>存销宝（2店多账号）</li>
+                                   <li><span><img src="../img/g1.png" /></span>敏库（2店多账号）</li>
                                    <li><span><img src="../img/g1.png" /></span>免费的收银硬件支持</li>
                                    <li><span><img src="../img/g1.png" /></span>H5互动游戏（10套）</li>
                                    <li><span><img src="../img/g1.png" /></span>粉巢系统（1套模板）</li>
@@ -89,7 +89,7 @@
                                    <li><span><img src="../img/g2.png" /></span>微商城</li>
                                    <li><span><img src="../img/g2.png" /></span>分销系统</li>
                                    <li><span><img src="../img/g2.png" /></span>推广工具</li>
-                                   <li><span><img src="../img/g2.png" /></span>存销宝（5店多账号）</li>
+                                   <li><span><img src="../img/g2.png" /></span>敏库（5店多账号）</li>
                                    <li><span><img src="../img/g2.png" /></span>免费的收银硬件支持</li>
                                    <li><span><img src="../img/g2.png" /></span>H5互动游戏（15套）</li>
                                    <li><span><img src="../img/g2.png" /></span>粉巢系统（3套模板）</li>
@@ -118,7 +118,7 @@
 			                        <li><span><img src="../img/g3.png" /></span>微商城</li>
 			                        <li><span><img src="../img/g3.png" /></span>分销系统</li>
 			                        <li><span><img src="../img/g3.png" /></span>推广工具 </li>
-			                        <li><span><img src="../img/g3.png" /></span>存销宝（8店多账号）</li>
+			                        <li><span><img src="../img/g3.png" /></span>敏库（8店多账号）</li>
 			                        <li><span><img src="../img/g3.png" /></span>免费的收银硬件支持</li>
 			                        <li><span><img src="../img/g3.png" /></span>H5互动游戏（20套）</li>
 			                        <li><span><img src="../img/g3.png" /></span>粉巢系统（5套模板）</li>
@@ -147,7 +147,7 @@
 			                        <li><span><img src="../img/g3.png" /></span>微商城</li>
 			                        <li><span><img src="../img/g3.png" /></span>分销系统</li>
 			                        <li><span><img src="../img/g3.png" /></span>推广工具 </li>
-			                        <li><span><img src="../img/g3.png" /></span>存销宝（8店多账号）</li>
+			                        <li><span><img src="../img/g3.png" /></span>敏库（8店多账号）</li>
 			                        <li><span><img src="../img/g3.png" /></span>免费的收银硬件支持</li>
 			                        <li><span><img src="../img/g3.png" /></span>H5互动游戏（20套）</li>
 			                        <li><span><img src="../img/g3.png" /></span>粉巢系统（5套模板）</li>
@@ -176,7 +176,7 @@
 			                        <li><span><img src="../img/g4.png" /></span>微商城</li>
 			                        <li><span><img src="../img/g4.png" /></span>分销系统</li>
 			                        <li><span><img src="../img/g4.png" /></span>推广工具</li>
-			                        <li><span><img src="../img/g4.png" /></span>存销宝（12店多账号）</li>
+			                        <li><span><img src="../img/g4.png" /></span>敏库（12店多账号）</li>
 			                        <li><span><img src="../img/g4.png" /></span>免费的收银硬件支持</li>
 			                        <li><span><img src="../img/g4.png" /></span>H5互动游戏（20套+）</li>
 			                        <li><span><img src="../img/g4.png" /></span>粉巢系统（定制模板）</li>
