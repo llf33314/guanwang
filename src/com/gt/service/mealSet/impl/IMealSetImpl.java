@@ -1,6 +1,7 @@
 package com.gt.service.mealSet.impl;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -129,7 +130,9 @@ public class IMealSetImpl implements IMealSet{
 
 	@Override
 	public Integer updateType(MealSetType MealSetType) throws Exception {
-		iBaseDAO.update(MealSetType);
+
+		iBaseDAO.update("update  t_ws_meal_set_type set typename = ? , setprice = ? , createtime = ? where id = ?",
+				new Object[]{MealSetType.getTypename(), MealSetType.getSetprice(),MealSetType.getCreatetime(),MealSetType.getId()});
 		return 1;
 	}
 	

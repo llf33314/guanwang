@@ -80,13 +80,13 @@
         <p>上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </p>
         <ul class="xc-video-play-ul">
             <li>
-                <a href="">
+                <a href="javascript: void(0);" onclick="openVideo()">
                     <img src="../img/xplay2.png">
                     <h3>康小厨速食版视频</h3>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="javascript: void(0);" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=q03896qqitw&auto=0&tiny=0&auto=0");'>
                     <img src="../img/xplay2.png">
                     <h3>康小厨MG动画</h3>
                 </a>

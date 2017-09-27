@@ -116,17 +116,18 @@ public class LoginFilter implements Filter {
 	            userAgent = "";    
 	        }  
 	        boolean isFromMobile = CheckMobile.check(userAgent);
+			servletRequest.getSession().setAttribute("isFromMobile", isFromMobile);
 			//如果URL是无需拦截页面
 			if(passSuffixs(url)||passUrl(url)||urlwx.equals("html")||url.indexOf("html")>-1){
-		        if(isFromMobile){
-		        	ServletResponse.sendRedirect(webHomeMobileUrl);
-		        }
+//		        if(isFromMobile){
+//		        	ServletResponse.sendRedirect(webHomeMobileUrl);
+//		        }
 //		        chain.doFilter(request, response);
 				chain.doFilter(new XSSRequestWrapper(servletRequest), response);
 			}else if("/".equals(url)){
-				if(isFromMobile){
-		        	ServletResponse.sendRedirect(webHomeMobileUrl);
-		        }
+//				if(isFromMobile){
+//		        	ServletResponse.sendRedirect(webHomeMobileUrl);
+//		        }
 //				chain.doFilter(request, response);
 				chain.doFilter(new XSSRequestWrapper(servletRequest), response);
 			}else if(url.contains("office")){ // 默认页面
