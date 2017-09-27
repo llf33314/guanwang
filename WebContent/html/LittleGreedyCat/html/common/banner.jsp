@@ -50,7 +50,7 @@
 </div>
 <script>
 	$(function() {
-		if (access_num != 0){
+		if (access_num != 1){
 			$('.xc-choice').remove();
 		}
 		

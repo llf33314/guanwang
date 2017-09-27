@@ -74,55 +74,25 @@
                </div>
             </div>
 
-
-  <div class="gt-swiper3d-box" title="商家联盟优势">
-    <div class="gt-bg-blue blue-bg"></div>
-    <div class="gt-bg-white white-bg"></div>
-    <div class="gt-width1200">
-      <span title="后退" class="gt-swiper3d-btn left" id="leftBtn"></span>
-      <span title="前进" class="gt-swiper3d-btn right" id="rightBtn"></span>
-      <div class="gt-swiper3d-container">
-        <div class="gt-swiper3d-top">
-          <div class="gt-text" style="display: none">
-            <h1>康小厨行业解决方案是什么？</h1>
-            <h6>康小厨为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
-          </div>
-          <div class="gt-text">
-            <h1>康小厨行业解决方案是什么？</h1>
-            <h6>康小厨为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
-          </div>
-          <div class="gt-text" style="display: none">
-            <h1>康小厨行业解决方案是什么？</h1>
-            <h6>康小厨为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </h6>
-          </div>
-        </div>
-        <div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(-435px, 44px);z-index: 1">
-          <div class="gt-swiper3d-radio-image"><img alt="" src="../img/gt-image1.png"></div>
-          <div class="gt-swiper3d-popup addBg">
-          <h2 style="color:#fff;font-size:24px;">康小厨MG动画</h2>
-            <a href="javascript:;" class="gt-swiper3d-play" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=q03896qqitw&auto=0&tiny=0&auto=0");'></a>
-          </div>
-        </div>
-        <div class="gt-swiper3d-radio-box"  style="transform: scale(1) translate(0,0);z-index: 2">
-          <div class="gt-swiper3d-radio-image"><img alt="" src="../img/gt-image1.png"></div>
-          <div class="gt-swiper3d-popup">
-          <h2 style="color:#fff;font-size:24px;">康小厨现实场景视频</h2>
-            <a href="javascript:;" class="gt-swiper3d-play" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=b0388vsm3nr&auto=0&tiny=0&auto=0");'></a>
-          </div>
-        </div>
-        <div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(435px, 44px);z-index: 1">
-          <div class="gt-swiper3d-radio-image"><img alt="" src="../img/gt-image1.png"></div>
-          <div class="gt-swiper3d-popup addBg">
-          <h2 style="color:#fff;font-size:24px;">康小厨速食版视频</h2>
-            <a href="javascript:;" class="gt-swiper3d-play" onclick="openVideo()"></a>
-          </div>
-        </div>
-        <ul class="gt-swiper3d-page">
-         <li class="clicked"></li>
+    <div class="xc-video-play">
+        <h1>康小厨行业解决方案是什么？</h1>
+        <p>康小厨为客户提供包含订餐、订房、点菜、支付、预约排号等功能服务，将线下店铺和线</p>
+        <p>上营销无缝对接，帮助餐厅快速提升订单，提高用户体验 </p>
+        <ul class="xc-video-play-ul">
+            <li>
+                <a href="">
+                    <img src="../img/xplay2.png">
+                    <h3>康小厨速食版视频</h3>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="../img/xplay2.png">
+                    <h3>康小厨MG动画</h3>
+                </a>
+            </li>
         </ul>
-      </div>
     </div>
-  </div>
 
      <div class="xc-function">
        <h2>智能餐饮核心功能</h2>

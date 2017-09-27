@@ -588,174 +588,6 @@ textarea {
 .gt-swiper-banner-box .gt-swiper-banner-page li.clicked {
     background-color: #fff
 }
-
-.gt-swiper3d-box {
-    width: 100%;
-    height: 740px;
-    box-sizing: border-box;
-    position: relative
-}
-
-.gt-swiper3d-box .blue-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 520px
-}
-
-.gt-swiper3d-box .white-bg {
-    position: absolute;
-    top: 520px;
-    left: 0;
-    width: 100%;
-    height: 220px
-}
-
-.gt-swiper3d-box .gt-width1200 {
-    position: relative
-}
-
-.gt-swiper3d-box .gt-swiper3d-btn {
-    width: 50px;
-    height: 86px;
-    position: absolute;
-    z-index: 9;
-    top: 444px;
-    cursor: pointer;
-    display: block
-}
-
-.gt-swiper3d-box .gt-swiper3d-btn.left {
-    left: 24px;
-    background-image: url(../img/gt_image_bj.png);
-    background-position: 0 0
-}
-
-.gt-swiper3d-box .gt-swiper3d-btn.right {
-    right: 56px;
-    background-image: url(../img/gt_image_bj.png);
-    background-position: -51px 0
-}
-
-.gt-swiper3d-box .gt-swiper3d-container {
-    text-align: center;
-    color: #4d4d4d;
-    height: 740px;
-    position: relative;
-    width: 1200px;
-    border: 1px solid transparent
-}
-
-.gt-swiper3d-box .gt-swiper3d-top {
-    width: 546px;
-    margin: 71px auto 55px;
-    font-weight: 400
-}
-
-.gt-swiper3d-box .gt-swiper3d-top h1 {
-    font-size: 24px;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 23px;
-    font-weight: 400
-}
-
-.gt-swiper3d-box .gt-swiper3d-top h6 {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 2.03
-}
-
-.gt-swiper3d-box .gt-swiper3d-radio-box {
-    display: block;
-    width: 614px;
-    height: 417px;
-    margin: 0 auto;
-    background-image: url(../img/gt_radio_bj.png);
-    background-position: -3px 0;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    position: absolute;
-    left: 283px;
-    top: 250px;
-    z-index: 5;
-    transition: all .3s linear;
-    -webkit-transition: all .3s linear
-}
-
-.gt-swiper3d-box .gt-swiper3d-radio-image {
-    position: absolute;
-    width: 442px;
-    height: 285;
-    left: 90px;
-    top: 31px;
-    overflow: hidden;
-    box-sizing: border-box;
-    background-color: #000
-}
-
-.gt-swiper3d-box .gt-swiper3d-radio-image img {
-    height: 266px
-}
-
-.gt-swiper3d-box .gt-swiper3d-popup {
-    position: absolute;
-    width: 442px;
-    height: 285px;
-    left: 90px;
-    top: 31px;
-    overflow: hidden;
-    box-sizing: border-box;
-    background-color: rgba(0,0,0,.3);
-    text-align: center
-}
-
-.gt-swiper3d-box .gt-swiper3d-popup h2 {
-    font-size: 28px;
-    padding-top: 60px
-}
-
-.gt-swiper3d-box .gt-swiper3d-popup h3 {
-    font-size: 28px
-}
-
-.gt-swiper3d-box .addBg {
-    background-color: hsla(0,0%,100%,0)
-}
-
-.gt-swiper3d-box .gt-swiper3d-play {
-    display: inline-block;
-    width: 143px;
-    height: 82px;
-    background-color: hsla(0,0%,100%,.5);
-    border-radius: 15px;
-    background-image: url(../img/gt_image_bj.png);
-    background-position: -112px 23px;
-    margin-top: 30px
-}
-
-.gt-swiper3d-box .gt-swiper3d-page {
-    width: 50%;
-    margin: 0 25%;
-    position: absolute;
-    bottom: 95px;
-    text-align: center;
-    background-image: url(../img/gt_radio_bb.png);
-    background-repeat: no-repeat
-}
-
-.gt-swiper3d-box .gt-swiper3d-page li {
-    width: 57px;
-    height: 5px;
-    margin-right: 8px;
-    display: inline-block
-}
-
-.gt-swiper3d-box .gt-swiper3d-page li:last-child {
-    margin-right: 0
-}
-
 #inlineBox {
     position: fixed;
     z-index: 9999;
@@ -1861,3 +1693,41 @@ ul{
     margin-bottom: 0
 }
 
+
+/*视频播放*/
+.xc-video-play{
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+}
+.xc-video-play h1{
+    font-size: 24px;
+    color: #333;
+    margin: 35px 0 20px;
+}
+.xc-video-play-ul{
+    display: flex;
+    width: 978px;
+    margin: 50px auto;
+}
+.xc-video-play-ul li:nth-child(1) {
+     background-image: url(../img/xplay1.png);
+     background-repeat: no-repeat;
+     height: 286px;
+     width:490px;
+ }
+.xc-video-play-ul li:nth-child(2) {
+    background-image: url(../img/xplay3.png);
+    background-repeat: no-repeat;
+    height: 286px;
+    width:490px;
+}
+.xc-video-play-ul li a{
+    display: inline-block;
+    margin-top: 81px;
+    color: #fff;
+    font-size: 18px;
+}
