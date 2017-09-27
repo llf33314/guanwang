@@ -1550,7 +1550,7 @@ ul{
     height: 110px;
     width: 110px;
     margin: 0 20px;
-    background-image: url(../img/hardware/icon1.png);
+    background-image: url(../img/hardware/icon2.png);
 }
 
 .xc-img-nav a:nth-child(1){
@@ -1566,8 +1566,11 @@ ul{
 }
 
 .xc-img-nav a:nth-child(4){
+     background-position: -330px 0
+ }
+.xc-img-nav a:nth-child(5){
     margin-left: 10px;
-    background-position: -330px 0
+    background-position: -440px 0
 }
 
 .xc-img-nav a:nth-child(1):hover,.xc-img-nav a:nth-child(1).selected{
@@ -1583,8 +1586,11 @@ ul{
 }
 
 .xc-img-nav a:nth-child(4):hover,.xc-img-nav a:nth-child(4).selected{
-    margin-left: 10px;
     background-position: -330px -110px;
+}
+.xc-img-nav a:nth-child(5):hover,.xc-img-nav a:nth-child(5).selected{
+    margin-left: 10px;
+    background-position: -440px -110px;
 }
 
 .xc-head .ad001{
@@ -1673,7 +1679,7 @@ ul{
 .xc-img-txt-item .xt-txt-cont2,
 .xc-img-txt-item .xt-txt-cont{
     display: inline-block;
-    width: 510px;
+    width: 512px;
     text-align: left;
     vertical-align: middle;
 }
@@ -1686,7 +1692,7 @@ ul{
 
 .xc-img-txt-item .xt-txt-cont ul li{
     float:left;
-    width: 230px;
+   /* width: 230px;*/
     line-height: 40px;
     font-size: 20px;
 }
@@ -1789,7 +1795,8 @@ ul{
 
 .xc-jztz-item .xc-img-txt-item .xt-txt-cont ul li{
     width:100%;
-    font-size: 18px;
+   /* font-size: 18px;*/
+    font-size: 14px;
     padding-left: 27px;
     text-indent: -27px;
 }

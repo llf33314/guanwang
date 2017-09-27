@@ -17,7 +17,7 @@
 
 	<script type="text/javascript">
 		var access_num = 4; 
-		var access_num_hard = 1;
+		var access_num_hard = 2;
 	</script>
 </head>
 <body style="display: none;">

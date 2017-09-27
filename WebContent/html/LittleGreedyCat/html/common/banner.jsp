@@ -50,45 +50,58 @@
 </div>
 <script>
 	$(function() {
-		if (access_num != 1){
+		if (access_num != 0){
 			$('.xc-choice').remove();
 		}
 		
 		if(access_num == 4){
 			console.log(access_num);
+			console.log(access_num_hard)
 			$('.xc-banner').remove();
 			$('.xc-top-service').append('<a href="javascript:void(0);" onclick="showClick(2);">购买</a>');
 			var xc_html = '<div class="xc-img-nav">'
-				+'<a href="/html/LittleGreedyCat/html/car.jsp" data-num-hard="0" >e-300系列</a>'
-				+'<a href="/html/LittleGreedyCat/html/car1.jsp" data-num-hard="1" >e-200系列</a>'
-				+'<a href="/html/LittleGreedyCat/html/car2.jsp" data-num-hard="2" >e-180系列</a>'
+                +'<a href="/html/LittleGreedyCat/html/car-s.jsp" data-num-hard="0" >e-500系列</a>'
+				+'<a href="/html/LittleGreedyCat/html/car.jsp" data-num-hard="1" >e-300系列</a>'
+				+'<a href="/html/LittleGreedyCat/html/car1.jsp" data-num-hard="2" >e-200系列</a>'
+				+'<a href="/html/LittleGreedyCat/html/car2.jsp" data-num-hard="3" >e-180系列</a>'
 				+'<a href="/html/hardware/html/index.jsp">更多硬件</a>'
 				+'</div><div style="width:100%;overflow: hidden;"><div class="wrap-1200 ad001 ">';
 			if(access_num_hard == 0){
-				xc_html += '<img src="../img/hardware/pic1.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';
+				xc_html += '<img src="../img/hardware/pic0.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';
 			}else if(access_num_hard == 1){
-				xc_html += '<img src="../img/hardware/pic4.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';
-			}else{
+				xc_html += '<img src="../img/hardware/pic1.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';
+            }else if(access_num_hard == 2){
+                    xc_html += '<img src="../img/hardware/pic4.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';
+			}else {
 				xc_html += '<img src="../img/hardware/pic3.png" id="cat1" class="mated1 infinite fadeInLeftBig"/>';
 			}
 			xc_html += '<div class="ad-txt">'
 				+'<div class="ad-txt-part1 mated2 infinite fadeInUpBig" style="opacity: 0;" id="cat2">';
 			if(access_num_hard == 0){
-				xc_html += '<h1>高效合一，信赖之选</h1>'
+				xc_html += '<h1>随需而变，专业之选</h1>'
 					+'<ul class="clearfix">'
-					+'<li><img src="../img/hardware/pic2.png">电容触摸屏 </li>'
-					+'<li><img src="../img/hardware/pic2.png">内置小票打印机 </li>'
+					+'<li><img src="../img/hardware/pic2.png">高清电容多点触摸屏 </li>'
+					+'<li><img src="../img/hardware/pic2.png">内置小票打印机  </li>'
 					+'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>'
-					+'<li><img src="../img/hardware/pic2.png">支持双屏显示</li>'
-					+'<li><img src="../img/hardware/pic2.png">内置扫码摄像头 </li>';
+					+'<li><img src="../img/hardware/pic2.png">支持双屏异显 </li>'
+					+'<li><img src="../img/hardware/pic2.png">内置扫码摄像头  </li>'
+                    +'<li><img src="../img/hardware/pic2.png">Android 5.1.1</li>';
 			}else if(access_num_hard == 1){
-				xc_html += '<h1>小巧时尚，一身百为</h1>'
-					+'<ul class="clearfix">'
-					+'<li><img src="../img/hardware/pic2.png">电容触摸屏</li>'
-					+'<li><img src="../img/hardware/pic2.png">支持双屏显示</li>'
-					+'<li><img src="../img/hardware/pic2.png">Android5.1</li>'
-					+'<li><img src="../img/hardware/pic2.png">多接口拓展</li>'
-					+'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>';
+                xc_html += '<h1>高效合一，信赖之选</h1>'
+                    +'<ul class="clearfix">'
+                    +'<li><img src="../img/hardware/pic2.png">电容触摸屏 </li>'
+                    +'<li><img src="../img/hardware/pic2.png">内置小票打印机 </li>'
+                    +'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>'
+                    +'<li><img src="../img/hardware/pic2.png">支持双屏显示</li>'
+                    +'<li><img src="../img/hardware/pic2.png">内置扫码摄像头 </li>';
+            }else if(access_num_hard == 2){
+                xc_html += '<h1>小巧时尚，一身百为</h1>'
+                    +'<ul class="clearfix">'
+                    +'<li><img src="../img/hardware/pic2.png">电容触摸屏</li>'
+                    +'<li><img src="../img/hardware/pic2.png">支持双屏显示</li>'
+                    +'<li><img src="../img/hardware/pic2.png">Android5.1</li>'
+                    +'<li><img src="../img/hardware/pic2.png">多接口拓展</li>'
+                    +'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>';
 			}else{
 				xc_html += '<h1>小巧时尚，一身百为</h1>'
 					+'<ul class="clearfix">'
@@ -100,9 +113,11 @@
 			}
 			xc_html += '</ul></div><div class="ad-txt-part2 mated3 infinite fadeInUpBig" style="opacity: 0;" id="cat3">';
 			if(access_num_hard == 0){
-				xc_html += '￥2780';
+				xc_html += '￥3580';
 			}else if(access_num_hard == 1){
-				xc_html += '￥1850';
+				xc_html += '￥2860';
+            }else if(access_num_hard == 2){
+                xc_html += '￥1850';
 			}else{
 				xc_html += '￥1280';
 			}

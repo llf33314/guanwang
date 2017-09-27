@@ -37,41 +37,70 @@
 <div class="a-hw-printer">
 	<ul class="a-hw-printer-ul">
 		<h2>一体收银机</h2>
-		<li class="a-hw-printer-ul-li">
-			<div class="a-hw-show1">
-				<img src="../images/pf1.png">
-				<h3>E-300系列至尊版</h3>
-				<p>超高清双屏异显、军工级材料、炫酷</p>
-				<p>蓝色呼吸灯、自带打印机</p>
-				<span>￥2860.00</span>
+		<li class="a-hw-scan-li">
+			<div class="a-hw-show3">
+				<div class="a-hw-scan-li-l">
+					<img src="../images/xz1.png">
+				</div>
+				<div class="a-hw-scan-li-r">
+					<h3>E-500系列至尊版</h3>
+					<p>新零售智能收银机，带给您无限可能</p>
+					<p>与想象</p>
+					<span>￥3580.00</span>
+				</div>
 			</div>
-			<div class="a-hw-show2">
+			<div class="a-hw-show4">
+				<img src="../images/e-500.png">
+				<p>扫码购买</p>
+			</div>
+		</li>
+		<li class="a-hw-scan-li">
+			<div class="a-hw-show3">
+				<div class="a-hw-scan-li-l">
+					<img src="../images/xz2.png">
+				</div>
+				<div class="a-hw-scan-li-r">
+					<h3>E-300系列至尊版</h3>
+					<p>超高清双屏异显、军工级材料、炫酷</p>
+					<p>蓝色呼吸灯、自带打印机</p>
+					<span>￥2860.00</span>
+				</div>
+			</div>
+			<div class="a-hw-show4">
 				<img src="../images/e-300.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
-		<li class="a-hw-printer-ul-li">
-			<div class="a-hw-show1">
-				<img src="../images/pf2.png">
-				<h3>C-200系列标准版</h3>
-				<p>操作屏与客显双屏高清显示</p>
-				<p>&nbsp;&nbsp;</p>
-				<span>￥1850.00</span>
+		<li class="a-hw-scan-li">
+			<div class="a-hw-show3">
+				<div class="a-hw-scan-li-l">
+					<img src="../images/xz3.png">
+				</div>
+				<div class="a-hw-scan-li-r">
+					<h3>C-200系列标准版</h3>
+					<p>操作屏与客显双屏高清显示</p>
+					<p>&nbsp;&nbsp;</p>
+					<span>￥1850.00</span>
+				</div>
 			</div>
-			<div class="a-hw-show2">
+			<div class="a-hw-show4">
 				<img src="../images/c-200.png">
 				<p>扫码购买</p>
 			</div>
 		</li>
-		<li class="a-hw-printer-ul-li">
-			<div class="a-hw-show1">
-				<img src="../images/pf3.png">
-				<h3>C-180系列简约版</h3>
-				<p>高清显示屏</p>
-				<p>绿色8位LED段码显示</p>
-				<span>￥1280.00</span>
+		<li class="a-hw-scan-li">
+			<div class="a-hw-show3">
+				<div class="a-hw-scan-li-l">
+					<img src="../images/xz4.png">
+				</div>
+				<div class="a-hw-scan-li-r">
+					<h3>C-180系列简约版</h3>
+					<p>高清显示屏</p>
+					<p>绿色8位LED段码显示</p>
+					<span>￥1280.00</span>
+				</div>
 			</div>
-			<div class="a-hw-show2">
+			<div class="a-hw-show4">
 				<img src="../images/c-180.png">
 				<p>扫码购买</p>
 			</div>

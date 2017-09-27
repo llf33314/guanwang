@@ -17,7 +17,7 @@
 
 	<script type="text/javascript">
 		var access_num = 4; 
-		var access_num_hard = 1;
+		var access_num_hard = 0; 
 	</script>
 </head>
 <body style="display: none;">
@@ -28,54 +28,40 @@
     <div class="wrap-1200" id="one">
 		<div class="xc-img-txt-item">
 			 <div class="xt-txt-cont animated " style="opacity: 0;" id="cat9">
-			 	  <h2>15寸超大高清触控屏</h2>
+			 	  <h2>14寸专业高清触摸屏</h2>
 			 	  <ul class="clearfix">
-			 	  	  <li><span></span>分辨率1024X768</li>
-			 	  	  <li><span></span>电容式多点触控屏</li>
-			 	  	  <li><span></span>彩色RGB TFT</li>
+			 	  	  <li><span></span>1902×1080双屏异显</li>
+			 	  	  <li><span></span>全视角IPS</li>
+			 	  	  <li><span></span>高清电容多点触摸屏</li>
 			 	  </ul>
 			 </div>
-			 <img src="../img/hardware/index1_03.jpg" class="animated" style="opacity: 0;" id="cat10">
+			 <img src="../img/hardware/index0_1.png" class="animated" style="opacity: 0;" id="cat10">
 		</div>
 
 		<div class="xc-img-txt-item" id="two">
-			 <img src="../img/hardware/index1_07.jpg" class="animated" style="opacity: 0;" id="cat11">
-			 <div class="xt-txt-cont animated"  id="cat12" style="margin-left: 100px;opacity: 0;">
-			 	  <h2>广告客屏灵活展示</h2>
+			 <img src="../img/hardware/index0_2.png" class="animated" style="opacity: 0;" id="cat11">
+			 <div class="xt-txt-cont animated"  id="cat12" style="margin-left: 100px;opacity: 0;width: 526px;">
+			 	  <h2>超大容量，兼容打印</h2>
 			 	  <ul class="clearfix">
-			 	  	  <li><span></span>双屏异显</li>
-			 	  	  <li><span></span>自动轮播广告</li>
-			 	  	  <li><span></span>视频播放</li>
-			 	  	  <li><span></span>二码合一付款显示</li>
+			 	  	  <li><span></span>16G DDR3高速读写内存</li>
+			 	  	  <li style="float: right;"><span></span>USB2.0、外扩内存SD卡 </li>
+			 	  	  <li><span></span>多模运营商4G、3G、2G网络</li>
+			 	  	  <li><span></span>80mm高速热敏打印机</li>
+					  <li><span></span>立体扩音喇叭</li>
 			 	  </ul>
 			 </div>
 		</div>
 
 		<div class="xc-img-txt-item" id="three">
-			 <div class="xt-txt-cont2 animated" style="opacity: 0;" id="cat13">
-			 	  <h2>内置扫码摄像头</h2>
-			 	  <p>内置扫描摄像头，清晰读取二维码信息</p>
-			 	  <ul class="clearfix">
-			 	  	  <li><img src="../img/hardware/index1_14.jpg"/><span>灵敏度高</span></li>
-			 	  	  <li><img src="../img/hardware/index1_16.jpg"/><span>准确扫描</span></li>
-			 	  	  <li><img src="../img/hardware/index1_18.jpg"/><span>蜂鸣提示</span></li>
-			 	  </ul>
+			 <div class="xt-txt-cont animated" style="opacity: 0;" id="cat13">
+			 	  <h2>精美外观极致展现</h2>
+				 <ul class="clearfix">
+					 <li><span></span>机箱：防火ABS+表面喷油工艺</li>
+					 <li><span></span>底板：冷轧钢板+双面喷漆</li>
+					 <li><span></span>主副屏框及支杆：铝合金+喷油工艺和氧化 </li>
+				 </ul>
 			 </div>
-			 <img src="../img/hardware/index1_11.png" class="animated" style="opacity: 0;" id="cat14">
-			 <img src="../img/hardware/index1_11-1.png" class="animated" style="opacity: 0;position: relative;right: 455px;bottom: 66px;" id="cat14-1">
-		</div>
-
-		<div class="xc-img-txt-item" id="four">
-		     <img src="../img/hardware/index1_25.jpg" class="animated" style="opacity: 0;" id="cat15">
-			 <div class="xt-txt-cont2 animated" id="cat16" style="margin-left: 50px;opacity: 0;">
-			 	  <h2>内置小票打印机</h2>
-			 	  <p>融合80mm热敏打印机，支持前台票据打印</p>
-			 	  <ul class="clearfix">
-			 	  	  <li><img src="../img/hardware/index1_28.jpg"/><span>高速打印</span></li>
-			 	  	  <li><img src="../img/hardware/index1_30.jpg"/><span>字迹清晰</span></li>
-			 	  	  <li><img src="../img/hardware/index1_32.jpg"/><span>装纸方便</span></li>
-			 	  </ul>
-			 </div>
+			 <img src="../img/hardware/index0_3.png" class="animated" style="opacity: 0;" id="cat14">
 		</div>
 
 		<div class="xc-jztz-item" id="five">
@@ -120,36 +106,36 @@
 	        	</dd>
 	        	<dd>
 	        		<span class="dl-dd-title">CPU核心</span>
-	        		<span>4核&nbsp;&nbsp;Cortex-A17处理器</span>
+	        		<span>四核ARM RK3288 处理器 </span>
 	        	</dd>
 	        </dl>
 	        <dl class="clearfix">
 	        	<dt>显示屏</dt>
 	        	<dd>
 	        		<span class="dl-dd-title">尺寸</span>
-	        		<span>15</span>
+	        		<span>14</span>
 	        	</dd>
 	        	<dd>
 	        		<span class="dl-dd-title">双屏屏幕类型</span>
-	        		<span>G+G电容式多点触控屏，防划伤，加硬</span>
+	        		<span>触摸屏 高清电容多点触摸屏 </span>
 	        	</dd>
 	        </dl>
 	        <dl class="clearfix">
 	        	<dt>内存</dt>
 	        	<dd>
 	        		<span class="dl-dd-title">容量</span>
-	        		<span>2GB</span>
+	        		<span>2GRAM</span>
 	        	</dd>
 	        	<dd>
 	        		<span class="dl-dd-title">类型</span>
-	        		<span>两颗&nbsp;&nbsp;512X16&nbsp;&nbsp;高速缓存芯片 </span>
+	        		<span>两颗&nbsp;&nbsp;1024X16&nbsp;&nbsp;高速缓存芯片 </span>
 	        	</dd>
 	        </dl>
 	        <dl class="clearfix">
 	        	<dt>闪存</dt>
 	        	<dd>
 	        		<span class="dl-dd-title">容量</span>
-	        		<span>EMMC&nbsp;&nbsp;8G&nbsp;&nbsp;可扩展至32GB</span>
+	        		<span>16GROM</span>
 	        	</dd>
 	        </dl>
 	        <dl class="clearfix">
