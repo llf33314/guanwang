@@ -27,7 +27,7 @@
 				<a href="productcore.jsp" data-num="2">产品核心</a>
 				<a href="appcenter.jsp" data-num="3">应用中心</a> 
 				<a href="/html/LittleGreedyCat/html/car.jsp" data-num="4">硬件</a> 
-				<a href="http://www.duofriend.com/html/co_convened.jsp">申请代理</a>
+				<a href="/html/agency/html/index.jsp">申请代理</a>
 			</div>
 			<div class="pu-top-service">
 				<a href="http://www.duofriend.com/html/instructions.jsp">使用手册</a>
