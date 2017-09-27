@@ -10,7 +10,7 @@
 			<a href="index.jsp" data-num="1">首页</a> 
 			<a href="productcore.jsp" data-num="2">产品核心</a>
 			<a href="appcenter.jsp" data-num="3">应用中心</a> 
-			<a href="/html/LittleGreedyCat/html/car.jsp" data-num="4">硬件</a> 
+			<a href="/html/LittleGreedyCat/html/car-s.jsp" data-num="4">硬件</a>
 			<a href="/html/agency/html/index.jsp">申请代理</a>
 		</div>
 		<div class="xc-top-service">
