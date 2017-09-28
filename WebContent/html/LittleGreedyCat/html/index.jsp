@@ -23,7 +23,7 @@
 <body>
 
 	<%@include file="/html/LittleGreedyCat/html/common/banner.jsp" %>
-	
+
              <div class="xc-choice-hidden">
                <div class="xc-switch" style="display:block" id="id1">
                   <img src="../img/mm-1.png" class="xc-switch-pic" />

@@ -19,7 +19,12 @@
 			<a href="http://canyin.duofriend.com" class="xc-top-service-login">登录</a> 				
 		</div>
 	</div>
-	<img src="../img/banner.png" class="xc-banner"/>
+	<div class="xc-banner">
+		<div class="xc-banner-h1"><img src="../img/banner0.png" ></div>
+	<div class="xc-banner-box">
+		<p class="xc-banner-p">智慧餐饮ERP解决方案</p>
+	</div>
+	</div>
 	<div class="xc-choice">
 		<div class="xc-choice-box-one" onmouseover="gtShow(1,this)">
 			<p class="xc-choice-box-title">预定</p>

@@ -199,7 +199,6 @@ textarea {
     margin: 0 auto;
     font-size:0;
 }
-
 .xc-top .xc-top-title {
     font-size: 35px;
     width: 145px;
@@ -270,10 +269,27 @@ textarea {
 
 .xc-banner {
     width: 646px;
-    margin: 169px auto;
+    margin: 25px auto 165px;
     display: block;
+
+}
+.xc-banner-box{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    width: 646px;
+    height: 69px;
+}
+.xc-banner-h1{
+    text-align: center;
+    margin: 133px 0 25px;
 }
 
+.xc-banner-p{
+    text-align: center;
+    line-height: 62px;
+    font-size: 35px;
+    color: #525acf;
+}
 .xc-function {
     height: 400px;
     width: 1007px;
