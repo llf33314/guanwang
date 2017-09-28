@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>优惠券</title>
+    <title>优惠券商城</title>
 
 <%@include file="/html/common/cmm_css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
@@ -23,7 +23,7 @@
    <div class="section" id="section0">
 	    <div class="cou-grant">  
 	         <div class="cou-grant-l animated infinite fadeInUp">
-	              <h4>优惠券发放平台</h4>
+	              <h4>优惠券商城</h4>
 	              <p>免费的优惠券线上发布平台</p>
 	              <p>帮助商家把优惠券送到更多的用户手中</p>    
 	         </div>
@@ -40,7 +40,7 @@
                   </div>
                   <div class="cou-exch-t-r animated" style="opacity: 0;">
                        <p style="padding-bottom:15px;">优惠券虽然是一个很好的吸引顾客到店消费的方式，但是传统的优惠券需要人工守候派发、优惠券印制成本高，而且客人拿到的后大多不看随手丢、客人当时没去消费哪怕下次想去时也因 为不好保存等原因造成营销效果不佳，商家无法利用优惠券营销更好地吸引客户到店消费。</p>
-                       <p>优惠券发放平台是多粉面对粉丝和商家运营的一个优惠券发行平台，整合了大量的商家资源和粉丝资源。商家除了通过自己的公众号、小程序、线下渠道，还可以在多粉优惠券商城以及多粉合作的第三方平台上免费发布优惠券，让商家开拓更多的顾客资源，实现线上多渠道引流。粉丝也可在优惠券商城领取到商家投放的各类优惠券，为粉丝网购和线下消费节省金钱，不错过每一个优惠。</p>            
+                       <p>优惠券商城是多粉面对粉丝和商家运营的一个优惠券发行平台，整合了大量的商家资源和粉丝资源。商家除了通过自己的公众号、小程序、线下渠道，还可以在多粉优惠券商城以及多粉合作的第三方平台上免费发布优惠券，让商家开拓更多的顾客资源，实现线上多渠道引流。粉丝也可在优惠券商城领取到商家投放的各类优惠券，为粉丝网购和线下消费节省金钱，不错过每一个优惠。</p>            
                   </div>
              </div>
 	         <div class="cou-exch-b animated" style="opacity: 0;">
@@ -67,7 +67,7 @@
 					        <div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(179px, 84px);z-index: 1">
 					          <div class="gt-swiper3d-radio-image"><img alt="" src="/html/images/coupon/cou4.png"></div>
 					          <div class="gt-swiper3d-popup addBg">
-					          <h2 style="color:#fff;font-size:10px;">优惠券发放平台</h2>
+					          <h2 style="color:#fff;font-size:10px;">优惠券商城</h2>
 					            <a href="javascript:;" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=d0186ne71y1&auto=0")'></a>
 					          </div>
 					        </div>					        
@@ -92,9 +92,9 @@
                    <h1>VS</h1>
               </div>
               <div class="cou-vs-r animated" style="opacity: 0;">
-                   <h4>优惠券发放平台</h4>
+                   <h4>优惠券商城</h4>
                    <ul style="padding-left:78px;">
-                      <li class="cou-vs-r-tit"><span>可在优惠券发放平台免费发布</span></li>
+                      <li class="cou-vs-r-tit"><span>可在优惠券商城免费发布</span></li>
                       <li class="cou-vs-r-tit"><span>领取后双向同步存储，打开手机即可使用</span></li>
                       <li class="cou-vs-r-tit"><span>消费时系统自动核销</span></li>
                       <li class="cou-vs-r-tit"><span>系统自动统计数据，实时反映活动情况</span></li>
@@ -119,7 +119,7 @@
 		           <img src="/html/images/coupon/cou17.png" id="coll11" class="animated" style="opacity: 0;">   
 		      </div>
 		      <span class="cou-p-two animated" style="opacity: 0;" id="cp1">
-			      <p>优惠券发放平台不仅支持多粉优惠券所有类型，并且商家可自由设置发行方式，根</p>
+			      <p>优惠券商城不仅支持多粉优惠券所有类型，并且商家可自由设置发行方式，根</p>
 			      <p>据自己的需求自由组合，吸引更多的线上客流到店消费。</p>
 		      </span>		 
 		 </div>
@@ -216,7 +216,7 @@
 		           <img src="/html/images/coupon/cou29.png" id="coll23" class="animated" style="opacity: 0;">   
 		      </div>
 		      <span class="cou-d-p animated" style="opacity: 0;" id="dp2">
-			      <p>优惠券发放平台除了可以给商家和粉丝使用之外， 创新性的兼顾了一些拥有众多粉</p>
+			      <p>优惠券商城除了可以给商家和粉丝使用之外， 创新性的兼顾了一些拥有众多粉</p>
 			      <p>丝的大V大号或者自媒体公司的变现需求。大V或者自媒体公司可以搭建一个独立的</p>
 			      <p>优惠券商城，自主运营、自己帮商家派发优惠券收取费用，解决大V、自媒体公司</p>
 			      <p>变现难的问题。</p>

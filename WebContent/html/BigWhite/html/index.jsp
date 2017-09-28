@@ -42,7 +42,7 @@
                 </div>
                 <div class="big-introduce-box-right">
 		            <img src="../images/big4.png" class="animated infinite fadeInRight"/>
-		            <p class="mated2 infinite fadeInRight"><span id="lin">智慧</span>社区门诊医疗云ERP系统通过信息技术将医疗基础设施与服务流程进行融合，以“医疗云数据中心”为核心，跨越原有医疗系统的限制，提高运营效率，提升社区门诊的服务质量，实现线下门诊与线上药店的统一管理</p>
+		            <p class="mated2 infinite fadeInRight"><span id="lin">智慧</span>社区门诊医疗SaaS ERP系统通过信息技术将医疗基础设施与服务流程进行融合，以“医疗云数据中心”为核心，跨越原有医疗系统的限制，提高运营效率，提升社区门诊的服务质量，实现线下门诊与线上药店的统一管理</p>
                 </div>
 	       </div>    
 	  </div>
@@ -71,7 +71,7 @@
            <div class="big-white-box">
                 <h4 id="tet2" class="animated" style="opacity: 0;">小红十</h4>
                 <div class="big-white-box-left">
-                     <h6 id="tet3" class="animated" style="opacity: 0;">小红十=云ERP+微信（公众号、小程序）+就诊卡+线上药店+商家联盟+粉巢系统=社区门诊医疗自有生态系统     </h6>
+                     <h6 id="tet3" class="animated" style="opacity: 0;">小红十=SaaS ERP+微信（公众号、小程序）+就诊卡+线上药店+商家联盟+粉巢系统=社区门诊医疗自有生态系统     </h6>
                      <p style="text-indent: 2em;opacity: 0;" id="tet4" class="animated">通过手机查看专家值班时间表，线上挂号预约，候诊自动提醒，诊金支付在手机完成，无需排队等候支付，门诊方无需特意增派前台人员，电子化验报告实时同步，医生、患者可在PC/手机端随时查看，医患之间可互动咨询，加强医生与 患者的交流，改
                      善医患关系，线上药店与线下门诊销售药品数据互通，药品入库可以选择是否在线上商城销售还是只保留在实体门店销售，统一库存支持多分店使用，库存告急自动提醒，实时的财务报表分析与院长报表系统自动生成，院长可通过手机专属查看与管理</p>              
                 </div>

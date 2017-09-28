@@ -43,7 +43,7 @@
                         <div class="a-pro-a"><i class="iconfont in5">&#xe669;</i></div>
                         <a href="/html/coupon.jsp">
 	                     <span>
-	                         <h3>优惠券发放平台</h3>
+	                         <h3>优惠券商城</h3>
 	                         <p>免费的优惠券派发渠道，轻松送达</p>
 	                     </span>
                         </a>
