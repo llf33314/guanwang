@@ -46,8 +46,8 @@ a{text-decoration:none;}
 .typing{width: 650px;margin-left:auto;margin-right: auto;
     white-space:nowrap;display: inline-block;
     overflow:hidden;
-    -webkit-animation: dy 6s steps(60, end) infinite;
-    animation: dy 6s steps(50, end) infinite;
+    -webkit-animation: dy 10s steps(60, end) infinite;
+    animation: dy 10s steps(50, end) infinite;
 }
 .typed-cursor {
     display: none;
