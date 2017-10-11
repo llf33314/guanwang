@@ -116,12 +116,12 @@ a{text-decoration:none;}
 /*.industry-text{margin-top:15px;color: #333333;width:100%;text-align:center; }*/
 /*.industry-bg{ margin-top:25px; height: 82px;width:100%; text-align:center; position: relative}*/
 /*.industry-bg{*/
-    /*height: 82px; width:71px;*/
-    /*background-image: url(../images/bg.png);*/
-    /*background-position: 50% 50%;*/
-    /*background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*margin-left:15px;*/
+/*height: 82px; width:71px;*/
+/*background-image: url(../images/bg.png);*/
+/*background-position: 50% 50%;*/
+/*background-size: cover;*/
+/*background-repeat: no-repeat;*/
+/*margin-left:15px;*/
 /*}*/
 /*.industry-bg .iconfont{ font-size: 40px;line-height: 82px; text-align: center; color: #2d8dfd;}*/
 
@@ -151,11 +151,11 @@ a{text-decoration:none;}
 
 .industry-bg{ margin-top:25px; height: 82px;width:100%; text-align:center; position: relative}
 .industry-bg{
-height: 82px; width:71px;
-background-image: url(../images/bg.png);
-background-position: 50% 50%;
-background-size: cover;
-background-repeat: no-repeat;
+    height: 82px; width:71px;
+    background-image: url(../images/bg.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .industry-bg .iconfont{ font-size: 40px;line-height: 82px; text-align: center; color: #2d8dfd;}
@@ -241,7 +241,7 @@ add{width:30px; height:83px;line-height:83px;margin-top:30px; font-size: 15px;te
 .a-ed-txt .ask:hover {
     margin-top:10px;
     animation: exma 0.2s linear;
-     background: #fff; color:#2d8dfd
+    background: #fff; color:#2d8dfd
 }
 
 @keyframes exma{
