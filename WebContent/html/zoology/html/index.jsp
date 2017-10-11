@@ -72,7 +72,7 @@
             <div class="list-box ">
                 <div class="in-bg">
                     <img src="../images/bg.png" class="bgAct"  />
-                    <div class="iconfont">&#xe666;</div>
+                    <div class="iconfont">&#xe6666;</div>
                 </div>
                 <div class="merchant-text"  style="text-indent:0.5em; ">汽车美容</div>
 
