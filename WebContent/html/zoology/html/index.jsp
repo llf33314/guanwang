@@ -19,6 +19,23 @@
         <span class="typed-cursor">  &nbsp;|</span>
     </div>
 </div>
+<!--商家生态-->
+<div class="section2" >
+    <div class="section-box">
+        <div class="title">
+            <div class="circle"></div>
+            商家生态
+        </div>
+
+        <div class="merchant-text">
+            什么是生态？是基于系统为核心，打造上下游产业链的服务拓展，形成应用、转化、支付、硬件周边的闭环，在这个过程中让更多的行业参与进来，铸造一个行业标准与行为应用习惯！
+        </div>
+        <div class="merchant-text">
+            你听过苹果生态、小米生态、阿里生态、微信生态、华为生态，这些已经是独角兽企业，传统商家企业想都不敢想能拥有自己的生态，多粉将为商家生态输出技术，改变这一切！   </div>
+        <div class="merchant-text">
+            多粉现有开发的技术都是帮助商家构建生态的重要一环，只要环环相扣相通，行业通产业、各产业互通互用才是未来的智慧商业生态，现在全世界仅多粉在做，我们为这个使命奋斗不息！     </div>
+    </div>
+</div>
 <!--行业区别-->
 <div class="section1">
     <div class="section-box">
@@ -35,7 +52,7 @@
                 </div>
                 <div class="merchant-text" style="margin-left:5px;">汽修行业</div>
             </div>
-            <div class="list-box br">
+            <div class="list-box br" >
                 <div class="in-bg">
                     <img src="../images/bg.png" class="bgAct"  />
                     <div class="iconfont">&#xe77e;</div>
@@ -90,28 +107,6 @@
         </div>
 
 
-    </div>
-</div>
-
-
-
-
-
-<!--商家生态-->
-<div class="section2" >
-    <div class="section-box">
-        <div class="title">
-            <div class="circle"></div>
-            商家生态
-        </div>
-
-        <div class="merchant-text">
-            什么是生态？是基于系统为核心，打造上下游产业链的服务拓展，形成应用、转化、支付、硬件周边的闭环，在这个过程中让更多的行业参与进来，铸造一个行业标准与行为应用习惯！
-        </div>
-        <div class="merchant-text">
-            你听过苹果生态、小米生态、阿里生态、微信生态、华为生态，这些已经是独角兽企业，传统商家企业想都不敢想能拥有自己的生态，多粉将为商家生态输出技术，改变这一切！   </div>
-        <div class="merchant-text">
-            多粉现有开发的技术都是帮助商家构建生态的重要一环，只要环环相扣相通，行业通产业、各产业互通互用才是未来的智慧商业生态，现在全世界仅多粉在做，我们为这个使命奋斗不息！     </div>
     </div>
 </div>
 
