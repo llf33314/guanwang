@@ -105,29 +105,6 @@ a{text-decoration:none;}
 
 
 
-
-/*.left{width:380px; float:left; margin-left:-15px; background: red  }*/
-/*.right{width:60%; float:right; }*/
-/*.industry-item .subtitle{margin-left:-30px; color: #2d8dfd;font-size: 24px;width:100%;text-align:center;margin-top:50px}*/
-
-/*.left .industry-list{width:98px; font-size: 14px;color: #333333; float: left ;margin-right:30px;  }*/
-/*.industry-list:first-child{margin-left:0}*/
-
-/*.industry-text{margin-top:15px;color: #333333;width:100%;text-align:center; }*/
-/*.industry-bg{ margin-top:25px; height: 82px;width:100%; text-align:center; position: relative}*/
-/*.industry-bg{*/
-/*height: 82px; width:71px;*/
-/*background-image: url(../images/bg.png);*/
-/*background-position: 50% 50%;*/
-/*background-size: cover;*/
-/*background-repeat: no-repeat;*/
-/*margin-left:15px;*/
-/*}*/
-/*.industry-bg .iconfont{ font-size: 40px;line-height: 82px; text-align: center; color: #2d8dfd;}*/
-
-/*.icon{  position: absolute;top:20px;left:13px; }*/
-/*.right .industry-list{width:98px; font-size: 14px;color: #333333; float: right ;margin-left:30px;  }*/
-
 .section2{    width: 100%; background: #f8f8f8;   overflow: hidden;  height: 450px;}
 .merchant-text{ margin-top:40px;width: 848px;font-size: 16px;color: #333333;line-height: 30px;}
 
@@ -190,16 +167,16 @@ add{width:30px; height:83px;line-height:83px;margin-top:30px; font-size: 15px;te
 .in-bg img {width:100%; }
 .in-bg .iconfont {  position: absolute;top:18px;left:15px; font-size: 40px; color: #2d8dfd ;}
 
-.in-bg:hover .bgAct{ animation: cir 3s 10000 linear;}
-.bgAct:hover{ animation: cir 5s 10000 linear;}
+.in-bg:hover .bgAct{ animation: cir 3s }
+.bgAct:hover{ animation: cir 3s }
 @-webkit-keyframes cir{
     0%{-webkit-transform: rotate(0deg);-webkit-transform: rotate(0deg);}
-    100%{-webkit-transform: rotate(0deg);-webkit-transform: rotate(359deg);}
+    100%{-webkit-transform: rotate(360deg);-webkit-transform: rotate(360deg);}
 }
 
 @keyframes cir{
     0%{transform: rotate(0deg);}
-    100%{transform: rotate(359deg);}
+    100%{transform: rotate(360deg);}
 }
 
 /*底部*/

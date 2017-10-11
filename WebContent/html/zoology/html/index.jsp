@@ -15,7 +15,7 @@
 <div class="a-ed-banner-box">
     <div class="a-ed-banner"></div>
     <div class="a-ed-banner-txt">
-        <h1 class="typing">多粉，为你呈现未来智慧商业生态</h1>
+        <h1>多粉，为你呈现未来智慧商业生态</h1>
         <span class="typed-cursor">  &nbsp;|</span>
     </div>
 </div>
@@ -33,7 +33,7 @@
                     <img src="../images/bg.png" class="bgAct"  />
                     <div class="iconfont">&#xe7f5;</div>
                 </div>
-                <div class="merchant-text">汽修行业</div>
+                <div class="merchant-text" style="margin-left:5px;">汽修行业</div>
             </div>
             <div class="list-box br">
                 <div class="in-bg">
