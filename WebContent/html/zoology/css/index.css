@@ -43,7 +43,7 @@ a{text-decoration:none;}
     font-stretch: normal;
 }
 
-.typing{width: 650px;margin-left:auto;margin-right: auto;
+.typing{width: 680px;margin-left:auto;margin-right: auto;
     white-space:nowrap;display: inline-block;
     overflow:hidden;
     -webkit-animation: dy 10s steps(60, end) infinite;

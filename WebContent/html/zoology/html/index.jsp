@@ -43,7 +43,7 @@
                 <div class="merchant-text" style="margin-left:-5px ">汽车美容行业</div>
             </div>
             <div class="list-box bb">
-                <div class="in-bg">
+                <div class="in-bg" style="margin-left:13px;">
                     <img src="../images/bg.png" class="bgAct"  />
                     <div class="iconfont">&#xe6ba;</div>
                 </div>
