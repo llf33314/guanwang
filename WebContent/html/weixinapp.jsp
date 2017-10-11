@@ -11,8 +11,8 @@
     <meta name="apple-mobile-web-app-capable" content="no" />
     <meta name="format-detection" content="telephone=no">
     <script src="/html/applet/js/jquery-2.2.2.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/common/font-second/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/applet/css/style-index.css" />
     <link rel="stylesheet" type="text/css" href="/html/applet/css/animate.css" />
 
