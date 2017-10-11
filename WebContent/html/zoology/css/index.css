@@ -43,7 +43,7 @@ a{text-decoration:none;}
     font-stretch: normal;
 }
 
-.typing{width: 617px;margin-left:auto;margin-right: auto;
+.typing{width: 650px;margin-left:auto;margin-right: auto;
     white-space:nowrap;display: inline-block;
     overflow:hidden;
     -webkit-animation: dy 6s steps(60, end) infinite;
@@ -190,8 +190,8 @@ add{width:30px; height:83px;line-height:83px;margin-top:30px; font-size: 15px;te
 .in-bg img {width:100%; }
 .in-bg .iconfont {  position: absolute;top:18px;left:15px; font-size: 40px; color: #2d8dfd ;}
 
-.in-bg:hover .bgAct{ animation: cir 10s 10000 linear;}
-.bgAct:hover{ animation: cir 10s 10000 linear;}
+.in-bg:hover .bgAct{ animation: cir 3s 10000 linear;}
+.bgAct:hover{ animation: cir 5s 10000 linear;}
 @-webkit-keyframes cir{
     0%{-webkit-transform: rotate(0deg);-webkit-transform: rotate(0deg);}
     100%{-webkit-transform: rotate(0deg);-webkit-transform: rotate(359deg);}
