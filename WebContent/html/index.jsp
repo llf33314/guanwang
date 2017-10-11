@@ -149,10 +149,10 @@
                 <a href="/html/erp/html/index.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition">
-                <img src="../images/index/as-ser3.png">
-                <span>微信行业应用</span>
-                <p>涵盖餐饮、酒店、美容等十多个行业，商家运营效率高，省时省力，降低成本提高消费体验，让用户做您的最佳宣传者</p>
-                <a href="/html/wcy.jsp">更多</a>
+                <img src="/images/index/zoology.png">
+                <span>商家生态</span>
+                <p>以系统为核心打造上下游产业链的服务扩展，形成应用、转化、支付、硬件周边的闭环，实现行业、产业互通互用</p>
+                <a href="/html/zoology/html/index.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition">
                 <img src="../images/index/as-ser1.png">

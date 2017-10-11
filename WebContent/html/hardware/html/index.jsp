@@ -60,7 +60,7 @@
 					<img src="../images/xz2.png">
 				</div>
 				<div class="a-hw-scan-li-r">
-					<h3>E-300系列至尊版</h3>
+					<h3>E-300系列高级版</h3>
 					<p>超高清双屏异显、军工级材料、炫酷</p>
 					<p>蓝色呼吸灯、自带打印机</p>
 					<span>￥2860.00</span>

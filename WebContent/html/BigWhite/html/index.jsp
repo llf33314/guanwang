@@ -99,17 +99,17 @@
 			            <img src="../images/more1.png" id="m2"/>
 		            </a>
 		            <p style="position: relative;right:18px;top: 87px;">小红十MG动画</p>
-		            <a href="javascript:;" class="circle-three">
+		            <a href="javascript:void(0);" class="circle-three" onclick="baiopenVideo1();">
 			            <canvas id="canvas_5" width="104" height="104"></canvas>
 			            <canvas id="canvas_6" width="104" height="104" ></canvas>
 			            <img src="../images/more1.png" id="m3"/>
 		            </a>
-		            <p style="position: relative;left: 226px;top: 61px;">小红十现实场景</p>
+		            <p style="position: relative;left: 226px;top: 61px;" >小红十现实场景</p>
 	           </div>
           </div>
       </div>
 	<%@include file="/html/common/footer-son.jsp" %>
-
+<%@include file="video.jsp"%>
 <!-- <script src="../js/index.js"></script> -->
 <script>
 $(function(){
