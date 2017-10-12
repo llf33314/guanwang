@@ -12,7 +12,8 @@
 <body>
 
 <!-- top -->
-<%@include file="/html/common/clearfix.jsp" %>
+<%@include file="/html/common/clearfix1.jsp" %>
+
 
 <div class="a-operate-banner">
 	<h1>商家必备的超级运营高管</h1>
@@ -165,7 +166,7 @@
 	<div class="a-in-swiper-big-box" style="display:none" id="id2">
 		<div class="combo-container">
 			<!--中间内容-->
-			<div style='height: 67px; position: relative; margin-top: 50px;'>
+			<div style="height: 67px; position: relative;width: 100%;z-index: 4;" class="second-js-top">
 				<table class="combo-title">
 					<th>套餐类型</th>
 					<th>基础版</th>
@@ -351,6 +352,8 @@
 	<%@include file="/html/common/footer.jsp" %>
 	<script src="../js/aintroduce.js"></script>
 	<script>
+        $("#a-swiper1").find("a").attr("style","color:#fff;background-image: url(../images/oper3.png);background-repeat: no-repeat; background-position: center;height: 80px;");
+
         $('.a-operate-ewm').on('mouseenter',function(){
             $(this).find('.a-operate-ewm-ab').hide();
             $(this).find('.a-operate-ewm-ac').show();
@@ -358,6 +361,28 @@
             $(this).find('.a-operate-ewm-ab').show();
             $(this).find('.a-operate-ewm-ac').hide();
         })
+        $(".rightIcon").on("click",".ri1",function(){
+            $("html,body").animate({"scrollTop":0},500);
+        })
+
+		/*页面右侧信息*/
+        //超过一定高度时， 显示返回顶部按钮
+        $(window).scroll(function() {
+            var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+            if (scrollTop > 200) {
+                $('.ri1').show();
+            }
+            else {
+                $('.ri1').hide();
+            }
+            if(scrollTop > $(".second-js-top").position().top){
+                $(".second-js-top").attr("style","height: 67px; position: fixed; width: 100%; z-index: 4; top: 0px;");
+			}
+			if(scrollTop < $(".combo-container").position().top) {
+                $(".second-js-top").attr("style","height: 67px; position: relative;width: 100%;z-index: 4;");
+			}
+        });
+
 	</script>
 </body>
 </html>
