@@ -101,12 +101,12 @@
 			this.current = Math.max(1, _this.current);
 			this.current = Math.min(this.current, _this.pagecount);
 			this.format();
-			if(this.settings.hash){
-				Query.setHash({
-					page:this.current
-				});
-			}
-			this.settings.callback && this.settings.callback(this.current, this.pagesize, this.pagecount);
+			// if(this.settings.hash){
+			// 	Query.setHash({
+			// 		page:this.current
+			// 	});
+			// }
+			//this.settings.callback && this.settings.callback(this.current, this.pagesize, this.pagecount);
             courseList(this.pagesize, this.current);
 		},
 		changePagesize: function(ps) {

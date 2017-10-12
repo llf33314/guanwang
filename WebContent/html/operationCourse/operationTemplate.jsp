@@ -32,7 +32,7 @@
 						<div class="art-content-right-lecturer">
 							<div class="lecturer-photo"><img src="@@teacherimg@@"  /></div>
 							<div class="lecturer-name">@@teachername@@</div>
-							<div class="lecturer-intro">@@teacherdesc@@</div>
+							<div class="lecturer-intro ellipsis">@@teacherdesc@@</div>
 						</div>
 						<!--其他课程-->
 						<div class="otherClass">
@@ -70,7 +70,7 @@
 		}
         for(var i=0;i<a;i++){
             $('#otherClass-row2').append('<li>'
-                +'<img src="'+products[i].logourl+'"/>'
+                +'<a href="/html/operationCourse/operationCourse_'+products[i].id+'.jsp"><img src="'+products[i].logourl+'"/></a>'
                 +'<div class="ellipsis"><a href="/html/operationCourse/operationCourse_'+products[i].id+'.jsp">'+products[i].pcdesc+'</a></div>'
                 +'</li>');
         }
@@ -78,7 +78,7 @@
         for(var j = 0 ; j < products.length ; j++){
 				if(products[j].teacherid == teacherid && products[j].id != id ){
 						$('#otherClass-row1').append('<li>'
-							+'<img src="'+products[j].logourl+'"/>'
+							+'<a href="/html/operationCourse/operationCourse_'+products[i].id+'.jsp"><img src="'+products[j].logourl+'"/></a>'
 							+'<div class="ellipsis"><a href="/html/operationCourse/operationCourse_'+products[j].id+'.jsp">'+products[j].pcdesc+'</a></div>'
 							+'</li>');
 						a++;

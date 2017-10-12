@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>远程课程</title>
+    <title>运营课程</title>
     <link rel="stylesheet" type="text/css" href="/html/operationCourse/css/course.css" />
     <link rel="stylesheet" type="text/css" href="/html/operationCourse/iconfont/iconfont.css" />
     <link rel="stylesheet" type="text/css" href="/html/operationCourse/css/list.css" />

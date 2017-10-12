@@ -107,7 +107,7 @@
 					<p>海报设计</p>
 				</li>
 			</ul>
-			<a href="javascript:;" class="a-operate-four-a">*想了解更多特色功能，请点击查看套餐</a>
+			<a href="javascript:void(0);" onclick="gtShow(2,$('#a-swiper2'))" class="a-operate-four-a">*想了解更多特色功能，请点击查看套餐</a>
 		</div>
 		<div class="a-operate-gen" style="width: 1252px;">
 			<h2 class="a-operate-h2">好不好，让实例来说话<a href="/html/case/html/index.jsp" class="a-operate-more">更多案例</a> </h2>
