@@ -109,7 +109,7 @@
 			<a href="javascript:;" class="a-operate-four-a">*想了解更多特色功能，请点击查看套餐</a>
 		</div>
 		<div class="a-operate-gen" style="width: 1252px;">
-			<h2 class="a-operate-h2">好不好，让实例来说话<a href="" class="a-operate-more">更多案例</a> </h2>
+			<h2 class="a-operate-h2">好不好，让实例来说话<a href="/html/case/html/index.jsp" class="a-operate-more">更多案例</a> </h2>
 			<ul class="a-operate-more-ul">
 				<li class="a-operate-more-ul-li">
 					<img src="../images/oper9.png" class="a-operate-more-pix">
@@ -341,7 +341,7 @@
 			</table>
 			<br>
 			<div class="combo-user">
-				<a href="javascript:;" class="combo-user-button">立即咨询</a>
+				<a href="javascript:void(0);" onclick="showClick(2);" class="combo-user-button">立即咨询</a>
 			</div>
 			<!--中间内容-->
 		</div>
