@@ -12,7 +12,7 @@
 <body>
 
 <!-- top -->
-<%@include file="/html/common/clearfix1.jsp" %>
+<%@include file="/html/common/clearfix.jsp" %>
 
 
 <div class="a-operate-banner">
