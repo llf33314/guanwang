@@ -346,6 +346,7 @@
 			<!--中间内容-->
 		</div>
 	</div>
+</div>
 	<!-- 底部区域 -->
 	<%@include file="/html/common/footer.jsp" %>
 	<script src="../js/aintroduce.js"></script>
