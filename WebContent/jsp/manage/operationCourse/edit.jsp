@@ -65,7 +65,7 @@
 								<br>
 								<span>描述：&nbsp;&nbsp;&nbsp;&nbsp;</span>
 								<input class="input-xlarge span11" id="applydesc" type="text"
-									   style="height: 30px;" placeholder="课程标题" maxlength="25">
+									   style="height: 30px;" placeholder="请输入报名描述" maxlength="25">
 							</div>
 						</div>
 
@@ -268,6 +268,10 @@
         }
         if(!applycount){
             WSFUNCTION.msgBox("信息", "请输入报名人数");
+            return;
+        }
+        if(parseInt(applycount) < 1){
+            WSFUNCTION.msgBox("信息", "请输入正确报名人数");
             return;
         }
         if(!contenttitles){
