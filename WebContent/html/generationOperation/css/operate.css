@@ -79,7 +79,7 @@ a{text-decoration:none;color:#333;}
     font-size: 28px;
     font-weight: normal;
     color: #333333;
-    padding: 60px 0 10px;
+    padding: 60px 0 10px 120px;
 }
 
 .demo-music .music {
@@ -336,7 +336,7 @@ table {
 }
 .combo-container{
     width:1012px;
-    margin: 95px auto 0;
+    margin: 50px auto 0;
 }
 .combo-title{
     background: #2D8DFD;
