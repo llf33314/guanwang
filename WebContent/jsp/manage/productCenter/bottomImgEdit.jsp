@@ -39,7 +39,7 @@
 							</div>
 							
 							<div class="form-actions" style="width: 76%;">
-								<button type="button" id="submit" class="btn btn-primary" onclick="qa_edit('/productCenter/bottomadd');">提交</button>
+								<button type="button" id="submit" class="btn btn-primary" onclick="qa_edit('/productCenterNew/bottomadd');">提交</button>
 								<button type="button" class="btn" onclick="gtView('jsp/manage/productCenter/bottomImgIndex.jsp');">取消</button>
 							</div>
 						</fieldset>
@@ -56,8 +56,8 @@
 		$(function(){
 			if(id != null){
 				$("legend").html("修改");
-				$("#submit").attr("onclick", "qa_edit('/productCenter/bottomupd');");
-				var one = WSFUNCTION.doPost("productCenter/html/bottomlist", {id:id})[0];
+				$("#submit").attr("onclick", "qa_edit('/productCenterNew/bottomupd');");
+				var one = WSFUNCTION.doPost("productCenterNew/html/bottomlist", {id:id})[0];
 				
 				$("#imgurl1").attr("src", one.imgurl);
 				$("#imgdesc").val(one.imgdesc);

@@ -9,25 +9,21 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.gt.model.productCenter.*;
+import com.gt.service.productCenter.ProductCenterNewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.gt.model.productCenter.ProductCenter;
-import com.gt.model.productCenter.ProductCenterBottomImg;
-import com.gt.model.productCenter.ProductCenterImg;
-import com.gt.model.productCenter.ProductCenterType;
-import com.gt.model.productCenter.ProductCenterVbtn;
-import com.gt.service.productCenter.ProductCenterService;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 @Controller
-@RequestMapping("productCenter")
+@RequestMapping("productCenterNew")
 public class ProductCenterController {
 	@Autowired
-	private ProductCenterService productCenterService;
+	private ProductCenterNewService productCenterService;
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@RequestMapping("/html/list") 
@@ -131,14 +127,9 @@ public class ProductCenterController {
 		PrintWriter p = null;
 		try {
 			p = response.getWriter();
-			ProductCenter a = (ProductCenter) JSONObject.toBean(
-					JSONObject.fromObject(request.getParameter("ProductCenter")), ProductCenter.class);
-			List<ProductCenterImg> b = ((List<ProductCenterImg>) JSONArray.toCollection(
-					JSONArray.fromObject(request.getParameter("ProductCenterImg")), ProductCenterImg.class));
-			List<ProductCenterVbtn> c = ((List<ProductCenterVbtn>) JSONArray.toCollection(
-					JSONArray.fromObject(request.getParameter("ProductCenterVbtn")), ProductCenterVbtn.class));
-					
-			status = productCenterService.insert(a, b, c, request);
+			ProductCenterNew a = (ProductCenterNew) JSONObject.toBean(
+					JSONObject.fromObject(request.getParameter("productCenterNew")), ProductCenterNew.class);
+			status = productCenterService.insert(a,  request);
 			msg = "提交成功";
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -174,13 +165,9 @@ public class ProductCenterController {
 		PrintWriter p = null;
 		try {
 			p = response.getWriter();
-			ProductCenter a = (ProductCenter) JSONObject.toBean(
-					JSONObject.fromObject(request.getParameter("ProductCenter")), ProductCenter.class);
-			List<ProductCenterImg> b = ((List<ProductCenterImg>) JSONArray.toCollection(
-					JSONArray.fromObject(request.getParameter("ProductCenterImg")), ProductCenterImg.class));
-			List<ProductCenterVbtn> c = ((List<ProductCenterVbtn>) JSONArray.toCollection(
-					JSONArray.fromObject(request.getParameter("ProductCenterVbtn")), ProductCenterVbtn.class));
-			status = productCenterService.update(a, b, c, request);
+			ProductCenterNew a = (ProductCenterNew) JSONObject.toBean(
+					JSONObject.fromObject(request.getParameter("productCenterNew")), ProductCenterNew.class);
+			status = productCenterService.update(a, request);
 			msg = "提交成功";
 		} catch (Exception e) {
 			e.printStackTrace();

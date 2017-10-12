@@ -81,12 +81,12 @@
 			        	 col: "",
 			        	 render: function(value){
 			        		 return "<a class='btn btn-success' onclick='gtView(\"/jsp/manage/productCenter/typeEdit.jsp?i="+value.id+"\")'>修改</a>&nbsp;"+
-			        		 	"<a class='btn btn-danger' onclick='WSFUNCTION.sendDel(\"productCenter/typedel\",{id:"+value.id+"}, "
+			        		 	"<a class='btn btn-danger' onclick='WSFUNCTION.sendDel(\"productCenterNew/typedel\",{id:"+value.id+"}, "
 			        		 			+"\"/jsp/manage/productCenter/typeIndex.jsp\", $(this))'>删除</a>"; 
 			        	 }
 			         }
 			        ],
-			url: "/productCenter/html/typelist",
+			url: "/productCenterNew/html/typelist",
 			param: {}
 		});
 		

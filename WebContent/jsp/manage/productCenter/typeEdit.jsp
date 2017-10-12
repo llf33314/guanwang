@@ -44,7 +44,7 @@
 								<img id="typeimg" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: 50px;border: 1px solid #ccc;"/>
 							</div>
 							<div class="form-actions" style="width: 76%;">
-								<button type="button" id="submit" class="btn btn-primary" onclick="qa_edit('/productCenter/typeadd');">提交</button>
+								<button type="button" id="submit" class="btn btn-primary" onclick="qa_edit('/productCenterNew/typeadd');">提交</button>
 								<button type="button" class="btn" onclick="gtView('jsp/manage/productCenter/typeIndex.jsp');">取消</button>
 							</div>
 						</fieldset>
@@ -60,8 +60,8 @@
 		$(function(){
 			if(id != null){
 				$("legend").html("修改");
-				$("#submit").attr("onclick", "qa_edit('/productCenter/typeupd');");
-				var one = WSFUNCTION.doPost("productCenter/html/typelist", {id:id})[0];
+				$("#submit").attr("onclick", "qa_edit('/productCenterNew/typeupd');");
+				var one = WSFUNCTION.doPost("productCenterNew/html/typelist", {id:id})[0];
 				$("#pctypename").val(one.pctypename);
 				$("#englishname").val(one.englishname);
 				$("#typedesc").val(one.typedesc);

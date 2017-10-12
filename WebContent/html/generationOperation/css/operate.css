@@ -1,0 +1,374 @@
+body{color:#333;font-family: "微软雅黑";}
+*{padding:0;margin:0;}
+li{list-style: none;}
+a{text-decoration:none;color:#333;}
+
+/*banner*/
+.a-operate-banner{
+    background-image: url(../images/oper1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 442px;
+    position: relative;
+}
+.a-operate-banner h1{
+    color: #2D8DFD;
+    font-size: 41px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 160px;
+}
+.a-in-operate{
+    height: 79px;
+    width: 100%;
+    background-image: url(../images/oper2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+}
+.a-in-operate-txt{
+    width: 396px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 79px;
+}
+.a-in-operate-title{
+    font-size: 24px;
+    color: #fff;
+    height: 79px;
+    display: block;
+    width: 195px;
+    text-align: center;
+}
+.a-in-operate-title:hover{
+    background-image: url(../images/oper3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 195px;
+    height: 80px;
+}
+
+/*统筹*/
+.a-in-swiper-box{
+    width: 100%;
+}
+.a-in-swiper-big-box{
+    width: 100%;
+}
+/*代运营*/
+.a-operate-gen{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    line-height: 1.8;
+    position: relative;
+}
+.a-operate-h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: #333333;
+    padding: 60px 0 10px;
+}
+
+.demo-music .music {
+    width: 80px;
+    height: 50px;
+    top: 50%;
+    left: 51%;
+    -webkit-transform: translate(-40px, -25px);
+    transform: translate(-40px, -25px);
+    position: absolute;
+    margin-top: -70px;
+}
+
+.demo-music #waves {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.demo-music #waves li {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 11%;
+    overflow: hidden;
+    margin-right: 1px;
+}
+.demo-music #waves li:nth-child(1){
+    height: 18px;
+    position: absolute;
+    bottom: 0;
+}
+.demo-music #waves li:nth-child(2){
+    position: absolute;
+    left: 11px;
+}
+.demo-music #waves li:nth-child(3){
+    height: 28px;
+    position: absolute;
+    left: 22px;
+    bottom: 0;
+}
+.demo-music #waves li span {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    width: 100px;
+    background: #fff;
+}
+.demo-music #waves .li1 span {
+    animation: waves 0.5s linear 0s infinite alternate;
+    -webkit-animation: waves 0.6s linear 0s infinite alternate;
+}
+
+.demo-music #waves .li2 span {
+    animation: waves 0.7s linear 0s infinite alternate;
+    -webkit-animation: waves 0.9s linear 0s infinite alternate;
+}
+
+.demo-music #waves .li3 span {
+    animation: waves 1s linear 0s infinite alternate;
+    -webkit-animation: waves 1s linear 0s infinite alternate;
+}
+@-webkit-keyframes waves {
+    10% {  height: 20%;  }
+    20% {height: 60%; }
+    40% { height: 40%;}
+    50% {height: 100%;}
+    100% { height: 50%; }
+}
+@keyframes waves {
+    10% { height: 20%;  }
+    20% {height: 60%;}
+    40% {height: 40%;}
+    50% { height: 100%;}
+    100% { height: 50%;}
+}
+.a-operate-second{
+    background: #F3F7FD;
+    width: 100%;
+}
+.a-operate-four{
+    background-image: url(../images/oper7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 615px;
+    position: relative;
+    text-align: center;
+}
+.a-operate-four-ul{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.a-operate-four-h2{
+    font-size: 28px;
+    font-weight: normal;
+    color: #fff;
+    padding: 48px 0 0;
+}
+.a-operate-four-ul i{
+    font-size: 40px;
+    line-height: 70px;
+}
+.a-operate-four-ul li{
+    height: 116px;
+    width:96px;
+    position: absolute;
+    top: 49px;
+}
+.a-operate-four-ul li:hover{
+    height: 116px;
+    width:96px;
+    background-image: url(../images/oper8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.a-operate-four-ul li:nth-child(1) {
+    left: 117px;
+}
+.a-operate-four-ul li:nth-child(2) {
+    left: 240px;
+}
+.a-operate-four-ul li:nth-child(3) {
+    left: 360px;
+}
+.a-operate-four-ul li:nth-child(4) {
+    left: 755px;
+}
+.a-operate-four-ul li:nth-child(5) {
+    left: 877px;
+}
+.a-operate-four-ul li:nth-child(6) {
+    left: 1000px;
+}
+.a-operate-four-ul li:nth-child(7) {
+    top: 260px;
+    left: 117px;
+}
+.a-operate-four-ul li:nth-child(8) {
+    top: 260px;
+    left: 240px;
+}
+.a-operate-four-ul li:nth-child(9) {
+    top: 260px;
+    left: 360px;
+}
+.a-operate-four-ul li:nth-child(10) {
+    top: 260px;
+    left: 755px;
+}
+.a-operate-four-ul li:nth-child(11) {
+    top: 260px;
+    left: 877px;
+}
+.a-operate-four-ul li:nth-child(12) {
+    top: 260px;
+    left: 1000px;
+}
+.a-operate-four-a{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    margin-left: -160px;
+}
+.a-operate-more{
+    float: right;
+    font-size: 18px;
+    color: #2D8DFD;
+    text-decoration: underline;
+}
+.a-operate-more-ul{
+    width: 1290px;
+    margin: 0 auto;
+}
+.a-operate-more-ul-li{
+    width: 377px;
+    height: 439px;
+    background-image: url(../images/oper12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin: 30px 25px 80px;
+    vertical-align: text-top;
+    color: #999;
+    font-size: 14px;
+    position: relative;
+}
+.a-operate-more-ul-li:hover{
+    width: 377px;
+    height: 439px;
+    background-image: url(../images/oper13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin: 30px 25px 80px;
+    vertical-align: text-top;
+    color: #999;
+    font-size: 14px;
+    position: relative;
+}
+.a-operate-more-pix{
+    margin: 60px 0 15px;
+}
+.a-operate-more-ul-li p{
+    padding: 0 30px;
+}
+.a-operate-more-ul-li h3{
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 15px;
+}
+.a-operate-more-span{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    right: 19px;
+    top: 12px;
+}
+.a-operate-ewm-ac-box{
+    width: 368px;
+    height: 428px;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    left: 0;
+    font-size: 18px;
+    text-align: -webkit-center;
+    -webkit-box-shadow: 3px 5px 20px #dddddd;
+    -moz-box-shadow: 3px 5px 20px #dddddd;
+    box-shadow: 3px 5px 20px #dddddd;
+}
+.a-operate-ewm-ac-box-p{
+    border: 1px solid;
+    color: #2D8DFD;
+    width: 128px;
+    padding: 6px 0!important;
+    border-radius: 10px;
+}
+/*代运营套餐*/
+table {
+    border-collapse: collapse;
+    border: none;
+    border-spacing: 0;
+}
+.combo-container{
+    width:1012px;
+    margin: 0 auto;
+}
+.combo-title{
+    background: #2D8DFD;
+    display: inline-block;
+}
+.combo-title th {
+    text-align: center;
+    width: 200px;
+    height: 67px;
+    color: white;
+    font-weight: inherit;
+    border: 1px solid #2d8dfd;
+}
+.combo-item td {
+    text-align: center;
+    width: 200px;
+    height: 67px;
+    border: 1px solid #e5e5e5;
+}
+.main-table{
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+.main-table tr:first-child{
+    color:#ff440e;
+}
+.main-table tr:nth-of-type(odd){
+
+}
+.combo-user{
+    text-align: center;
+    margin: 50px 0 70px;
+}
+.combo-user-button{
+    width: 120px;
+    background: #2d8dfd;
+    border: 1px solid #2d8dfd;
+    padding: 14px 0;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+}
+

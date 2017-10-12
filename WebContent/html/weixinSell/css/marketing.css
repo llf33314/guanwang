@@ -1,0 +1,221 @@
+body{color:#333;font-family: "微软雅黑";}
+*{padding:0;margin:0;}
+li{list-style: none;}
+a{text-decoration:none;color:#333;}
+
+/*gw-banner*/
+.a-mark-customer{
+    height: 70px;
+    width: 100%;
+    background: #f8f8f8;
+}
+.a-mark-customer-txt{
+    /* width: 810px; */
+    margin: 0 auto;
+    display: flex;
+    line-height: 70px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -405px;
+}
+.a-mark-customer-txt li{
+	display: inline-block;
+    width: 135px;
+}
+.a-mark-customer-txt li a{
+	padding: 5px 15px;
+}
+.a-mark-customer-txt li a:hover {
+    padding: 5px 15px;
+    border-radius: 18px;
+    color: #fff;
+    background: #11CF7B;
+ }
+ .a-mark-cu-sp{
+    padding: 5px 15px;
+    border-radius: 18px;
+    color: #fff;
+    background: #11CF7B;
+ }
+.top-fix {
+    z-index: 100;
+    width: 100%;
+}
+.second-js-top {
+    min-width: 1100px;
+}
+/*banner*/
+.a-mark-banner{
+    background-image: url(../images/mk1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 442px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8;
+}
+.a-mark-banner h1{
+    font-size: 30px;
+    font-weight: normal;
+    padding: 150px 0 20px;
+}
+/*unified*/
+.a-mark-box{
+    width: 100%;
+    margin: 0 auto;
+}
+.a-mark-unified{
+    width: 1200px;
+    margin: 45px auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 14px;
+    color: #666;
+}
+.a-mark-unified h2{
+    font-size:28px;
+    font-weight: normal;
+    color: #333;
+}
+.a-mark-unified ul{
+    text-align: left;
+    margin: 35px 0 30px;
+}
+.a-mark-unified-li{
+    display: inline-block;
+    width: 292px;
+    font-size: 12px;
+    color: #999;
+    margin: 15px 2px;
+    overflow: hidden;
+    height: 60px;
+}
+.a-mark-unified-li-l{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+.a-mark-unified-li-l img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.32s;
+}
+.a-mark-unified-li-l img:hover{
+    width: 55px;
+    height: 55px;
+}
+.a-mark-unified-li-r{
+    display: inline-block;
+    vertical-align: top;
+}
+.a-mark-unified-li-r h4{
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+/*详情页*/
+.a-details{
+    width:1200px;
+    margin: 130px auto 100px;
+}
+.a-details-l{
+    width: 870px;
+    display: inline-block;
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+.a-details-p{
+    font-size: 16px;
+    color: #333;
+}
+.a-details-img{
+    margin-top: 30px;
+}
+.a-details-l-box{
+    width: 760px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.a-details-l-box h3{
+    color: #2D8DFD;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.a-details-r{
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 45px;
+}
+.a-details-r-t{
+    background: #fff;
+    height: 110px;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+.a-details-r-t-title{
+    height: 58px;
+    border-bottom: 1px solid #f2f2f2;
+    line-height: 58px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #333;
+}
+.a-details-unified-r a{
+    font-size: 12px;
+    color: #2D8DFD;
+}
+.a-details-r-b{
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+.a-details-r-roll{
+    max-height: 730px;
+    overflow: auto;
+}
+.a-details-r-roll::-webkit-scrollbar {
+    display: none;
+}
+.a-details-ewm{
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin: 30px 0 70px;
+}
+.a-details-unified{
+    font-size: 12px;
+    color: #999;
+    margin: 0 2px;
+    overflow: hidden;
+    height: 60px;
+    line-height: 1.8;
+    padding-top: 29px;
+}
+.a-details-unified-l{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.a-details-unified-r{
+    display: inline-block;
+    vertical-align: top;
+}
+.a-details-unified-r h4{
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}

@@ -254,5 +254,20 @@ public class ArticleController {
 		}
 		p.write("{\"status\":"+status+", \"msg\":\""+msg+"\", \"data\":"+null+"}");
 	}
+	public static void main(String[] args) {
+		String s = "";
+		for(int i = 1 ; i < 4 ; i++){
+			for (int j = 0 ; j < 4-i ; j++){
+				s=s+i;
+				for (int a = 0 ; a < 4-j ; a++){
+					s=s+a;
+					for (int b = 0 ; b < 4-i ; b++){
+						s=s+b;
+					}
+					System.out.println(s);
+				}
+			}
+		}
+	}
 	
 }

@@ -73,12 +73,12 @@
 			        	 col: "",
 			        	 render: function(value){
 			        		 return "<a class='btn btn-success' onclick='gtView(\"/jsp/manage/productCenter/bottomImgEdit.jsp?i="+value.id+"\")'>修改</a>&nbsp;"+
-			        		 	"<a class='btn btn-danger' onclick='WSFUNCTION.sendDel(\"productCenter/bottomdel\",{id:"+value.id+"}, "
+			        		 	"<a class='btn btn-danger' onclick='WSFUNCTION.sendDel(\"productCenterNew/bottomdel\",{id:"+value.id+"}, "
 			        		 			+"\"/jsp/manage/productCenter/bottomImgIndex.jsp\", $(this))'>删除</a>"; 
 			        	 }
 			         }
 			        ],
-			url: "/productCenter/html/bottomlist",
+			url: "/productCenterNew/html/bottomlist",
 			param: {}
 		});
 		

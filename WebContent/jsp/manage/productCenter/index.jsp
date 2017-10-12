@@ -35,11 +35,6 @@
 	                                 	<button class="btn btn-primary">分类列表</button>
 	                                 </a>
 	                              </div>
-	                              <div class="btn-group">
-	                                 <a href="javascript:void(0);" onclick="gtView('/jsp/manage/productCenter/bottomImgIndex.jsp')">
-	                                 	<button class="btn btn-info">底部轮播图片</button>
-	                                 </a>
-	                              </div>
 	                              <a href="javascript:void(0);" onclick="allReset()" style="margin-left: 10px;">
                                  	<button class="btn btn-warning">重新生成文件</button>
                                   </a>
@@ -87,12 +82,12 @@
 			        	 col: "",
 			        	 render: function(value){
 			        		 return "<a class='btn btn-success' onclick='gtView(\"/jsp/manage/productCenter/edit.jsp?i="+value.id+"\")'>修改</a>&nbsp;"+
-			        		 	"<a class='btn btn-danger' onclick='WSFUNCTION.sendDel(\"productCenter/del\",{id:"+value.id+"}, "
+			        		 	"<a class='btn btn-danger' onclick='WSFUNCTION.sendDel(\"productCenterNew/del\",{id:"+value.id+"}, "
 			        		 			+"\"/jsp/manage/productCenter/index.jsp\", $(this))'>删除</a>"; 
 			        	 }
 			         }
 			        ],
-			url: "/productCenter/html/list",
+			url: "/productCenterNew/html/list",
 			param: {}
 		});
 		
@@ -100,7 +95,7 @@
 	
 	function allReset(){
 		$.ajax({
-			url: "/productCenter/allReset", 
+			url: "/productCenterNew/allReset",
 			type: "POST",
 			async: false,
 			data: {},

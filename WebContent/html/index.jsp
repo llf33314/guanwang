@@ -149,16 +149,16 @@
                 <a href="/html/erp/html/index.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition">
-                <img src="/images/index/zoology.png">
-                <span>商家生态</span>
-                <p>以系统为核心打造上下游产业链的服务扩展，形成应用、转化、支付、硬件周边的闭环，实现行业、产业互通互用</p>
-                <a href="/html/zoology/html/index.jsp">更多</a>
+                <img src="../images/index/as-ser6.png">
+                <span>商家联盟</span>
+                <p>整合客户资源让商家互相推荐商机、共享优惠，打造移动互联网时代下，新零售的颠覆性创新理念</p>
+                <a href="/html/BusinessAlliance/html/index.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition">
                 <img src="../images/index/as-ser1.png">
                 <span>微信营销</span>
                 <p>包含订阅号、服务号，提供公众号功能和小程序的定制开发，基础搭建、运营、推广等全系列微信营销方案</p>
-                <a href="/html/weixinSell.jsp">更多</a>
+                <a href="/html/weixinSell/html/index.jsp">更多</a>
             </li>
             <li class="a-sy-scrvice-box exhibition" style="vertical-align: bottom;">
                 <img src="../images/index/as-ser5.png">
@@ -166,11 +166,12 @@
                 <p>包含微信端、电脑端、手机端十多个行业的网站模板自由选择账号、会员卡、优惠券、订单数据无缝同步对接支持个性化绑定域名</p>
                 <a href="/html/fansNest.jsp">更多</a>
             </li>
+
             <li class="a-sy-scrvice-box exhibition">
-                <img src="../images/index/as-ser6.png">
-                <span>商家联盟</span>
-                <p>整合客户资源让商家互相推荐商机、共享优惠，打造移动互联网时代下，新零售的颠覆性创新理念</p>
-                <a href="/html/BusinessAlliance/html/index.jsp">更多</a>
+                <img src="/images/index/zoology.png">
+                <span>商家生态</span>
+                <p>以系统为核心打造上下游产业链的服务拓展，形成应用、转化、支付、硬件周边的闭环，实现行业、产业互通互用</p>
+                <a href="/html/zoology/html/index.jsp">更多</a>
             </li>
         </ul>
     </div>

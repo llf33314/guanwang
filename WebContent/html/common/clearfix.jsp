@@ -23,7 +23,7 @@
                     </li>
                     <li class="a-pro-a">
                         <div class="a-pro-a"><i class="iconfont in3">&#xe627;</i></div>
-                        <a href="/html/weixinSell.jsp">
+                        <a href="/html/weixinSell/html/index.jsp">
 	                     <span>
 	                         <h3>微信营销</h3>
 	                         <p>提供微信营销技术工具</p>
@@ -164,6 +164,7 @@
             </li>
         </ul>
         <div class="gt-a-top-box-use">
+            <span class="a-top-firstspan" style="height: 80px;"><a href="/html/operationCourse/index.jsp" class="a-top-use-cen">运营课程</a></span>
             <span class="a-top-firstspan" style="height: 80px;"><a href="/html/instructions.jsp" class="a-top-use-cen">使用手册</a></span>
             <span class="a-top-firstspan" style="height: 80px;"><a href="/html/hardware/html/index.jsp" class="a-top-use-cen">硬件支持</a></span>
             <a href="/html/agencyLogin/html/index.jsp" class="a-top-use-cen">代理登录</a>

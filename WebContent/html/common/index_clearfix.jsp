@@ -28,7 +28,7 @@
                   <li><a href="/html/product.jsp" target="_blank" class="fie6">产品中心</a>
                      <ul class="subbox">
                          <li><a href="/html/fansNest.jsp" target="_blank">粉巢系统</a></li>
-                         <li><a href="/html/weixinSell.jsp" target="_blank">微信营销</a></li>
+                         <li><a href="/html/weixinSell/html/index.jsp" target="_blank">微信营销</a></li>
                          <li><a href="/html/wcy.jsp" target="_blank">微信行业应用</a></li>
                          <li><a href="/html/weixinapp.jsp" target="_blank">微信小程序</a></li>
                      </ul>
