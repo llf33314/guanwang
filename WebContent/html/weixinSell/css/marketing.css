@@ -120,6 +120,9 @@ a{text-decoration:none;color:#333;}
     color: #333;
     font-weight: normal;
 }
+.a-mark-unified-li-r h4:hover{
+    color: #2d8dfd;
+}
 /*详情页*/
 .a-details{
     width:1200px;
@@ -133,7 +136,7 @@ a{text-decoration:none;color:#333;}
     box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
 }
 .a-details-p{
-    font-size: 16px;
+    font-size: 14px;
     color: #333;
 }
 .a-details-img{
@@ -143,7 +146,7 @@ a{text-decoration:none;color:#333;}
 .a-details-l-box{
     width: 760px;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     line-height: 1.6;
 }
@@ -152,9 +155,9 @@ a{text-decoration:none;color:#333;}
 }
 .a-details-l-box h3{
     color: #2D8DFD;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: normal;
-    margin: 20px 0;
+    margin: 40px 0 20px;
 }
 .a-details-r{
     width: 280px;
@@ -195,9 +198,10 @@ a{text-decoration:none;color:#333;}
 }
 .a-details-ewm{
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     color: #333;
-    margin: 30px 0 70px;
+    margin: 30px 0 50px;
+    line-height: 2;
 }
 .a-details-unified{
     font-size: 12px;
