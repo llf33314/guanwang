@@ -134,6 +134,11 @@ a{text-decoration:none;color:#333;}
     background: #fff;
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
     box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+    overflow: auto;
+    max-height: 1000px;
+}
+.a-details-l::-webkit-scrollbar {
+    display: none;
 }
 .a-details-p{
     font-size: 14px;
