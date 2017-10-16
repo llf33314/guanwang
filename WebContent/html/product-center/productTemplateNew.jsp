@@ -46,7 +46,11 @@
         var productJson = WSFUNCTION.doPost(
             "/productCenterNew/html/productlist", {});
         var products = productJson.products;
-        for(var i=0;i<products.length;i++){
+        var  a = 15;
+        if (a > products.length){
+            a = products.length;
+		}
+        for(var i=0;i<a;i++){
             $('.a-details-r-roll').append('	<div class="a-details-unified">'
                 +'<div class="a-details-unified-l">'
                 +'<img src="'+products[i].logourl+'"  style="width: 50px;height: 50px;">'

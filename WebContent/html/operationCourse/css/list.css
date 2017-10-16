@@ -49,7 +49,7 @@
 
 .course-category-model ul li .play { background: url("../images/time.png") no-repeat 0px 0; padding: 1px 9px; margin-right: 10px; }
 
-.course-category-model ul li .live { color: #ff3259}
+.course-category-model ul li .live {margin-left: 0 !important; color: #ff3259}
 
 .course-category-model .load-more-wrapper { text-align: center; margin-top: 30px; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #dedede; }
 

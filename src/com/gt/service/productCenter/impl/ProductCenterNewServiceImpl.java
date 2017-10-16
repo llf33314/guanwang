@@ -215,7 +215,7 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 	
 	@Override
 	public int deleteType(Integer id) {
-		String sql = "delete from t_ws_product_center_new where id = ?";
+		String sql = "delete from t_ws_product_center_type where id = ?";
 		int i = iBaseDAO.update(sql, id);
 		return i;
 	}
@@ -287,7 +287,7 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 	
 	@SuppressWarnings("rawtypes")
 	public void createProductCenterPage(ProductCenterNew productCenterNew, String path, boolean flag) throws IOException {
-		File page = new File("D:/Downloads/05/weew/WebSite/WebContent" + "/html/product-center/productNew_"+productCenterNew.getId()+".jsp");
+		File page = new File(path + "/html/product-center/productNew_"+productCenterNew.getId()+".jsp");
 		if(!page.exists() || flag){
 			if(!page.getParentFile().exists()){
 				page.getParentFile().mkdirs();
@@ -295,7 +295,7 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 			page.createNewFile();
 			FileWriter fw = new FileWriter(page, false);
 			BufferedWriter bw =  new BufferedWriter(new OutputStreamWriter(new FileOutputStream(page),"utf-8"));
-			String s = new String(readProductCenterPage(productCenterNew, "D:/Downloads/05/weew/WebSite/WebContent"));
+			String s = new String(readProductCenterPage(productCenterNew, path));
 			bw.write(s);
 			bw.flush();
 			bw.close();
@@ -336,13 +336,10 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 		String[] imageslist = productCenter.getImageslist().split("&");
 		for (int i = 0 ; i < contenttitles.length ; i++){
 			insethtml.append("<li>");
-			insethtml.append("  <h3>"+contenttitles[i]+"</h3>");
-			if(contents[i].indexOf("#") != -1){
-				String[] contentss = contents[i].split("#");
-				for (int j = 0 ; j < contentss.length ; j++){
-					insethtml.append(" <p class=\"a-details-p\">"+contentss[j]+"</p>");
-				}
-			}else{
+			if(CommonUtil.isNotEmpty(contenttitles[i])){
+				insethtml.append("  <h3>"+contenttitles[i]+"</h3>");
+			}
+			if(CommonUtil.isNotEmpty(contents[i])){
 				insethtml.append(" <p>"+contents[i]+"</p>");
 			}
 			if (!imageslist[i].equals("/images/duofenIntroduction/plus.png")){

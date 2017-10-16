@@ -77,7 +77,7 @@
                         +' <p class="btmm">'
                         +(courses[i].applystate == "1" ? '' : courses[i].applystate == "2" ? ' <i class="iconfont">&#xe6116;</i>': '<i class="iconfont">&#xe61d6;</i>')
                         +' <span class="time'
-                        +(courses[i].applystate == "1" ? ' red' : courses[i].applystate == "2" ? ' red': '')
+                        +(courses[i].applystate == "1" ? ' red live' : courses[i].applystate == "2" ? ' red': '')
                         +'">'+courses[i].applydesc+'</span>'
                         +' <span class="enroll">'+courses[i].applycount+'人在学</span>'
                         +' </p> </div> </li>';
