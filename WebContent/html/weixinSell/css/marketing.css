@@ -94,12 +94,20 @@ a{text-decoration:none;color:#333;}
     color: #999;
     margin: 15px 2px;
     overflow: hidden;
-    height: 60px;
+    height: 72px;
+}
+.a-mark-unified-li:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 3px 5px 20px #dddddd;
+    -moz-box-shadow: 3px 5px 20px #dddddd;
+    box-shadow: 3px 5px 20px #dddddd;
+    transition: all 0.2s linear;
 }
 .a-mark-unified-li-l{
     display: inline-block;
     width: 30%;
     text-align: center;
+    margin-top: 10px;
 }
 .a-mark-unified-li-l img{
     width: 50px;
@@ -114,13 +122,14 @@ a{text-decoration:none;color:#333;}
 .a-mark-unified-li-r{
     display: inline-block;
     vertical-align: top;
+    margin-top: 10px;
 }
-.a-mark-unified-li-r h4{
+.a-mark-unified-li h4{
     font-size: 16px;
     color: #333;
     font-weight: normal;
 }
-.a-mark-unified-li-r h4:hover{
+.a-mark-unified-li:hover h4{
     color: #2d8dfd;
 }
 /*详情页*/
