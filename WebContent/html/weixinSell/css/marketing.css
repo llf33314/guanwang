@@ -97,7 +97,7 @@ a{text-decoration:none;color:#333;}
     height: 72px;
 }
 .a-mark-unified-li:hover{
-    cursor: pointer;
+    /*cursor: pointer;*/
     -webkit-box-shadow: 3px 5px 20px #dddddd;
     -moz-box-shadow: 3px 5px 20px #dddddd;
     box-shadow: 3px 5px 20px #dddddd;
