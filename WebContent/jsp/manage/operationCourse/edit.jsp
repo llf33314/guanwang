@@ -60,7 +60,11 @@
 								</label>
 								&nbsp;&nbsp;&nbsp;&nbsp;
 								<label class="radio inline">
-									<input class="radio" name="applystate" type="radio" value="3" checked="checked"> 已结束
+									<input class="radio" name="applystate" type="radio" value="3"> 已结束
+								</label>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<label class="radio inline">
+									<input class="radio" name="applystate" type="radio" value="4" checked="checked"> 回放
 								</label>
 								<br>
 								<span>描述：&nbsp;&nbsp;&nbsp;&nbsp;</span>

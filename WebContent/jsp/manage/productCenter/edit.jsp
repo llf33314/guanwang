@@ -6,7 +6,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>产品中心</title>
+	<title>微信营销 </title>
 	<style type="text/css">
 	</style>
 	<script type="text/javascript" src="jsp/manage/article/ajaxfileupload.js"></script>
@@ -20,7 +20,7 @@
 	<!-- block -->
 	<div class="block">
 		<div class="navbar navbar-inner block-header">
-			<div class="muted pull-left">产品中心</div>
+			<div class="muted pull-left">微信营销</div>
 		</div>
 		<div class="block-content collapse in">
 			<div class="span12">
@@ -68,7 +68,8 @@
 										   style="height: 30px;" placeholder="内容标题" maxlength="50">
 								</div>
 								<div class="controls" style="margin-left: 40px; margin-top: 15px;">
-									<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"></textarea>
+									<div onclick="toTc1Show();" style="width:60px;color:#fff; text-align: center; cursor: pointer;padding:4px 0; background: #288ee6;" class="stylebtn">A</div>
+									<textarea  class="span11 span113" id="pcpagetitle2" rows="3" cols="20"></textarea>
 								</div>
 								<div class="controls" style="margin-left: 40px; margin-top: 15px;">
 									<img id="imgurl1" onclick="selectModel8(this);" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: -6px;border: 1px solid #ccc;"/>
@@ -94,6 +95,38 @@
 
 			</div>
 		</div>
+	</div>
+	<%--弹窗--%>
+	<style>
+		.tcShadow{width:100%;height:100%; background: rgba(0,0,0,0.2);z-index: 1;}
+		.toTc{ width:100%;height:100%;position: fixed;top:0;left:0}
+		.tc{width:20%;height: 250px; background: #fff; position: fixed;top:30%;left:40%; }
+		.tc 	.title{font-size:18px; text-align: center;wodth:100%; padding-top:30px;}
+		.shuru{ width:90%;margin:10px auto; font-size:16px; padding-top:15px;}
+		.shuru input{width:80%;height:30px;line-height:30px;}
+		.btnRow{ width:90%;margin:10px auto; position: relative}
+		.btnRow div{ display: inline-block;width:50px; height:30px;line-height: 30px; text-align: center;
+			color: #fff;text-align: center}
+		.btnRow .savebtn{ background: deepskyblue; position:absolute;left:23%;}
+		.btnRow .cancelbtn{ background: #ccc;position:absolute;right:23%;}
+	</style>
+	<div class="toTc" style="display: none;" id="toTc1">
+
+		<div class="tcShadow"> </div>
+		<div class="tc">
+			<div class="title">链接||颜色</div>
+			<div class="shuru">
+				链接：<input  type="text"  id="saveToTc1"/>
+			</div>
+			<div class="shuru">
+				颜色：<input   type="color"  id="saveToTc2"/>
+			</div>
+			<div class="btnRow">
+				<div class="btn savebtn" onclick="Test();">确定</div>
+				<div class="  btn cancelbtn" onclick="toTc1Hide();">取消</div>
+			</div>
+		</div>
+
 	</div>
 	<!-- /block -->
 </div>
@@ -146,7 +179,8 @@
                     +'style="height: 30px;" placeholder="内容标题" maxlength="50">'
                     +'</div>'
                     +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
-                    +'<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"></textarea>'
+					+'<div onclick="toTc1Show();" style="width:60px;color:#fff; text-align: center; cursor: pointer;padding:4px 0; background: #288ee6;" class="stylebtn">A</div>'
+                    +'<textarea  class="span11 span113" id="pcpagetitle2" rows="3" cols="20"></textarea>'
                     +'</div>'
                     +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
                     +'<img id="imgurl'+type
@@ -155,6 +189,7 @@
                     +' </div>');
                 type++;
                 type1++;
+                textareats();
 			}
 			debugger
             var neirongList = document.getElementsByClassName("control-group1");
@@ -165,7 +200,7 @@
                     neirong22 = neirong22.replace("<br>","\n");
                 }
                $($($(neirongList[i]).context.children[3]).context.children[0]).val(contenttitles[i]);
-                $($($(neirongList[i]).context.children[4]).context.children[0]).val(neirong22);
+                $($($(neirongList[i]).context.children[4]).context.children[1]).val(neirong22);
                 $($($(neirongList[i]).context.children[5]).context.children[0]).attr("src",imageslist[i]);
 
             }
@@ -199,7 +234,8 @@
                 +'style="height: 30px;" placeholder="内容标题" maxlength="50">'
                 +'</div>'
                 +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
-                +'<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"></textarea>'
+                +'<div onclick="toTc1Show();" style="width:60px;color:#fff; text-align: center; cursor: pointer;padding:4px 0; background: #288ee6;" class="stylebtn">A</div>'
+                +'<textarea  class="span11 span113" id="pcpagetitle2" rows="3" cols="20"></textarea>'
                 +'</div>'
                 +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
                 +'<img id="imgurl'+type
@@ -208,6 +244,7 @@
                 +' </div>');
 			type++;
             type1++;
+            textareats();
         });
 
     });
@@ -228,7 +265,7 @@
                 imagesList = imagesList + "&";
             }
 			contentTitles = contentTitles + $($($(neirongList[i]).context.children[3]).context.children[0]).val();
-			contents = contents + $($($(neirongList[i]).context.children[4]).context.children[0]).val();
+			contents = contents + $($($(neirongList[i]).context.children[4]).context.children[1]).val();
 			imagesList = imagesList + $($($(neirongList[i]).context.children[5]).context.children[0]).attr("src");
 
 		}
@@ -295,6 +332,71 @@
         initMaterial();
         materialParams.rows = materialDefulatRows;
         materialTabClick(1);
+    }
+    function textareats() {
+        var textareats  = $(".span113");
+        for(var i = 0 ; i < textareats.length ; i++){
+            select(textareats[i], tanchu);
+        }
+    }
+    textareats();
+    var type11 = 0 ;
+    var  obj = null;
+    var t = "";
+    function select(o, fn){
+        o.onmouseup = function(e){
+            var event = window.event || e;
+            var target = event.srcElement ? event.srcElement : event.target;
+            if (/input|textarea/i.test(target.tagName) && /firefox/i.test(navigator.userAgent)) {
+                //Firefox在文本框内选择文字
+                var staIndex=target.selectionStart;
+                var endIndex=target.selectionEnd;
+                if(staIndex!=endIndex){
+                    t =target.value.substring(staIndex,endIndex);
+                }
+            }
+            else{
+//获取选中文字
+                t = document.selection == undefined ? document.getSelection().toString():document.selection.createRange().text;
+            }
+            obj = this;
+        }
+    }
+    function toTc1Show(){
+        $('#toTc1').show();
+        type11 = 0;
+    }
+    function toTc1Hide(){
+        $('#toTc1').hide();
+        type11 = 0;
+    }
+	/*]]select=*/
+    function tanchu(txt,tar){
+        alert("文字属于"+tar.tagName+"元素，选中内容为："+txt);
+    }
+
+
+    function getSelectedText() {
+        if (window.getSelection) {
+            return window.getSelection().toString();
+        }else if (document.getSelection) {
+            return document.getSelection();
+        }else if (document.selection) {
+            return document.selection.createRange().text;
+        }
+    }
+    function Test(){
+        var  saveToTc1 = $.trim($("#saveToTc1").val());
+        var  saveToTc2 = $.trim($("#saveToTc2").val());
+        if(t.length>0){
+            var content=obj.value;
+            if(saveToTc1){
+                content=content.replace(t,'<a href="'+saveToTc1+'"><span style="color: '+saveToTc2+';">'+t+'</span></a>');	 obj.value=content;
+            }else {
+                content=content.replace(t,'<span style="color: '+saveToTc2+';">'+t+'</span>');	 obj.value=content;
+            }
+        }
+        toTc1Hide();
     }
 </script>
 </body>

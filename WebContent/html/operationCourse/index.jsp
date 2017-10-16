@@ -71,9 +71,10 @@
                         +' </p><p>'
                         +'<img src="'+courses[i].teacherimg+'" alt="" width="30" height="30" class="head-portrait">'
                         +' <span class="name">'+courses[i].teachername+'</span>'
+                        +' <a href="/html/operationCourse/operationCourse_'+courses[i].id+'.jsp" >'
                         +'<span class="money'
-                        +(courses[i].applystate == "1" ? ' green">免费' : courses[i].applystate == "2" ? '">报名': '">已结束')
-                        +'</span></p>'
+                        +(courses[i].applystate == "1" ? ' green">免费' : courses[i].applystate == "2" ? '">报名': courses[i].applystate == "3" ? '">已结束':'">回放')
+                        +'</span></a></p>'
                         +' <p class="btmm">'
                         +(courses[i].applystate == "1" ? '' : courses[i].applystate == "2" ? ' <i class="iconfont">&#xe6116;</i>': '<i class="iconfont">&#xe61d6;</i>')
                         +' <span class="time'

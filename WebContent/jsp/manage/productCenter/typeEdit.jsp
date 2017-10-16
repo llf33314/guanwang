@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>产品中心分类</title>
+<title>微信营销分类</title>
 <style type="text/css">
 </style>
 <script type="text/javascript" src="jsp/manage/article/ajaxfileupload.js"></script>
@@ -17,7 +17,7 @@
 		<!-- block -->
 		<div class="block">
 			<div class="navbar navbar-inner block-header">
-				<div class="muted pull-left">产品中心分类</div>
+				<div class="muted pull-left">微信营销分类</div>
 			</div>
 			<div class="block-content collapse in">
 				<div class="span12">
