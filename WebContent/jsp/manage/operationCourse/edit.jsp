@@ -26,7 +26,7 @@
 			<div class="span12">
 				<form class="form-horizontal">
 					<fieldset>
-						<legend>新增</legend>>
+						<legend>新增</legend>
 						<div class="control-group">
 							<label class="control-label" for="selectError" style="width: auto;">展示图片：&nbsp;&nbsp; </label>
 							<span class="help-inline"></span>

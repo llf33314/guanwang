@@ -98,12 +98,16 @@
             if (products[b].id == id){
                 if(b == (products.length-1)){
                     $("#next").attr("href",'javascript: void(0);');
+                    $("#next").hide();
                 }else {
+                    $("#next").show();
                     $("#next").attr("href",'/html/operationCourse/operationCourse_'+products[b+1].id+'.jsp');
                 }
                 if(b==0){
                     $("#last").attr("href",'javascript: void(0);');
+                    $("#last").hide();
                 }else {
+                    $("#last").show();
                     $("#last").attr("href",'/html/operationCourse/operationCourse_'+products[b-1].id+'.jsp');
                 }
                 break;
