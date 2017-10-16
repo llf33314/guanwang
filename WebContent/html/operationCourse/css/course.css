@@ -42,7 +42,7 @@ a{text-decoration:none;color:#333;}
 rgba(0, 0, 0, 0.15);}
 .art-content-right{width:280px;overflow: hidden;  margin-left: 50px; float:left;}
 
-.art-content-title{font-size: 28px;color:#333;width:100%;text-align: center; margin-top:50px;}
+.art-content-title{font-size: 28px;color:#333;width:100%;text-align: center;}
 .art-content-left .art-content-text{width:100%;padding-top:20px;padding-bottom:20px;line-height: 28px; font-size: 16px;}
 .art-content-left .art-content-img{width:100%;margin-top:10px;line-height: 28px;}
 .art-content-details  p{ color: #333;font-size: 16px;line-height: 28px;}
@@ -90,12 +90,13 @@ rgba(0, 0, 0, 0.15); background: #fff;
 
 .page{width:870px; margin-top:30px; float:left}
 
-.next{  color:#2e8dfd !important;margin-left:10px;
-    border: solid 1px #2e8dfd !important; }
+.onPage:hover{border: solid 1px #2e8dfd !important;color:#2e8dfd !important; }
 
+.onPage:active{border: solid 1px #2e8dfd !important;color:#2e8dfd !important; }
 .onPage{ float:right ;width: 120px;
-    height: 45px; text-align: center;line-height:45px;color:#e5e5e5;
-    border: solid 1px #e5e5e5;}
+    height: 45px; text-align: center;line-height:45px;color:#98999b;
+    border: solid 1px #e4e5e7;}
+#last{ margin-right:20px;}
 
 
 

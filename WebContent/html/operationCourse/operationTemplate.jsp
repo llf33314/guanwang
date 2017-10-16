@@ -17,9 +17,12 @@
 			<div class="art-content">
 				<!--左边-->
 				<div class="art-content-left">
-					<div class="art-content-title">@@contenttitles@@</div>
+
 					<!--内容框  start-->
+					<div  style="width:100%;height:20px;"></div>
 					<div class="contentBox">
+
+						<div class="art-content-title">@@contenttitles@@</div>
 						@@insethtml@@
 					</div>
 					<!--内容框  end-->
@@ -51,8 +54,8 @@
 					</div>
 				</div>
 				<div class="page">
-					<a id="next" class="onPage  next">@@s4@@</a>
-					<a id="last" class="onPage next">@@s5@@</a>
+					<a id="next" class="onPage  ">@@s4@@</a>
+					<a id="last" class="onPage ">@@s5@@</a>
 				</div>
 			</div>
 		</div>
@@ -92,16 +95,19 @@
 		}
 
         for (var b = 0 ; b < products.length ; b++){
-            debugger;
             if (products[b].id == id){
                 if(b == (products.length-1)){
                     $("#next").attr("href",'javascript: void(0);');
+                    $("#next").hide();
                 }else {
+                    $("#next").show();
                     $("#next").attr("href",'/html/operationCourse/operationCourse_'+products[b+1].id+'.jsp');
                 }
                 if(b==0){
                     $("#last").attr("href",'javascript: void(0);');
+                    $("#last").hide();
                 }else {
+                    $("#last").show();
                     $("#last").attr("href",'/html/operationCourse/operationCourse_'+products[b-1].id+'.jsp');
                 }
                 break;

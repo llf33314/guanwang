@@ -33,13 +33,13 @@
 								<select id="classid" style="width: auto;"></select>
 								<span class="help-inline"></span>
 								<input class="input-xlarge span10" id="pcname" type="text"
-									   style="height: 30px;" placeholder="名称" maxlength="12">
+									   style="height: 30px;" placeholder="名称" maxlength="7">
 							</div>
 						</div>
 						<div class="control-group">
 							<div class="controls" style="margin-left: 40px;">
 								<input class="input-xlarge span11" id="pcdesc" type="text"
-									   style="height: 30px;" placeholder="描述" maxlength="140">
+									   style="height: 30px;" placeholder="描述" maxlength="28">
 							</div>
 						</div>
 						<div class="control-group">
@@ -68,9 +68,7 @@
 										   style="height: 30px;" placeholder="内容标题" maxlength="50">
 								</div>
 								<div class="controls" style="margin-left: 40px; margin-top: 15px;">
-									<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"
-											   placeholder="如果有换行,请用#号隔开。如：1、支持手机端现场操作#2、支持大屏幕显示">
-									</textarea>
+									<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"></textarea>
 								</div>
 								<div class="controls" style="margin-left: 40px; margin-top: 15px;">
 									<img id="imgurl1" onclick="selectModel8(this);" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: -6px;border: 1px solid #ccc;"/>
@@ -148,8 +146,7 @@
                     +'style="height: 30px;" placeholder="内容标题" maxlength="50">'
                     +'</div>'
                     +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
-                    +'<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"'
-                    +' placeholder="如果有换行,请用#号隔开。如：1、支持手机端现场操作#2、支持大屏幕显示"></textarea>'
+                    +'<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"></textarea>'
                     +'</div>'
                     +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
                     +'<img id="imgurl'+type
@@ -161,9 +158,14 @@
 			}
 			debugger
             var neirongList = document.getElementsByClassName("control-group1");
+            var neirong22 = "";
             for(var i = 0 ; i < neirongList.length ; i++ ){
+                neirong22 = contents[i];
+                while (neirong22.indexOf("<br>") != -1) {
+                    neirong22 = neirong22.replace("<br>","\n");
+                }
                $($($(neirongList[i]).context.children[3]).context.children[0]).val(contenttitles[i]);
-                $($($(neirongList[i]).context.children[4]).context.children[0]).val(contents[i]);
+                $($($(neirongList[i]).context.children[4]).context.children[0]).val(neirong22);
                 $($($(neirongList[i]).context.children[5]).context.children[0]).attr("src",imageslist[i]);
 
             }
@@ -197,8 +199,7 @@
                 +'style="height: 30px;" placeholder="内容标题" maxlength="50">'
                 +'</div>'
                 +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
-                +'<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"'
-                +' placeholder="如果有换行,请用#号隔开。如：1、支持手机端现场操作#2、支持大屏幕显示"></textarea>'
+                +'<textarea  class="span11" id="pcpagetitle2" rows="3" cols="20"></textarea>'
                 +'</div>'
                 +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
                 +'<img id="imgurl'+type
@@ -231,6 +232,9 @@
 			imagesList = imagesList + $($($(neirongList[i]).context.children[5]).context.children[0]).attr("src");
 
 		}
+        while (contents.indexOf("\n") != -1) {
+            contents = contents.replace("\n","<br>");
+        }
         var _classid = $("#classid").val();
         var _logourl = $("#imgurl0").attr("src");
         var _pcname = $("#pcname").val();
@@ -240,6 +244,26 @@
         var _ishome = 1;
         var _pcpagetitle = $('#pcpagetitle').val();
         var _pcmeta = $('#pcmeta').val();
+        if(_logourl == "/images/duofenIntroduction/plus.png"){
+            WSFUNCTION.msgBox("信息", "请选择Logo!");
+            return;
+		}
+        if(!_pcname){
+            WSFUNCTION.msgBox("信息", "请输入名称!");
+            return;
+        }
+        if(!_pcdesc){
+            WSFUNCTION.msgBox("信息", "请输入描述!");
+            return;
+        }
+        if(!_pcpagetitle){
+            WSFUNCTION.msgBox("信息", "请输入页面标题!");
+            return;
+        }
+        if(!_pcmeta){
+            WSFUNCTION.msgBox("信息", "请输入meta!");
+            return;
+        }
 //        if(_logourl.indexOf('plus.png') != -1) _logourl = '';
 //        if(_qrcode.indexOf('plus.png') != -1) _qrcode = '';
         var p = "{id:"+id+", classid:"+_classid+", logourl:'"+_logourl+"', pcname:'"+_pcname+"', pcdesc:'"+_pcdesc+"', "
