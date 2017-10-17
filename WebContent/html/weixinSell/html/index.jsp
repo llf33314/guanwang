@@ -49,10 +49,10 @@
                 if(p[j].classid == pt[i].id){
                     html+=' <li class="a-mark-unified-li">'
                         +'<div class="a-mark-unified-li-l">'
-                        +'<a href="/html/product-center/productNew_'+p[j].id+'.jsp"><img src="'+p[j].logourl+'"> </a>'
+                        +'<a href="/html/product-center/productNew_'+p[j].id+'.jsp"  target="_blank"><img src="'+p[j].logourl+'"> </a>'
                         +'</div>'
                         +'<div class="a-mark-unified-li-r">'
-                        +'<a href="/html/product-center/productNew_'+p[j].id+'.jsp"><h4>'+p[j].pcname+'</h4></a>'
+                        +'<a href="/html/product-center/productNew_'+p[j].id+'.jsp"  target="_blank"><h4>'+p[j].pcname+'</h4></a>'
                         +'<p>'+p[j].pcdesc+' </p>'
                         +'</div>'
                         +'</li>';

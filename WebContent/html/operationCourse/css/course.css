@@ -43,7 +43,7 @@ rgba(0, 0, 0, 0.15);}
 .art-content-right{width:280px;overflow: hidden;  margin-left: 50px; float:left;}
 
 .art-content-title{font-size: 28px;color:#333;width:100%;text-align: center;}
-.art-content-left .art-content-text{width:100%;padding-top:20px;padding-bottom:20px;line-height: 28px; font-size: 16px;}
+.art-content-left .art-content-text{width:100%;padding-top:20px;padding-bottom:20px;line-height: 28px; font-size: 14px;}
 .art-content-left .art-content-img{width:100%;margin-top:10px;line-height: 28px;}
 .art-content-details  p{ color: #333;font-size: 16px;line-height: 28px;}
 
