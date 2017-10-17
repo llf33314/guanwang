@@ -78,6 +78,12 @@
         else {
             $('.ri1').hide();
         }
+        if(scrollTop > $(".second-js-top").position().top){
+            $(".second-js-top").attr("style","height: 67px; position: fixed; width: 100%; z-index: 4; top: 0px;");
+        }
+        if(scrollTop < $(".a-mark-banner").position().top) {
+            $(".second-js-top").attr("style","height: 67px; position: relative;width: 100%;z-index: 4;");
+        }
         var list1  = $(".a-mark-cu-sp1");
         var list2  = $(".pctypename1");
         var a = 0 ;
@@ -102,7 +108,5 @@
 </script>
 <!-- 底部区域 -->
 <%@include file="/html/common/footer.jsp" %>
-
-<script src="../js/thead.js"></script>
 </body>
 </html>

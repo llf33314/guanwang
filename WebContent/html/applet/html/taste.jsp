@@ -13,7 +13,6 @@
         <link rel="stylesheet" type="text/css" href="/html/common/font-one/iconfont.css" />
         <link rel="stylesheet" type="text/css" href="/html/common/font-second/iconfont.css" />
         <link rel="stylesheet" type="text/css" href="../css/style-index.css"/>
-        <script src="../js/index/jquery-2.2.2.min.js"></script>
         </head>
 <body>
 <%@include file="/html/common/clearfix1.jsp" %>
@@ -389,7 +388,6 @@
     </div>
 </div>
 <%@include file="/html/common/footer.jsp" %>
-<script src="../js/thead.js"></script>
 <script>
     var showOrCloseApp = function(type){
         var App = document.querySelectorAll('.app');
@@ -462,7 +460,7 @@
     }
     $(function () {
         $('.taste-floor1 .list').on('mouseover',function(){
-            console.log($(this).find('.case').length)
+            /*console.log($(this).find('.case').length)*/
             if($(this).find('.case').length > 5 && $(this).find('.case').length < 8){
                 $(this).find('.icon_arrow').show()
             }
@@ -476,7 +474,26 @@
             xcxTaset.moveLeftOrRight(1)
         })
     })
-</script>
 
+</script>
+<script>
+    //*页面右侧信息*/
+    //超过一定高度时， 显示返回顶部按钮
+    $(window).scroll(function() {
+        var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+        if (scrollTop > 200) {
+            $('.ri1').show();
+        }
+        else {
+            $('.ri1').hide();
+        }
+        if(scrollTop > $(".second-js-top").position().top){
+            $(".second-js-top").attr("style","height: 67px; position: fixed; width: 100%; z-index: 4; top: 0px;");
+        }
+        if(scrollTop < $(".box").position().top) {
+            $(".second-js-top").attr("style","height: 67px; position: relative;width: 100%;z-index: 4;");
+        }
+    });
+</script>
 </body>
 </html>

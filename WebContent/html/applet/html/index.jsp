@@ -151,8 +151,25 @@
     </div>
 </div>
 <%@include file="/html/common/footer.jsp" %>
-<script src="../js/thead.js"></script>
 <script src="../js/hweight.js"></script>
-
+<script>
+    //*页面右侧信息*/
+    //超过一定高度时， 显示返回顶部按钮
+    $(window).scroll(function() {
+        var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+        if (scrollTop > 200) {
+            $('.ri1').show();
+        }
+        else {
+            $('.ri1').hide();
+        }
+        if(scrollTop > $(".second-js-top").position().top){
+            $(".second-js-top").attr("style","height: 67px; position: fixed; width: 100%; z-index: 4; top: 0px;");
+        }
+        if(scrollTop < $(".xcx-big").position().top) {
+            $(".second-js-top").attr("style","height: 67px; position: relative;width: 100%;z-index: 4;");
+        }
+    });
+</script>
 </body>
 </html>

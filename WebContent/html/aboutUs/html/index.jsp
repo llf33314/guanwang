@@ -29,7 +29,7 @@
 </div>
 	<div class="a-in-swiper-box">
 	   <div class="a-in-swiper-big-box" style="display:block" id="id1">
-	     <div style="height: 441px;">
+	     <div style="height: 441px;" class="a-in-sz">
 		    <div class="a-in-swiper-introduce">
 		         <div class="a-in-animation">
 		               <div class="animation1-block-left animation-all"></div>
@@ -256,7 +256,7 @@
 		     </div>
 	  </div>
 	  <div class="a-in-swiper-big-box" style="display:none" id="id2">
-	     <div style="height: 441px;">
+	     <div style="height: 441px;" class="a-in-sz">
 		     <div class="a-in-swiper-introduce">
 		           <div class="a-in-animation">
 		               <div class="animation2-block-left animation-all"></div>
@@ -297,7 +297,7 @@
 		  </div>
 	   </div>
 	   <div class="a-in-swiper-big-box" style="display:none" id="id3">
-	       <div style="height: 441px;">
+	       <div style="height: 441px;" class="a-in-sz">
 		     <div class="a-in-swiper-introduce">
 		          <div class="a-in-animation">
 		               <div class="animation3-block-left animation-all"></div>
@@ -431,7 +431,7 @@
 		   </div>
 		</div>
 		<div class="a-in-swiper-big-box" style="display:none" id="id4">
-		  <div style="height: 441px;">
+		  <div style="height: 441px;" class="a-in-sz">
 		     <div class="a-in-swiper-introduce">
 		           <div class="a-in-animation">
 		               <div class="animation4-block-bottom1 animation-all"></div>
@@ -570,7 +570,6 @@
 <script src="../js/aintroduce.js"></script>
 <script src="../js/main.js"></script>
 <script src="../js/modernizr.js"></script>
-<script src="../js/thead.js"></script>
 <script src="../js/jquery.countup.min.js"></script>
 <script src="../js/jquery.countup.js"></script>
 <script src="../js/jquery.waypoints.min.js"></script>
@@ -582,7 +581,7 @@
         $("html,body").animate({"scrollTop":0},500);
     })
 
-	/*页面右侧信息*/
+	//*页面右侧信息*/
     //超过一定高度时， 显示返回顶部按钮
     $(window).scroll(function() {
         var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
@@ -591,6 +590,12 @@
         }
         else {
             $('.ri1').hide();
+        }
+        if(scrollTop > $(".second-js-top").position().top){
+            $(".second-js-top").attr("style","height: 67px; position: fixed; width: 100%; z-index: 4; top: 0px;");
+        }
+        if(scrollTop < $(".a-in-swiper-box").position().top) {
+            $(".second-js-top").attr("style","height: 67px; position: relative;width: 100%;z-index: 4;");
         }
     });
     $("#a-swiper1").find("a").attr("style","color:#2d8efe;");
