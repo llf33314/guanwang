@@ -62,7 +62,7 @@
                 for(var i = 0 ; i < courses.length ; i++){
                     htmls= htmls + '<li>'
                         +'<span class="imgitem">'
-                        +' <a href="/html/operationCourse/operationCourse_'+courses[i].id+'.jsp" >'
+                        +' <a href="/html/operationCourse/operationCourse_'+courses[i].id+'.jsp"  target="_blank">'
                         +'<img src="'+courses[i].logourl+'" alt="" width="280" height="210" class="thumbnail">'
                         +'</a>'
                         +'</span><div>'
@@ -71,7 +71,7 @@
                         +' </p><p>'
                         +'<img src="'+courses[i].teacherimg+'" alt="" width="30" height="30" class="head-portrait">'
                         +' <span class="name">'+courses[i].teachername+'</span>'
-                        +' <a href="/html/operationCourse/operationCourse_'+courses[i].id+'.jsp" >'
+                        +' <a href="/html/operationCourse/operationCourse_'+courses[i].id+'.jsp"  target="_blank">'
                         +'<span class="money'
                         +(courses[i].applystate == "1" ? ' green">免费' : courses[i].applystate == "2" ? '">报名': courses[i].applystate == "3" ? '">已结束':'">回放')
                         +'</span></a></p>'
