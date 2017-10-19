@@ -83,14 +83,10 @@
 			xc_html += '<div class="ad-txt">'
 				+'<div class="ad-txt-part1 mated2 infinite fadeInUpBig" style="opacity: 0;" id="cat2">';
 			if(access_num_hard == 0){
-				xc_html += '<h1>随需而变，专业之选</h1>'
+				xc_html += '<h1>双屏点餐收银机</h1>'
 					+'<ul class="clearfix">'
-					+'<li><img src="../img/hardware/pic2.png">高清电容多点触摸屏 </li>'
-					+'<li><img src="../img/hardware/pic2.png">内置小票打印机  </li>'
-					+'<li><img src="../img/hardware/pic2.png">康小厨ERP系统</li>'
-					+'<li><img src="../img/hardware/pic2.png">支持双屏异显 </li>'
-					+'<li><img src="../img/hardware/pic2.png">内置扫码摄像头  </li>'
-                    +'<li><img src="../img/hardware/pic2.png">Android 5.1.1</li>';
+					+'<li style="width: 100%;"><img src="../img/hardware/pic2.png">告别手写菜单，提高点单效率，通用版/速食版任意切换</li>'
+					+'<li style="width: 100%;"><img src="../img/hardware/pic2.png">智能销售统计、财务分析，随时随地进行查看</li>'
 			}else if(access_num_hard == 1){
                 xc_html += '<h1>高效合一，信赖之选</h1>'
                     +'<ul class="clearfix">'
@@ -126,14 +122,20 @@
 			}else{
 				xc_html += '￥1280';
 			}
-			xc_html += '<a href="javascript:void(0);" onclick="showClick(2);">购买&nbsp;&gt;</a></div>'
-				+'<ul class="clearfix ad-txt-part3 animated fadeInRight">'
-				+'<li class="animated" style="opacity: 0;" id="cat4">微信点餐</li>'
-				+'<li class="animated" style="opacity: 0;" id="cat5">扫码点菜</li>'
-				+'<li class="animated" style="opacity: 0;" id="cat6">外卖接入</li>'
-				+'<li class="animated" style="opacity: 0;" id="cat7">简单易用</li>'
-				+'<li class="animated" style="opacity: 0;" id="cat8">安卓系统</li>'
-				+'</u></div></div></div>';
+			if(access_num_hard != 0 ){
+                xc_html += '<a href="javascript:void(0);" onclick="showClick(2);">购买&nbsp;&gt;</a></div>'
+                    +'<ul class="clearfix ad-txt-part3 animated fadeInRight">'
+                    +'<li class="animated" style="opacity: 0;" id="cat4">微信点餐</li>'
+                    +'<li class="animated" style="opacity: 0;" id="cat5">扫码点菜</li>'
+                    +'<li class="animated" style="opacity: 0;" id="cat6">外卖接入</li>'
+                    +'<li class="animated" style="opacity: 0;" id="cat7">简单易用</li>'
+                    +'<li class="animated" style="opacity: 0;" id="cat8">安卓系统</li>'
+                    +'</u></div></div></div>';
+			}else {
+                xc_html += '<a href="javascript:void(0);" onclick="showClick(2);">官方推荐购买&nbsp;&gt;</a> <div class="a-ad-down">双屏触屏机下载</div></div>'
+                    +'</div></div></div>';
+			}
+
 			$('.xc-head').append(xc_html);
 			$('.xc-img-nav a[data-num-hard="' + access_num_hard + '"]').addClass('selected');
 		}else{

@@ -88,6 +88,30 @@
          </li>
      </ul>
 </div>
+<div class="a-ag-process">
+    <h2 class="a-ag-title">代理流程</h2>
+    <span class="a-ag-xian"></span>
+    <ul class="a-ag-process-ul">
+        <li>
+            <p style="padding-left: 24px;">填写申请表</p>
+        </li>
+        <li>
+            <p>确定合作意向</p>
+        </li>
+        <li>
+            <p style="padding-top: 48px;padding-left: 33px;">预约时间<br/> 进行洽谈</p>
+        </li>
+        <li>
+            <p style="padding-left: 34px;">签署协议</p>
+        </li>
+        <li>
+            <p>集中培训学习</p>
+        </li>
+        <li>
+            <p>开始销售工作</p>
+        </li>
+    </ul>
+</div>
 <div class="a-ag-development">
     <h2 class="a-ag-title2">成为多粉代理商的发展优势</h2>
     <span class="a-ag-xian2"></span>
@@ -135,30 +159,111 @@
         </div>
     </div>
 </div>
-<div class="a-ag-process">
-    <h2 class="a-ag-title">代理流程</h2>
-    <span class="a-ag-xian"></span>
-    <ul class="a-ag-process-ul">
-        <li>
-            <p style="padding-left: 24px;">填写申请表</p>
+<div class="a-ga-investigate">
+    <h2 class="a-ag-title">实地参观考察步骤</h2>
+    <span class="a-ag-xian" style="margin-bottom: 15px;"></span>
+    <ul>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in2.png">
+                <img src="../images/in1.png" class="a-ga-dian">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in12.png">
+            </div>
+            <p>多粉总部</p>
         </li>
-        <li>
-            <p>确定合作意向</p>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in3.png">
+                <img src="../images/in1.png" class="a-ga-dian">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in13.png">
+            </div>
+            <p>多粉旗舰体验厅</p>
         </li>
-        <li>
-            <p style="padding-top: 48px;padding-left: 33px;">预约时间<br/> 进行洽谈</p>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in4.png">
+                <img src="../images/in1.png" class="a-ga-dian">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in14.png">
+            </div>
+            <p>研发中心</p>
         </li>
-        <li>
-            <p style="padding-left: 34px;">签署协议</p>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in5.png">
+                <img src="../images/in1.png" class="a-ga-dian">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in15.png">
+            </div>
+            <p>贵宾接待室</p>
         </li>
-        <li>
-            <p>集中培训学习</p>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in6.png">
+                <img src="../images/in1.png" class="a-ga-dian" style="opacity: 0;">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in16.png">
+            </div>
+            <p>全国运营中心</p>
         </li>
-        <li>
-            <p>开始销售工作</p>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in7.png">
+                <img src="../images/in1.png" class="a-ga-dian">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in17.png">
+            </div>
+            <p>新品发布会场</p>
+        </li>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in8.png">
+                <img src="../images/in1.png" class="a-ga-dian" >
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in18.png">
+            </div>
+            <p>全国指挥中心</p>
+        </li>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in9.png">
+                <img src="../images/in1.png" class="a-ga-dian">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in19.png">
+            </div>
+            <p>CEO谢总交流洽谈</p>
+        </li>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show1">
+                <img src="../images/in10.png">
+                <img src="../images/in1.png" class="a-ga-dian">
+            </div>
+            <div class="a-ga-investigate-2" style="display: none;">
+                <img src="../images/in20.png">
+            </div>
+            <p>多粉销售部门</p>
+        </li>
+        <li class="a-ag-investigate-li">
+            <div class="a-ga-investigate-show">
+                <img src="../images/in11.png">
+                <img src="../images/in1.png" class="a-ga-dian" style="opacity: 0;">
+            </div>
+            <p>案例商家实体店</p>
         </li>
     </ul>
+    <p class="a-ag-jd-p">*由招商总监接待，全程陪同考察</p>
 </div>
+
 <div class="a-ag-condition">
     <h2 class="a-ag-title">代理条件</h2>
     <span class="a-ag-xian"></span>
@@ -309,6 +414,14 @@
     }).on('mouseleave',function(){
         $(this).find('.a-ag-type-one').show();
         $(this).find('.a-ag-type-two').hide();
+    })
+
+    $('.a-ag-investigate-li').on('mouseenter',function(){
+        $(this).find('.a-ga-investigate-show1').hide();
+        $(this).find('.a-ga-investigate-2').show();
+    }).on('mouseleave',function(){
+        $(this).find('.a-ga-investigate-show1').show();
+        $(this).find('.a-ga-investigate-2').hide();
     })
 
 

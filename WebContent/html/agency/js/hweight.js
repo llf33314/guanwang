@@ -6,7 +6,7 @@
              ///
              // console.log($(window).scrollTop())
 
-             if(scrollTop >1235 && scrollTop < 1386) {
+             if(scrollTop >1420 && scrollTop < 1686) {
                  $(".a-ag-development").find(".a-ag-development-box").addClass("fadeInUp");
                  setTimeout(function () {
                      $(".a-ag-development-box").find(".a-ag-d-pix-img1").addClass("fadeInUp");

@@ -17,7 +17,7 @@
 
 	<script type="text/javascript">
 		var access_num = 4; 
-		var access_num_hard = 0; 
+		var access_num_hard = 0;
 	</script>
 </head>
 <body style="display: none;">
@@ -54,11 +54,12 @@
 
 		<div class="xc-img-txt-item" id="three">
 			 <div class="xt-txt-cont animated" style="opacity: 0;" id="cat13">
-			 	  <h2>精美外观极致展现</h2>
+			 	  <h2>随需而变，专业之选</h2>
 				 <ul class="clearfix">
-					 <li><span></span>机箱：防火ABS+表面喷油工艺</li>
-					 <li><span></span>底板：冷轧钢板+双面喷漆</li>
-					 <li><span></span>主副屏框及支杆：铝合金+喷油工艺和氧化 </li>
+					 <li style="width: 100%;"><span></span>高清电容多点触摸屏</li>
+					 <li style="width: 100%;"><span></span>内置小票打印机</li>
+					 <li style="width: 100%;"><span></span>支持双屏异显</li>
+					 <li style="width: 100%;"><span></span>内置扫码摄像头</li>
 				 </ul>
 			 </div>
 			 <img src="../img/hardware/index0_3.png" class="animated" style="opacity: 0;" id="cat14">

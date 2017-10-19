@@ -1747,3 +1747,17 @@ ul{
     color: #fff;
     font-size: 18px;
 }
+
+
+
+.a-ad-down{
+    width: 175px;
+    height: 41px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 41px;
+    background: #fff;
+    color: #4F57D3;
+    margin: 45px 20px 0;
+}
