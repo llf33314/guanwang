@@ -211,7 +211,7 @@ a{text-decoration:none;color:#333;}
     text-align: center;
     color: #fff;
     font-size: 16px;
-    height: 480px;
+    height: 479px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -529,11 +529,11 @@ a{text-decoration:none;color:#333;}
 }
 .a-ag-att-span{
     width: 755px;
-    height: 80px;
+    height: 60px;
     background: #2D8DFD;
     display: inline-block;
-    line-height: 80px;
-    font-size: 24px;
+    line-height: 60px;
+    font-size: 20px;
     color: #fff;
     margin-top: 60px;
 }
