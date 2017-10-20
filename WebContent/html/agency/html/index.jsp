@@ -171,7 +171,7 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in12.png">
             </div>
-            <p>多粉总部</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;多粉总部</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show1">
@@ -181,7 +181,7 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in13.png">
             </div>
-            <p>多粉旗舰体验厅</p>
+            <p>&nbsp;多粉旗舰体验厅</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show1">
@@ -191,7 +191,7 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in14.png">
             </div>
-            <p>研发中心</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;研发中心</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show1">
@@ -201,7 +201,7 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in15.png">
             </div>
-            <p>贵宾接待室</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;贵宾接待室</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show1">
@@ -211,7 +211,7 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in16.png">
             </div>
-            <p>全国运营中心</p>
+            <p>&nbsp;&nbsp;&nbsp;全国运营中心</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show1">
@@ -221,7 +221,7 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in17.png">
             </div>
-            <p>新品发布会场</p>
+            <p>&nbsp;&nbsp;新品发布会场</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show1">
@@ -231,7 +231,7 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in18.png">
             </div>
-            <p>全国指挥中心</p>
+            <p>&nbsp;&nbsp;全国指挥中心</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show1">
@@ -251,14 +251,14 @@
             <div class="a-ga-investigate-2" style="display: none;">
                 <img src="../images/in20.png">
             </div>
-            <p>多粉销售部门</p>
+            <p>&nbsp;&nbsp;&nbsp;多粉销售部门</p>
         </li>
         <li class="a-ag-investigate-li">
             <div class="a-ga-investigate-show">
                 <img src="../images/in11.png">
                 <img src="../images/in1.png" class="a-ga-dian" style="opacity: 0;">
             </div>
-            <p>案例商家实体店</p>
+            <p>&nbsp;&nbsp;案例商家实体店</p>
         </li>
     </ul>
     <p class="a-ag-jd-p">*由招商总监接待，全程陪同考察</p>

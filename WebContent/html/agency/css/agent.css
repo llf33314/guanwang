@@ -581,7 +581,7 @@ a{text-decoration:none;color:#333;}
 }
 .a-ag-investigate-li p{
     text-align: left;
-    padding-left: 20px;
+ /*   padding-left: 20px;*/
     margin-top: 15px;
 }
 .a-ga-dian{

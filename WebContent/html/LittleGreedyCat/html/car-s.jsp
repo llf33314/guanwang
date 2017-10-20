@@ -90,7 +90,7 @@
 			 	  	  <li  class="animated" style="opacity: 0;" id="cat26"><span></span>简洁的操作界面，一看就懂</li>
 			 	  	  <li  class="animated" style="opacity: 0;" id="cat27"><span></span>会员数据实时同步，轻松管理会员</li>
 			 	  	  <li  class="animated" style="opacity: 0;" id="cat28"><span></span>手机、平板电脑进行点餐后，订单数据实时同步至收银系统</li>
-			 	  	  <li  class="animated" style="opacity: 0;" id="cat29"><span></span>支持现金、支付宝、微信支付、银联、挂账等五   大主流支付方式</li>
+			 	  	  <li  class="animated" style="opacity: 0;" id="cat29"><span></span>支持现金、支付宝、微信支付、银联、挂账等五大主流支付方式</li>
 			 	  </ul>
 			 </div>
 		</div>
