@@ -1,150 +1,75 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="@@meta@@" />
-<title>@@page_title@@</title>
-
-<%@include file="/html/common/css.jsp"%>
-<%@include file="/html/common/js.jsp"%>
-<script type="text/javascript">
-        $(function () {
-        	var productJson = WSFUNCTION.doPost(
-					"/productCenter/html/productlist", {});
-			var products = productJson.products;
-			var productsLength = products.length;
-			var tempArr = new Array();
-			while (tempArr.length < 5 && productsLength > 0) {
-				var index = Math.ceil(Math.random() * products.length) - 1;
-				if (tempArr.indexOf(index) == -1){
-					tempArr.push(index);
-					productsLength--;
-				}
-			} /* console.log(tempArr); */
-			for(var i=0;i<tempArr.length;i++){
-				$('body > div > div.containter > div > div.fl.vote-content-left > ul').append('<li class="clear">'
-					+'<a href="product_'+products[tempArr[i]].id+'.jsp"><img class="fl" src="'+products[tempArr[i]].logourl+'" alt="" style="height: 69px;">'
-					+'</a><div class="fl desc-vote"><a href="product_'+products[tempArr[i]].id+'.jsp">'
-					+'<h3>'+products[tempArr[i]].pcname+'</h3></a><p>'+products[tempArr[i]].pcdesc+'</p></div></li>');
-			}
-        	
-        	$('.roll').on('click', function () {
-	        	$(this).addClass('active');
-	        	$(this).siblings().removeClass('active');
-		        var index = $(this).index();
-		        var imgchild = $('.show-img').eq(index);
-		        imgchild.fadeIn().siblings().fadeOut();
-        	});
-        	
-        	if($('.code-center p').html() == '') $('.code-center').remove();
-        })
-        </script>
-        <style type="text/css">
-        	.show-vote-img img{height: 327px;}
-        </style>
+	<meta charset="UTF-8">
+	<title>@@s1@@</title>
+	<meta name="keywords" content="@@s2@@"/>
+	<meta name="description"
+		  content="@@s3@@"/>
+	<link rel="stylesheet" type="text/css" href="/html/weixinSell/css/marketing.css" />
+	<script src="/html/common/publicResource/js/jquery-2.2.2.min.js"></script>
 </head>
-
 <body>
-	<div class="wrap index">
-		<%@include file="/html/common/clearfix.jsp"%>
-
-
-		
-
-		<div class="containter">
-			
-			<img class="img-product-img"
-				src="${imageUrl}/product-center/poster.png" alt="">
-					
-			<div class="n-navigation clear">
-				@@s11@@: 
-				<a href="/html/index.jsp">@@s12@@</a> / 
-				<a href="/html/product.jsp">@@s13@@</a> / 
-				@@pctypename@@ / 
-				@@pcname@@
-			</div>				
-				
-			<div class="vote-main clear">
-				<div class="fl vote-content-left">
-
-					<div class="vote-icon">
-						<a href="javascript:void(0);"> <img src="@@logo@@" alt="" style="height: 92px;">
-							<div class="aside-desc">
-								<h3>@@pcname@@</h3>
-								<p>@@pcdesc@@</p>
-							</div>
-						</a>
-					</div>
-					<div class="user-explain clear">
-						<a href='../instructions.jsp'><button class="fl">@@s1@@</button></a>
-						<div class="vote-class-long fl">
-							<p class="mb">@@s6@@:@@pctypename@@</p>
-							<p class="mb">@@s7@@:@@s8@@</p>
-							<p>@@s9@@:@@s10@@</p>
-						</div>
-					</div>
-
-					<h1 class="vote-recommend">@@s2@@</h1>
-					<ul class="vote-ul">
-					</ul>
-
-				</div>
-
-				
-				<div class="fr vote-content-right">
-					<h1 class="product-detail">@@s3@@</h1>
-					<p class="product-desc">
-						@@pcdetail@@
-					</p>
-
-					
-					<div class="product-desc-list">
-						<p class="light-fn">@@s4@@:</p>
-						<div class="wrap-ol">
-							<ol class="list-introduce-desc">
-								@@pcfeatures@@
-							</ol>
-						</div>
-					</div>
-					
-					<div class="show-vote">
-						<ul class="show-vote-img">
-							@@imgs@@
-							<li class="show-img passive"></li>
-						</ul>
-						<%--<div class="guide-vote clear">--%>
-						<%--<p class=" fl roll active "></p>--%>
-						<%--<p class=" fl roll "></p>--%>
-						<%--<p class=" fl roll "></p>--%>
-						<%--</div>--%>
-					</div>
-
-					
-					<div class="code-center">
-						<img src="@@qrcode@@" alt="">
-						<p>@@s5@@</p>
-					</div>
-					
-					<div class="n-videobtnset">
-						@@vbtn@@
-					</div>
-					
-				</div>
-			</div>
-
-
-			
-		</div>
-
-
-		<!--====================================================================================-->
-
-
-		
-		<%@include file="/html/common/footer.jsp"%>
-		
+<%@include file="/html/common/clearfix1.jsp" %>
+<div style="width: 100%;" class="second-js-top">
+	<div class="a-mark-customer">
+		<ul class="a-mark-customer-txt">
+				@@insethtml1@@
+		</ul>
 	</div>
+</div>
+<div class="a-mark-banner">
+	<h1>@@s4@@</h1>
+	<p>@@s5@@</p>
+	<p>@@s6@@</p>
+</div>
+<div class="a-mark-box">
+	@@insethtml2@@
+</div>
+
+<script>
+
+
+    $(".rightIcon").on("click",".ri1",function(){
+        $("html,body").animate({"scrollTop":0},500);
+    });
+    $(window).scroll(function() {
+        var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+        if (scrollTop > 200) {
+            $('.ri1').show();
+        }
+        else {
+            $('.ri1').hide();
+        }
+        if(scrollTop > $(".second-js-top").position().top){
+            $(".second-js-top").attr("style","height: 67px; position: fixed; width: 100%; z-index: 4; top: 0px;");
+        }
+        if(scrollTop < $(".a-mark-banner").position().top) {
+            $(".second-js-top").attr("style","height: 67px; position: relative;width: 100%;z-index: 4;");
+        }
+        var list1  = $(".a-mark-cu-sp1");
+        var list2  = $(".pctypename1");
+        var a = 0 ;
+        for (var  j = 0 ; j < list1.length ; j++ ){
+            $(list1[j]).attr("class","a-mark-cu-sp1");
+        }
+        for (var i = list2.length-1 ; i > -1 ; i-- ){
+            if(scrollTop > $(list2[i]).position().top-120 ){
+                $(list1[i]).attr("class","a-mark-cu-sp a-mark-cu-sp1");
+                break;
+            }
+        }
+    });
+    function locationCase(i){
+        var list2  = $(".pctypename1");
+        if($(".second-js-top").position().top != 0){
+            scrollTo(0,$(list2[i]).position().top-140);
+        }else {
+            scrollTo(0,$(list2[i]).position().top-90);
+        }
+    }
+</script>
+<%@include file="/html/common/footer.jsp" %>
 </body>
 </html>
-

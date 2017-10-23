@@ -167,7 +167,6 @@
             <span class="a-top-firstspan" style="height: 80px;"><a href="/html/operationCourse/index.jsp" class="a-top-use-cen">运营课程</a></span>
             <span class="a-top-firstspan" style="height: 80px;"><a href="/html/instructions.jsp" class="a-top-use-cen">使用手册</a></span>
             <span class="a-top-firstspan" style="height: 80px;"><a href="/html/hardware/html/index.jsp" class="a-top-use-cen">硬件支持</a></span>
-            <a href="/html/agencyLogin/html/index.jsp" class="a-top-use-cen">代理登录</a>
             <a href="http://duofriend.com/user/tologin.do" class="a-top-use-cen top-sign">登录</a>
             <a href="http://duofriend.com/user/toregister.do" class="a-top-use-cen top-sign" style="margin-left: 8px">注册</a>
         </div>

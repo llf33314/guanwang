@@ -44,7 +44,7 @@
              <dl>
                  <dt>合作召集</dt>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/index.jsp" >招商加盟</a></dd>
-                 <dd onclick="footerLock('合作与加盟');"><a href="" >代理登陆</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/agencyLogin/html/index.jsp" >代理登陆</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency.jsp" >代理查询</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/sign.jsp?v=1" >城市代理商</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/sign.jsp?v=2" >县区级代理商</a></dd>

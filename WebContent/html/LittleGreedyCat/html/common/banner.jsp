@@ -132,7 +132,7 @@
                     +'<li class="animated" style="opacity: 0;" id="cat8">安卓系统</li>'
                     +'</u></div></div></div>';
 			}else {
-                xc_html += '<a href="javascript:void(0);" onclick="showClick(2);">官方推荐购买&nbsp;&gt;</a> <div class="a-ad-down">双屏触屏机下载</div></div>'
+                xc_html += '<a href="javascript:void(0);" onclick="showClick(2);">官方推荐购买&nbsp;&gt;</a> <div class="a-ad-down" style="display: none;">双屏触屏机下载</div></div>'
                     +'</div></div></div>';
 			}
 
