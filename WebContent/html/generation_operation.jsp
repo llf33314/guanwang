@@ -1,280 +1,388 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<title>代运营</title>
-
-<%@include file="/html/common/cmm_css.jsp" %>
-<%@include file="/html/common/js.jsp" %>
-<script type="text/javascript">
-$(function(){
-    $("#banner").slideLx({"height":403});
-})
-</script>
+    <meta charset="UTF-8">
+    <title>代运营</title>
+    <link rel="stylesheet" type="text/css" href="/html/generationOperation/css/operate.css" />
+    <link rel="stylesheet" type="text/css" href="/html/generationOperation/Y-poer/iconfont.css" />
+    <script src="/html/generationOperation/js/jquery.min.js"></script>
 </head>
 
 <body>
-<div class="wrap">
-    <%@include file="/html/common/clearfix.jsp" %>
 
-     <div id="banner" class="focusad">
-         <ul>
-             <li><a href="#"><img src="${imageUrl}/Generationoperation/banner.png"></a></li>
-         </ul>
-     </div>
-
-     <div class="containter mobileAd hzzj generationoperation">
-          <div class="wrap1000">
-              <div class="item_title">
-                  <h2><span>五大痛点</span></h2>
-                  <div class="fbt"><em></em><span><h2>企业微信运营</h2></span><em></em></div>
-              </div> 
-
-              <div class="item_main item_main2">
-                   <ul class="li5 clearfix">
-                       <li>
-                          <img src="${imageUrl}/Generationoperation/Generationoperation_05.png"/>
-                          <div class="tgc_tit">
-                               <strong>管理</strong>
-                               <span>管理成本高<br/>运营效率低下</span>
-                           </div>
-                       </li>
-                       <li>
-                          <img src="${imageUrl}/Generationoperation/Generationoperation_07.png"/>
-                          <div class="tgc_tit">
-                               <strong>运营</strong>
-                               <span>运营思路不清晰<br/>抓不住运营重点</span>
-                           </div>
-                       </li>
-                       <li>
-                          <img src="${imageUrl}/Generationoperation/Generationoperation_09.png"/>
-                          <div class="tgc_tit">
-                               <strong>设计</strong>
-                               <span>缺乏专业技能<br/>做出效果不佳</span>
-                           </div>
-                       </li>
-                       <li>
-                          <img src="${imageUrl}/Generationoperation/Generationoperation_11.png"/>
-                          <div class="tgc_tit">
-                               <strong>粉丝</strong>
-                               <span>粉丝数量少<br/>互动性不强</span>
-                           </div>
-                       </li>
-                       <li>
-                          <img src="${imageUrl}/Generationoperation/Generationoperation_13.png"/>
-                          <div class="tgc_tit">
-                               <strong>团队</strong>
-                               <span>团队经验不足<br/>缺运营管理人才</span>
-                           </div>
-                       </li>
-
-                   </ul>
-              </div>  
-
-              <div class="descript hdescript">
-                 <div class="acticle">
-                      <strong class="atitle">为什么选择我们?</strong>
-                      <p class="desc">多维度提供客户更多的选择，提高客户品牌推广的效率，丰富客户品牌知名度提升的方法，通过各种代运营需求，贴合客户做到更有深度、更有层次、更好的微营销</p>
-                      <div class="item_main hitem_main clearfix">
-                           <ul class="clearfix">
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_21.png"/>
-                                  <div class="tgc_tit">
-                                       <div><img src="${imageUrl}/Generationoperation/pc1.jpg"></div>
-                                       <span>微信营销业内领航，国内领先的微信运营服务平台，具三年的相关执行经验，服务案例达上万例</span>
-                                   </div>
-                               </li>
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_24.png"/>
-                                  <div class="tgc_tit">
-                                       <div><img src="${imageUrl}/Generationoperation/pc2.jpg"></div>
-                                       <span>从微信系统搭建到日常维护、内容更新、文章推送、客服服务、活动策划等一系列服务，为企业实现7*24小时无忧服务</span>
-                                   </div>
-                               </li>
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_26.png"/>
-                                  <div class="tgc_tit">
-                                       <div><img src="${imageUrl}/Generationoperation/pc3.jpg"></div>
-                                       <span>拥有一支一流的精细化代运营团队，专业美工设计、资深文案、独立研发中心，为您提供一站式服务</span>
-                                   </div>
-                               </li>
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_27.png"/>
-                                  <div class="tgc_tit">
-                                       <div><img src="${imageUrl}/Generationoperation/pc4.jpg"></div>
-                                       <span>结合企业自身特色，打造企业专属公众平台。根据运营数据分析，及时调整企业运营方案，保障企业利益</span>
-                                   </div>
-                               </li>
-                            </ul>
-                        </div>
-                    </div>
-                 <div class="acticle">
-                      <div class="item_main tn_item_main clearfix">
-                             <ul class="li4 clearfix ">
-                                 <li>
-                                    <img src="${imageUrl}/Generationoperation/Generationoperation_31.png"/>
-                                    <div class="tgc_tit">
-                                         <strong>降低企业成本</strong>
-                                         <span>每个月不到一个人的价格，提供专业的团队服务</span>
-                                     </div>
-                                 </li>
-                                 <li>
-                                    <img src="${imageUrl}/Generationoperation/Generationoperation_34.png"/>
-                                    <div class="tgc_tit">
-                                         <strong>提高运营效果</strong>
-                                         <span>拥有10000+的微信代运营经验，让营销效果更高效</span>
-                                     </div>
-                                 </li>
-                                 <li>
-                                    <img src="${imageUrl}/Generationoperation/Generationoperation_37.png"/>
-                                    <div class="tgc_tit">
-                                         <strong>有效粉丝沉淀</strong>
-                                         <span>提供多种增粉、引流方法，有效增加人气</span>
-                                     </div>
-                                 </li>
-                                 <li>
-                                    <img src="${imageUrl}/Generationoperation/Generationoperation_40.png"/>
-                                    <div class="tgc_tit">
-                                         <strong>平台安全稳定</strong>
-                                         <span>JAVA平台，高度安全性，高效防止客户资料外泄</span>
-                                     </div>
-                                 </li>
-                              </ul>
-                              <div class="tc "><img src="${imageUrl}/Generationoperation/pc5.jpg"></div>
-                      </div> 
-                  </div>
-               </div>
-               <div class="descript Gdescript">
-                 <div class="acticle">
-                      <strong class="atitle">服务流程</strong>
-                      <p class="desc">我们从运营目的出发，整合所有运营方式为求达到最终效果——增加公众号粉丝并培养质量粉丝转化为收益</p>
-                      <div class="item_main clearfix">
-                           <ul class="clearfix">
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_51.png"/>
-                                  <div class="tgc_tit">
-                                       <strong>准备资料</strong>
-                                       <span>运营资料<br/>产品素材<br/>活动素材</span>
-                                   </div>
-                                   <img src="${imageUrl}/Generationoperation/Generationoperation_60.png" class="arrow">
-                               </li>
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_53.png"/>
-                                  <div class="tgc_tit">
-                                       <strong>定位与策划</strong>
-                                       <span>平台风格定位<br/>推广模式策划<br/>营销方案策划</span>
-                                   </div>
-                                   <img src="${imageUrl}/Generationoperation/Generationoperation_60.png" class="arrow">
-                               </li>
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_55.png"/>
-                                  <div class="tgc_tit">
-                                       <strong>营销推广</strong>
-                                       <span>图文推送<br/>社区推广<br/>活动策划 </span>
-                                   </div>
-                                   <img src="${imageUrl}/Generationoperation/Generationoperation_60.png" class="arrow">
-                               </li>
-                               <li class="clearfix">
-                                  <img src="${imageUrl}/Generationoperation/Generationoperation_57.png"/>
-                                  <div class="tgc_tit">
-                                       <strong>监测反馈</strong>
-                                       <span>账号维护<br/>数据分析<br/>报告反馈</span>
-                                   </div>
-                               </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="foot-btn">
-                <a href="javascript:void(0);" onclick="showClick(2);" class="base_abtn imMakeAd">立即咨询</a>
-                <a href="/html/setMeal.jsp" class="base_abtn imMakeAd" style="margin-left: 45px;">套餐价格</a>
-                </div>
+<!-- top -->
+<%@include file="/html/common/clearfix.jsp" %>
 
 
-        <div class="descript">
-            <div class="acticle">
-            <strong class="atitle">客户案例</strong>
-            <div class="support clearfix">
-                 <dl>
-                    <dt><img src="${imageUrl}/Generationoperation/Generationoperation_71.png"/></dt>
-                    <dd>自2001年进驻惠州以来，星艺装饰显示了一家现代企业驾驭市
-场、敢为行业之先的气魄与胆识，以卓尔不群的态势确立了行
-业的标杆地位，为广大业主提供细致、贴心的服务。广东星艺
-装饰集团惠州有限公司系广东星艺装饰集团分支机构，2001年
-7月1日正式开办营业。</dd>
-                 </dl>
-                 <dl>
-                    <dt><img src="${imageUrl}/Generationoperation/Generationoperation_68.png"/></dt>
-                    <dd>味千（中国）控股有限公司是中国快速休闲餐厅最大的连锁经
-营商之一，日本“味千拉面”连锁店的中国与香港总代理，业务
-覆盖中国、香港地区和澳门地区。味千中国自1996年香港铜锣
-湾开业。2008年初，味千拉面全国167家门店的骨汤原汁、面
-条、原料，都采取统一采购、统一生产。</dd>
-                 </dl>
-                 <dl>
-                    <dt><img src="${imageUrl}/Generationoperation/Generationoperation_76.png"/></dt>
-                    <dd>金盈·大众，项目占地30万平方米，建筑面积达50万平方米，
-项目分五期推出：首期的上千套人才公寓已投入使用；二期是
-4万平方米的商业广场，于2016年5月开业；三期是12万平方米
-的人才公寓和一所省级幼儿园，于2016年年底投入使用；第四
-期将打造成15万平方米的大型美食广场；第五期规划建设医院
-及老人院。</dd>
-                 </dl>
-                 <dl>
-                    <dt><img src="${imageUrl}/Generationoperation/Generationoperation_79.png"/></dt>
-                    <dd>华莱士连锁机构成立于2000年，以准确的市场定位，规范优
-质的服务成功的在闽、浙、粤、赣等多个城市拥3000多家连
-锁餐厅，员工有20000多人，其中福州直营餐厅达500多家。
-华莱士服务的主题是倡导绿色、环保、健康的生活，华莱士
-对原材料的来源严格把关，烹制最高品位的生活享受。 </dd>
-                 </dl>
-             </div>
-             </div>
+<div class="a-operate-banner">
+    <h1>商家必备的超级运营高管</h1>
+    <div class="a-in-operate">
+        <div class="a-in-operate-txt">
+            <div onmouseover="gtShow(1,this)" id="a-swiper1"><a href="javascript:;" class="a-in-operate-title">代运营</a></div>
+            <div onmouseover="gtShow(2,this)" id="a-swiper2"><a href="javascript:;" class="a-in-operate-title" >代运营套餐</a></div>
         </div>
-
-
-            <div class="tf_program">
-                   <ul class="clearfix">
-                       <li><img src="${imageUrl}/zeshop/zeshop_34.png"/><span>技术支持</span></li>
-                       <li><img src="${imageUrl}/zeshop/zeshop_36.png"/><span>即时故障处理</span></li>
-                       <li><img src="${imageUrl}/zeshop/zeshop_38.png"/><span>1V1大客户服务</span></li>
-                       <li><img src="${imageUrl}/zeshop/zeshop_40.png"/><span>7×24小时服务</span></li>
-                       <li class="lastli"><img src="${imageUrl}/zeshop/zeshop_42.png"/><span>定制开发</span></li>
-                   </ul>
-              </div> 
-          </div>
-      </div>
-
-
-
-     <%@include file="/html/common/footer.jsp" %>
+    </div>
 </div>
-</body>
-<script type="text/javascript">
-var qqNum = "2853873362";
-function showClick(mei){
-	$.ajax({
- 			type: 'POST',
- 			url: "/article/html/getExtendqq",
- 			async : false, 
- 			data: {mei:mei},
- 			success: function(data){
- 				var d = eval('('+data+')');
- 				/* console.log(d); */
- 				if(d.status != 0){
- 					qqNum = d.qqNum;
- 				}
-				window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");	
- 			},
- 			error: function(){
- 				window.open("http://wpa.qq.com/msgrd?v=3&uin=" + qqNum + "&site=qq&menu=yes");	
- 			}
- 		});
-	
-};
+<div class="a-in-swiper-box">
+    <div class="a-in-swiper-big-box" style="display:block" id="id1">
+        <div class="a-operate-gen">
+            <h2 class="a-operate-h2">不懂没关系，有多粉代运营！</h2>
+            <p>尺有所短，寸有所长！身为BOSS，你未必最懂运营，未必具有最敏锐的市场洞察力和强大的</p>
+            <p>营销意识，未必事事精通，不怕！只要你有多粉代运营，就够了！</p>
+            <img src="/html/generationOperation/images/oper4.png" style="margin: 42px 0 50px;">
+            <div class="demo-music">
+                <div class="music">
+                    <ul id="waves" class="movement">
+                        <li class="li1"><span class="ani-li"></span></li>
+                        <li class="li2"><span class="ani-li"></span></li>
+                        <li class="li3"><span class="ani-li"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="a-operate-second">
+            <div class="a-operate-gen">
+                <h2 class="a-operate-h2">给你最顶级的运营服务</h2>
+                <p>多粉代运营，你的指路明灯和全能管家，这里有最专业的运营人才和最精准的营销策划，保证</p>
+                <p>让你的运营水平越来越高，生意蒸蒸日上</p>
+                <img src="/html/generationOperation/images/oper5.png" style="margin: 30px 0 42px;">
+            </div>
+        </div>
+        <div class="a-operate-gen">
+            <h2 class="a-operate-h2">全闭环运营，只有我们能做到</h2>
+            <p>多粉代运营为商家提供微信+电商+线上商城+线下门店等全闭环运营服务，在数量和质量上</p>
+            <p>占据绝对优势</p>
+            <img src="/html/generationOperation/images/oper6.png" style="margin: 50px 0 55px;">
+        </div>
+        <div class="a-operate-four">
+            <h2 class="a-operate-four-h2">海量功能，从线上到线下帮你做好运营</h2>
+            <ul class="a-operate-four-ul">
+                <li>
+                    <i class="iconfont">&#xe601a;</i>
+                    <p>用户定位</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe62a;</i>
+                    <p>宣传视频制作</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe65a;</i>
+                    <p>线上活动执行</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe6aa;</i>
+                    <p>线下活动策划</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe55a;</i>
+                    <p>运营效果跟进</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe67a;</i>
+                    <p>数据分析</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe64a;</i>
+                    <p>图文推送</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe60a;</i>
+                    <p>品牌策划推广</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe63a;</i>
+                    <p>活动运营报告</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe57a;</i>
+                    <p>市场调查</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe6ba;</i>
+                    <p>竞品分析</p>
+                </li>
+                <li>
+                    <i class="iconfont">&#xe61a;</i>
+                    <p>海报设计</p>
+                </li>
+            </ul>
+            <a href="javascript:void(0);" onclick="gtShow(2,$('#a-swiper2'))" class="a-operate-four-a">*想了解更多特色功能，请点击查看套餐</a>
+        </div>
+        <div class="a-operate-gen" style="width: 1252px;">
+            <h2 class="a-operate-h2"  style="padding-left: 120px;">好不好，让实例来说话<a href="/html/case/html/index.jsp" class="a-operate-more">更多案例</a> </h2>
+            <ul class="a-operate-more-ul">
+                <li class="a-operate-more-ul-li">
+                    <img src="/html/generationOperation/images/oper9.png" class="a-operate-more-pix">
+                    <h3>米琦优蛋糕店</h3>
+                    <p>多粉代运营从我们的实际营销需求出发，策划针对店铺传播诉求，专注产品营销目标线上线下活动，促使蛋糕店品牌传播范围扩大，粉丝量迅速增长</p>
+                    <div class="a-operate-ewm">
+                        <div class="a-operate-ewm-ab" style="display: block;">
+                            <span class="a-operate-more-span"></span>
+                        </div>
+                        <div class="a-operate-ewm-ac" style="display: none;">
+                            <div class="a-operate-ewm-ac-box">
+                                <img src="/html/generationOperation/images/mqy.png" style="padding: 80px 0 24px;">
+                                <p class="a-operate-ewm-ac-box-p">扫描浏览</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="a-operate-more-ul-li">
+                    <img src="/html/generationOperation/images/oper10.png" class="a-operate-more-pix">
+                    <h3>爱车屋</h3>
+                    <p>多粉“代运营”为我们解决品牌定位、内容规划、营销推广以及公众号图文设计等问题，通过线上运营带动线下门店业务，短短三个月内客流量增加约45%</p>
+                    <div class="a-operate-ewm">
+                        <div class="a-operate-ewm-ab" style="display: block;">
+                            <span class="a-operate-more-span"></span>
+                        </div>
+                        <div class="a-operate-ewm-ac" style="display: none;">
+                            <div class="a-operate-ewm-ac-box">
+                                <img src="/html/generationOperation/images/acw.png" style="padding: 80px 0 24px;">
+                                <p class="a-operate-ewm-ac-box-p">扫描浏览</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="a-operate-more-ul-li">
+                    <img src="/html/generationOperation/images/oper11.png" class="a-operate-more-pix">
+                    <h3>邦国酒店</h3>
+                    <p>多粉“代运营”服务让我们酒店实现精准化的代运营管理，酒店入住率稳步上升，客流量成倍增加，月内酒店运营效率提高约33%，酒店品牌形象更深入人心</p>
+                    <div class="a-operate-ewm">
+                        <div class="a-operate-ewm-ab" style="display: block;">
+                            <span class="a-operate-more-span"></span>
+                        </div>
+                        <div class="a-operate-ewm-ac" style="display: none;">
+                            <div class="a-operate-ewm-ac-box">
+                                <img src="/html/generationOperation/images/bg.png" style="padding: 80px 0 24px;">
+                                <p class="a-operate-ewm-ac-box-p">扫描浏览</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="a-in-swiper-big-box" style="display:none" id="id2">
+        <div class="combo-container">
+            <!--中间内容-->
+            <div style="height: 67px; position: relative;width: 100%;z-index: 4;" class="second-js-top">
+                <table class="combo-title">
+                    <th>套餐类型</th>
+                    <th>基础版</th>
+                    <th>旗舰版</th>
+                    <th>卓越版</th>
+                    <th>尊享版</th>
+                </table>
+            </div>
+            <table class="main-table">
+                <tboby>
+                    <tr class="combo-item">
+                        <td style='color: #333'>套餐价格</td>
+                        <td class="right-cancel">1万元/年</td>
+                        <td class="right-cancel">3万元/年</td>
+                        <td class="right-cancel">10万元/年</td>
+                        <td class="right-cancel">20万元以上/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>活动策划</td>
+                        <td class="right-cancel">1次/年</td>
+                        <td class="right-cancel">4次/年</td>
+                        <td class="right-cancel">6次/年</td>
+                        <td class="right-cancel">12次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>线上活动执行</td>
+                        <td class="right-cancel">2次/年</td>
+                        <td class="right-cancel">4次/年</td>
+                        <td class="right-cancel">6次/年</td>
+                        <td class="right-cancel">12次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>图文推送</td>
+                        <td class="right-cancel">24次/年</td>
+                        <td class="right-cancel">48次/年</td>
+                        <td class="right-cancel">48次/年</td>
+                        <td class="right-cancel">48次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>图片美化</td>
+                        <td class="right-cancel">12次/年</td>
+                        <td class="right-cancel">24次/年</td>
+                        <td class="right-cancel">48次/年</td>
+                        <td class="right-cancel">48次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>海报设计</td>
+                        <td class="right-cancel">4次/年</td>
+                        <td class="right-cancel">6次/年</td>
+                        <td class="right-cancel">12次/年</td>
+                        <td class="right-cancel">24次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>视频直播培训</td>
+                        <td class="right-cancel"><img  src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">2次/年</td>
+                        <td class="right-cancel">2次/年</td>
+                        <td class="right-cancel">2次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>线下活动策划顾问</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">2次/年</td>
+                        <td class="right-cancel">3次/年</td>
+                        <td class="right-cancel">6次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>宣传视频制作</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">1次/年</td>
+                        <td class="right-cancel">1次/年</td>
+                        <td class="right-cancel">1次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>现场会议培训</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">2次/年</td>
+                        <td class="right-cancel">2次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>运营效果跟踪与反馈</td>
+                        <td class="right-cancel"><img  src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">1次/季度</td>
+                        <td class="right-cancel">1次/月</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>活动运营报告</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">1次/季度</td>
+                        <td class="right-cancel">1次/月</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>活动数据分析</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">1次/季度</td>
+                        <td class="right-cancel">1次/月</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>私董会</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel">2次/年</td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>会员基础方案策划</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>提升复购率</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>留言回复/精选留言</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>联盟沟通会</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>多粉商学院</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>品牌推广策划</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>市场调查</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>竞品分析</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                    <tr class="combo-item">
+                        <td>用户定位</td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper14.png" alt=""></td>
+                        <td class="right-cancel"><img src="/html/generationOperation/images/oper15.png" alt=""></td>
+                    </tr>
+                </tboby>
+            </table>
+            <br>
+            <div class="combo-user">
+                <a href="javascript:void(0);" onclick="showClick(2);" class="combo-user-button">立即咨询</a>
+            </div>
+            <!--中间内容-->
+        </div>
+    </div>
+</div>
+<!-- 底部区域 -->
+<%@include file="/html/common/footer.jsp" %>
+<script src="/html/generationOperation/js/aintroduce.js"></script>
+<script>
+    $("#a-swiper1").find("a").attr("style","color:#fff;background-image: url(/html/generationOperation/images/oper3.png);background-repeat: no-repeat; background-position: center;height: 80px;");
+
+    $('.a-operate-ewm').on('mouseenter',function(){
+        $(this).find('.a-operate-ewm-ab').hide();
+        $(this).find('.a-operate-ewm-ac').show();
+    }).on('mouseleave',function(){
+        $(this).find('.a-operate-ewm-ab').show();
+        $(this).find('.a-operate-ewm-ac').hide();
+    })
+    $(".rightIcon").on("click",".ri1",function(){
+        $("html,body").animate({"scrollTop":0},500);
+    })
+
+    /*页面右侧信息*/
+    //超过一定高度时， 显示返回顶部按钮
+    $(window).scroll(function() {
+        var scrollTop =  document.body.scrollTop || document.documentElement.scrollTop;
+        if (scrollTop > 200) {
+            $('.ri1').show();
+        }
+        else {
+            $('.ri1').hide();
+        }
+        if(scrollTop > $(".second-js-top").position().top){
+            $(".second-js-top").attr("style","height: 67px; position: fixed; width: 100%; z-index: 4; top: 0px;");
+        }
+        if(scrollTop < $(".combo-container").position().top) {
+            $(".second-js-top").attr("style","height: 67px; position: relative;width: 100%;z-index: 4;");
+        }
+    });
+
 </script>
+</body>
 </html>
-
-
-

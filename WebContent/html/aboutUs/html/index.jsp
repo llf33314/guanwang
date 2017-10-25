@@ -101,8 +101,8 @@
 		     </div>
 		     <div class="a-in-swiper-js-culture">
 		          <h2 class="a-in-swiper-h2">多粉文化</h2>
-		          <p>我们没有森严的等级，每一位员工都是平等的，每一位同事都是自己的伙伴。多粉崇尚创新快</p>
-		          <p style="padding-top: 5px;">速的互联网文化。我们讨厌冗长的会议和流程，在轻松的伙伴式工作氛围中发挥自己的创意</p>
+		          <p>我们没有森严的等级，每一位员工都是平等的，每一位同事都是自己的伙伴，多粉崇尚创新快</p>
+		          <p style="padding-top: 5px;">速的互联网文化，我们讨厌冗长的会议和流程，在轻松的伙伴式工作氛围中发挥自己的创意</p>
 		          <ul class="a-in-swiper-js-culture-box">
 		             <li>
 		                <img src="../images/ain24.png">
@@ -189,7 +189,7 @@
 		         <img src="../images/ain22.png" id="a-in-js-brand">
 		         <div class="a-in-swiper-js-play-box">
 			          <h2 class="a-in-swiper-h2-two">多粉崛起</h2>
-			          <p>2014年成立至今，多粉在探索中不断成长、突破。截止目前，全国已拥有三家下属子公司和38</p>
+			          <p>2014年成立至今，多粉在探索中不断成长、突破，截止目前，全国已拥有三家下属子公司和38</p>
 			          <p>家分公司， 公司总人数超过1200人，全国签约代理商超过150家。并在广东省深圳市和惠州市</p>
 			          <p>均设有独立研发中心，技术研发人员过百人</p>
 			          <ul class="a-in-swiper-num-ul">

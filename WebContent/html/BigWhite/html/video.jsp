@@ -39,3 +39,22 @@
         $('#baivideo-box1').show();
     }
 </script>
+
+<div class="video-box" id="baivideo-box2">
+    <span class="video-close" onclick="baicloseVideo2()">关闭</span>
+    <video preload="none" controls width="800" height="500" id="baivideoMedia2" style="background-color: #000">
+        <source src="http://maint.duofriend.com/upload/video/websiteUpload/website/MGxhs.mp4" type="video/mp4">
+    </video>
+</div>
+<script>
+    var baicloseVideo2 =function(){
+        var media = document.getElementById("baivideoMedia2");
+        media.pause();
+        $('#baivideo-box2').hide();
+    }
+    var baiopenVideo2 = function(){
+        var media = document.getElementById("baivideoMedia2");
+        media.play();
+        $('#baivideo-box2').show();
+    }
+</script>

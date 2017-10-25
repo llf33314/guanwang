@@ -12,7 +12,27 @@
 <link rel="stylesheet" type="text/css" href="/html/css/coupon/animate.min.css" />
 <link rel="stylesheet" type="text/css" href="/html/css/coupon/style.css" />
 <link rel="stylesheet" type="text/css" href="/html/css/coupon/jquery.fullPage.css" />
-
+	<style>
+		.video-box{
+			position: fixed;
+			top:50%;
+			left: 50%;
+			width:100%;
+			height: 100%;
+			z-index: 90;
+			margin-left: -400px;
+			margin-top: -250px;
+			display: none;
+		}
+		.video-close{
+			position: absolute;
+			left: 740px;
+			color: #fff;
+			top: 40px;
+			z-index: 99;
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body>
 <div style="position: relative; width: 100%;top: 0;left: 0;z-index: 9;">
@@ -54,21 +74,21 @@
 					          <div class="gt-swiper3d-radio-image"><img alt="" src="/html/images/coupon/cou4.png"></div>
 					          <div class="gt-swiper3d-popup addBg">
 					          <h2 style="color:#fff;font-size:10px;">MG动画</h2>
-					            <a href="javascript:;" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=q03896qqitw&auto=0")'></a>
+					            <a href="javascript:void(0);" class="gt-swiper3d-play" onclick='openVideo3();'></a>
 					          </div>
 					        </div>
 					        <div class="gt-swiper3d-radio-box"  style="transform: scale(1) translate(-36px,59px);z-index: 2;">
 					          <div class="gt-swiper3d-radio-image"><img alt="" src="/html/images/coupon/cou4.png"></div>
 					          <div class="gt-swiper3d-popup">
 					          <h2 style="color:#fff;font-size:10px;">现实场景视频</h2>
-					            <a href="javascript:;" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=b0388vsm3nr&auto=0")'></a>
+					            <a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=b0388vsm3nr&auto=0")'></a>
 					          </div>
 					        </div>
 					        <div class="gt-swiper3d-radio-box"  style="transform: scale(0.68) translate(179px, 84px);z-index: 1">
 					          <div class="gt-swiper3d-radio-image"><img alt="" src="/html/images/coupon/cou4.png"></div>
 					          <div class="gt-swiper3d-popup addBg">
 					          <h2 style="color:#fff;font-size:10px;">优惠券商城</h2>
-					            <a href="javascript:;" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=d0186ne71y1&auto=0")'></a>
+					            <a href="javascript:void(0);" class="gt-swiper3d-play" onclick='gtSwiper3d.opendVadio("https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=d0186ne71y1&auto=0")'></a>
 					          </div>
 					        </div>					        
 					      </div>
@@ -230,6 +250,24 @@
 <script type="text/javascript" src="/html/js/coupon/gtSwipers.js"></script>
 <script type="text/javascript" src="/html/js/coupon/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="/html/js/coupon/index.js"></script>
+<div class="video-box" id="video-box3">
+	<span class="video-close" onclick="closeVideo3()">关闭</span>
+	<video preload="none" controls width="800" height="500" id="videoMedia3" style="background-color: #000">
+		<source src="http://maint.duofriend.com/upload/video/websiteUpload/website/MGyhjsc.mp4" type="video/mp4">
+	</video>
+</div>
+<script>
+    var closeVideo3 =function(){
+        var media = document.getElementById("videoMedia3");
+        media.pause();
+        $('#video-box3').hide();
+    }
+    var openVideo3 = function(){
+        var media = document.getElementById("videoMedia3");
+        media.play();
+        $('#video-box3').show();
+    }
+</script>
 <script> 
  		$(function() {
 

@@ -39,3 +39,22 @@
         $('#video-box').show()
     }
 </script>
+
+<div class="video-box" id="video-box1">
+    <span class="video-close" onclick="closeVideo1()">关闭</span>
+    <video preload="none" controls width="800" height="500" id="videoMedia1" style="background-color: #000">
+        <source src="http://maint.duofriend.com/upload/video/websiteUpload/website/MGkxc.mp4" type="video/mp4">
+    </video>
+</div>
+<script>
+    var closeVideo1 =function(){
+        var media = document.getElementById("videoMedia1");
+        media.pause();
+        $('#video-box1').hide()
+    }
+    var openVideo1 = function(){
+        var media = document.getElementById("videoMedia1");
+        media.play();
+        $('#video-box1').show()
+    }
+</script>

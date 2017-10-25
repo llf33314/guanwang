@@ -37,7 +37,7 @@
                  <dd onclick="footerLock('产品中心');"><a href="/html/BusinessAlliance/html/index.jsp" >商家联盟</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/coupon.jsp" >优惠券商城</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/fansNest.jsp" >粉巢系统</a></dd>
-                 <dd onclick="footerLock('产品中心');"><a href="/html/generationOperation/html/index.jsp" >代运营</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="/html/generation_operation.jsp" >代运营</a></dd>
                  <dd onclick="openVideo1();"><a href="javascript:void(0);" >概念视频（个人版）</a></dd>
                  <dd onclick="openVideo2();"><a href="javascript:void(0);" >概念视频（商铺版）</a></dd>
              </dl>

@@ -86,7 +86,7 @@
                 </a>
             </li>
             <li>
-                <a href="javascript: void(0);" onclick='WSFUNCTION.videoFrame("https://v.qq.com/iframe/player.html?vid=q03896qqitw&auto=0&tiny=0&auto=0");'>
+                <a href="javascript: void(0);" onclick="openVideo1()">
                     <img src="../img/xplay2.png">
                     <h3>康小厨MG动画</h3>
                 </a>
@@ -247,7 +247,7 @@
     			</li>
     		</ul>
     	</div>
-    	<h1 class="gt-xcm-yycenter-title">帮助客户现实业务增涨</h1>
+    	<h1 class="gt-xcm-yycenter-title">帮助客户实现业务增涨</h1>
     	<div class="gt-xcm-yycenter gt-xcm-yycenter2" style="height: 230px">
     		<ul class="list">
     			<li>
@@ -275,7 +275,7 @@
     				<div class="cont">
     					<span class="img img8"></span>
     					<h2 class="title">忠诚度上升</h2>
-    					<p class="ps">线下客流能够转化为商家线上粉丝线上粉丝会再次回归餐厅消费</p>
+    					<p class="ps">线下客流能够转化为商家线上粉丝，线上粉丝会再次回归餐厅消费</p>
     				</div>
     			</li>
     		</ul>

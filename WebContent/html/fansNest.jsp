@@ -13,6 +13,27 @@
     <link rel="stylesheet" href="/html/css/ani.css">
     <%@include file="/html/common/css.jsp" %>
     <%@include file="/html/common/js.jsp" %>
+    <style>
+        .video-box{
+            position: fixed;
+            top:50%;
+            left: 50%;
+            width:100%;
+            height: 100%;
+            z-index: 90;
+            margin-left: -400px;
+            margin-top: -250px;
+            display: none;
+        }
+        .video-close{
+            position: absolute;
+            left: 740px;
+            color: #fff;
+            top: 40px;
+            z-index: 99;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 
@@ -33,8 +54,9 @@
         <h1>粉巢系统是什么？</h1>
         <p>
             多粉结合时下最流行的会员服务与移动互联网营销新模式，推出粉巢系统。粉巢系统是一个能集合PC网站、手机网站、微信、APP、小程序、支付宝六站合一的跨平台同步系统，能全面实现订单与会员数据同步和多端流量汇总让您一个用户都不丢。</p>
-        <img src="/html/images/fans/videofans.png" alt="" onclick="WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=p0365f7im81&tiny=0&auto=0');">
+       <a href="javascript:void(0);" onclick="openVideo3();"> <img src="/html/images/fans/videofans.png" alt="" ></a>
     </div>
+
 
 
     <ul class="fansWrap_middle">
@@ -143,6 +165,24 @@
     </div>
 </div>
 
+<div class="video-box" id="video-box3">
+    <span class="video-close" onclick="closeVideo3()">关闭</span>
+    <video preload="none" controls width="800" height="500" id="videoMedia3" style="background-color: #000">
+        <source src="http://maint.duofriend.com/upload/video/websiteUpload/website/MGfcxt.mp4" type="video/mp4">
+    </video>
+</div>
+<script>
+    var closeVideo3 =function(){
+        var media = document.getElementById("videoMedia3");
+        media.pause();
+        $('#video-box3').hide();
+    }
+    var openVideo3 = function(){
+        var media = document.getElementById("videoMedia3");
+        media.play();
+        $('#video-box3').show();
+    }
+</script>
 <!--底部-->
 <%@include file="/html/common/footer.jsp" %>
 <!--底部-->

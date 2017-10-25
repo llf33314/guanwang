@@ -39,3 +39,22 @@
         $('#lookvideo-box1').show();
     }
 </script>
+
+<div class="video-box" id="lookvideo-box2">
+    <span class="video-close" onclick="lookcloseVideo2()">关闭</span>
+    <video preload="none" controls width="800" height="500" id="lookvideoMedia2" style="background-color: #000">
+        <source src="http://maint.duofriend.com/upload/video/websiteUpload/website/MGyz.mp4" type="video/mp4">
+    </video>
+</div>
+<script>
+    var lookcloseVideo2 =function(){
+        var media = document.getElementById("lookvideoMedia2");
+        media.pause();
+        $('#lookvideo-box2').hide();
+    }
+    var lookopenVideo2 = function(){
+        var media = document.getElementById("lookvideoMedia2");
+        media.play();
+        $('#lookvideo-box2').show();
+    }
+</script>
