@@ -13,7 +13,7 @@ a{text-decoration:none;color:#333;}
 }
 /*banner*/
 .a-operate-banner{
-    background-image: url(../images/oper1.png);
+    background-image: url(/html/generationOperation/images/oper1.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -30,7 +30,7 @@ a{text-decoration:none;color:#333;}
 .a-in-operate{
     height: 79px;
     width: 100%;
-    background-image: url(../images/oper2.png);
+    background-image: url(/html/generationOperation/images/oper2.png);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -51,7 +51,7 @@ a{text-decoration:none;color:#333;}
     text-align: center;
 }
 .a-in-operate-title:hover{
-    background-image: url(../images/oper3.png);
+    background-image: url(/html/generationOperation/images/oper3.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 195px;
@@ -165,7 +165,7 @@ a{text-decoration:none;color:#333;}
     width: 100%;
 }
 .a-operate-four{
-    background-image: url(../images/oper7.png);
+    background-image: url(/html/generationOperation/images/oper7.png);
     background-repeat: no-repeat;
     background-position: center;
     width:100%;
@@ -200,7 +200,7 @@ a{text-decoration:none;color:#333;}
 .a-operate-four-ul li:hover{
     height: 116px;
     width:96px;
-    background-image: url(../images/oper8.png);
+    background-image: url(/html/generationOperation/images/oper8.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -267,7 +267,7 @@ a{text-decoration:none;color:#333;}
 .a-operate-more-ul-li{
     width: 377px;
     height: 439px;
-    background-image: url(../images/oper12.png);
+    background-image: url(/html/generationOperation/images/oper12.png);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -280,7 +280,7 @@ a{text-decoration:none;color:#333;}
 .a-operate-more-ul-li:hover{
     width: 377px;
     height: 439px;
-    background-image: url(../images/oper13.png);
+    background-image: url(/html/generationOperation/images/oper13.png);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;

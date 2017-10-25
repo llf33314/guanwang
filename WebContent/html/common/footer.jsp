@@ -37,14 +37,14 @@
                  <dd onclick="footerLock('产品中心');"><a href="/html/BusinessAlliance/html/index.jsp" >商家联盟</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/coupon.jsp" >优惠券商城</a></dd>
                  <dd onclick="footerLock('产品中心');"><a href="/html/fansNest.jsp" >粉巢系统</a></dd>
-                 <dd onclick="footerLock('产品中心');"><a href="/html/generationOperation/html/index.jsp" >代运营</a></dd>
+                 <dd onclick="footerLock('产品中心');"><a href="/html/generation_operation.jsp" >代运营</a></dd>
                  <dd onclick="openVideo1();"><a href="javascript:void(0);" >概念视频（个人版）</a></dd>
                  <dd onclick="openVideo2();"><a href="javascript:void(0);" >概念视频（商铺版）</a></dd>
              </dl>
              <dl>
                  <dt>合作召集</dt>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/index.jsp" >招商加盟</a></dd>
-                 <dd onclick="footerLock('合作与加盟');"><a href="" >代理登陆</a></dd>
+                 <dd onclick="footerLock('合作与加盟');"><a href="/html/agencyLogin/html/index.jsp" >代理登陆</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency.jsp" >代理查询</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/sign.jsp?v=1" >城市代理商</a></dd>
                  <dd onclick="footerLock('合作与加盟');"><a href="/html/agency/html/sign.jsp?v=2" >县区级代理商</a></dd>

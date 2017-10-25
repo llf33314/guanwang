@@ -35,7 +35,7 @@
 			<div>
 				<img src="../images/title.png" alt="" class="banner-title wow fadeInUp">
 				<div class="video-box">
-					<a href=""> <img src="../images/video-icon.png" alt=""> 产品介绍视频</a>
+					<a href="javascript:void(0);" onclick="openVideo();"> <img src="../images/video-icon.png" alt=""> 产品介绍视频</a>
 				</div>
 				<section class="section1">
 					<img src="../images/home-3.png" alt="" class="home-3 wow fadeInLeft" data-wow-delay="1s" data-wow-offset="10">
@@ -170,6 +170,46 @@
 			});
 			wow.init();
 		})
+	</script>
+
+	<style>
+		.video-boxs{
+			position: fixed;
+			top:50%;
+			left: 50%;
+			width:100%;
+			height: 100%;
+			z-index: 90;
+			margin-left: -400px;
+			margin-top: -250px;
+			display: none;
+		}
+		.video-closes{
+			position: absolute;
+			left: 740px;
+			color: #fff;
+			top: 40px;
+			z-index: 99;
+			cursor: pointer;
+		}
+	</style>
+	<div class="video-boxs" id="video-box">
+		<span class="video-closes" onclick="closeVideo()">关闭</span>
+		<video preload="none" controls width="800" height="500" id="videoMedia" style="background-color: #000">
+			<source src="http://maint.duofriend.com/upload/video/websiteUpload/website/MGlsjy.mp4" type="video/mp4">
+		</video>
+	</div>
+	<script>
+        var closeVideo =function(){
+            var media = document.getElementById("videoMedia");
+            media.pause()
+            $('#video-box').hide()
+        }
+        var openVideo = function(){
+            var media = document.getElementById("videoMedia");
+            media.play()
+            $('#video-box').show()
+        }
 	</script>
 </body>
 

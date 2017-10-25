@@ -39,7 +39,7 @@
 						<div class="control-group">
 							<div class="controls" style="margin-left: 40px;">
 								<input class="input-xlarge span11" id="pcdesc" type="text"
-									   style="height: 30px;" placeholder="描述" maxlength="28">
+									   style="height: 30px;" placeholder="描述" maxlength="17">
 							</div>
 						</div>
 						<div class="control-group">
@@ -135,7 +135,6 @@
         layer.confirm('删除后将不可恢复,你确定要删除吗？', {
             btn: ['确定','取消'] //按钮
         }, function(){
-            debugger;
             $(obj).parent().remove();
             layer.closeAll('dialog');
         });
@@ -191,7 +190,6 @@
                 type1++;
                 textareats();
 			}
-			debugger
             var neirongList = document.getElementsByClassName("control-group1");
             var neirong22 = "";
             for(var i = 0 ; i < neirongList.length ; i++ ){

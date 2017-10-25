@@ -352,7 +352,7 @@
 	<%@include file="/html/common/footer.jsp" %>
 	<script src="../js/aintroduce.js"></script>
 	<script>
-        $("#a-swiper1").find("a").attr("style","color:#fff;background-image: url(../images/oper3.png);background-repeat: no-repeat; background-position: center;height: 80px;");
+        $("#a-swiper1").find("a").attr("style","color:#fff;background-image: url(/html/generationOperation/images/oper3.png);background-repeat: no-repeat; background-position: center;height: 80px;");
 
         $('.a-operate-ewm').on('mouseenter',function(){
             $(this).find('.a-operate-ewm-ab').hide();

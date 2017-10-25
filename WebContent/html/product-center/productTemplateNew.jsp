@@ -53,12 +53,12 @@
         for(var i=0;i<a;i++){
             $('.a-details-r-roll').append('	<div class="a-details-unified">'
                 +'<div class="a-details-unified-l">'
-                +'<img src="'+products[i].logourl+'"  style="width: 50px;height: 50px;">'
+                +'<a href="productNew_'+products[i].id+'.jsp " ><img src="'+products[i].logourl+'"  style="width: 50px;height: 50px;">'
                 +'</div>'
                 +'<div class="a-details-unified-r">'
-                +' <a href="productNew_'+products[i].id+'.jsp " > <h4>' +products[i].pcname+'</h4></a>'
+                +' <h4>' +products[i].pcname+'</h4>'
                 +'<p>'+products[i].pcdesc+'</p>'
-                +' </div>'
+                +' </a></div>'
                 +' </div>');
         }
     })

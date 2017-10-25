@@ -38,9 +38,13 @@
 	                              <a href="javascript:void(0);" onclick="allReset()" style="margin-left: 10px;">
                                  	<button class="btn btn-warning">重新生成文件</button>
                                   </a>
-	                           </div>
+								   <a href="javascript:void(0);" onclick="allReset1()" style="margin-left: 10px;">
+									   <button class="btn btn-warning">重新生成微信营销首页</button>
+								   </a>
+
+							   </div>
 	                            
-	                            <table cellpadding="0" cellspacing="0" border="0" 
+	                            <table cellpadding="0" cellspacing="0" border="0"
 	                            	class="table table-striped table-bordered" id="example2">
 	                            </table>
 	                        </div>
@@ -75,8 +79,8 @@
 			         }, 
 			         {
 			        	 name: "创建时间",
-			        	 col: "createtime"
-			         }, 
+			        	 col: "createtime",
+			         },
 			         {
 			        	 name: "操作",
 			        	 col: "",
@@ -85,13 +89,65 @@
 			        		 	"<a class='btn btn-danger' onclick='WSFUNCTION.sendDel(\"productCenterNew/del\",{id:"+value.id+"}, "
 			        		 			+"\"/jsp/manage/productCenter/index.jsp\", $(this))'>删除</a>"; 
 			        	 }
-			         }
+			         },
+					{
+						name: "排序",
+						col: "sort"
+					},
+					{
+						name: "排序",
+						col: "",
+						render: function(value){
+							return "<input type=\"number\" value=\""+value.sort+"\" name='input1'>&nbsp;<a class='btn btn-success' onclick='sortEdit("+value.id+",this)'>保存</a>";
+						}
+					}
 			        ],
 			url: "/productCenterNew/html/list",
 			param: {}
 		});
 		
 	});
+	
+	function sortEdit(id,obj) {
+        var sort = $($($(obj).parent())[0]).context.children[0].value;
+        $.ajax({
+            url: "/productCenterNew/sortEdit",
+            type: "POST",
+            async: false,
+            data: {sort:sort ,id:id},
+            success: function(data){
+                var d = eval("("+data+")");
+                if(d.status == 1){
+                    WSFUNCTION.msgBox("信息", d.msg);
+                }else{
+                    WSFUNCTION.msgBox("信息", d.msg);
+                }
+                $($($($(obj).parent().parent())[0]).context.children[5]).html(sort);
+            },
+            error: function(){
+                WSFUNCTION.msgBox("信息", "网络繁忙!");
+            }
+        });
+    }
+    function allReset1() {
+        $.ajax({
+            url: "/productCenterNew/allReset1",
+            type: "POST",
+            async: false,
+            data: {},
+            success: function(data){
+                var d = eval("("+data+")");
+                if(d.status == 1){
+                    WSFUNCTION.msgBox("信息", d.msg);
+                }else{
+                    WSFUNCTION.msgBox("信息", d.msg);
+                }
+            },
+            error: function(){
+                WSFUNCTION.msgBox("信息", "网络繁忙!");
+            }
+        });
+    }
 	
 	function allReset(){
 		$.ajax({
@@ -113,10 +169,10 @@
 		});
 	}
 	</script>
-	<script src="templatelibs/vendors/jquery-1.9.1.js"></script>
+	<script src="/templatelibs/vendors/jquery-1.9.1.js"></script>
 	<!-- <script src="templatelibs/bootstrap/js/bootstrap.min.js"></script> -->
-	<script src="templatelibs/vendors/datatables/js/jquery.dataTables.js"></script>
-	<script src="templatelibs/assets/scripts.js"></script>
-	<script src="templatelibs/assets/DT_bootstrap.js"></script>
+	<script src="/templatelibs/vendors/datatables/js/jquery.dataTables.js"></script>
+	<script src="/templatelibs/assets/scripts.js"></script>
+	<script src="/templatelibs/assets/DT_bootstrap.js"></script>
 </body>
 </html>

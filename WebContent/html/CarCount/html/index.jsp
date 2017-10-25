@@ -15,6 +15,28 @@
     <script type="text/javascript">
 		var access_num = 0; 
 	</script>
+
+	<style>
+		.video-box{
+			position: fixed;
+			top:50%;
+			left: 50%;
+			width:100%;
+			height: 100%;
+			z-index: 90;
+			margin-left: -400px;
+			margin-top: -250px;
+			display: none;
+		}
+		.video-close{
+			position: absolute;
+			left: 740px;
+			color: #fff;
+			top: 40px;
+			z-index: 99;
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body>
 <%@include file="/html/CarCount/html/common/banner.jsp" %>
@@ -239,7 +261,7 @@
 	         <img src="../images/mg.png" style="width: 45%;"/>
 	         <p class="car-home-animation-title">点击播放键播放视频</p> 
 	         <div class="car-home-animation play">
-	            <a href="javascript:WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=y0503lythmm&auto=0&tiny=0&auto=0');"><img src="../images/mg1.png"/></a>
+	            <a href="javascript:void(0);" onclick="openVideo1();"><img src="../images/mg1.png"/></a>
 	           <div class="gt-halo-box">
 				 <div class="gt-halo"></div>
 				 <div class="gt-halo-big enlarge"></div>
@@ -265,7 +287,24 @@
 	</div>
 </div>
 
-
+<div class="video-box" id="video-box1">
+	<span class="video-close" onclick="closeVideo1()">关闭</span>
+	<video preload="none" controls width="800" height="500" id="videoMedia1" style="background-color: #000">
+		<source src="http://maint.duofriend.com/upload/video/websiteUpload/website/MGcxs.mp4" type="video/mp4">
+	</video>
+</div>
+<script>
+    var closeVideo1 =function(){
+        var media = document.getElementById("videoMedia1");
+        media.pause();
+        $('#video-box1').hide();
+    }
+    var openVideo1 = function(){
+        var media = document.getElementById("videoMedia1");
+        media.play();
+        $('#video-box1').show();
+    }
+</script>
 <script src="../js/lib/wave.js"></script>
 <script type="text/javascript" src="../js/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="../js/index.js"></script>
