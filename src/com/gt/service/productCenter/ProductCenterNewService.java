@@ -3,6 +3,7 @@ package com.gt.service.productCenter;
 import com.gt.model.productCenter.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
@@ -57,4 +58,7 @@ public interface ProductCenterNewService {
 	int update(ProductCenterNew a,  HttpServletRequest request) throws Exception;
 
 
+    void allReset1(HttpServletRequest request) throws IOException;
+
+    void sortEdit(Map<String, Object> params);
 }

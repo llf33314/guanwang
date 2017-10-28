@@ -40,7 +40,7 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 			sql.append("and a.classid = ? ");
 			params.add(param.get("classid"));
 		}
-		sql.append("order by a.id desc, a.createtime desc ");
+		sql.append("order by  a.sort desc ");
 		if(param.get("page") != null){
 			sql.append("limit ?,?");
 			params.add(param.get("page"));
@@ -183,7 +183,7 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 			sql.append("and id = ? ");
 			params.add(param.get("id"));
 		}
-		sql.append("order by id desc ");
+		sql.append("order by createtime desc ");
 		if(param.get("page") != null){
 			sql.append("limit ?,?");
 			params.add(param.get("page"));
@@ -351,8 +351,8 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 			insethtml.append("<li>\n" +
 					"\t\t\t\t<h3>扫一扫，立即体验!</h3>\n" +
 					"\t\t\t\t<div class=\"a-details-ewm\">");
-			insethtml.append("<img src=\""+productCenter.getQrcode()+"\">\n" +
-					"\t\t\t\t\t<p>"+productCenter.getPcname()+"</p>\n" +
+			insethtml.append("<img style=\"width: 150px;height: 150px;\" src=\""+productCenter.getQrcode()+"\">\n" +
+					"\t\t\t\t\t<p style=\" margin-top: -10px;\">"+productCenter.getPcname()+"</p>\n" +
 					"\t\t\t\t</div>\n" +
 					"\t\t\t</li>");
 		}
@@ -443,5 +443,90 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
             createProductCenterPage(a, path, true);
         }
 	}
+
+	@SuppressWarnings({ "rawtypes" })
+	@Override
+	public void allReset1(HttpServletRequest request) throws IOException {
+			log.debug("产品静态文件重新生成");
+			String path = this.getClass().getClassLoader().getResource("").getPath().substring(1).replace("WEB-INF/classes/", "");
+			List<Map<String,Object>>  lists =  iBaseDAO.queryForList("select a.* from t_ws_product_center_new a order by a.sort desc");
+			List<Map<String,Object>> listc = iBaseDAO.queryForList("select a.* from t_ws_product_center_type a order by a.createtime desc");
+			createProductCenterPage1(lists,listc, path, true);
+		}
+
+
+	@SuppressWarnings("rawtypes")
+		public void createProductCenterPage1(List<Map<String,Object>> lists,List<Map<String,Object>> listc, String path, boolean flag) throws IOException {
+			File page = new File(path + "/html/weixinSell/html/index.jsp");
+			if(!page.exists() || flag){
+				if(!page.getParentFile().exists()){
+					page.getParentFile().mkdirs();
+				}
+				page.createNewFile();
+				FileWriter fw = new FileWriter(page, false);
+				BufferedWriter bw =  new BufferedWriter(new OutputStreamWriter(new FileOutputStream(page),"utf-8"));
+				String s = new String(readProductCenterPage1(lists,listc, path));
+				bw.write(s);
+				bw.flush();
+				bw.close();
+				fw.close();
+			}
+		}
+	@SuppressWarnings("rawtypes")
+	public String readProductCenterPage1(List<Map<String,Object>> lists,List<Map<String,Object>> listc, String path) throws IOException {
+		StringBuilder pageStr = new StringBuilder();
+		File page = new File(path + "/html/product-center/productTemplate.jsp");
+		BufferedReader reader = new BufferedReader(new FileReader(page));
+		String tempString = null;
+		while ((tempString = reader.readLine()) != null) {
+			pageStr.append(tempString);
+		}
+		reader.close();
+
+		StringBuilder insethtml1 = new StringBuilder();
+		StringBuilder insethtml2 = new StringBuilder();
+			for (int i = 0; i < listc.size(); i++) {
+				insethtml1.append("<li><a href=\"javascript: void(0);\" class=\"a-mark-cu-sp1\" onclick=\"locationCase("+i+")\">"+listc.get(i).get("pctypename")+"</a></li>");
+				insethtml2.append("<div class=\"a-mark-unified\">"
+								+"<h2 class=\"pctypename1\">"+listc.get(i).get("pctypename")+"</h2>"
+								+"<p>"+listc.get(i).get("typedesc")+"</p><ul>");
+				for (int j = (lists.size() - 1); j > -1; j--) {
+					if(lists.get(j).get("classid") == listc.get(i).get("id")){
+						insethtml2.append("<li class=\"a-mark-unified-li\">"
+								+"<div class=\"a-mark-unified-li-l\">"
+								+"<a href=\"/html/product-center/productNew_"+lists.get(j).get("id")+".jsp\"  target=\"_blank\"><img src=\""+lists.get(j).get("logourl")+"\"> </a></div><div class=\"a-mark-unified-li-r\">"
+								+"<a href=\"/html/product-center/productNew_"+lists.get(j).get("id")+".jsp\"  target=\"_blank\"><h4>"+lists.get(j).get("pcname")+"</h4></a>"
+								+"<p>"+lists.get(j).get("pcdesc")+" </p></div></li>");
+					}
+				}
+				insethtml2.append(" </ul></div>");
+			}
+//
+		String s1 = "微信营销第三方平台_微信代运营_公众号吸粉_申请注册_搭建_策划服务_多粉";
+		String s2 = "微营销,微信营销,微信代运营,微信定制开发,微信营销软件,微信推广平台,微信营销平台,微信代运营套餐,智慧酒店";
+		String s3 = "多粉微信第三方开发平台，提供微信营销、小程序、微商城、H5游戏等功能开发及公众号代运营服务。";
+		String s4 = "一站式微信营销 让你的生意领先一步";
+		String s5 = "兼容，是一种超越！多粉众多营销功能同时兼容UC端和微信端，用户无论";
+		String s6 = "从哪儿打开都畅通无阻，商家的营销效果发挥到极致！";
+		String s7 = "行业";
+
+		return pageStr.toString()
+				.replace("@@s1@@", s1)
+				.replace("@@s2@@", s2)
+				.replace("@@s3@@", s3)
+				.replace("@@s4@@", s4)
+				.replace("@@s5@@", s5)
+				.replace("@@s6@@", s6)
+				.replace("@@insethtml1@@", insethtml1)
+				.replace("@@insethtml2@@", insethtml2);
+//				.replace("@@vbtn@@", vbtn);
+	}
+
+	@Override
+	public void sortEdit(Map<String, Object> params) {
+		String sql = "update t_ws_product_center_new set sort = ?  where id = ?";
+		iBaseDAO.update(sql, params.get("sort"),params.get("id"));
+	}
+
 
 }

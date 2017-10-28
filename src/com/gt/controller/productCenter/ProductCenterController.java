@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("productCenterNew")
@@ -386,6 +387,39 @@ public class ProductCenterController {
 		try {
 			p = response.getWriter();
 			productCenterService.allReset(request);
+			msg = "操作成功";
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		p.write("{\"status\":"+status+", \"msg\":\""+msg+"\", \"data\":"+null+"}");
+	}
+
+	@RequestMapping("/allReset1")
+	public void allReset1(HttpServletResponse response, HttpServletRequest request){
+		response.setContentType("text/html;charset=UTF-8");
+		int status = 0;
+		String msg = "操作失败";
+		PrintWriter p = null;
+		try {
+			p = response.getWriter();
+			productCenterService.allReset1(request);
+			msg = "操作成功";
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		p.write("{\"status\":"+status+", \"msg\":\""+msg+"\", \"data\":"+null+"}");
+	}
+
+
+	@RequestMapping("/sortEdit")
+	public void sortEdit(HttpServletResponse response, HttpServletRequest request , @RequestParam Map<String,Object> params){
+		response.setContentType("text/html;charset=UTF-8");
+		int status = 0;
+		String msg = "操作失败";
+		PrintWriter p = null;
+		try {
+			p = response.getWriter();
+			productCenterService.sortEdit(params);
 			msg = "操作成功";
 		} catch (Exception e) {
 			e.printStackTrace();
