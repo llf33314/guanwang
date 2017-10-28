@@ -93,7 +93,7 @@
 			            <img src="../images/more1.png" id="m1"/>
 		            </a>
 		            <p style="position: relative;right: 255px;top: 114px;">小红十实操演示</p>
-		            <a href="javascript:void(0);" class="circle-two" onclick="WSFUNCTION.videoFrame('https://v.qq.com/iframe/player.html?vid=k05033p8y20&auto=0&tiny=0&auto=0');">
+		            <a href="javascript:void(0);" class="circle-two" onclick="baiopenVideo2();">
 			            <canvas id="canvas_3" width="104" height="104" ></canvas>
 			            <canvas id="canvas_4" width="104" height="104" ></canvas>
 			            <img src="../images/more1.png" id="m2"/>
