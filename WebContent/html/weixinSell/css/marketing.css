@@ -243,3 +243,40 @@ a{text-decoration:none;color:#333;}
     color: #333;
     font-weight: normal;
 }
+
+
+
+
+.a-details-l-pix{
+     width: 100%;
+ }
+.a-details-l-pix-li{
+    display: inline-block;
+    width: 48%;
+    margin: 0 3px !important;
+}
+.a-details-l-pix-li img{
+    width:100%;
+}
+
+
+.a-details-2-pix{
+    width: 100%;
+}
+.a-details-2-pix-li{
+    display: inline-block;
+    width: 32%;
+    margin: 0 3px !important;
+}
+.a-details-2-pix-li img{
+    width:100%;
+}
+
+.a-details-3-pix{
+    width: 100%;
+    text-align: center;
+}
+.a-details-3-pix-li{
+    display: inline-block;
+    margin: 0 17.5px !important;
+}

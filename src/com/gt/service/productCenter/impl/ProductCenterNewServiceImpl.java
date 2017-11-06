@@ -131,9 +131,7 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 	public int insert(ProductCenterNew a, HttpServletRequest request) throws Exception {
 		iBaseDAO.save(a);
 		String path = request.getSession().getServletContext().getRealPath("/");
-//		StringBuilder sql = new StringBuilder();
-//		sql.append("select a.* from t_ws_product_center_new a join t_ws_product_center_type b on a.classid=b.id where a.id = ?");
-//		Map _a = (Map) iBaseDAO.queryForList(sql.toString(), a.getId()).get(0);
+//		createProductCenterPage(a, "D:/Downloads/05/weew/WebSite/WebContent", true);
 		createProductCenterPage(a, path, true);
 		return 1;
 	}
@@ -144,6 +142,7 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 	public int update(ProductCenterNew a, HttpServletRequest request) throws Exception {
 		iBaseDAO.update(a);
 		String path = request.getSession().getServletContext().getRealPath("/");
+//		createProductCenterPage(a, "D:/Downloads/05/weew/WebSite/WebContent", true);
 		createProductCenterPage(a, path, true);
 		return 1;
 	}
@@ -334,7 +333,10 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 		String[] contenttitles = productCenter.getContenttitles().split("&");
 		String[] contents = productCenter.getContents().split("&");
 		String[] imageslist = productCenter.getImageslist().split("&");
-		for (int i = 0 ; i < contenttitles.length ; i++){
+		String[] voideImageList = productCenter.getVoideImageList().split("&");
+		String[] voideList = productCenter.getVoideList().split("&");
+		int type = 0;
+		for (int i = 0 ; i < imageslist.length ; i++){
 			insethtml.append("<li>");
 			if(CommonUtil.isNotEmpty(contenttitles[i])){
 				insethtml.append("  <h3>"+contenttitles[i]+"</h3>");
@@ -345,16 +347,72 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 			if (!imageslist[i].equals("/images/duofenIntroduction/plus.png")){
 				insethtml.append(" <img src=\""+imageslist[i]+"\" class=\"a-details-img\">");
 			}
+			if(voideImageList.length>0){
+				if(i < voideImageList.length ){
+					if(!"test".equals(voideImageList[i])){
+						String[] voideImageLists = voideImageList[i].split(",");
+						String[] voideLists = voideList[i].split(",");
+						for (int j = 0 ; j < voideImageLists.length ; j++){
+							if(voideImageLists.length == 1){
+								insethtml.append("<img src=\""+voideImageLists[j]+"\" class=\"a-details-img\" onclick=\"productOpenVideo"+j+type+"();\" >");
+							}else if (voideImageLists.length == 2){
+								if(j==0){
+									insethtml.append("<ul class=\"a-details-l-pix\">");
+								}
+								insethtml.append(" <li class=\"a-details-l-pix-li\"><img src=\""+voideImageLists[j]+"\" style=\"\" class=\"a-details-img\" onclick=\"productOpenVideo"+j+type+"();\" ></li>");
+								if(j==voideImageLists.length-1){
+									insethtml.append("<ul>");
+								}
+							}else{
+								if(j==0){
+									insethtml.append("<ul class=\"a-details-2-pix\">");
+								}
+								insethtml.append(" <li class=\"a-details-2-pix-li\"><img src=\""+voideImageLists[j]+"\" style=\"\" class=\"a-details-img\" onclick=\"productOpenVideo"+j+type+"();\" ></li>");
+								if(j==voideImageLists.length-1){
+									insethtml.append("<ur>");
+								}
+							}
+
+						}
+						for (int j = 0 ; j < voideImageLists.length ; j++){
+							insethtml.append("<div class=\"video-box\" id=\"product-video-box"+j+type+"\">\n" +
+									"    <span class=\"video-close\" onclick=\"productCloseVideo"+j+type+"()\">关闭</span>\n" +
+									"    <video preload=\"none\" controls width=\"800\" height=\"500\" id=\"product-videoMedia"+j+type+"\" style=\"background-color: #000\">\n" +
+									"        <source src=\""+voideLists[j]+"\" type=\"video/mp4\">\n" +
+									"    </video>\n" +
+									"</div>\n" +
+									"<script>\n" +
+									"    var productCloseVideo"+j+type+" =function(){\n" +
+									"        var media = document.getElementById(\"product-videoMedia"+j+type+"\");\n" +
+									"        media.pause();\n" +
+									"        $('#product-video-box"+j+type+"').hide();\n" +
+									"    }\n" +
+									"    var productOpenVideo"+j+type+" = function(){\n" +
+									"        var media = document.getElementById(\"product-videoMedia"+j+type+"\");\n" +
+									"        media.play();\n" +
+									"        $('#product-video-box"+j+type+"').show();\n" +
+									"    }\n" +
+									"</script>");
+						}
+					}
+				}
+			}
 			insethtml.append("</li>");
+			type++;
 		}
-		if(!productCenter.getQrcode().equals("/images/duofenIntroduction/plus.png")){
+		if(CommonUtil.isNotEmpty(productCenter.getQrcode())){
+			String[] qrcodeList = productCenter.getQrcode().split("&");
+			String[] qrcodes = productCenter.getQrcodeList().split("&");
 			insethtml.append("<li>\n" +
-					"\t\t\t\t<h3>扫一扫，立即体验!</h3>\n" +
-					"\t\t\t\t<div class=\"a-details-ewm\">");
-			insethtml.append("<img style=\"width: 150px;height: 150px;\" src=\""+productCenter.getQrcode()+"\">\n" +
-					"\t\t\t\t\t<p style=\" margin-top: -10px;\">"+productCenter.getPcname()+"</p>\n" +
-					"\t\t\t\t</div>\n" +
-					"\t\t\t</li>");
+					"\t\t\t\t<h3>扫一扫，立即体验!</h3> <ul class=\"a-details-3-pix\">");
+			for (int i = 0 ; i < qrcodeList.length ; i++){
+				insethtml.append("<li class=\"a-details-3-pix-li\"><div class=\"a-details-ewm\">");
+				insethtml.append("<img style=\"width: 150px;height: 150px;\" src=\""+qrcodeList[i]+"\">\n" +
+						"\t\t\t\t\t<p style=\" margin-top: -10px;\">"+qrcodes[i]+"</p>\n" +
+						"\t\t\t\t</div></li>");
+			}
+			insethtml.append("</ul></li>");
+
 		}
 //
         String s1 = "使用手册";

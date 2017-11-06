@@ -8,6 +8,27 @@
 	<link rel="stylesheet" type="text/css" href="/html/weixinSell/css/marketing.css" />
 	<script type="text/javascript" src="/html/js/jquery-1.10.2.js"></script>
 	<script type="text/javascript" src="/js/webSite.js"></script>
+	<style>
+		.video-box{
+			position: fixed;
+			top:50%;
+			left: 50%;
+			width:100%;
+			height: 100%;
+			z-index: 90;
+			margin-left: -400px;
+			margin-top: -250px;
+			display: none;
+		}
+		.video-close{
+			position: absolute;
+			left: 740px;
+			color: #fff;
+			top: 40px;
+			z-index: 99;
+			cursor: pointer;
+		}
+	</style>
 </head>
 <body style="background: #f8f8f8;">
 <%@include file="/html/common/clearfix.jsp"%>

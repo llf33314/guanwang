@@ -60,8 +60,10 @@
 							<img id="imgurl0"  onclick="selectModel8(this);" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: 50px;border: 1px solid #ccc;"/>
 						</div>
 						<div id="neirong">
-							<div   class="control-group control-group1  " style="border: outset;">
+							<div   class="control-group control-group1  " style="border: outset;" id="control-group0">
 									<span style="margin-left: 10px;font-size: 16px;">内容1:</span><span style="color:red;">(输入的内容不能带有&号)</span>
+								<span onclick="upContext(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: #375bff;cursor:pointer;color:#fff;">上移</span>
+								<span onclick="downContext(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: #2746ff;cursor:pointer;color:#fff;">下移</span>
 								<span onclick="dels(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: red;cursor:pointer;color:#fff;">删除内容</span>
 								<div class="controls" style="margin-left: 40px;    margin-top: 15px;">
 									<input class="input-xlarge span11" id="pcpagetitle1" type="text"
@@ -74,6 +76,9 @@
 								<div class="controls" style="margin-left: 40px; margin-top: 15px;">
 									<img id="imgurl1" onclick="selectModel8(this);" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: -6px;border: 1px solid #ccc;"/>
 								</div>
+								<div class="controls controlsVoide" style="margin-left: 40px; margin-top: 15px;">
+									<button type="button" class="btn btn-primary" onclick="addVoide(this);">添加视频</button>
+								</div>
 							</div>
 						</div>
 						<div class="control-group">
@@ -84,7 +89,7 @@
 						<div class="control-group">
 							<label class="control-label" for="selectError" style="width: auto;">二维码&nbsp;&nbsp; </label>
 							<span class="help-inline"></span>
-							<img id="_qrcode" onclick="selectModel8(this);" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: 50px;border: 1px solid #ccc;"/>
+							<img id="_qrcode" onclick="selectModel8(this);" src="/images/duofenIntroduction/plus.png" style="height: 150px;margin-left: 20x;border: 1px solid #ccc;"/>
 						</div>
 						<div class="form-actions" style="width: 76%;">
 							<button type="button" id="submit" class="btn btn-primary" onclick="qa_edit('/productCenterNew/add');">提交</button>
@@ -139,13 +144,129 @@
             layer.closeAll('dialog');
         });
     }
+    var voideImageType = 0;
+    var qrcodeType = 0;
+    function addVoide(obj){
+        if(obj.parentNode.children.length>4){
+            WSFUNCTION.msgBox("信息", "每块内容最多添加三个视频！");
+            return;
+		}
+        $(obj.parentNode).append('<div style="    border: 1px solid #ccc; padding: 5px; margin: 3px;margin-left: -3px; margin-right: 60px;"><span>视频展示图片：</span> '
+            +'<img id="images'+voideImageType+'" onclick="selectModel8(this)" src="/images/duofenIntroduction/plus.png" style="height: 90px;margin-left: -6px;border: 1px solid #ccc;"/>'
+            +'<input class="input-xlarge span5" type="text"style="height: 30px;margin-left: 13px;"placeholder="视频链接">'
+			+'<input type="button" value="删除" style="    margin-left: 13px; height: 27px;width: 62px;" onclick="removeVoide(this);"> '
+            +'</div>');
+        voideImageType++;
+    };
+    function removeVoide(obj) {
+        layer.confirm('删除后将不可恢复,你确定要删除吗？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            $(obj.parentNode).remove();
+            layer.closeAll('dialog');
+        });
+    }
+    function removeQrcode(obj) {
+        layer.confirm('删除后将不可恢复,你确定要删除吗？', {
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            $(obj.parentNode).remove();
+            layer.closeAll('dialog');
+        });
+    }
+    //上移
+    function upContext(obj) {
+        var neirongList = document.getElementsByClassName("control-group1");
+        for(var i = 0 ; i < neirongList.length ; i++ ){
+            if($(obj.parentNode).attr("id") ==$(neirongList[i]).attr("id")){
+				if(i==0){
+				    return;
+				}else{
+				    var htmls = neirongList[i-1].innerHTML;
+				    var html0 = $($($(neirongList[i-1]).context.children[5]).context.children[0]).val();
+                    var html1 = $($($(neirongList[i-1]).context.children[6]).context.children[1]).val();
+                    var voideList  = "";
+                    if($(neirongList[i-1]).context.children[8].children.length > 1){
+						for (var j = 1 ; j < $(neirongList[i-1]).context.children[8].children.length ; j++){
+                            if( j > 1 && j ==$(neirongList[i-1]).context.children[8].children.length-1){
+                                voideList = voideList + $($($(neirongList[i-1]).context.children[8]).context.children[j].children[2]).val();
+                            }else{
+                                voideList = voideList + $($($(neirongList[i-1]).context.children[8]).context.children[j].children[2]).val()+",";
+                            }
+						}
+					}
+                    $(neirongList[i-1]).html(neirongList[i].innerHTML);
+					$($($(neirongList[i-1]).context.children[5]).context.children[0]).val($($($(neirongList[i]).context.children[5]).context.children[0]).val());
+                    $($($(neirongList[i-1]).context.children[6]).context.children[1]).val($($($(neirongList[i]).context.children[6]).context.children[1]).val());
+                    if($(neirongList[i]).context.children[8].children.length > 1){
+                        for (var j = 1 ; j < $(neirongList[i-1]).context.children[8].children.length ; j++){
+                                $($($(neirongList[i-1]).context.children[8]).context.children[j].children[2]).val($($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val());
+                        }
+                    }
+                    $(neirongList[i]).html(htmls);
+                    $($($(neirongList[i]).context.children[5]).context.children[0]).val(html0);
+                    $($($(neirongList[i]).context.children[6]).context.children[1]).val(html1);
+					if(voideList){
+                        var voide  = voideList.split(",");
+                        for (var j = 1 ; j < voide.length+1 ; j++){
+                               $($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val(voide[j-1]);
+                        }
+					}
 
+				}
+			}
+        }
+    }
+    //下移
+    function downContext(obj) {
+        var neirongList = document.getElementsByClassName("control-group1");
+        for(var i = 0 ; i < neirongList.length ; i++ ){
+            if($(obj.parentNode).attr("id") ==$(neirongList[i]).attr("id")){
+                if(i==neirongList.length-1){
+                    return;
+                }else{
+                    var htmls = neirongList[i+1].innerHTML;
+                    var html0 = $($($(neirongList[i+1]).context.children[5]).context.children[0]).val();
+                    var html1 = $($($(neirongList[i+1]).context.children[6]).context.children[1]).val();
+                    var voideList  = "";
+                    if($(neirongList[i+1]).context.children[8].children.length > 1){
+                        for (var j = 1 ; j < $(neirongList[i+1]).context.children[8].children.length ; j++){
+                            if( j > 1 && j ==$(neirongList[i+1]).context.children[8].children.length-1){
+                                voideList = voideList + $($($(neirongList[i+1]).context.children[8]).context.children[j].children[2]).val();
+                            }else{
+                                voideList = voideList + $($($(neirongList[i+1]).context.children[8]).context.children[j].children[2]).val()+",";
+                            }
+                        }
+                    }
+                    $(neirongList[i+1]).html(neirongList[i].innerHTML);
+                    $($($(neirongList[i+1]).context.children[5]).context.children[0]).val($($($(neirongList[i]).context.children[5]).context.children[0]).val());
+                    $($($(neirongList[i+1]).context.children[6]).context.children[1]).val($($($(neirongList[i]).context.children[6]).context.children[1]).val());
+                    if($(neirongList[i]).context.children[8].children.length > 1){
+                        for (var j = 1 ; j < $(neirongList[i+1]).context.children[8].children.length ; j++){
+                            $($($(neirongList[i+1]).context.children[8]).context.children[j].children[2]).val($($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val());
+                        }
+                    }
+                    $(neirongList[i]).html(htmls);
+                    $($($(neirongList[i]).context.children[5]).context.children[0]).val(html0);
+                    $($($(neirongList[i]).context.children[6]).context.children[1]).val(html1);
+                    if(voideList){
+                        var voide  = voideList.split(",");
+                        for (var j = 1 ; j < voide.length+1 ; j++){
+                            $($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val(voide[j-1]);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
     var contentTitles = "";
 	var contents  = "" ;
     var imagesList  = "" ;
     var type = 3;
     var type1 = 2;
     var img_i = "imgurl1";
+    var controlType = 1;
     var id = <%=request.getParameter("i") %>;
     $(function(){
         var eins = WSFUNCTION.doPost("productCenterNew/html/typelist", {});
@@ -161,18 +282,33 @@
             $("#imgurl0").attr("src", one.logourl);
             $("#pcname").val(one.pcname);
             $("#pcdesc").val(one.pcdesc);
-            $("#_qrcode").attr("src", one.qrcode);
-//            $('input[name="ishot"][value="'+one.ishot+'"]').attr("checked",'checked');
-//            $('input[name="ishome"][value="'+one.ishome+'"]').attr("checked",'checked');
+            //$("#_qrcode").attr("src", one.qrcode);
+            var qrcodes = one.qrcode ? one.qrcode.split("&") : "";
+            var qrcodeList = one.qrcodeList ?　one.qrcodeList.split("&") : "";
+            if(qrcodes.length > 0){
+					for (var i = 0 ; i < qrcodes.length ; i++){
+					    if(qrcodes[i]){
+							$("#_qrcode").parent().append('<div style="display: inline-block;"><img id="_qrcode'+qrcodeType+'" class="qrcode_type qrcode_type11" '+
+							'onclick="selectModel8(this);" src="'+qrcodes[i]+'" style="height: 150px;margin-left: 20px;border: 1px solid #ccc;"/><span style="position: absolute;'+
+                                ' cursor: pointer;" onclick="removeQrcode(this)">X</span><input value="'+qrcodeList[i]+'"  style="width: 152px; position: absolute;  margin: 152px -152px;" placeholder="请输入二维码备注！" maxlength="10" type="text"  /></div>');
+							qrcodeType++;
+                        }
+					}
+			}
             $('#pcpagetitle').val(one.pcpagetitle);
             $('#pcmeta').val(one.pcmeta);
             var contenttitles = one.contenttitles.split("&");
             var contents = one.contents.split("&");
             var imageslist = one.imageslist.split("&");
-			for(var j = 0 ; j < contenttitles.length-1 ; j++){
-                $('#neirong').append('<div class="control-group control-group1" style="border: outset;">'
+            var voideImageList =  one.voideImageList  ? one.voideImageList.split("&") :"";
+            var voideList = one.voideList ? one.voideList.split("&") :"";
+
+            for(var j = 0 ; j < imageslist.length-1 ; j++){
+                $('#neirong').append('<div class="control-group control-group1" style="border: outset;" id="control-group'+controlType+'">'
                     +'<span style="margin-left: 10px;font-size: 16px;">内容'+type1+':</span><span style="color:red;">(输入的内容不能带有&号)</span>'
 					+'<span onclick="dels(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: red;cursor:pointer;color:#fff;">删除内容</span>'
+                    +'<span onclick="upContext(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: #375bff;cursor:pointer;color:#fff;">上移</span>'
+                    +'<span onclick="downContext(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: #2746ff;cursor:pointer;color:#fff;">下移</span>'
                     +'<div class="controls" style="margin-left: 40px;    margin-top: 15px;">'
                     +'<input class="input-xlarge span11" id="pcpagetitle1" type="text"'
                     +'style="height: 30px;" placeholder="内容标题" maxlength="50">'
@@ -185,11 +321,33 @@
                     +'<img id="imgurl'+type
                     +'" onclick="selectModel8(this)" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: -6px;border: 1px solid #ccc;"/>'
                     +'</div>'
+                    +'<div class="controls controlsVoide" style="margin-left: 40px; margin-top: 15px;">'
+                    +'<button type="button" class="btn btn-primary" onclick="addVoide(this);">添加视频</button>');
+                $('#neirong').append('</div>'
                     +' </div>');
                 type++;
                 type1++;
+                controlType++;
                 textareats();
 			}
+            if(voideImageList.length > 0){
+                	var controlsVoideList = $(".controlsVoide");
+                	for (var j = 0 ; j < controlsVoideList.length ; j++){
+                	    if(voideImageList[j] !="test"){
+                            var voideImageLists = voideImageList[j].split(",");
+                            var voideLists = voideList[j].split(",");
+                            for(var k = 0 ; k < voideImageLists.length ; k++) {
+                                $(controlsVoideList[j]).append('<div style="border: 1px solid #ccc; padding: 5px; margin: 3px;margin-left: -3px; margin-right: 60px;"><span>视频展示图片：</span> '
+                                    + '<img id="images' + voideImageType + '" onclick="selectModel8(this)" src="' + voideImageLists[k] + '" style="height: 90px;margin-left: -6px;border: 1px solid #ccc;"/>'
+                                    + '<input class="input-xlarge span5" value="'+voideLists[k]+'" type="text"style="height: 30px;margin-left: 13px;"placeholder="视频链接">'
+                                    + '<input type="button" value="删除" style="    margin-left: 13px; height: 27px;width: 62px;" onclick="removeVoide(this);"> '
+                                    + '</div>');
+                                voideImageType++;
+                            }
+						}
+
+					}
+            }
             var neirongList = document.getElementsByClassName("control-group1");
             var neirong22 = "";
             for(var i = 0 ; i < neirongList.length ; i++ ){
@@ -197,20 +355,22 @@
                 while (neirong22.indexOf("<br>") != -1) {
                     neirong22 = neirong22.replace("<br>","\n");
                 }
-               $($($(neirongList[i]).context.children[3]).context.children[0]).val(contenttitles[i]);
-                $($($(neirongList[i]).context.children[4]).context.children[1]).val(neirong22);
-                $($($(neirongList[i]).context.children[5]).context.children[0]).attr("src",imageslist[i]);
+               $($($(neirongList[i]).context.children[5]).context.children[0]).val(contenttitles[i]);
+                $($($(neirongList[i]).context.children[6]).context.children[1]).val(neirong22);
+                $($($(neirongList[i]).context.children[7]).context.children[0]).attr("src",imageslist[i]);
 
             }
         }
-//        $("img").on("click", function(){
-//            console.log($(this).attr("id"));
-//            img_i = $(this).attr("id");
-//            selectModel();
-//        });
-
         $("#selectMaterial").bind("click", function(){
             var array = getMaterialArray();
+            if(img_i == "_qrcode"){
+                img_i = "_qrcode" + qrcodeType;
+                console.log($("#_qrcode").parent()+"=====");
+                $("#_qrcode").parent().append('<div style="display: inline-block;"><img id="_qrcode'+qrcodeType+'" class="qrcode_type qrcode_type11" onclick="selectModel8(this);" src="/images/duofenIntroduction/plus.png"'+
+				'style="height: 150px;margin-left: 20px;border: 1px solid #ccc;"/><span style="position: absolute;'+
+               ' cursor: pointer;" onclick="removeQrcode(this)">X</span><input   style="    width: 152px; position: absolute;  margin: 152px -152px;" placeholder="请输入二维码备注！" maxlength="10" type="text"/></div>');
+                qrcodeType++;
+            }
             $("#"+img_i).attr("src", array[0]);
         });
 
@@ -223,9 +383,12 @@
                     +'onclick="$(this).parent().remove();">X</button><br/></div>');
         });
 
+
         $('#video_add1').on('click', function(){
-            $('#neirong').append('<div class="control-group control-group1" style="border: outset;">'
+            $('#neirong').append('<div class="control-group control-group1" style="border: outset;" id="control-group'+controlType+'">'
                 +'<span style="margin-left: 10px;font-size: 16px;">内容'+type1+':</span><span style="color:red;">(输入的内容不能带有&号)</span>'
+                +'<span onclick="upContext(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: #375bff;cursor:pointer;color:#fff;">上移</span>'
+                +'<span onclick="downContext(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: #2746ff;cursor:pointer;color:#fff;">下移</span>'
                 +'<span onclick="dels(this);" style="float: right;margin:5px 20px 0 0 ; padding:3px 10px; font-size:12px;border-radius: 4px; background: red;cursor:pointer;color:#fff;">删除内容</span>'
                 +'<div class="controls" style="margin-left: 40px;    margin-top: 15px;">'
                 +'<input class="input-xlarge span11" id="pcpagetitle1" type="text"'
@@ -239,9 +402,13 @@
                 +'<img id="imgurl'+type
 				+'" onclick="selectModel8(this)" src="/images/duofenIntroduction/plus.png" style="height: 200px;margin-left: -6px;border: 1px solid #ccc;"/>'
                 +'</div>'
+                +'<div class="controls" style="margin-left: 40px; margin-top: 15px;">'
+                +'<button type="button" class="btn btn-primary" onclick="addVoide(this);">添加视频</button>'
+                +'</div>'
                 +' </div>');
 			type++;
             type1++;
+            controlType++;
             textareats();
         });
 
@@ -255,18 +422,58 @@
         var contentTitles = "";
         var contents  = "" ;
         var imagesList  = "" ;
-		var neirongList = document.getElementsByClassName("control-group1");
+        var voideImageList  = "" ;
+        var voideList  = "" ;
+        var neirongList = document.getElementsByClassName("control-group1");
 		for(var i = 0 ; i < neirongList.length ; i++ ){
             if ( i > 0 ) {
                 contentTitles = contentTitles + "&";
                 contents = contents + "&";
                 imagesList = imagesList + "&";
+                voideImageList = voideImageList + "&"
+                voideList = voideList + "&"
             }
-			contentTitles = contentTitles + $($($(neirongList[i]).context.children[3]).context.children[0]).val();
-			contents = contents + $($($(neirongList[i]).context.children[4]).context.children[1]).val();
-			imagesList = imagesList + $($($(neirongList[i]).context.children[5]).context.children[0]).attr("src");
+			contentTitles = contentTitles + $($($(neirongList[i]).context.children[5]).context.children[0]).val();
+			contents = contents + $($($(neirongList[i]).context.children[6]).context.children[1]).val();
+			imagesList = imagesList + $($($(neirongList[i]).context.children[7]).context.children[0]).attr("src");
+            if($(neirongList[i]).context.children[8].children.length > 1){
+                for (var j = 1 ; j < $(neirongList[i]).context.children[8].children.length ; j++){
+                    if($($($(neirongList[i]).context.children[8]).context.children[j].children[1]).attr("src") == "/images/duofenIntroduction/plus.png"){
+                        if($($(neirongList[i]).context.children[8]).context.children[j].children[1].parentNode.children.length>4){
+                            $($($(neirongList[i]).context.children[8]).context.children[j].children[1].parentNode.children[4]).html('<span style="color: red;">请选择视频展示图片</span>');
+                        }else {
+                            $($($(neirongList[i]).context.children[8]).context.children[j].children[1].parentNode).append('<span style="color: red;">请选择视频展示图片</span>');
+                        }
+                        return;
+                    }
+                    if(!$($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val()){
+                        if($($(neirongList[i]).context.children[8]).context.children[j].children[1].parentNode.children.length>4){
+                            $($($(neirongList[i]).context.children[8]).context.children[j].children[1].parentNode.children[4]).html('<span style="color: red;">请输入视频链接</span>');
+                        }else {
+                            $($($(neirongList[i]).context.children[8]).context.children[j].children[1].parentNode).append('<span style="color: red;">请输入视频链接</span>');
+                        }
+                        return;
+                    }
+                    if( j > 1 && j ==$(neirongList[i]).context.children[8].children.length-1){
+                        voideImageList = voideImageList + $($($(neirongList[i]).context.children[8]).context.children[j].children[1]).attr("src");
+                        voideList = voideList + $($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val();
+                    }else{
+                        if(j ==$(neirongList[i]).context.children[8].children.length-1){
+                            voideImageList = voideImageList + $($($(neirongList[i]).context.children[8]).context.children[j].children[1]).attr("src");
+                            voideList = voideList + $($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val();
+						}else{
+                            voideImageList = voideImageList + $($($(neirongList[i]).context.children[8]).context.children[j].children[1]).attr("src")+",";
+                            voideList = voideList + $($($(neirongList[i]).context.children[8]).context.children[j].children[2]).val()+",";
+						}
 
-		}
+					}
+				}
+			}else {
+                voideImageList = voideImageList +"test";
+                voideList = voideList +"test";
+            }
+
+        }
         while (contents.indexOf("\n") != -1) {
             contents = contents.replace("\n","<br>");
         }
@@ -274,7 +481,22 @@
         var _logourl = $("#imgurl0").attr("src");
         var _pcname = $("#pcname").val();
         var _pcdesc = $("#pcdesc").val();
-        var _qrcode = $("#_qrcode").attr("src");
+        var _qrcode = "";
+        var qrcodeList ="";
+        var qrcodeTypeList = $(".qrcode_type11");
+        for (var k = 0 ; k < qrcodeTypeList.length ; k++){
+            if(!$.trim($(qrcodeTypeList[k].parentNode).context.children[2].value)){
+                WSFUNCTION.msgBox("信息", "请输入二维码备注!");
+                return;
+            }
+            _qrcode = _qrcode + $(qrcodeTypeList[k]).attr("src");
+            qrcodeList = qrcodeList + $.trim($(qrcodeTypeList[k].parentNode).context.children[2].value);
+            if(k != (qrcodeTypeList.length-1)){
+                _qrcode = _qrcode +"&"
+                qrcodeList = qrcodeList +"&"
+            }
+
+		}
         var _ishot = 1;
         var _ishome = 1;
         var _pcpagetitle = $('#pcpagetitle').val();
@@ -303,9 +525,8 @@
 //        if(_qrcode.indexOf('plus.png') != -1) _qrcode = '';
         var p = "{id:"+id+", classid:"+_classid+", logourl:'"+_logourl+"', pcname:'"+_pcname+"', pcdesc:'"+_pcdesc+"', "
             +"contenttitles:'"+contentTitles+"', contents:'"+contents+"', imageslist:'"+imagesList+"', qrcode:'"+_qrcode+"', ishot:'"+_ishot+"', "
-            +"pcpagetitle:'"+_pcpagetitle+"', pcmeta:'"+_pcmeta+"', ishome:'"+_ishome+"'}";
-
-
+			+" voideImageList:'"+voideImageList+"', voideList:'"+voideList+"', "
+            +"pcpagetitle:'"+_pcpagetitle+"', pcmeta:'"+_pcmeta+"', ishome:'"+_ishome+"',qrcodeList:'"+qrcodeList+"'}";
         $.ajax({
             url: url,
             type: "POST",
@@ -397,5 +618,9 @@
         toTc1Hide();
     }
 </script>
+<style>
+	.qrcode_type{position: relative}
+	/*position:absolute; */
+</style>
 </body>
 </html>

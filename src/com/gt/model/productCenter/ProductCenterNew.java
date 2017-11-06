@@ -33,7 +33,13 @@ public class ProductCenterNew {
     @Column(name = "imageslist", columnDefinition = "text COMMENT '内容图片'")
     private String imageslist = "";
 
-	@Column(name = "qrcode", columnDefinition = "varchar(250) DEFAULT '' COMMENT '产品中心二维码图片'")
+    @Column(name = "voideImageList", columnDefinition = "text COMMENT '内容图片'")
+    private String voideImageList = "";
+
+    @Column(name = "voideList", columnDefinition = "text COMMENT '内容图片'")
+    private String voideList = "";
+
+	@Column(name = "qrcode", columnDefinition = "text COMMENT '产品中心二维码图片'")
     private String qrcode = "";
 
 	@Column(name = "createtime", columnDefinition = "varchar(20) DEFAULT '' COMMENT '创建时间'")
@@ -47,9 +53,20 @@ public class ProductCenterNew {
 	
 	@Column(name = "pcmeta", columnDefinition = "varchar(200) DEFAULT '' COMMENT 'meta内容'")
     private String pcmeta = "";
+
+    @Column(name = "qrcodeList", columnDefinition = "varchar(1000) DEFAULT '' COMMENT '二维码备注'")
+    private String qrcodeList = "";
 	
 	@Column(name = "ishome", columnDefinition = "int(1) DEFAULT '0' COMMENT '首页是否显示'")
 	private Integer ishome = 0;
+
+    public String getQrcodeList() {
+        return qrcodeList;
+    }
+
+    public void setQrcodeList(String qrcodeList) {
+        this.qrcodeList = qrcodeList;
+    }
 
     public Integer getId() {
         return id;
@@ -162,5 +179,20 @@ public class ProductCenterNew {
 	public void setIshome(Integer ishome) {
 		this.ishome = ishome;
 	}
-    
+
+    public String getVoideImageList() {
+        return voideImageList;
+    }
+
+    public void setVoideImageList(String voideImageList) {
+        this.voideImageList = voideImageList;
+    }
+
+    public String getVoideList() {
+        return voideList;
+    }
+
+    public void setVoideList(String voideList) {
+        this.voideList = voideList;
+    }
 }
