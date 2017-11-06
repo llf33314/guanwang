@@ -12,7 +12,7 @@
 	    <div id="canvas" class="gradient"></div>
         <div class="car-top">
             <div class="car-top-box">
-                <div class="car-top-title">小盼<span class="car-top-txt">· 智慧教育</span></div>
+                <a href="index.jsp"> <div class="car-top-title">小盼<span class="car-top-txt">· 智慧教育</span></div></a>
                 <a href="/" class="car-top-station">返回主站</a>
                 <div class="car-top-menu">
                     <a href="index.jsp" data-num="0"  >首页</a>
@@ -20,10 +20,10 @@
                     <a href="updated.jsp" data-num="2">更新日志</a>
                 </div>
                 <div class="car-top-right">
-                    <a href="/html/agency/html/index.jsp">申请代理</a>
-                    <a href="http://duofriend.com/user/toregister.do">免费体验</a>
+                    <a href="/html/agency/html/index.jsp" target="_blank">申请代理</a>
+                    <a href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a>
                     <a href="hopepay.jsp" style="color:#FCFB8E;">购买</a>
-                    <a href="http://duofriend.com/user/tologin.do" class="car-top-right-login">登录</a>
+                    <a href="http://duofriend.com/user/tologin.do" class="car-top-right-login" target="_blank">登录</a>
                 </div>
             </div>
         </div>

@@ -15,17 +15,17 @@
 <body>
 	<header>
 		<div class="car-top-box">
-			<div class="car-top-title"><img src="../images/logo.png"><span class="car-top-txt">· 物业管理</span></div>
+			<a href="/html/homeland/html/index.jsp"><div class="car-top-title"><img src="../images/logo.png"><span class="car-top-txt">· 物业管理</span></div></a>
 			<a href="/" class="car-top-station">返回主站</a>
 			<div class="car-top-menu">
 				<a href="/html/homeland/html/index.jsp" class="sp">首页</a>
 				<a href="/html/homeland/html/manage.jsp">物业管理</a>
 				<a href="/html/homeland/html/case.jsp">客户案例</a>
-				<a href="/html/agency/html/index.jsp">申请代理</a>
+				<a href="/html/agency/html/index.jsp" target="_blank">申请代理</a>
 			</div>
 			<div class="car-top-service">
-				<a href="http://duofriend.com/user/toregister.do">免费体验</a>
-				<a href="http://duofriend.com/user/tologin.do" class="car-top-service-login">登录</a>
+				<a href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a>
+				<a href="http://duofriend.com/user/tologin.do" class="car-top-service-login" target="_blank">登录</a>
 				<a href="/html/homeland/html/pay.jsp">购买</a>
 			</div>
 		</div>

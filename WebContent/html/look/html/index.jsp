@@ -32,7 +32,7 @@
                 <div class="typing-wrap" >
                     <div id="txt" class="typing">美容美发行业整体解决方案</div> <span class="typed-cursor">|</span>
                 </div>
-                <a class="btn btn-lg btn-default btn-view " href="http://duofriend.com/user/toregister.do">免费体验</a>
+                <a class="btn btn-lg btn-default btn-view " href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a>
             </div>
             <div class="container bro-container" id="j-show">
                 <div class="browsers  cd-section" id="section1">

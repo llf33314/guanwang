@@ -24,9 +24,9 @@
         </div>
         <ul class="right">
             <li class="last"><a href="/html/jxc/html/pay.jsp">购买</a></li>
-            <li class="last"><a href="http://jxc.duofriend.com/sys/login">登录</a></li>
-            <li class="last"><a href="http://duofriend.com/user/toregister.do">免费体验</a></li>
-            <li><a href="/html/agency/html/index.jsp">申请代理</a></li>
+            <li class="last"><a href="http://jxc.duofriend.com/sys/login" target="_blank">登录</a>
+            <li class="last"><a href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a></li>
+            <li><a href="/html/agency/html/index.jsp" target="_blank">申请代理</a></li>
             <li><a href="/html/jxc/html/case.jsp" >成功案例</a></li>
             <li><a href="/html/jxc/html/functions.jsp">功能展示</a></li>
             <li><a href="/html/jxc/html/index.jsp" class="linked">首页</a></li>

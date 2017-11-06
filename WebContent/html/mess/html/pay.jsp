@@ -22,10 +22,10 @@
             </div>
             <ul class="right">
                 <li><a href="/html/mess/html/index.jsp">首页</a></li>
-                <li><a href="/html/agency/html/index.jsp">申请代理</a></li>
-                <li><a href="http://duofriend.com/user/toregister.do">免费体验</a></li>
+                <li><a href="/html/agency/html/index.jsp" target="_blank">申请代理</a></li>
+                <li><a href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a></li>
                 <li><a href="" class="link">购买</a></li>
-                <li><a href="http://duofriend.com/user/tologin.do">登录</a></li>
+                <li><a href="http://duofriend.com/user/tologin.do" target="_blank">登录</a></li>
             </ul>
         </div>
     </div>

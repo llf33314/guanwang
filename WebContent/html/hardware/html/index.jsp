@@ -19,7 +19,7 @@
 			   <h1>多粉魔盒</h1>
 			   <p>也有人称作“加粉盒子”，没有公众号、没有</p>
 			  <p>电脑同样可以使用的多功能收银盒子</p>
-			  <a href="/html/hardware/html/nextbox.jsp">了解详情</a>
+			  <a href="/html/hardware/html/nextbox.jsp" target="_blank">了解详情</a>
 		  </div>
 	  </div>
 	<div class="a-hw-nextbox-box">
@@ -27,7 +27,7 @@
 			<h1>来电眼</h1>
 			<p>散客还是会员来电，系统一眼便知，</p>
 			<p>做既懂营销又能识别身份的店铺</p>
-			<a href="/html/hardware/html/electric.jsp">了解详情</a>
+			<a href="/html/hardware/html/electric.jsp" target="_blank">了解详情</a>
 		</div>
 		<div class="a-hw-nextbox-box-l mated3 infinite fadeInRight" style="width: 50%;">
 			<img src="../images/hw29.png">

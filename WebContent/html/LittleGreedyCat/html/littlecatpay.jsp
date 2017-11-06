@@ -18,21 +18,21 @@
 	<div class="pu-head">
 	    <div id="canvas" class="gradient"></div>
 		<div class="pu-top">
-			<div class="pu-top-title">
+            <a href="index.jsp"><div class="pu-top-title">
 				<img src="../img/logo.png" />
-			</div>
+			</div></a>
 			<a href="/" class="pu-top-station">返回主站</a>
 			<div class="pu-top-menu"> 
 				<a href="index.jsp" data-num="1">首页</a> 
 				<a href="productcore.jsp" data-num="2">产品核心</a>
 				<a href="appcenter.jsp" data-num="3">应用中心</a> 
 				<a href="/html/LittleGreedyCat/html/car.jsp" data-num="4">硬件</a> 
-				<a href="/html/agency/html/index.jsp">申请代理</a>
+				<a href="/html/agency/html/index.jsp" target="_blank">申请代理</a>
 			</div>
 			<div class="pu-top-service">
-				<a href="http://www.duofriend.com/html/instructions.jsp">使用手册</a>
-				<a href="http://duofriend.com/user/toregister.do">免费体验</a> 
-				<a href="http://canyin.duofriend.com" class="pu-top-service-login">登录</a> 
+				<a href="http://www.duofriend.com/html/instructions.jsp" target="_blank">使用手册</a>
+				<a href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a>
+				<a href="http://canyin.duofriend.com" class="pu-top-service-login" target="_blank">登录</a>
 				<a href="/html/LittleGreedyCat/html/littlecatpay.jsp" class="pu-top-service-login" style="color:#FCFB8E;" data-num="4">购买</a>			
 			</div>  
 		</div>

@@ -78,9 +78,9 @@
 <div class="gt-foot">
 	<div class="gt-foot-box">
 		<ul>
-			<li><a href="/html/aboutUs/html/index.jsp?type=1">关于我们</a></li>
-			<li><a href="/html/agency/html/index.jsp">申请代理</a></li>
-			<li><a href="/html/instructions.jsp">使用指南</a></li>
+			<li><a href="/html/aboutUs/html/index.jsp?type=1" target="_blank">关于我们</a></li>
+			<li><a href="/html/agency/html/index.jsp" target="_blank">申请代理</a></li>
+			<li><a href="/html/instructions.jsp" target="_blank">使用指南</a></li>
 			<li style="border: none;">
 				<div id="wxImg" style="display: none; bottom: 65px; left: 100px; height: 50px; back-ground: #f00; position: absolute;">
 					<img src="/html/images/common/code.png" width="118px" height="118px" alt="" />

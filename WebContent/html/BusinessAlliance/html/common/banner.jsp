@@ -2,16 +2,16 @@
 <div class="gt-swiper-banner-box">
 	<div class="sj-top-box">
 		<div class="sj-top">
-			<div class="sj-top-title">商家联盟</div>
+			<a href="index.jsp"><div class="sj-top-title">商家联盟</div></a>
 			<a href="/" class="sj-top-station">返回主站</a>
 			<div class="sj-top-menu">
 				<a href="index.jsp" data-num="1">首页</a> <a
 					href="function.jsp" data-num="3">特色功能</a> <a href="case.jsp" data-num="2">客户案例</a> <a
-					href="/html/agency/html/index.jsp">申请代理</a>
+					href="/html/agency/html/index.jsp" target="_blank">申请代理</a>
 			</div>
 			<div class="sj-top-service">
-				<a href="http://duofriend.com/user/toregister.do">免费体验</a> <a href="javascript:void(0);"
-					class="sj-top-service-login">登录</a> <a href="/html/combo/html/index.jsp">购买</a>
+				<a href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a> <a href="http://duofriend.com/user/tologin.do"
+					class="sj-top-service-login" target="_blank">登录</a> <a href="/html/combo/html/index.jsp" target="_blank">购买</a>
 			</div>
 		</div>
 	</div>
