@@ -334,15 +334,19 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 		String[] contents = productCenter.getContents().split("&");
 		String[] imageslist = productCenter.getImageslist().split("&");
 		String[] voideImageList = productCenter.getVoideImageList().split("&");
-		String[] voideList = productCenter.getVoideList().split("&");
+		String[] voideList = productCenter.getVoideList().split("。");
 		int type = 0;
 		for (int i = 0 ; i < imageslist.length ; i++){
 			insethtml.append("<li>");
 			if(CommonUtil.isNotEmpty(contenttitles[i])){
-				insethtml.append("  <h3>"+contenttitles[i]+"</h3>");
+				if(i < contenttitles.length){
+					insethtml.append("  <h3>"+contenttitles[i]+"</h3>");
+				}
 			}
 			if(CommonUtil.isNotEmpty(contents[i])){
-				insethtml.append(" <p>"+contents[i]+"</p>");
+				if(i < contents.length) {
+					insethtml.append(" <p>" + contents[i] + "</p>");
+				}
 			}
 			if (!imageslist[i].equals("/images/duofenIntroduction/plus.png")){
 				insethtml.append(" <img src=\""+imageslist[i]+"\" class=\"a-details-img\">");
@@ -354,12 +358,12 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 						String[] voideLists = voideList[i].split(",");
 						for (int j = 0 ; j < voideImageLists.length ; j++){
 							if(voideImageLists.length == 1){
-								insethtml.append("<img src=\""+voideImageLists[j]+"\" class=\"a-details-img\" onclick=\"productOpenVideo"+j+type+"();\" >");
+								insethtml.append("<img src=\""+voideImageLists[j]+"\" class=\"a-details-img\" onclick='WSFUNCTION.videoFrame(\"" + voideLists[j] + "\");'>");
 							}else if (voideImageLists.length == 2){
 								if(j==0){
 									insethtml.append("<ul class=\"a-details-l-pix\">");
 								}
-								insethtml.append(" <li class=\"a-details-l-pix-li\"><img src=\""+voideImageLists[j]+"\" style=\"\" class=\"a-details-img\" onclick=\"productOpenVideo"+j+type+"();\" ></li>");
+								insethtml.append(" <li class=\"a-details-l-pix-li\"><img src=\""+voideImageLists[j]+"\" style=\"\" class=\"a-details-img\" onclick='WSFUNCTION.videoFrame(\"" + voideLists[j] + "\");'></li>");
 								if(j==voideImageLists.length-1){
 									insethtml.append("<ul>");
 								}
@@ -367,33 +371,33 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
 								if(j==0){
 									insethtml.append("<ul class=\"a-details-2-pix\">");
 								}
-								insethtml.append(" <li class=\"a-details-2-pix-li\"><img src=\""+voideImageLists[j]+"\" style=\"\" class=\"a-details-img\" onclick=\"productOpenVideo"+j+type+"();\" ></li>");
+								insethtml.append(" <li class=\"a-details-2-pix-li\"><img src=\""+voideImageLists[j]+"\" style=\"\" class=\"a-details-img\" onclick='WSFUNCTION.videoFrame(\""+voideLists[j]+"\");'></li>");
 								if(j==voideImageLists.length-1){
 									insethtml.append("<ur>");
 								}
 							}
 
 						}
-						for (int j = 0 ; j < voideImageLists.length ; j++){
-							insethtml.append("<div class=\"video-box\" id=\"product-video-box"+j+type+"\">\n" +
-									"    <span class=\"video-close\" onclick=\"productCloseVideo"+j+type+"()\">关闭</span>\n" +
-									"    <video preload=\"none\" controls width=\"800\" height=\"500\" id=\"product-videoMedia"+j+type+"\" style=\"background-color: #000\">\n" +
-									"        <source src=\""+voideLists[j]+"\" type=\"video/mp4\">\n" +
-									"    </video>\n" +
-									"</div>\n" +
-									"<script>\n" +
-									"    var productCloseVideo"+j+type+" =function(){\n" +
-									"        var media = document.getElementById(\"product-videoMedia"+j+type+"\");\n" +
-									"        media.pause();\n" +
-									"        $('#product-video-box"+j+type+"').hide();\n" +
-									"    }\n" +
-									"    var productOpenVideo"+j+type+" = function(){\n" +
-									"        var media = document.getElementById(\"product-videoMedia"+j+type+"\");\n" +
-									"        media.play();\n" +
-									"        $('#product-video-box"+j+type+"').show();\n" +
-									"    }\n" +
-									"</script>");
-						}
+//						for (int j = 0 ; j < voideImageLists.length ; j++){
+//							insethtml.append("<div class=\"video-box\" id=\"product-video-box"+j+type+"\">\n" +
+//									"    <span class=\"video-close\" onclick=\"productCloseVideo"+j+type+"()\">关闭</span>\n" +
+//									"    <video preload=\"none\" controls width=\"800\" height=\"500\" id=\"product-videoMedia"+j+type+"\" style=\"background-color: #000\">\n" +
+//									"        <source src=\""+voideLists[j]+"\" type=\"video/mp4\">\n" +
+//									"    </video>\n" +
+//									"</div>\n" +
+//									"<script>\n" +
+//									"    var productCloseVideo"+j+type+" =function(){\n" +
+//									"        var media = document.getElementById(\"product-videoMedia"+j+type+"\");\n" +
+//									"        media.pause();\n" +
+//									"        $('#product-video-box"+j+type+"').hide();\n" +
+//									"    }\n" +
+//									"    var productOpenVideo"+j+type+" = function(){\n" +
+//									"        var media = document.getElementById(\"product-videoMedia"+j+type+"\");\n" +
+//									"        media.play();\n" +
+//									"        $('#product-video-box"+j+type+"').show();\n" +
+//									"    }\n" +
+//									"</script>");
+//						}
 					}
 				}
 			}
@@ -468,7 +472,11 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
                 a.setPcname(CommonUtil.isNotEmpty(__p.get("pcname")) ? __p.get("pcname").toString() : "");
                 a.setPcpagetitle(CommonUtil.isNotEmpty(__p.get("pcpagetitle")) ? __p.get("pcpagetitle").toString() : "");
                 a.setQrcode(CommonUtil.isNotEmpty(__p.get("qrcode")) ? __p.get("qrcode").toString() : "");
-                createProductCenterPage(a, path, true);
+				a.setQrcodeList(CommonUtil.isNotEmpty(__p.get("qrcodeList")) ? __p.get("qrcodeList").toString() : "");
+				a.setVoideList(CommonUtil.isNotEmpty(__p.get("voideList")) ? __p.get("voideList").toString() : "");
+				a.setVoideImageList(CommonUtil.isNotEmpty(__p.get("voideImageList")) ? __p.get("voideImageList").toString() : "");
+//				createProductCenterPage(a, "D:/Downloads/05/weew/WebSite/WebContent", true);
+				createProductCenterPage(a, path, true);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -498,7 +506,11 @@ public class ProductCenterNewServiceImpl implements ProductCenterNewService {
             a.setPcname(CommonUtil.isNotEmpty(__p.get("pcname")) ? __p.get("pcname").toString() : "");
             a.setPcpagetitle(CommonUtil.isNotEmpty(__p.get("pcpagetitle")) ? __p.get("pcpagetitle").toString() : "");
             a.setQrcode(CommonUtil.isNotEmpty(__p.get("qrcode")) ? __p.get("qrcode").toString() : "");
-            createProductCenterPage(a, path, true);
+            a.setQrcodeList(CommonUtil.isNotEmpty(__p.get("qrcodeList")) ? __p.get("qrcodeList").toString() : "");
+			a.setVoideList(CommonUtil.isNotEmpty(__p.get("voideList")) ? __p.get("voideList").toString() : "");
+			a.setVoideImageList(CommonUtil.isNotEmpty(__p.get("voideImageList")) ? __p.get("voideImageList").toString() : "");
+//			createProductCenterPage(a, "D:/Downloads/05/weew/WebSite/WebContent", true);
+			createProductCenterPage(a, path, true);
         }
 	}
 

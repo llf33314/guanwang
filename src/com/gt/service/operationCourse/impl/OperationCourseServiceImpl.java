@@ -81,6 +81,7 @@ public class OperationCourseServiceImpl implements OperationCourseService {
 		a.setTeacherimg(_a.get("teacherimg").toString());
 		a.setTeachername(_a.get("teachername").toString());
 		createProductCenterPage(a, path, true);
+//		createProductCenterPage(a, "D:/Downloads/05/weew/WebSite/WebContent", true);
 		return 1;
 	}
 
@@ -106,6 +107,7 @@ public class OperationCourseServiceImpl implements OperationCourseService {
 		a.setTeacherimg(_a.get("teacherimg").toString());
 		a.setTeachername(_a.get("teachername").toString());
 		createProductCenterPage(a,path, true);
+//		createProductCenterPage(a, "D:/Downloads/05/weew/WebSite/WebContent", true);
 		return 1;
 	}
 
@@ -214,7 +216,7 @@ public class OperationCourseServiceImpl implements OperationCourseService {
 		StringBuilder insethtml = new StringBuilder();
 		String[] contents = operationCourse.getContents().split("&");
 		String[] imageslist = operationCourse.getImageslist().split("&");
-		String[] videolist = operationCourse.getVideolist().split("&");
+		String[] videolist = operationCourse.getVideolist().split(",");
 		for (int i = 0 ; i < contents.length ; i++){
 			if (CommonUtil.isNotEmpty(contents[i])){
 					insethtml.append("<div class=\"art-content-text\">");
@@ -226,11 +228,12 @@ public class OperationCourseServiceImpl implements OperationCourseService {
 				insethtml.append("<img src=\""+imageslist[i]+"\"/>");
 				insethtml.append(" </div>");
 			}
-			if ( videolist.length != 0 && CommonUtil.isNotEmpty(videolist[i])){
+			if ( videolist.length != 0 && i < videolist.length && CommonUtil.isNotEmpty(videolist[i])){
 				insethtml.append(" <div class=\"art-content-img\">");
-				insethtml.append(" <video preload=\"none\" controls width=100% height=\"500\"  style=\"background-color: #000\">");
-				insethtml.append(" <source src=\""+videolist[i]+"\" type=\"video/mp4\">");
-				insethtml.append("</video>");
+//				insethtml.append(" <video preload=\"none\" controls width=100% height=\"500\"  style=\"background-color: #000\">");
+//				insethtml.append(" <source src=\""+videolist[i]+"\" type=\"video/mp4\">");
+//				insethtml.append("</video>");
+				insethtml.append(videolist[i]);
 				insethtml.append(" </div>");
 			}
 		}

@@ -275,7 +275,7 @@
 				</div>		         
 	         </div>
 	         <div class="car-home-animation scene">
-	            <a href="javascript:;"><img src="../images/mg3.png"/></a>
+	            <a href="javascript:void(0);" onclick="openVideo2();"><img src="../images/mg3.png"/></a>
 	            <div class="gt-halo-box">
 				  <div class="gt-halo"></div>
 				  <div class="gt-halo-big enlarge"></div>
@@ -303,6 +303,26 @@
         var media = document.getElementById("videoMedia1");
         media.play();
         $('#video-box1').show();
+    }
+</script>
+
+
+<div class="video-box" id="video-box2"> m 
+	<span class="video-close" onclick="closeVideo2()">关闭</span>
+	<video preload="none" controls width="800" height="500" id="videoMedia2" style="background-color: #000">
+		<source src="http://maint.duofriend.com/upload/video/websiteUpload/website/cxs720P.mp4" type="video/mp4">
+	</video>
+</div>
+<script>
+    var closeVideo2 =function(){
+        var media = document.getElementById("videoMedia2");
+        media.pause();
+        $('#video-box2').hide();
+    }
+    var openVideo2 = function(){
+        var media = document.getElementById("videoMedia2");
+        media.play();
+        $('#video-box2').show();
     }
 </script>
 <script src="../js/lib/wave.js"></script>

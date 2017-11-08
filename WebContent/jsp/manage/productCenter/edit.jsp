@@ -147,7 +147,7 @@
     var voideImageType = 0;
     var qrcodeType = 0;
     function addVoide(obj){
-        if(obj.parentNode.children.length>4){
+        if(obj.parentNode.children.length>3){
             WSFUNCTION.msgBox("信息", "每块内容最多添加三个视频！");
             return;
 		}
@@ -301,7 +301,7 @@
             var contents = one.contents.split("&");
             var imageslist = one.imageslist.split("&");
             var voideImageList =  one.voideImageList  ? one.voideImageList.split("&") :"";
-            var voideList = one.voideList ? one.voideList.split("&") :"";
+            var voideList = one.voideList ? one.voideList.split("。") :"";
 
             for(var j = 0 ; j < imageslist.length-1 ; j++){
                 $('#neirong').append('<div class="control-group control-group1" style="border: outset;" id="control-group'+controlType+'">'
@@ -431,7 +431,7 @@
                 contents = contents + "&";
                 imagesList = imagesList + "&";
                 voideImageList = voideImageList + "&"
-                voideList = voideList + "&"
+                voideList = voideList + "。"
             }
 			contentTitles = contentTitles + $($($(neirongList[i]).context.children[5]).context.children[0]).val();
 			contents = contents + $($($(neirongList[i]).context.children[6]).context.children[1]).val();

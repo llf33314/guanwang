@@ -6,6 +6,7 @@
 	<meta name="description" content="@@meta@@" />
 	<title>@@page_title@@</title>
 	<link rel="stylesheet" type="text/css" href="/html/weixinSell/css/marketing.css" />
+	<link rel="stylesheet" type="text/css" href="/html/css/coupon/style.css" />
 	<script type="text/javascript" src="/html/js/jquery-1.10.2.js"></script>
 	<script type="text/javascript" src="/js/webSite.js"></script>
 	<style>
@@ -46,7 +47,7 @@
 					<img src="@@logo@@" style="width: 50px;height:50px;">
 				</div>
 				<div class="a-details-unified-r">
-					<h4>@@pcname@@<a href="/html/instructions.jsp">@@shiyong@@</a></h4>
+					<h4>@@pcname@@<a href="/html/instructions.jsp" target="_blank">@@shiyong@@</a></h4>
 					<p>@@pcdesc@@</p>
 				</div>
 			</div>

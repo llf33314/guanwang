@@ -194,7 +194,7 @@
             $('#pcmeta').val(one.pcmeta);
             var contents = one.contents.split("&");
             var imageslist = one.imageslist.split("&");
-            var videolist = one.videolist.split("&");
+            var videolist = one.videolist.split(",");
             for(var j = 0 ; j < contents.length-1 ; j++){
                 $('#neirong').append('<div class="control-group control-group1" style="border: outset;">'
                     +'<span style="margin-left: 10px;font-size: 16px;">内容'+type1+':</span><span style="color:red;">(输入的内容不能带有&号)</span>'
@@ -316,7 +316,7 @@
             if ( i > 0 ) {
                 contents = contents + "&";
                 imagesList = imagesList + "&";
-                videolist = videolist + "&";
+                videolist = videolist + ",";
             }
             contents = contents + $.trim($($($(neirongList[i]).context.children[3]).context.children[1]).val());
 
