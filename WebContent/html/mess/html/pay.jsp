@@ -3,7 +3,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>购买</title>
+    <title>多粉员工食堂_学校_企业_机关_工厂管理系统_饭堂收费软件_购买员工食堂_用多粉，好生意</title>
+    <meta name="keywords" content="多粉食堂解决方案，员工可通过微信、小程序等多个端口进入微食堂；员工食堂拥有菜品查看、线上订餐、控制库存备餐、电子饭卡、扫码取餐、饭卡充值等功能，可以简化用餐流程，减少多余人力。"/>
+    <meta name="description" content="多粉食堂解决方案，员工可通过微信、小程序等多个端口进入微食堂；员工食堂拥有菜品查看、线上订餐、控制库存备餐、电子饭卡、扫码取餐、饭卡充值等功能，可以简化用餐流程，减少多余人力。"/>
     <link rel="stylesheet" href="../css/st.css" />
     <script src="../js/jquery-2.2.2.min.js"></script>
     <script src="../js/_index.js"></script>

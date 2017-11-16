@@ -3,8 +3,9 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
-	<title>购买</title>
-
+	<title>多粉揽胜家园智慧物业管理系统_移动物业管理软件_小区收费系统_购买揽胜家园_用多粉，好生意</title>
+	<meta name="keywords" content="揽胜家园SaaS ERP充分聚焦社区业主和物业管理企业的管理需求和使用场景，通过小程序将物业传统刚性服务与用户建立连接，构建智能化的社区服务平台。"/>
+	<meta name="description" content="揽胜家园SaaS ERP充分聚焦社区业主和物业管理企业的管理需求和使用场景，通过小程序将物业传统刚性服务与用户建立连接，构建智能化的社区服务平台。"/>
 	<link rel="stylesheet" href="../css/home.css" />
 	<link rel="stylesheet" href="../css/property.css" />
 	<script src="../js/jquery-2.2.2.min.js"></script>

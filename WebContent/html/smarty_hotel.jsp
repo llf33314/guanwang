@@ -3,8 +3,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>客来驿.智慧酒店</title>
-
+<title>多粉客来驿PMS_智慧酒店管理系统_酒店客房管理软件_用多粉，好生意</title>
+<meta name="keywords" content="多粉客来驿PMS，为商家提供一整套智能化的酒店运营管理方案，帮助酒店实现“去前台化”的目标，真正简化前台流程，减少运营成本，提升住户体验，提高管理水平，增加酒店收入。"/>
+<meta name="description" content="多粉客来驿PMS，为商家提供一整套智能化的酒店运营管理方案，帮助酒店实现“去前台化”的目标，真正简化前台流程，减少运营成本，提升住户体验，提高管理水平，增加酒店收入。"/>
 <%@include file="/html/common/cmm_css.jsp" %>
 <%@include file="/html/common/js.jsp" %>
 <script type="text/javascript">

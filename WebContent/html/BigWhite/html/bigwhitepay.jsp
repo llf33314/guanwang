@@ -4,9 +4,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>购买</title>
-    <link rel="Shortcut Icon"
-          href="/images/bitbug.ico" type="image/x-icon">
+    <title>多粉小红十_社区医疗管理系统_HIS系统开发_医院信息管理软件_购买小红十_用多粉，好生意</title>
+    <meta name="keywords" content="小红十SaaS ERP通过信息技术将医疗基础设施与服务流程进行融合，以“医疗云数据中心”为核心，跨越原有医疗系统的限制，提高运营效率，提升社区门诊的服务质量，实现线下门诊与线上药店的统一管理。"/>
+    <meta name="description" content="小红十SaaS ERP通过信息技术将医疗基础设施与服务流程进行融合，以“医疗云数据中心”为核心，跨越原有医疗系统的限制，提高运营效率，提升社区门诊的服务质量，实现线下门诊与线上药店的统一管理。"/>
     <link rel="stylesheet" href="../css/big.css" />
     <script src="../js/jquery-2.2.2.min.js"></script>
     <script src="../js/iconfont.js"></script>

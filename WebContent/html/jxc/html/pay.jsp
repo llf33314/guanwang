@@ -3,8 +3,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>购买</title>
-
+    <title>多粉敏库WMS_智慧进销存系统_仓库进销存管理软件_库存管理系统_购买敏库_用多粉，好生意</title>
+    <meta name="keywords" content="多粉是国内知名的SaaS 服务商，为商家提供基于SaaS ERP系统的全行业智慧解决方案，敏库可应用于各行各业的库存管理工作，助力企业更快更好的步入移动互联网时代。多粉现面向全国招收城市代理商，期待您的加盟。"/>
+    <meta name="description" content="多粉是国内知名的SaaS 服务商，为商家提供基于SaaS ERP系统的全行业智慧解决方案，敏库可应用于各行各业的库存管理工作，助力企业更快更好的步入移动互联网时代。多粉现面向全国招收城市代理商，期待您的加盟。"/>
     <link rel="stylesheet" href="../css/cxb.css" />
     <script src="/html/js/jquery-2.2.2.min.js"></script>
     <script src="/js/webSite.js"></script>

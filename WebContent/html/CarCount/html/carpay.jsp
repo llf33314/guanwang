@@ -3,8 +3,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>购买</title>
-
+    <title>多粉车小算汽车美容管理系统_电子洗车卡_汽车维修与美容管理软件_购买车小算_用多粉，好生意</title>
+    <meta name="keywords" content="智能化开单、线上预约、微信支付、小程序等功能，让企业提高效率，微信线上营销能力，增加用户的粘性，增加企业持续盈利能力。"/>
+    <meta name="description" content="智能化开单、线上预约、微信支付、小程序等功能，让企业提高效率，微信线上营销能力，增加用户的粘性，增加企业持续盈利能力。"/>
     <link rel="stylesheet" href="../css/car.css" />
     <script src="../js/jquery-2.2.2.min.js"></script>
     <script src="../js/iconfont.js"></script>

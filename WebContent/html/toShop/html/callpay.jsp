@@ -3,7 +3,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>翼店</title>
+    <title>多粉翼店超市_生鲜_便利店_服饰_建材管理系统_零售收银软件_购买翼店_用多粉，好生意</title>
+    <meta name="keywords" content="多粉智慧商超零售，翼店专门针对线下商家零售场景使用；操作简易能懂，兼容连锁扩张；支持跨业扩张，会员、优惠券通存通兑，一次性满足你所有经营愿望。"/>
+    <meta name="description" content="多粉智慧商超零售，翼店专门针对线下商家零售场景使用；操作简易能懂，兼容连锁扩张；支持跨业扩张，会员、优惠券通存通兑，一次性满足你所有经营愿望。"/>
     <link rel="stylesheet" href="../css/cpay.css" />
     <script src="../js/gm/jquery-2.2.2.min.js"></script>
     <script src="/js/webSite.js"></script>

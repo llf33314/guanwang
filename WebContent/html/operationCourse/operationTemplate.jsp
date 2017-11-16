@@ -24,9 +24,10 @@
 
 						<div class="art-content-title">@@contenttitles@@</div>
 						@@insethtml@@
+						<div class="up-data">@@createtime@@</div>
 					</div>
 					<!--内容框  end-->
-					<div class="up-data">@@createtime@@</div>
+
 				</div>
 				<!--右边-->
 				<div class="art-content-right">

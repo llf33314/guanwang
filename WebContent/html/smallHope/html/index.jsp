@@ -3,7 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>智慧教育</title>
+    <title>多粉小盼教育信息化系统_培训机构管理软件_用多粉，好生意</title>
+    <meta name="keywords" content="多粉小盼是针对教育培训行业特点而研发的一款综合SaaS ERP教务管理系统. 小盼可有序的管理教师、学生资源，智能安排师生课程表，实现教学资源利用效率最大化。同时提供多维度统计报表查看和分析，保障培训机构教务运转准确高效智能化。"/>
+    <meta name="description" content="多粉小盼是针对教育培训行业特点而研发的一款综合SaaS ERP教务管理系统. 小盼可有序的管理教师、学生资源，智能安排师生课程表，实现教学资源利用效率最大化。同时提供多维度统计报表查看和分析，保障培训机构教务运转准确高效智能化。"/>
     <link rel="stylesheet" type="text/css" href="../css/educate.css" />
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css" />

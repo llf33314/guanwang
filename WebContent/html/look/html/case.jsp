@@ -4,7 +4,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>品牌案例</title>
+    <title>多粉样子智慧美业管理系统_会员_预约_收银_支付软件_品牌案例_用多粉，好生意</title>
+    <meta name="keywords" content="多粉样子智慧美业管理系统，集合了智能开单、在线预约、会员管理、员工管理、便捷支付、小程序等多种功能，是一款专门为美发沙龙、美容美体、医疗美容、美甲美体等行业设计开发的智能化SaaS ERP管理系统，让企业的服务和管理更加快捷高效。"/>
+    <meta name="description" content="多粉样子智慧美业管理系统，集合了智能开单、在线预约、会员管理、员工管理、便捷支付、小程序等多种功能，是一款专门为美发沙龙、美容美体、医疗美容、美甲美体等行业设计开发的智能化SaaS ERP管理系统，让企业的服务和管理更加快捷高效。"/>
     <link rel="stylesheet" type="text/css" href="../css/manner.css" />
     <link rel="stylesheet" type="text/css" href="../css/animate.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />

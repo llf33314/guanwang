@@ -3,8 +3,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>移动化应用</title>
-
+    <title>多粉车小算汽车美容小程序_电子洗车卡系统_汽车维修与美容管理软件_移动化应用_用多粉，好生意</title>
+	<meta name="keywords" content="多粉车小算汽车美容管理系统，提供汽车美容维修等汽车服务智慧解决方案。电子洗车卡、智能化开单、线上预约、微信支付、小程序等功能，让企业提高效率，微信线上营销能力，增加用户的粘性，增加企业持续盈利能力。"/>
+	<meta name="description" content="多粉车小算汽车美容管理系统，提供汽车美容维修等汽车服务智慧解决方案。电子洗车卡、智能化开单、线上预约、微信支付、小程序等功能，让企业提高效率，微信线上营销能力，增加用户的粘性，增加企业持续盈利能力。"/>
     <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="../css/carStyle.css" />
     <link rel="stylesheet" type="text/css" href="../css/animate.css" />
