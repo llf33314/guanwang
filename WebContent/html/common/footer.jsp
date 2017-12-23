@@ -114,11 +114,11 @@
      </div>
 
      <%--<script type="text/javascript" charset="utf-8" src="http://lead.soperson.com/10040401/10072010.js"></script>--%>
-<c:if test='${!isFromMobile}'>
-    <script type="text/javascript" charset="utf-8" id="take98"  src="https://gate.soperson.com/10040401/10072010.js"></script>
-</c:if>
+<%--<c:if test='${!isFromMobile}'>--%>
+    <%--<script type="text/javascript" charset="utf-8" id="take98"  src="https://gate.soperson.com/10040401/10072010.js"></script>--%>
+<%--</c:if>--%>
     <!-- <script type="text/javascript" charset="utf-8" src="/html/js/talk99.js"></script> -->
-     <script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODE4ODE2M18zODIyODFfNDAwODg5NDUyMl8"></script>
+     <script charset="utf-8" type="text/javascript" src="//wpa.b.qq.com/cgi/wpa.php?key=XzkzODE4ODE2M18zODIyODFfNDAwODg5NDUyMl8"></script>
     <script src="/html/js/webJS.js"></script>
      <script>
 
