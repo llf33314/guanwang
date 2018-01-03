@@ -389,7 +389,7 @@
 
 <!-- 底部区域 -->
 
-<div id="closeAdBarner" style="display: none; position: fixed;top:0;left: 0;bottom: 0;right: 0;width: 93%;height: 93%;background-color: rgba(0,0,0,.4);z-index: 9999">
+<div id="closeAdBarner" style="display: none; position: fixed;top:0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.4);z-index: 9999">
     <div style="position: absolute;top:50%;left: 50%;margin-top: -275px;margin-left: -465px;">
         <img id="addImages" onclick="guangGao();"/>
         <div onclick="closeAdBarner()" style="position: absolute;top:0;right:0;padding: 10px;cursor: pointer">

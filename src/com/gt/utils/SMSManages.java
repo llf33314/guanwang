@@ -1,5 +1,7 @@
 package com.gt.utils;
 import com.alibaba.fastjson.JSONObject;
+import com.gt.api.util.HttpClienUtils;
+import com.gt.api.util.RequestUtils;
 
 import java.io.*;
 import java.net.*;//++
@@ -13,7 +15,7 @@ public class SMSManages {
         this._pwd = pwd;
     }
     public static void main(String[] args) {
-        Map<String, String> result=sendSMS("13414621797","测试的，收到吗","多粉平台");
+        Map<String,String> result=sendSMS("13414621797","测试的，收到吗","多粉平台");
         System.out.println(JSONObject.toJSONString(result));
     }
     private String _uc,_pwd; //帐号，密码
@@ -22,8 +24,43 @@ public class SMSManages {
     public static String get_pwd(String pwd) {
     	return MD5Encode(pwd);
     }
-    
-    
+
+    /**
+     * 发送短信
+     * @return
+     */
+    public static Map<String, String> sendSMS(String mobiles, String cont, String company) {
+        Map<String, String> result=new HashMap<String, String>();
+        String re = "";
+        try {
+            String msgid=CommonUtil.getStr(System.currentTimeMillis());
+            SendSmsReq sendSmsReq = new SendSmsReq();
+            RequestUtils<SendSmsReq> reqRequestUtils = new RequestUtils<>();
+            sendSmsReq.setCompany("多粉");
+            sendSmsReq.setContent(cont);
+            sendSmsReq.setMobiles(mobiles);
+            sendSmsReq.setBusId(0);
+            sendSmsReq.setModel(0);
+            reqRequestUtils.setReqdata(sendSmsReq);
+            String messsageJson = JSONObject.toJSONString(reqRequestUtils);
+            String url = PropertiesUtil.getWxmpUrl() + "8A5DA52E/smsapi/6F6D9AD2/79B4DE7C/sendSmsOld.do";
+            Map<String, Object> resMap = HttpClienUtils.reqPostUTF8(messsageJson, url, Map.class, PropertiesUtil.getWxmpSignKey());
+            if(!CommonUtil.isEmpty(resMap)&&CommonUtil.toInteger(resMap.get("code"))==0){
+                result.put("code", "1");
+                result.put("msg", "发送成功");
+                result.put("msgid", msgid);
+            }else{
+                result.put("code", "-1");
+                result.put("msg", "发送失败，请联系管理员");
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            result.put("code", "-1");
+            result.put("msg", "发送失败，请联系管理员");
+        }
+        return result;
+
+    }
     /**
      *发送短信
      * @param mobiles String 接收号码
@@ -31,7 +68,7 @@ public class SMSManages {
      * @param company String 公司名称
      * @return String
      */
-    public static  Map<String, String> sendSMS(String mobiles, String cont,String company) {
+    public static  Map<String, String> sendSMS1(String mobiles, String cont,String company) {
     	Map<String, String> result=new HashMap<String, String>();
         String re = "";
         try {

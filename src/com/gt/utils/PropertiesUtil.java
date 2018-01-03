@@ -132,7 +132,22 @@ public class PropertiesUtil {
 		String url=prop.getProperty("duofen.appid.prefix");
 		return url;
 	}
-	
+
+	/**
+	 * 获取接口地址
+	 * @return
+	 */
+	public static String getWxmpUrl(){
+		return prop.getProperty("gt.axis.wxmpUrl");
+	}
+	/**
+	 * 获取接口密钥
+	 * @return
+	 */
+	public static String getWxmpSignKey(){
+		return prop.getProperty("gt.axis.wxmpSignKey");
+	}
+
 	public static String getWebPayUrl(){
         return prop.getProperty("webpay.url.prefix");
 	}

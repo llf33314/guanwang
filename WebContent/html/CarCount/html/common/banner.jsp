@@ -12,7 +12,7 @@
         </div>
         <div class="car-top-service">
           <a href="http://duofriend.com/user/toregister.do" target="_blank">免费体验</a>
-          <a href="http://che.duofriend.com/login/login.do" class="car-top-service-login" target="_blank">登录</a>
+          <a href="//car.duofriend.com" class="car-top-service-login" target="_blank">登录</a>
           <a href="/html/CarCount/html/carpay.jsp" data-num="4">购买</a>
         </div>
   </div>
