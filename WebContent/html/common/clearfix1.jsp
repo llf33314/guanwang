@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <link rel="stylesheet" href="/html/common/css/newhead.css"/>
-<link rel="stylesheet" href="/html/font-one/iconfont.css"/>
-<link rel="stylesheet" href="/html/common/font-logo/iconfont.css"/>
+<link rel="stylesheet" href="/html/common/Yhead/iconfont.css"/>
 <div class="gt-a-top" style="position: relative;">
     <div class="gt-a-top-box">
         <div class="gt-a-top-box-logo"><a href="/">

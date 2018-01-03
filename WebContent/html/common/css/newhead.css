@@ -28,7 +28,7 @@ a{text-decoration:none;color:#333;}
 	position: relative;
     top: -6px;
     left: 0;
-    width: 95px;
+    width: 100px;
 }
 .gt-a-top-box-title{
 	position: absolute;
@@ -36,6 +36,9 @@ a{text-decoration:none;color:#333;}
     font-size: 87%;
     letter-spacing: -1px;
     left: 11px;
+}
+.gt-a-top-box-title p{
+    width:100px;
 }
 .gt-a-top-box-sigle{
 	display: flex;
