@@ -63,8 +63,8 @@
              <dl class="ewm1">
                  <dt>关注多粉</dt>
                  <dd class="clearfix">
-                    <div style="margin-right:15px;"><img src="../images/index/gzh.jpg"/>关注微信公众号</div>
-                    <div><img src="../images/index/wb.jpg"/>关注微博</div>
+                    <div style="margin-right:15px;"><img src="/images/index/gzh.jpg"/>关注微信公众号</div>
+                    <div><img src="/images/index/wb.jpg"/>关注微博</div>
                  </dd>
              </dl>
          </div>
