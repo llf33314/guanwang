@@ -84,20 +84,20 @@ a{text-decoration:none;color:#333;}
     z-index:2;
 }
 .ag-pix1{
-    height: 138px;
-    width: 138px;
+    height: 137px;
+    width: 137px;
     overflow: hidden;
     padding-bottom: 10px;
 }
 .ag-pix2{
-    height: 220px;
-    width: 220px;
+    height: 211px;
+    width: 211px;
     overflow: hidden;
     padding-bottom: 10px;
     display: none;
     position: absolute;
     right: -14px;
-    top: 10px;
+    top: 15px;
 }
 #ag-pix:hover{
     transform: scale(1.02);
