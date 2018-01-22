@@ -2,6 +2,7 @@ package com.gt.utils;
 import com.alibaba.fastjson.JSONObject;
 import com.gt.api.util.HttpClienUtils;
 import com.gt.api.util.RequestUtils;
+import com.gt.util.entity.param.sms.NewApiSms;
 
 import java.io.*;
 import java.net.*;//++
@@ -24,12 +25,47 @@ public class SMSManages {
     public static String get_pwd(String pwd) {
     	return MD5Encode(pwd);
     }
-
     /**
      * 发送短信
      * @return
      */
     public static Map<String, String> sendSMS(String mobiles, String cont, String company) {
+        Map<String, String> result=new HashMap<String, String>();
+        String re = "";
+        try {
+            String msgid=CommonUtil.getStr(System.currentTimeMillis());
+            NewApiSms newApiSms = new NewApiSms();
+            RequestUtils<NewApiSms> reqRequestUtils = new RequestUtils<>();
+            newApiSms.setTmplId(Long.valueOf(76253));
+            newApiSms.setParamsStr(cont);
+            newApiSms.setMobile(mobiles);
+            newApiSms.setBusId(0);
+            newApiSms.setModel(0);
+            reqRequestUtils.setReqdata(newApiSms);
+            String messsageJson = JSONObject.toJSONString(reqRequestUtils);
+            String url = PropertiesUtil.getWxmpUrl() + "8A5DA52E/smsapi/6F6D9AD2/79B4DE7C/sendSmsNew.do";
+            Map<String, Object> resMap = HttpClienUtils.reqPostUTF8(messsageJson, url, Map.class, PropertiesUtil.getWxmpSignKey());
+            if(!CommonUtil.isEmpty(resMap)&&CommonUtil.toInteger(resMap.get("code"))==0){
+                result.put("code", "1");
+                result.put("msg", "发送成功");
+                result.put("msgid", msgid);
+            }else{
+                result.put("code", "-1");
+                result.put("msg", "发送失败，请联系管理员");
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            result.put("code", "-1");
+            result.put("msg", "发送失败，请联系管理员");
+        }
+        return result;
+
+    }
+    /**
+     * 发送短信
+     * @return
+     */
+    public static Map<String, String> sendSMS2(String mobiles, String cont, String company) {
         Map<String, String> result=new HashMap<String, String>();
         String re = "";
         try {

@@ -151,7 +151,7 @@ public class loginController {
 				String jCode = "";
 				try {
 					// 获取短信验证码
-					Map<String, String> smsMap = SMSManages.sendSMS(phone, "验证码："+code+"（用于多粉代理商登录）", "多粉平台");
+					Map<String, String> smsMap = SMSManages.sendSMS(phone, code, "多粉平台");
 					jCode = smsMap.get("code");
 				} catch (Exception e) {
 					
